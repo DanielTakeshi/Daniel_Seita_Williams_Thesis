@@ -84,6 +84,7 @@ public class VarInstSplit implements SLAlg {
         */
 
         // Initialize the proxy here? Should do it only once in the whole script because it starts up a brand new MATLAB session
+        // COMMENT OUT IF NOT USING MATLAB!
         MatlabProxyFactory factory = new MatlabProxyFactory();
         MatlabProxy proxy = factory.getProxy();
         MatlabTypeConverter processor = new MatlabTypeConverter(proxy);
@@ -221,9 +222,9 @@ public class VarInstSplit implements SLAlg {
                     int whichVariable = indset[i] - 1; // Don't forget the minus one here!!
                     indset[i] = currentSlice.variables[whichVariable];
                 }
-            
-                // This is the old code from Robert Gens (yes, it's just one line...)
-                //indset = greedyIndSet(d, currentSlice,cc);
+
+                // This is the old code from Robert Gens, just a one-line method call. USE THIS FOR DEFAULT WAY!
+                // indset = greedyIndSet(d, currentSlice,cc);
             } else {
                 indset = new int[0]; // Don't try to measure independence on the first node (would be a trivial dataset)
             }
@@ -276,7 +277,7 @@ public class VarInstSplit implements SLAlg {
             }
         }
 
-        // Disconnect the MATLAB proxy
+        // Disconnect the MATLAB proxy (COMMENT OUT if not using matlab...)
         proxy.disconnect();
 
         // All right, now we're going to be BUILDING the spn (last part of code was getting the sum/products set up)

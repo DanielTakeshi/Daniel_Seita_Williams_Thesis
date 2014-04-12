@@ -1,0 +1,42 @@
+Daniel Seita
+CSCI Thesis Material
+February 23, 2014
+
+Let's try dividing these up into a 60-25-15 split of training, testing, and validation. (I like this ratio; let's keep it standard for the rest of my
+datasets.)
+
+Okay, so how am I going to manage my own custom datasets? They are ideally going to be the kind of datasets that result in dependencies that cannot be
+captured via pairwise dependence assumptions. Here's a trivial example: let's suppose that we have two six-sided, fair dice, colored red and blue.
+We'll be rolling these and taking into account their sums. We can use the following set of random variables:
+
+SCENARIO 1
+
+R_0 = value of the first red dice roll
+R_1 = value of the second red dice roll
+R_2 = R_0 + R_1
+B_0 = value of the first blue dice roll
+B_1 = value of the second blue dice roll
+B_2 = B_0 + B_1
+
+Then that gives us six random variables that should have no pairwise independencies, but there will be dependencies based on the set of three groups,
+R_0, R_1, and R_2 (the same goes for the 'B' group). What would the stuff in the SPN paper do? It would get a graph that has no connected components,
+so ... ? Either it just picks one of those variables by itself and recurses on the other five, or it goes on to clustering instances. Based on my
+recollection of the code, I'm pretty sure it does the former. Let's try and manipulate that a bit. How about ... 
+
+SCENARIO 2
+
+This will be the same as SCENARO 1, but consider two differences. First, R_0 and R_1 will be from two DIFFERENT dice; the same goes for B_0 AND B_1
+(this is mostly for "realism") The second reason is more important. We make sure there is a 5% chance that we ignore the whole process of rolling
+dice. When that 5% hypothetical scenario occurs, we instead roll ONE value and set BOTH of R_0 and B_0 to be those values. The same goes for R_1 and
+B_2. Naturally, we can alter the likelihood of having the same exact values. This way, we hope to "confuse" the currently published mechanism, becuase
+that will result in {B_0, R_0}, {B_1, R_1}, {B_2}, and {R_2} as clusters.
+
+SCENARIO 3
+
+Now it's the same as Scenario 2, except we add in some probability for B_2 and R_2 to just ignore their definitions and force them to be the same
+value.
+
+One problem (?) with those datasets is that the features aren't binary. I dont know how this will affect the SPN. Maybe we should try our own way of
+discretizing the variables? Then we'd get a number of variables around roughly equal to the other datasets so the comparison is a little easier to do.
+
+MOR ADVANCED STUFF

@@ -24,40 +24,73 @@ public class RunSLSPN {
 	// Wait ... why are datasets here that aren't in the paper? E.g., the Wine, Abalone, and Covetype datsets?
 	// So did they actually test it? The readme only includes arguments for one of the parameters
 	// I'm guessing this code might have been copied and pasted elsewhere ... but I still need all datasets, right?
-	public static Class ds[] = new Class[] {
-			Discretized.EachMovie.class,
-			Discretized.MSWeb.class, 
-			Discretized.KDD.class,
-			Discretized.S20NG.class, // 3
-			Discretized.Abalone.class,
-			Discretized.Adult.class,
-			Discretized.Audio.class,
-			Discretized.Book.class,
-			Discretized.Covertype.class,
-			Discretized.Jester.class,
-			Discretized.MSNBC.class, // 10
-			Discretized.Netflix.class,
-			Discretized.NLTCS.class,
-			Discretized.Plants.class,
-			Discretized.R52.class, // 14
-			Discretized.School.class, // 15
-			Discretized.Traffic.class, // 16
-			Discretized.WebKB.class, // 17
-			Discretized.Wine.class, // 18
-			Discretized.Accidents.class,
-			Discretized.Ad.class,
-			Discretized.BBC.class,
-			Discretized.C20NG.class,
-			Discretized.CWebKB.class,
-			Discretized.DNA.class,
-			Discretized.Kosarek.class,
-			Discretized.Retail.class,
-			Discretized.Pumsb_Star.class,
-			Discretized.CR52.class, // 28
-			Discretized.Custom1.class,
-            Discretized.Custom4.class,
-            Discretized.Custom5.class}; 
-	
+    public static Class ds[] = new Class[] {
+        Discretized.EachMovie.class,
+        Discretized.MSWeb.class, 
+        Discretized.KDD.class,
+        Discretized.S20NG.class, // 3
+        Discretized.Abalone.class,
+        Discretized.Adult.class,
+        Discretized.Audio.class,
+        Discretized.Book.class,
+        Discretized.Covertype.class,
+        Discretized.Jester.class,
+        Discretized.MSNBC.class, // 10
+        Discretized.Netflix.class,
+        Discretized.NLTCS.class,
+        Discretized.Plants.class,
+        Discretized.R52.class, // 14
+        Discretized.School.class, // 15
+        Discretized.Traffic.class, // 16
+        Discretized.WebKB.class, // 17
+        Discretized.Wine.class, // 18
+        Discretized.Accidents.class,
+        Discretized.Ad.class,
+        Discretized.BBC.class,
+        Discretized.C20NG.class,
+        Discretized.CWebKB.class,
+        Discretized.DNA.class,
+        Discretized.Kosarek.class,
+        Discretized.Retail.class,
+        Discretized.Pumsb_Star.class,
+        Discretized.CR52.class, // 28
+
+        // Now using custom datsets...
+        Discretized.r25_500.class,
+        Discretized.r25_1000.class, // 30
+        Discretized.r25_2000.class,
+        Discretized.r25_3000.class,
+        Discretized.r25_4000.class,
+        Discretized.r50_500.class,
+        Discretized.r50_1000.class, // 35
+        Discretized.r50_2000.class,
+        Discretized.r50_3000.class,
+        Discretized.r50_4000.class,
+        Discretized.r75_500.class,
+        Discretized.r75_1000.class, // 40
+        Discretized.r75_2000.class,
+        Discretized.r75_3000.class,
+        Discretized.r75_4000.class,
+
+        Discretized.ao6_5000.class,
+        Discretized.ao6_10000.class, // 45
+        Discretized.ao6_20000.class,
+        Discretized.ao6_30000.class,
+        Discretized.aor6_5000.class,
+        Discretized.aor6_10000.class,
+        Discretized.aor6_20000.class, // 50
+        Discretized.aor6_30000.class,
+
+        Discretized.d30_5000.class,
+        Discretized.d30_10000.class,
+        Discretized.d30_20000.class,
+        Discretized.d30_30000.class, // 55
+        Discretized.d60_5000.class,
+        Discretized.d60_10000.class,
+        Discretized.d60_20000.class,
+        Discretized.d60_30000.class
+    }; 
+
 	
 	/**
 	 * @param args

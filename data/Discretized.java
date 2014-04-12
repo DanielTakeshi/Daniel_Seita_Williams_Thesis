@@ -103,19 +103,112 @@ public class Discretized extends SparseDataset{
 		public CR52() {super("cr52"	,	889	,	6532	,	1028	,	1540);}
 	}
 
-
-    // These are my custom datasets
-	public static class Custom1 extends Discretized{
-		public Custom1() {super("custom1.binarized", 30, 10000, 1000, 2000);}
-	}
-	public static class Custom4 extends Discretized{
-		public Custom4() {super("custom4", 6, 10000, 1000, 2000);}
+    // MY CUSTOM DATASETS!
+    // First, let's start with the RANDOM datasets...
+    public static class r25_500 extends Discretized {
+        public r25_500() {super("r25_500", 25, 500, 50, 100);}
     }
-    public static class Custom5 extends Discretized{
-		public Custom5() {super("custom5", 12, 20000, 2000, 4000);}
+    public static class r25_1000 extends Discretized {
+        public r25_1000() {super("r25_1000", 25, 1000, 100, 200);}
+    }
+    public static class r25_2000 extends Discretized {
+        public r25_2000() {super("r25_2000", 25, 2000, 200, 400);}
+    }
+    public static class r25_3000 extends Discretized {
+        public r25_3000() {super("r25_3000", 25, 3000, 300, 600);}
+    }
+    public static class r25_4000 extends Discretized {
+        public r25_4000() {super("r25_4000", 25, 4000, 400, 800);}
+    }
+
+    public static class r50_500 extends Discretized {
+        public r50_500() {super("r50_500", 50, 500, 50, 100);}
+    }
+    public static class r50_1000 extends Discretized {
+        public r50_1000() {super("r50_1000", 50, 1000, 100, 200);}
+    }
+    public static class r50_2000 extends Discretized {
+        public r50_2000() {super("r50_2000", 50, 2000, 200, 400);}
+    }
+    public static class r50_3000 extends Discretized {
+        public r50_3000() {super("r50_3000", 50, 3000, 300, 600);}
+    }
+    public static class r50_4000 extends Discretized {
+        public r50_4000() {super("r50_4000", 50, 4000, 400, 800);}
+    }
+
+    public static class r75_500 extends Discretized {
+        public r75_500() {super("r75_500", 75, 500, 50, 100);}
+    }
+    public static class r75_1000 extends Discretized {
+        public r75_1000() {super("r75_1000", 75, 1000, 100, 200);}
+    }
+    public static class r75_2000 extends Discretized {
+        public r75_2000() {super("r75_2000", 75, 2000, 200, 400);}
+    }
+    public static class r75_3000 extends Discretized {
+        public r75_3000() {super("r75_3000", 75, 3000, 300, 600);}
+    }
+    public static class r75_4000 extends Discretized {
+        public r75_4000() {super("r75_4000", 75, 4000, 400, 800);}
+    }
+    
+    // Now the ANDOR datasets...
+    public static class ao6_5000 extends Discretized {
+        public ao6_5000() {super("ao6_5000", 6, 5000, 500, 1000);}
+    }
+    public static class ao6_10000 extends Discretized {
+        public ao6_10000() {super("ao6_10000", 6, 10000, 1000, 2000);}
+    }
+    public static class ao6_20000 extends Discretized {
+        public ao6_20000() {super("ao6_20000", 6, 20000, 2000, 4000);}
+    }
+    public static class ao6_30000 extends Discretized {
+        public ao6_30000() {super("ao6_30000", 6, 30000, 3000, 6000);}
+    }
+
+    public static class aor6_5000 extends Discretized {
+        public aor6_5000() {super("aor6_5000", 6, 5000, 500, 1000);}
+    }
+    public static class aor6_10000 extends Discretized {
+        public aor6_10000() {super("aor6_10000", 6, 10000, 1000, 2000);}
+    }
+    public static class aor6_20000 extends Discretized {
+        public aor6_20000() {super("aor6_20000", 6, 20000, 2000, 4000);}
+    }
+    public static class aor6_30000 extends Discretized {
+        public aor6_30000() {super("aor6_30000", 6, 30000, 3000, 6000);}
+    }
+
+    // Now the DICE datasets...
+    public static class d30_5000 extends Discretized {
+        public d30_5000() {super("d30_5000", 30, 5000, 500, 1000);}
+    }
+    public static class d30_10000 extends Discretized {
+        public d30_10000() {super("d30_10000", 30, 10000, 1000, 2000);}
+    }
+    public static class d30_20000 extends Discretized {
+        public d30_20000() {super("d30_20000", 30, 20000, 2000, 4000);}
+    }
+    public static class d30_30000 extends Discretized {
+        public d30_30000() {super("d30_30000", 30, 30000, 3000, 6000);}
+    }
+
+    public static class d60_5000 extends Discretized {
+        public d60_5000() {super("d60_5000", 60, 5000, 500, 1000);}
+    }
+    public static class d60_10000 extends Discretized {
+        public d60_10000() {super("d60_10000", 60, 10000, 1000, 2000);}
+    }
+    public static class d60_20000 extends Discretized {
+        public d60_20000() {super("d60_20000", 60, 20000, 2000, 4000);}
+    }
+    public static class d60_30000 extends Discretized {
+        public d60_30000() {super("d60_30000", 60, 30000, 3000, 6000);}
     }
 
 
+    // Now let's get back to Robert's code...
 	private Discretized(String name, int numVar, int numTrain, int numValid, int numTest) {
 		this.name = name;
 		this.numVar = numVar;
