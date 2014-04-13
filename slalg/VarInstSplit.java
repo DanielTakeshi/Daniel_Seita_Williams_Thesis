@@ -130,8 +130,6 @@ public class VarInstSplit implements SLAlg {
             VarInstSlice currentSlice = toProcess.remove();
             int id = currentSlice.id;
 
-            // printArray(currentSlice.variables);
-
             // (SPECIAL CASE 1) So if there's only one variable left, return the smoothed univariate distribution and add to spn
             if(currentSlice.variables.length == 1){
                 Node varnode = new SmoothedMultinomialNode(d, currentSlice.variables[0], currentSlice.instances);
@@ -237,7 +235,6 @@ public class VarInstSplit implements SLAlg {
             if(indset.length < currentSlice.variables.length && indset.length > 0){ 
                 if(currentSlice.instances.length<4 && indset.length > 1)  // This case is quite rare.
                     System.out.println("Found indset (x) ("+indset.length+"/"+currentSlice.variables.length+") over "+currentSlice.instances.length+"I");
-                // printArray(indset);
                 int ch_id1 = nextID++;
                 int ch_id2 = nextID++;
                 // Building a PRODUCT node
@@ -342,7 +339,7 @@ public class VarInstSplit implements SLAlg {
 
 
     /*
-     * DBSCAN START (with assertions to help me)
+     * *****DBSCAN START***** (with assertions to help me)
      * Daniel's change: using dbscan instead of nb and em
      */
     private int[][] dbscan(VarInstSlice currentSlice) {
@@ -688,7 +685,6 @@ public class VarInstSplit implements SLAlg {
 
 
 
-
     // Computes penalized LL, used for making clusters
     private double penalizedLL(List<Cluster> nbcs, int[] instances, int numVars) {
         double LL = 0;
@@ -709,7 +705,6 @@ public class VarInstSplit implements SLAlg {
 
 
 
-
     // This gets created in the cluster naive bayes method. It holds the clusters for instances.
     class ClustersWLL {
         public int splitVar = 0;
@@ -725,7 +720,6 @@ public class VarInstSplit implements SLAlg {
             this.splitVar = bestVar;
         }
     }
-
 
 
     // Another cluster class ...
@@ -840,41 +834,16 @@ public class VarInstSplit implements SLAlg {
         }
     }
 
-    // My special array printing method
-    public static void printArray(int[] arrayToPrint) {
-        System.out.print("[ ");
-        for (int i : arrayToPrint) {
-            System.out.print(i + " ");
-        }
-        System.out.print("]\n");
-    }
 
-    // My array of arrays printing method
-    public static void printNestedArray(int[][] arrayToPrint) {
-        System.out.println("Printing NESTED array of length " + arrayToPrint.length + ":");
-        for (int[] nestedArray : arrayToPrint) {
-            printArray(nestedArray);
-            System.out.println("");
-        }
-        System.out.println("");
-    }
-
-    // Just a random helper method to do the set minus for variable splitting.
+    // Just a random helper method to do the set minus for variable splitting. (Did I do this?? I don't think so...)
     private int[] setminus(int[] whole, int[] part) {
         // System.out.println("Now calling setminus with arrays of length " + whole.length + " and " + part.length);
         int toreturn[] = new int[whole.length-part.length];
-
         HashSet<Integer> temp = new HashSet<Integer>();
         for(int i : whole){ temp.add(i); }
         for(int i : part){ temp.remove(i); }
-
-        // printArray(whole);
-        // printArray(part);
-
         int idx=0;
-        // System.out.println("Length of return array: " + toreturn.length + " and of temp set is " + temp.size());
         for(int i : temp){
-          //   System.out.println("Current value is " + idx);
             toreturn[idx++] = i;
         }
         return toreturn;
