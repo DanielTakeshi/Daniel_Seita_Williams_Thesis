@@ -1,15 +1,5 @@
 package slalg;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.HashSet;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
-import java.util.Map.Entry;
-import java.util.Queue;
-
 import spn.GraphSPN;
 import spn.Node;
 import spn.ProdNode;
@@ -27,6 +17,7 @@ import matlabcontrol.internal.*;
 
 import java.util.*;
 import java.io.*;
+import java.lang.*;
 
 public class VarInstSplit implements SLAlg {
     private static final int MAX_NB_CLUSTERS = 2000;    // Okay, this seems like a resonable upper bound
@@ -38,6 +29,11 @@ public class VarInstSplit implements SLAlg {
     Dataset d;                                          // Given as a parameter.
     public static boolean onlyAddMostDependent = false; // Uh ... this doesn't seem to be in the code anywhere else ???
     public static double gfactor = 1.0;                 // Used for the G-test
+
+    // Daniel Seita's extra stuff. Should try and get a parameter for if we're using MATLAB or not. (Also, note 'fullData' below.)
+    public static double instToVarRatio = 1.0;          // Ratio of instances to variables; if lower than this, do EM
+    public static double[][] fullData;                  // All the data we've got!
+    public static boolean useDBSCAN = false;            // true means we'll use DBSCAN when possible, false means never
 
     @SuppressWarnings("unused")
     @Override
@@ -57,7 +53,7 @@ public class VarInstSplit implements SLAlg {
             String row = input.nextLine().replace(",", "");
             columns = row.length();
         }
-        double[][] fullData = new double[rows][columns];
+        fullData = new double[rows][columns];
         // System.out.println("rows: " + rows + ", colums: " + columns);
         input.close();
 
@@ -73,6 +69,7 @@ public class VarInstSplit implements SLAlg {
             }
             currentRow++;
         }
+
         /*
         System.out.println("\nNow trying to actually RUN ivag on this ...\nBy the way, here's our data:\n");
         for (int i = 0; i < rows; i++) {
@@ -83,22 +80,22 @@ public class VarInstSplit implements SLAlg {
         }
         */
 
+        /*
         // Initialize the proxy here? Should do it only once in the whole script because it starts up a brand new MATLAB session
         // COMMENT OUT IF NOT USING MATLAB!
         MatlabProxyFactory factory = new MatlabProxyFactory();
         MatlabProxy proxy = factory.getProxy();
         MatlabTypeConverter processor = new MatlabTypeConverter(proxy);
+        */
 
         // Now resume with the rest of the code because we don't need to use this MATLAB stuff right now...
         this.d = d;
         int numCmsg = 6;
 
-        // Queue of <#id, {variables}x{instances}>
-        // ... decide whether it's +/x and then recurse
+        // Queue of <#id, {variables}x{instances}> ... decide whether it's +/x and then recurse
         // List of nodes to create #0 <+, w1x#1, w2x#2>
         //                         #2 <x, #3, #4>
-        // when gets to single var/inst, just create SPN node
-        // when queue of slices to expand is empty, create nodes from build list
+        // when gets to single var/inst, just create SPN node; when queue of slices to expand is empty, create nodes from build list
 
         // Queue for slices of variable-instance space to pursue
         Queue<VarInstSlice> toProcess = new LinkedList<VarInstSlice>();
@@ -178,6 +175,7 @@ public class VarInstSplit implements SLAlg {
                 
                 cc = new CountCache();
 
+                /*
                 // Okay, now we implement the MATLAB stuff ... first, let's actually obtain the data we need! Don't forget that 'fullData' is an array
                 // of array of doubles which contains all the data. We need to pick out the relevant parts based on the current slice. 
                 int numberOfInstances = currentSlice.instances.length;
@@ -222,11 +220,12 @@ public class VarInstSplit implements SLAlg {
                     int whichVariable = indset[i] - 1; // Don't forget the minus one here!!
                     indset[i] = currentSlice.variables[whichVariable];
                 }
+                */
 
                 // This is the old code from Robert Gens, just a one-line method call. USE THIS FOR DEFAULT WAY!
-                // indset = greedyIndSet(d, currentSlice,cc);
+                indset = greedyIndSet(d, currentSlice,cc);
             } else {
-                indset = new int[0]; // Don't try to measure independence on the first node (would be a trivial dataset)
+                indset = new int[0]; // (Robert's comment) Don't try to measure independence on the first node (would be a trivial dataset)
             }
 
             // So this is the test of 'success' versus 'failure' of our variable clustering algorithm.
@@ -238,7 +237,7 @@ public class VarInstSplit implements SLAlg {
             if(indset.length < currentSlice.variables.length && indset.length > 0){ 
                 if(currentSlice.instances.length<4 && indset.length > 1)  // This case is quite rare.
                     System.out.println("Found indset (x) ("+indset.length+"/"+currentSlice.variables.length+") over "+currentSlice.instances.length+"I");
-                // printArray(indset); // My helper method
+                // printArray(indset);
                 int ch_id1 = nextID++;
                 int ch_id2 = nextID++;
                 // Building a PRODUCT node
@@ -251,10 +250,25 @@ public class VarInstSplit implements SLAlg {
             } else {
                 // Now we CLUSTER INSTANCES! Because variables were not able to be divided up...
                 // bestClustering is ... the clustering of variables! Calls the 'clusterNBInstances' for this purpose (NB = Naive Bayes)
-                // IF I MAKE CHANGES TO CLUSTERING, THIS IS WHERE I WILL DO IT!
                 int instsets[][] = null;
-                ClustersWLL bestClustering = clusterNBInsts(d, currentSlice, cc);
-                instsets = bestClustering.clusters;
+
+                if (useDBSCAN) {
+                    // ***** DANIEL'S CHANGE *****
+                    // We do either 'clusterNBInsts' (i.e., EM) OR 'dbscan' (i.e., DBSCAN) depending on the ratio of variables to instances.
+                    // I precompute the distance matrix to avoid recomputation, which takes O(n^2) memory, so keep n < 1000. TODO should find a better way!
+                    if ((currentSlice.instances.length / (double) currentSlice.variables.length < instToVarRatio) || currentSlice.instances.length >= 1000) {
+                        System.out.println("Using EM with " + currentSlice.instances.length + " instances and " + currentSlice.variables.length + " variables ...");
+                        ClustersWLL bestClustering = clusterNBInsts(d, currentSlice, cc);
+                        instsets = bestClustering.clusters;
+                    } else {
+                        System.out.println("Using DBSCAN with " + currentSlice.instances.length + " instances and " + currentSlice.variables.length + " variables ...");
+                        assert fullData.length != 0 : "Our data is nonexistent.";
+                        instsets = dbscan(currentSlice); // We have 'fullData' as a global variable. Thus, we should only need the current slice.
+                    }
+                } else {
+                    ClustersWLL bestClustering = clusterNBInsts(d, currentSlice, cc);
+                    instsets = bestClustering.clusters;
+                }
 
                 if(numCmsg-- > 0)
                     System.out.println(currentSlice.instances.length+"I "+currentSlice.variables.length+"V -> "+instsets.length+" clusters");
@@ -278,7 +292,7 @@ public class VarInstSplit implements SLAlg {
         }
 
         // Disconnect the MATLAB proxy (COMMENT OUT if not using matlab...)
-        proxy.disconnect();
+        // proxy.disconnect();
 
         // All right, now we're going to be BUILDING the spn (last part of code was getting the sum/products set up)
         // This part, I should not have to modify since the stuff it takes as input is the interesting part of this research
@@ -327,6 +341,210 @@ public class VarInstSplit implements SLAlg {
     }
 
 
+    /*
+     * DBSCAN START (with assertions to help me)
+     * Daniel's change: using dbscan instead of nb and em
+     */
+    private int[][] dbscan(VarInstSlice currentSlice) {
+
+        int numInstances = currentSlice.instances.length;
+        int numVariables = currentSlice.variables.length;
+        int minPts = numVariables + 1;
+
+        // We iterate through {0 - numInstances}, but 'instances' could be [0, 3, 9, 11, 22, ...], so we need a map from
+        // {0, 1, ..., numInstances-1} to the instance it actually corresponds to, e.g., in this example, 0 -> 0, 1 -> 3, 2 -> 9, etc.
+        // Consequently, we will only use {0 - numInstances} scale, and re-convert things at the end.
+        Map<Integer, Integer> indexToReal = new HashMap<Integer, Integer>();
+        for (int key = 0; key < numInstances; key++) {
+            indexToReal.put(key, currentSlice.instances[key]);
+        } 
+
+        /*
+        System.out.println("Inside dbscan");
+        System.out.println(numInstances + " instances: " + Arrays.toString(currentSlice.instances) + "\n");
+        System.out.println(numVariables + " variables: " + Arrays.toString(currentSlice.variables) + "\n");
+        System.out.println("Now precomputing distances...");
+        */
+       
+        // First, pre-compute all distances; fill out distances matrix for all (i,j) s.t. i < j
+        double distanceMatrix[][] = new double[numInstances][numInstances];          
+        for (int firstInst = 0; firstInst < numInstances - 1; firstInst++) {
+            for (int secondInst = firstInst + 1; secondInst < numInstances; secondInst++) {
+                int firstElement[] = extractElement(firstInst, currentSlice.instances, currentSlice.variables);
+                int secondElement[] = extractElement(secondInst, currentSlice.instances, currentSlice.variables); 
+                // System.out.println("First element: " + Arrays.toString(firstElement));
+                // System.out.println("Second element: " + Arrays.toString(secondElement));
+                distanceMatrix[firstInst][firstInst] = 0.0;
+                double pairwiseDistance = computeDistance(firstElement, secondElement);
+                // System.out.println("The pairwise distance is: " + pairwiseDistance);
+                assert !Double.isNaN(pairwiseDistance) : "The pairwise distance is NaN";
+                distanceMatrix[firstInst][secondInst] = pairwiseDistance;
+                distanceMatrix[secondInst][firstInst] = pairwiseDistance;
+            }
+        }
+        double epsilon = obtainEpsilon(distanceMatrix, minPts); // Obtain epsilon
+
+        // System.out.println("Now done with pre-computing distances.");
+        // System.out.println(Arrays.toString(distanceMatrix[0])); 
+        // System.out.println("epsilon: " + epsilon + ", minPts: " + minPts + "\n");
+
+        // Now move on to clustering! We'll use some of these lists to help us along
+        // Note that 'visited' and 'noise' and all these lists will number the points 0 through numInstances, so be careful!
+        List<Integer> visited = new ArrayList<Integer>();
+        List<Integer> noise = new ArrayList<Integer>(); 
+        List<List<Integer>> allClusters = new ArrayList<List<Integer>>();
+        for (int point = 0; point < numInstances; point++) {
+            // System.out.println("List of visited points: " + visited);
+            if (!visited.contains(point)) {
+                // System.out.println("Now we are considering point " + point + " for our regionQuery call.");
+                // System.out.println("Here's our distances matrix for that point: " + Arrays.toString(distanceMatrix[point]));
+                List<Integer> neighboringPoints = regionQuery(distanceMatrix[point], epsilon);
+                // System.out.println("Its neighbors are (rescaled to 0, 1, etc.): " + neighboringPoints);
+                if (neighboringPoints.size() < minPts) {
+                    noise.add(point);
+                    assert noise.size() < numInstances/5.0 : "There's too much noise"; // Reasonable sanity check; factor of 2 away from reality TODO
+                } else {
+                    List<Integer> nextCluster = new ArrayList<Integer>();
+                    allClusters.add(nextCluster);
+                    expandCluster(point, neighboringPoints, nextCluster, epsilon, minPts, visited, distanceMatrix, allClusters);
+                }
+            }
+        }
+
+        // System.out.println("Done! Here are our clusters! (There are " + allClusters.size() + " of them)");
+        // System.out.println(allClusters);
+        // System.out.println();
+
+        // Convert list of lists into an array of arrays for what the rest of the code needs
+        assert (allClusters.size() > 0) && (allClusters.size() <= numInstances) : "We have cluster sizes outside the realm of possibility.";
+        int bestClusters[][] = nestedListToArray(allClusters);
+
+        // Now use our map to get all the values back to what they are, rather than [0, 1, ... , numInstances-1]
+        for (int[] cluster : bestClusters) {
+            for (int i = 0; i < cluster.length; i++) {
+                cluster[i] = indexToReal.get(cluster[i]);
+            } 
+        }
+
+        // System.out.println("Now let's have a look at the clusters after we converted them to arrays:");
+        // System.out.println(Arrays.deepToString(bestClusters));
+        return bestClusters;
+    }
+         
+    // Subroutine in DBSCAN for expanding clusters. Note that java, while pass-by-value, will pass the pointers so modifying the arraylists here will
+    // still affect the arraylists from the dbscan method. Note: due to the way I use lists, etc. for keeping track of visited, etc., I have extra
+    // parameters for these methods. Also, neighborPts as input has already been converted to the 0-numInstances scale.
+    private void expandCluster(int point, List<Integer> neighborPts, List<Integer> cluster, double epsilon, int minPts, List<Integer> visited, double[][] distanceMatrix, List<List<Integer>> allClusters) {
+        // System.out.println("\nNow inside expandCluster with respect to point " + point);
+        cluster.add(point);
+        for (int otherPoint : neighborPts) {
+            // System.out.println("Considering other point " + otherPoint);
+            if (!visited.contains(otherPoint)) {
+                visited.add(otherPoint);
+                // System.out.println("Visited is now: " + visited);
+                assert visited.size() <= distanceMatrix.length : "We have too many points in 'visited' list.";
+                List<Integer> newNeighborPts = regionQuery(distanceMatrix[otherPoint], epsilon);
+                if (newNeighborPts.size() >= minPts) {
+                    for (int element : newNeighborPts) {
+                        if (!neighborPts.contains(element)) {
+                            neighborPts.add(element); // Want union of the two sets
+                        }
+                    }
+                }
+            }
+            // Check if neighbors of 'point' are not already in clusters (use my helper)
+            if (!arrayListContains(otherPoint, allClusters)) {
+                cluster.add(otherPoint);
+            }
+        }
+        // System.out.println("\nNow done with expandCluster\n");
+    }
+
+    // Subroutine in DBSCAN. Returns all points within e-neighborhood of a point, including itself (on 0 to numInstances scale!)
+    private List<Integer> regionQuery(double[] distances, double epsilon) {
+        List<Integer> points = new ArrayList<Integer>();
+        for (int i = 0; i < distances.length; i++) {
+            if (distances[i] <= epsilon) {
+                points.add(i);
+            }
+        }
+        return points;
+    }
+
+    // Helper method for testing contains in a nested array list
+    private boolean arrayListContains(int p, List<List<Integer>> nestedList) {
+        boolean contains = false;
+        for (List<Integer> subList : nestedList) {
+            if (subList.contains(p)) {
+                contains = true;
+                break;
+            }
+        }
+        return contains;
+    }
+
+    // Helper method. Given our full distance Matrix, for each point, we want to find its k-th nearest neighbor, where k = minPoints.
+    // We will use (for now) a 10% assumption of noise, so look for the 10th 'percentile' of distances to find epsilon value.
+    // k-th nearest neighbor does not include the original point itself. Thus we look at distances(minPts), not distances(minPts-1)
+    private double obtainEpsilon(double[][] distanceMatrix, int minPts) {
+        int numInstances = distanceMatrix.length;
+        double[] nearestNeighbors = new double[numInstances];
+        for (int element = 0; element < numInstances; element++) {
+            double[] distances = distanceMatrix[element].clone();
+            Arrays.sort(distances);
+            assert distances[0] == 0.0 : "The first element should be 0 since we are including our original point.";
+            nearestNeighbors[element] = distances[minPts]; // Add the k-th nearest neighbor's distance
+        }
+        Arrays.sort(nearestNeighbors);
+        double percentile = numInstances / 10.0;
+        return nearestNeighbors[(int)percentile];
+    }
+
+    // Helper method, we need fullElement from 'fullData' and also to prune away variables not in currentSlice.variables
+    // fullIndex iterates through all values of fullElement; partialIndex we use to keep track of where we're adding elements
+    private int[] extractElement(int elementIndex, int[] instances, int[] variables) {
+        List<Integer> variableList = new ArrayList<Integer>(); // So that we can use contains
+        for (int i = 0; i < variables.length; i++) {
+            variableList.add(variables[i]);
+        }
+        double fullElement[] = fullData[instances[elementIndex]];
+        int currentElement[] = new int[variables.length];
+        int partialIndex = 0;
+        for (int fullIndex = 0; fullIndex < fullElement.length; fullIndex++) {
+            if (variableList.contains(fullIndex)) {
+                currentElement[partialIndex] = (int)fullElement[fullIndex];
+                partialIndex++;
+            }
+        }
+        assert partialIndex == variables.length : "PartialIndex value is off.";
+        return currentElement; 
+    }
+
+    // Helper method for dbscan, finds distances
+    private double computeDistance(int[] elem1, int[] elem2) {
+        assert elem1.length == elem2.length : "Computing distance between two vectors of different length";
+        int cumulativeSum = 0;
+        for (int i = 0; i < elem1.length; i++) {
+            cumulativeSum += Math.pow((elem1[i] - elem2[i]), 2);
+        }
+        return Math.sqrt(cumulativeSum);
+    }
+
+    // Helper method for dbscan to convert list of list into array of arrays
+    private int[][] nestedListToArray(List<List<Integer>> allClusters) {
+        int clusterArray[][] = new int[allClusters.size()][];
+        for (int i = 0; i < allClusters.size(); i++) {
+            List<Integer> clusterList = allClusters.get(i);
+            int cluster[] = new int[clusterList.size()];
+            int index = 0;
+            for (Integer n : clusterList) {
+                cluster[index++] = n;
+            }
+            clusterArray[i] = cluster;
+        }
+        return clusterArray;
+    }
+    // END OF DBSCAN CODE
 
 
     /*
@@ -450,7 +668,7 @@ public class VarInstSplit implements SLAlg {
                     instSets.add(new ArrayList<Integer>());
                 }
                 bestClusters = new int[nbcs.size()][];
-                for(Entry<Integer, Cluster> e : inst_cluster_map.entrySet()){
+                for(Map.Entry<Integer, Cluster> e : inst_cluster_map.entrySet()){
                     int cid = clusterToId.get(e.getValue());
                     instSets.get(cid).add(e.getKey());
                 }
@@ -622,12 +840,23 @@ public class VarInstSplit implements SLAlg {
         }
     }
 
+    // My special array printing method
     public static void printArray(int[] arrayToPrint) {
-        // System.out.print("Now printing array of length " + arrayToPrint.length + ": [ ");
+        System.out.print("[ ");
         for (int i : arrayToPrint) {
-            // System.out.print(i + " ");
+            System.out.print(i + " ");
         }
-        // System.out.print("]\n");
+        System.out.print("]\n");
+    }
+
+    // My array of arrays printing method
+    public static void printNestedArray(int[][] arrayToPrint) {
+        System.out.println("Printing NESTED array of length " + arrayToPrint.length + ":");
+        for (int[] nestedArray : arrayToPrint) {
+            printArray(nestedArray);
+            System.out.println("");
+        }
+        System.out.println("");
     }
 
     // Just a random helper method to do the set minus for variable splitting.
@@ -703,26 +932,6 @@ public class VarInstSplit implements SLAlg {
         // INDEPENDENT from a given variable, we DON'T add anything...
         return returnset; // So this is an array with # of elements equal to length of 'indset.' 
     }
-
-
-    // This is Daniel's change, to make this code use more than just two children for each product node!
-    private int[][] greedyIndSetDaniel(Dataset d, VarInstSlice currentSlice, CountCache cc) {
-        if (currentSlice.instances.length == 1) {
-            int returnset[][] = new int[][] {{ currentSlice.variables[0] }}; // Want the current variable slice to be the ONLY sub-array in the larger array
-            return returnset;
-        }
-        HashSet<Integer> vars = new HashSet<Integer>();
-        for (int i : currentSlice.variables) {
-            vars.add(i);
-        }
-        
-        // Daniel: This is where my implementation differs from his.
-        // Iterate pairwise over variables ... have a list of lists kind of thing, where we start off with 1 list in the list of lists.
-        // Then for each new list we add to it as necessary to create independence groups.
-        // For each sublist in the list of lists, we then assign returnset to those independence groups ...
-        int[][] returnset = null;
-        return returnset; 
-    } 
 
 
     // Used as part of 'CountCache', but I'm not sure what this is for, honestly.
