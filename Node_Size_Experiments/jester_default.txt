@@ -1,0 +1,5663 @@
+Last login: Wed Apr 16 22:34:39 on ttys000
+-> time java -ea -Xmx1024m -cp bin exp.RunSLSPN DATA 9 GF 10 CP 0.6 INDEPINST 4 N d9_default.spn
+DATA    9
+GF  10
+CP  0.6
+INDEPINST   4
+N   d9_default.spn
+*** Code with Daniel's additions ***
+Dataset jester, 100 vars, 9000tr, 1000va, 4116te
+Loading training...
+Loading validation...
+Loading testing...
+
+CP 0.6  GF 10.0 IT 4
+Building structure from 100 vars over 9000 instances
+EM Run 0 with 9000 insts 100 vars
+EM Run 1 with 9000 insts 100 vars
+EM Run 2 with 9000 insts 100 vars
+EM Run 3 with 9000 insts 100 vars
+EM Run 4 with 9000 insts 100 vars
+EM Run 5 with 9000 insts 100 vars
+EM Run 6 with 9000 insts 100 vars
+EM Run 7 with 9000 insts 100 vars
+EM Run 8 with 9000 insts 100 vars
+EM Run 9 with 9000 insts 100 vars
+9000I 100V -> 429 clusters
+Indset size 11
+Indset size 2
+Indset size 5
+Indset size 2
+Indset size 4
+Indset size 2
+Indset size 11
+EM Run 0 with 1085 insts 11 vars
+EM Run 1 with 1085 insts 11 vars
+EM Run 2 with 1085 insts 11 vars
+EM Run 3 with 1085 insts 11 vars
+EM Run 4 with 1085 insts 11 vars
+EM Run 5 with 1085 insts 11 vars
+EM Run 6 with 1085 insts 11 vars
+EM Run 7 with 1085 insts 11 vars
+EM Run 8 with 1085 insts 11 vars
+EM Run 9 with 1085 insts 11 vars
+1085I 11V -> 64 clusters
+Indset size 2
+EM Run 0 with 470 insts 2 vars
+EM Run 1 with 470 insts 2 vars
+EM Run 2 with 470 insts 2 vars
+EM Run 3 with 470 insts 2 vars
+EM Run 4 with 470 insts 2 vars
+EM Run 5 with 470 insts 2 vars
+EM Run 6 with 470 insts 2 vars
+EM Run 7 with 470 insts 2 vars
+EM Run 8 with 470 insts 2 vars
+EM Run 9 with 470 insts 2 vars
+470I 2V -> 4 clusters
+Indset size 6
+Indset size 5
+EM Run 0 with 735 insts 5 vars
+EM Run 1 with 735 insts 5 vars
+EM Run 2 with 735 insts 5 vars
+EM Run 3 with 735 insts 5 vars
+EM Run 4 with 735 insts 5 vars
+EM Run 5 with 735 insts 5 vars
+EM Run 6 with 735 insts 5 vars
+EM Run 7 with 735 insts 5 vars
+EM Run 8 with 735 insts 5 vars
+EM Run 9 with 735 insts 5 vars
+735I 5V -> 19 clusters
+Indset size 2
+Indset size 2
+EM Run 0 with 709 insts 2 vars
+EM Run 1 with 709 insts 2 vars
+EM Run 2 with 709 insts 2 vars
+EM Run 3 with 709 insts 2 vars
+EM Run 4 with 709 insts 2 vars
+EM Run 5 with 709 insts 2 vars
+EM Run 6 with 709 insts 2 vars
+EM Run 7 with 709 insts 2 vars
+EM Run 8 with 709 insts 2 vars
+EM Run 9 with 709 insts 2 vars
+709I 2V -> 4 clusters
+Indset size 2
+Indset size 4
+EM Run 0 with 585 insts 4 vars
+EM Run 1 with 585 insts 4 vars
+EM Run 2 with 585 insts 4 vars
+EM Run 3 with 585 insts 4 vars
+EM Run 4 with 585 insts 4 vars
+EM Run 5 with 585 insts 4 vars
+EM Run 6 with 585 insts 4 vars
+EM Run 7 with 585 insts 4 vars
+EM Run 8 with 585 insts 4 vars
+EM Run 9 with 585 insts 4 vars
+585I 4V -> 10 clusters
+Indset size 7
+Indset size 2
+Indset size 2
+EM Run 0 with 319 insts 2 vars
+EM Run 1 with 319 insts 2 vars
+EM Run 2 with 319 insts 2 vars
+EM Run 3 with 319 insts 2 vars
+EM Run 4 with 319 insts 2 vars
+EM Run 5 with 319 insts 2 vars
+EM Run 6 with 319 insts 2 vars
+EM Run 7 with 319 insts 2 vars
+EM Run 8 with 319 insts 2 vars
+EM Run 9 with 319 insts 2 vars
+Indset size 2
+Indset size 5
+Indset size 6
+EM Run 0 with 815 insts 6 vars
+EM Run 1 with 815 insts 6 vars
+EM Run 2 with 815 insts 6 vars
+EM Run 3 with 815 insts 6 vars
+EM Run 4 with 815 insts 6 vars
+EM Run 5 with 815 insts 6 vars
+EM Run 6 with 815 insts 6 vars
+EM Run 7 with 815 insts 6 vars
+EM Run 8 with 815 insts 6 vars
+EM Run 9 with 815 insts 6 vars
+Indset size 6
+Indset size 2
+EM Run 0 with 530 insts 2 vars
+EM Run 1 with 530 insts 2 vars
+EM Run 2 with 530 insts 2 vars
+EM Run 3 with 530 insts 2 vars
+EM Run 4 with 530 insts 2 vars
+EM Run 5 with 530 insts 2 vars
+EM Run 6 with 530 insts 2 vars
+EM Run 7 with 530 insts 2 vars
+EM Run 8 with 530 insts 2 vars
+EM Run 9 with 530 insts 2 vars
+Indset size 2
+EM Run 0 with 709 insts 2 vars
+EM Run 1 with 709 insts 2 vars
+EM Run 2 with 709 insts 2 vars
+EM Run 3 with 709 insts 2 vars
+EM Run 4 with 709 insts 2 vars
+EM Run 5 with 709 insts 2 vars
+EM Run 6 with 709 insts 2 vars
+EM Run 7 with 709 insts 2 vars
+EM Run 8 with 709 insts 2 vars
+EM Run 9 with 709 insts 2 vars
+Indset size 4
+Indset size 7
+EM Run 0 with 585 insts 7 vars
+EM Run 1 with 585 insts 7 vars
+EM Run 2 with 585 insts 7 vars
+EM Run 3 with 585 insts 7 vars
+EM Run 4 with 585 insts 7 vars
+EM Run 5 with 585 insts 7 vars
+EM Run 6 with 585 insts 7 vars
+EM Run 7 with 585 insts 7 vars
+EM Run 8 with 585 insts 7 vars
+EM Run 9 with 585 insts 7 vars
+Indset size 2
+EM Run 0 with 830 insts 2 vars
+EM Run 1 with 830 insts 2 vars
+EM Run 2 with 830 insts 2 vars
+EM Run 3 with 830 insts 2 vars
+EM Run 4 with 830 insts 2 vars
+EM Run 5 with 830 insts 2 vars
+EM Run 6 with 830 insts 2 vars
+EM Run 7 with 830 insts 2 vars
+EM Run 8 with 830 insts 2 vars
+EM Run 9 with 830 insts 2 vars
+Indset size 2
+Indset size 2
+EM Run 0 with 319 insts 2 vars
+EM Run 1 with 319 insts 2 vars
+EM Run 2 with 319 insts 2 vars
+EM Run 3 with 319 insts 2 vars
+EM Run 4 with 319 insts 2 vars
+EM Run 5 with 319 insts 2 vars
+EM Run 6 with 319 insts 2 vars
+EM Run 7 with 319 insts 2 vars
+EM Run 8 with 319 insts 2 vars
+EM Run 9 with 319 insts 2 vars
+Indset size 5
+EM Run 0 with 1085 insts 5 vars
+EM Run 1 with 1085 insts 5 vars
+EM Run 2 with 1085 insts 5 vars
+EM Run 3 with 1085 insts 5 vars
+EM Run 4 with 1085 insts 5 vars
+EM Run 5 with 1085 insts 5 vars
+EM Run 6 with 1085 insts 5 vars
+EM Run 7 with 1085 insts 5 vars
+EM Run 8 with 1085 insts 5 vars
+EM Run 9 with 1085 insts 5 vars
+Indset size 6
+EM Run 0 with 735 insts 6 vars
+EM Run 1 with 735 insts 6 vars
+EM Run 2 with 735 insts 6 vars
+EM Run 3 with 735 insts 6 vars
+EM Run 4 with 735 insts 6 vars
+EM Run 5 with 735 insts 6 vars
+EM Run 6 with 735 insts 6 vars
+EM Run 7 with 735 insts 6 vars
+EM Run 8 with 735 insts 6 vars
+EM Run 9 with 735 insts 6 vars
+Indset size 5
+Indset size 6
+Indset size 4
+EM Run 0 with 709 insts 4 vars
+EM Run 1 with 709 insts 4 vars
+EM Run 2 with 709 insts 4 vars
+EM Run 3 with 709 insts 4 vars
+EM Run 4 with 709 insts 4 vars
+EM Run 5 with 709 insts 4 vars
+EM Run 6 with 709 insts 4 vars
+EM Run 7 with 709 insts 4 vars
+EM Run 8 with 709 insts 4 vars
+EM Run 9 with 709 insts 4 vars
+Indset size 2
+EM Run 0 with 830 insts 2 vars
+EM Run 1 with 830 insts 2 vars
+EM Run 2 with 830 insts 2 vars
+EM Run 3 with 830 insts 2 vars
+EM Run 4 with 830 insts 2 vars
+EM Run 5 with 830 insts 2 vars
+EM Run 6 with 830 insts 2 vars
+EM Run 7 with 830 insts 2 vars
+EM Run 8 with 830 insts 2 vars
+EM Run 9 with 830 insts 2 vars
+Indset size 4
+Indset size 5
+EM Run 0 with 735 insts 5 vars
+EM Run 1 with 735 insts 5 vars
+EM Run 2 with 735 insts 5 vars
+EM Run 3 with 735 insts 5 vars
+EM Run 4 with 735 insts 5 vars
+EM Run 5 with 735 insts 5 vars
+EM Run 6 with 735 insts 5 vars
+EM Run 7 with 735 insts 5 vars
+EM Run 8 with 735 insts 5 vars
+EM Run 9 with 735 insts 5 vars
+Indset size 6
+EM Run 0 with 663 insts 6 vars
+EM Run 1 with 663 insts 6 vars
+EM Run 2 with 663 insts 6 vars
+EM Run 3 with 663 insts 6 vars
+EM Run 4 with 663 insts 6 vars
+EM Run 5 with 663 insts 6 vars
+EM Run 6 with 663 insts 6 vars
+EM Run 7 with 663 insts 6 vars
+EM Run 8 with 663 insts 6 vars
+EM Run 9 with 663 insts 6 vars
+Indset size 4
+Indset size 3
+Indset size 4
+EM Run 0 with 830 insts 4 vars
+EM Run 1 with 830 insts 4 vars
+EM Run 2 with 830 insts 4 vars
+EM Run 3 with 830 insts 4 vars
+EM Run 4 with 830 insts 4 vars
+EM Run 5 with 830 insts 4 vars
+EM Run 6 with 830 insts 4 vars
+EM Run 7 with 830 insts 4 vars
+EM Run 8 with 830 insts 4 vars
+EM Run 9 with 830 insts 4 vars
+Indset size 10
+Indset size 2
+Indset size 4
+EM Run 0 with 530 insts 4 vars
+EM Run 1 with 530 insts 4 vars
+EM Run 2 with 530 insts 4 vars
+EM Run 3 with 530 insts 4 vars
+EM Run 4 with 530 insts 4 vars
+EM Run 5 with 530 insts 4 vars
+EM Run 6 with 530 insts 4 vars
+EM Run 7 with 530 insts 4 vars
+EM Run 8 with 530 insts 4 vars
+EM Run 9 with 530 insts 4 vars
+Indset size 3
+EM Run 0 with 709 insts 3 vars
+EM Run 1 with 709 insts 3 vars
+EM Run 2 with 709 insts 3 vars
+EM Run 3 with 709 insts 3 vars
+EM Run 4 with 709 insts 3 vars
+EM Run 5 with 709 insts 3 vars
+EM Run 6 with 709 insts 3 vars
+EM Run 7 with 709 insts 3 vars
+EM Run 8 with 709 insts 3 vars
+EM Run 9 with 709 insts 3 vars
+Indset size 3
+Indset size 10
+EM Run 0 with 919 insts 10 vars
+EM Run 1 with 919 insts 10 vars
+EM Run 2 with 919 insts 10 vars
+EM Run 3 with 919 insts 10 vars
+EM Run 4 with 919 insts 10 vars
+EM Run 5 with 919 insts 10 vars
+EM Run 6 with 919 insts 10 vars
+EM Run 7 with 919 insts 10 vars
+EM Run 8 with 919 insts 10 vars
+EM Run 9 with 919 insts 10 vars
+Indset size 3
+Indset size 2
+EM Run 0 with 735 insts 2 vars
+EM Run 1 with 735 insts 2 vars
+EM Run 2 with 735 insts 2 vars
+EM Run 3 with 735 insts 2 vars
+EM Run 4 with 735 insts 2 vars
+EM Run 5 with 735 insts 2 vars
+EM Run 6 with 735 insts 2 vars
+EM Run 7 with 735 insts 2 vars
+EM Run 8 with 735 insts 2 vars
+EM Run 9 with 735 insts 2 vars
+Indset size 2
+Indset size 3
+EM Run 0 with 830 insts 3 vars
+EM Run 1 with 830 insts 3 vars
+EM Run 2 with 830 insts 3 vars
+EM Run 3 with 830 insts 3 vars
+EM Run 4 with 830 insts 3 vars
+EM Run 5 with 830 insts 3 vars
+EM Run 6 with 830 insts 3 vars
+EM Run 7 with 830 insts 3 vars
+EM Run 8 with 830 insts 3 vars
+EM Run 9 with 830 insts 3 vars
+Indset size 3
+EM Run 0 with 919 insts 3 vars
+EM Run 1 with 919 insts 3 vars
+EM Run 2 with 919 insts 3 vars
+EM Run 3 with 919 insts 3 vars
+EM Run 4 with 919 insts 3 vars
+EM Run 5 with 919 insts 3 vars
+EM Run 6 with 919 insts 3 vars
+EM Run 7 with 919 insts 3 vars
+EM Run 8 with 919 insts 3 vars
+EM Run 9 with 919 insts 3 vars
+Indset size 2
+Indset size 2
+EM Run 0 with 735 insts 2 vars
+EM Run 1 with 735 insts 2 vars
+EM Run 2 with 735 insts 2 vars
+EM Run 3 with 735 insts 2 vars
+EM Run 4 with 735 insts 2 vars
+EM Run 5 with 735 insts 2 vars
+EM Run 6 with 735 insts 2 vars
+EM Run 7 with 735 insts 2 vars
+EM Run 8 with 735 insts 2 vars
+EM Run 9 with 735 insts 2 vars
+Indset size 2
+Indset size 3
+Indset size 2
+EM Run 0 with 919 insts 2 vars
+EM Run 1 with 919 insts 2 vars
+EM Run 2 with 919 insts 2 vars
+EM Run 3 with 919 insts 2 vars
+EM Run 4 with 919 insts 2 vars
+EM Run 5 with 919 insts 2 vars
+EM Run 6 with 919 insts 2 vars
+EM Run 7 with 919 insts 2 vars
+EM Run 8 with 919 insts 2 vars
+EM Run 9 with 919 insts 2 vars
+Indset size 2
+EM Run 0 with 735 insts 2 vars
+EM Run 1 with 735 insts 2 vars
+EM Run 2 with 735 insts 2 vars
+EM Run 3 with 735 insts 2 vars
+EM Run 4 with 735 insts 2 vars
+EM Run 5 with 735 insts 2 vars
+EM Run 6 with 735 insts 2 vars
+EM Run 7 with 735 insts 2 vars
+EM Run 8 with 735 insts 2 vars
+EM Run 9 with 735 insts 2 vars
+Indset size 3
+EM Run 0 with 530 insts 3 vars
+EM Run 1 with 530 insts 3 vars
+EM Run 2 with 530 insts 3 vars
+EM Run 3 with 530 insts 3 vars
+EM Run 4 with 530 insts 3 vars
+EM Run 5 with 530 insts 3 vars
+EM Run 6 with 530 insts 3 vars
+EM Run 7 with 530 insts 3 vars
+EM Run 8 with 530 insts 3 vars
+EM Run 9 with 530 insts 3 vars
+Indset size 3
+Indset size 3
+EM Run 0 with 830 insts 3 vars
+EM Run 1 with 830 insts 3 vars
+EM Run 2 with 830 insts 3 vars
+EM Run 3 with 830 insts 3 vars
+EM Run 4 with 830 insts 3 vars
+EM Run 5 with 830 insts 3 vars
+EM Run 6 with 830 insts 3 vars
+EM Run 7 with 830 insts 3 vars
+EM Run 8 with 830 insts 3 vars
+EM Run 9 with 830 insts 3 vars
+Indset size 2
+Indset size 4
+Indset size 2
+Indset size 2
+Indset size 2
+EM Run 0 with 830 insts 2 vars
+EM Run 1 with 830 insts 2 vars
+EM Run 2 with 830 insts 2 vars
+EM Run 3 with 830 insts 2 vars
+EM Run 4 with 830 insts 2 vars
+EM Run 5 with 830 insts 2 vars
+EM Run 6 with 830 insts 2 vars
+EM Run 7 with 830 insts 2 vars
+EM Run 8 with 830 insts 2 vars
+EM Run 9 with 830 insts 2 vars
+Indset size 4
+Indset size 4
+EM Run 0 with 919 insts 4 vars
+EM Run 1 with 919 insts 4 vars
+EM Run 2 with 919 insts 4 vars
+EM Run 3 with 919 insts 4 vars
+EM Run 4 with 919 insts 4 vars
+EM Run 5 with 919 insts 4 vars
+EM Run 6 with 919 insts 4 vars
+EM Run 7 with 919 insts 4 vars
+EM Run 8 with 919 insts 4 vars
+EM Run 9 with 919 insts 4 vars
+Indset size 2
+Indset size 2
+Indset size 2
+EM Run 0 with 300 insts 2 vars
+EM Run 1 with 300 insts 2 vars
+EM Run 2 with 300 insts 2 vars
+EM Run 3 with 300 insts 2 vars
+EM Run 4 with 300 insts 2 vars
+EM Run 5 with 300 insts 2 vars
+EM Run 6 with 300 insts 2 vars
+EM Run 7 with 300 insts 2 vars
+EM Run 8 with 300 insts 2 vars
+EM Run 9 with 300 insts 2 vars
+Indset size 2
+Indset size 2
+EM Run 0 with 585 insts 2 vars
+EM Run 1 with 585 insts 2 vars
+EM Run 2 with 585 insts 2 vars
+EM Run 3 with 585 insts 2 vars
+EM Run 4 with 585 insts 2 vars
+EM Run 5 with 585 insts 2 vars
+EM Run 6 with 585 insts 2 vars
+EM Run 7 with 585 insts 2 vars
+EM Run 8 with 585 insts 2 vars
+EM Run 9 with 585 insts 2 vars
+Indset size 4
+EM Run 0 with 470 insts 4 vars
+EM Run 1 with 470 insts 4 vars
+EM Run 2 with 470 insts 4 vars
+EM Run 3 with 470 insts 4 vars
+EM Run 4 with 470 insts 4 vars
+EM Run 5 with 470 insts 4 vars
+EM Run 6 with 470 insts 4 vars
+EM Run 7 with 470 insts 4 vars
+EM Run 8 with 470 insts 4 vars
+EM Run 9 with 470 insts 4 vars
+Indset size 2
+Indset size 3
+Indset size 2
+EM Run 0 with 735 insts 2 vars
+EM Run 1 with 735 insts 2 vars
+EM Run 2 with 735 insts 2 vars
+EM Run 3 with 735 insts 2 vars
+EM Run 4 with 735 insts 2 vars
+EM Run 5 with 735 insts 2 vars
+EM Run 6 with 735 insts 2 vars
+EM Run 7 with 735 insts 2 vars
+EM Run 8 with 735 insts 2 vars
+EM Run 9 with 735 insts 2 vars
+Indset size 2
+EM Run 0 with 663 insts 2 vars
+EM Run 1 with 663 insts 2 vars
+EM Run 2 with 663 insts 2 vars
+EM Run 3 with 663 insts 2 vars
+EM Run 4 with 663 insts 2 vars
+EM Run 5 with 663 insts 2 vars
+EM Run 6 with 663 insts 2 vars
+EM Run 7 with 663 insts 2 vars
+EM Run 8 with 663 insts 2 vars
+EM Run 9 with 663 insts 2 vars
+Indset size 2
+EM Run 0 with 709 insts 2 vars
+EM Run 1 with 709 insts 2 vars
+EM Run 2 with 709 insts 2 vars
+EM Run 3 with 709 insts 2 vars
+EM Run 4 with 709 insts 2 vars
+EM Run 5 with 709 insts 2 vars
+EM Run 6 with 709 insts 2 vars
+EM Run 7 with 709 insts 2 vars
+EM Run 8 with 709 insts 2 vars
+EM Run 9 with 709 insts 2 vars
+Indset size 5
+Indset size 2
+EM Run 0 with 470 insts 2 vars
+EM Run 1 with 470 insts 2 vars
+EM Run 2 with 470 insts 2 vars
+EM Run 3 with 470 insts 2 vars
+EM Run 4 with 470 insts 2 vars
+EM Run 5 with 470 insts 2 vars
+EM Run 6 with 470 insts 2 vars
+EM Run 7 with 470 insts 2 vars
+EM Run 8 with 470 insts 2 vars
+EM Run 9 with 470 insts 2 vars
+Indset size 2
+Indset size 3
+EM Run 0 with 919 insts 3 vars
+EM Run 1 with 919 insts 3 vars
+EM Run 2 with 919 insts 3 vars
+EM Run 3 with 919 insts 3 vars
+EM Run 4 with 919 insts 3 vars
+EM Run 5 with 919 insts 3 vars
+EM Run 6 with 919 insts 3 vars
+EM Run 7 with 919 insts 3 vars
+EM Run 8 with 919 insts 3 vars
+EM Run 9 with 919 insts 3 vars
+Indset size 3
+Indset size 3
+Indset size 2
+Indset size 5
+EM Run 0 with 1085 insts 5 vars
+EM Run 1 with 1085 insts 5 vars
+EM Run 2 with 1085 insts 5 vars
+EM Run 3 with 1085 insts 5 vars
+EM Run 4 with 1085 insts 5 vars
+EM Run 5 with 1085 insts 5 vars
+EM Run 6 with 1085 insts 5 vars
+EM Run 7 with 1085 insts 5 vars
+EM Run 8 with 1085 insts 5 vars
+EM Run 9 with 1085 insts 5 vars
+Indset size 2
+EM Run 0 with 815 insts 2 vars
+EM Run 1 with 815 insts 2 vars
+EM Run 2 with 815 insts 2 vars
+EM Run 3 with 815 insts 2 vars
+EM Run 4 with 815 insts 2 vars
+EM Run 5 with 815 insts 2 vars
+EM Run 6 with 815 insts 2 vars
+EM Run 7 with 815 insts 2 vars
+EM Run 8 with 815 insts 2 vars
+EM Run 9 with 815 insts 2 vars
+Indset size 3
+EM Run 0 with 919 insts 3 vars
+EM Run 1 with 919 insts 3 vars
+EM Run 2 with 919 insts 3 vars
+EM Run 3 with 919 insts 3 vars
+EM Run 4 with 919 insts 3 vars
+EM Run 5 with 919 insts 3 vars
+EM Run 6 with 919 insts 3 vars
+EM Run 7 with 919 insts 3 vars
+EM Run 8 with 919 insts 3 vars
+EM Run 9 with 919 insts 3 vars
+Indset size 2
+Indset size 3
+EM Run 0 with 530 insts 3 vars
+EM Run 1 with 530 insts 3 vars
+EM Run 2 with 530 insts 3 vars
+EM Run 3 with 530 insts 3 vars
+EM Run 4 with 530 insts 3 vars
+EM Run 5 with 530 insts 3 vars
+EM Run 6 with 530 insts 3 vars
+EM Run 7 with 530 insts 3 vars
+EM Run 8 with 530 insts 3 vars
+EM Run 9 with 530 insts 3 vars
+Indset size 2
+Indset size 2
+EM Run 0 with 458 insts 2 vars
+EM Run 1 with 458 insts 2 vars
+EM Run 2 with 458 insts 2 vars
+EM Run 3 with 458 insts 2 vars
+EM Run 4 with 458 insts 2 vars
+EM Run 5 with 458 insts 2 vars
+EM Run 6 with 458 insts 2 vars
+EM Run 7 with 458 insts 2 vars
+EM Run 8 with 458 insts 2 vars
+EM Run 9 with 458 insts 2 vars
+Indset size 2
+EM Run 0 with 919 insts 2 vars
+EM Run 1 with 919 insts 2 vars
+EM Run 2 with 919 insts 2 vars
+EM Run 3 with 919 insts 2 vars
+EM Run 4 with 919 insts 2 vars
+EM Run 5 with 919 insts 2 vars
+EM Run 6 with 919 insts 2 vars
+EM Run 7 with 919 insts 2 vars
+EM Run 8 with 919 insts 2 vars
+EM Run 9 with 919 insts 2 vars
+Indset size 2
+Indset size 2
+EM Run 0 with 530 insts 2 vars
+EM Run 1 with 530 insts 2 vars
+EM Run 2 with 530 insts 2 vars
+EM Run 3 with 530 insts 2 vars
+EM Run 4 with 530 insts 2 vars
+EM Run 5 with 530 insts 2 vars
+EM Run 6 with 530 insts 2 vars
+EM Run 7 with 530 insts 2 vars
+EM Run 8 with 530 insts 2 vars
+EM Run 9 with 530 insts 2 vars
+Indset size 2
+Indset size 2
+Indset size 2
+EM Run 0 with 919 insts 2 vars
+EM Run 1 with 919 insts 2 vars
+EM Run 2 with 919 insts 2 vars
+EM Run 3 with 919 insts 2 vars
+EM Run 4 with 919 insts 2 vars
+EM Run 5 with 919 insts 2 vars
+EM Run 6 with 919 insts 2 vars
+EM Run 7 with 919 insts 2 vars
+EM Run 8 with 919 insts 2 vars
+EM Run 9 with 919 insts 2 vars
+Indset size 2
+EM Run 0 with 319 insts 2 vars
+EM Run 1 with 319 insts 2 vars
+EM Run 2 with 319 insts 2 vars
+EM Run 3 with 319 insts 2 vars
+EM Run 4 with 319 insts 2 vars
+EM Run 5 with 319 insts 2 vars
+EM Run 6 with 319 insts 2 vars
+EM Run 7 with 319 insts 2 vars
+EM Run 8 with 319 insts 2 vars
+EM Run 9 with 319 insts 2 vars
+Indset size 5
+Indset size 2
+EM Run 0 with 815 insts 2 vars
+EM Run 1 with 815 insts 2 vars
+EM Run 2 with 815 insts 2 vars
+EM Run 3 with 815 insts 2 vars
+EM Run 4 with 815 insts 2 vars
+EM Run 5 with 815 insts 2 vars
+EM Run 6 with 815 insts 2 vars
+EM Run 7 with 815 insts 2 vars
+EM Run 8 with 815 insts 2 vars
+EM Run 9 with 815 insts 2 vars
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 5
+EM Run 0 with 319 insts 5 vars
+EM Run 1 with 319 insts 5 vars
+EM Run 2 with 319 insts 5 vars
+EM Run 3 with 319 insts 5 vars
+EM Run 4 with 319 insts 5 vars
+EM Run 5 with 319 insts 5 vars
+EM Run 6 with 319 insts 5 vars
+EM Run 7 with 319 insts 5 vars
+EM Run 8 with 319 insts 5 vars
+EM Run 9 with 319 insts 5 vars
+Indset size 6
+Indset size 5
+Indset size 2
+EM Run 0 with 585 insts 2 vars
+EM Run 1 with 585 insts 2 vars
+EM Run 2 with 585 insts 2 vars
+EM Run 3 with 585 insts 2 vars
+EM Run 4 with 585 insts 2 vars
+EM Run 5 with 585 insts 2 vars
+EM Run 6 with 585 insts 2 vars
+EM Run 7 with 585 insts 2 vars
+EM Run 8 with 585 insts 2 vars
+EM Run 9 with 585 insts 2 vars
+Indset size 2
+EM Run 0 with 830 insts 2 vars
+EM Run 1 with 830 insts 2 vars
+EM Run 2 with 830 insts 2 vars
+EM Run 3 with 830 insts 2 vars
+EM Run 4 with 830 insts 2 vars
+EM Run 5 with 830 insts 2 vars
+EM Run 6 with 830 insts 2 vars
+EM Run 7 with 830 insts 2 vars
+EM Run 8 with 830 insts 2 vars
+EM Run 9 with 830 insts 2 vars
+Indset size 2
+EM Run 0 with 458 insts 2 vars
+EM Run 1 with 458 insts 2 vars
+EM Run 2 with 458 insts 2 vars
+EM Run 3 with 458 insts 2 vars
+EM Run 4 with 458 insts 2 vars
+EM Run 5 with 458 insts 2 vars
+EM Run 6 with 458 insts 2 vars
+EM Run 7 with 458 insts 2 vars
+EM Run 8 with 458 insts 2 vars
+EM Run 9 with 458 insts 2 vars
+Indset size 6
+EM Run 0 with 470 insts 6 vars
+EM Run 1 with 470 insts 6 vars
+EM Run 2 with 470 insts 6 vars
+EM Run 3 with 470 insts 6 vars
+EM Run 4 with 470 insts 6 vars
+EM Run 5 with 470 insts 6 vars
+EM Run 6 with 470 insts 6 vars
+EM Run 7 with 470 insts 6 vars
+EM Run 8 with 470 insts 6 vars
+EM Run 9 with 470 insts 6 vars
+Indset size 5
+EM Run 0 with 709 insts 5 vars
+EM Run 1 with 709 insts 5 vars
+EM Run 2 with 709 insts 5 vars
+EM Run 3 with 709 insts 5 vars
+EM Run 4 with 709 insts 5 vars
+EM Run 5 with 709 insts 5 vars
+EM Run 6 with 709 insts 5 vars
+EM Run 7 with 709 insts 5 vars
+EM Run 8 with 709 insts 5 vars
+EM Run 9 with 709 insts 5 vars
+Indset size 3
+Indset size 2
+Indset size 2
+Indset size 3
+Indset size 3
+EM Run 0 with 709 insts 3 vars
+EM Run 1 with 709 insts 3 vars
+EM Run 2 with 709 insts 3 vars
+EM Run 3 with 709 insts 3 vars
+EM Run 4 with 709 insts 3 vars
+EM Run 5 with 709 insts 3 vars
+EM Run 6 with 709 insts 3 vars
+EM Run 7 with 709 insts 3 vars
+EM Run 8 with 709 insts 3 vars
+EM Run 9 with 709 insts 3 vars
+Indset size 2
+EM Run 0 with 585 insts 2 vars
+EM Run 1 with 585 insts 2 vars
+EM Run 2 with 585 insts 2 vars
+EM Run 3 with 585 insts 2 vars
+EM Run 4 with 585 insts 2 vars
+EM Run 5 with 585 insts 2 vars
+EM Run 6 with 585 insts 2 vars
+EM Run 7 with 585 insts 2 vars
+EM Run 8 with 585 insts 2 vars
+EM Run 9 with 585 insts 2 vars
+Indset size 3
+Indset size 2
+EM Run 0 with 815 insts 2 vars
+EM Run 1 with 815 insts 2 vars
+EM Run 2 with 815 insts 2 vars
+EM Run 3 with 815 insts 2 vars
+EM Run 4 with 815 insts 2 vars
+EM Run 5 with 815 insts 2 vars
+EM Run 6 with 815 insts 2 vars
+EM Run 7 with 815 insts 2 vars
+EM Run 8 with 815 insts 2 vars
+EM Run 9 with 815 insts 2 vars
+Indset size 3
+EM Run 0 with 735 insts 3 vars
+EM Run 1 with 735 insts 3 vars
+EM Run 2 with 735 insts 3 vars
+EM Run 3 with 735 insts 3 vars
+EM Run 4 with 735 insts 3 vars
+EM Run 5 with 735 insts 3 vars
+EM Run 6 with 735 insts 3 vars
+EM Run 7 with 735 insts 3 vars
+EM Run 8 with 735 insts 3 vars
+EM Run 9 with 735 insts 3 vars
+Indset size 7
+Indset size 3
+EM Run 0 with 470 insts 3 vars
+EM Run 1 with 470 insts 3 vars
+EM Run 2 with 470 insts 3 vars
+EM Run 3 with 470 insts 3 vars
+EM Run 4 with 470 insts 3 vars
+EM Run 5 with 470 insts 3 vars
+EM Run 6 with 470 insts 3 vars
+EM Run 7 with 470 insts 3 vars
+EM Run 8 with 470 insts 3 vars
+EM Run 9 with 470 insts 3 vars
+Indset size 2
+Indset size 7
+EM Run 0 with 585 insts 7 vars
+EM Run 1 with 585 insts 7 vars
+EM Run 2 with 585 insts 7 vars
+EM Run 3 with 585 insts 7 vars
+EM Run 4 with 585 insts 7 vars
+EM Run 5 with 585 insts 7 vars
+EM Run 6 with 585 insts 7 vars
+EM Run 7 with 585 insts 7 vars
+EM Run 8 with 585 insts 7 vars
+EM Run 9 with 585 insts 7 vars
+Indset size 2
+Indset size 2
+Indset size 4
+Indset size 2
+EM Run 0 with 709 insts 2 vars
+EM Run 1 with 709 insts 2 vars
+EM Run 2 with 709 insts 2 vars
+EM Run 3 with 709 insts 2 vars
+EM Run 4 with 709 insts 2 vars
+EM Run 5 with 709 insts 2 vars
+EM Run 6 with 709 insts 2 vars
+EM Run 7 with 709 insts 2 vars
+EM Run 8 with 709 insts 2 vars
+EM Run 9 with 709 insts 2 vars
+Indset size 2
+EM Run 0 with 830 insts 2 vars
+EM Run 1 with 830 insts 2 vars
+EM Run 2 with 830 insts 2 vars
+EM Run 3 with 830 insts 2 vars
+EM Run 4 with 830 insts 2 vars
+EM Run 5 with 830 insts 2 vars
+EM Run 6 with 830 insts 2 vars
+EM Run 7 with 830 insts 2 vars
+EM Run 8 with 830 insts 2 vars
+EM Run 9 with 830 insts 2 vars
+Indset size 2
+EM Run 0 with 458 insts 2 vars
+EM Run 1 with 458 insts 2 vars
+EM Run 2 with 458 insts 2 vars
+EM Run 3 with 458 insts 2 vars
+EM Run 4 with 458 insts 2 vars
+EM Run 5 with 458 insts 2 vars
+EM Run 6 with 458 insts 2 vars
+EM Run 7 with 458 insts 2 vars
+EM Run 8 with 458 insts 2 vars
+EM Run 9 with 458 insts 2 vars
+Indset size 2
+Indset size 4
+EM Run 0 with 530 insts 4 vars
+EM Run 1 with 530 insts 4 vars
+EM Run 2 with 530 insts 4 vars
+EM Run 3 with 530 insts 4 vars
+EM Run 4 with 530 insts 4 vars
+EM Run 5 with 530 insts 4 vars
+EM Run 6 with 530 insts 4 vars
+EM Run 7 with 530 insts 4 vars
+EM Run 8 with 530 insts 4 vars
+EM Run 9 with 530 insts 4 vars
+Indset size 2
+EM Run 0 with 815 insts 2 vars
+EM Run 1 with 815 insts 2 vars
+EM Run 2 with 815 insts 2 vars
+EM Run 3 with 815 insts 2 vars
+EM Run 4 with 815 insts 2 vars
+EM Run 5 with 815 insts 2 vars
+EM Run 6 with 815 insts 2 vars
+EM Run 7 with 815 insts 2 vars
+EM Run 8 with 815 insts 2 vars
+EM Run 9 with 815 insts 2 vars
+Indset size 4
+Indset size 2
+Indset size 2
+Indset size 3
+Indset size 2
+Indset size 4
+EM Run 0 with 585 insts 4 vars
+EM Run 1 with 585 insts 4 vars
+EM Run 2 with 585 insts 4 vars
+EM Run 3 with 585 insts 4 vars
+EM Run 4 with 585 insts 4 vars
+EM Run 5 with 585 insts 4 vars
+EM Run 6 with 585 insts 4 vars
+EM Run 7 with 585 insts 4 vars
+EM Run 8 with 585 insts 4 vars
+EM Run 9 with 585 insts 4 vars
+Indset size 2
+EM Run 0 with 458 insts 2 vars
+EM Run 1 with 458 insts 2 vars
+EM Run 2 with 458 insts 2 vars
+EM Run 3 with 458 insts 2 vars
+EM Run 4 with 458 insts 2 vars
+EM Run 5 with 458 insts 2 vars
+EM Run 6 with 458 insts 2 vars
+EM Run 7 with 458 insts 2 vars
+EM Run 8 with 458 insts 2 vars
+EM Run 9 with 458 insts 2 vars
+Indset size 2
+EM Run 0 with 470 insts 2 vars
+EM Run 1 with 470 insts 2 vars
+EM Run 2 with 470 insts 2 vars
+EM Run 3 with 470 insts 2 vars
+EM Run 4 with 470 insts 2 vars
+EM Run 5 with 470 insts 2 vars
+EM Run 6 with 470 insts 2 vars
+EM Run 7 with 470 insts 2 vars
+EM Run 8 with 470 insts 2 vars
+EM Run 9 with 470 insts 2 vars
+Indset size 3
+EM Run 0 with 663 insts 3 vars
+EM Run 1 with 663 insts 3 vars
+EM Run 2 with 663 insts 3 vars
+EM Run 3 with 663 insts 3 vars
+EM Run 4 with 663 insts 3 vars
+EM Run 5 with 663 insts 3 vars
+EM Run 6 with 663 insts 3 vars
+EM Run 7 with 663 insts 3 vars
+EM Run 8 with 663 insts 3 vars
+EM Run 9 with 663 insts 3 vars
+Indset size 2
+EM Run 0 with 300 insts 2 vars
+EM Run 1 with 300 insts 2 vars
+EM Run 2 with 300 insts 2 vars
+EM Run 3 with 300 insts 2 vars
+EM Run 4 with 300 insts 2 vars
+EM Run 5 with 300 insts 2 vars
+EM Run 6 with 300 insts 2 vars
+EM Run 7 with 300 insts 2 vars
+EM Run 8 with 300 insts 2 vars
+EM Run 9 with 300 insts 2 vars
+Indset size 5
+Indset size 5
+EM Run 0 with 300 insts 5 vars
+EM Run 1 with 300 insts 5 vars
+EM Run 2 with 300 insts 5 vars
+EM Run 3 with 300 insts 5 vars
+EM Run 4 with 300 insts 5 vars
+EM Run 5 with 300 insts 5 vars
+EM Run 6 with 300 insts 5 vars
+EM Run 7 with 300 insts 5 vars
+EM Run 8 with 300 insts 5 vars
+EM Run 9 with 300 insts 5 vars
+Indset size 3
+Indset size 3
+EM Run 0 with 830 insts 3 vars
+EM Run 1 with 830 insts 3 vars
+EM Run 2 with 830 insts 3 vars
+EM Run 3 with 830 insts 3 vars
+EM Run 4 with 830 insts 3 vars
+EM Run 5 with 830 insts 3 vars
+EM Run 6 with 830 insts 3 vars
+EM Run 7 with 830 insts 3 vars
+EM Run 8 with 830 insts 3 vars
+EM Run 9 with 830 insts 3 vars
+Indset size 2
+Indset size 2
+Indset size 4
+Indset size 2
+EM Run 0 with 663 insts 2 vars
+EM Run 1 with 663 insts 2 vars
+EM Run 2 with 663 insts 2 vars
+EM Run 3 with 663 insts 2 vars
+EM Run 4 with 663 insts 2 vars
+EM Run 5 with 663 insts 2 vars
+EM Run 6 with 663 insts 2 vars
+EM Run 7 with 663 insts 2 vars
+EM Run 8 with 663 insts 2 vars
+EM Run 9 with 663 insts 2 vars
+Indset size 3
+Indset size 2
+EM Run 0 with 530 insts 2 vars
+EM Run 1 with 530 insts 2 vars
+EM Run 2 with 530 insts 2 vars
+EM Run 3 with 530 insts 2 vars
+EM Run 4 with 530 insts 2 vars
+EM Run 5 with 530 insts 2 vars
+EM Run 6 with 530 insts 2 vars
+EM Run 7 with 530 insts 2 vars
+EM Run 8 with 530 insts 2 vars
+EM Run 9 with 530 insts 2 vars
+Indset size 3
+Indset size 4
+EM Run 0 with 815 insts 4 vars
+EM Run 1 with 815 insts 4 vars
+EM Run 2 with 815 insts 4 vars
+EM Run 3 with 815 insts 4 vars
+EM Run 4 with 815 insts 4 vars
+EM Run 5 with 815 insts 4 vars
+EM Run 6 with 815 insts 4 vars
+EM Run 7 with 815 insts 4 vars
+EM Run 8 with 815 insts 4 vars
+EM Run 9 with 815 insts 4 vars
+Indset size 3
+EM Run 0 with 663 insts 3 vars
+EM Run 1 with 663 insts 3 vars
+EM Run 2 with 663 insts 3 vars
+EM Run 3 with 663 insts 3 vars
+EM Run 4 with 663 insts 3 vars
+EM Run 5 with 663 insts 3 vars
+EM Run 6 with 663 insts 3 vars
+EM Run 7 with 663 insts 3 vars
+EM Run 8 with 663 insts 3 vars
+EM Run 9 with 663 insts 3 vars
+Indset size 4
+Indset size 3
+EM Run 0 with 470 insts 3 vars
+EM Run 1 with 470 insts 3 vars
+EM Run 2 with 470 insts 3 vars
+EM Run 3 with 470 insts 3 vars
+EM Run 4 with 470 insts 3 vars
+EM Run 5 with 470 insts 3 vars
+EM Run 6 with 470 insts 3 vars
+EM Run 7 with 470 insts 3 vars
+EM Run 8 with 470 insts 3 vars
+EM Run 9 with 470 insts 3 vars
+Indset size 2
+Indset size 4
+EM Run 0 with 709 insts 4 vars
+EM Run 1 with 709 insts 4 vars
+EM Run 2 with 709 insts 4 vars
+EM Run 3 with 709 insts 4 vars
+EM Run 4 with 709 insts 4 vars
+EM Run 5 with 709 insts 4 vars
+EM Run 6 with 709 insts 4 vars
+EM Run 7 with 709 insts 4 vars
+EM Run 8 with 709 insts 4 vars
+EM Run 9 with 709 insts 4 vars
+Indset size 3
+Indset size 2
+EM Run 0 with 300 insts 2 vars
+EM Run 1 with 300 insts 2 vars
+EM Run 2 with 300 insts 2 vars
+EM Run 3 with 300 insts 2 vars
+EM Run 4 with 300 insts 2 vars
+EM Run 5 with 300 insts 2 vars
+EM Run 6 with 300 insts 2 vars
+EM Run 7 with 300 insts 2 vars
+EM Run 8 with 300 insts 2 vars
+EM Run 9 with 300 insts 2 vars
+Indset size 2
+Indset size 3
+EM Run 0 with 470 insts 3 vars
+EM Run 1 with 470 insts 3 vars
+EM Run 2 with 470 insts 3 vars
+EM Run 3 with 470 insts 3 vars
+EM Run 4 with 470 insts 3 vars
+EM Run 5 with 470 insts 3 vars
+EM Run 6 with 470 insts 3 vars
+EM Run 7 with 470 insts 3 vars
+EM Run 8 with 470 insts 3 vars
+EM Run 9 with 470 insts 3 vars
+Indset size 4
+Indset size 2
+Indset size 3
+Indset size 2
+Indset size 2
+EM Run 0 with 458 insts 2 vars
+EM Run 1 with 458 insts 2 vars
+EM Run 2 with 458 insts 2 vars
+EM Run 3 with 458 insts 2 vars
+EM Run 4 with 458 insts 2 vars
+EM Run 5 with 458 insts 2 vars
+EM Run 6 with 458 insts 2 vars
+EM Run 7 with 458 insts 2 vars
+EM Run 8 with 458 insts 2 vars
+EM Run 9 with 458 insts 2 vars
+Indset size 4
+EM Run 0 with 815 insts 4 vars
+EM Run 1 with 815 insts 4 vars
+EM Run 2 with 815 insts 4 vars
+EM Run 3 with 815 insts 4 vars
+EM Run 4 with 815 insts 4 vars
+EM Run 5 with 815 insts 4 vars
+EM Run 6 with 815 insts 4 vars
+EM Run 7 with 815 insts 4 vars
+EM Run 8 with 815 insts 4 vars
+EM Run 9 with 815 insts 4 vars
+Indset size 2
+EM Run 0 with 919 insts 2 vars
+EM Run 1 with 919 insts 2 vars
+EM Run 2 with 919 insts 2 vars
+EM Run 3 with 919 insts 2 vars
+EM Run 4 with 919 insts 2 vars
+EM Run 5 with 919 insts 2 vars
+EM Run 6 with 919 insts 2 vars
+EM Run 7 with 919 insts 2 vars
+EM Run 8 with 919 insts 2 vars
+EM Run 9 with 919 insts 2 vars
+Indset size 3
+EM Run 0 with 300 insts 3 vars
+EM Run 1 with 300 insts 3 vars
+EM Run 2 with 300 insts 3 vars
+EM Run 3 with 300 insts 3 vars
+EM Run 4 with 300 insts 3 vars
+EM Run 5 with 300 insts 3 vars
+EM Run 6 with 300 insts 3 vars
+EM Run 7 with 300 insts 3 vars
+EM Run 8 with 300 insts 3 vars
+EM Run 9 with 300 insts 3 vars
+Indset size 2
+EM Run 0 with 830 insts 2 vars
+EM Run 1 with 830 insts 2 vars
+EM Run 2 with 830 insts 2 vars
+EM Run 3 with 830 insts 2 vars
+EM Run 4 with 830 insts 2 vars
+EM Run 5 with 830 insts 2 vars
+EM Run 6 with 830 insts 2 vars
+EM Run 7 with 830 insts 2 vars
+EM Run 8 with 830 insts 2 vars
+EM Run 9 with 830 insts 2 vars
+Indset size 2
+Indset size 2
+Indset size 2
+EM Run 0 with 830 insts 2 vars
+EM Run 1 with 830 insts 2 vars
+EM Run 2 with 830 insts 2 vars
+EM Run 3 with 830 insts 2 vars
+EM Run 4 with 830 insts 2 vars
+EM Run 5 with 830 insts 2 vars
+EM Run 6 with 830 insts 2 vars
+EM Run 7 with 830 insts 2 vars
+EM Run 8 with 830 insts 2 vars
+EM Run 9 with 830 insts 2 vars
+Indset size 2
+EM Run 0 with 458 insts 2 vars
+EM Run 1 with 458 insts 2 vars
+EM Run 2 with 458 insts 2 vars
+EM Run 3 with 458 insts 2 vars
+EM Run 4 with 458 insts 2 vars
+EM Run 5 with 458 insts 2 vars
+EM Run 6 with 458 insts 2 vars
+EM Run 7 with 458 insts 2 vars
+EM Run 8 with 458 insts 2 vars
+EM Run 9 with 458 insts 2 vars
+Indset size 2
+Indset size 2
+Indset size 2
+EM Run 0 with 815 insts 2 vars
+EM Run 1 with 815 insts 2 vars
+EM Run 2 with 815 insts 2 vars
+EM Run 3 with 815 insts 2 vars
+EM Run 4 with 815 insts 2 vars
+EM Run 5 with 815 insts 2 vars
+EM Run 6 with 815 insts 2 vars
+EM Run 7 with 815 insts 2 vars
+EM Run 8 with 815 insts 2 vars
+EM Run 9 with 815 insts 2 vars
+Indset size 2
+EM Run 0 with 735 insts 2 vars
+EM Run 1 with 735 insts 2 vars
+EM Run 2 with 735 insts 2 vars
+EM Run 3 with 735 insts 2 vars
+EM Run 4 with 735 insts 2 vars
+EM Run 5 with 735 insts 2 vars
+EM Run 6 with 735 insts 2 vars
+EM Run 7 with 735 insts 2 vars
+EM Run 8 with 735 insts 2 vars
+EM Run 9 with 735 insts 2 vars
+Indset size 2
+Indset size 2
+EM Run 0 with 735 insts 2 vars
+EM Run 1 with 735 insts 2 vars
+EM Run 2 with 735 insts 2 vars
+EM Run 3 with 735 insts 2 vars
+EM Run 4 with 735 insts 2 vars
+EM Run 5 with 735 insts 2 vars
+EM Run 6 with 735 insts 2 vars
+EM Run 7 with 735 insts 2 vars
+EM Run 8 with 735 insts 2 vars
+EM Run 9 with 735 insts 2 vars
+Indset size 3
+Indset size 3
+EM Run 0 with 735 insts 3 vars
+EM Run 1 with 735 insts 3 vars
+EM Run 2 with 735 insts 3 vars
+EM Run 3 with 735 insts 3 vars
+EM Run 4 with 735 insts 3 vars
+EM Run 5 with 735 insts 3 vars
+EM Run 6 with 735 insts 3 vars
+EM Run 7 with 735 insts 3 vars
+EM Run 8 with 735 insts 3 vars
+EM Run 9 with 735 insts 3 vars
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+EM Run 0 with 530 insts 2 vars
+EM Run 1 with 530 insts 2 vars
+EM Run 2 with 530 insts 2 vars
+EM Run 3 with 530 insts 2 vars
+EM Run 4 with 530 insts 2 vars
+EM Run 5 with 530 insts 2 vars
+EM Run 6 with 530 insts 2 vars
+EM Run 7 with 530 insts 2 vars
+EM Run 8 with 530 insts 2 vars
+EM Run 9 with 530 insts 2 vars
+Indset size 2
+EM Run 0 with 709 insts 2 vars
+EM Run 1 with 709 insts 2 vars
+EM Run 2 with 709 insts 2 vars
+EM Run 3 with 709 insts 2 vars
+EM Run 4 with 709 insts 2 vars
+EM Run 5 with 709 insts 2 vars
+EM Run 6 with 709 insts 2 vars
+EM Run 7 with 709 insts 2 vars
+EM Run 8 with 709 insts 2 vars
+EM Run 9 with 709 insts 2 vars
+Indset size 2
+EM Run 0 with 830 insts 2 vars
+EM Run 1 with 830 insts 2 vars
+EM Run 2 with 830 insts 2 vars
+EM Run 3 with 830 insts 2 vars
+EM Run 4 with 830 insts 2 vars
+EM Run 5 with 830 insts 2 vars
+EM Run 6 with 830 insts 2 vars
+EM Run 7 with 830 insts 2 vars
+EM Run 8 with 830 insts 2 vars
+EM Run 9 with 830 insts 2 vars
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+EM Run 0 with 1085 insts 2 vars
+EM Run 1 with 1085 insts 2 vars
+EM Run 2 with 1085 insts 2 vars
+EM Run 3 with 1085 insts 2 vars
+EM Run 4 with 1085 insts 2 vars
+EM Run 5 with 1085 insts 2 vars
+EM Run 6 with 1085 insts 2 vars
+EM Run 7 with 1085 insts 2 vars
+EM Run 8 with 1085 insts 2 vars
+EM Run 9 with 1085 insts 2 vars
+Indset size 2
+EM Run 0 with 470 insts 2 vars
+EM Run 1 with 470 insts 2 vars
+EM Run 2 with 470 insts 2 vars
+EM Run 3 with 470 insts 2 vars
+EM Run 4 with 470 insts 2 vars
+EM Run 5 with 470 insts 2 vars
+EM Run 6 with 470 insts 2 vars
+EM Run 7 with 470 insts 2 vars
+EM Run 8 with 470 insts 2 vars
+EM Run 9 with 470 insts 2 vars
+Indset size 2
+EM Run 0 with 830 insts 2 vars
+EM Run 1 with 830 insts 2 vars
+EM Run 2 with 830 insts 2 vars
+EM Run 3 with 830 insts 2 vars
+EM Run 4 with 830 insts 2 vars
+EM Run 5 with 830 insts 2 vars
+EM Run 6 with 830 insts 2 vars
+EM Run 7 with 830 insts 2 vars
+EM Run 8 with 830 insts 2 vars
+EM Run 9 with 830 insts 2 vars
+Indset size 2
+Indset size 3
+Indset size 2
+EM Run 0 with 470 insts 2 vars
+EM Run 1 with 470 insts 2 vars
+EM Run 2 with 470 insts 2 vars
+EM Run 3 with 470 insts 2 vars
+EM Run 4 with 470 insts 2 vars
+EM Run 5 with 470 insts 2 vars
+EM Run 6 with 470 insts 2 vars
+EM Run 7 with 470 insts 2 vars
+EM Run 8 with 470 insts 2 vars
+EM Run 9 with 470 insts 2 vars
+Indset size 2
+Indset size 3
+EM Run 0 with 585 insts 3 vars
+EM Run 1 with 585 insts 3 vars
+EM Run 2 with 585 insts 3 vars
+EM Run 3 with 585 insts 3 vars
+EM Run 4 with 585 insts 3 vars
+EM Run 5 with 585 insts 3 vars
+EM Run 6 with 585 insts 3 vars
+EM Run 7 with 585 insts 3 vars
+EM Run 8 with 585 insts 3 vars
+EM Run 9 with 585 insts 3 vars
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+EM Run 0 with 735 insts 2 vars
+EM Run 1 with 735 insts 2 vars
+EM Run 2 with 735 insts 2 vars
+EM Run 3 with 735 insts 2 vars
+EM Run 4 with 735 insts 2 vars
+EM Run 5 with 735 insts 2 vars
+EM Run 6 with 735 insts 2 vars
+EM Run 7 with 735 insts 2 vars
+EM Run 8 with 735 insts 2 vars
+EM Run 9 with 735 insts 2 vars
+Indset size 2
+EM Run 0 with 585 insts 2 vars
+EM Run 1 with 585 insts 2 vars
+EM Run 2 with 585 insts 2 vars
+EM Run 3 with 585 insts 2 vars
+EM Run 4 with 585 insts 2 vars
+EM Run 5 with 585 insts 2 vars
+EM Run 6 with 585 insts 2 vars
+EM Run 7 with 585 insts 2 vars
+EM Run 8 with 585 insts 2 vars
+EM Run 9 with 585 insts 2 vars
+Indset size 2
+EM Run 0 with 319 insts 2 vars
+EM Run 1 with 319 insts 2 vars
+EM Run 2 with 319 insts 2 vars
+EM Run 3 with 319 insts 2 vars
+EM Run 4 with 319 insts 2 vars
+EM Run 5 with 319 insts 2 vars
+EM Run 6 with 319 insts 2 vars
+EM Run 7 with 319 insts 2 vars
+EM Run 8 with 319 insts 2 vars
+EM Run 9 with 319 insts 2 vars
+Indset size 2
+EM Run 0 with 470 insts 2 vars
+EM Run 1 with 470 insts 2 vars
+EM Run 2 with 470 insts 2 vars
+EM Run 3 with 470 insts 2 vars
+EM Run 4 with 470 insts 2 vars
+EM Run 5 with 470 insts 2 vars
+EM Run 6 with 470 insts 2 vars
+EM Run 7 with 470 insts 2 vars
+EM Run 8 with 470 insts 2 vars
+EM Run 9 with 470 insts 2 vars
+Indset size 2
+Indset size 2
+Indset size 2
+EM Run 0 with 470 insts 2 vars
+EM Run 1 with 470 insts 2 vars
+EM Run 2 with 470 insts 2 vars
+EM Run 3 with 470 insts 2 vars
+EM Run 4 with 470 insts 2 vars
+EM Run 5 with 470 insts 2 vars
+EM Run 6 with 470 insts 2 vars
+EM Run 7 with 470 insts 2 vars
+EM Run 8 with 470 insts 2 vars
+EM Run 9 with 470 insts 2 vars
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+EM Run 0 with 458 insts 2 vars
+EM Run 1 with 458 insts 2 vars
+EM Run 2 with 458 insts 2 vars
+EM Run 3 with 458 insts 2 vars
+EM Run 4 with 458 insts 2 vars
+EM Run 5 with 458 insts 2 vars
+EM Run 6 with 458 insts 2 vars
+EM Run 7 with 458 insts 2 vars
+EM Run 8 with 458 insts 2 vars
+EM Run 9 with 458 insts 2 vars
+Indset size 2
+EM Run 0 with 470 insts 2 vars
+EM Run 1 with 470 insts 2 vars
+EM Run 2 with 470 insts 2 vars
+EM Run 3 with 470 insts 2 vars
+EM Run 4 with 470 insts 2 vars
+EM Run 5 with 470 insts 2 vars
+EM Run 6 with 470 insts 2 vars
+EM Run 7 with 470 insts 2 vars
+EM Run 8 with 470 insts 2 vars
+EM Run 9 with 470 insts 2 vars
+Indset size 2
+EM Run 0 with 300 insts 2 vars
+EM Run 1 with 300 insts 2 vars
+EM Run 2 with 300 insts 2 vars
+EM Run 3 with 300 insts 2 vars
+EM Run 4 with 300 insts 2 vars
+EM Run 5 with 300 insts 2 vars
+EM Run 6 with 300 insts 2 vars
+EM Run 7 with 300 insts 2 vars
+EM Run 8 with 300 insts 2 vars
+EM Run 9 with 300 insts 2 vars
+Indset size 2
+EM Run 0 with 830 insts 2 vars
+EM Run 1 with 830 insts 2 vars
+EM Run 2 with 830 insts 2 vars
+EM Run 3 with 830 insts 2 vars
+EM Run 4 with 830 insts 2 vars
+EM Run 5 with 830 insts 2 vars
+EM Run 6 with 830 insts 2 vars
+EM Run 7 with 830 insts 2 vars
+EM Run 8 with 830 insts 2 vars
+EM Run 9 with 830 insts 2 vars
+Indset size 3
+Indset size 3
+EM Run 0 with 830 insts 3 vars
+EM Run 1 with 830 insts 3 vars
+EM Run 2 with 830 insts 3 vars
+EM Run 3 with 830 insts 3 vars
+EM Run 4 with 830 insts 3 vars
+EM Run 5 with 830 insts 3 vars
+EM Run 6 with 830 insts 3 vars
+EM Run 7 with 830 insts 3 vars
+EM Run 8 with 830 insts 3 vars
+EM Run 9 with 830 insts 3 vars
+Indset size 2
+Indset size 2
+EM Run 0 with 830 insts 2 vars
+EM Run 1 with 830 insts 2 vars
+EM Run 2 with 830 insts 2 vars
+EM Run 3 with 830 insts 2 vars
+EM Run 4 with 830 insts 2 vars
+EM Run 5 with 830 insts 2 vars
+EM Run 6 with 830 insts 2 vars
+EM Run 7 with 830 insts 2 vars
+EM Run 8 with 830 insts 2 vars
+EM Run 9 with 830 insts 2 vars
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+EM Run 0 with 470 insts 2 vars
+EM Run 1 with 470 insts 2 vars
+EM Run 2 with 470 insts 2 vars
+EM Run 3 with 470 insts 2 vars
+EM Run 4 with 470 insts 2 vars
+EM Run 5 with 470 insts 2 vars
+EM Run 6 with 470 insts 2 vars
+EM Run 7 with 470 insts 2 vars
+EM Run 8 with 470 insts 2 vars
+EM Run 9 with 470 insts 2 vars
+Indset size 2
+Indset size 2
+EM Run 0 with 530 insts 2 vars
+EM Run 1 with 530 insts 2 vars
+EM Run 2 with 530 insts 2 vars
+EM Run 3 with 530 insts 2 vars
+EM Run 4 with 530 insts 2 vars
+EM Run 5 with 530 insts 2 vars
+EM Run 6 with 530 insts 2 vars
+EM Run 7 with 530 insts 2 vars
+EM Run 8 with 530 insts 2 vars
+EM Run 9 with 530 insts 2 vars
+Indset size 2
+EM Run 0 with 300 insts 2 vars
+EM Run 1 with 300 insts 2 vars
+EM Run 2 with 300 insts 2 vars
+EM Run 3 with 300 insts 2 vars
+EM Run 4 with 300 insts 2 vars
+EM Run 5 with 300 insts 2 vars
+EM Run 6 with 300 insts 2 vars
+EM Run 7 with 300 insts 2 vars
+EM Run 8 with 300 insts 2 vars
+EM Run 9 with 300 insts 2 vars
+Indset size 2
+EM Run 0 with 735 insts 2 vars
+EM Run 1 with 735 insts 2 vars
+EM Run 2 with 735 insts 2 vars
+EM Run 3 with 735 insts 2 vars
+EM Run 4 with 735 insts 2 vars
+EM Run 5 with 735 insts 2 vars
+EM Run 6 with 735 insts 2 vars
+EM Run 7 with 735 insts 2 vars
+EM Run 8 with 735 insts 2 vars
+EM Run 9 with 735 insts 2 vars
+Indset size 2
+Indset size 2
+Indset size 2
+EM Run 0 with 735 insts 2 vars
+EM Run 1 with 735 insts 2 vars
+EM Run 2 with 735 insts 2 vars
+EM Run 3 with 735 insts 2 vars
+EM Run 4 with 735 insts 2 vars
+EM Run 5 with 735 insts 2 vars
+EM Run 6 with 735 insts 2 vars
+EM Run 7 with 735 insts 2 vars
+EM Run 8 with 735 insts 2 vars
+EM Run 9 with 735 insts 2 vars
+Indset size 2
+EM Run 0 with 709 insts 2 vars
+EM Run 1 with 709 insts 2 vars
+EM Run 2 with 709 insts 2 vars
+EM Run 3 with 709 insts 2 vars
+EM Run 4 with 709 insts 2 vars
+EM Run 5 with 709 insts 2 vars
+EM Run 6 with 709 insts 2 vars
+EM Run 7 with 709 insts 2 vars
+EM Run 8 with 709 insts 2 vars
+EM Run 9 with 709 insts 2 vars
+Indset size 2
+Indset size 2
+Indset size 2
+EM Run 0 with 735 insts 2 vars
+EM Run 1 with 735 insts 2 vars
+EM Run 2 with 735 insts 2 vars
+EM Run 3 with 735 insts 2 vars
+EM Run 4 with 735 insts 2 vars
+EM Run 5 with 735 insts 2 vars
+EM Run 6 with 735 insts 2 vars
+EM Run 7 with 735 insts 2 vars
+EM Run 8 with 735 insts 2 vars
+EM Run 9 with 735 insts 2 vars
+Indset size 2
+EM Run 0 with 470 insts 2 vars
+EM Run 1 with 470 insts 2 vars
+EM Run 2 with 470 insts 2 vars
+EM Run 3 with 470 insts 2 vars
+EM Run 4 with 470 insts 2 vars
+EM Run 5 with 470 insts 2 vars
+EM Run 6 with 470 insts 2 vars
+EM Run 7 with 470 insts 2 vars
+EM Run 8 with 470 insts 2 vars
+EM Run 9 with 470 insts 2 vars
+Indset size 2
+Indset size 2
+EM Run 0 with 735 insts 2 vars
+EM Run 1 with 735 insts 2 vars
+EM Run 2 with 735 insts 2 vars
+EM Run 3 with 735 insts 2 vars
+EM Run 4 with 735 insts 2 vars
+EM Run 5 with 735 insts 2 vars
+EM Run 6 with 735 insts 2 vars
+EM Run 7 with 735 insts 2 vars
+EM Run 8 with 735 insts 2 vars
+EM Run 9 with 735 insts 2 vars
+Indset size 2
+Indset size 2
+EM Run 0 with 95 insts 2 vars
+EM Run 1 with 95 insts 2 vars
+EM Run 2 with 95 insts 2 vars
+EM Run 3 with 95 insts 2 vars
+EM Run 4 with 95 insts 2 vars
+EM Run 5 with 95 insts 2 vars
+EM Run 6 with 95 insts 2 vars
+EM Run 7 with 95 insts 2 vars
+EM Run 8 with 95 insts 2 vars
+EM Run 9 with 95 insts 2 vars
+SPN has 46900 nodes
+Building from build list (5056 items)...
+SPN has 48411 nodes
+
+CP 0.6  GF 10.0 IT 4    Smoo2.0
+Train LLH: -52.88809925874497
+Validation LLH: -53.81785595857536
+***
+
+CP 0.6  GF 10.0 IT 4    Smoo1.0
+Train LLH: -52.36601552728707
+Validation LLH: -53.81936053936421
+
+CP 0.6  GF 10.0 IT 4    Smoo0.5
+Train LLH: -51.811663743436156
+Validation LLH: -53.88814666843179
+
+CP 0.6  GF 10.0 IT 4    Smoo0.25
+Train LLH: -51.325486815391685
+Validation LLH: -53.979847650159066
+
+CP 0.6  GF 10.0 IT 4    Smoo0.125
+Train LLH: -50.97087403629211
+Validation LLH: -54.02531888287258
+
+CP 0.6  GF 10.0 IT 4    Smoo0.0625
+Train LLH: -50.749754884741236
+Validation LLH: -54.042351873671116
+
+CP 0.6  GF 10.0 IT 4    Smoo0.03125
+Train LLH: -50.62495055147192
+Validation LLH: -54.05432770987555
+9 jester    GF: 10.0    CP: 0.6 Valid: -53.81785595857536   Test: -53.51331619008748    Time: 1141.501
+
+real    20m45.774s
+user    20m52.647s
+sys 0m2.574s
+-> time java -Xmx1024m -cp bin exp.inference.SPNInfTest DATA 9 N d9_default.spn 
+DATA    9
+N   d9_default.spn
+Dataset jester, 100 vars, 9000tr, 1000va, 4116te
+Loading training...
+Loading validation...
+Loading testing...
+-51.290630873986665
+-60.782159563197474
+-40.85956294541886
+-64.2193653608044
+-71.18328291627117
+-64.54699312695043
+-61.398371046341495
+-41.56727474279192
+-69.14890107679285
+-47.767579582963585
+-67.88387372857616
+-61.495131409661624
+-64.55213293775388
+-58.179219386289205
+-47.98163004030353
+-35.51036438667157
+-71.70335236112645
+-71.51730058055384
+-60.51404283718251
+-49.187079572668395
+-32.297058563424095
+-60.26782867857155
+-61.13338274733133
+-37.034000743129454
+-46.535029029745765
+-56.620830667089
+-53.72050193924832
+-55.16989922008232
+-65.41084784585034
+-56.15196919051639
+-53.68153433626513
+-65.36492053694721
+-19.243499918506387
+-62.1755039981896
+-71.39766387549241
+-53.627585555048405
+-55.19568772313956
+-59.45628077166808
+-65.3442851173445
+-10.916041374370506
+-63.18354734263968
+-66.60480944192376
+-54.89323519293823
+-71.59037139103576
+-61.73123355845532
+-49.49244123476303
+-70.8499629076379
+-22.324730743440732
+-62.65522537036155
+-58.099757174506365
+-71.83949844949855
+-63.63870029286251
+-38.84882174380035
+-53.57439708049259
+-55.42863664384426
+-58.55673027771853
+-71.22232202042967
+-63.861641191210445
+-70.9613858293134
+-25.491349918416663
+-59.62413098418459
+-25.004411327844924
+-71.07876382815108
+-51.22072999710649
+-59.633065607961576
+-57.760812729587215
+-71.68605400747556
+-55.13149770812307
+-58.36916166077121
+-52.703289808930485
+-45.474212148151715
+-23.80810454621374
+-61.47299586970527
+-71.1145486176589
+-58.23239792564375
+-61.732312597526786
+-67.82870437388708
+-58.33205064456306
+-61.70714541985846
+-40.68304869056124
+-64.52595130674042
+-61.126403300303735
+-62.89909587737316
+-65.53772159435448
+-56.293181945797215
+-37.40282486368251
+-13.59506971227977
+-45.119966011606934
+-29.48196624955
+-28.953235343662474
+-57.212362190593794
+-65.2482068329787
+-55.45060133848818
+-66.22723558292361
+-59.60725015217422
+-57.28317573513347
+-61.59354630574432
+-58.80731790623241
+-58.613991062788465
+-59.64604456475247
+-64.27803331099135
+-58.94001423242038
+-21.861125143490607
+-60.14829342344132
+-21.245899655701717
+-51.97326040136314
+-50.06210349988679
+-58.8321484808321
+-66.91713650768268
+-61.347354630036406
+-67.57316207737827
+-40.11343076558273
+-49.1773583251358
+-62.937108250042286
+-66.58212244395664
+-59.30583981691872
+-25.892293834178744
+-14.06019342284884
+-54.221967206206855
+-27.350609407525003
+-56.743264308102255
+-50.82948587450315
+-38.66275621938802
+-40.83339771054401
+-47.82293675414163
+-48.35269458860317
+-44.674397529824894
+-67.09000680047637
+-37.080996438235054
+-58.80840638933767
+-61.33015969296621
+-56.34708392543891
+-63.82143485558218
+-66.53219257008627
+-41.827605664996796
+-33.77319373033464
+-54.626234025681214
+-39.464845006411004
+-70.96926006101437
+-34.431039820465365
+-71.10513851516728
+-68.00054241964197
+-46.614160600440165
+-59.423382089143104
+-63.42212961669965
+-16.00655853726957
+-69.20874714936258
+-45.067407766096665
+-55.15840915777813
+-41.77956210346316
+-55.7490614782472
+-59.48350311175482
+-61.864354001115636
+-61.264417280024276
+-53.249584185288455
+-49.05313876722046
+-50.958899637384434
+-70.96665622540205
+-59.3985484012272
+-66.96041989605419
+-55.48570259271828
+-63.16442936090754
+-55.549770455865115
+-48.44056820037418
+-22.353465277558
+-26.675708615699712
+-58.64334609432441
+-64.60314826413119
+-35.80050090591663
+-59.58413660176559
+-64.73108823550979
+-53.2483268210757
+-65.80485458792135
+-34.337636052787325
+-57.18112441652995
+-43.989207929489666
+-50.864256104986424
+-50.772307253960605
+-72.29644707738655
+-72.61884415785642
+-18.321177172575627
+-47.659331932313414
+-48.75145843017372
+-63.15442104050002
+-41.08102131249283
+-63.24251285393821
+-60.981915775568666
+-54.691795677461144
+-50.417937398365574
+-63.41374906350599
+-48.60415383560794
+-59.9597659317328
+-67.75339519982546
+-57.21242964767174
+-19.43820146669313
+-64.49606223324787
+-62.75499387007096
+-63.229106752377135
+-62.409372269669134
+-60.13312197589773
+-44.40127435530391
+-70.28899300506059
+-57.061817822682244
+-64.61576199756388
+-47.06425510057776
+-60.37284945294701
+-64.36253038491753
+-56.81706141447469
+-48.55427839414369
+-52.89656245924604
+-59.41964536383011
+-64.26793844435353
+-55.97424280672091
+-60.28110213292774
+-65.17310446552182
+-47.96786179534989
+-61.27815001361606
+-59.6075764940342
+-50.6967204422896
+-67.51986517935936
+-61.757976665488194
+-39.277876919787595
+-59.85806639277158
+-63.25174274142586
+-44.83365420105007
+-44.66202297649325
+-69.18546788325865
+-22.027253521709973
+-55.06174080521982
+-61.39763580973109
+-55.75199384688722
+-48.34551055417241
+-51.04326245035269
+-37.16911976389707
+-62.32810583826537
+-50.0683008686419
+-28.700885209066005
+-64.11673642672251
+-53.530361286285746
+-72.11554608525971
+-51.648535204671326
+-56.1011822999443
+-58.223377308187196
+-57.7078469277993
+-35.566435639004794
+-57.986764584788645
+-47.69297946123514
+-39.620549013797955
+-52.84602380150341
+-70.7399991552867
+-66.85245937527881
+-61.276590974291146
+-54.90155908724117
+-25.818417991409813
+-37.7774436644378
+-60.83901571715655
+-47.01770399343551
+-62.39256427833114
+-65.31482232507567
+-50.0317227194182
+-70.82078294710406
+-58.98591268456979
+-54.62624964293193
+-56.12358814198003
+-37.580591153955886
+-63.62109974671605
+-69.29169794815476
+-63.071304961669775
+-47.45002917675123
+-58.867045232701486
+-72.00807753686686
+-35.384832591990914
+-44.363211441576595
+-69.90272359248702
+-51.93196186881787
+-46.72104118577052
+-48.10874152293772
+-56.89803765484253
+-45.18176960918184
+-58.28824698111413
+-55.16328192604354
+-22.17277002735171
+-62.531117065634774
+-42.001867122643105
+-39.913916428582105
+-56.5151995347329
+-68.10965677299012
+-59.34837492190155
+-70.96638665160744
+-58.72017395899801
+-28.889329017744036
+-37.351213254925106
+-18.886300762407057
+-62.11117800425547
+-66.78981254609798
+-44.58672407927406
+-67.94237469053729
+-64.26717457174652
+-42.961334479227425
+-54.9361257303064
+-51.74084547153597
+-66.69878781589053
+-60.19665640678413
+-39.206556384910556
+-61.53892375788212
+-66.16549550076739
+-67.66035055063432
+-47.806275256260086
+-68.71105146849952
+-35.81457926092584
+-48.26424236077852
+-63.07521567643946
+-50.50565500660071
+-34.56296971028424
+-59.6188176296676
+-56.78925955321854
+-53.81449979327972
+-51.3150637400644
+-61.76869117093366
+-70.75265233163196
+-46.60384840133245
+-19.008357761118777
+-45.061368595261285
+-59.81166328467688
+-38.877236750051544
+-69.55363256722534
+-63.89940331304624
+-59.825474121379784
+-42.90012489393364
+-41.1351318607911
+-62.52772745743295
+-50.29482893266976
+-65.93960848395263
+-17.52835343770936
+-67.10800350880484
+-69.792489521772
+-59.07486374722745
+-37.70324834334498
+-56.43075636603936
+-51.01022970586074
+-61.14021456655192
+-55.00507840600431
+-54.93099980052195
+-62.76099731332268
+-59.79398781254427
+-65.49769135841862
+-52.154313746014864
+-49.26511696625162
+-62.254536663282984
+-45.265514070201384
+-62.25887371333721
+-35.60738264492885
+-61.46328668332308
+-36.08428388742697
+-37.74253673871872
+-53.2479348028316
+-59.19111696772483
+-60.21284804514865
+-51.43685322986617
+-59.24513509684162
+-14.286473049470757
+-41.06436989926966
+-61.006808064869325
+-28.47759777049636
+-53.050469611669335
+-58.86475287332574
+-63.58537869761638
+-63.853043552784094
+-55.525482348167266
+-54.977980450073694
+-67.55505933280259
+-53.267178148685005
+-66.36918322553693
+-51.93887696325627
+-40.000839794296425
+-37.19949601243941
+-27.910288171870956
+-57.03264764855892
+-42.761690844109275
+-51.36190250621677
+-63.792813650009535
+-36.47976838187231
+-38.95559968318848
+-58.134101029463224
+-56.39198843097736
+-59.90557849337052
+-57.626674563212504
+-61.315792491903494
+-57.69482672902996
+-65.40424193691271
+-59.91504171488038
+-63.21940542833111
+-32.5898364249167
+-44.67281151999174
+-18.828365379185904
+-18.997675828542725
+-70.81501337095305
+-55.2136140634082
+-56.53542046485156
+-44.75432385801241
+-58.17737924340297
+-62.5473325698826
+-40.40216397370878
+-67.71682557307784
+-35.16773188615105
+-60.03501418322665
+-65.30023777159099
+-60.39079595846371
+-53.64277764197302
+-57.12029533246003
+-20.062209879868544
+-60.46495750085292
+-55.97657513877834
+-37.775441405265276
+-43.98035342108685
+-64.19522315883646
+-72.30627523300254
+-48.217574463780736
+-59.17685219038584
+-37.06985898268269
+-67.7546244855459
+-30.546425154947926
+-49.44652893052198
+-53.060829567962784
+-71.75686196693485
+-72.3031978060814
+-72.20385248922258
+-63.75045263269488
+-48.82407312775266
+-26.248763837534003
+-57.478511040192686
+-61.17762742543982
+-65.19630330697213
+-35.87103580475828
+-54.952371234754736
+-40.897742099118275
+-64.26313926143008
+-55.78628802727544
+-55.705637600283026
+-56.31731951938922
+-45.1119551997143
+-39.51058710506974
+-58.36100967191943
+-56.95553702410618
+-50.64540365262877
+-61.15241422715169
+-40.43604768128486
+-61.14220908683088
+-55.4303412325783
+-66.0987359668399
+-20.509782768642218
+-38.399952880746305
+-66.94201618974081
+-59.80166081222619
+-59.51477947015056
+-68.66729107167053
+-60.85547814425326
+-37.87200918757942
+-60.497797386623226
+-59.392511773493034
+-66.94977040382037
+-66.12188699726937
+-41.724799672499664
+-31.115725286852513
+-69.72592378408687
+-60.980707262380534
+-58.10926962060466
+-45.33675730863697
+-58.40465407538924
+-57.41551417158843
+-61.17839120735133
+-37.66215355495835
+-61.94315860312792
+-56.08176166619437
+-52.993538609322854
+-62.284811237920316
+-65.70511323966623
+-41.28471443243036
+-56.3278957072545
+-56.062911083736445
+-67.37174817585269
+-49.45236619437856
+-59.65176349886665
+-70.80433970845955
+-62.29457824278826
+-68.73323127007009
+-41.242425193115295
+-41.54361155595708
+-65.08913356457305
+-66.3362500386762
+-61.858744014205165
+-58.47308113169688
+-59.708588926059996
+-70.02076864912641
+-59.819547602042675
+-67.15099553673967
+-61.35118462335068
+-30.544851276849815
+-21.088633714709395
+-55.85105324428169
+-62.307353526185075
+-33.86158905133877
+-67.64563257174909
+-50.0875365720698
+-56.323012863730376
+-55.139807385712
+-49.95952565204484
+-68.20474930666023
+-60.12873036767538
+-20.282840425923666
+-19.396488561281227
+-53.086088786127576
+-25.46858229011375
+-62.04115458567163
+-70.38642759528565
+-25.75536047257807
+-57.248386987655586
+-65.0346712452515
+-58.62417871027861
+-27.937005838079102
+-65.60462678349428
+-40.610158289035326
+-69.66396345119345
+-59.74559415457404
+-40.639690647720094
+-57.68929576177399
+-67.08641716478758
+-54.86287309631483
+-57.84095567470871
+-59.848689411829646
+-44.64405426026691
+-53.0189296143287
+-31.67331549346187
+-53.98600943172124
+-59.78278136170556
+-57.92057513992886
+-56.48356439795468
+-38.896100131298034
+-66.07267431280539
+-67.52653813190648
+-22.039665522238476
+-60.11067696549634
+-47.70300808545097
+-59.38270606348528
+-57.53742655817757
+-44.968061432183056
+-45.86790809838867
+-65.27940447747446
+-28.94182419448041
+-60.405411704126024
+-22.509419110847688
+-37.53901086332791
+-54.89480140336681
+-54.76280720154269
+-61.95935959793196
+-62.09299574339531
+-56.49883164636316
+-33.6810548442953
+-58.255012640057124
+-61.391489273587645
+-35.24172915045585
+-59.40489035846056
+-63.254388175591316
+-23.823099105044907
+-41.40059932034008
+-69.10275918312064
+-46.789976772116425
+-46.781135497810006
+-59.23652995694691
+-66.06679393929079
+-24.579715251982872
+-60.49732108007567
+-53.94488309244195
+-52.17770654930312
+-57.04436558723867
+-32.71671725016688
+-59.49723782426655
+-65.90630139920641
+-44.93726166006093
+-65.31053663366379
+-41.97749824383341
+-21.712138734581462
+-44.37962944809342
+-38.88531924413904
+-66.32432114870645
+-63.398878252721325
+-65.59080197001067
+-55.86592982875087
+-45.68118333674774
+-64.77695035255809
+-53.604169534607
+-61.136518046995576
+-39.94726636317327
+-57.25341079237231
+-21.31140834598892
+-47.22324618079489
+-59.8682416890916
+-34.69571794795862
+-61.441033507281034
+-70.75841002904652
+-60.832634272480796
+-61.19154260205223
+-53.863914120728985
+-56.32047979402468
+-38.91826288269238
+-66.22816118557135
+-35.456149425859024
+-65.60613730300696
+-42.938192550954234
+-46.25887650474712
+-44.5990311362447
+-53.23753828094685
+-65.43652300440192
+-62.112004096134264
+-53.025174753685874
+-36.857717703528955
+-24.952420407948185
+-45.12905831833895
+-18.190707941808643
+-43.96469923167147
+-49.82888668400765
+-56.298329449461875
+-39.1404899256282
+-69.8953459653781
+-54.42166402904831
+-41.41138257881191
+-65.50885557182454
+-23.280676057234164
+-66.34785601390145
+-13.11562864169471
+-55.268178367013995
+-57.324764397289414
+-56.43977835553928
+-47.39617916498336
+-46.50790622091378
+-58.04763095444712
+-51.00030941510978
+-53.57724150284455
+-44.82330629834962
+-57.233948929311296
+-67.71863121256473
+-57.58574384850068
+-61.6428437369205
+-45.35823050704115
+-55.53942654367688
+-71.60777626607087
+-56.465400944116354
+-63.15705879858009
+-53.63063782011905
+-65.61259123318423
+-64.88975700870282
+-32.334772373830006
+-64.8560874588691
+-66.4385827077451
+-58.645483537347054
+-67.09944775367201
+-56.520094478740624
+-54.90420225403557
+-41.877727066425535
+-70.76818158195188
+-68.95203351498311
+-45.28870486845939
+-52.923748883881906
+-60.691991712064116
+-58.701167927243
+-52.81060444430107
+-35.16220687981141
+-66.27949620027682
+-53.35533156370025
+-51.50609275382947
+-63.76330026264308
+-13.705850229491205
+-13.338277417794446
+-62.17791813878788
+-48.44479218464169
+-32.952591758422514
+-45.449253847396264
+-70.40884116037962
+-51.77446469728051
+-70.78210616053455
+-57.51379765044525
+-61.17206315943426
+-67.85522683636414
+-42.71353435528369
+-62.77433837718579
+-46.686733616782476
+-65.11025796097574
+-59.127436063197194
+-35.779469556266555
+-62.17554635499561
+-71.86665229843985
+-62.620459953558765
+-45.979921238416686
+-70.44096854150214
+-44.55419799722975
+-55.7095392505668
+-55.04999994523507
+-33.532908546515785
+-43.82187858179621
+-60.075395255422734
+-53.60448989969198
+-51.22370809447302
+-51.702438886143035
+-38.88044505929966
+-69.09299276717267
+-19.12766896908364
+-58.55567334492922
+-60.76294220916301
+-17.882426905460864
+-54.910338251170835
+-50.115192886222516
+-63.21468620125508
+-67.48821902819736
+-55.71385125349417
+-69.69687837881472
+-38.80958005136739
+-57.60324099799825
+-54.86022518340451
+-56.50133289644302
+-54.275356423191006
+-60.08863237342142
+-40.595545592463196
+-66.99638276136801
+-29.477892809954604
+-62.42071234399003
+-70.15666275956652
+-52.39229290459581
+-46.54223432496639
+-58.116947913890435
+-56.63272193306924
+-54.19603753917234
+-68.70560257339142
+-41.484924254305305
+-50.00081963642264
+-62.56095845407891
+-20.10387647725327
+-56.829862555999405
+-60.09334147385961
+-18.50446089308288
+-65.83063340800332
+-67.50133796173778
+-66.46219336307433
+-55.576977055672906
+-34.984519505084016
+-51.513454089783124
+-60.69672373543261
+-61.643399914676046
+-43.74759938273139
+-36.98569109687122
+-30.73243242575563
+-57.359870898395904
+-62.03091641789738
+-60.523569022144166
+-53.52975760021718
+-66.880652884947
+-37.97553351618224
+-68.78102419459603
+-58.09112991590949
+-58.01183326626461
+-52.730280474282665
+-31.993044658016334
+-53.38096899238647
+-49.77388178311721
+-53.229748525330216
+-48.98602705207137
+-54.5320416928643
+-65.2933981252557
+-42.69145889772066
+-41.61722833963582
+-65.02585291731747
+-62.24481788907343
+-33.86845937880533
+-40.03064487009739
+-55.449755738617114
+-57.22173726406774
+-60.42021988683027
+-33.47525216174834
+-60.82394935785399
+-45.75607802554765
+-55.055940442173146
+-48.405419566248895
+-59.422094187835825
+-53.61169563511302
+-56.71101734591184
+-53.27977407980459
+-66.88428556850006
+-38.34620594230488
+-39.37550178028253
+-66.55909123122144
+-51.49864552207395
+-54.366394535602296
+-53.42311096150296
+-52.167692085833046
+-16.333773550719645
+-54.07451693873637
+-30.898299180452803
+-47.065934582931426
+-59.931845066387204
+-58.4488957151502
+-65.0131376848937
+-60.38348606414974
+-51.63184719258938
+-59.76762859608328
+-70.86826204521844
+-55.761500530873526
+-60.15593370524267
+-62.999730405005515
+-31.150011832355087
+-61.72842748282795
+-49.19788558420825
+-71.05770291164825
+-56.63648112612245
+-64.85493836869047
+-70.98603502929117
+-69.89887149507294
+-66.89181311232957
+-63.46487548757542
+-26.044787537517095
+-64.99210319396109
+-17.918525820700573
+-54.347104159964644
+-44.73318994712948
+-58.00496553977817
+-43.54775504978932
+-66.06638505646922
+-62.87286356741584
+-57.5559260646004
+-19.856935460393192
+-26.72235196811902
+-41.864404287578886
+-37.20318505088992
+-65.93084135440965
+-60.52157784773745
+-60.39487438545195
+-38.73902629989504
+-56.95635149398005
+-69.74526414534574
+-70.37341487231876
+-61.77227580452849
+-64.36657794295975
+-64.99980113633521
+-60.49167234762499
+-50.42667074491234
+-55.44051761729091
+-56.245151068463464
+-53.69272174176494
+-72.49388941735741
+-32.025795102251024
+-52.81114742379464
+-65.19963495514564
+-10.916041374370506
+-60.17455926044498
+-58.12434751972927
+-48.69587502300011
+-23.00498221694713
+-61.48767303940374
+-66.45542853167301
+-57.78711320300023
+-57.368996312554444
+-46.61514376735555
+-62.785762466267485
+-70.97558047352068
+-58.04075126895393
+-70.23751324471175
+-61.17629934503804
+-54.82991071151134
+-38.62751604142538
+-32.25235982411409
+-61.15941186906774
+-47.98047255726173
+-50.58694660091521
+-60.12216323181475
+-56.31818797972567
+-59.31106645196401
+-36.34564960903335
+-68.82401420097598
+-44.80137355094681
+-57.86397126077955
+-29.25248378438373
+-31.489600673029113
+-47.519623022816155
+-54.790081262125334
+-69.32689654868227
+-65.4915430770753
+-58.10748234767015
+-56.131612296053255
+-66.97121981631385
+-33.024230665772635
+-59.51491192555781
+-56.20132520023609
+-62.42282676629046
+-54.607032267890226
+-62.370573625028605
+-64.6659241710808
+-41.87865567009565
+-64.43157330353978
+-39.66328151706169
+-59.56502444204116
+-58.05741928382732
+-60.89928368439077
+-63.025810010822276
+-51.155592481465575
+-14.10047131516564
+-57.346961583790446
+-47.8046578021051
+-30.285783797061665
+-49.10678576051345
+-57.728585209999224
+-58.11594436383302
+-43.78228233029163
+-57.68106388824533
+-58.235464189651765
+-62.72121315516621
+-58.07508696472414
+-47.63552854739671
+-65.89085918037802
+-62.41038792471174
+-60.71148959186136
+-58.820643578715995
+-70.26624073069466
+-65.9914481730297
+-43.21069264733976
+-42.606048361968504
+-19.4013606782252
+-61.72527070861926
+-63.89454073236809
+-56.265025339430885
+-59.72503347715712
+-62.98823511651142
+-66.30602171622682
+-66.58252588928308
+-46.68608836962717
+-58.76197505982815
+-56.727531065040466
+-34.23558124567473
+-54.71016709040031
+-23.852276212424417
+-58.1802006699321
+-40.0277828184036
+-31.817257473791617
+-71.77784163391142
+-41.66653567946524
+-22.47614070619536
+-61.50903179924725
+-52.75283882042746
+-65.66717939851767
+-63.186785379716916
+-52.91222905541587
+-42.66643675261801
+-50.40398852160298
+-52.182645561267094
+-63.17246256025901
+-54.05908159117384
+-60.26851745277365
+-62.00570645467726
+-33.01523066104263
+-62.66753004585605
+-48.13039340161465
+-32.08398200050419
+-54.715127176486206
+-61.988481954024245
+-67.90148059139517
+-51.97789710075204
+-59.17421091845482
+-61.29427978415994
+-55.365668339785344
+-66.66424796472533
+-48.292286624333265
+-49.920311992589966
+-53.29204356329779
+-22.01535716489776
+-56.08689243416804
+-57.66433553140329
+-47.24146972867607
+-70.1000642364663
+-45.624406578310925
+-24.633441041088386
+-20.51613613996729
+-37.11697543245616
+-29.250775342739672
+-60.23644199917403
+-56.68245516950834
+-52.35377697907269
+-54.7033637203597
+-56.79717827348174
+-18.226013045496693
+-61.44015219363839
+-64.46561289110623
+-57.022527653347304
+-36.851403804536915
+-54.01553435870362
+-14.000995256379356
+-70.18344580586975
+-37.43769437251951
+-51.324581418011164
+-65.03933091167028
+-44.142704103737906
+-46.330755210020854
+-59.58229413512771
+-60.54111722478064
+-40.01348240071241
+-61.58271264972106
+-29.981754564336907
+-55.802436740853345
+-53.44489538219533
+-37.21051919087315
+-65.2741643673852
+-61.263686077250505
+-12.889995630923448
+-55.31914941003039
+-60.95515282502359
+-71.63044240528816
+-57.0116861366967
+-65.6407448646124
+-62.68423349327057
+-61.608447437487136
+-42.281705746231374
+-32.500773343124216
+-54.67607928988336
+-53.84424829110908
+-62.529795838149646
+-65.59948112175611
+-47.65518072844182
+-67.80757134395803
+-62.94357589108198
+-47.23758566692679
+-71.77004935901357
+-43.68801205625506
+-42.84171545518859
+-64.59809068439708
+-55.61068046188179
+-56.86124031989956
+-54.10052789244756
+-58.94117905327167
+-52.531984679957624
+-38.25029326495947
+-55.38727565968711
+-68.38976588506156
+-60.70759952329217
+-71.4057335918199
+-58.67489190552695
+-66.5619174725446
+-29.830019096334937
+-63.7315934056077
+-57.991644181923455
+-23.93442744437908
+-47.98444452322018
+-33.9839758503464
+-55.18220522145437
+-60.538324270866454
+-64.1824879806904
+-61.74987492923585
+-56.40237311764151
+-62.86437113665544
+-66.50695923153678
+-60.60737810407588
+-43.1227775715146
+-60.92972808291377
+-70.82744338109691
+-45.62124037389844
+-52.487101473833555
+-72.0745717310117
+-67.74659828251039
+-68.55191428843295
+-66.51356175435397
+-40.78323325747425
+-56.4899071641398
+-72.17831835265687
+-47.59244659677596
+-50.09459749398139
+-61.14731137769548
+-31.38113054065113
+-12.889995630923448
+-62.79821090785951
+-64.12177474153324
+-62.65218153283054
+-48.98080972327774
+-44.299533483659985
+-62.677858203355264
+-45.75301224967094
+-55.90012666572709
+-49.523680907496036
+-53.100820334071486
+-57.622117651630894
+-71.09473750326103
+-54.90576246352728
+-45.56487499781302
+-50.83719971771209
+-66.41602833747329
+-15.76157623675094
+-69.80097337278893
+-63.64469512042938
+-71.03968640892691
+-63.71922827289875
+-65.49436534183347
+-51.78852794079522
+-71.00151330099646
+-54.13398187994612
+-62.31930652408179
+-44.63922182347123
+-71.48888753515963
+-58.155896886681
+-56.57084659885484
+-59.575764554736416
+-45.452101451641575
+-70.9982157677515
+-57.12249962726975
+-65.86183015266037
+-63.29140764128355
+-31.604174736711737
+-54.013701876373254
+-55.84800528600486
+-51.479203826861095
+-59.17773695334913
+-69.89334797357596
+-34.50535024375992
+-46.114375942228826
+-59.52340365221406
+-44.692487471608764
+-64.00839316786993
+-53.563281240421446
+-62.60694871174199
+-63.43463202280786
+-61.1419130846845
+-71.58942563608446
+-36.41488182260052
+-57.40733787664727
+-65.24974991045092
+-64.46395127965688
+-66.8678857245073
+-64.77715545689708
+-62.28512053299737
+-63.36418506013775
+-29.291996470108934
+-56.298749983717386
+-50.89069022179976
+-52.4194788794961
+-58.35469438702946
+-65.3217900742134
+-44.79263220233616
+-62.905896128862075
+-60.60959069207029
+-54.98010457451064
+-58.344660037084516
+-44.75508943216033
+-22.554704727176492
+-61.03997544517834
+-34.4889409979074
+-36.08636751088074
+-34.78985248963577
+-47.17430858451147
+-60.416276995875755
+-39.04273687461693
+-63.67528367693847
+-64.29437173464122
+-52.262259228157085
+-57.30995189177486
+-54.24238725852942
+-70.9470178977403
+-54.460527633371754
+-30.920223986677385
+-57.44026814576314
+-36.8447395708409
+-60.472582227952294
+-10.916041374370506
+-61.295594640887565
+-41.9117614334203
+-57.44447396427347
+-51.29149033191151
+-67.57272108600685
+-62.2475619296689
+-70.95584796406314
+-58.61344711057517
+-33.16445935073273
+-64.24399272611237
+-52.850449107110805
+-47.87625008661544
+-49.391502999384414
+-53.01491093929447
+-47.066101767636034
+-25.609476042549684
+-44.90408216106974
+-58.02533470400676
+-55.23893408694025
+-54.58988515195686
+-66.03369324370105
+-51.74588471123605
+-57.080342650572355
+-60.33728721724343
+-56.21633320820467
+-30.83560281092922
+-62.78893449132352
+-57.048726918131756
+-59.25100965520593
+-30.656667892978707
+-54.970314679592065
+-70.83010667026723
+-34.356802576022275
+-16.1745409818286
+-30.925164225776175
+-63.29104309482549
+-61.427518195688116
+-69.75749903568881
+-42.25085934989154
+-57.76257414547487
+-59.56508628612442
+-62.00313248283749
+-27.74269384455019
+-65.91858885470238
+-65.00152338490395
+-61.27754985248912
+-62.08233117059838
+-68.09401603935214
+-60.46794348264711
+-57.76729798767382
+-61.388814392221704
+-68.27694178135538
+-59.58246480752584
+-43.19840393297048
+-68.23605290482608
+-60.711335554451026
+-61.83893772542188
+-57.619432305486264
+-71.582036718604
+-58.932720339624304
+-63.99708912415407
+-57.035818215125886
+-25.275999647480358
+-69.94645710476752
+-63.377833752933725
+-67.88315641848638
+-52.66980394965164
+-44.418916360330364
+-61.68349240133762
+-49.2913381099576
+-68.38367293644257
+-57.94438089827696
+-68.0134348351227
+-38.91488574438647
+-12.823681315503435
+-58.44216286101742
+-50.53163374992447
+-69.114438487559
+-47.854462084019445
+-24.277801394241543
+-62.196217240427515
+-17.140365732637797
+-72.24309068028374
+-45.50478946926964
+-58.05457938966322
+-54.254601776433816
+-67.71016728680416
+-71.16219308718104
+-56.51146417685043
+-56.26194593768599
+-63.980492644750115
+-50.40836670606872
+-57.799475006086865
+-64.03506837721386
+-61.28729566788688
+-21.13844911951282
+-52.72583229652709
+-64.39784581927792
+-50.55637956285217
+-12.889995630923448
+-57.77085436820209
+-49.64087938469275
+-38.78606072656584
+-71.79642950629174
+-59.06714034105098
+-64.49122835468773
+-58.57275188026805
+-64.05381151540153
+-70.89416106923584
+-46.579930706178025
+-23.55469051650533
+-51.529406521177954
+-59.982359729091556
+-57.84400930154681
+-38.733608525154516
+-72.24824812758996
+-66.88681913805169
+-55.640482500326314
+-52.67647744382643
+-52.533873379415425
+-61.537400512424625
+-45.359645170953534
+-52.472677227845125
+-34.29828152876317
+-58.19455299746632
+-54.05549962608834
+-14.876633907658912
+-62.08851330084276
+-60.81312288491775
+-63.77469391783328
+-44.80214640721367
+-40.77255700179505
+-62.67451423087566
+-67.30094389667124
+-49.377172975797976
+-52.982677365005074
+-58.11277462241497
+-58.36391273265066
+-50.967818478729775
+-67.87578703392187
+-51.37210647681252
+-52.73315349013877
+-43.676022532479294
+-66.68095927157535
+-52.38560747375532
+-63.04129092739731
+-56.61375461731955
+-51.936373236313834
+-28.56075905733752
+-33.74595350773391
+-72.01553185734689
+-57.08481998672245
+-62.16786833313323
+-39.62491350709469
+-16.61333645109199
+-60.516235442682365
+-67.10090061608544
+-55.1660713680722
+-62.11459944621587
+-67.84065194924761
+-34.950157075762505
+-53.29251054612059
+-66.61995375688633
+-44.42872682380596
+-64.25924114402665
+-71.85704535655867
+-31.442938154410093
+-67.47122902502093
+-50.455154261641496
+-52.34180721586246
+-68.19633971623759
+-70.49994268854634
+-57.910502287082245
+-53.332425338993815
+-60.73404843447139
+-63.59647267141615
+-55.591970887051026
+-56.44383713042161
+-63.72081885707857
+-61.57736866512327
+-48.85577244540972
+-36.946604343296606
+-56.49643363315841
+-56.25175088787004
+-51.092651376137525
+-44.172974242795284
+-67.73002379644707
+-60.328220887921454
+-70.65844719372143
+-48.41085982667257
+-62.79864801467208
+-63.86826013888789
+-63.76183266313756
+-35.48882055601344
+-37.477175558032634
+-45.62371139481813
+-35.87584550957805
+-65.27617521394119
+-65.50159177060372
+-65.52063478353875
+-67.59022377677485
+-58.89386985341936
+-71.05808456071036
+-60.552454125682694
+-55.24174536621756
+-44.79028629811336
+-50.74221856709102
+-63.800529506799116
+-24.491719602027587
+-62.591361776422275
+-60.6771414289651
+-69.44178078964596
+-50.564094542548894
+-55.145277711148076
+-70.1976884789956
+-21.441907246691184
+-51.25900295428826
+-54.84036812105631
+-31.40890722721487
+-70.57762087356353
+-42.44241238368573
+-48.510741046464936
+-61.8135146703071
+-64.7677995156926
+-42.835517105377676
+-70.25502782479857
+-50.927426192523114
+-68.23409659118609
+-54.49317786664939
+-52.10468443826093
+-60.579220736540144
+-10.916041374370506
+-50.82995570262794
+-53.69190643241263
+-56.00506852521305
+-34.464803860194976
+-35.852537925347946
+-60.08716461248945
+-56.259757178428984
+-55.747319719466816
+-68.6396623755325
+-61.466031035600764
+-64.51839568896845
+-50.911991583689414
+-54.56769333245334
+-64.68881632988683
+-70.65617297372414
+-61.16187189223946
+-53.4925611248222
+-46.21381374451038
+-58.92692501347705
+-45.875451226904374
+-41.65048613027664
+-49.982666665392514
+-20.451923514282413
+-43.63497840825911
+-42.580681356173145
+-67.25933909358746
+-42.51870206841872
+-63.89252360031747
+-45.981034244818474
+-39.95760260825009
+-31.68424824192426
+-56.45050110377551
+-66.20686156955789
+-38.14601830830338
+-63.542371922271826
+-47.63962423514412
+-54.83806053267937
+-63.429890755137514
+-47.00530378987975
+-50.90532093742516
+-70.10724703137264
+-35.01280723955863
+-68.2916067545428
+-66.88982949687077
+-68.39556968463135
+-41.41252530942479
+-60.88271431928247
+-66.03759933468517
+-52.52433447097077
+-67.76209381510236
+-54.46272642072328
+-60.55023683894328
+-61.613580109855064
+-45.67041952037646
+-63.6493886267881
+-38.46994796618905
+-70.7798844142644
+-47.03852972545284
+-29.751391296362314
+-70.35232731151154
+-60.93988739532491
+-60.673413412856384
+-62.004588864005484
+-62.56789996363942
+-70.08445898196706
+-35.03643766014827
+-49.30416294297876
+-35.47958715147286
+-48.905533082703165
+-48.942407834137725
+-38.52290898103351
+-61.350114395650316
+-71.23859607118072
+-61.63029262525539
+-50.57341650591551
+-63.1447837666504
+-56.312733463262525
+-26.032221189974013
+-60.55816308228112
+-53.132473570629145
+-42.10765167894763
+-55.78371969614699
+-62.237249326008644
+-54.7876714522284
+-63.45272883298227
+-54.10113823711849
+-47.25207693655108
+-29.410592527332767
+-71.80865463901073
+-56.810216574593824
+-43.06613238353998
+-67.26774539258672
+-63.631667399455495
+-54.04756340383026
+-59.04638556794167
+-65.61096801866842
+-66.27609499030027
+-61.66826736796807
+-23.11698407283901
+-59.14763006458831
+-61.32692689861341
+-56.34745460360712
+-62.35920707321551
+-58.45908025207219
+-64.60402204892239
+-57.175333251669414
+-63.695376040319886
+-66.51720150516907
+-49.710179929154194
+-53.91626928560093
+-50.505525642798055
+-55.62166681631924
+-18.978409463272545
+-55.95172906570472
+-57.26135022659596
+-39.727660360114754
+-55.8714653782276
+-53.832143436440184
+-70.6711585944699
+-58.62455437620892
+-31.880521600558776
+-42.42942477919496
+-57.29582085642629
+-54.493987897862354
+-70.98893541385898
+-58.39324767316176
+-48.54161847217889
+-52.140585625261636
+-51.230885489801196
+-42.06602939941733
+-66.202380509149
+-49.71046064698975
+-54.423932778428494
+-41.881052876829344
+-34.11325630726989
+-68.52626126628086
+-49.87841835361088
+-56.950976794091126
+-70.91849008919256
+-58.81012597445294
+-43.36226200248884
+-55.45341292050297
+-54.54916186570806
+-37.19044947353612
+-39.97607388428971
+-63.74687651106421
+-44.28463847437604
+-56.40753533903925
+-26.578235486660276
+-38.587434604348616
+-64.52218363586508
+-57.6899361007116
+-51.336401831432084
+-40.98107927475174
+-68.64877997003916
+-63.918761994212424
+-67.20259543851971
+-45.79103771657419
+-55.30383150853313
+-42.69685911993784
+-47.33555240512593
+-14.876689681572454
+-36.233785832672005
+-57.892526875851736
+-54.84210042129689
+-39.131668309229504
+-63.09977243543423
+-71.33087398395276
+-53.58571534847364
+-45.97589341609163
+-21.738385165168854
+-50.482448587205475
+-39.84738992566009
+-68.85743459911225
+-61.96532508582377
+-59.0180529332947
+-37.76425591738167
+-53.18313854701616
+-63.15363238996669
+-57.231737511589465
+-61.63387171098819
+-46.72399952490487
+-47.97713874252734
+-70.80183592413658
+-52.622457550706734
+-53.648301711897524
+-16.68413819638963
+-51.49642021522964
+-54.161788292644026
+-15.85548549910096
+-72.4872834422188
+-66.30300080201582
+-42.73103607792155
+-65.90755113195863
+-66.1758136217901
+-59.14923426274941
+-26.396364999028563
+-15.765942592643045
+-27.339446126334092
+-52.984670338866735
+-61.511157487828015
+-41.80358088909375
+-65.2534813100457
+-21.03437961820723
+-57.03229273960951
+-54.51145884373035
+-65.21261513917406
+-44.299087832092034
+-50.87222572938688
+-62.95092878563515
+-39.607415387528356
+-49.901126853411
+-59.97443678541858
+-67.01937308563441
+-48.38354445512986
+-67.04474604971256
+-52.58350044999439
+-59.285688660038836
+-43.162249383628776
+-33.059674093064096
+-70.91937389931923
+-58.49902005720781
+-30.68557650316251
+-46.62800095767479
+-39.14242289790564
+-56.78277951673799
+-54.18080532778406
+-55.92573734566736
+-62.00654168811335
+-50.265564984371686
+-43.9697543033459
+-61.641432301785166
+-46.14318455858218
+-39.44812069965787
+-70.84544014153305
+-54.22148174876753
+-61.08482666616973
+-58.717869203721065
+-47.6728526150407
+-44.92703193785514
+-53.83301289416826
+-46.03904604546102
+-49.197586518622785
+-63.33532095445796
+-60.851030448924455
+-64.75236867783093
+-20.924173119702807
+-60.57778959207378
+-64.28796380422732
+-66.39272805253897
+-63.097611860539615
+-53.18319144231699
+-43.16923896187046
+-64.86409054552405
+-22.552751653403117
+-51.044810618287094
+-67.4320861755742
+-58.65632092545742
+-48.651464859629506
+-41.24815447700796
+-61.69252696004132
+-72.87825487668836
+-18.622305481903428
+-35.885187842989716
+-36.96461203832857
+-52.290662351321735
+-62.80524082365586
+-59.536953919134014
+-49.9503697143266
+-64.39104450618647
+-45.91150175672406
+-43.18758129175566
+-41.470436648868095
+-50.66857519935104
+-49.263832162471225
+-32.42130194567649
+-66.62250510835587
+-55.031488191304824
+-54.176223365244546
+-47.54268517631983
+-71.97207830722462
+-46.99015519304574
+-66.97521758272293
+-65.80010675960048
+-57.27798514059689
+-61.7904378167359
+-54.342435895124446
+-52.26859717721054
+-53.48095423445732
+-71.16492772244486
+-42.16273106954409
+-23.18542317928869
+-56.34907929006783
+-63.180730090638356
+-69.57125119071135
+-55.97745684713728
+-52.01456944431816
+-28.499676372220684
+-52.93098220435935
+-21.2002823171362
+-59.19676565517704
+-28.98844622367529
+-64.1263723057944
+-40.21003666114012
+-16.786597264375914
+-56.80505361765771
+-38.046672216705424
+-70.56550709392923
+-26.660977021030824
+-19.738105521622682
+-61.62321363189025
+-34.00276097392781
+-29.795636703941415
+-37.55836593042999
+-66.58945875291595
+-69.90001193472496
+-65.33745239407983
+-47.22011698222633
+-36.24859233973982
+-64.22522846544994
+-58.43785376208185
+-39.63101894049479
+-56.480338659796644
+-51.97375547342798
+-48.838807010018485
+-70.08655991255817
+-66.47539628253176
+-62.66399280276201
+-57.74408729227164
+-44.98130676716636
+-59.70945291878542
+-60.24521633637314
+-60.803296817010825
+-26.68616676185581
+-57.01350438742404
+-35.06544871818422
+-22.38166444795281
+-61.0423292685124
+-72.00018876398373
+-32.72262397312093
+-67.67932228228645
+-24.306257569293116
+-56.317159248309345
+-50.33106355602947
+-58.13682532399703
+-67.73693034311891
+-51.340852772597394
+-59.045019479721304
+-46.76230186489932
+-61.01874195418911
+-31.508576642968574
+-70.24711912214218
+-68.52364362675272
+-62.83595637574417
+-64.78231617159803
+-30.673738283705813
+-61.148452156680705
+-72.80202440858146
+-61.893446199154766
+-72.09219784169501
+-41.75509082769095
+-30.417521201261565
+-31.00961897405392
+-53.12392459668907
+-27.800103163472574
+-16.878831057078642
+-63.88397117708697
+-45.909262435982605
+-61.8189844943025
+-58.87339152297743
+-57.92714318056663
+-63.3760923149245
+-67.2336313007998
+-70.57517459268433
+-47.38699861509104
+-67.80669199291972
+-63.591723034616294
+-59.36457445449251
+-60.972731523721826
+-57.6072298430781
+-60.039238687004435
+-51.822203620726185
+-62.86349882697635
+-60.465507937268235
+-32.17354005106782
+-61.93399719536084
+-42.120149973359375
+-57.54570547088752
+-64.69388107366542
+-71.83681939979407
+-30.60326535554947
+-42.84768184869988
+-64.7181351865691
+-54.965801417175136
+-64.26119420836532
+-59.495706509675195
+-70.28189389307735
+-59.160161796103765
+-48.684471388617695
+-58.74330972869104
+-44.666049772543595
+-57.53644619866971
+-65.87012909630735
+-62.976249845167814
+-67.27241587282296
+-58.0036961867716
+-46.766427333412615
+-68.78075693358161
+-55.77546497812128
+-63.89079083836767
+-57.97396721059789
+-64.8048763481301
+-46.17373812585749
+-63.23444896588573
+-53.14328935981302
+-41.09617863980102
+-14.224172480035458
+-64.36188803717336
+-56.72444315745882
+-59.19464643053119
+-51.24779741141675
+-59.73943899426515
+-40.53652388345122
+-61.35008319809229
+-44.06885673233143
+-61.78440318280051
+-37.823550023338264
+-50.45394361860848
+-62.315260617907384
+-49.28336815588906
+-54.800112966936766
+-70.36801544853778
+-48.68344606331843
+-70.1442969881131
+-32.988306582989594
+-34.15775911249938
+-36.43262986899225
+-39.00404434314348
+-39.48682552056138
+-48.50777237086465
+-68.53879770151475
+-23.223749157764843
+-58.35815475852515
+-60.05614372273413
+-64.3273078756141
+-37.433393324631524
+-63.83115133467692
+-50.95555839410606
+-41.64897551538366
+-23.575889917272768
+-70.9721529228554
+-60.69792646477027
+-66.44614886526107
+-59.01652487873131
+-60.88011272336115
+-62.24667531484884
+-58.793776510419406
+-54.52552014535684
+-62.7272345653683
+-44.60014918817078
+-56.93217331284838
+-65.93756448366582
+-69.64673367411369
+-60.34402262591353
+-69.4263629893288
+-60.73236452524689
+-58.208787171648396
+-70.90264169593041
+-57.62350017573256
+-59.206246311174496
+-27.266134982145687
+-56.351897820164545
+-66.83979933884973
+-62.617640159906216
+-44.70918223052118
+-65.23367528030644
+-57.97588276133775
+-61.83953604283552
+-49.37895249798411
+-57.55279837704564
+-57.4082720176698
+-58.594187052468875
+-66.53386622774761
+-39.402356602783016
+-39.965761681400124
+-36.026304249175745
+-54.90546893825669
+-66.69708360004623
+-63.57895759734646
+-49.3071010569482
+-66.98249583134015
+-69.07864960938494
+-53.397792347854605
+-71.79828053328738
+-63.06800287283846
+-53.980937794369815
+-68.9160432201851
+-53.684856565284136
+-63.45091180090741
+-55.97232532933884
+-61.52381101109493
+-56.496649991719146
+-67.13327236093208
+-69.6805060020602
+-59.09456830515395
+-63.59931870766166
+-56.515023017660496
+-65.77975782560127
+-42.32294498835936
+-43.775611426565625
+-44.59929377050051
+-71.584489083942
+-54.983070421305584
+-58.0122964324868
+-53.7691475848582
+-62.17828839808082
+-64.4642858642729
+-16.7079870578455
+-57.20381824145423
+-52.46289581084815
+-55.69220893381228
+-51.19725724088627
+-38.48633583976526
+-71.16734975479217
+-29.195452913265648
+-22.97254145247147
+-65.24888649074364
+-49.11102340688587
+-57.03329984549579
+-58.8578081580106
+-47.76964321878497
+-60.47004817532955
+-72.3454226175047
+-55.88292438938694
+-63.127256834385854
+-64.1644982675296
+-41.35095480139028
+-17.934853871104647
+-43.82891818185977
+-71.71602070766149
+-63.21435319176115
+-55.54572866849465
+-33.03874297303171
+-71.09139480124374
+-46.56927140402461
+-69.55377819308465
+-72.03654817878004
+-64.410411661866
+-72.1550605003712
+-56.629303639145625
+-60.98468324107724
+-64.69627701385342
+-33.59011810524073
+-66.96347311080682
+-60.66819860665034
+-28.093031873720786
+-66.63433972500307
+-56.51380274093877
+-64.9639292539392
+-31.922816017454462
+-58.36065227819448
+-32.605183726952916
+-27.511269508646592
+-71.28646657960306
+-61.93251486274941
+-56.411420884219076
+-48.54410645206133
+-56.368192696080094
+-70.32569547681493
+-60.56490202205134
+-50.738332382447055
+-63.6075513432919
+-48.08181275096733
+-42.163414137487415
+-47.3469187802084
+-24.38816320396627
+-71.4205955264778
+-51.53384129384141
+-49.43423658053752
+-36.57288867516603
+-60.64240933789559
+-41.8000604990386
+-27.75477589744352
+-43.333038183101245
+-55.02458004314204
+-60.082327945614004
+-60.313296345126574
+-44.6404609857412
+-54.66282929966352
+-58.236032780505454
+-14.956020005777775
+-35.1500363180615
+-56.208472023645534
+-62.42619514887183
+-62.42840552013439
+-59.50419499673984
+-71.94338944246847
+-70.06205934265869
+-58.36810041133475
+-51.15921006919701
+-46.2842789008705
+-58.125487481016336
+-67.62714571129483
+-46.89038783640967
+-25.07159880835868
+-25.11028839835968
+-21.571295553875764
+-35.37116730905469
+-51.934386744982945
+-55.97352364493404
+-50.818930069501285
+-66.77804368834464
+-67.56990107155424
+-55.90607223031319
+-34.990691792911164
+-65.76401318408345
+-63.64168614950769
+-65.83889999378816
+-16.928227621988135
+-65.59504208699799
+-66.8361476285287
+-69.8845568059641
+-26.371838787161455
+-41.83303344045801
+-64.76154339807272
+-53.14220909955955
+-61.44905851749884
+-24.809036770217656
+-62.56889281639714
+-58.629257162405686
+-50.61090847355281
+-62.76749507859739
+-59.795095259074934
+-60.628534212963395
+-39.12543970319967
+-58.318451556129375
+-23.217616187043763
+-50.74594665682142
+-66.38843859057984
+-51.37874961490735
+-54.52971480511901
+-18.42045167174925
+-70.11299621483455
+-49.22026489824954
+-52.026204429554724
+-54.94887151983923
+-66.57025142696104
+-53.4222999955587
+-39.35311334901443
+-70.42194167461327
+-60.67754670477043
+-62.57708863439464
+-57.753676769663464
+-28.535684078587792
+-61.46927159351498
+-53.30877512861155
+-20.726383157357354
+-52.82630971694176
+-38.13580886477871
+-64.02913354621113
+-53.83121118944209
+-35.450712002277186
+-46.66675648175078
+-60.20936839693125
+-60.85217318994747
+-51.520296879696595
+-57.30069550388681
+-26.00267913502807
+-63.50752605426166
+-61.98622497696517
+-62.67676086394877
+-56.49315743150444
+-37.55219527788012
+-42.800987497799625
+-57.75970801125597
+-57.81031596765835
+-70.7869953979117
+-57.85803387238193
+-42.32945184778341
+-56.97046064676036
+-24.17206511420116
+-59.6270979846151
+-57.011031362687575
+-72.03076685648767
+-23.155717146965443
+-61.22027729651377
+-68.44058883877724
+-69.75409083728348
+-56.211356781733954
+-64.67044498593782
+-65.82333191485179
+-48.42045942471861
+-52.76322810899325
+-69.85862383145142
+-59.1746836011086
+-71.81792649972012
+-71.85583918951053
+-48.37523193770996
+-57.698830760264485
+-35.58190513623688
+-48.22050781863567
+-68.04661856593974
+-48.346265954350606
+-37.75039630515988
+-55.43600049495688
+-58.242310982857596
+-55.06586208908029
+-71.37380269999403
+-70.9692370443866
+-58.22392474810913
+-60.74179726544514
+-59.37808529069003
+-43.500627296235265
+-12.8837944633611
+-53.972754471038066
+-58.92435163400012
+-65.21753681131227
+-56.037664674998865
+-33.75314696090198
+-53.578086665647085
+-17.52439002223641
+-42.55730511498965
+-60.143395843169735
+-23.787307216307386
+-37.820073527201636
+-71.82706680789376
+-62.60566115921205
+-17.933186846747308
+-60.346296324084314
+-66.79477836769799
+-42.774749243020544
+-53.890370019110996
+-10.916041374370506
+-59.52973075116426
+-46.55100356130469
+-70.11221451061118
+-17.04215298354605
+-51.518942062208176
+-45.984437870851394
+-55.12499477075389
+-46.850584689001955
+-60.470496823225396
+-41.01778882847533
+-50.81276460902147
+-33.902023912589634
+-58.72383119246518
+-63.009417459409995
+-31.313177614086918
+-62.12770163563943
+-48.07793446932644
+-26.790353497112147
+-35.149873673279394
+-68.1274850640556
+-62.58898430741342
+-57.05192023982613
+-62.27112167793397
+-53.15873003428843
+-56.11385588260254
+-49.496601262473725
+-58.122141004320916
+-56.37967862926119
+-55.03698328738886
+-49.300669897122035
+-53.953528263147675
+-53.89517966985138
+-46.727268204821684
+-57.68772046875852
+-64.18767584927777
+-57.706785034425536
+-15.226376234700275
+-53.34153723290683
+-62.51720134882555
+-62.32194595669492
+-70.2716999401158
+-42.41303507267628
+-61.64692006319996
+-21.35953875397042
+-57.7663900796246
+-58.56699065884609
+-37.04021855297919
+-57.61866917965451
+-68.31688938386358
+-44.165103498112856
+-71.16391434700436
+-17.869493778753505
+-62.835480246201804
+-71.29776303288719
+-50.9815108075332
+-56.97180044906597
+-56.474657315366215
+-52.19312571013826
+-63.030141789042474
+-44.17594259273256
+-16.49266599065142
+-50.09388982099043
+-44.70666221925024
+-60.40734772375168
+-54.316642919898975
+-58.63185931466852
+-53.150423091925916
+-45.72618427481799
+-69.59247213663718
+-32.602404377737315
+-58.87666142303606
+-39.00389559645309
+-53.980854386098784
+-44.94144360345914
+-59.83266664985563
+-55.518731243770326
+-60.31810486445701
+-71.38237647623018
+-38.06058669220102
+-68.89004743909615
+-35.00365342020252
+-45.478250386302726
+-60.35574414689421
+-21.5166736875925
+-60.79479570159207
+-55.37118146726056
+-53.960909019569854
+-63.145742506132265
+-57.40699933415616
+-48.05896500185402
+-45.76106762865798
+-59.499782948740716
+-46.005887609522745
+-48.39312354566194
+-65.0482523429889
+-60.38654424580265
+-42.63155946926659
+-69.90928013701495
+-66.83309554277272
+-52.1579699975462
+-54.20541870759463
+-51.486191641271795
+-49.23172533941622
+-59.37948384355182
+-56.19764727682767
+-53.65840627291902
+-45.59630633995158
+-24.78806092188795
+-60.37551214951005
+-61.00943230961172
+-58.32342129259288
+-64.6282930968631
+-27.114746574359778
+-53.597704566963
+-68.6779953932531
+-63.569827275090184
+-60.4263157427961
+-53.52224566380204
+-62.21855507109779
+-67.47155258513911
+-40.39739446015311
+-44.406798402639325
+-47.49948240163961
+-54.096529925074734
+-48.240093193948624
+-63.317868584902186
+-52.98751202484919
+-31.795171783153307
+-34.23428994731517
+-49.75539481166062
+-53.13918753085163
+-71.53314184219985
+-53.398245140556874
+-31.628558089294376
+-66.36619999214773
+-61.1168594213092
+-44.788572618653774
+-62.927681376772675
+-47.92412155165097
+-51.025469859725625
+-63.21002046564047
+-40.65163293035497
+-58.062064507480414
+-64.67553857140297
+-45.72133856995021
+-63.674147218856135
+-54.19908796149227
+-20.369753393575202
+-42.57208145384867
+-65.32619130812931
+-34.154677921414276
+-69.42651224207974
+-60.251220497697815
+-19.8966563066612
+-61.21319022456307
+-39.62616394296708
+-52.90238533743178
+-42.8663225007856
+-58.87128526406655
+-25.751605245566566
+-49.36706509609372
+-53.997897016293564
+-62.78441816379332
+-51.30350864631257
+-44.04865568454352
+-71.1319199982535
+-62.55370276324921
+-53.78101216014726
+-65.80448131482704
+-46.23273090192579
+-20.27538861716522
+-44.46327492853896
+-59.36320404912067
+-55.26112117711457
+-62.11174157294771
+-55.86939812956804
+-55.46135124255643
+-66.25898040377571
+-65.70134137108855
+-67.78828898861647
+-44.42153530621018
+-55.8087990773972
+-63.3547596557275
+-48.92778485593159
+-62.70715273236648
+-13.27394094353409
+-55.63646297546089
+-12.581452264880284
+-58.54269105246486
+-43.713344737819256
+-50.81011310632439
+-63.34495086639336
+-65.9148985505778
+-67.66224906242907
+-49.91756449671764
+-63.87730790487774
+-59.25106989220732
+-13.784075616658708
+-50.73904988210001
+-69.69034952949859
+-69.44501815357762
+-66.67201289583956
+-68.661130067002
+-68.18692070363346
+-70.12499018264639
+-61.95479654894019
+-38.518410161407566
+-41.36733506027424
+-62.54881246025469
+-70.49303470999764
+-28.780883811935833
+-34.12506110298784
+-33.91375392494113
+-38.54094133206
+-62.2787093327476
+-21.90326493297896
+-59.63949162099415
+-60.0245189495482
+-54.27006224736662
+-62.685943257975104
+-60.892113344594605
+-50.01282837934026
+-38.99370710085041
+-65.03922364964558
+-44.89685578412217
+-67.00887209791641
+-59.48017174261763
+-60.27082974114795
+-63.628859375404595
+-55.308691210930846
+-61.96323296140005
+-28.89399035084453
+-40.4803901954679
+-57.959220754603194
+-54.72525742094026
+-71.35115606617919
+-52.32479041016174
+-56.49223030830091
+-70.4232499337771
+-51.95380344073905
+-39.60126020504317
+-56.27692282255946
+-70.57889383440903
+-65.90619400922638
+-46.10477859451132
+-66.72080576254103
+-41.897508996683186
+-57.6595625484214
+-52.09359928341672
+-61.25187666455735
+-57.84622108407245
+-61.1766014357607
+-48.187682796508724
+-59.75560623871223
+-67.32475841602133
+-61.852332457642056
+-47.3330096105965
+-52.72172421032373
+-57.55207907363029
+-60.39474218495024
+-33.27543171715112
+-71.71782969834517
+-62.17061530844095
+-48.33206346895753
+-67.8998027304161
+-53.89241091371446
+-55.379119912822325
+-44.64654123537736
+-41.933897170996076
+-44.84779062602862
+-64.73470428309753
+-65.55557172489841
+-44.457173609768454
+-56.33455560156603
+-47.496507112940385
+-66.0256480346553
+-61.053962826265746
+-50.13853664873607
+-35.50062275360373
+-70.6973034336294
+-63.48916221608477
+-54.60646579178904
+-53.327960102880745
+-50.02979148765537
+-60.98669504645451
+-45.03649149921952
+-61.699533708044115
+-70.20633841033889
+-44.237013083073414
+-59.848895760713575
+-52.80066744209292
+-64.5071793332084
+-13.705956626301472
+-65.82774807377837
+-64.33480679702066
+-43.347454645769915
+-63.86660754977425
+-69.77928368491163
+-70.23482165721377
+-47.41948233850251
+-69.75479352592151
+-69.46770302387033
+-43.00611032972058
+-67.469674239797
+-61.760632395059666
+-47.69876127312293
+-55.42867187079835
+-60.619033377751315
+-55.79741574040302
+-49.586580790086856
+-13.689604444932813
+-69.77567582685798
+-68.31447426401822
+-68.73193382359953
+-71.68471872979423
+-63.803610259425184
+-63.09003441267197
+-52.94802383896994
+-57.993231577404366
+-63.04937475301626
+-68.95667798099248
+-59.80277906457555
+-42.84653797307499
+-53.734099677734335
+-55.6055366367032
+-55.75698965555118
+-72.12635646209583
+-65.03726796327139
+-37.59765200084821
+-53.81683378106929
+-56.18265338228585
+-41.77787209105128
+-26.064698646765933
+-30.922287439913475
+-62.933486701364835
+-66.8336379974212
+-66.74263495168825
+-42.58750473664173
+-61.25980443493912
+-69.66080076954881
+-55.386510373858876
+-66.92682072209433
+-60.76892274347736
+-55.59052736666957
+-16.61879532865371
+-57.28531815656833
+-37.92152396031284
+-58.78912530563985
+-72.89818353113243
+-57.87942051599154
+-53.25670185211849
+-59.43306775532116
+-66.89806544598356
+-67.25831674413523
+-40.6463873954046
+-52.497992304071545
+-42.03237039869796
+-61.10595918334633
+-56.388271328877984
+-42.75362877696032
+-64.01013769999724
+-61.39274624909677
+-38.97380088235048
+-67.73664223590804
+-54.34749234563878
+-52.12098891127653
+-59.636891516473824
+-71.23442387812564
+-54.73371388319218
+-52.516055544828745
+-59.11745064590771
+-59.05734060515465
+-64.68965082094763
+-61.541313877663285
+-61.091993611718266
+-61.779379579085905
+-72.80255144089259
+-52.61323818461978
+-32.33579367286011
+-58.417153242044165
+-50.76195210295156
+-33.709959781859716
+-60.47351256867666
+-45.94133156370307
+-57.624331920136925
+-61.06955226233069
+-67.70956629787977
+-56.03315511444217
+-62.463367002333136
+-56.83261379614708
+-15.799559794472911
+-63.49951563019414
+-64.20671947979042
+-53.946510967689164
+-64.04734158892465
+-10.916041374370506
+-64.02480214665133
+-68.90061754253793
+-70.51427611505042
+-53.42361931204634
+-63.75053507505298
+-50.38493756381619
+-71.76355477972368
+-56.35886694801416
+-64.21803098484318
+-34.26646661478653
+-71.82539365773692
+-65.42832135928383
+-55.326194505290644
+-46.86966103001279
+-44.103938936655844
+-22.95028694810898
+-68.7834696653692
+-51.99496378160306
+-22.360786523701876
+-22.914691012914872
+-63.27281000589618
+-51.19866281789534
+-56.490886071370696
+-48.04288734773063
+-53.92006606963708
+-51.98247404096947
+-69.95572270584285
+-46.602686186981366
+-50.83353359789528
+-59.45159827927937
+-42.93419677474869
+-71.21001131665552
+-69.64945051405242
+-52.945437063948994
+-48.10227263291921
+-61.90436322055182
+-42.2986671120983
+-63.75514967589562
+-62.23765434453364
+-58.44415323449236
+-65.86710394221103
+-50.21476062103176
+-69.4705527097935
+-68.4912172599836
+-64.73810434024873
+-66.07430313331139
+-61.37817737849185
+-56.94149939723641
+-60.68996081031072
+-43.703532933237
+-48.72959950408826
+-60.60205374893984
+-39.66973297695068
+-71.64777183318718
+-49.57682041590667
+-51.12595789017161
+-61.484836350661816
+-61.85713403343463
+-56.67400872670142
+-46.44118138606313
+-71.27757339959874
+-55.10619866695499
+-49.53758402571617
+-59.72858882391835
+-55.776195465738674
+-72.16983889566902
+-45.65674235943332
+-56.04723988618159
+-38.83852913533557
+-52.53640984142759
+-60.91225903260335
+-62.39562760472048
+-43.63858158894349
+-45.38997839905493
+-21.94426634882957
+-70.05300699856008
+-39.80025256037242
+-54.3299732733415
+-62.41693029346366
+-52.32004830664195
+-67.73996249435554
+-45.76660948447136
+-29.708923764339307
+-64.41512251018662
+-56.242374056906904
+-68.23380811004975
+-52.800377384561536
+-70.77925540563366
+-22.841245210439922
+-40.4071691818347
+-60.89708543741673
+-60.778687859572
+-62.916773867475754
+-50.376793705129955
+-56.56122470689793
+-64.35125671113859
+-57.03402230271962
+-63.02713414808726
+-43.59003920373376
+-44.176173060285706
+-20.07766166525421
+-48.76808550587763
+-58.174871128279506
+-58.73162607617449
+-61.53745787426714
+-65.6125168751951
+-66.01393277846462
+-52.05782706607296
+-67.47476156038653
+-52.016975005524614
+-45.54436536933119
+-59.75039211459286
+-54.1657388487786
+-37.69450012689816
+-38.59252099154371
+-68.14442925684196
+-38.132835415797764
+-62.979974525659685
+-22.319595939475544
+-19.361423655180307
+-57.278536384832535
+-50.76972750482247
+-66.46088675542258
+-61.430057217232566
+-27.279898797539648
+-17.378643787803476
+-54.905907525907466
+-61.784792025700526
+-56.511921082828835
+-62.68785354876935
+-10.916041374370506
+-49.31705566970263
+-55.58887071891806
+-60.867266874753426
+-55.76746834039451
+-25.384149225133523
+-65.36634673402794
+-50.14442835195402
+-68.10751445627201
+-59.839955377175734
+-71.73323620220091
+-71.26243089701664
+-54.018899393686766
+-22.510383063677594
+-10.916041374370506
+-34.46398312550413
+-44.646904745893565
+-62.35858551877494
+-57.22951707403177
+-34.50672507980216
+-29.944979703369867
+-63.08501251244672
+-67.94844088531734
+-71.09098125736278
+-60.10550971798667
+-58.3606556035157
+-47.85930520448044
+-43.902080915739354
+-70.1676932810289
+-48.38371005082321
+-43.716414650622944
+-71.84756359599861
+-69.36542223734199
+-62.3145320971043
+-65.1267683714104
+-58.116805175178996
+-68.57574966223056
+-55.756649229485355
+-68.58351473566864
+-44.30191218476383
+-58.907352295102015
+-61.60621341544354
+-54.77194821695934
+-63.69204381649462
+-68.80826859202045
+-59.07626467985033
+-52.96305284159322
+-71.80569621521553
+-55.09268370383868
+-68.18146090828891
+-38.38352684549311
+-57.47388585628473
+-41.43792049936224
+-67.78002631708576
+-59.8259390788949
+-46.130622833848236
+-59.82808401526818
+-59.025552762120014
+-67.94116282523119
+-58.308334343542604
+-57.27328717932945
+-62.288905068498856
+-54.047814004446174
+-53.16716410150406
+-45.21409801675419
+-48.35012840065376
+-59.19156584913035
+-31.78243196148606
+-58.969283021845506
+-45.00477095160612
+-47.450814974036824
+-68.26719942005238
+-42.87630600190474
+-49.70143631028376
+-40.284182881177145
+-55.48766789421803
+-65.87192662088046
+-61.815432741620484
+-57.18334401592777
+-55.743443622289966
+-65.83068735170876
+-65.33825541048459
+-69.00933770448799
+-65.95117080087616
+-50.844237475036735
+-58.3950837007804
+-61.85619741470825
+-44.298635680392714
+-59.810262273293205
+-33.8508553264626
+-48.638067137414346
+-51.55173135698408
+-60.26534955266129
+-50.37752755496432
+-34.71205641828392
+-56.81805108506006
+-46.8476549212333
+-50.46198591441408
+-46.08578725695623
+-46.78859508102839
+-40.253095256096366
+-58.5582721656663
+-43.45102819927013
+-68.88916725889514
+-65.10127425899026
+-28.025751248386477
+-63.72147027871026
+-26.487541347781967
+-54.239501310531054
+-58.10160371299104
+-68.57599521786535
+-55.19108327132914
+-64.59339820468026
+-50.171633048591524
+-53.63747879821849
+-60.14736276676142
+-47.45521667537626
+-49.03657041093066
+-61.58622256233835
+-61.28392206039208
+-52.4852622984031
+-57.66304879352944
+-61.0026000484899
+-23.695865966792347
+-66.31777252585206
+-57.524021796578104
+-67.79958163035057
+-70.60990469890243
+-53.521665367881795
+-49.29742536462435
+-60.12992098525856
+-68.8419856173549
+-67.44836595916519
+-39.23520030535639
+-58.22848545351649
+-40.453082296767676
+-59.094454317476554
+-50.009050188980225
+-52.65954392441378
+-27.521252337218208
+-63.71998595723101
+-70.42933047704238
+-51.63416326271239
+-57.379314763180176
+-46.885806514406205
+-50.162913859008576
+-45.355532249259475
+-58.63344568378262
+-59.12443692463815
+-44.463782045684106
+-60.93387395544519
+-40.89232123114568
+-54.56876760319327
+-55.77435219911479
+-56.75348533039895
+-47.9048033088223
+-71.37070354946047
+-57.76090588319508
+-34.49653224434382
+-60.16306554784562
+-59.591940593333916
+-62.48437418652327
+-49.38109297456607
+-71.19184586986097
+-36.75847708023875
+-45.324876368354445
+-64.03212207991311
+-69.13138012422075
+-33.965272935155255
+-62.181374044408855
+-69.09031902405701
+-71.59267635465541
+-44.033326138408626
+-49.24018505400565
+-71.18241086736991
+-58.946240952079904
+-51.728422629816684
+-56.15227766649272
+-65.15055418183852
+-51.80904349113109
+-53.60566166257999
+-63.76864190890299
+-40.7368943805418
+-65.10366301036079
+-70.42714464185826
+-48.634764430390646
+-50.209041605161076
+-49.18864935360038
+-34.87282667271615
+-34.88582414670932
+-61.99543237115789
+-54.53747804041673
+-50.24659276993203
+-46.77248450325503
+-45.36328702589487
+-67.91009084451393
+-50.08034474178402
+-53.678266124111985
+-58.86781240566723
+-50.82144794963092
+-56.387989692906835
+-51.00412618790326
+-52.21488635744268
+-63.657132331544275
+-35.55342341100056
+-61.92117236333845
+-47.1565820377323
+-66.9243119432656
+-23.22325748877786
+-65.08485117581928
+-53.0607409775439
+-46.67998377825966
+-32.670837338424434
+-49.29950440811428
+-45.246645708452625
+-68.42328994159158
+-56.87602684166265
+-40.26998166009599
+-67.94546532551819
+-58.816537913966414
+-51.91771319180338
+-47.9171976704852
+-56.62221251404512
+-54.28696875221464
+-24.97558356058491
+-56.29001977835939
+-33.19836927752883
+-63.86847136752985
+-29.673333600109405
+-71.77501148384498
+-50.724172575444264
+-59.229310453166626
+-48.16996215969656
+-57.33101107328743
+-18.777352649716907
+-62.03496906803252
+-48.018031532029354
+-53.107139210148404
+-60.0049238552024
+-64.5091116622052
+-59.482327691460384
+-41.82888820241919
+-48.84684781081972
+-36.392539131844686
+-64.5136730244415
+-63.66258174103009
+-55.977829744620415
+-36.16751040347192
+-64.64075527100893
+-49.46298252161536
+-68.44238070513057
+-52.77366459645389
+-64.33077168326133
+-66.35514335973637
+-67.45876669194607
+-64.7299654710897
+-56.61522910897464
+-23.665295326986165
+-70.59568985856083
+-48.8645659610312
+-25.362999891911397
+-12.889995630923448
+-24.428398156152806
+-48.367103721469036
+-60.740215287253804
+-41.677843413048215
+-59.45265859625656
+-67.59487730335127
+-53.27582708745747
+-51.55667053067462
+-65.30847776159858
+-52.992998329846
+-55.09245451599538
+-66.7904064512855
+-44.653705208744704
+-59.86976591604009
+-28.360016629357837
+-47.88483358123468
+-30.331400542390966
+-60.99627909522365
+-44.41275295100342
+-64.95444983693298
+-12.312697590323301
+-58.46184254761649
+-48.930781874954796
+-41.92316141547406
+-59.19761194037801
+-58.951268025465815
+-68.42352306560802
+-68.08436037392569
+-54.25620894515772
+-57.28659707445261
+-38.06269600029754
+-57.471490354242626
+-67.39976758464128
+-51.465620278051084
+-51.164503575203305
+-29.693396517387363
+-20.99102855127983
+-56.677768907762655
+-60.59984614131985
+-55.358579527226645
+-47.107598913730584
+-60.09852921848039
+-62.25610684123386
+-34.71310067580744
+-68.88249166520403
+-67.40419140603062
+-20.824396803001875
+-59.92853537990347
+-70.17006330310984
+-64.01812613446344
+-61.85860890783351
+-58.0590020719283
+-60.84846258193414
+-59.64701997514857
+-63.38628091299951
+-54.12201334856211
+-47.439039869681054
+-21.18190523099419
+-70.07162484564314
+-67.03423924741998
+-49.69509155456097
+-14.972111432792456
+-48.34788308398641
+-12.389749431000306
+-48.77855630887698
+-42.88213271327858
+-63.175738334823876
+-66.54961455724452
+-57.5907788262118
+-55.1037281671601
+-67.69260418547842
+-66.44760347408084
+-56.20096598763837
+-61.38397086606359
+-61.007851983909106
+-63.37063182956378
+-36.510492653520174
+-57.59438718512265
+-43.72505435790573
+-58.91134056244932
+-63.528680630206665
+-32.071357281909236
+-26.80468390777715
+-65.72520128126814
+-45.556974761857255
+-41.08175008223459
+-69.47903219107799
+-67.38541863052738
+-63.661536444845304
+-68.71335934463019
+-68.63948280523566
+-62.207683183382976
+-41.97383724850529
+-61.77300355533537
+-65.88887184263719
+-52.19210317048431
+-63.03743348169765
+-40.06519842168564
+-67.93887970610272
+-10.916041374370506
+-33.489918851661265
+-66.36078922097654
+-56.436232192376494
+-62.08722497855971
+-49.01568580017406
+-52.39030923344915
+-44.41768943610146
+-68.98424230444603
+-58.980578022817866
+-56.6256375326676
+-58.84366259963845
+-63.8663230572774
+-60.55225892322086
+-60.50587946237857
+-64.43892371609898
+-60.77622656712412
+-65.95903718782215
+-53.56648790142462
+-71.09651411090681
+-56.41363150141578
+-45.837710037873435
+-67.79126231128272
+-66.45431160698797
+-60.36393705141461
+-53.07229436946378
+-58.44311330571126
+-64.83335013662007
+-52.211674991004365
+-14.323998858237703
+-59.51602593902537
+-45.31859367477707
+-23.072123216214443
+-59.044143490315754
+-71.73251848688615
+-61.493866247512564
+-54.91283590592737
+-45.728321222622846
+-58.4468752976286
+-58.95079449157819
+-70.3032651397102
+-59.96201766937082
+-71.49561570259219
+-65.76587758830577
+-51.119780099128704
+-41.1746919186727
+-45.65022616582294
+-67.14521569645427
+-53.201894503219755
+-53.35715635725575
+-52.783204341389265
+-55.314628024681475
+-25.239672337565416
+-40.69810323884475
+-66.55558041973165
+-43.912557688328974
+-60.90836176145898
+-48.17394986115313
+-56.513980448511504
+-56.375122573670104
+-48.87813426554725
+-60.57570513166662
+-60.72479598519394
+-54.40068134570099
+-62.307143025783446
+-38.16149585893828
+-45.443365674421834
+-58.210132957215855
+-60.10756273576506
+-64.8697187759972
+-54.57496842147397
+-29.692781663913934
+-40.956965101786864
+-67.51252978677323
+-59.85377712531538
+-27.62051365978934
+-56.719732666959366
+-69.77480157279908
+-69.83824350554454
+-48.6724525515585
+-36.8365832506783
+-49.75195615784471
+-43.9261613531977
+-46.80638345404803
+-67.22655171522356
+-63.25264788395237
+-63.71747114287391
+-38.488666202061665
+-47.588798200195924
+-59.67627075699953
+-29.028656326658464
+-59.17715622234898
+-56.9090693198196
+-59.68793507794933
+-45.21466533486872
+-65.12061950357433
+-46.90308028603982
+-61.30026593047255
+-42.49186549521062
+-14.407365174539736
+-60.578833290737954
+-61.2891018993544
+-45.65913042851031
+-57.69457443014276
+-48.8610432347619
+-67.19513621506718
+-44.070905465033135
+-62.10629373360111
+-63.31079143555723
+-58.16746295803313
+-17.732544371689357
+-64.49178249444577
+-48.33583005209524
+-56.91158357131078
+-48.01343937280546
+-65.64174963096437
+-59.203260549640596
+-61.4032829667543
+-53.486420441735376
+-61.11179470043479
+-50.81933512776873
+-60.25394815073258
+-39.72120790023227
+-67.3950309204747
+-25.173867931212186
+-69.21213872969994
+-62.98554002011938
+-25.910688724555815
+-61.417702031402925
+-54.50262591724065
+-59.98287022250379
+-40.302160448016366
+-51.18464996566892
+-61.677540738523525
+-53.82810165464288
+-29.969727246903513
+-54.749608480446916
+-58.668899942548926
+-33.1286582015084
+-67.14795138618723
+-52.39294682878468
+-45.49172543819979
+-70.86035162895826
+-63.82137511395921
+-57.73053517441259
+-66.03221879343866
+-44.30790230649557
+-62.492671343131924
+-42.866102801049294
+-58.49552385630041
+-49.98959040150639
+-65.13764632380276
+-57.95775599979656
+-69.07626159277063
+-52.125427699570345
+-70.66139881977556
+-66.3534957233443
+-32.387406876523734
+-62.16394003496152
+-58.39214296269812
+-60.73623770608125
+-54.25027614975455
+-51.785479568518674
+-48.25439616495762
+-29.692984988067167
+-61.0760418247524
+-66.66156745283048
+-49.52729978205477
+-50.95220649399183
+-38.09265786789925
+-61.230635240229184
+-55.982255104882185
+-59.566278603583925
+-43.47666564628005
+-69.17067320108423
+-64.66023666216435
+-58.32628752734472
+-22.051442654677285
+-41.53055154073113
+-66.28902527223562
+-55.776307619765475
+-30.383827560087436
+-58.20728645824158
+-65.28537244277811
+-35.96415739244707
+-32.11926799603664
+-56.42733789440328
+-25.95265730523256
+-43.377441039933025
+-57.67338197703506
+-48.34151689473655
+-63.09200461702449
+-70.12745493299981
+-66.2073503725843
+-71.06985725389241
+-55.040804897197944
+-71.87768781353788
+-63.2855943407277
+-34.62280768619448
+-48.72987354643236
+-64.82537886687551
+-61.35876682778156
+-48.341746954890034
+-61.75797674853175
+-49.514656983461585
+-25.69795275567379
+-65.74644591496667
+-45.046493688089214
+-52.91947303572945
+-69.34636122664702
+-51.5811050952221
+-56.82512504564421
+-65.33573416644535
+-56.53594868560504
+-56.64935295311661
+-59.18397696184634
+-39.61475053956995
+-48.811225763097525
+-53.29466143657656
+-57.03432028738569
+-58.74377051563031
+-61.70268540727483
+-41.14409454945617
+-21.108414829095327
+-60.47873168291789
+-57.220755380189814
+-31.44328660122992
+-68.5157674173676
+-53.35751691527902
+-71.6280014197231
+-56.839721735526474
+-68.5038375481023
+-55.716939492768816
+-20.5354032913836
+-53.211753636261484
+-60.46932982712395
+-60.1180009234722
+-22.445491128432764
+-39.66398213239723
+-65.05562576090685
+-66.60482165888965
+-10.916041374370506
+-42.160342745526066
+-58.13124626708008
+-61.087174374156156
+-53.34495779330806
+-56.15525662524346
+-67.91594560233199
+-62.287853112539885
+-24.941347803291023
+-46.60070991760984
+-60.4819095092332
+-59.240515092376434
+-60.65093635126617
+-51.673304654080596
+-52.18417282574082
+-52.54878711759912
+-64.87200036456869
+-64.63371989913391
+-62.718168120392335
+-60.676765588240336
+-45.84010681917128
+-47.18811166644858
+-48.505082178727605
+-53.62672119764201
+-60.47908493393679
+-64.28391143022523
+-14.808817743316256
+-57.81304882741986
+-66.27078423205751
+-54.64734963262716
+-59.43178473311291
+-38.51343691552011
+-49.981231865198886
+-55.83933045768839
+-58.78893858636525
+-57.67813646662964
+-49.79490467988372
+-60.557609654869516
+-67.08007885645878
+-64.36271799282711
+-64.38863642304469
+-54.160015152347334
+-52.31594568504053
+-50.23157963140214
+-49.62533605152786
+-62.96221850463361
+-47.279802286589714
+-62.01117521277645
+-16.558415959786878
+-61.246593474603735
+-47.454078150358924
+-31.793205183966613
+-55.0767348042878
+-57.25902058952877
+-43.782051633095
+-54.811142788905826
+-58.727121755057446
+-51.76919817708313
+-37.15404686875588
+-66.73177441627263
+-61.8502870640662
+-18.57325509917843
+-63.15369230551992
+-55.34142632410281
+-26.748144549022946
+-62.54319325856445
+-57.48429905463626
+-60.213235897437414
+-58.196239287934155
+-61.73741359808422
+-42.422712795767865
+-66.65997815898011
+-40.888071054032466
+-67.8331676134503
+-61.12768102995851
+-53.073308309810216
+-33.49671882647134
+-65.03583622547595
+-37.66964465688014
+-65.77592357746757
+-68.44925058768523
+-45.05299041923691
+-61.42352020231759
+-58.60980496316014
+-49.610447536199025
+-70.43957574619981
+-49.6547180491281
+-60.987117639808275
+-51.34386747184978
+-60.338606492024624
+-50.95505212720359
+-62.73444167198803
+-48.86668861904845
+-44.04378226394301
+-50.2039869553392
+-31.997078781429213
+-51.154123799229076
+-66.51815619532285
+-44.24231535336807
+-34.61034769796268
+-69.32683851547063
+-42.07999242838469
+-39.62621918299351
+-57.11591962436079
+-66.14860722501624
+-52.466373204964555
+-54.40121439438418
+-62.73548375142583
+-52.69608045646127
+-62.01716587936569
+-57.14350799223086
+-38.93527821303386
+-48.363952925622975
+-48.376698412337056
+-47.286659217651476
+-60.39795990361702
+-55.83336870708517
+-47.69548903631023
+-53.41126385847324
+-58.65654958975318
+-52.424425609775355
+-54.268462698130804
+-62.373485104866745
+-36.95219381308543
+-64.98482029869142
+-67.32879321935982
+-27.931989959384765
+-46.65166030759862
+-36.3950048222441
+-72.0749367120979
+-49.606750702470464
+-45.327446641147326
+-41.648354256047455
+-54.54409756204581
+-70.63919023373867
+-60.16032864796115
+-62.08895501829901
+-24.279429719701245
+-61.02442136592608
+-41.20835123050387
+-48.18556130725126
+-58.480976182286504
+-57.623181283253984
+-38.2579606563003
+-68.23133927486982
+-51.111930830822864
+-57.41696355042799
+-60.54853831761851
+-44.917508902474246
+-68.42556524892046
+-41.268370291892
+-58.957378893681664
+-55.10370463651374
+-59.240849842322206
+-67.11355868030203
+-56.95516290856933
+-68.5963514744865
+-43.57068677019079
+-50.11543437114525
+-54.30567289142767
+-62.000589564307944
+-53.77319340232042
+-58.81732203970967
+-55.768108871998464
+-62.13037262038657
+-65.39245331787825
+-59.80070331693473
+-61.4652251194617
+-65.09483071556909
+-56.309142658589884
+-56.63083947222913
+-56.37247948810921
+-55.986141155483885
+-58.960809330343636
+-52.22798005020795
+-51.74129014094714
+-58.940283454251194
+-39.31521565262978
+-70.72628561144543
+-71.1640609851808
+-56.311103544000005
+-56.71983230932666
+-71.19452544117509
+-55.82020756613412
+-71.18678686567699
+-62.406543167767516
+-12.88981865157425
+-57.91094606635204
+-27.07558271259576
+-44.30365946393699
+-57.350733194992706
+-55.27616641011627
+-35.65372626963845
+-64.39897891248513
+-65.22695899367042
+-71.17973409382861
+-21.689943735704627
+-24.833269777831948
+-71.33406355436544
+-47.67725414228845
+-64.32512998239733
+-65.70505174376893
+-38.89412577864082
+-72.87684410085708
+-53.17423637863826
+-57.05245795879467
+-39.39147806208174
+-61.47311889027587
+-62.39789609293223
+-65.97648733753589
+-38.069317075859544
+-53.37989570484665
+-60.77466287865657
+-42.42890548936538
+-62.96908543358229
+-46.14763362237989
+-23.6859159864188
+-66.87006211806649
+-58.36221331297266
+-64.63346859728938
+-52.85291938931912
+-53.363696688150455
+-34.111415568712786
+-52.70180907393635
+-37.3188511946251
+-38.09749845547274
+-33.84947036322986
+-63.71125099687015
+-45.27532252376982
+-44.70475079601764
+-67.29266578165797
+-61.89795531269697
+-50.30436483038346
+-42.5736743424019
+-45.59118191481738
+-71.58861579961011
+-59.64286685855518
+-54.02291902796689
+-68.07566488224373
+-26.87971722151174
+-69.47672395876297
+-49.70026262785154
+-49.40865355806981
+-59.9693970067286
+-67.49897484835384
+-67.50624869702277
+-48.13251882316575
+-33.59807273354963
+-68.11898837343406
+-66.60453445734935
+-64.31725829557926
+-46.13270541031989
+-64.13953545836267
+-64.34216234607442
+-63.985489899253125
+-57.77052272054991
+-59.28993892500561
+-67.47793570246205
+-17.256517224865913
+-40.642777521236425
+-52.24371188878172
+-46.43805458455999
+-56.885238872931986
+-65.00685820043304
+-51.03765909762984
+-66.98495972667885
+-42.71406425551793
+-58.18203838080756
+-39.600841036672556
+-52.86289846290833
+-37.7761052976183
+-70.87277558905038
+-64.87813988905717
+-65.66404791608068
+-71.67066387742427
+-65.53936764801183
+-48.040704567042795
+-41.2588231182601
+-48.62544234951335
+-15.67874905095085
+-56.026435086753665
+-59.562357235175355
+-59.92919928917854
+-37.8482570128151
+-62.42224880161542
+-65.19531727380938
+-38.9531939502964
+-65.93387768831751
+-61.078210183674095
+-36.84228106611384
+-50.04694374669225
+-60.87614140916268
+-38.54713118466563
+-66.60024160152358
+-70.09555702123036
+-50.04691345317677
+-65.21854660587435
+-61.91454755127404
+-56.13786994467623
+-59.153200488575514
+-65.67691281362
+-52.722480128974716
+-53.12964198291416
+-38.92066096546773
+-60.13406581927383
+-59.348784098103756
+-62.10153401905146
+-59.67519710918276
+-66.46493505014628
+-58.09926935719931
+-28.924650958802392
+-58.047605224033056
+-57.09251384807998
+-58.852805511432756
+-58.29831430632037
+-30.23309128271257
+-60.12317970178136
+-71.53034622611817
+-31.74410104126156
+-57.4079467566789
+-58.07110027997426
+-27.748198296384192
+-66.33159532601407
+-61.55849666482328
+-55.22990587484751
+-58.84586728677723
+-46.87290993260237
+-60.596560374739504
+-63.95073966031708
+-71.55453258088473
+-45.96267236102602
+-56.408537068698585
+-60.79076644752274
+-56.4620273907183
+-40.63676831676293
+-71.72403137642355
+-40.5087297104527
+-38.89096410787708
+-62.50347350805751
+-67.54767372010845
+-71.83138931821692
+-54.82347690904893
+-61.97947880697513
+-10.916041374370506
+-21.03437961820723
+-57.42611472042213
+-62.61724196866799
+-12.889995630923448
+-59.93670989092921
+-18.39956637413461
+-69.6501517047465
+-32.283124939640665
+-56.89052121310714
+-57.98072233481128
+-49.054752507002455
+-71.429927881258
+-67.74586976404512
+-66.32782620495932
+-61.73602650978217
+-36.73660754432375
+-60.81155339024656
+-66.50231724977951
+-60.59934030958808
+-61.98537937720716
+-66.19205167336953
+-52.34562068067634
+-54.36477842572984
+-63.945146276390425
+-56.37060423738663
+-38.66820740776186
+-56.50327698377513
+-56.350589755280986
+-64.33653113608503
+-58.98279371770084
+-54.803678835669764
+-61.71340136221855
+-51.26818753777241
+-62.30005152986945
+-64.92558145514954
+-39.75848701128493
+-26.383338037110203
+-63.56146967046553
+-62.11196661922584
+-65.89287655861365
+-25.714862611365113
+-56.669017661311734
+-19.67787289747243
+-61.611531243580664
+-55.53329662525443
+-66.11432199733368
+-67.71422007875172
+-55.6958326999027
+-61.073044688452704
+-46.16586013717861
+-39.27451862010088
+-71.67347967593128
+-59.204378436010444
+-38.54533932622829
+-41.115845191839085
+-65.84562247692227
+-32.45054847282172
+-62.44610318062053
+-21.130510781022725
+-38.94423017528599
+-57.249151063367165
+-58.95193142728239
+-53.88892329061791
+-47.33191738636403
+-60.474159234338174
+-71.500216393751
+-64.46754174118703
+-26.470669851359315
+-53.13828332580821
+-41.29904351015442
+-45.82677520507256
+-52.34411305647864
+-63.6484772568877
+-63.63988541227756
+-54.68091178562829
+-66.10899301437615
+-58.45067571541389
+-49.83249342311087
+-60.74905320226536
+-56.01772978813786
+-68.67441575670453
+-42.84251842134931
+-66.75983597938972
+-66.13506141733059
+-58.39831674138067
+-58.57003939118906
+-67.58350605335195
+-15.80124234913294
+-64.8486073912335
+-50.12132361870941
+-56.779406689595305
+-56.152813840492456
+-55.89784523583417
+-45.8351604993226
+-58.173328661581735
+-58.52964211771651
+-67.31562373926589
+-65.71567481011327
+-55.21762856810617
+-38.02864477740617
+-44.08771504929166
+-69.45045987732013
+-39.58424898189003
+-52.64605934108305
+-21.03437961820723
+-53.78882011665402
+-56.29752246820723
+-57.48379226577297
+-61.46595733445134
+-66.87316069197355
+-61.46454193093372
+-54.901411522468145
+-62.14390106437301
+-58.74785298710557
+-66.66219845155862
+-43.83970332494837
+-49.44702445398783
+-68.85391407579831
+-36.22461110414057
+-71.03687827093235
+-62.73134738765596
+-61.61539122283298
+-36.167694895095664
+-53.03892248313142
+-34.50343529188554
+-65.3559273001105
+-58.7754053182234
+-33.821805488510215
+-42.6417362501233
+-67.86759031230925
+-50.855611981647115
+-64.81123823912947
+-47.364649582476595
+-20.980327739929923
+-71.74743511989489
+-44.84117068231063
+-21.183158344230172
+-55.59728533695433
+-38.79012031565379
+-46.32154781964224
+-68.24093116531884
+-15.49948409255412
+-63.99470750294233
+-52.28587085840655
+-67.44615032757363
+-69.45799976958844
+-67.47406596269161
+-41.04378792060503
+-38.23786315173743
+-57.21105401105496
+-56.152740588896314
+-52.27101337009747
+-68.47588453999172
+-23.423361047541675
+-10.916041374370506
+-60.452006598678956
+-61.26766641507033
+-60.03064351179297
+-69.87509766229917
+-59.31165567001218
+-52.30143368096634
+-70.30757469063879
+-65.71114961647001
+-64.53238039654944
+-65.95897769460284
+-57.665814499942485
+-52.51411011571682
+-62.73679101757327
+-60.383883796915555
+-13.689604444932813
+-60.83374230816349
+-64.43042551331078
+-65.42213043713086
+-64.89303582453101
+-30.544283536918826
+-44.63881018054353
+-57.359537766531304
+-69.24090062413472
+-55.273555036601856
+-70.92555245210703
+-52.22136546381254
+-57.086862516909356
+-68.85976174691588
+-68.34953032537766
+-26.383476982144412
+-67.15734628712218
+-62.66661831893868
+-41.65945943129785
+-25.4907352395426
+-67.94449740609278
+-72.29918849105725
+-23.66266302929287
+-62.470294448364655
+-56.20162533780838
+-23.751537065128957
+-39.8287423672466
+-33.80529485793539
+-63.6139885178615
+-21.33335849595782
+-53.866701607370224
+-46.76041656677325
+-39.8224358725411
+-56.307567428430524
+-60.64282986560039
+-52.026453416707284
+-71.35198489231396
+-43.64004279878741
+-41.26688263488767
+-29.530672248782892
+-62.33441322426814
+-64.1307124990135
+-63.408070937646684
+-52.26952373223833
+-64.80684969682697
+-65.69479027282537
+-60.11929816036166
+-36.8796004244287
+-62.15777573219394
+-61.086421846300496
+-28.884598553770374
+-57.116105680565916
+-70.6085759808335
+-57.75982341209839
+-72.178131946136
+-64.26046539403966
+-68.67533514407882
+-42.448018082092965
+-50.48758148371035
+-30.784781185632095
+-47.60104650813883
+-57.26554291396445
+-62.345001510591565
+-66.17774208783977
+-59.37173005245762
+-52.19067285820442
+-49.750509428392256
+-42.011346032349174
+-29.845076576828816
+-54.24546375363355
+-53.4575500068773
+-66.17693147187212
+-45.96976833443155
+-59.616615692198174
+-66.3719795968527
+-21.03437961820723
+-51.96194903356611
+-59.15996658912791
+-46.378763572224834
+-60.288075483590575
+-64.44823682879405
+-54.7751428900985
+-40.11588887507899
+-53.00799805366647
+-65.59204706486929
+-31.621936369487397
+-39.956395266663876
+-54.18139443356339
+-58.90112097655282
+-59.6182087113556
+-67.87201648030863
+-29.53304270793705
+-69.8950546086141
+-57.78088338151274
+-71.13024701451138
+-71.31602469601512
+-59.62615068835408
+-72.67430490232732
+-36.886069633279604
+-59.19685258963141
+-32.07844058965624
+-67.80076171786872
+-35.386594376084844
+-26.23173363490651
+-61.67350513053143
+-62.6636767272989
+-51.09756229088637
+-63.127743697376914
+-66.10868094295647
+-62.1842842239988
+-53.00015890739153
+-44.0201018736001
+-58.87392854727978
+-24.195829145135924
+-58.88327981901208
+-61.4865494397362
+-47.781113104862
+-69.89629591469067
+-70.18431587712968
+-40.61178036365188
+-57.04612969178532
+-72.11630887490266
+-31.064674673916343
+-55.3739257564433
+-48.83425366488203
+-19.64528544868355
+-34.56184729780751
+-54.79070038583176
+-59.09395916590782
+-44.333511747221
+-72.11520398809206
+-31.777915247582445
+-24.861352812631498
+-52.401723634467565
+-33.01142359604893
+-37.74200358762051
+-71.94470911531818
+-49.90467909988725
+-64.39681077146344
+-47.84227350606604
+-45.922262758608035
+-70.9384186680858
+-63.995743783512175
+-54.95191597068614
+-70.41712855257546
+-71.01502051728993
+-63.85893197856687
+-43.10507509327423
+-67.94049179249073
+-67.42185718385187
+-69.82680657820221
+-55.8129928247816
+-20.418103786040326
+-69.73854080167848
+-53.22478257016289
+-46.19055048234263
+-62.516651035779944
+-49.50697376197193
+-64.66006220571937
+-62.67401777142976
+-43.9526384976548
+-46.07799450548436
+-59.944341607633476
+-49.3139674510678
+-30.835984375944378
+-63.71182429747515
+-58.95110050211518
+-63.96582539462298
+-67.19078683180085
+-63.3886906484658
+-65.81668214544956
+-70.15720359860447
+-55.12104560357948
+-33.798312999443674
+-62.34070452296725
+-49.926980836389674
+-59.710538511059504
+-46.95259564659479
+-22.944959923875263
+-63.915817595227175
+-53.40177011414954
+-21.269751714562222
+-61.869508541645054
+-17.769207139318144
+-71.25730626946365
+-55.622433230760606
+-58.79401268602994
+-44.77997701380612
+-44.43899853879613
+-57.29821067522351
+-30.463414215686313
+-60.945025581689634
+-38.45933826084325
+-55.40908171356976
+-57.76307952264549
+-70.60725172245087
+-45.07522316324773
+-41.360891249287434
+-61.05543144768162
+-52.75813185142079
+-63.165992632145176
+-44.010906206009636
+-49.07473688003777
+-69.82443290434351
+-39.49218095921056
+-70.35549778351643
+-59.28073217193847
+-57.01747693721243
+-24.12331745698092
+-58.722134830631276
+-46.52918434954032
+-49.3807228527685
+-35.96903671370283
+-37.40617964358006
+-58.59931164299373
+-41.12820939216819
+-67.85941250798228
+-48.171475935146795
+-65.03030151150274
+-41.334357145553575
+-44.21949623434632
+-63.600615775574454
+-59.67272201146312
+-63.28049041462052
+-49.057856127362804
+-44.778511939397085
+-65.16556282126876
+-50.266227170166694
+-55.172044060362666
+-64.64539787950426
+-50.22547226317017
+-59.1439934000172
+-66.18331037321542
+-58.47928865090506
+-54.08916917756577
+-64.93143154839049
+-58.553673258465885
+-50.5849494854879
+-64.97823838306287
+-43.69511440167627
+-67.2792840317221
+-63.22816921839046
+-59.58894421094892
+-67.96826293856066
+-61.58895321647401
+-56.571528379720036
+-68.1739233464821
+-25.112025674260014
+-65.67429176525019
+-66.77679465227219
+-67.84595505992397
+-60.13698906940422
+-23.7624075375397
+-49.3004564444633
+-34.776869457665875
+-60.772706387641286
+-53.8929364468497
+-68.35009307466005
+-56.32635712660825
+-67.21257297855892
+-56.63300367445678
+-68.32698543797821
+-38.646023405011086
+-64.69471682310814
+-27.507204275590308
+-24.06386550360389
+-72.10516890958166
+-64.8340008588858
+-71.65838082957616
+-58.40933006864346
+-67.14949814385189
+-59.76648471477994
+-68.75689080472026
+-31.394341770931383
+-72.05160351647952
+-65.35397830614603
+-61.02820445945336
+-61.1020280633472
+-70.48464224992166
+-62.89702017471103
+-39.36291220673988
+-70.73239462382615
+-64.5967417118261
+-52.19057447992938
+-65.59392115267603
+-52.09811288969059
+-46.93562852298325
+-54.905775386566766
+-13.674557760557775
+-53.1663025655966
+-30.74023937941037
+-52.920597024291745
+-50.14330500195512
+-57.368530803694775
+-55.43488278254041
+-29.98302353261653
+-64.56753996798798
+-44.24664926484338
+-60.548959532209224
+-37.34663974623584
+-55.22258390054739
+-57.88822592943633
+-60.556449438346455
+-67.1471684167225
+-53.14799047507832
+-56.73012552098498
+-19.347832872049032
+-36.80658050314502
+-62.02250147219084
+-48.11840718826233
+-63.54827990876768
+-48.41502685066543
+-54.62949844837951
+-64.2017140228213
+-68.9513228830649
+-65.26978536523548
+-49.26143761147284
+-32.594917917042835
+-70.62145954169756
+-36.624436485602665
+-23.184496958011817
+-60.143234003490825
+-64.86891161998601
+-58.88780708674854
+-37.04250763355223
+-46.18945642262193
+-61.06640673107871
+-59.872864748515475
+-53.41802190123415
+-62.08457680800317
+-55.17206358190661
+-70.26163450183877
+-40.17745735801481
+-43.82174328448156
+-40.81219048651574
+-70.8252073894139
+-53.91577689024916
+-71.3443284291302
+-62.501380813960715
+-46.90276697492
+-65.25738833232208
+-69.2473137446891
+-59.68176380717272
+-55.72786748931258
+-21.03437961820723
+avg = -53.51331619008748 +/- 13.304934036720352
+Total time: 7.333s
+
+real    0m9.059s
+user    0m11.505s
+sys 0m0.219s
+-> 
+
