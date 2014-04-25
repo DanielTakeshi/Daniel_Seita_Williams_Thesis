@@ -1,0 +1,2252 @@
+Last login: Wed Apr 23 10:46:30 on ttys001
+-> time java -ea -Xmx1024m -cp bin exp.RunSLSPN DATA 23 GF 10 CP 0.6 INDEPINST 4 N d23_dbscan.spn 
+DATA    23
+GF  10
+CP  0.6
+INDEPINST   4
+N   d23_dbscan.spn
+*** Code with Daniel's additions ***
+Dataset cwebkb, 839 vars, 2803tr, 558va, 838te
+Loading training...
+Loading validation...
+Loading testing...
+
+CP 0.6  GF 10.0 IT 4
+Building structure from 839 vars over 2803 instances
+Using EM with 2803 instances and 839 variables ...
+EM Run 0 with 2803 insts 839 vars
+EM Run 1 with 2803 insts 839 vars
+EM Run 2 with 2803 insts 839 vars
+EM Run 3 with 2803 insts 839 vars
+EM Run 4 with 2803 insts 839 vars
+EM Run 5 with 2803 insts 839 vars
+EM Run 6 with 2803 insts 839 vars
+EM Run 7 with 2803 insts 839 vars
+EM Run 8 with 2803 insts 839 vars
+EM Run 9 with 2803 insts 839 vars
+2803I 839V -> 10 clusters
+Indset size 565
+Indset size 681
+Indset size 565
+Using DBSCAN with 1911 instances and 565 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 1911 insts 565 vars
+EM Run 1 with 1911 insts 565 vars
+EM Run 2 with 1911 insts 565 vars
+EM Run 3 with 1911 insts 565 vars
+EM Run 4 with 1911 insts 565 vars
+EM Run 5 with 1911 insts 565 vars
+EM Run 6 with 1911 insts 565 vars
+EM Run 7 with 1911 insts 565 vars
+EM Run 8 with 1911 insts 565 vars
+EM Run 9 with 1911 insts 565 vars
+1911I 565V -> 7 clusters
+Indset size 681
+Using DBSCAN with 884 instances and 681 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 884 insts 681 vars
+EM Run 1 with 884 insts 681 vars
+EM Run 2 with 884 insts 681 vars
+EM Run 3 with 884 insts 681 vars
+EM Run 4 with 884 insts 681 vars
+EM Run 5 with 884 insts 681 vars
+EM Run 6 with 884 insts 681 vars
+EM Run 7 with 884 insts 681 vars
+EM Run 8 with 884 insts 681 vars
+EM Run 9 with 884 insts 681 vars
+884I 681V -> 3 clusters
+Indset size 425
+Indset size 486
+Indset size 6
+Indset size 425
+Using DBSCAN with 1439 instances and 425 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 1439 insts 425 vars
+EM Run 1 with 1439 insts 425 vars
+EM Run 2 with 1439 insts 425 vars
+EM Run 3 with 1439 insts 425 vars
+EM Run 4 with 1439 insts 425 vars
+EM Run 5 with 1439 insts 425 vars
+EM Run 6 with 1439 insts 425 vars
+EM Run 7 with 1439 insts 425 vars
+EM Run 8 with 1439 insts 425 vars
+EM Run 9 with 1439 insts 425 vars
+1439I 425V -> 39 clusters
+Indset size 176
+Indset size 486
+Using DBSCAN with 681 instances and 486 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 681 insts 486 vars
+EM Run 1 with 681 insts 486 vars
+EM Run 2 with 681 insts 486 vars
+EM Run 3 with 681 insts 486 vars
+EM Run 4 with 681 insts 486 vars
+EM Run 5 with 681 insts 486 vars
+EM Run 6 with 681 insts 486 vars
+EM Run 7 with 681 insts 486 vars
+EM Run 8 with 681 insts 486 vars
+EM Run 9 with 681 insts 486 vars
+681I 486V -> 4 clusters
+Indset size 6
+Using DBSCAN with 202 instances and 6 variables ...
+202I 6V -> 4 clusters
+Indset size 378
+Indset size 176
+Using DBSCAN with 462 instances and 176 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 462 insts 176 vars
+EM Run 1 with 462 insts 176 vars
+EM Run 2 with 462 insts 176 vars
+EM Run 3 with 462 insts 176 vars
+EM Run 4 with 462 insts 176 vars
+EM Run 5 with 462 insts 176 vars
+EM Run 6 with 462 insts 176 vars
+EM Run 7 with 462 insts 176 vars
+EM Run 8 with 462 insts 176 vars
+EM Run 9 with 462 insts 176 vars
+Indset size 460
+Indset size 2
+Indset size 378
+Using DBSCAN with 1400 instances and 378 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 1400 insts 378 vars
+EM Run 1 with 1400 insts 378 vars
+EM Run 2 with 1400 insts 378 vars
+EM Run 3 with 1400 insts 378 vars
+EM Run 4 with 1400 insts 378 vars
+EM Run 5 with 1400 insts 378 vars
+EM Run 6 with 1400 insts 378 vars
+EM Run 7 with 1400 insts 378 vars
+EM Run 8 with 1400 insts 378 vars
+EM Run 9 with 1400 insts 378 vars
+Indset size 3
+Indset size 3
+Indset size 460
+Using DBSCAN with 677 instances and 460 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 677 insts 460 vars
+EM Run 1 with 677 insts 460 vars
+EM Run 2 with 677 insts 460 vars
+EM Run 3 with 677 insts 460 vars
+EM Run 4 with 677 insts 460 vars
+EM Run 5 with 677 insts 460 vars
+EM Run 6 with 677 insts 460 vars
+EM Run 7 with 677 insts 460 vars
+EM Run 8 with 677 insts 460 vars
+EM Run 9 with 677 insts 460 vars
+Indset size 2
+Using DBSCAN with 681 instances and 2 variables ...
+Indset size 2
+Indset size 352
+Indset size 6
+Indset size 3
+Using DBSCAN with 281 instances and 3 variables ...
+Indset size 44
+Indset size 3
+Using DBSCAN with 176 instances and 3 variables ...
+Indset size 5
+Indset size 453
+Indset size 2
+Using DBSCAN with 681 instances and 2 variables ...
+Indset size 352
+Using DBSCAN with 1365 instances and 352 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 1365 insts 352 vars
+EM Run 1 with 1365 insts 352 vars
+EM Run 2 with 1365 insts 352 vars
+EM Run 3 with 1365 insts 352 vars
+EM Run 4 with 1365 insts 352 vars
+EM Run 5 with 1365 insts 352 vars
+EM Run 6 with 1365 insts 352 vars
+EM Run 7 with 1365 insts 352 vars
+EM Run 8 with 1365 insts 352 vars
+EM Run 9 with 1365 insts 352 vars
+Indset size 3
+Indset size 6
+Using DBSCAN with 1400 instances and 6 variables ...
+Indset size 44
+Using DBSCAN with 281 instances and 44 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 281 insts 44 vars
+EM Run 1 with 281 insts 44 vars
+EM Run 2 with 281 insts 44 vars
+EM Run 3 with 281 insts 44 vars
+EM Run 4 with 281 insts 44 vars
+EM Run 5 with 281 insts 44 vars
+EM Run 6 with 281 insts 44 vars
+EM Run 7 with 281 insts 44 vars
+EM Run 8 with 281 insts 44 vars
+EM Run 9 with 281 insts 44 vars
+Indset size 5
+Using DBSCAN with 176 instances and 5 variables ...
+Indset size 453
+Using DBSCAN with 676 instances and 453 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 676 insts 453 vars
+EM Run 1 with 676 insts 453 vars
+EM Run 2 with 676 insts 453 vars
+EM Run 3 with 676 insts 453 vars
+EM Run 4 with 676 insts 453 vars
+EM Run 5 with 676 insts 453 vars
+EM Run 6 with 676 insts 453 vars
+EM Run 7 with 676 insts 453 vars
+EM Run 8 with 676 insts 453 vars
+EM Run 9 with 676 insts 453 vars
+Indset size 2
+Indset size 46
+Indset size 327
+Indset size 3
+Using DBSCAN with 1365 instances and 3 variables ...
+Indset size 3
+Indset size 2
+Indset size 2
+Indset size 18
+Indset size 11
+Indset size 450
+Indset size 4
+Indset size 2
+Using DBSCAN with 681 instances and 2 variables ...
+Indset size 46
+Using DBSCAN with 202 instances and 46 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 202 insts 46 vars
+EM Run 1 with 202 insts 46 vars
+EM Run 2 with 202 insts 46 vars
+EM Run 3 with 202 insts 46 vars
+EM Run 4 with 202 insts 46 vars
+EM Run 5 with 202 insts 46 vars
+EM Run 6 with 202 insts 46 vars
+EM Run 7 with 202 insts 46 vars
+EM Run 8 with 202 insts 46 vars
+EM Run 9 with 202 insts 46 vars
+Indset size 327
+Using DBSCAN with 1326 instances and 327 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 1326 insts 327 vars
+EM Run 1 with 1326 insts 327 vars
+EM Run 2 with 1326 insts 327 vars
+EM Run 3 with 1326 insts 327 vars
+EM Run 4 with 1326 insts 327 vars
+EM Run 5 with 1326 insts 327 vars
+EM Run 6 with 1326 insts 327 vars
+EM Run 7 with 1326 insts 327 vars
+EM Run 8 with 1326 insts 327 vars
+EM Run 9 with 1326 insts 327 vars
+Indset size 3
+Using DBSCAN with 1365 instances and 3 variables ...
+Indset size 2
+Indset size 2
+Using DBSCAN with 1400 instances and 2 variables ...
+Indset size 2
+Using DBSCAN with 102 instances and 2 variables ...
+Indset size 2
+Indset size 18
+Using DBSCAN with 281 instances and 18 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 281 insts 18 vars
+EM Run 1 with 281 insts 18 vars
+EM Run 2 with 281 insts 18 vars
+EM Run 3 with 281 insts 18 vars
+EM Run 4 with 281 insts 18 vars
+EM Run 5 with 281 insts 18 vars
+EM Run 6 with 281 insts 18 vars
+EM Run 7 with 281 insts 18 vars
+EM Run 8 with 281 insts 18 vars
+EM Run 9 with 281 insts 18 vars
+Indset size 11
+Using DBSCAN with 176 instances and 11 variables ...
+Indset size 4
+Indset size 450
+Using DBSCAN with 675 instances and 450 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 675 insts 450 vars
+EM Run 1 with 675 insts 450 vars
+EM Run 2 with 675 insts 450 vars
+EM Run 3 with 675 insts 450 vars
+EM Run 4 with 675 insts 450 vars
+EM Run 5 with 675 insts 450 vars
+EM Run 6 with 675 insts 450 vars
+EM Run 7 with 675 insts 450 vars
+EM Run 8 with 675 insts 450 vars
+EM Run 9 with 675 insts 450 vars
+Indset size 4
+Using DBSCAN with 676 instances and 4 variables ...
+Indset size 293
+Indset size 2
+Indset size 2
+Using DBSCAN with 1365 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using DBSCAN with 102 instances and 2 variables ...
+Indset size 2
+Indset size 4
+Using DBSCAN with 176 instances and 4 variables ...
+Indset size 2
+Indset size 3
+Indset size 2
+Indset size 293
+Using DBSCAN with 1279 instances and 293 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 1279 insts 293 vars
+EM Run 1 with 1279 insts 293 vars
+EM Run 2 with 1279 insts 293 vars
+EM Run 3 with 1279 insts 293 vars
+EM Run 4 with 1279 insts 293 vars
+EM Run 5 with 1279 insts 293 vars
+EM Run 6 with 1279 insts 293 vars
+EM Run 7 with 1279 insts 293 vars
+EM Run 8 with 1279 insts 293 vars
+EM Run 9 with 1279 insts 293 vars
+Indset size 2
+Indset size 2
+Using DBSCAN with 1326 instances and 2 variables ...
+Indset size 2
+Using DBSCAN with 1365 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using DBSCAN with 102 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using DBSCAN with 176 instances and 2 variables ...
+Indset size 2
+Indset size 11
+Indset size 3
+Using DBSCAN with 677 instances and 3 variables ...
+Indset size 2
+Using DBSCAN with 884 instances and 2 variables ...
+Indset size 244
+Indset size 2
+Indset size 2
+Using DBSCAN with 1279 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using DBSCAN with 1365 instances and 2 variables ...
+Indset size 2
+Using DBSCAN with 102 instances and 2 variables ...
+Indset size 2
+Using DBSCAN with 176 instances and 2 variables ...
+Indset size 11
+Using DBSCAN with 462 instances and 11 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 462 insts 11 vars
+EM Run 1 with 462 insts 11 vars
+EM Run 2 with 462 insts 11 vars
+EM Run 3 with 462 insts 11 vars
+EM Run 4 with 462 insts 11 vars
+EM Run 5 with 462 insts 11 vars
+EM Run 6 with 462 insts 11 vars
+EM Run 7 with 462 insts 11 vars
+EM Run 8 with 462 insts 11 vars
+EM Run 9 with 462 insts 11 vars
+Indset size 244
+Using DBSCAN with 1107 instances and 244 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 1107 insts 244 vars
+EM Run 1 with 1107 insts 244 vars
+EM Run 2 with 1107 insts 244 vars
+EM Run 3 with 1107 insts 244 vars
+EM Run 4 with 1107 insts 244 vars
+EM Run 5 with 1107 insts 244 vars
+EM Run 6 with 1107 insts 244 vars
+EM Run 7 with 1107 insts 244 vars
+EM Run 8 with 1107 insts 244 vars
+EM Run 9 with 1107 insts 244 vars
+Indset size 2
+Indset size 2
+Using DBSCAN with 56 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Using DBSCAN with 1326 instances and 2 variables ...
+Indset size 3
+Indset size 5
+Indset size 2
+Indset size 2
+Indset size 4
+Indset size 2
+Indset size 3
+Indset size 2
+Using DBSCAN with 1107 instances and 2 variables ...
+Indset size 2
+Using DBSCAN with 56 instances and 2 variables ...
+Indset size 2
+Using DBSCAN with 1279 instances and 2 variables ...
+Indset size 2
+Indset size 3
+Using DBSCAN with 1400 instances and 3 variables ...
+Indset size 2
+Indset size 5
+Using DBSCAN with 176 instances and 5 variables ...
+Indset size 4
+Indset size 2
+Using DBSCAN with 681 instances and 2 variables ...
+Indset size 2
+Using DBSCAN with 49 instances and 2 variables ...
+Indset size 4
+Using DBSCAN with 202 instances and 4 variables ...
+Indset size 2
+Using DBSCAN with 672 instances and 2 variables ...
+Indset size 2
+Indset size 3
+Using DBSCAN with 349 instances and 3 variables ...
+Indset size 2
+Using DBSCAN with 1279 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Using DBSCAN with 281 instances and 2 variables ...
+Indset size 4
+Using DBSCAN with 1911 instances and 4 variables ...
+Indset size 2
+Indset size 10
+Indset size 4
+Indset size 5
+Indset size 2
+Using DBSCAN with 672 instances and 2 variables ...
+Indset size 88
+Indset size 4
+Indset size 3
+Indset size 2
+Using DBSCAN with 1279 instances and 2 variables ...
+Indset size 3
+Indset size 2
+Using DBSCAN with 143 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using DBSCAN with 1911 instances and 2 variables ...
+Indset size 10
+Using DBSCAN with 240 instances and 10 variables ...
+Indset size 4
+Using DBSCAN with 681 instances and 4 variables ...
+Indset size 5
+Using DBSCAN with 202 instances and 5 variables ...
+Indset size 88
+Using DBSCAN with 672 instances and 88 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 672 insts 88 vars
+EM Run 1 with 672 insts 88 vars
+EM Run 2 with 672 insts 88 vars
+EM Run 3 with 672 insts 88 vars
+EM Run 4 with 672 insts 88 vars
+EM Run 5 with 672 insts 88 vars
+EM Run 6 with 672 insts 88 vars
+EM Run 7 with 672 insts 88 vars
+EM Run 8 with 672 insts 88 vars
+EM Run 9 with 672 insts 88 vars
+Indset size 4
+Using DBSCAN with 349 instances and 4 variables ...
+Indset size 3
+Using DBSCAN with 1107 instances and 3 variables ...
+Indset size 2
+Indset size 3
+Using DBSCAN with 1400 instances and 3 variables ...
+Indset size 2
+Indset size 2
+Indset size 3
+Indset size 2
+Using DBSCAN with 281 instances and 2 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 281 insts 2 vars
+EM Run 1 with 281 insts 2 vars
+EM Run 2 with 281 insts 2 vars
+EM Run 3 with 281 insts 2 vars
+EM Run 4 with 281 insts 2 vars
+EM Run 5 with 281 insts 2 vars
+EM Run 6 with 281 insts 2 vars
+EM Run 7 with 281 insts 2 vars
+EM Run 8 with 281 insts 2 vars
+EM Run 9 with 281 insts 2 vars
+Indset size 2
+Indset size 3
+Indset size 2
+Indset size 6
+Indset size 2
+Using DBSCAN with 1279 instances and 2 variables ...
+Indset size 2
+Using DBSCAN with 1400 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using DBSCAN with 1439 instances and 2 variables ...
+Indset size 3
+Using DBSCAN with 102 instances and 3 variables ...
+Indset size 2
+Using DBSCAN with 176 instances and 2 variables ...
+Indset size 3
+Using DBSCAN with 462 instances and 3 variables ...
+Indset size 2
+Using DBSCAN with 41 instances and 2 variables ...
+Indset size 16
+Indset size 6
+Using DBSCAN with 672 instances and 6 variables ...
+Indset size 3
+Indset size 2
+Using DBSCAN with 1400 instances and 2 variables ...
+Indset size 2
+Indset size 16
+Using DBSCAN with 202 instances and 16 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 202 insts 16 vars
+EM Run 1 with 202 insts 16 vars
+EM Run 2 with 202 insts 16 vars
+EM Run 3 with 202 insts 16 vars
+EM Run 4 with 202 insts 16 vars
+EM Run 5 with 202 insts 16 vars
+EM Run 6 with 202 insts 16 vars
+EM Run 7 with 202 insts 16 vars
+EM Run 8 with 202 insts 16 vars
+EM Run 9 with 202 insts 16 vars
+Indset size 3
+Using DBSCAN with 349 instances and 3 variables ...
+Indset size 3
+Indset size 4
+Indset size 2
+Indset size 2
+Indset size 2
+Using DBSCAN with 677 instances and 2 variables ...
+Indset size 2
+Indset size 3
+Using DBSCAN with 349 instances and 3 variables ...
+Indset size 3
+Indset size 4
+Using DBSCAN with 1107 instances and 4 variables ...
+Indset size 2
+Using DBSCAN with 1326 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Using DBSCAN with 1911 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Using DBSCAN with 202 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 3
+Using DBSCAN with 349 instances and 3 variables ...
+Indset size 2
+Indset size 2
+Using DBSCAN with 1365 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using DBSCAN with 102 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using DBSCAN with 240 instances and 2 variables ...
+Indset size 5
+Indset size 2
+Indset size 2
+Using DBSCAN with 681 instances and 2 variables ...
+Indset size 3
+Indset size 2
+Using DBSCAN with 884 instances and 2 variables ...
+Indset size 2
+Using DBSCAN with 672 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Using DBSCAN with 1279 instances and 2 variables ...
+Indset size 2
+Using DBSCAN with 1365 instances and 2 variables ...
+Indset size 2
+Using DBSCAN with 281 instances and 2 variables ...
+Indset size 2
+Indset size 5
+Using DBSCAN with 240 instances and 5 variables ...
+Indset size 2
+Using DBSCAN with 677 instances and 2 variables ...
+Indset size 3
+Using DBSCAN with 202 instances and 3 variables ...
+Indset size 2
+Using DBSCAN with 349 instances and 2 variables ...
+Indset size 2
+Using DBSCAN with 56 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using DBSCAN with 176 instances and 2 variables ...
+Indset size 2
+Using DBSCAN with 143 instances and 2 variables ...
+Indset size 5
+Indset size 2
+Indset size 2
+Indset size 5
+Using DBSCAN with 349 instances and 5 variables ...
+Indset size 2
+Indset size 2
+Using DBSCAN with 1326 instances and 2 variables ...
+Indset size 2
+Using DBSCAN with 281 instances and 2 variables ...
+Indset size 2
+Using DBSCAN with 349 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 19
+Indset size 2
+Indset size 3
+Indset size 2
+Using DBSCAN with 349 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using DBSCAN with 462 instances and 2 variables ...
+Indset size 19
+Using DBSCAN with 240 instances and 19 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 240 insts 19 vars
+EM Run 1 with 240 insts 19 vars
+EM Run 2 with 240 insts 19 vars
+EM Run 3 with 240 insts 19 vars
+EM Run 4 with 240 insts 19 vars
+EM Run 5 with 240 insts 19 vars
+EM Run 6 with 240 insts 19 vars
+EM Run 7 with 240 insts 19 vars
+EM Run 8 with 240 insts 19 vars
+EM Run 9 with 240 insts 19 vars
+Indset size 3
+Indset size 2
+Using DBSCAN with 110 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 3
+Using DBSCAN with 672 instances and 3 variables ...
+Indset size 2
+Using DBSCAN with 349 instances and 2 variables ...
+Indset size 2
+Indset size 3
+Using DBSCAN with 240 instances and 3 variables ...
+Indset size 6
+Indset size 2
+Indset size 2
+Using DBSCAN with 57 instances and 2 variables ...
+Indset size 2
+Using DBSCAN with 35 instances and 2 variables ...
+Indset size 33
+Indset size 2
+Indset size 2
+Using DBSCAN with 176 instances and 2 variables ...
+Indset size 2
+Indset size 6
+Using DBSCAN with 240 instances and 6 variables ...
+Indset size 2
+Using DBSCAN with 884 instances and 2 variables ...
+Indset size 33
+Using DBSCAN with 349 instances and 33 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 349 insts 33 vars
+EM Run 1 with 349 insts 33 vars
+EM Run 2 with 349 insts 33 vars
+EM Run 3 with 349 insts 33 vars
+EM Run 4 with 349 insts 33 vars
+EM Run 5 with 349 insts 33 vars
+EM Run 6 with 349 insts 33 vars
+EM Run 7 with 349 insts 33 vars
+EM Run 8 with 349 insts 33 vars
+EM Run 9 with 349 insts 33 vars
+Indset size 2
+Indset size 2
+Using DBSCAN with 143 instances and 2 variables ...
+Indset size 8
+Indset size 2
+Using DBSCAN with 176 instances and 2 variables ...
+Indset size 6
+Indset size 3
+Indset size 2
+Using DBSCAN with 1279 instances and 2 variables ...
+Indset size 8
+Using DBSCAN with 281 instances and 8 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 281 insts 8 vars
+EM Run 1 with 281 insts 8 vars
+EM Run 2 with 281 insts 8 vars
+EM Run 3 with 281 insts 8 vars
+EM Run 4 with 281 insts 8 vars
+EM Run 5 with 281 insts 8 vars
+EM Run 6 with 281 insts 8 vars
+EM Run 7 with 281 insts 8 vars
+EM Run 8 with 281 insts 8 vars
+EM Run 9 with 281 insts 8 vars
+Indset size 2
+Indset size 6
+Using DBSCAN with 672 instances and 6 variables ...
+Indset size 3
+Using DBSCAN with 187 instances and 3 variables ...
+Indset size 2
+Indset size 3
+Indset size 2
+Using DBSCAN with 176 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using DBSCAN with 1107 instances and 2 variables ...
+Indset size 2
+Indset size 3
+Using DBSCAN with 281 instances and 3 variables ...
+Indset size 7
+Indset size 2
+Indset size 2
+Using DBSCAN with 240 instances and 2 variables ...
+Indset size 5
+Indset size 2
+Indset size 2
+Using DBSCAN with 1107 instances and 2 variables ...
+Indset size 7
+Using DBSCAN with 281 instances and 7 variables ...
+Indset size 2
+Using DBSCAN with 176 instances and 2 variables ...
+Indset size 2
+Indset size 3
+Indset size 5
+Using DBSCAN with 672 instances and 5 variables ...
+Indset size 2
+Using DBSCAN with 349 instances and 2 variables ...
+Indset size 2
+Using DBSCAN with 176 instances and 2 variables ...
+Indset size 2
+Indset size 3
+Using DBSCAN with 462 instances and 3 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Using DBSCAN with 176 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Using DBSCAN with 1911 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using DBSCAN with 672 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using DBSCAN with 176 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using DBSCAN with 462 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Using DBSCAN with 172 instances and 2 variables ...
+Indset size 2
+Using DBSCAN with 349 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Using DBSCAN with 176 instances and 2 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 176 insts 2 vars
+EM Run 1 with 176 insts 2 vars
+EM Run 2 with 176 insts 2 vars
+EM Run 3 with 176 insts 2 vars
+EM Run 4 with 176 insts 2 vars
+EM Run 5 with 176 insts 2 vars
+EM Run 6 with 176 insts 2 vars
+EM Run 7 with 176 insts 2 vars
+EM Run 8 with 176 insts 2 vars
+EM Run 9 with 176 insts 2 vars
+Indset size 3
+Indset size 2
+Using DBSCAN with 240 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using DBSCAN with 884 instances and 2 variables ...
+Indset size 2
+Using DBSCAN with 349 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using DBSCAN with 70 instances and 2 variables ...
+Indset size 3
+Using DBSCAN with 176 instances and 3 variables ...
+Indset size 2
+Using DBSCAN with 240 instances and 2 variables ...
+Indset size 3
+Indset size 2
+Using DBSCAN with 1107 instances and 2 variables ...
+Indset size 2
+Indset size 3
+Using DBSCAN with 681 instances and 3 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Using DBSCAN with 176 instances and 2 variables ...
+Indset size 2
+Using DBSCAN with 202 instances and 2 variables ...
+Indset size 2
+Using DBSCAN with 349 instances and 2 variables ...
+Indset size 2
+Indset size 4
+Indset size 2
+Using DBSCAN with 240 instances and 2 variables ...
+Indset size 4
+Indset size 4
+Using DBSCAN with 349 instances and 4 variables ...
+Indset size 2
+Indset size 3
+Indset size 4
+Using DBSCAN with 672 instances and 4 variables ...
+Indset size 2
+Indset size 2
+Using DBSCAN with 349 instances and 2 variables ...
+Indset size 3
+Using DBSCAN with 281 instances and 3 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Using DBSCAN with 187 instances and 2 variables ...
+Indset size 2
+Using DBSCAN with 462 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using DBSCAN with 681 instances and 2 variables ...
+Indset size 2
+Using DBSCAN with 202 instances and 2 variables ...
+Indset size 2
+Using DBSCAN with 672 instances and 2 variables ...
+Indset size 2
+Indset size 4
+Indset size 2
+Using DBSCAN with 462 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 5
+Indset size 2
+Indset size 2
+Indset size 2
+Using DBSCAN with 1107 instances and 2 variables ...
+Indset size 4
+Using DBSCAN with 70 instances and 4 variables ...
+Indset size 2
+Using DBSCAN with 462 instances and 2 variables ...
+Indset size 2
+Using DBSCAN with 240 instances and 2 variables ...
+Indset size 2
+Indset size 5
+Using DBSCAN with 202 instances and 5 variables ...
+Indset size 2
+Using DBSCAN with 672 instances and 2 variables ...
+Indset size 2
+Using DBSCAN with 349 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Using DBSCAN with 240 instances and 2 variables ...
+Indset size 4
+Indset size 2
+Indset size 2
+Indset size 2
+Using DBSCAN with 349 instances and 2 variables ...
+Indset size 2
+Using DBSCAN with 70 instances and 2 variables ...
+Indset size 2
+Using DBSCAN with 462 instances and 2 variables ...
+Indset size 4
+Using DBSCAN with 240 instances and 4 variables ...
+Indset size 2
+Using DBSCAN with 79 instances and 2 variables ...
+Indset size 2
+Using DBSCAN with 672 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using DBSCAN with 176 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Using DBSCAN with 681 instances and 2 variables ...
+Indset size 2
+Using DBSCAN with 1911 instances and 2 variables ...
+Indset size 2
+Using DBSCAN with 240 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Using DBSCAN with 110 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using DBSCAN with 672 instances and 2 variables ...
+Indset size 2
+Using DBSCAN with 349 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using DBSCAN with 681 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Using DBSCAN with 1439 instances and 2 variables ...
+Indset size 3
+Indset size 2
+Indset size 2
+Using DBSCAN with 202 instances and 2 variables ...
+Indset size 2
+Using DBSCAN with 672 instances and 2 variables ...
+Indset size 2
+Indset size 3
+Using DBSCAN with 462 instances and 3 variables ...
+Indset size 2
+Using DBSCAN with 240 instances and 2 variables ...
+Indset size 6
+Indset size 10
+Indset size 2
+Using DBSCAN with 281 instances and 2 variables ...
+Indset size 6
+Using DBSCAN with 240 instances and 6 variables ...
+Indset size 10
+Using DBSCAN with 202 instances and 10 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Using DBSCAN with 672 instances and 2 variables ...
+Indset size 2
+Using DBSCAN with 281 instances and 2 variables ...
+Indset size 2
+Using DBSCAN with 172 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Using DBSCAN with 349 instances and 2 variables ...
+Indset size 2
+Using DBSCAN with 672 instances and 2 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 672 insts 2 vars
+EM Run 1 with 672 insts 2 vars
+EM Run 2 with 672 insts 2 vars
+EM Run 3 with 672 insts 2 vars
+EM Run 4 with 672 insts 2 vars
+EM Run 5 with 672 insts 2 vars
+EM Run 6 with 672 insts 2 vars
+EM Run 7 with 672 insts 2 vars
+EM Run 8 with 672 insts 2 vars
+EM Run 9 with 672 insts 2 vars
+Indset size 2
+Indset size 2
+Using DBSCAN with 349 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 4
+Indset size 2
+Indset size 2
+Using DBSCAN with 240 instances and 2 variables ...
+Indset size 2
+Using DBSCAN with 110 instances and 2 variables ...
+Indset size 4
+Using DBSCAN with 202 instances and 4 variables ...
+Indset size 20
+Indset size 8
+Indset size 2
+Using DBSCAN with 1911 instances and 2 variables ...
+Indset size 2
+Indset size 20
+Using DBSCAN with 202 instances and 20 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 202 insts 20 vars
+EM Run 1 with 202 insts 20 vars
+EM Run 2 with 202 insts 20 vars
+EM Run 3 with 202 insts 20 vars
+EM Run 4 with 202 insts 20 vars
+EM Run 5 with 202 insts 20 vars
+EM Run 6 with 202 insts 20 vars
+EM Run 7 with 202 insts 20 vars
+EM Run 8 with 202 insts 20 vars
+EM Run 9 with 202 insts 20 vars
+Indset size 2
+Indset size 8
+Using DBSCAN with 349 instances and 8 variables ...
+Indset size 3
+Indset size 2
+Indset size 2
+Using DBSCAN with 240 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Using DBSCAN with 202 instances and 2 variables ...
+Indset size 4
+Indset size 3
+Indset size 3
+Using DBSCAN with 349 instances and 3 variables ...
+Indset size 2
+Using DBSCAN with 1439 instances and 2 variables ...
+Indset size 2
+Using DBSCAN with 240 instances and 2 variables ...
+Indset size 2
+Using DBSCAN with 110 instances and 2 variables ...
+Indset size 4
+Using DBSCAN with 202 instances and 4 variables ...
+Indset size 3
+Indset size 3
+Using DBSCAN with 672 instances and 3 variables ...
+Indset size 2
+Indset size 3
+Using DBSCAN with 202 instances and 3 variables ...
+Indset size 2
+Using DBSCAN with 349 instances and 2 variables ...
+Indset size 3
+Indset size 2
+Indset size 3
+Using DBSCAN with 349 instances and 3 variables ...
+Indset size 2
+Indset size 2
+Using DBSCAN with 110 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using DBSCAN with 240 instances and 2 variables ...
+Indset size 2
+Using DBSCAN with 176 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Using DBSCAN with 884 instances and 2 variables ...
+Indset size 2
+Using DBSCAN with 349 instances and 2 variables ...
+Indset size 3
+Indset size 2
+Using DBSCAN with 240 instances and 2 variables ...
+Indset size 3
+Indset size 3
+Using DBSCAN with 176 instances and 3 variables ...
+Indset size 2
+Indset size 2
+Indset size 3
+Using DBSCAN with 202 instances and 3 variables ...
+Indset size 2
+Using DBSCAN with 240 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using DBSCAN with 681 instances and 2 variables ...
+Indset size 2
+Using DBSCAN with 240 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using DBSCAN with 281 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using DBSCAN with 240 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Using DBSCAN with 681 instances and 2 variables ...
+Indset size 2
+Using DBSCAN with 172 instances and 2 variables ...
+Indset size 2
+Using DBSCAN with 672 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Using DBSCAN with 672 instances and 2 variables ...
+Indset size 2
+Using DBSCAN with 884 instances and 2 variables ...
+Indset size 2
+Using DBSCAN with 172 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Using DBSCAN with 672 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using DBSCAN with 202 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using DBSCAN with 56 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using DBSCAN with 672 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using DBSCAN with 1911 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Using DBSCAN with 462 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using DBSCAN with 202 instances and 2 variables ...
+Indset size 2
+Using DBSCAN with 672 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using DBSCAN with 462 instances and 2 variables ...
+Indset size 2
+Using DBSCAN with 349 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using DBSCAN with 202 instances and 2 variables ...
+Indset size 3
+Indset size 10
+Indset size 3
+Using DBSCAN with 56 instances and 3 variables ...
+Indset size 10
+Using DBSCAN with 202 instances and 10 variables ...
+Indset size 2
+Indset size 2
+Using DBSCAN with 884 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 3
+Indset size 2
+Using DBSCAN with 176 instances and 2 variables ...
+Indset size 2
+Indset size 3
+Indset size 2
+Using DBSCAN with 681 instances and 2 variables ...
+Indset size 3
+Using DBSCAN with 349 instances and 3 variables ...
+Indset size 2
+Using DBSCAN with 462 instances and 2 variables ...
+Indset size 5
+Indset size 3
+Using DBSCAN with 240 instances and 3 variables ...
+Indset size 5
+Using DBSCAN with 462 instances and 5 variables ...
+Indset size 2
+Indset size 2
+Using DBSCAN with 176 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using DBSCAN with 240 instances and 2 variables ...
+Indset size 3
+Indset size 2
+Indset size 3
+Using DBSCAN with 681 instances and 3 variables ...
+Indset size 2
+Using DBSCAN with 672 instances and 2 variables ...
+Indset size 3
+Indset size 2
+Indset size 3
+Indset size 3
+Using DBSCAN with 349 instances and 3 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 349 insts 3 vars
+EM Run 1 with 349 insts 3 vars
+EM Run 2 with 349 insts 3 vars
+EM Run 3 with 349 insts 3 vars
+EM Run 4 with 349 insts 3 vars
+EM Run 5 with 349 insts 3 vars
+EM Run 6 with 349 insts 3 vars
+EM Run 7 with 349 insts 3 vars
+EM Run 8 with 349 insts 3 vars
+EM Run 9 with 349 insts 3 vars
+Indset size 2
+Indset size 2
+Using DBSCAN with 240 instances and 2 variables ...
+Indset size 3
+Using DBSCAN with 110 instances and 3 variables ...
+Indset size 2
+Using DBSCAN with 349 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using DBSCAN with 202 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using DBSCAN with 240 instances and 2 variables ...
+Indset size 3
+Indset size 2
+Indset size 3
+Indset size 4
+Indset size 3
+Using DBSCAN with 202 instances and 3 variables ...
+Indset size 2
+Using DBSCAN with 672 instances and 2 variables ...
+Indset size 3
+Using DBSCAN with 462 instances and 3 variables ...
+Indset size 2
+Indset size 4
+Using DBSCAN with 240 instances and 4 variables ...
+Indset size 3
+Indset size 2
+Indset size 2
+Using DBSCAN with 1911 instances and 2 variables ...
+Indset size 3
+Using DBSCAN with 240 instances and 3 variables ...
+Indset size 2
+Using DBSCAN with 681 instances and 2 variables ...
+Indset size 3
+Indset size 2
+Indset size 3
+Using DBSCAN with 202 instances and 3 variables ...
+Indset size 2
+Using DBSCAN with 240 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using DBSCAN with 672 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using DBSCAN with 1911 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using DBSCAN with 349 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using DBSCAN with 349 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using DBSCAN with 27 instances and 2 variables ...
+Indset size 3
+Indset size 3
+Indset size 3
+Using DBSCAN with 240 instances and 3 variables ...
+Indset size 3
+Using DBSCAN with 56 instances and 3 variables ...
+Indset size 2
+Indset size 2
+Using DBSCAN with 110 instances and 2 variables ...
+Indset size 3
+Indset size 2
+Indset size 3
+Using DBSCAN with 70 instances and 3 variables ...
+Indset size 2
+Using DBSCAN with 110 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using DBSCAN with 202 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using DBSCAN with 202 instances and 2 variables ...
+Indset size 3
+Indset size 3
+Using DBSCAN with 240 instances and 3 variables ...
+Indset size 2
+Indset size 2
+Indset size 7
+Indset size 2
+Using DBSCAN with 110 instances and 2 variables ...
+Indset size 2
+Using DBSCAN with 681 instances and 2 variables ...
+Indset size 7
+Using DBSCAN with 240 instances and 7 variables ...
+Indset size 2
+Indset size 2
+Using DBSCAN with 681 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using DBSCAN with 462 instances and 2 variables ...
+Indset size 2
+Indset size 4
+Indset size 2
+Using DBSCAN with 1911 instances and 2 variables ...
+Indset size 4
+Using DBSCAN with 110 instances and 4 variables ...
+Indset size 4
+Indset size 4
+Using DBSCAN with 202 instances and 4 variables ...
+Indset size 2
+Indset size 2
+Using DBSCAN with 462 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Using DBSCAN with 240 instances and 2 variables ...
+Indset size 2
+Using DBSCAN with 202 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using DBSCAN with 202 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using DBSCAN with 202 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using DBSCAN with 202 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using DBSCAN with 462 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using DBSCAN with 202 instances and 2 variables ...
+Indset size 2
+Indset size 3
+Indset size 2
+Using DBSCAN with 19 instances and 2 variables ...
+Indset size 3
+Using DBSCAN with 70 instances and 3 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Using DBSCAN with 110 instances and 2 variables ...
+Indset size 2
+Using DBSCAN with 240 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using DBSCAN with 110 instances and 2 variables ...
+Indset size 3
+Indset size 3
+Indset size 3
+Using DBSCAN with 202 instances and 3 variables ...
+Indset size 3
+Using DBSCAN with 240 instances and 3 variables ...
+Indset size 3
+Indset size 3
+Using DBSCAN with 202 instances and 3 variables ...
+Indset size 3
+Indset size 3
+Using DBSCAN with 462 instances and 3 variables ...
+Indset size 7
+Indset size 7
+Using DBSCAN with 202 instances and 7 variables ...
+Indset size 2
+Indset size 2
+Using DBSCAN with 202 instances and 2 variables ...
+Indset size 4
+Indset size 3
+Indset size 4
+Using DBSCAN with 202 instances and 4 variables ...
+Indset size 3
+Using DBSCAN with 240 instances and 3 variables ...
+Indset size 2
+Indset size 2
+Using DBSCAN with 110 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Using DBSCAN with 240 instances and 2 variables ...
+Indset size 2
+Using DBSCAN with 202 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using DBSCAN with 202 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Using DBSCAN with 1911 instances and 2 variables ...
+Indset size 2
+Using DBSCAN with 202 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using DBSCAN with 240 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using DBSCAN with 110 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using DBSCAN with 202 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using DBSCAN with 462 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using DBSCAN with 110 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using DBSCAN with 240 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using DBSCAN with 202 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using DBSCAN with 240 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using DBSCAN with 462 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using DBSCAN with 202 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using DBSCAN with 202 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using DBSCAN with 110 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using DBSCAN with 110 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using DBSCAN with 202 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using DBSCAN with 202 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using DBSCAN with 202 instances and 2 variables ...
+SPN has 242380 nodes
+Building from build list (12907 items)...
+SPN has 244853 nodes
+
+CP 0.6  GF 10.0 IT 4    Smoo2.0
+Train LLH: -152.78115564670406
+Validation LLH: -164.01444670571152
+***
+
+CP 0.6  GF 10.0 IT 4    Smoo1.0
+Train LLH: -150.2560071751059
+Validation LLH: -163.82992867647138
+***
+
+CP 0.6  GF 10.0 IT 4    Smoo0.5
+Train LLH: -143.5310464497776
+Validation LLH: -164.07422040167327
+
+CP 0.6  GF 10.0 IT 4    Smoo0.25
+Train LLH: -134.9367335953483
+Validation LLH: -165.08282999582696
+
+CP 0.6  GF 10.0 IT 4    Smoo0.125
+Train LLH: -128.92254367374113
+Validation LLH: -166.93935292127213
+
+CP 0.6  GF 10.0 IT 4    Smoo0.0625
+Train LLH: -125.40562329280276
+Validation LLH: -169.07637749063096
+
+CP 0.6  GF 10.0 IT 4    Smoo0.03125
+Train LLH: -123.65544669832016
+Validation LLH: -170.62113366202362
+23 cwebkb   GF: 10.0    CP: 0.6 Valid: -163.82992867647138  Test: -160.3453304425598    Time: 7625.536
+
+real    130m21.593s
+user    131m53.459s
+sys 1m13.472s
+-> time java -Xmx1024m -cp bin exp.inference.SPNInfTest DATA 23 N d23_dbscan.spn 
+DATA    23
+N   d23_dbscan.spn
+Dataset cwebkb, 839 vars, 2803tr, 558va, 838te
+Loading training...
+Loading validation...
+Loading testing...
+-191.32052249460375
+-145.38808579281744
+-171.95679103580613
+-155.9510720649521
+-190.97198384385524
+-211.30177540012463
+-78.2203387561868
+-209.5073247539196
+-153.50844679713543
+-255.84840980292566
+-134.95908287810084
+-182.90762924817736
+-219.2174265266105
+-168.00076259838823
+-74.31433318401486
+-137.095440644336
+-122.37827539876446
+-82.26753096648785
+-50.82361019088442
+-144.89834181276925
+-68.62257238505234
+-104.22141776449666
+-217.90905349556573
+-92.1838803440433
+-160.37245646317126
+-201.88224935389164
+-289.96752359117255
+-63.13813522602459
+-98.1308244326556
+-218.74306667307383
+-95.32183306998687
+-190.09185558876533
+-70.52045721485433
+-109.59168573802546
+-58.82050110781472
+-100.74288234624764
+-169.07112289655518
+-165.2756734904499
+-150.70322093908712
+-231.54481244238607
+-76.63233597599074
+-303.987819438457
+-60.284935837246906
+-238.46215623485608
+-180.66699313413758
+-215.6139129645238
+-133.3528780627522
+-38.25006109514321
+-43.70668910084581
+-311.7020633290926
+-448.7475092869198
+-159.5632769279054
+-242.91344703994488
+-76.1971541403702
+-95.21962874322759
+-65.32285965321984
+-78.14727331957297
+-207.01194844109526
+-80.76963228222101
+-61.41270784890021
+-94.16515268243339
+-49.66064103074133
+-212.18710428097177
+-188.5518643287297
+-132.46362971464902
+-176.38321331985023
+-378.29002767852705
+-125.92953882773006
+-65.38235096370505
+-120.4034573689936
+-127.65462540916869
+-372.3609480882772
+-215.61183200675393
+-275.157900640039
+-46.459443293936914
+-193.98282844915894
+-102.91036628133119
+-211.96241373136655
+-102.07596025456849
+-176.38141825847316
+-83.88200202031746
+-207.05687836150148
+-151.87002582775852
+-162.9062120161401
+-149.16808927361114
+-154.91017198070085
+-129.45778140598057
+-122.64199926139074
+-100.23354084675285
+-112.10337277055723
+-31.60024589642262
+-231.70714539890082
+-118.97991932684606
+-30.20704662833448
+-171.85164247542346
+-121.58409384977763
+-196.90814896503863
+-25.794805818030895
+-536.3644839969031
+-51.751753892496126
+-120.11457417387959
+-155.32769969225552
+-63.48885344982408
+-36.313633549926294
+-75.36500995869105
+-107.13140526911062
+-120.45061603822998
+-90.70956374122369
+-124.67885546835758
+-116.40577707445513
+-161.84644907180873
+-195.197495236524
+-96.86847207674899
+-133.72203843793267
+-300.18366633123804
+-178.13689070926804
+-187.72560216295307
+-297.4595849252257
+-326.65538194628743
+-108.06278970794875
+-159.46217695410164
+-187.83438763114515
+-232.49220756087323
+-440.21069198876205
+-72.0397275122053
+-290.459527641513
+-143.22278974544983
+-199.99720426391426
+-126.3846732818181
+-108.82372777893846
+-196.28278075267386
+-179.79860457885445
+-209.6285674848167
+-159.99018471364394
+-43.60840583897921
+-394.5684438592342
+-63.95501201620257
+-235.99305438170165
+-72.06704208569641
+-254.5375295978965
+-55.855457960976835
+-369.1685181517473
+-112.30050037846601
+-159.61841578771455
+-135.82848080184377
+-124.49115014167958
+-199.26532508400263
+-116.24402940227421
+-101.83777361366731
+-101.40424897594292
+-227.84518795272274
+-143.1601354798502
+-125.02457583974285
+-110.83918232519648
+-208.16549376271317
+-133.71616331880244
+-72.45506347335171
+-67.72353765420291
+-70.76009345503488
+-176.72589273101548
+-181.30344209239922
+-91.59688482252513
+-287.552341095879
+-253.48259727501497
+-89.90898538836464
+-323.6591469195926
+-63.211122082696846
+-51.954794888258675
+-146.24041846341478
+-380.79906115751965
+-205.3026806631636
+-219.36562045351684
+-67.59071648430387
+-46.90835212758276
+-54.36336668618502
+-175.69216021410614
+-99.24989524688898
+-241.77909907403537
+-56.36002345882308
+-85.78944990277267
+-188.32255140802434
+-237.7047862940378
+-57.46607037788422
+-137.42966516368364
+-142.13101837099063
+-197.4212947222961
+-433.4174598011252
+-121.3793269204377
+-99.96196359079937
+-250.07134958430234
+-212.38821465012248
+-338.4651963135466
+-100.37025557316692
+-64.8545878141714
+-228.62619106115096
+-103.92108042965108
+-261.9929091188211
+-85.74670954729075
+-147.5325326922788
+-275.1322827667223
+-132.32141173755647
+-316.776822439929
+-82.18535588284928
+-407.3291296190629
+-196.6686176481339
+-300.2834836986198
+-234.3765127310158
+-73.06283610094539
+-28.45881987917266
+-122.6970397951338
+-105.69786309830845
+-71.69309831482093
+-298.23593179759087
+-241.95925717577538
+-51.33309650988649
+-45.39705986604041
+-187.43478192765878
+-174.57678382942635
+-90.06128062430327
+-127.84589435223474
+-167.3373393932368
+-290.17076568780504
+-305.0948264883185
+-234.90253362181093
+-47.26498121989842
+-147.97987863407366
+-41.98452752288098
+-56.57347015166755
+-268.61840015914447
+-59.212862080277034
+-101.42234784835105
+-113.77118902451929
+-194.23205780537566
+-151.44342041909465
+-39.1805980679665
+-140.34409088367698
+-178.86531007705383
+-115.60897683544829
+-186.68307326120097
+-220.98508985825728
+-302.6720533254045
+-200.7348300291077
+-242.35610712432725
+-120.05296529610582
+-175.4480257406362
+-152.98261624273243
+-232.53055302273017
+-104.02643067428767
+-47.97057698317808
+-204.5721386852061
+-155.97308092859703
+-68.45615773203275
+-188.25008419189425
+-221.26753410682173
+-69.86245509821319
+-118.52218424260164
+-143.84794559880368
+-330.62121601029094
+-125.9139142693326
+-346.8675421764422
+-161.32100629865113
+-178.55414900016697
+-109.87906310121221
+-95.98398755276058
+-61.72065861607554
+-169.77657427355928
+-51.5413701320616
+-207.202213457469
+-92.31923199271029
+-213.26302927204998
+-110.48862953465704
+-117.80984911774061
+-137.9376801531817
+-25.794805818030895
+-135.94351482449594
+-236.19080974826906
+-94.97074548386519
+-122.93320283675182
+-526.3018677410664
+-165.43682815480443
+-242.01481922355413
+-272.8441221192762
+-67.63763837795011
+-146.5258839945339
+-359.7253384228574
+-132.038564601301
+-59.702647586192555
+-409.2653382207312
+-176.42077850420503
+-117.44101236047803
+-128.70161529722012
+-78.15650339020917
+-238.79555867873378
+-342.1338148197521
+-129.2484320604646
+-255.59242427156647
+-128.38355886935864
+-92.49271596991485
+-184.83272084864882
+-123.65438034476051
+-77.14733376337296
+-109.59048209827853
+-130.88526215694668
+-136.47792240530262
+-173.78909558990995
+-122.5760977599089
+-98.52197546216658
+-71.89552118525498
+-214.59207475239765
+-106.47225544985173
+-268.92770833703634
+-217.25315983198203
+-88.58309895881254
+-172.82156984519142
+-372.24441777295664
+-186.83030369182077
+-187.23990886498171
+-178.1894683643665
+-97.75121299241957
+-201.51137620825946
+-121.2271892346699
+-510.73776334909843
+-106.88493848928397
+-172.93710173751393
+-220.09102562443607
+-84.98218338332555
+-196.8833181386635
+-239.1615952443272
+-92.18799215401673
+-78.0871440483505
+-198.1486005788964
+-159.4512530594107
+-105.24299700709687
+-89.33384279732286
+-199.8413354377824
+-65.00847260130485
+-74.66807925193098
+-429.7210273283008
+-148.96126783819105
+-181.6374096589213
+-238.0610622979015
+-78.76624285480955
+-85.23445670024253
+-75.61077135685176
+-145.06208730919798
+-103.4582583788391
+-80.29349665637955
+-196.0728928693343
+-219.5791339305734
+-118.07112132883712
+-251.2569235929428
+-72.82616736525524
+-254.1359189957926
+-89.50783405975895
+-50.23595854251239
+-84.35884067333544
+-342.02822999739885
+-194.20323114672053
+-222.5128792910078
+-65.13491484215257
+-448.8182583233821
+-242.0374077977142
+-293.9722300327816
+-279.96871161512485
+-68.09453623401487
+-55.24789150103567
+-121.7147727660994
+-79.42721682033994
+-391.31681480500805
+-148.76941201696414
+-409.78941084569715
+-201.72063328459362
+-76.42477410552138
+-52.92143539351437
+-206.29610192838297
+-154.56087994814496
+-73.21432978240159
+-248.73890655612942
+-131.81965990296743
+-222.59785917228302
+-84.99427613805943
+-187.38589551527224
+-126.43136907966009
+-77.81973941036122
+-219.68630844678367
+-147.89887119836624
+-166.45161504380582
+-97.79531657874978
+-271.18993782808934
+-117.7858942295158
+-159.14478495024892
+-125.02715989461333
+-133.8875822033552
+-75.027269777328
+-211.6172727359089
+-42.83619403890168
+-86.67271005967837
+-59.01521813407268
+-365.55527445494806
+-100.4017409101672
+-78.01232460133559
+-185.50856860014798
+-194.23988433153022
+-103.14853198181629
+-181.8193172217197
+-52.16914405662837
+-86.85438973324923
+-123.41186968397
+-25.794805818030895
+-81.92848167160699
+-82.57508182747563
+-77.2658244979047
+-307.75885859716396
+-106.97889335432569
+-145.96617607440268
+-186.25740883629362
+-248.20528973103038
+-221.85887336258142
+-330.11939597578265
+-164.12076478282006
+-77.94032272317565
+-409.04264506757545
+-174.61750957394563
+-84.54805599143123
+-320.8711058362838
+-202.40918825667563
+-142.63174272812287
+-163.7129471425094
+-105.25557857081083
+-60.359056200178046
+-25.794805818030895
+-97.62727773674058
+-119.5440099919993
+-83.86042304913991
+-58.48098606993197
+-47.709654408444806
+-82.83360438596205
+-65.56815551771967
+-93.37496613545758
+-110.81425087550264
+-150.6567135538036
+-185.97101171563412
+-160.56362152082073
+-91.28810976571447
+-387.03850856826443
+-75.15029922709488
+-60.33807591858415
+-150.01694164918467
+-256.7238168614693
+-136.4037584575331
+-100.78100185263628
+-81.29283958991164
+-188.9960348249749
+-248.61212578796366
+-178.11831026761297
+-174.23918159248706
+-154.05818237994708
+-201.24095605278822
+-378.1475929478339
+-346.52557460821197
+-224.79183572884463
+-233.90987061733247
+-84.93023239586327
+-110.3988042331033
+-200.82025517515083
+-215.49647066240553
+-230.28521789879025
+-512.4081522186136
+-110.96703138682813
+-301.5864687343033
+-104.13044119667848
+-270.4548139217901
+-265.4362850050876
+-106.63098105382537
+-81.7715974410014
+-69.59084666600779
+-159.83075213942797
+-118.23694890538574
+-228.6955873682996
+-119.19980413550546
+-149.36117866094602
+-111.78362747779977
+-94.8305295263672
+-136.64511350243282
+-205.337214837814
+-124.6477305188844
+-142.49322327092173
+-71.54287042686505
+-94.12844648654396
+-161.74777748916608
+-115.10514211212757
+-287.855403172891
+-124.39500706834497
+-57.44187282434437
+-232.3272982447248
+-313.31258050501583
+-122.10409321999686
+-85.2658167478985
+-29.04011119883259
+-157.90123133115085
+-60.334970975830515
+-167.51242341226313
+-87.96397609114044
+-67.9672152746663
+-155.08054038029712
+-147.7049154364201
+-225.7765764339143
+-393.66115978225935
+-234.63383546130402
+-170.32493177372083
+-268.06252962834617
+-215.43026510252014
+-113.60145339962442
+-202.5734036699304
+-281.2433299581918
+-192.2874745931165
+-199.3755970670254
+-160.35306274613126
+-189.00884373243295
+-134.04440135724423
+-155.17145480625126
+-96.2554010079688
+-171.81457387389295
+-62.118364497976714
+-372.6230858365536
+-79.63988823774974
+-386.76555011458623
+-144.19608603397586
+-184.4575355922674
+-94.83436134244394
+-147.65218909476164
+-205.16130406452234
+-536.0059282696183
+-206.44850549724745
+-292.856342903015
+-207.2807483962193
+-91.67872007086967
+-80.80371178938756
+-203.83618738806234
+-37.84048453644955
+-386.4176885402172
+-91.22244136709605
+-64.53389280964663
+-124.67225614340819
+-142.25424933615878
+-122.47201274914192
+-98.88501020777831
+-53.13688000283125
+-62.05783263965721
+-166.13559280856643
+-71.55179754448491
+-95.4804734760277
+-174.5997787236064
+-79.20548120409663
+-50.316067013528084
+-196.65011943074032
+-186.5268699080111
+-186.3942993188844
+-25.794805818030895
+-77.91508260928782
+-218.57922057909173
+-89.91784302268138
+-155.46319081321155
+-75.3818029207614
+-86.01223064109718
+-151.47572642733584
+-201.40504793258526
+-133.45814926680376
+-194.5117717088112
+-132.83548563296657
+-93.63435812492952
+-155.41549480224032
+-154.30180373468187
+-221.26454519256689
+-102.86165282446736
+-148.28827324284367
+-130.3231386899264
+-259.64565261860713
+-172.64612040223537
+-102.89406610506572
+-294.5682518593841
+-175.12973618612
+-168.4735371864133
+-196.07239677240742
+-107.41012930845947
+-25.794805818030895
+-88.44415747473724
+-373.7465256231986
+-176.41702404457573
+-278.33341586468276
+-194.84574945316191
+-198.25048241405588
+-168.36881361502188
+-51.66689584767795
+-102.58269432288424
+-101.95030753745769
+-174.1814769454753
+-131.98623364362194
+-103.42826596501251
+-107.71955462813042
+-177.90961816343597
+-150.71970271134222
+-124.54603992550781
+-139.49090767607188
+-88.14025490903198
+-127.04740982157688
+-84.63718510107333
+-129.47429711871942
+-103.0877811899184
+-134.1733841720834
+-183.50541684747915
+-91.49165726327149
+-148.63700291266264
+-137.3669308618238
+-169.54451734534214
+-121.0343906066858
+-228.85636265911964
+-180.7051611888232
+-67.18426633259537
+-175.2615554257104
+-209.14735126505073
+-89.05449327691855
+-551.3375978514831
+-95.75194494924898
+-309.9743493673418
+-105.56766249406255
+-38.83717259642518
+-86.31157841854804
+-43.218874672322514
+-59.7933022064135
+-343.7364074202501
+-108.07206065480288
+-163.59677692165772
+-36.9294008227821
+-198.6384342796596
+-164.41261279903213
+-104.64046725584653
+-227.69100678123505
+-119.9393768063474
+-281.8614417849336
+-205.29494385288356
+-118.71867375446728
+-204.55294417415203
+-73.63684481528418
+-100.06384093486375
+-59.40356169332112
+-206.49249050806466
+-243.7007766307033
+-207.2783159185537
+-155.2744661017341
+-115.57731567389462
+-220.83396628676752
+-71.65264603772741
+-114.80677004310647
+-173.68587183319244
+-98.3691879719685
+-210.9862389214392
+-118.4193271205661
+-219.98172297915795
+-139.60021610299964
+-187.62090757213159
+-40.449406672946026
+-116.35358862357535
+-74.51249996012325
+-25.794805818030895
+-201.44643449412678
+-86.18383333654424
+-267.4194271528813
+-99.9792842637631
+-110.79961976059096
+-179.93976271785684
+-359.6614745809145
+-133.30217339197804
+-72.74796912856488
+-133.6082294484329
+-184.55140586995063
+-275.3413387558659
+-123.97583140897487
+-195.10366496630405
+-408.057788397543
+-295.3093888404772
+-58.1960541416024
+-131.25083271129134
+-183.13141592579373
+-243.785414113872
+-218.28360442877124
+-46.089008076888305
+-52.08548347606853
+-107.2065249060547
+-194.79753686112582
+-113.47279381279225
+-59.846960755843526
+-25.794805818030895
+-34.327629967044146
+-274.06588159410376
+-94.05721171994526
+-158.04910252496467
+-247.2696880043474
+-127.33168303478035
+-101.03146028643206
+-204.30211713543943
+-204.21613875445567
+-147.6147359147288
+-109.69284791446947
+-229.36260318007012
+-64.20293874874781
+-175.94079364835284
+-130.4374874681619
+-330.1180964705944
+-177.9327682454675
+-81.91443359962918
+-187.55446580995576
+-310.9878441655713
+-88.34644715075072
+-427.31281317059603
+-210.86430081376287
+-123.09696907329995
+-258.65205584422284
+-99.61292082952053
+-148.76173975675425
+-128.42621415906223
+-220.20843409960193
+-151.14330999516372
+-179.74563111875653
+-73.19914375094842
+-25.794805818030895
+-195.4182383001862
+-63.353380099428364
+-211.0722682582714
+-141.9194057116164
+-123.30070585663498
+-65.5830963347764
+-347.1801200849902
+-179.51132273546483
+-158.0214324274293
+-158.33154327628955
+-44.60436109988821
+-104.39677196609661
+-126.57875863494638
+-80.6079048460712
+-66.92392657744577
+-275.86612769889757
+-60.00988685248889
+-281.46828872599616
+-114.24473393524154
+-185.04993722073752
+-185.56202704877288
+-278.30962224043844
+-96.67088873930064
+-204.84169065483823
+-45.941908046502434
+-252.94302889897384
+-133.2099738298998
+-214.9680198643132
+-63.957963763307646
+-113.87513183222926
+-122.47158030391485
+-120.9859529258911
+-89.86120194014862
+-93.86083289172883
+-88.84657534540952
+-76.15187309757715
+-60.264773080011125
+-50.19794285942598
+-162.7824436867179
+-352.23065549306347
+-299.42865469768094
+-48.77631435165698
+-164.3538885356365
+-175.5086291212261
+-169.14810172022933
+-85.29602065057074
+-119.33656312874909
+-66.87628236446932
+-71.89181899043638
+-87.75403848986957
+-25.794805818030895
+-150.33550866468235
+-96.6041251193202
+-65.09326836931209
+-252.32169857641605
+-118.64146280298316
+-71.06356014332002
+-401.00816989178935
+-278.7025514799516
+-93.16222985577102
+-132.06669901019913
+-91.42959252111191
+-377.36471706637957
+-196.02914338623907
+-128.73222850157407
+-265.378450963041
+-58.06478474897982
+-218.4068134052241
+-270.6726653267145
+-102.65914177075241
+-279.66364240731303
+-271.34272975061725
+-91.1255273322331
+-163.97247999666183
+-66.42141198959231
+-99.9118389232157
+-136.54891627738778
+-52.18221975667926
+-99.82505909452618
+-173.69913666123176
+-242.82623834947006
+-164.66978480547738
+-109.36211571409612
+-74.37223894177876
+-268.5218585482632
+-351.522834494572
+-88.15333487396916
+-180.6045081891515
+-113.91747820503144
+-358.0603925843199
+-213.36614552239732
+-413.11704995545716
+-513.825218255074
+-85.73060843027768
+-93.64934441334688
+-140.60603830521694
+-256.18719054783884
+-138.20532870643342
+-177.28149749008315
+-207.55374336978042
+-229.65028722364997
+-85.8770710725957
+-162.30691171802283
+-46.86925854782814
+-44.99949448939384
+-187.15344625615361
+-428.6013975444493
+-309.76459376705424
+-194.40547587385225
+-197.831752938421
+-77.37164431939419
+-25.794805818030895
+avg = -160.3453304425598 +/- 92.19994871725272
+Total time: 7.405s
+
+real    0m9.740s
+user    0m11.365s
+sys 0m0.316s
+-> 
+

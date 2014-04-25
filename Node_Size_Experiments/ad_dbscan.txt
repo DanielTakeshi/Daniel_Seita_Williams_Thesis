@@ -1,0 +1,2550 @@
+Last login: Sun Apr 20 11:09:28 on ttys002
+-> time java -ea -Xmx1024m -cp bin exp.RunSLSPN DATA 20 GF 10 CP 0.6 INDEPINST 4 N d20_dbscan.spn
+DATA    20
+GF  10
+CP  0.6
+INDEPINST   4
+N   d20_dbscan.spn
+*** Code with Daniel's additions ***
+Dataset ad, 1556 vars, 2461tr, 327va, 491te
+Loading training...
+Loading validation...
+Loading testing...
+
+CP 0.6  GF 10.0 IT 4
+Building structure from 1556 vars over 2461 instances
+Using EM with 2461 instances and 1556 variables ...
+EM Run 0 with 2461 insts 1556 vars
+EM Run 1 with 2461 insts 1556 vars
+EM Run 2 with 2461 insts 1556 vars
+EM Run 3 with 2461 insts 1556 vars
+EM Run 4 with 2461 insts 1556 vars
+EM Run 5 with 2461 insts 1556 vars
+EM Run 6 with 2461 insts 1556 vars
+EM Run 7 with 2461 insts 1556 vars
+EM Run 8 with 2461 insts 1556 vars
+EM Run 9 with 2461 insts 1556 vars
+2461I 1556V -> 3 clusters
+Indset size 13
+Indset size 13
+Using EM with 2234 instances and 13 variables ...
+EM Run 0 with 2234 insts 13 vars
+EM Run 1 with 2234 insts 13 vars
+EM Run 2 with 2234 insts 13 vars
+EM Run 3 with 2234 insts 13 vars
+EM Run 4 with 2234 insts 13 vars
+EM Run 5 with 2234 insts 13 vars
+EM Run 6 with 2234 insts 13 vars
+EM Run 7 with 2234 insts 13 vars
+EM Run 8 with 2234 insts 13 vars
+EM Run 9 with 2234 insts 13 vars
+2234I 13V -> 4 clusters
+Indset size 1016
+Indset size 1016
+Using EM with 2234 instances and 1016 variables ...
+EM Run 0 with 2234 insts 1016 vars
+EM Run 1 with 2234 insts 1016 vars
+EM Run 2 with 2234 insts 1016 vars
+EM Run 3 with 2234 insts 1016 vars
+EM Run 4 with 2234 insts 1016 vars
+EM Run 5 with 2234 insts 1016 vars
+EM Run 6 with 2234 insts 1016 vars
+EM Run 7 with 2234 insts 1016 vars
+EM Run 8 with 2234 insts 1016 vars
+EM Run 9 with 2234 insts 1016 vars
+2234I 1016V -> 4 clusters
+Indset size 18
+Indset size 702
+Indset size 9
+Indset size 18
+Using EM with 2234 instances and 18 variables ...
+EM Run 0 with 2234 insts 18 vars
+EM Run 1 with 2234 insts 18 vars
+EM Run 2 with 2234 insts 18 vars
+EM Run 3 with 2234 insts 18 vars
+EM Run 4 with 2234 insts 18 vars
+EM Run 5 with 2234 insts 18 vars
+EM Run 6 with 2234 insts 18 vars
+EM Run 7 with 2234 insts 18 vars
+EM Run 8 with 2234 insts 18 vars
+EM Run 9 with 2234 insts 18 vars
+2234I 18V -> 3 clusters
+Indset size 702
+Using DBSCAN with 1885 instances and 702 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 1885 insts 702 vars
+EM Run 1 with 1885 insts 702 vars
+EM Run 2 with 1885 insts 702 vars
+EM Run 3 with 1885 insts 702 vars
+EM Run 4 with 1885 insts 702 vars
+EM Run 5 with 1885 insts 702 vars
+EM Run 6 with 1885 insts 702 vars
+EM Run 7 with 1885 insts 702 vars
+EM Run 8 with 1885 insts 702 vars
+EM Run 9 with 1885 insts 702 vars
+1885I 702V -> 11 clusters
+Indset size 9
+Using DBSCAN with 326 instances and 9 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 326 insts 9 vars
+EM Run 1 with 326 insts 9 vars
+EM Run 2 with 326 insts 9 vars
+EM Run 3 with 326 insts 9 vars
+EM Run 4 with 326 insts 9 vars
+EM Run 5 with 326 insts 9 vars
+EM Run 6 with 326 insts 9 vars
+EM Run 7 with 326 insts 9 vars
+EM Run 8 with 326 insts 9 vars
+EM Run 9 with 326 insts 9 vars
+326I 9V -> 2 clusters
+Indset size 14
+Indset size 399
+Indset size 14
+Using EM with 2234 instances and 14 variables ...
+EM Run 0 with 2234 insts 14 vars
+EM Run 1 with 2234 insts 14 vars
+EM Run 2 with 2234 insts 14 vars
+EM Run 3 with 2234 insts 14 vars
+EM Run 4 with 2234 insts 14 vars
+EM Run 5 with 2234 insts 14 vars
+EM Run 6 with 2234 insts 14 vars
+EM Run 7 with 2234 insts 14 vars
+EM Run 8 with 2234 insts 14 vars
+EM Run 9 with 2234 insts 14 vars
+Indset size 9
+Indset size 238
+Indset size 399
+Using DBSCAN with 1505 instances and 399 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 1505 insts 399 vars
+EM Run 1 with 1505 insts 399 vars
+EM Run 2 with 1505 insts 399 vars
+EM Run 3 with 1505 insts 399 vars
+EM Run 4 with 1505 insts 399 vars
+EM Run 5 with 1505 insts 399 vars
+EM Run 6 with 1505 insts 399 vars
+EM Run 7 with 1505 insts 399 vars
+EM Run 8 with 1505 insts 399 vars
+EM Run 9 with 1505 insts 399 vars
+Indset size 17
+Indset size 15
+Indset size 9
+Using EM with 2234 instances and 9 variables ...
+EM Run 0 with 2234 insts 9 vars
+EM Run 1 with 2234 insts 9 vars
+EM Run 2 with 2234 insts 9 vars
+EM Run 3 with 2234 insts 9 vars
+EM Run 4 with 2234 insts 9 vars
+EM Run 5 with 2234 insts 9 vars
+EM Run 6 with 2234 insts 9 vars
+EM Run 7 with 2234 insts 9 vars
+EM Run 8 with 2234 insts 9 vars
+EM Run 9 with 2234 insts 9 vars
+Indset size 3
+Indset size 238
+Using EM with 165 instances and 238 variables ...
+EM Run 0 with 165 insts 238 vars
+EM Run 1 with 165 insts 238 vars
+EM Run 2 with 165 insts 238 vars
+EM Run 3 with 165 insts 238 vars
+EM Run 4 with 165 insts 238 vars
+EM Run 5 with 165 insts 238 vars
+EM Run 6 with 165 insts 238 vars
+EM Run 7 with 165 insts 238 vars
+EM Run 8 with 165 insts 238 vars
+EM Run 9 with 165 insts 238 vars
+Indset size 17
+Using DBSCAN with 1505 instances and 17 variables ...
+Indset size 15
+Using DBSCAN with 181 instances and 15 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 181 insts 15 vars
+EM Run 1 with 181 insts 15 vars
+EM Run 2 with 181 insts 15 vars
+EM Run 3 with 181 insts 15 vars
+EM Run 4 with 181 insts 15 vars
+EM Run 5 with 181 insts 15 vars
+EM Run 6 with 181 insts 15 vars
+EM Run 7 with 181 insts 15 vars
+EM Run 8 with 181 insts 15 vars
+EM Run 9 with 181 insts 15 vars
+Indset size 3
+Using EM with 2234 instances and 3 variables ...
+EM Run 0 with 2234 insts 3 vars
+EM Run 1 with 2234 insts 3 vars
+EM Run 2 with 2234 insts 3 vars
+EM Run 3 with 2234 insts 3 vars
+EM Run 4 with 2234 insts 3 vars
+EM Run 5 with 2234 insts 3 vars
+EM Run 6 with 2234 insts 3 vars
+EM Run 7 with 2234 insts 3 vars
+EM Run 8 with 2234 insts 3 vars
+EM Run 9 with 2234 insts 3 vars
+Indset size 24
+Indset size 116
+Indset size 3
+Indset size 24
+Using EM with 2234 instances and 24 variables ...
+EM Run 0 with 2234 insts 24 vars
+EM Run 1 with 2234 insts 24 vars
+EM Run 2 with 2234 insts 24 vars
+EM Run 3 with 2234 insts 24 vars
+EM Run 4 with 2234 insts 24 vars
+EM Run 5 with 2234 insts 24 vars
+EM Run 6 with 2234 insts 24 vars
+EM Run 7 with 2234 insts 24 vars
+EM Run 8 with 2234 insts 24 vars
+EM Run 9 with 2234 insts 24 vars
+Indset size 116
+Using DBSCAN with 129 instances and 116 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 129 insts 116 vars
+EM Run 1 with 129 insts 116 vars
+EM Run 2 with 129 insts 116 vars
+EM Run 3 with 129 insts 116 vars
+EM Run 4 with 129 insts 116 vars
+EM Run 5 with 129 insts 116 vars
+EM Run 6 with 129 insts 116 vars
+EM Run 7 with 129 insts 116 vars
+EM Run 8 with 129 insts 116 vars
+EM Run 9 with 129 insts 116 vars
+Indset size 3
+Using DBSCAN with 25 instances and 3 variables ...
+Indset size 10
+Indset size 8
+Indset size 24
+Indset size 10
+Using DBSCAN with 1505 instances and 10 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 1505 insts 10 vars
+EM Run 1 with 1505 insts 10 vars
+EM Run 2 with 1505 insts 10 vars
+EM Run 3 with 1505 insts 10 vars
+EM Run 4 with 1505 insts 10 vars
+EM Run 5 with 1505 insts 10 vars
+EM Run 6 with 1505 insts 10 vars
+EM Run 7 with 1505 insts 10 vars
+EM Run 8 with 1505 insts 10 vars
+EM Run 9 with 1505 insts 10 vars
+Indset size 8
+Using DBSCAN with 181 instances and 8 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 181 insts 8 vars
+EM Run 1 with 181 insts 8 vars
+EM Run 2 with 181 insts 8 vars
+EM Run 3 with 181 insts 8 vars
+EM Run 4 with 181 insts 8 vars
+EM Run 5 with 181 insts 8 vars
+EM Run 6 with 181 insts 8 vars
+EM Run 7 with 181 insts 8 vars
+EM Run 8 with 181 insts 8 vars
+EM Run 9 with 181 insts 8 vars
+Indset size 2
+Indset size 8
+Indset size 5
+Indset size 2
+Indset size 24
+Using DBSCAN with 62 instances and 24 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 62 insts 24 vars
+EM Run 1 with 62 insts 24 vars
+EM Run 2 with 62 insts 24 vars
+EM Run 3 with 62 insts 24 vars
+EM Run 4 with 62 insts 24 vars
+EM Run 5 with 62 insts 24 vars
+EM Run 6 with 62 insts 24 vars
+EM Run 7 with 62 insts 24 vars
+EM Run 8 with 62 insts 24 vars
+EM Run 9 with 62 insts 24 vars
+Indset size 158
+Indset size 23
+Indset size 101
+Indset size 2
+Using EM with 2234 instances and 2 variables ...
+EM Run 0 with 2234 insts 2 vars
+EM Run 1 with 2234 insts 2 vars
+EM Run 2 with 2234 insts 2 vars
+EM Run 3 with 2234 insts 2 vars
+EM Run 4 with 2234 insts 2 vars
+EM Run 5 with 2234 insts 2 vars
+EM Run 6 with 2234 insts 2 vars
+EM Run 7 with 2234 insts 2 vars
+EM Run 8 with 2234 insts 2 vars
+EM Run 9 with 2234 insts 2 vars
+Indset size 8
+Using DBSCAN with 85 instances and 8 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 85 insts 8 vars
+EM Run 1 with 85 insts 8 vars
+EM Run 2 with 85 insts 8 vars
+EM Run 3 with 85 insts 8 vars
+EM Run 4 with 85 insts 8 vars
+EM Run 5 with 85 insts 8 vars
+EM Run 6 with 85 insts 8 vars
+EM Run 7 with 85 insts 8 vars
+EM Run 8 with 85 insts 8 vars
+EM Run 9 with 85 insts 8 vars
+Indset size 5
+Using DBSCAN with 25 instances and 5 variables ...
+Indset size 12
+Indset size 2
+Using DBSCAN with 129 instances and 2 variables ...
+Indset size 3
+Indset size 2
+Indset size 158
+Using DBSCAN with 1111 instances and 158 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 1111 insts 158 vars
+EM Run 1 with 1111 insts 158 vars
+EM Run 2 with 1111 insts 158 vars
+EM Run 3 with 1111 insts 158 vars
+EM Run 4 with 1111 insts 158 vars
+EM Run 5 with 1111 insts 158 vars
+EM Run 6 with 1111 insts 158 vars
+EM Run 7 with 1111 insts 158 vars
+EM Run 8 with 1111 insts 158 vars
+EM Run 9 with 1111 insts 158 vars
+Indset size 23
+Using DBSCAN with 71 instances and 23 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 71 insts 23 vars
+EM Run 1 with 71 insts 23 vars
+EM Run 2 with 71 insts 23 vars
+EM Run 3 with 71 insts 23 vars
+EM Run 4 with 71 insts 23 vars
+EM Run 5 with 71 insts 23 vars
+EM Run 6 with 71 insts 23 vars
+EM Run 7 with 71 insts 23 vars
+EM Run 8 with 71 insts 23 vars
+EM Run 9 with 71 insts 23 vars
+Indset size 2
+Indset size 101
+Using DBSCAN with 181 instances and 101 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 181 insts 101 vars
+EM Run 1 with 181 insts 101 vars
+EM Run 2 with 181 insts 101 vars
+EM Run 3 with 181 insts 101 vars
+EM Run 4 with 181 insts 101 vars
+EM Run 5 with 181 insts 101 vars
+EM Run 6 with 181 insts 101 vars
+EM Run 7 with 181 insts 101 vars
+EM Run 8 with 181 insts 101 vars
+EM Run 9 with 181 insts 101 vars
+Indset size 2
+Indset size 9
+Indset size 5
+Indset size 12
+Using DBSCAN with 25 instances and 12 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 25 insts 12 vars
+EM Run 1 with 25 insts 12 vars
+EM Run 2 with 25 insts 12 vars
+EM Run 3 with 25 insts 12 vars
+EM Run 4 with 25 insts 12 vars
+EM Run 5 with 25 insts 12 vars
+EM Run 6 with 25 insts 12 vars
+EM Run 7 with 25 insts 12 vars
+EM Run 8 with 25 insts 12 vars
+EM Run 9 with 25 insts 12 vars
+Indset size 3
+Using DBSCAN with 165 instances and 3 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 165 insts 3 vars
+EM Run 1 with 165 insts 3 vars
+EM Run 2 with 165 insts 3 vars
+EM Run 3 with 165 insts 3 vars
+EM Run 4 with 165 insts 3 vars
+EM Run 5 with 165 insts 3 vars
+EM Run 6 with 165 insts 3 vars
+EM Run 7 with 165 insts 3 vars
+EM Run 8 with 165 insts 3 vars
+EM Run 9 with 165 insts 3 vars
+Indset size 2
+Using DBSCAN with 15 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using DBSCAN with 49 instances and 2 variables ...
+Indset size 2
+Indset size 6
+Indset size 2
+Using DBSCAN with 1885 instances and 2 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 1885 insts 2 vars
+EM Run 1 with 1885 insts 2 vars
+EM Run 2 with 1885 insts 2 vars
+EM Run 3 with 1885 insts 2 vars
+EM Run 4 with 1885 insts 2 vars
+EM Run 5 with 1885 insts 2 vars
+EM Run 6 with 1885 insts 2 vars
+EM Run 7 with 1885 insts 2 vars
+EM Run 8 with 1885 insts 2 vars
+EM Run 9 with 1885 insts 2 vars
+Indset size 5
+Indset size 9
+Using EM with 2234 instances and 9 variables ...
+EM Run 0 with 2234 insts 9 vars
+EM Run 1 with 2234 insts 9 vars
+EM Run 2 with 2234 insts 9 vars
+EM Run 3 with 2234 insts 9 vars
+EM Run 4 with 2234 insts 9 vars
+EM Run 5 with 2234 insts 9 vars
+EM Run 6 with 2234 insts 9 vars
+EM Run 7 with 2234 insts 9 vars
+EM Run 8 with 2234 insts 9 vars
+EM Run 9 with 2234 insts 9 vars
+Indset size 5
+Using DBSCAN with 85 instances and 5 variables ...
+Indset size 2
+Indset size 2
+Using DBSCAN with 62 instances and 2 variables ...
+Indset size 3
+Indset size 2
+Using DBSCAN with 49 instances and 2 variables ...
+Indset size 6
+Using DBSCAN with 104 instances and 6 variables ...
+Indset size 8
+Indset size 4
+Indset size 42
+Indset size 5
+Using DBSCAN with 326 instances and 5 variables ...
+Indset size 12
+Indset size 2
+Using DBSCAN with 85 instances and 2 variables ...
+Indset size 7
+Indset size 3
+Using DBSCAN with 35 instances and 3 variables ...
+Indset size 8
+Using DBSCAN with 56 instances and 8 variables ...
+Indset size 4
+Using DBSCAN with 43 instances and 4 variables ...
+Indset size 6
+Indset size 42
+Using DBSCAN with 1885 instances and 42 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 1885 insts 42 vars
+EM Run 1 with 1885 insts 42 vars
+EM Run 2 with 1885 insts 42 vars
+EM Run 3 with 1885 insts 42 vars
+EM Run 4 with 1885 insts 42 vars
+EM Run 5 with 1885 insts 42 vars
+EM Run 6 with 1885 insts 42 vars
+EM Run 7 with 1885 insts 42 vars
+EM Run 8 with 1885 insts 42 vars
+EM Run 9 with 1885 insts 42 vars
+Indset size 204
+Indset size 12
+Using EM with 2234 instances and 12 variables ...
+EM Run 0 with 2234 insts 12 vars
+EM Run 1 with 2234 insts 12 vars
+EM Run 2 with 2234 insts 12 vars
+EM Run 3 with 2234 insts 12 vars
+EM Run 4 with 2234 insts 12 vars
+EM Run 5 with 2234 insts 12 vars
+EM Run 6 with 2234 insts 12 vars
+EM Run 7 with 2234 insts 12 vars
+EM Run 8 with 2234 insts 12 vars
+EM Run 9 with 2234 insts 12 vars
+Indset size 7
+Indset size 7
+Using DBSCAN with 1020 instances and 7 variables ...
+Indset size 6
+Using DBSCAN with 43 instances and 6 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 43 insts 6 vars
+EM Run 1 with 43 insts 6 vars
+EM Run 2 with 43 insts 6 vars
+EM Run 3 with 43 insts 6 vars
+EM Run 4 with 43 insts 6 vars
+EM Run 5 with 43 insts 6 vars
+EM Run 6 with 43 insts 6 vars
+EM Run 7 with 43 insts 6 vars
+EM Run 8 with 43 insts 6 vars
+EM Run 9 with 43 insts 6 vars
+Indset size 204
+Using DBSCAN with 326 instances and 204 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 326 insts 204 vars
+EM Run 1 with 326 insts 204 vars
+EM Run 2 with 326 insts 204 vars
+EM Run 3 with 326 insts 204 vars
+EM Run 4 with 326 insts 204 vars
+EM Run 5 with 326 insts 204 vars
+EM Run 6 with 326 insts 204 vars
+EM Run 7 with 326 insts 204 vars
+EM Run 8 with 326 insts 204 vars
+EM Run 9 with 326 insts 204 vars
+Indset size 7
+Using EM with 2234 instances and 7 variables ...
+EM Run 0 with 2234 insts 7 vars
+EM Run 1 with 2234 insts 7 vars
+EM Run 2 with 2234 insts 7 vars
+EM Run 3 with 2234 insts 7 vars
+EM Run 4 with 2234 insts 7 vars
+EM Run 5 with 2234 insts 7 vars
+EM Run 6 with 2234 insts 7 vars
+EM Run 7 with 2234 insts 7 vars
+EM Run 8 with 2234 insts 7 vars
+EM Run 9 with 2234 insts 7 vars
+Indset size 11
+Indset size 5
+Indset size 4
+Indset size 3
+Indset size 11
+Using EM with 2234 instances and 11 variables ...
+EM Run 0 with 2234 insts 11 vars
+EM Run 1 with 2234 insts 11 vars
+EM Run 2 with 2234 insts 11 vars
+EM Run 3 with 2234 insts 11 vars
+EM Run 4 with 2234 insts 11 vars
+EM Run 5 with 2234 insts 11 vars
+EM Run 6 with 2234 insts 11 vars
+EM Run 7 with 2234 insts 11 vars
+EM Run 8 with 2234 insts 11 vars
+EM Run 9 with 2234 insts 11 vars
+Indset size 5
+Using DBSCAN with 25 instances and 5 variables ...
+Indset size 40
+Indset size 21
+Indset size 3
+Indset size 4
+Using DBSCAN with 21 instances and 4 variables ...
+Indset size 3
+Using DBSCAN with 77 instances and 3 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 77 insts 3 vars
+EM Run 1 with 77 insts 3 vars
+EM Run 2 with 77 insts 3 vars
+EM Run 3 with 77 insts 3 vars
+EM Run 4 with 77 insts 3 vars
+EM Run 5 with 77 insts 3 vars
+EM Run 6 with 77 insts 3 vars
+EM Run 7 with 77 insts 3 vars
+EM Run 8 with 77 insts 3 vars
+EM Run 9 with 77 insts 3 vars
+Indset size 40
+Using DBSCAN with 1020 instances and 40 variables ...
+Indset size 2
+Indset size 21
+Using DBSCAN with 104 instances and 21 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 104 insts 21 vars
+EM Run 1 with 104 insts 21 vars
+EM Run 2 with 104 insts 21 vars
+EM Run 3 with 104 insts 21 vars
+EM Run 4 with 104 insts 21 vars
+EM Run 5 with 104 insts 21 vars
+EM Run 6 with 104 insts 21 vars
+EM Run 7 with 104 insts 21 vars
+EM Run 8 with 104 insts 21 vars
+EM Run 9 with 104 insts 21 vars
+Indset size 3
+Using DBSCAN with 56 instances and 3 variables ...
+Indset size 4
+Indset size 3
+Indset size 27
+Indset size 3
+Indset size 2
+Using DBSCAN with 35 instances and 2 variables ...
+Indset size 3
+Indset size 4
+Using DBSCAN with 121 instances and 4 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 121 insts 4 vars
+EM Run 1 with 121 insts 4 vars
+EM Run 2 with 121 insts 4 vars
+EM Run 3 with 121 insts 4 vars
+EM Run 4 with 121 insts 4 vars
+EM Run 5 with 121 insts 4 vars
+EM Run 6 with 121 insts 4 vars
+EM Run 7 with 121 insts 4 vars
+EM Run 8 with 121 insts 4 vars
+EM Run 9 with 121 insts 4 vars
+Indset size 11
+Indset size 2
+Indset size 3
+Using DBSCAN with 25 instances and 3 variables ...
+Indset size 27
+Using DBSCAN with 1020 instances and 27 variables ...
+Indset size 3
+Using DBSCAN with 1111 instances and 3 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 1111 insts 3 vars
+EM Run 1 with 1111 insts 3 vars
+EM Run 2 with 1111 insts 3 vars
+EM Run 3 with 1111 insts 3 vars
+EM Run 4 with 1111 insts 3 vars
+EM Run 5 with 1111 insts 3 vars
+EM Run 6 with 1111 insts 3 vars
+EM Run 7 with 1111 insts 3 vars
+EM Run 8 with 1111 insts 3 vars
+EM Run 9 with 1111 insts 3 vars
+Indset size 3
+Indset size 3
+Indset size 3
+Using DBSCAN with 181 instances and 3 variables ...
+Indset size 5
+Indset size 11
+Using DBSCAN with 121 instances and 11 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 121 insts 11 vars
+EM Run 1 with 121 insts 11 vars
+EM Run 2 with 121 insts 11 vars
+EM Run 3 with 121 insts 11 vars
+EM Run 4 with 121 insts 11 vars
+EM Run 5 with 121 insts 11 vars
+EM Run 6 with 121 insts 11 vars
+EM Run 7 with 121 insts 11 vars
+EM Run 8 with 121 insts 11 vars
+EM Run 9 with 121 insts 11 vars
+Indset size 6
+Indset size 2
+Using DBSCAN with 165 instances and 2 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 165 insts 2 vars
+EM Run 1 with 165 insts 2 vars
+EM Run 2 with 165 insts 2 vars
+EM Run 3 with 165 insts 2 vars
+EM Run 4 with 165 insts 2 vars
+EM Run 5 with 165 insts 2 vars
+EM Run 6 with 165 insts 2 vars
+EM Run 7 with 165 insts 2 vars
+EM Run 8 with 165 insts 2 vars
+EM Run 9 with 165 insts 2 vars
+Indset size 3
+Indset size 3
+Using DBSCAN with 49 instances and 3 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 49 insts 3 vars
+EM Run 1 with 49 insts 3 vars
+EM Run 2 with 49 insts 3 vars
+EM Run 3 with 49 insts 3 vars
+EM Run 4 with 49 insts 3 vars
+EM Run 5 with 49 insts 3 vars
+EM Run 6 with 49 insts 3 vars
+EM Run 7 with 49 insts 3 vars
+EM Run 8 with 49 insts 3 vars
+EM Run 9 with 49 insts 3 vars
+Indset size 3
+Using DBSCAN with 56 instances and 3 variables ...
+Indset size 5
+Using DBSCAN with 77 instances and 5 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 77 insts 5 vars
+EM Run 1 with 77 insts 5 vars
+EM Run 2 with 77 insts 5 vars
+EM Run 3 with 77 insts 5 vars
+EM Run 4 with 77 insts 5 vars
+EM Run 5 with 77 insts 5 vars
+EM Run 6 with 77 insts 5 vars
+EM Run 7 with 77 insts 5 vars
+EM Run 8 with 77 insts 5 vars
+EM Run 9 with 77 insts 5 vars
+Indset size 5
+Indset size 6
+Using DBSCAN with 25 instances and 6 variables ...
+Indset size 2
+Indset size 3
+Using DBSCAN with 1111 instances and 3 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 1111 insts 3 vars
+EM Run 1 with 1111 insts 3 vars
+EM Run 2 with 1111 insts 3 vars
+EM Run 3 with 1111 insts 3 vars
+EM Run 4 with 1111 insts 3 vars
+EM Run 5 with 1111 insts 3 vars
+EM Run 6 with 1111 insts 3 vars
+EM Run 7 with 1111 insts 3 vars
+EM Run 8 with 1111 insts 3 vars
+EM Run 9 with 1111 insts 3 vars
+Indset size 2
+Indset size 7
+Indset size 5
+Using EM with 2234 instances and 5 variables ...
+EM Run 0 with 2234 insts 5 vars
+EM Run 1 with 2234 insts 5 vars
+EM Run 2 with 2234 insts 5 vars
+EM Run 3 with 2234 insts 5 vars
+EM Run 4 with 2234 insts 5 vars
+EM Run 5 with 2234 insts 5 vars
+EM Run 6 with 2234 insts 5 vars
+EM Run 7 with 2234 insts 5 vars
+EM Run 8 with 2234 insts 5 vars
+EM Run 9 with 2234 insts 5 vars
+Indset size 5
+Indset size 2
+Using DBSCAN with 165 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using DBSCAN with 1858 instances and 2 variables ...
+Indset size 7
+Using DBSCAN with 77 instances and 7 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 77 insts 7 vars
+EM Run 1 with 77 insts 7 vars
+EM Run 2 with 77 insts 7 vars
+EM Run 3 with 77 insts 7 vars
+EM Run 4 with 77 insts 7 vars
+EM Run 5 with 77 insts 7 vars
+EM Run 6 with 77 insts 7 vars
+EM Run 7 with 77 insts 7 vars
+EM Run 8 with 77 insts 7 vars
+EM Run 9 with 77 insts 7 vars
+Indset size 6
+Indset size 14
+Indset size 14
+Indset size 5
+Using DBSCAN with 85 instances and 5 variables ...
+Indset size 19
+Indset size 10
+Indset size 2
+Using DBSCAN with 34 instances and 2 variables ...
+Indset size 4
+Indset size 6
+Using DBSCAN with 77 instances and 6 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 77 insts 6 vars
+EM Run 1 with 77 insts 6 vars
+EM Run 2 with 77 insts 6 vars
+EM Run 3 with 77 insts 6 vars
+EM Run 4 with 77 insts 6 vars
+EM Run 5 with 77 insts 6 vars
+EM Run 6 with 77 insts 6 vars
+EM Run 7 with 77 insts 6 vars
+EM Run 8 with 77 insts 6 vars
+EM Run 9 with 77 insts 6 vars
+Indset size 14
+Using DBSCAN with 40 instances and 14 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 40 insts 14 vars
+EM Run 1 with 40 insts 14 vars
+EM Run 2 with 40 insts 14 vars
+EM Run 3 with 40 insts 14 vars
+EM Run 4 with 40 insts 14 vars
+EM Run 5 with 40 insts 14 vars
+EM Run 6 with 40 insts 14 vars
+EM Run 7 with 40 insts 14 vars
+EM Run 8 with 40 insts 14 vars
+EM Run 9 with 40 insts 14 vars
+Indset size 2
+Indset size 14
+Using EM with 2234 instances and 14 variables ...
+EM Run 0 with 2234 insts 14 vars
+EM Run 1 with 2234 insts 14 vars
+EM Run 2 with 2234 insts 14 vars
+EM Run 3 with 2234 insts 14 vars
+EM Run 4 with 2234 insts 14 vars
+EM Run 5 with 2234 insts 14 vars
+EM Run 6 with 2234 insts 14 vars
+EM Run 7 with 2234 insts 14 vars
+EM Run 8 with 2234 insts 14 vars
+EM Run 9 with 2234 insts 14 vars
+Indset size 19
+Using DBSCAN with 85 instances and 19 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 85 insts 19 vars
+EM Run 1 with 85 insts 19 vars
+EM Run 2 with 85 insts 19 vars
+EM Run 3 with 85 insts 19 vars
+EM Run 4 with 85 insts 19 vars
+EM Run 5 with 85 insts 19 vars
+EM Run 6 with 85 insts 19 vars
+EM Run 7 with 85 insts 19 vars
+EM Run 8 with 85 insts 19 vars
+EM Run 9 with 85 insts 19 vars
+Indset size 6
+Indset size 10
+Using DBSCAN with 20 instances and 10 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 20 insts 10 vars
+EM Run 1 with 20 insts 10 vars
+EM Run 2 with 20 insts 10 vars
+EM Run 3 with 20 insts 10 vars
+EM Run 4 with 20 insts 10 vars
+EM Run 5 with 20 insts 10 vars
+EM Run 6 with 20 insts 10 vars
+EM Run 7 with 20 insts 10 vars
+EM Run 8 with 20 insts 10 vars
+EM Run 9 with 20 insts 10 vars
+Indset size 4
+Using DBSCAN with 43 instances and 4 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 43 insts 4 vars
+EM Run 1 with 43 insts 4 vars
+EM Run 2 with 43 insts 4 vars
+EM Run 3 with 43 insts 4 vars
+EM Run 4 with 43 insts 4 vars
+EM Run 5 with 43 insts 4 vars
+EM Run 6 with 43 insts 4 vars
+EM Run 7 with 43 insts 4 vars
+EM Run 8 with 43 insts 4 vars
+EM Run 9 with 43 insts 4 vars
+Indset size 2
+Using DBSCAN with 20 instances and 2 variables ...
+Indset size 3
+Indset size 6
+Using DBSCAN with 129 instances and 6 variables ...
+Indset size 9
+Indset size 10
+Indset size 2
+Indset size 3
+Using EM with 2234 instances and 3 variables ...
+EM Run 0 with 2234 insts 3 vars
+EM Run 1 with 2234 insts 3 vars
+EM Run 2 with 2234 insts 3 vars
+EM Run 3 with 2234 insts 3 vars
+EM Run 4 with 2234 insts 3 vars
+EM Run 5 with 2234 insts 3 vars
+EM Run 6 with 2234 insts 3 vars
+EM Run 7 with 2234 insts 3 vars
+EM Run 8 with 2234 insts 3 vars
+EM Run 9 with 2234 insts 3 vars
+Indset size 24
+Indset size 9
+Using DBSCAN with 181 instances and 9 variables ...
+Indset size 10
+Using DBSCAN with 77 instances and 10 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 77 insts 10 vars
+EM Run 1 with 77 insts 10 vars
+EM Run 2 with 77 insts 10 vars
+EM Run 3 with 77 insts 10 vars
+EM Run 4 with 77 insts 10 vars
+EM Run 5 with 77 insts 10 vars
+EM Run 6 with 77 insts 10 vars
+EM Run 7 with 77 insts 10 vars
+EM Run 8 with 77 insts 10 vars
+EM Run 9 with 77 insts 10 vars
+Indset size 2
+Using DBSCAN with 326 instances and 2 variables ...
+Indset size 24
+Using DBSCAN with 62 instances and 24 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 62 insts 24 vars
+EM Run 1 with 62 insts 24 vars
+EM Run 2 with 62 insts 24 vars
+EM Run 3 with 62 insts 24 vars
+EM Run 4 with 62 insts 24 vars
+EM Run 5 with 62 insts 24 vars
+EM Run 6 with 62 insts 24 vars
+EM Run 7 with 62 insts 24 vars
+EM Run 8 with 62 insts 24 vars
+EM Run 9 with 62 insts 24 vars
+Indset size 3
+Indset size 5
+Indset size 23
+Indset size 3
+Using DBSCAN with 25 instances and 3 variables ...
+Indset size 5
+Using DBSCAN with 181 instances and 5 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 181 insts 5 vars
+EM Run 1 with 181 insts 5 vars
+EM Run 2 with 181 insts 5 vars
+EM Run 3 with 181 insts 5 vars
+EM Run 4 with 181 insts 5 vars
+EM Run 5 with 181 insts 5 vars
+EM Run 6 with 181 insts 5 vars
+EM Run 7 with 181 insts 5 vars
+EM Run 8 with 181 insts 5 vars
+EM Run 9 with 181 insts 5 vars
+Indset size 23
+Using DBSCAN with 121 instances and 23 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 121 insts 23 vars
+EM Run 1 with 121 insts 23 vars
+EM Run 2 with 121 insts 23 vars
+EM Run 3 with 121 insts 23 vars
+EM Run 4 with 121 insts 23 vars
+EM Run 5 with 121 insts 23 vars
+EM Run 6 with 121 insts 23 vars
+EM Run 7 with 121 insts 23 vars
+EM Run 8 with 121 insts 23 vars
+EM Run 9 with 121 insts 23 vars
+Indset size 14
+Indset size 14
+Using EM with 2234 instances and 14 variables ...
+EM Run 0 with 2234 insts 14 vars
+EM Run 1 with 2234 insts 14 vars
+EM Run 2 with 2234 insts 14 vars
+EM Run 3 with 2234 insts 14 vars
+EM Run 4 with 2234 insts 14 vars
+EM Run 5 with 2234 insts 14 vars
+EM Run 6 with 2234 insts 14 vars
+EM Run 7 with 2234 insts 14 vars
+EM Run 8 with 2234 insts 14 vars
+EM Run 9 with 2234 insts 14 vars
+Indset size 8
+Indset size 8
+Indset size 3
+Indset size 8
+Using EM with 2234 instances and 8 variables ...
+EM Run 0 with 2234 insts 8 vars
+EM Run 1 with 2234 insts 8 vars
+EM Run 2 with 2234 insts 8 vars
+EM Run 3 with 2234 insts 8 vars
+EM Run 4 with 2234 insts 8 vars
+EM Run 5 with 2234 insts 8 vars
+EM Run 6 with 2234 insts 8 vars
+EM Run 7 with 2234 insts 8 vars
+EM Run 8 with 2234 insts 8 vars
+EM Run 9 with 2234 insts 8 vars
+Indset size 8
+Using DBSCAN with 1111 instances and 8 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 1111 insts 8 vars
+EM Run 1 with 1111 insts 8 vars
+EM Run 2 with 1111 insts 8 vars
+EM Run 3 with 1111 insts 8 vars
+EM Run 4 with 1111 insts 8 vars
+EM Run 5 with 1111 insts 8 vars
+EM Run 6 with 1111 insts 8 vars
+EM Run 7 with 1111 insts 8 vars
+EM Run 8 with 1111 insts 8 vars
+EM Run 9 with 1111 insts 8 vars
+Indset size 3
+Using DBSCAN with 42 instances and 3 variables ...
+Indset size 4
+Indset size 4
+Using DBSCAN with 1111 instances and 4 variables ...
+Indset size 5
+Indset size 4
+Indset size 5
+Using DBSCAN with 77 instances and 5 variables ...
+Indset size 3
+Indset size 4
+Using DBSCAN with 25 instances and 4 variables ...
+Indset size 5
+Indset size 3
+Using DBSCAN with 69 instances and 3 variables ...
+Indset size 2
+Indset size 5
+Using DBSCAN with 21 instances and 5 variables ...
+Indset size 2
+Indset size 3
+Indset size 2
+Using DBSCAN with 25 instances and 2 variables ...
+Indset size 2
+Using DBSCAN with 21 instances and 2 variables ...
+Indset size 3
+Using DBSCAN with 56 instances and 3 variables ...
+Indset size 3
+Indset size 8
+Indset size 2
+Indset size 2
+Indset size 3
+Using DBSCAN with 77 instances and 3 variables ...
+Indset size 8
+Using EM with 2234 instances and 8 variables ...
+EM Run 0 with 2234 insts 8 vars
+EM Run 1 with 2234 insts 8 vars
+EM Run 2 with 2234 insts 8 vars
+EM Run 3 with 2234 insts 8 vars
+EM Run 4 with 2234 insts 8 vars
+EM Run 5 with 2234 insts 8 vars
+EM Run 6 with 2234 insts 8 vars
+EM Run 7 with 2234 insts 8 vars
+EM Run 8 with 2234 insts 8 vars
+EM Run 9 with 2234 insts 8 vars
+Indset size 3
+Indset size 2
+Using DBSCAN with 181 instances and 2 variables ...
+Indset size 2
+Using DBSCAN with 18 instances and 2 variables ...
+Indset size 2
+Indset size 4
+Indset size 3
+Using DBSCAN with 49 instances and 3 variables ...
+Indset size 2
+Using EM with 2234 instances and 2 variables ...
+EM Run 0 with 2234 insts 2 vars
+EM Run 1 with 2234 insts 2 vars
+EM Run 2 with 2234 insts 2 vars
+EM Run 3 with 2234 insts 2 vars
+EM Run 4 with 2234 insts 2 vars
+EM Run 5 with 2234 insts 2 vars
+EM Run 6 with 2234 insts 2 vars
+EM Run 7 with 2234 insts 2 vars
+EM Run 8 with 2234 insts 2 vars
+EM Run 9 with 2234 insts 2 vars
+Indset size 4
+Using DBSCAN with 165 instances and 4 variables ...
+Indset size 5
+Indset size 12
+Indset size 2
+Indset size 5
+Using DBSCAN with 181 instances and 5 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 181 insts 5 vars
+EM Run 1 with 181 insts 5 vars
+EM Run 2 with 181 insts 5 vars
+EM Run 3 with 181 insts 5 vars
+EM Run 4 with 181 insts 5 vars
+EM Run 5 with 181 insts 5 vars
+EM Run 6 with 181 insts 5 vars
+EM Run 7 with 181 insts 5 vars
+EM Run 8 with 181 insts 5 vars
+EM Run 9 with 181 insts 5 vars
+Indset size 3
+Indset size 3
+Indset size 12
+Using DBSCAN with 326 instances and 12 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 326 insts 12 vars
+EM Run 1 with 326 insts 12 vars
+EM Run 2 with 326 insts 12 vars
+EM Run 3 with 326 insts 12 vars
+EM Run 4 with 326 insts 12 vars
+EM Run 5 with 326 insts 12 vars
+EM Run 6 with 326 insts 12 vars
+EM Run 7 with 326 insts 12 vars
+EM Run 8 with 326 insts 12 vars
+EM Run 9 with 326 insts 12 vars
+Indset size 2
+Using DBSCAN with 1020 instances and 2 variables ...
+Indset size 3
+Using DBSCAN with 1885 instances and 3 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 1885 insts 3 vars
+EM Run 1 with 1885 insts 3 vars
+EM Run 2 with 1885 insts 3 vars
+EM Run 3 with 1885 insts 3 vars
+EM Run 4 with 1885 insts 3 vars
+EM Run 5 with 1885 insts 3 vars
+EM Run 6 with 1885 insts 3 vars
+EM Run 7 with 1885 insts 3 vars
+EM Run 8 with 1885 insts 3 vars
+EM Run 9 with 1885 insts 3 vars
+Indset size 3
+Using DBSCAN with 40 instances and 3 variables ...
+Indset size 3
+Indset size 3
+Indset size 2
+Indset size 3
+Using DBSCAN with 40 instances and 3 variables ...
+Indset size 3
+Indset size 3
+Using DBSCAN with 56 instances and 3 variables ...
+Indset size 2
+Using DBSCAN with 43 instances and 2 variables ...
+Indset size 3
+Using DBSCAN with 40 instances and 3 variables ...
+Indset size 20
+Indset size 20
+Using EM with 2234 instances and 20 variables ...
+EM Run 0 with 2234 insts 20 vars
+EM Run 1 with 2234 insts 20 vars
+EM Run 2 with 2234 insts 20 vars
+EM Run 3 with 2234 insts 20 vars
+EM Run 4 with 2234 insts 20 vars
+EM Run 5 with 2234 insts 20 vars
+EM Run 6 with 2234 insts 20 vars
+EM Run 7 with 2234 insts 20 vars
+EM Run 8 with 2234 insts 20 vars
+EM Run 9 with 2234 insts 20 vars
+Indset size 15
+Indset size 2
+Indset size 15
+Using DBSCAN with 77 instances and 15 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 77 insts 15 vars
+EM Run 1 with 77 insts 15 vars
+EM Run 2 with 77 insts 15 vars
+EM Run 3 with 77 insts 15 vars
+EM Run 4 with 77 insts 15 vars
+EM Run 5 with 77 insts 15 vars
+EM Run 6 with 77 insts 15 vars
+EM Run 7 with 77 insts 15 vars
+EM Run 8 with 77 insts 15 vars
+EM Run 9 with 77 insts 15 vars
+Indset size 4
+Indset size 3
+Indset size 6
+Indset size 2
+Using DBSCAN with 1858 instances and 2 variables ...
+Indset size 4
+Using DBSCAN with 77 instances and 4 variables ...
+Indset size 3
+Using DBSCAN with 20 instances and 3 variables ...
+Indset size 4
+Indset size 6
+Using DBSCAN with 43 instances and 6 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 43 insts 6 vars
+EM Run 1 with 43 insts 6 vars
+EM Run 2 with 43 insts 6 vars
+EM Run 3 with 43 insts 6 vars
+EM Run 4 with 43 insts 6 vars
+EM Run 5 with 43 insts 6 vars
+EM Run 6 with 43 insts 6 vars
+EM Run 7 with 43 insts 6 vars
+EM Run 8 with 43 insts 6 vars
+EM Run 9 with 43 insts 6 vars
+Indset size 2
+Indset size 4
+Using DBSCAN with 56 instances and 4 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 56 insts 4 vars
+EM Run 1 with 56 insts 4 vars
+EM Run 2 with 56 insts 4 vars
+EM Run 3 with 56 insts 4 vars
+EM Run 4 with 56 insts 4 vars
+EM Run 5 with 56 insts 4 vars
+EM Run 6 with 56 insts 4 vars
+EM Run 7 with 56 insts 4 vars
+EM Run 8 with 56 insts 4 vars
+EM Run 9 with 56 insts 4 vars
+Indset size 4
+Indset size 2
+Using DBSCAN with 71 instances and 2 variables ...
+Indset size 7
+Indset size 7
+Indset size 4
+Using DBSCAN with 326 instances and 4 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 326 insts 4 vars
+EM Run 1 with 326 insts 4 vars
+EM Run 2 with 326 insts 4 vars
+EM Run 3 with 326 insts 4 vars
+EM Run 4 with 326 insts 4 vars
+EM Run 5 with 326 insts 4 vars
+EM Run 6 with 326 insts 4 vars
+EM Run 7 with 326 insts 4 vars
+EM Run 8 with 326 insts 4 vars
+EM Run 9 with 326 insts 4 vars
+Indset size 6
+Indset size 7
+Using DBSCAN with 49 instances and 7 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 49 insts 7 vars
+EM Run 1 with 49 insts 7 vars
+EM Run 2 with 49 insts 7 vars
+EM Run 3 with 49 insts 7 vars
+EM Run 4 with 49 insts 7 vars
+EM Run 5 with 49 insts 7 vars
+EM Run 6 with 49 insts 7 vars
+EM Run 7 with 49 insts 7 vars
+EM Run 8 with 49 insts 7 vars
+EM Run 9 with 49 insts 7 vars
+Indset size 7
+Using DBSCAN with 77 instances and 7 variables ...
+Indset size 6
+Using EM with 2234 instances and 6 variables ...
+EM Run 0 with 2234 insts 6 vars
+EM Run 1 with 2234 insts 6 vars
+EM Run 2 with 2234 insts 6 vars
+EM Run 3 with 2234 insts 6 vars
+EM Run 4 with 2234 insts 6 vars
+EM Run 5 with 2234 insts 6 vars
+EM Run 6 with 2234 insts 6 vars
+EM Run 7 with 2234 insts 6 vars
+EM Run 8 with 2234 insts 6 vars
+EM Run 9 with 2234 insts 6 vars
+Indset size 2
+Indset size 2
+Using DBSCAN with 1020 instances and 2 variables ...
+Indset size 5
+Indset size 8
+Indset size 6
+Indset size 2
+Indset size 5
+Using DBSCAN with 104 instances and 5 variables ...
+Indset size 2
+Indset size 3
+Indset size 8
+Using DBSCAN with 326 instances and 8 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 326 insts 8 vars
+EM Run 1 with 326 insts 8 vars
+EM Run 2 with 326 insts 8 vars
+EM Run 3 with 326 insts 8 vars
+EM Run 4 with 326 insts 8 vars
+EM Run 5 with 326 insts 8 vars
+EM Run 6 with 326 insts 8 vars
+EM Run 7 with 326 insts 8 vars
+EM Run 8 with 326 insts 8 vars
+EM Run 9 with 326 insts 8 vars
+Indset size 6
+Using EM with 2234 instances and 6 variables ...
+EM Run 0 with 2234 insts 6 vars
+EM Run 1 with 2234 insts 6 vars
+EM Run 2 with 2234 insts 6 vars
+EM Run 3 with 2234 insts 6 vars
+EM Run 4 with 2234 insts 6 vars
+EM Run 5 with 2234 insts 6 vars
+EM Run 6 with 2234 insts 6 vars
+EM Run 7 with 2234 insts 6 vars
+EM Run 8 with 2234 insts 6 vars
+EM Run 9 with 2234 insts 6 vars
+Indset size 12
+Indset size 2
+Indset size 2
+Using DBSCAN with 17 instances and 2 variables ...
+Indset size 3
+Indset size 2
+Using DBSCAN with 46 instances and 2 variables ...
+Indset size 3
+Using DBSCAN with 77 instances and 3 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 77 insts 3 vars
+EM Run 1 with 77 insts 3 vars
+EM Run 2 with 77 insts 3 vars
+EM Run 3 with 77 insts 3 vars
+EM Run 4 with 77 insts 3 vars
+EM Run 5 with 77 insts 3 vars
+EM Run 6 with 77 insts 3 vars
+EM Run 7 with 77 insts 3 vars
+EM Run 8 with 77 insts 3 vars
+EM Run 9 with 77 insts 3 vars
+Indset size 12
+Using EM with 2234 instances and 12 variables ...
+EM Run 0 with 2234 insts 12 vars
+EM Run 1 with 2234 insts 12 vars
+EM Run 2 with 2234 insts 12 vars
+EM Run 3 with 2234 insts 12 vars
+EM Run 4 with 2234 insts 12 vars
+EM Run 5 with 2234 insts 12 vars
+EM Run 6 with 2234 insts 12 vars
+EM Run 7 with 2234 insts 12 vars
+EM Run 8 with 2234 insts 12 vars
+EM Run 9 with 2234 insts 12 vars
+Indset size 2
+Using DBSCAN with 129 instances and 2 variables ...
+Indset size 3
+Using DBSCAN with 56 instances and 3 variables ...
+Indset size 5
+Indset size 5
+Using DBSCAN with 18 instances and 5 variables ...
+Indset size 2
+Indset size 3
+Indset size 2
+Indset size 2
+Using DBSCAN with 56 instances and 2 variables ...
+Indset size 3
+Using DBSCAN with 77 instances and 3 variables ...
+Indset size 4
+Indset size 2
+Using EM with 2234 instances and 2 variables ...
+EM Run 0 with 2234 insts 2 vars
+EM Run 1 with 2234 insts 2 vars
+EM Run 2 with 2234 insts 2 vars
+EM Run 3 with 2234 insts 2 vars
+EM Run 4 with 2234 insts 2 vars
+EM Run 5 with 2234 insts 2 vars
+EM Run 6 with 2234 insts 2 vars
+EM Run 7 with 2234 insts 2 vars
+EM Run 8 with 2234 insts 2 vars
+EM Run 9 with 2234 insts 2 vars
+Indset size 2
+Indset size 4
+Using DBSCAN with 77 instances and 4 variables ...
+Indset size 2
+Using DBSCAN with 1505 instances and 2 variables ...
+Indset size 12
+Indset size 2
+Indset size 12
+Using DBSCAN with 38 instances and 12 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 38 insts 12 vars
+EM Run 1 with 38 insts 12 vars
+EM Run 2 with 38 insts 12 vars
+EM Run 3 with 38 insts 12 vars
+EM Run 4 with 38 insts 12 vars
+EM Run 5 with 38 insts 12 vars
+EM Run 6 with 38 insts 12 vars
+EM Run 7 with 38 insts 12 vars
+EM Run 8 with 38 insts 12 vars
+EM Run 9 with 38 insts 12 vars
+Indset size 2
+Using DBSCAN with 40 instances and 2 variables ...
+Indset size 2
+Indset size 4
+Indset size 3
+Indset size 2
+Using EM with 2234 instances and 2 variables ...
+EM Run 0 with 2234 insts 2 vars
+EM Run 1 with 2234 insts 2 vars
+EM Run 2 with 2234 insts 2 vars
+EM Run 3 with 2234 insts 2 vars
+EM Run 4 with 2234 insts 2 vars
+EM Run 5 with 2234 insts 2 vars
+EM Run 6 with 2234 insts 2 vars
+EM Run 7 with 2234 insts 2 vars
+EM Run 8 with 2234 insts 2 vars
+EM Run 9 with 2234 insts 2 vars
+Indset size 9
+Indset size 4
+Using DBSCAN with 1111 instances and 4 variables ...
+Indset size 3
+Using DBSCAN with 56 instances and 3 variables ...
+Indset size 10
+Indset size 4
+Indset size 9
+Using EM with 2234 instances and 9 variables ...
+EM Run 0 with 2234 insts 9 vars
+EM Run 1 with 2234 insts 9 vars
+EM Run 2 with 2234 insts 9 vars
+EM Run 3 with 2234 insts 9 vars
+EM Run 4 with 2234 insts 9 vars
+EM Run 5 with 2234 insts 9 vars
+EM Run 6 with 2234 insts 9 vars
+EM Run 7 with 2234 insts 9 vars
+EM Run 8 with 2234 insts 9 vars
+EM Run 9 with 2234 insts 9 vars
+Indset size 10
+Using DBSCAN with 26 instances and 10 variables ...
+Indset size 4
+Using DBSCAN with 20 instances and 4 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 20 insts 4 vars
+EM Run 1 with 20 insts 4 vars
+EM Run 2 with 20 insts 4 vars
+EM Run 3 with 20 insts 4 vars
+EM Run 4 with 20 insts 4 vars
+EM Run 5 with 20 insts 4 vars
+EM Run 6 with 20 insts 4 vars
+EM Run 7 with 20 insts 4 vars
+EM Run 8 with 20 insts 4 vars
+EM Run 9 with 20 insts 4 vars
+Indset size 2
+Indset size 2
+Using DBSCAN with 20 instances and 2 variables ...
+Indset size 3
+Indset size 9
+Indset size 8
+Indset size 3
+Using DBSCAN with 71 instances and 3 variables ...
+Indset size 9
+Using EM with 2234 instances and 9 variables ...
+EM Run 0 with 2234 insts 9 vars
+EM Run 1 with 2234 insts 9 vars
+EM Run 2 with 2234 insts 9 vars
+EM Run 3 with 2234 insts 9 vars
+EM Run 4 with 2234 insts 9 vars
+EM Run 5 with 2234 insts 9 vars
+EM Run 6 with 2234 insts 9 vars
+EM Run 7 with 2234 insts 9 vars
+EM Run 8 with 2234 insts 9 vars
+EM Run 9 with 2234 insts 9 vars
+Indset size 8
+Using DBSCAN with 20 instances and 8 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 20 insts 8 vars
+EM Run 1 with 20 insts 8 vars
+EM Run 2 with 20 insts 8 vars
+EM Run 3 with 20 insts 8 vars
+EM Run 4 with 20 insts 8 vars
+EM Run 5 with 20 insts 8 vars
+EM Run 6 with 20 insts 8 vars
+EM Run 7 with 20 insts 8 vars
+EM Run 8 with 20 insts 8 vars
+EM Run 9 with 20 insts 8 vars
+Indset size 5
+Indset size 5
+Using DBSCAN with 77 instances and 5 variables ...
+Indset size 6
+Indset size 5
+Indset size 2
+Indset size 6
+Using EM with 2234 instances and 6 variables ...
+EM Run 0 with 2234 insts 6 vars
+EM Run 1 with 2234 insts 6 vars
+EM Run 2 with 2234 insts 6 vars
+EM Run 3 with 2234 insts 6 vars
+EM Run 4 with 2234 insts 6 vars
+EM Run 5 with 2234 insts 6 vars
+EM Run 6 with 2234 insts 6 vars
+EM Run 7 with 2234 insts 6 vars
+EM Run 8 with 2234 insts 6 vars
+EM Run 9 with 2234 insts 6 vars
+Indset size 5
+Using DBSCAN with 77 instances and 5 variables ...
+Indset size 2
+Using DBSCAN with 20 instances and 2 variables ...
+Indset size 4
+Indset size 4
+Indset size 4
+Indset size 4
+Using DBSCAN with 71 instances and 4 variables ...
+Indset size 4
+Using DBSCAN with 49 instances and 4 variables ...
+Indset size 4
+Using DBSCAN with 326 instances and 4 variables ...
+Indset size 7
+Indset size 6
+Indset size 7
+Using DBSCAN with 1111 instances and 7 variables ...
+Indset size 6
+Using DBSCAN with 39 instances and 6 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 39 insts 6 vars
+EM Run 1 with 39 insts 6 vars
+EM Run 2 with 39 insts 6 vars
+EM Run 3 with 39 insts 6 vars
+EM Run 4 with 39 insts 6 vars
+EM Run 5 with 39 insts 6 vars
+EM Run 6 with 39 insts 6 vars
+EM Run 7 with 39 insts 6 vars
+EM Run 8 with 39 insts 6 vars
+EM Run 9 with 39 insts 6 vars
+Indset size 6
+Indset size 3
+Indset size 2
+Indset size 6
+Using DBSCAN with 1885 instances and 6 variables ...
+Indset size 3
+Using DBSCAN with 121 instances and 3 variables ...
+Indset size 2
+Using DBSCAN with 25 instances and 2 variables ...
+Indset size 3
+Indset size 3
+Using DBSCAN with 16 instances and 3 variables ...
+Indset size 2
+Indset size 5
+Indset size 2
+Using EM with 2234 instances and 2 variables ...
+EM Run 0 with 2234 insts 2 vars
+EM Run 1 with 2234 insts 2 vars
+EM Run 2 with 2234 insts 2 vars
+EM Run 3 with 2234 insts 2 vars
+EM Run 4 with 2234 insts 2 vars
+EM Run 5 with 2234 insts 2 vars
+EM Run 6 with 2234 insts 2 vars
+EM Run 7 with 2234 insts 2 vars
+EM Run 8 with 2234 insts 2 vars
+EM Run 9 with 2234 insts 2 vars
+Indset size 5
+Using DBSCAN with 71 instances and 5 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 71 insts 5 vars
+EM Run 1 with 71 insts 5 vars
+EM Run 2 with 71 insts 5 vars
+EM Run 3 with 71 insts 5 vars
+EM Run 4 with 71 insts 5 vars
+EM Run 5 with 71 insts 5 vars
+EM Run 6 with 71 insts 5 vars
+EM Run 7 with 71 insts 5 vars
+EM Run 8 with 71 insts 5 vars
+EM Run 9 with 71 insts 5 vars
+Indset size 6
+Indset size 5
+Indset size 6
+Using DBSCAN with 43 instances and 6 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 43 insts 6 vars
+EM Run 1 with 43 insts 6 vars
+EM Run 2 with 43 insts 6 vars
+EM Run 3 with 43 insts 6 vars
+EM Run 4 with 43 insts 6 vars
+EM Run 5 with 43 insts 6 vars
+EM Run 6 with 43 insts 6 vars
+EM Run 7 with 43 insts 6 vars
+EM Run 8 with 43 insts 6 vars
+EM Run 9 with 43 insts 6 vars
+Indset size 5
+Using DBSCAN with 1885 instances and 5 variables ...
+Indset size 8
+Indset size 8
+Using DBSCAN with 38 instances and 8 variables ...
+Indset size 3
+Indset size 4
+Indset size 3
+Using DBSCAN with 77 instances and 3 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 77 insts 3 vars
+EM Run 1 with 77 insts 3 vars
+EM Run 2 with 77 insts 3 vars
+EM Run 3 with 77 insts 3 vars
+EM Run 4 with 77 insts 3 vars
+EM Run 5 with 77 insts 3 vars
+EM Run 6 with 77 insts 3 vars
+EM Run 7 with 77 insts 3 vars
+EM Run 8 with 77 insts 3 vars
+EM Run 9 with 77 insts 3 vars
+Indset size 4
+Using DBSCAN with 1505 instances and 4 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 1505 insts 4 vars
+EM Run 1 with 1505 insts 4 vars
+EM Run 2 with 1505 insts 4 vars
+EM Run 3 with 1505 insts 4 vars
+EM Run 4 with 1505 insts 4 vars
+EM Run 5 with 1505 insts 4 vars
+EM Run 6 with 1505 insts 4 vars
+EM Run 7 with 1505 insts 4 vars
+EM Run 8 with 1505 insts 4 vars
+EM Run 9 with 1505 insts 4 vars
+Indset size 3
+Indset size 3
+Using EM with 2234 instances and 3 variables ...
+EM Run 0 with 2234 insts 3 vars
+EM Run 1 with 2234 insts 3 vars
+EM Run 2 with 2234 insts 3 vars
+EM Run 3 with 2234 insts 3 vars
+EM Run 4 with 2234 insts 3 vars
+EM Run 5 with 2234 insts 3 vars
+EM Run 6 with 2234 insts 3 vars
+EM Run 7 with 2234 insts 3 vars
+EM Run 8 with 2234 insts 3 vars
+EM Run 9 with 2234 insts 3 vars
+Indset size 4
+Indset size 4
+Using DBSCAN with 21 instances and 4 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 21 insts 4 vars
+EM Run 1 with 21 insts 4 vars
+EM Run 2 with 21 insts 4 vars
+EM Run 3 with 21 insts 4 vars
+EM Run 4 with 21 insts 4 vars
+EM Run 5 with 21 insts 4 vars
+EM Run 6 with 21 insts 4 vars
+EM Run 7 with 21 insts 4 vars
+EM Run 8 with 21 insts 4 vars
+EM Run 9 with 21 insts 4 vars
+Indset size 2
+Indset size 2
+Using EM with 2234 instances and 2 variables ...
+EM Run 0 with 2234 insts 2 vars
+EM Run 1 with 2234 insts 2 vars
+EM Run 2 with 2234 insts 2 vars
+EM Run 3 with 2234 insts 2 vars
+EM Run 4 with 2234 insts 2 vars
+EM Run 5 with 2234 insts 2 vars
+EM Run 6 with 2234 insts 2 vars
+EM Run 7 with 2234 insts 2 vars
+EM Run 8 with 2234 insts 2 vars
+EM Run 9 with 2234 insts 2 vars
+Indset size 6
+Indset size 6
+Using EM with 2234 instances and 6 variables ...
+EM Run 0 with 2234 insts 6 vars
+EM Run 1 with 2234 insts 6 vars
+EM Run 2 with 2234 insts 6 vars
+EM Run 3 with 2234 insts 6 vars
+EM Run 4 with 2234 insts 6 vars
+EM Run 5 with 2234 insts 6 vars
+EM Run 6 with 2234 insts 6 vars
+EM Run 7 with 2234 insts 6 vars
+EM Run 8 with 2234 insts 6 vars
+EM Run 9 with 2234 insts 6 vars
+Indset size 2
+Indset size 2
+Using EM with 2234 instances and 2 variables ...
+EM Run 0 with 2234 insts 2 vars
+EM Run 1 with 2234 insts 2 vars
+EM Run 2 with 2234 insts 2 vars
+EM Run 3 with 2234 insts 2 vars
+EM Run 4 with 2234 insts 2 vars
+EM Run 5 with 2234 insts 2 vars
+EM Run 6 with 2234 insts 2 vars
+EM Run 7 with 2234 insts 2 vars
+EM Run 8 with 2234 insts 2 vars
+EM Run 9 with 2234 insts 2 vars
+Indset size 2
+Indset size 6
+Indset size 2
+Using DBSCAN with 1885 instances and 2 variables ...
+Indset size 6
+Using DBSCAN with 326 instances and 6 variables ...
+Indset size 4
+Indset size 4
+Indset size 4
+Using DBSCAN with 121 instances and 4 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 121 insts 4 vars
+EM Run 1 with 121 insts 4 vars
+EM Run 2 with 121 insts 4 vars
+EM Run 3 with 121 insts 4 vars
+EM Run 4 with 121 insts 4 vars
+EM Run 5 with 121 insts 4 vars
+EM Run 6 with 121 insts 4 vars
+EM Run 7 with 121 insts 4 vars
+EM Run 8 with 121 insts 4 vars
+EM Run 9 with 121 insts 4 vars
+Indset size 4
+Using DBSCAN with 21 instances and 4 variables ...
+Indset size 2
+Indset size 2
+Using EM with 2234 instances and 2 variables ...
+EM Run 0 with 2234 insts 2 vars
+EM Run 1 with 2234 insts 2 vars
+EM Run 2 with 2234 insts 2 vars
+EM Run 3 with 2234 insts 2 vars
+EM Run 4 with 2234 insts 2 vars
+EM Run 5 with 2234 insts 2 vars
+EM Run 6 with 2234 insts 2 vars
+EM Run 7 with 2234 insts 2 vars
+EM Run 8 with 2234 insts 2 vars
+EM Run 9 with 2234 insts 2 vars
+Indset size 2
+Indset size 3
+Indset size 2
+Using DBSCAN with 165 instances and 2 variables ...
+Indset size 6
+Indset size 3
+Using EM with 2234 instances and 3 variables ...
+EM Run 0 with 2234 insts 3 vars
+EM Run 1 with 2234 insts 3 vars
+EM Run 2 with 2234 insts 3 vars
+EM Run 3 with 2234 insts 3 vars
+EM Run 4 with 2234 insts 3 vars
+EM Run 5 with 2234 insts 3 vars
+EM Run 6 with 2234 insts 3 vars
+EM Run 7 with 2234 insts 3 vars
+EM Run 8 with 2234 insts 3 vars
+EM Run 9 with 2234 insts 3 vars
+Indset size 6
+Using DBSCAN with 51 instances and 6 variables ...
+Indset size 2
+Indset size 2
+Using DBSCAN with 1505 instances and 2 variables ...
+Indset size 9
+Indset size 9
+Using DBSCAN with 181 instances and 9 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 181 insts 9 vars
+EM Run 1 with 181 insts 9 vars
+EM Run 2 with 181 insts 9 vars
+EM Run 3 with 181 insts 9 vars
+EM Run 4 with 181 insts 9 vars
+EM Run 5 with 181 insts 9 vars
+EM Run 6 with 181 insts 9 vars
+EM Run 7 with 181 insts 9 vars
+EM Run 8 with 181 insts 9 vars
+EM Run 9 with 181 insts 9 vars
+Indset size 2
+Indset size 2
+Using DBSCAN with 1885 instances and 2 variables ...
+Indset size 3
+Indset size 3
+Using EM with 2234 instances and 3 variables ...
+EM Run 0 with 2234 insts 3 vars
+EM Run 1 with 2234 insts 3 vars
+EM Run 2 with 2234 insts 3 vars
+EM Run 3 with 2234 insts 3 vars
+EM Run 4 with 2234 insts 3 vars
+EM Run 5 with 2234 insts 3 vars
+EM Run 6 with 2234 insts 3 vars
+EM Run 7 with 2234 insts 3 vars
+EM Run 8 with 2234 insts 3 vars
+EM Run 9 with 2234 insts 3 vars
+Indset size 4
+Indset size 2
+Indset size 4
+Using DBSCAN with 40 instances and 4 variables ...
+Indset size 2
+Using DBSCAN with 49 instances and 2 variables ...
+Indset size 7
+Indset size 7
+Using EM with 2234 instances and 7 variables ...
+EM Run 0 with 2234 insts 7 vars
+EM Run 1 with 2234 insts 7 vars
+EM Run 2 with 2234 insts 7 vars
+EM Run 3 with 2234 insts 7 vars
+EM Run 4 with 2234 insts 7 vars
+EM Run 5 with 2234 insts 7 vars
+EM Run 6 with 2234 insts 7 vars
+EM Run 7 with 2234 insts 7 vars
+EM Run 8 with 2234 insts 7 vars
+EM Run 9 with 2234 insts 7 vars
+Indset size 2
+Indset size 4
+Indset size 2
+Using DBSCAN with 181 instances and 2 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 181 insts 2 vars
+EM Run 1 with 181 insts 2 vars
+EM Run 2 with 181 insts 2 vars
+EM Run 3 with 181 insts 2 vars
+EM Run 4 with 181 insts 2 vars
+EM Run 5 with 181 insts 2 vars
+EM Run 6 with 181 insts 2 vars
+EM Run 7 with 181 insts 2 vars
+EM Run 8 with 181 insts 2 vars
+EM Run 9 with 181 insts 2 vars
+Indset size 4
+Using EM with 2234 instances and 4 variables ...
+EM Run 0 with 2234 insts 4 vars
+EM Run 1 with 2234 insts 4 vars
+EM Run 2 with 2234 insts 4 vars
+EM Run 3 with 2234 insts 4 vars
+EM Run 4 with 2234 insts 4 vars
+EM Run 5 with 2234 insts 4 vars
+EM Run 6 with 2234 insts 4 vars
+EM Run 7 with 2234 insts 4 vars
+EM Run 8 with 2234 insts 4 vars
+EM Run 9 with 2234 insts 4 vars
+Indset size 3
+Indset size 3
+Using DBSCAN with 71 instances and 3 variables ...
+Indset size 3
+Indset size 3
+Using DBSCAN with 39 instances and 3 variables ...
+Indset size 3
+Indset size 3
+Using DBSCAN with 1505 instances and 3 variables ...
+Indset size 2
+Indset size 2
+Using EM with 2234 instances and 2 variables ...
+EM Run 0 with 2234 insts 2 vars
+EM Run 1 with 2234 insts 2 vars
+EM Run 2 with 2234 insts 2 vars
+EM Run 3 with 2234 insts 2 vars
+EM Run 4 with 2234 insts 2 vars
+EM Run 5 with 2234 insts 2 vars
+EM Run 6 with 2234 insts 2 vars
+EM Run 7 with 2234 insts 2 vars
+EM Run 8 with 2234 insts 2 vars
+EM Run 9 with 2234 insts 2 vars
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 2234 instances and 2 variables ...
+EM Run 0 with 2234 insts 2 vars
+EM Run 1 with 2234 insts 2 vars
+EM Run 2 with 2234 insts 2 vars
+EM Run 3 with 2234 insts 2 vars
+EM Run 4 with 2234 insts 2 vars
+EM Run 5 with 2234 insts 2 vars
+EM Run 6 with 2234 insts 2 vars
+EM Run 7 with 2234 insts 2 vars
+EM Run 8 with 2234 insts 2 vars
+EM Run 9 with 2234 insts 2 vars
+Indset size 2
+Using DBSCAN with 20 instances and 2 variables ...
+Indset size 2
+Indset size 3
+Indset size 2
+Using DBSCAN with 1885 instances and 2 variables ...
+Indset size 2
+Indset size 3
+Using DBSCAN with 71 instances and 3 variables ...
+Indset size 2
+Using DBSCAN with 326 instances and 2 variables ...
+Indset size 3
+Indset size 3
+Indset size 3
+Using DBSCAN with 165 instances and 3 variables ...
+Indset size 3
+Using DBSCAN with 62 instances and 3 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 62 insts 3 vars
+EM Run 1 with 62 insts 3 vars
+EM Run 2 with 62 insts 3 vars
+EM Run 3 with 62 insts 3 vars
+EM Run 4 with 62 insts 3 vars
+EM Run 5 with 62 insts 3 vars
+EM Run 6 with 62 insts 3 vars
+EM Run 7 with 62 insts 3 vars
+EM Run 8 with 62 insts 3 vars
+EM Run 9 with 62 insts 3 vars
+Indset size 2
+Indset size 2
+Using EM with 2234 instances and 2 variables ...
+EM Run 0 with 2234 insts 2 vars
+EM Run 1 with 2234 insts 2 vars
+EM Run 2 with 2234 insts 2 vars
+EM Run 3 with 2234 insts 2 vars
+EM Run 4 with 2234 insts 2 vars
+EM Run 5 with 2234 insts 2 vars
+EM Run 6 with 2234 insts 2 vars
+EM Run 7 with 2234 insts 2 vars
+EM Run 8 with 2234 insts 2 vars
+EM Run 9 with 2234 insts 2 vars
+Indset size 2
+Indset size 2
+Using EM with 2234 instances and 2 variables ...
+EM Run 0 with 2234 insts 2 vars
+EM Run 1 with 2234 insts 2 vars
+EM Run 2 with 2234 insts 2 vars
+EM Run 3 with 2234 insts 2 vars
+EM Run 4 with 2234 insts 2 vars
+EM Run 5 with 2234 insts 2 vars
+EM Run 6 with 2234 insts 2 vars
+EM Run 7 with 2234 insts 2 vars
+EM Run 8 with 2234 insts 2 vars
+EM Run 9 with 2234 insts 2 vars
+Indset size 2
+Indset size 4
+Indset size 2
+Using DBSCAN with 165 instances and 2 variables ...
+Indset size 4
+Using EM with 2234 instances and 4 variables ...
+EM Run 0 with 2234 insts 4 vars
+EM Run 1 with 2234 insts 4 vars
+EM Run 2 with 2234 insts 4 vars
+EM Run 3 with 2234 insts 4 vars
+EM Run 4 with 2234 insts 4 vars
+EM Run 5 with 2234 insts 4 vars
+EM Run 6 with 2234 insts 4 vars
+EM Run 7 with 2234 insts 4 vars
+EM Run 8 with 2234 insts 4 vars
+EM Run 9 with 2234 insts 4 vars
+Indset size 8
+Indset size 8
+Using DBSCAN with 62 instances and 8 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 62 insts 8 vars
+EM Run 1 with 62 insts 8 vars
+EM Run 2 with 62 insts 8 vars
+EM Run 3 with 62 insts 8 vars
+EM Run 4 with 62 insts 8 vars
+EM Run 5 with 62 insts 8 vars
+EM Run 6 with 62 insts 8 vars
+EM Run 7 with 62 insts 8 vars
+EM Run 8 with 62 insts 8 vars
+EM Run 9 with 62 insts 8 vars
+Indset size 2
+Indset size 2
+Using DBSCAN with 165 instances and 2 variables ...
+Indset size 3
+Indset size 3
+Using DBSCAN with 39 instances and 3 variables ...
+Indset size 6
+Indset size 6
+Using DBSCAN with 326 instances and 6 variables ...
+Indset size 4
+Indset size 4
+Using DBSCAN with 165 instances and 4 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 165 insts 4 vars
+EM Run 1 with 165 insts 4 vars
+EM Run 2 with 165 insts 4 vars
+EM Run 3 with 165 insts 4 vars
+EM Run 4 with 165 insts 4 vars
+EM Run 5 with 165 insts 4 vars
+EM Run 6 with 165 insts 4 vars
+EM Run 7 with 165 insts 4 vars
+EM Run 8 with 165 insts 4 vars
+EM Run 9 with 165 insts 4 vars
+Indset size 5
+Indset size 5
+Using DBSCAN with 43 instances and 5 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 43 insts 5 vars
+EM Run 1 with 43 insts 5 vars
+EM Run 2 with 43 insts 5 vars
+EM Run 3 with 43 insts 5 vars
+EM Run 4 with 43 insts 5 vars
+EM Run 5 with 43 insts 5 vars
+EM Run 6 with 43 insts 5 vars
+EM Run 7 with 43 insts 5 vars
+EM Run 8 with 43 insts 5 vars
+EM Run 9 with 43 insts 5 vars
+Indset size 2
+Indset size 2
+Using DBSCAN with 165 instances and 2 variables ...
+Indset size 3
+Indset size 3
+Using DBSCAN with 26 instances and 3 variables ...
+Indset size 2
+Indset size 2
+Using DBSCAN with 181 instances and 2 variables ...
+Indset size 5
+Indset size 5
+Using DBSCAN with 43 instances and 5 variables ...
+Indset size 2
+Indset size 2
+Using DBSCAN with 43 instances and 2 variables ...
+Indset size 5
+Indset size 5
+Using DBSCAN with 43 instances and 5 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 43 insts 5 vars
+EM Run 1 with 43 insts 5 vars
+EM Run 2 with 43 insts 5 vars
+EM Run 3 with 43 insts 5 vars
+EM Run 4 with 43 insts 5 vars
+EM Run 5 with 43 insts 5 vars
+EM Run 6 with 43 insts 5 vars
+EM Run 7 with 43 insts 5 vars
+EM Run 8 with 43 insts 5 vars
+EM Run 9 with 43 insts 5 vars
+Indset size 6
+Indset size 6
+Using DBSCAN with 165 instances and 6 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 165 insts 6 vars
+EM Run 1 with 165 insts 6 vars
+EM Run 2 with 165 insts 6 vars
+EM Run 3 with 165 insts 6 vars
+EM Run 4 with 165 insts 6 vars
+EM Run 5 with 165 insts 6 vars
+EM Run 6 with 165 insts 6 vars
+EM Run 7 with 165 insts 6 vars
+EM Run 8 with 165 insts 6 vars
+EM Run 9 with 165 insts 6 vars
+Indset size 2
+Indset size 3
+Indset size 2
+Using DBSCAN with 43 instances and 2 variables ...
+Indset size 3
+Using DBSCAN with 165 instances and 3 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 165 insts 3 vars
+EM Run 1 with 165 insts 3 vars
+EM Run 2 with 165 insts 3 vars
+EM Run 3 with 165 insts 3 vars
+EM Run 4 with 165 insts 3 vars
+EM Run 5 with 165 insts 3 vars
+EM Run 6 with 165 insts 3 vars
+EM Run 7 with 165 insts 3 vars
+EM Run 8 with 165 insts 3 vars
+EM Run 9 with 165 insts 3 vars
+Indset size 5
+Indset size 5
+Using DBSCAN with 62 instances and 5 variables ...
+Indset size 7
+Indset size 7
+Using DBSCAN with 165 instances and 7 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 165 insts 7 vars
+EM Run 1 with 165 insts 7 vars
+EM Run 2 with 165 insts 7 vars
+EM Run 3 with 165 insts 7 vars
+EM Run 4 with 165 insts 7 vars
+EM Run 5 with 165 insts 7 vars
+EM Run 6 with 165 insts 7 vars
+EM Run 7 with 165 insts 7 vars
+EM Run 8 with 165 insts 7 vars
+EM Run 9 with 165 insts 7 vars
+Indset size 2
+Indset size 2
+Using DBSCAN with 326 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using DBSCAN with 21 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using DBSCAN with 326 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using DBSCAN with 326 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using DBSCAN with 181 instances and 2 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 181 insts 2 vars
+EM Run 1 with 181 insts 2 vars
+EM Run 2 with 181 insts 2 vars
+EM Run 3 with 181 insts 2 vars
+EM Run 4 with 181 insts 2 vars
+EM Run 5 with 181 insts 2 vars
+EM Run 6 with 181 insts 2 vars
+EM Run 7 with 181 insts 2 vars
+EM Run 8 with 181 insts 2 vars
+EM Run 9 with 181 insts 2 vars
+Indset size 2
+Indset size 2
+Using DBSCAN with 165 instances and 2 variables ...
+Indset size 2
+Indset size 4
+Indset size 2
+Using DBSCAN with 326 instances and 2 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 326 insts 2 vars
+EM Run 1 with 326 insts 2 vars
+EM Run 2 with 326 insts 2 vars
+EM Run 3 with 326 insts 2 vars
+EM Run 4 with 326 insts 2 vars
+EM Run 5 with 326 insts 2 vars
+EM Run 6 with 326 insts 2 vars
+EM Run 7 with 326 insts 2 vars
+EM Run 8 with 326 insts 2 vars
+EM Run 9 with 326 insts 2 vars
+Indset size 4
+Using DBSCAN with 62 instances and 4 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 62 insts 4 vars
+EM Run 1 with 62 insts 4 vars
+EM Run 2 with 62 insts 4 vars
+EM Run 3 with 62 insts 4 vars
+EM Run 4 with 62 insts 4 vars
+EM Run 5 with 62 insts 4 vars
+EM Run 6 with 62 insts 4 vars
+EM Run 7 with 62 insts 4 vars
+EM Run 8 with 62 insts 4 vars
+EM Run 9 with 62 insts 4 vars
+Indset size 2
+Indset size 2
+Using DBSCAN with 62 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using DBSCAN with 181 instances and 2 variables ...
+Indset size 3
+Indset size 3
+Using DBSCAN with 62 instances and 3 variables ...
+Indset size 5
+Indset size 5
+Using DBSCAN with 62 instances and 5 variables ...
+Doing EM instead since DBSCAN is giving us one cluster.
+EM Run 0 with 62 insts 5 vars
+EM Run 1 with 62 insts 5 vars
+EM Run 2 with 62 insts 5 vars
+EM Run 3 with 62 insts 5 vars
+EM Run 4 with 62 insts 5 vars
+EM Run 5 with 62 insts 5 vars
+EM Run 6 with 62 insts 5 vars
+EM Run 7 with 62 insts 5 vars
+EM Run 8 with 62 insts 5 vars
+EM Run 9 with 62 insts 5 vars
+Indset size 2
+Indset size 2
+Using DBSCAN with 43 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using DBSCAN with 165 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using DBSCAN with 62 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using DBSCAN with 165 instances and 2 variables ...
+SPN has 28716 nodes
+Building from build list (27517 items)...
+SPN has 29655 nodes
+
+CP 0.6  GF 10.0 IT 4    Smoo2.0
+Train LLH: -34.523266149239824
+Validation LLH: -36.43314202145423
+***
+
+CP 0.6  GF 10.0 IT 4    Smoo1.0
+Train LLH: -27.417193483429276
+Validation LLH: -29.622323606577844
+***
+
+CP 0.6  GF 10.0 IT 4    Smoo0.5
+Train LLH: -23.071490547188294
+Validation LLH: -25.40831861059894
+***
+
+CP 0.6  GF 10.0 IT 4    Smoo0.25
+Train LLH: -20.78075036803868
+Validation LLH: -23.325266102070813
+***
+
+CP 0.6  GF 10.0 IT 4    Smoo0.125
+Train LLH: -19.690054332295933
+Validation LLH: -22.522282955890642
+***
+
+CP 0.6  GF 10.0 IT 4    Smoo0.0625
+Train LLH: -19.2501371898954
+Validation LLH: -22.399810707848353
+***
+
+CP 0.6  GF 10.0 IT 4    Smoo0.03125
+Train LLH: -19.14582558139654
+Validation LLH: -22.62590158743896
+20 ad   GF: 10.0    CP: 0.6 Valid: -22.399810707848353  Test: -21.0510003320253 Time: 6775.591
+
+real    113m39.350s
+user    115m21.300s
+sys 0m59.711s
+-> time java -Xmx1024m -cp bin exp.inference.SPNInfTest DATA 20 N d20_dbscan.spn 
+DATA    20
+N   d20_dbscan.spn
+Dataset ad, 1556 vars, 2461tr, 327va, 491te
+Loading training...
+Loading validation...
+Loading testing...
+-16.447510679887294
+-9.83918762183156
+-11.652756932452723
+-5.125772553360442
+-42.74220040652053
+-21.19922832949493
+-10.008402258625226
+-18.243887211908564
+-17.37215113389496
+-19.89343286338306
+-6.352767915542311
+-16.468858728521198
+-28.265784438908597
+-17.148816410609072
+-11.947701131014979
+-12.311655036003453
+-11.85863252788184
+-29.723998547604175
+-12.211536064568664
+-19.28495362713567
+-10.769700891168172
+-10.646547716196457
+-16.718883457560487
+-30.523378422342958
+-66.95374555667527
+-17.022616596046277
+-10.697234985620385
+-12.193534267538412
+-23.489212118522694
+-10.33485321094773
+-11.630329213317204
+-9.374866568917856
+-12.478213486501298
+-39.74326927741374
+-10.914641188983623
+-14.04478341090899
+-5.125772553360442
+-6.667794374073603
+-38.87076426733014
+-6.352767915542311
+-10.656563497141335
+-14.483260013158608
+-29.24650055949965
+-23.89756720746329
+-30.717822419429694
+-42.59244029221484
+-12.211536064568664
+-10.008402258625226
+-22.347353332328304
+-12.478213486501298
+-14.571660601090292
+-22.78560408256437
+-12.532419676153692
+-7.874544023992857
+-47.88071905779501
+-16.397355765774947
+-10.008402258625226
+-24.13678035152408
+-45.311130449556224
+-14.640175540141206
+-74.36705221598109
+-5.125772553360442
+-54.05703706577287
+-10.75767715310054
+-16.480720684771633
+-12.437679333643944
+-36.04538582874083
+-11.323599825297682
+-15.462705341112073
+-111.88286060160337
+-13.296283082899086
+-20.159392318255996
+-24.209469144602593
+-27.600066495098595
+-12.259539212360616
+-12.252181659989757
+-9.850533847277964
+-18.743503490575012
+-6.667794374073603
+-28.657667554698598
+-10.677149330779871
+-47.87150744926722
+-8.101713208824775
+-18.264669399784136
+-19.304893343333745
+-20.548270004511373
+-11.895455115297311
+-49.96775444907579
+-9.505949175393598
+-63.82506574189535
+-31.37839704596463
+-21.058640676145764
+-10.200273867732998
+-19.176387783253773
+-15.149899710164584
+-42.973184358620955
+-12.042846495909734
+-51.67753831609837
+-17.01932463115432
+-18.251530249536344
+-49.06422855144934
+-25.090388833439036
+-21.090885083117293
+-29.569116155008686
+-49.23353564790863
+-15.443041365435795
+-12.767049280992483
+-53.78141647391154
+-23.98916156454772
+-14.32658752433345
+-64.45579257553908
+-14.154453516755309
+-10.177639988642419
+-42.0254051630694
+-22.47691927920475
+-47.856906438950006
+-15.786317254934906
+-16.90740469615821
+-12.953746780941772
+-18.361426987723135
+-8.550222133376662
+-10.58484080530456
+-15.742687001452035
+-8.101713208824775
+-30.179460128444155
+-5.125772553360442
+-13.710599455857542
+-51.66500698185233
+-7.874544023992857
+-8.101713208824775
+-34.61305835231497
+-10.942373008950275
+-22.744710948032967
+-13.08111114786731
+-22.83495038255969
+-12.426928038941677
+-9.797364874386338
+-7.874544023992857
+-13.054564236715345
+-7.874544023992857
+-10.200273867732998
+-11.02729399735495
+-18.475575291975986
+-19.707613188978925
+-16.91330865273143
+-14.320193178977876
+-29.723998547604175
+-14.04478341090899
+-15.877416694202923
+-22.920898211829837
+-12.478213486501298
+-12.145374055079428
+-13.425975591632408
+-16.832126330261964
+-37.23011051286944
+-5.125772553360442
+-17.72831838164636
+-21.430304210344495
+-38.66530755642557
+-13.379836931437572
+-6.667794374073603
+-17.249643640329687
+-20.69391620290599
+-5.125772553360442
+-19.29366544621349
+-8.101713208824775
+-22.22037713806861
+-5.125772553360442
+-13.144744112756744
+-5.125772553360442
+-50.65482257164337
+-5.125772553360442
+-10.34188116938014
+-14.320193178977876
+-39.30037349507747
+-40.157967414001874
+-11.299115716714697
+-6.352767915542311
+-11.991956102090473
+-31.837484647193094
+-16.249236191103073
+-40.94925958453823
+-6.667794374073603
+-17.941780531312688
+-9.505949175393598
+-59.30799021240842
+-15.618211130580763
+-15.632067910596382
+-16.397355765774947
+-7.966264772384068
+-7.874544023992857
+-29.372653313131607
+-38.66530755642557
+-27.26297763694673
+-9.466332958189726
+-14.288140386001265
+-49.75500265415551
+-75.3448254875497
+-6.352767915542311
+-17.61669775890067
+-19.96299035968176
+-24.652872436013546
+-6.352767915542311
+-16.718883457560487
+-15.651660881305569
+-11.16338731569059
+-10.456933426161765
+-21.45329158806333
+-5.125772553360442
+-14.078910111909765
+-37.55765671500003
+-10.663459749621847
+-12.0274585558943
+-12.316917525545348
+-10.75767715310054
+-31.480510943968547
+-5.125772553360442
+-9.505949175393598
+-15.877416694202923
+-10.919121190759926
+-27.779101242663764
+-18.100704457003708
+-20.0178998114273
+-19.972763733250797
+-46.4885331866473
+-64.13626415825036
+-6.667794374073603
+-9.850533847277964
+-11.444651662302634
+-5.125772553360442
+-55.228961552635454
+-23.604487684205004
+-19.8484150524448
+-15.234151105198292
+-33.862796782253206
+-14.348660796654608
+-70.95133039159678
+-16.71697525125287
+-8.790852661697285
+-5.125772553360442
+-25.108640865963416
+-44.004705537729905
+-22.343258894037277
+-31.63885293140539
+-19.224800181913274
+-33.76142243472767
+-7.874544023992857
+-8.101713208824775
+-17.365269753157442
+-26.409563733049005
+-9.951501526350295
+-13.803690621103321
+-23.298989866030148
+-5.125772553360442
+-24.0230656025391
+-22.398675434236623
+-5.125772553360442
+-17.071944476532618
+-11.333998984779845
+-22.250705092802313
+-28.264857609853
+-27.636654554926906
+-10.008402258625226
+-32.59927143668372
+-14.04478341090899
+-15.002323976336884
+-11.947701131014979
+-18.20974238021921
+-5.125772553360442
+-10.62871327508393
+-30.083992416129213
+-5.125772553360442
+-11.648135999753235
+-18.20359971039949
+-20.839083820579447
+-28.657667554698598
+-11.870152786631763
+-8.101713208824775
+-10.462799011492804
+-41.09761029706774
+-46.569035443927504
+-20.752426969683533
+-10.462799011492804
+-23.298839004616855
+-18.925138253741977
+-12.776280188126384
+-16.304924668823112
+-52.550699987560684
+-22.340518803487925
+-19.432921460534764
+-15.877416694202923
+-26.078235658346394
+-5.125772553360442
+-47.44207221996884
+-12.478213486501298
+-17.287518490508077
+-24.983221087277542
+-18.594163048291733
+-25.93121430771329
+-15.823744513671352
+-63.6649739150564
+-10.543469601314742
+-38.14747561495263
+-15.930208440943675
+-37.62656178576959
+-8.101713208824775
+-5.125772553360442
+-11.333998984779845
+-35.06599223275553
+-16.506120826632696
+-37.519294358344304
+-11.53937093889323
+-17.700084874645114
+-11.976021219504064
+-15.783023644248777
+-16.69446633258073
+-18.696197981449984
+-10.584668857376773
+-19.195710590040196
+-10.525843341386215
+-23.99598255293275
+-52.05633921315346
+-6.352767915542311
+-18.702320346232494
+-5.125772553360442
+-5.125772553360442
+-16.447510679887294
+-18.975444270933195
+-27.889779064624292
+-29.79421766438485
+-23.72207945666851
+-31.331982872612986
+-56.766341834703134
+-10.584668857376773
+-17.70182993847566
+-31.298337169794326
+-10.59464332210843
+-6.352767915542311
+-18.045304144868936
+-6.667794374073603
+-14.823836626938563
+-53.606153980943056
+-10.646547716196457
+-16.9640689536829
+-40.43218569111301
+-11.942301191393613
+-12.316917525545348
+-6.352767915542311
+-8.790852661697285
+-10.302907604744403
+-16.102121340630433
+-28.364101977237667
+-14.802766129866464
+-6.667794374073603
+-15.436265453947012
+-23.33643631058178
+-31.480262081547725
+-23.16893236879895
+-10.646547716196457
+-27.986822512803258
+-25.519448237402518
+-33.338776348621195
+-9.418765667580518
+-11.323599825297682
+-58.018214571504764
+-7.874544023992857
+-30.226707820753887
+-10.697234985620385
+-10.462799011492804
+-10.644156118238596
+-37.55765671500003
+-42.14090172397274
+-8.101713208824775
+-6.352767915542311
+-39.15522813815121
+-15.919865668945427
+-85.64226243550871
+-54.615163353411475
+-20.5324973391443
+-11.48587399748366
+-44.23791936089571
+-37.1722905611918
+-39.04244649967629
+-11.060953429893976
+-11.16338731569059
+-30.40376742308772
+-97.37519855144343
+-25.6362200179232
+-10.200273867732998
+-28.460826961105532
+-14.034239140207136
+-11.751049290904698
+-13.883297546965375
+-9.505949175393598
+-26.609737246791898
+-11.664181189505483
+-8.101713208824775
+-23.576886223764063
+-16.821179318134696
+-12.40111317352436
+-9.505949175393598
+-21.992044709968113
+-13.462426972166506
+-10.914641188983623
+-20.139517084376166
+-53.8638078145613
+-83.71895556926104
+-13.102171888587533
+-6.352767915542311
+-26.412418145611333
+-20.099737352348292
+-44.74038278936622
+-15.40918524244469
+-16.396440118432643
+-18.30912981990617
+-22.107203872474386
+-22.426559640902816
+-22.381563738534567
+-26.60498194789134
+-6.352767915542311
+-23.852225018798016
+-12.042846495909734
+-11.630329213317204
+-13.744392522503668
+-13.021746840180684
+-19.307204507058643
+-33.170205865846285
+-16.04199884604126
+-61.13861007349599
+-7.874544023992857
+-9.505949175393598
+-10.543469601314742
+-17.600837017650207
+-11.912082125424226
+-39.43013721529075
+-6.352767915542311
+-42.08701956339472
+-10.62871327508393
+-8.101713208824775
+-11.716697969229907
+-10.942373008950275
+-36.92719193267797
+-18.86905873584886
+-11.060953429893976
+-36.37621833221015
+-10.462799011492804
+-22.168077146864725
+-21.275622210456817
+-19.3199856852115
+-34.2005370749551
+-6.352767915542311
+-6.667794374073603
+-15.90154519788008
+-20.35657530964764
+-8.101713208824775
+-23.892010077494916
+-22.234036718094018
+-11.53937093889323
+-22.7947767985599
+-66.60918634682781
+-10.462799011492804
+-13.483646632383957
+-46.99787966129798
+-50.220270220085105
+-59.28435636179632
+-20.547088534607106
+-22.69143426231377
+-5.125772553360442
+-16.199726897104505
+-10.09299231454231
+-6.352767915542311
+-27.9452805314521
+-33.268332224172525
+-22.176562274413467
+-11.895455115297311
+-21.96406497213206
+-33.00031153126745
+-20.752426969683533
+-10.908276589685018
+-19.57889491834795
+-10.682334925182996
+-13.870023123137189
+-23.23974179512623
+-18.88325710679095
+-18.667131118712376
+-13.102171888587533
+-11.333998984779845
+-5.125772553360442
+-19.472349161614524
+-17.57940248015766
+-6.667794374073603
+avg = -21.0510003320253 +/- 15.285006787993469
+Total time: 0.746s
+
+real    0m6.757s
+user    0m2.849s
+sys 0m0.271s
+-> 
+

@@ -1,0 +1,4003 @@
+Last login: Mon Apr 21 22:29:34 on ttys002
+-> time java -ea -Xmx1024m -cp bin exp.RunSLSPN DATA 22 GF 10 CP 0.6 INDEPINST 4 N d22_default.spn
+DATA    22
+GF  10
+CP  0.6
+INDEPINST   4
+N   d22_default.spn
+*** Code with Daniel's additions ***
+Dataset c20ng, 910 vars, 11293tr, 3764va, 3764te
+Loading training...
+Loading validation...
+Loading testing...
+
+CP 0.6  GF 10.0 IT 4
+Building structure from 910 vars over 11293 instances
+Using EM with 11293 instances and 910 variables ...
+EM Run 0 with 11293 insts 910 vars
+EM Run 1 with 11293 insts 910 vars
+EM Run 2 with 11293 insts 910 vars
+EM Run 3 with 11293 insts 910 vars
+EM Run 4 with 11293 insts 910 vars
+EM Run 5 with 11293 insts 910 vars
+EM Run 6 with 11293 insts 910 vars
+EM Run 7 with 11293 insts 910 vars
+EM Run 8 with 11293 insts 910 vars
+EM Run 9 with 11293 insts 910 vars
+11293I 910V -> 40 clusters
+Indset size 861
+Indset size 250
+Indset size 858
+Indset size 861
+Using EM with 7961 instances and 861 variables ...
+EM Run 0 with 7961 insts 861 vars
+EM Run 1 with 7961 insts 861 vars
+EM Run 2 with 7961 insts 861 vars
+EM Run 3 with 7961 insts 861 vars
+EM Run 4 with 7961 insts 861 vars
+EM Run 5 with 7961 insts 861 vars
+EM Run 6 with 7961 insts 861 vars
+EM Run 7 with 7961 insts 861 vars
+EM Run 8 with 7961 insts 861 vars
+EM Run 9 with 7961 insts 861 vars
+7961I 861V -> 1008 clusters
+Indset size 250
+Using EM with 529 instances and 250 variables ...
+EM Run 0 with 529 insts 250 vars
+EM Run 1 with 529 insts 250 vars
+EM Run 2 with 529 insts 250 vars
+EM Run 3 with 529 insts 250 vars
+EM Run 4 with 529 insts 250 vars
+EM Run 5 with 529 insts 250 vars
+EM Run 6 with 529 insts 250 vars
+EM Run 7 with 529 insts 250 vars
+EM Run 8 with 529 insts 250 vars
+EM Run 9 with 529 insts 250 vars
+529I 250V -> 7 clusters
+Indset size 858
+Using EM with 2619 instances and 858 variables ...
+EM Run 0 with 2619 insts 858 vars
+EM Run 1 with 2619 insts 858 vars
+EM Run 2 with 2619 insts 858 vars
+EM Run 3 with 2619 insts 858 vars
+EM Run 4 with 2619 insts 858 vars
+EM Run 5 with 2619 insts 858 vars
+EM Run 6 with 2619 insts 858 vars
+EM Run 7 with 2619 insts 858 vars
+EM Run 8 with 2619 insts 858 vars
+EM Run 9 with 2619 insts 858 vars
+2619I 858V -> 5 clusters
+Indset size 4
+Indset size 850
+Indset size 753
+Indset size 4
+Using EM with 513 instances and 4 variables ...
+EM Run 0 with 513 insts 4 vars
+EM Run 1 with 513 insts 4 vars
+EM Run 2 with 513 insts 4 vars
+EM Run 3 with 513 insts 4 vars
+EM Run 4 with 513 insts 4 vars
+EM Run 5 with 513 insts 4 vars
+EM Run 6 with 513 insts 4 vars
+EM Run 7 with 513 insts 4 vars
+EM Run 8 with 513 insts 4 vars
+EM Run 9 with 513 insts 4 vars
+513I 4V -> 8 clusters
+Indset size 145
+Indset size 2
+Indset size 850
+Using EM with 2615 instances and 850 variables ...
+EM Run 0 with 2615 insts 850 vars
+EM Run 1 with 2615 insts 850 vars
+EM Run 2 with 2615 insts 850 vars
+EM Run 3 with 2615 insts 850 vars
+EM Run 4 with 2615 insts 850 vars
+EM Run 5 with 2615 insts 850 vars
+EM Run 6 with 2615 insts 850 vars
+EM Run 7 with 2615 insts 850 vars
+EM Run 8 with 2615 insts 850 vars
+EM Run 9 with 2615 insts 850 vars
+2615I 850V -> 350 clusters
+Indset size 108
+Indset size 753
+Using EM with 6559 instances and 753 variables ...
+EM Run 0 with 6559 insts 753 vars
+EM Run 1 with 6559 insts 753 vars
+EM Run 2 with 6559 insts 753 vars
+EM Run 3 with 6559 insts 753 vars
+EM Run 4 with 6559 insts 753 vars
+EM Run 5 with 6559 insts 753 vars
+EM Run 6 with 6559 insts 753 vars
+EM Run 7 with 6559 insts 753 vars
+EM Run 8 with 6559 insts 753 vars
+EM Run 9 with 6559 insts 753 vars
+Indset size 145
+Using EM with 513 instances and 145 variables ...
+EM Run 0 with 513 insts 145 vars
+EM Run 1 with 513 insts 145 vars
+EM Run 2 with 513 insts 145 vars
+EM Run 3 with 513 insts 145 vars
+EM Run 4 with 513 insts 145 vars
+EM Run 5 with 513 insts 145 vars
+EM Run 6 with 513 insts 145 vars
+EM Run 7 with 513 insts 145 vars
+EM Run 8 with 513 insts 145 vars
+EM Run 9 with 513 insts 145 vars
+Indset size 2
+Using EM with 529 instances and 2 variables ...
+EM Run 0 with 529 insts 2 vars
+EM Run 1 with 529 insts 2 vars
+EM Run 2 with 529 insts 2 vars
+EM Run 3 with 529 insts 2 vars
+EM Run 4 with 529 insts 2 vars
+EM Run 5 with 529 insts 2 vars
+EM Run 6 with 529 insts 2 vars
+EM Run 7 with 529 insts 2 vars
+EM Run 8 with 529 insts 2 vars
+EM Run 9 with 529 insts 2 vars
+Indset size 625
+Indset size 108
+Using EM with 127 instances and 108 variables ...
+EM Run 0 with 127 insts 108 vars
+EM Run 1 with 127 insts 108 vars
+EM Run 2 with 127 insts 108 vars
+EM Run 3 with 127 insts 108 vars
+EM Run 4 with 127 insts 108 vars
+EM Run 5 with 127 insts 108 vars
+EM Run 6 with 127 insts 108 vars
+EM Run 7 with 127 insts 108 vars
+EM Run 8 with 127 insts 108 vars
+EM Run 9 with 127 insts 108 vars
+Indset size 2
+Indset size 682
+Indset size 105
+Indset size 625
+Using EM with 2176 instances and 625 variables ...
+EM Run 0 with 2176 insts 625 vars
+EM Run 1 with 2176 insts 625 vars
+EM Run 2 with 2176 insts 625 vars
+EM Run 3 with 2176 insts 625 vars
+EM Run 4 with 2176 insts 625 vars
+EM Run 5 with 2176 insts 625 vars
+EM Run 6 with 2176 insts 625 vars
+EM Run 7 with 2176 insts 625 vars
+EM Run 8 with 2176 insts 625 vars
+EM Run 9 with 2176 insts 625 vars
+Indset size 2
+Using EM with 127 instances and 2 variables ...
+EM Run 0 with 127 insts 2 vars
+EM Run 1 with 127 insts 2 vars
+EM Run 2 with 127 insts 2 vars
+EM Run 3 with 127 insts 2 vars
+EM Run 4 with 127 insts 2 vars
+EM Run 5 with 127 insts 2 vars
+EM Run 6 with 127 insts 2 vars
+EM Run 7 with 127 insts 2 vars
+EM Run 8 with 127 insts 2 vars
+EM Run 9 with 127 insts 2 vars
+Indset size 682
+Using EM with 6137 instances and 682 variables ...
+EM Run 0 with 6137 insts 682 vars
+EM Run 1 with 6137 insts 682 vars
+EM Run 2 with 6137 insts 682 vars
+EM Run 3 with 6137 insts 682 vars
+EM Run 4 with 6137 insts 682 vars
+EM Run 5 with 6137 insts 682 vars
+EM Run 6 with 6137 insts 682 vars
+EM Run 7 with 6137 insts 682 vars
+EM Run 8 with 6137 insts 682 vars
+EM Run 9 with 6137 insts 682 vars
+Indset size 105
+Using EM with 502 instances and 105 variables ...
+EM Run 0 with 502 insts 105 vars
+EM Run 1 with 502 insts 105 vars
+EM Run 2 with 502 insts 105 vars
+EM Run 3 with 502 insts 105 vars
+EM Run 4 with 502 insts 105 vars
+EM Run 5 with 502 insts 105 vars
+EM Run 6 with 502 insts 105 vars
+EM Run 7 with 502 insts 105 vars
+EM Run 8 with 502 insts 105 vars
+EM Run 9 with 502 insts 105 vars
+Indset size 567
+Indset size 628
+Indset size 31
+Indset size 3
+Indset size 567
+Using EM with 2080 instances and 567 variables ...
+EM Run 0 with 2080 insts 567 vars
+EM Run 1 with 2080 insts 567 vars
+EM Run 2 with 2080 insts 567 vars
+EM Run 3 with 2080 insts 567 vars
+EM Run 4 with 2080 insts 567 vars
+EM Run 5 with 2080 insts 567 vars
+EM Run 6 with 2080 insts 567 vars
+EM Run 7 with 2080 insts 567 vars
+EM Run 8 with 2080 insts 567 vars
+EM Run 9 with 2080 insts 567 vars
+Indset size 628
+Using EM with 5846 instances and 628 variables ...
+EM Run 0 with 5846 insts 628 vars
+EM Run 1 with 5846 insts 628 vars
+EM Run 2 with 5846 insts 628 vars
+EM Run 3 with 5846 insts 628 vars
+EM Run 4 with 5846 insts 628 vars
+EM Run 5 with 5846 insts 628 vars
+EM Run 6 with 5846 insts 628 vars
+EM Run 7 with 5846 insts 628 vars
+EM Run 8 with 5846 insts 628 vars
+EM Run 9 with 5846 insts 628 vars
+Indset size 2
+Indset size 31
+Using EM with 430 instances and 31 variables ...
+EM Run 0 with 430 insts 31 vars
+EM Run 1 with 430 insts 31 vars
+EM Run 2 with 430 insts 31 vars
+EM Run 3 with 430 insts 31 vars
+EM Run 4 with 430 insts 31 vars
+EM Run 5 with 430 insts 31 vars
+EM Run 6 with 430 insts 31 vars
+EM Run 7 with 430 insts 31 vars
+EM Run 8 with 430 insts 31 vars
+EM Run 9 with 430 insts 31 vars
+Indset size 4
+Indset size 3
+Using EM with 502 instances and 3 variables ...
+EM Run 0 with 502 insts 3 vars
+EM Run 1 with 502 insts 3 vars
+EM Run 2 with 502 insts 3 vars
+EM Run 3 with 502 insts 3 vars
+EM Run 4 with 502 insts 3 vars
+EM Run 5 with 502 insts 3 vars
+EM Run 6 with 502 insts 3 vars
+EM Run 7 with 502 insts 3 vars
+EM Run 8 with 502 insts 3 vars
+EM Run 9 with 502 insts 3 vars
+Indset size 536
+Indset size 587
+Indset size 2
+Using EM with 6559 instances and 2 variables ...
+EM Run 0 with 6559 insts 2 vars
+EM Run 1 with 6559 insts 2 vars
+EM Run 2 with 6559 insts 2 vars
+EM Run 3 with 6559 insts 2 vars
+EM Run 4 with 6559 insts 2 vars
+EM Run 5 with 6559 insts 2 vars
+EM Run 6 with 6559 insts 2 vars
+EM Run 7 with 6559 insts 2 vars
+EM Run 8 with 6559 insts 2 vars
+EM Run 9 with 6559 insts 2 vars
+Indset size 3
+Indset size 4
+Using EM with 430 instances and 4 variables ...
+EM Run 0 with 430 insts 4 vars
+EM Run 1 with 430 insts 4 vars
+EM Run 2 with 430 insts 4 vars
+EM Run 3 with 430 insts 4 vars
+EM Run 4 with 430 insts 4 vars
+EM Run 5 with 430 insts 4 vars
+EM Run 6 with 430 insts 4 vars
+EM Run 7 with 430 insts 4 vars
+EM Run 8 with 430 insts 4 vars
+EM Run 9 with 430 insts 4 vars
+Indset size 536
+Using EM with 2050 instances and 536 variables ...
+EM Run 0 with 2050 insts 536 vars
+EM Run 1 with 2050 insts 536 vars
+EM Run 2 with 2050 insts 536 vars
+EM Run 3 with 2050 insts 536 vars
+EM Run 4 with 2050 insts 536 vars
+EM Run 5 with 2050 insts 536 vars
+EM Run 6 with 2050 insts 536 vars
+EM Run 7 with 2050 insts 536 vars
+EM Run 8 with 2050 insts 536 vars
+EM Run 9 with 2050 insts 536 vars
+Indset size 4
+Indset size 587
+Using EM with 5657 instances and 587 variables ...
+EM Run 0 with 5657 insts 587 vars
+EM Run 1 with 5657 insts 587 vars
+EM Run 2 with 5657 insts 587 vars
+EM Run 3 with 5657 insts 587 vars
+EM Run 4 with 5657 insts 587 vars
+EM Run 5 with 5657 insts 587 vars
+EM Run 6 with 5657 insts 587 vars
+EM Run 7 with 5657 insts 587 vars
+EM Run 8 with 5657 insts 587 vars
+EM Run 9 with 5657 insts 587 vars
+Indset size 2
+Indset size 3
+Using EM with 179 instances and 3 variables ...
+EM Run 0 with 179 insts 3 vars
+EM Run 1 with 179 insts 3 vars
+EM Run 2 with 179 insts 3 vars
+EM Run 3 with 179 insts 3 vars
+EM Run 4 with 179 insts 3 vars
+EM Run 5 with 179 insts 3 vars
+EM Run 6 with 179 insts 3 vars
+EM Run 7 with 179 insts 3 vars
+EM Run 8 with 179 insts 3 vars
+EM Run 9 with 179 insts 3 vars
+Indset size 2
+Indset size 520
+Indset size 4
+Using EM with 2050 instances and 4 variables ...
+EM Run 0 with 2050 insts 4 vars
+EM Run 1 with 2050 insts 4 vars
+EM Run 2 with 2050 insts 4 vars
+EM Run 3 with 2050 insts 4 vars
+EM Run 4 with 2050 insts 4 vars
+EM Run 5 with 2050 insts 4 vars
+EM Run 6 with 2050 insts 4 vars
+EM Run 7 with 2050 insts 4 vars
+EM Run 8 with 2050 insts 4 vars
+EM Run 9 with 2050 insts 4 vars
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 6559 instances and 2 variables ...
+EM Run 0 with 6559 insts 2 vars
+EM Run 1 with 6559 insts 2 vars
+EM Run 2 with 6559 insts 2 vars
+EM Run 3 with 6559 insts 2 vars
+EM Run 4 with 6559 insts 2 vars
+EM Run 5 with 6559 insts 2 vars
+EM Run 6 with 6559 insts 2 vars
+EM Run 7 with 6559 insts 2 vars
+EM Run 8 with 6559 insts 2 vars
+EM Run 9 with 6559 insts 2 vars
+Indset size 2
+Indset size 2
+Using EM with 529 instances and 2 variables ...
+EM Run 0 with 529 insts 2 vars
+EM Run 1 with 529 insts 2 vars
+EM Run 2 with 529 insts 2 vars
+EM Run 3 with 529 insts 2 vars
+EM Run 4 with 529 insts 2 vars
+EM Run 5 with 529 insts 2 vars
+EM Run 6 with 529 insts 2 vars
+EM Run 7 with 529 insts 2 vars
+EM Run 8 with 529 insts 2 vars
+EM Run 9 with 529 insts 2 vars
+Indset size 520
+Using EM with 2014 instances and 520 variables ...
+EM Run 0 with 2014 insts 520 vars
+EM Run 1 with 2014 insts 520 vars
+EM Run 2 with 2014 insts 520 vars
+EM Run 3 with 2014 insts 520 vars
+EM Run 4 with 2014 insts 520 vars
+EM Run 5 with 2014 insts 520 vars
+EM Run 6 with 2014 insts 520 vars
+EM Run 7 with 2014 insts 520 vars
+EM Run 8 with 2014 insts 520 vars
+EM Run 9 with 2014 insts 520 vars
+Indset size 2
+Using EM with 5455 instances and 2 variables ...
+EM Run 0 with 5455 insts 2 vars
+EM Run 1 with 5455 insts 2 vars
+EM Run 2 with 5455 insts 2 vars
+EM Run 3 with 5455 insts 2 vars
+EM Run 4 with 5455 insts 2 vars
+EM Run 5 with 5455 insts 2 vars
+EM Run 6 with 5455 insts 2 vars
+EM Run 7 with 5455 insts 2 vars
+EM Run 8 with 5455 insts 2 vars
+EM Run 9 with 5455 insts 2 vars
+Indset size 544
+Indset size 2
+Using EM with 5657 instances and 2 variables ...
+EM Run 0 with 5657 insts 2 vars
+EM Run 1 with 5657 insts 2 vars
+EM Run 2 with 5657 insts 2 vars
+EM Run 3 with 5657 insts 2 vars
+EM Run 4 with 5657 insts 2 vars
+EM Run 5 with 5657 insts 2 vars
+EM Run 6 with 5657 insts 2 vars
+EM Run 7 with 5657 insts 2 vars
+EM Run 8 with 5657 insts 2 vars
+EM Run 9 with 5657 insts 2 vars
+Indset size 11
+Indset size 2
+Using EM with 502 instances and 2 variables ...
+EM Run 0 with 502 insts 2 vars
+EM Run 1 with 502 insts 2 vars
+EM Run 2 with 502 insts 2 vars
+EM Run 3 with 502 insts 2 vars
+EM Run 4 with 502 insts 2 vars
+EM Run 5 with 502 insts 2 vars
+EM Run 6 with 502 insts 2 vars
+EM Run 7 with 502 insts 2 vars
+EM Run 8 with 502 insts 2 vars
+EM Run 9 with 502 insts 2 vars
+Indset size 6
+Indset size 499
+Indset size 544
+Using EM with 5455 instances and 544 variables ...
+EM Run 0 with 5455 insts 544 vars
+EM Run 1 with 5455 insts 544 vars
+EM Run 2 with 5455 insts 544 vars
+EM Run 3 with 5455 insts 544 vars
+EM Run 4 with 5455 insts 544 vars
+EM Run 5 with 5455 insts 544 vars
+EM Run 6 with 5455 insts 544 vars
+EM Run 7 with 5455 insts 544 vars
+EM Run 8 with 5455 insts 544 vars
+EM Run 9 with 5455 insts 544 vars
+Indset size 2
+Indset size 11
+Using EM with 179 instances and 11 variables ...
+EM Run 0 with 179 insts 11 vars
+EM Run 1 with 179 insts 11 vars
+EM Run 2 with 179 insts 11 vars
+EM Run 3 with 179 insts 11 vars
+EM Run 4 with 179 insts 11 vars
+EM Run 5 with 179 insts 11 vars
+EM Run 6 with 179 insts 11 vars
+EM Run 7 with 179 insts 11 vars
+EM Run 8 with 179 insts 11 vars
+EM Run 9 with 179 insts 11 vars
+Indset size 6
+Using EM with 502 instances and 6 variables ...
+EM Run 0 with 502 insts 6 vars
+EM Run 1 with 502 insts 6 vars
+EM Run 2 with 502 insts 6 vars
+EM Run 3 with 502 insts 6 vars
+EM Run 4 with 502 insts 6 vars
+EM Run 5 with 502 insts 6 vars
+EM Run 6 with 502 insts 6 vars
+EM Run 7 with 502 insts 6 vars
+EM Run 8 with 502 insts 6 vars
+EM Run 9 with 502 insts 6 vars
+Indset size 2
+Indset size 499
+Using EM with 1983 instances and 499 variables ...
+EM Run 0 with 1983 insts 499 vars
+EM Run 1 with 1983 insts 499 vars
+EM Run 2 with 1983 insts 499 vars
+EM Run 3 with 1983 insts 499 vars
+EM Run 4 with 1983 insts 499 vars
+EM Run 5 with 1983 insts 499 vars
+EM Run 6 with 1983 insts 499 vars
+EM Run 7 with 1983 insts 499 vars
+EM Run 8 with 1983 insts 499 vars
+EM Run 9 with 1983 insts 499 vars
+Indset size 2
+Indset size 319
+Indset size 2
+Using EM with 5455 instances and 2 variables ...
+EM Run 0 with 5455 insts 2 vars
+EM Run 1 with 5455 insts 2 vars
+EM Run 2 with 5455 insts 2 vars
+EM Run 3 with 5455 insts 2 vars
+EM Run 4 with 5455 insts 2 vars
+EM Run 5 with 5455 insts 2 vars
+EM Run 6 with 5455 insts 2 vars
+EM Run 7 with 5455 insts 2 vars
+EM Run 8 with 5455 insts 2 vars
+EM Run 9 with 5455 insts 2 vars
+Indset size 2
+Indset size 7
+Indset size 3
+Indset size 2
+Using EM with 513 instances and 2 variables ...
+EM Run 0 with 513 insts 2 vars
+EM Run 1 with 513 insts 2 vars
+EM Run 2 with 513 insts 2 vars
+EM Run 3 with 513 insts 2 vars
+EM Run 4 with 513 insts 2 vars
+EM Run 5 with 513 insts 2 vars
+EM Run 6 with 513 insts 2 vars
+EM Run 7 with 513 insts 2 vars
+EM Run 8 with 513 insts 2 vars
+EM Run 9 with 513 insts 2 vars
+Indset size 492
+Indset size 2
+Using EM with 2176 instances and 2 variables ...
+EM Run 0 with 2176 insts 2 vars
+EM Run 1 with 2176 insts 2 vars
+EM Run 2 with 2176 insts 2 vars
+EM Run 3 with 2176 insts 2 vars
+EM Run 4 with 2176 insts 2 vars
+EM Run 5 with 2176 insts 2 vars
+EM Run 6 with 2176 insts 2 vars
+EM Run 7 with 2176 insts 2 vars
+EM Run 8 with 2176 insts 2 vars
+EM Run 9 with 2176 insts 2 vars
+Indset size 319
+Using EM with 3759 instances and 319 variables ...
+EM Run 0 with 3759 insts 319 vars
+EM Run 1 with 3759 insts 319 vars
+EM Run 2 with 3759 insts 319 vars
+EM Run 3 with 3759 insts 319 vars
+EM Run 4 with 3759 insts 319 vars
+EM Run 5 with 3759 insts 319 vars
+EM Run 6 with 3759 insts 319 vars
+EM Run 7 with 3759 insts 319 vars
+EM Run 8 with 3759 insts 319 vars
+EM Run 9 with 3759 insts 319 vars
+Indset size 2
+Indset size 2
+Using EM with 6137 instances and 2 variables ...
+EM Run 0 with 6137 insts 2 vars
+EM Run 1 with 6137 insts 2 vars
+EM Run 2 with 6137 insts 2 vars
+EM Run 3 with 6137 insts 2 vars
+EM Run 4 with 6137 insts 2 vars
+EM Run 5 with 6137 insts 2 vars
+EM Run 6 with 6137 insts 2 vars
+EM Run 7 with 6137 insts 2 vars
+EM Run 8 with 6137 insts 2 vars
+EM Run 9 with 6137 insts 2 vars
+Indset size 7
+Using EM with 179 instances and 7 variables ...
+EM Run 0 with 179 insts 7 vars
+EM Run 1 with 179 insts 7 vars
+EM Run 2 with 179 insts 7 vars
+EM Run 3 with 179 insts 7 vars
+EM Run 4 with 179 insts 7 vars
+EM Run 5 with 179 insts 7 vars
+EM Run 6 with 179 insts 7 vars
+EM Run 7 with 179 insts 7 vars
+EM Run 8 with 179 insts 7 vars
+EM Run 9 with 179 insts 7 vars
+Indset size 3
+Indset size 3
+Using EM with 502 instances and 3 variables ...
+EM Run 0 with 502 insts 3 vars
+EM Run 1 with 502 insts 3 vars
+EM Run 2 with 502 insts 3 vars
+EM Run 3 with 502 insts 3 vars
+EM Run 4 with 502 insts 3 vars
+EM Run 5 with 502 insts 3 vars
+EM Run 6 with 502 insts 3 vars
+EM Run 7 with 502 insts 3 vars
+EM Run 8 with 502 insts 3 vars
+EM Run 9 with 502 insts 3 vars
+Indset size 6
+Indset size 492
+Using EM with 1967 instances and 492 variables ...
+EM Run 0 with 1967 insts 492 vars
+EM Run 1 with 1967 insts 492 vars
+EM Run 2 with 1967 insts 492 vars
+EM Run 3 with 1967 insts 492 vars
+EM Run 4 with 1967 insts 492 vars
+EM Run 5 with 1967 insts 492 vars
+EM Run 6 with 1967 insts 492 vars
+EM Run 7 with 1967 insts 492 vars
+EM Run 8 with 1967 insts 492 vars
+EM Run 9 with 1967 insts 492 vars
+Indset size 2
+Indset size 6
+Indset size 3
+Indset size 2
+Using EM with 5455 instances and 2 variables ...
+EM Run 0 with 5455 insts 2 vars
+EM Run 1 with 5455 insts 2 vars
+EM Run 2 with 5455 insts 2 vars
+EM Run 3 with 5455 insts 2 vars
+EM Run 4 with 5455 insts 2 vars
+EM Run 5 with 5455 insts 2 vars
+EM Run 6 with 5455 insts 2 vars
+EM Run 7 with 5455 insts 2 vars
+EM Run 8 with 5455 insts 2 vars
+EM Run 9 with 5455 insts 2 vars
+Indset size 3
+Using EM with 430 instances and 3 variables ...
+EM Run 0 with 430 insts 3 vars
+EM Run 1 with 430 insts 3 vars
+EM Run 2 with 430 insts 3 vars
+EM Run 3 with 430 insts 3 vars
+EM Run 4 with 430 insts 3 vars
+EM Run 5 with 430 insts 3 vars
+EM Run 6 with 430 insts 3 vars
+EM Run 7 with 430 insts 3 vars
+EM Run 8 with 430 insts 3 vars
+EM Run 9 with 430 insts 3 vars
+Indset size 6
+Using EM with 513 instances and 6 variables ...
+EM Run 0 with 513 insts 6 vars
+EM Run 1 with 513 insts 6 vars
+EM Run 2 with 513 insts 6 vars
+EM Run 3 with 513 insts 6 vars
+EM Run 4 with 513 insts 6 vars
+EM Run 5 with 513 insts 6 vars
+EM Run 6 with 513 insts 6 vars
+EM Run 7 with 513 insts 6 vars
+EM Run 8 with 513 insts 6 vars
+EM Run 9 with 513 insts 6 vars
+Indset size 2
+Using EM with 1967 instances and 2 variables ...
+EM Run 0 with 1967 insts 2 vars
+EM Run 1 with 1967 insts 2 vars
+EM Run 2 with 1967 insts 2 vars
+EM Run 3 with 1967 insts 2 vars
+EM Run 4 with 1967 insts 2 vars
+EM Run 5 with 1967 insts 2 vars
+EM Run 6 with 1967 insts 2 vars
+EM Run 7 with 1967 insts 2 vars
+EM Run 8 with 1967 insts 2 vars
+EM Run 9 with 1967 insts 2 vars
+Indset size 6
+Using EM with 1983 instances and 6 variables ...
+EM Run 0 with 1983 insts 6 vars
+EM Run 1 with 1983 insts 6 vars
+EM Run 2 with 1983 insts 6 vars
+EM Run 3 with 1983 insts 6 vars
+EM Run 4 with 1983 insts 6 vars
+EM Run 5 with 1983 insts 6 vars
+EM Run 6 with 1983 insts 6 vars
+EM Run 7 with 1983 insts 6 vars
+EM Run 8 with 1983 insts 6 vars
+EM Run 9 with 1983 insts 6 vars
+Indset size 3
+Using EM with 2014 instances and 3 variables ...
+EM Run 0 with 2014 insts 3 vars
+EM Run 1 with 2014 insts 3 vars
+EM Run 2 with 2014 insts 3 vars
+EM Run 3 with 2014 insts 3 vars
+EM Run 4 with 2014 insts 3 vars
+EM Run 5 with 2014 insts 3 vars
+EM Run 6 with 2014 insts 3 vars
+EM Run 7 with 2014 insts 3 vars
+EM Run 8 with 2014 insts 3 vars
+EM Run 9 with 2014 insts 3 vars
+Indset size 2
+Indset size 2
+Indset size 48
+Indset size 3
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 2080 instances and 2 variables ...
+EM Run 0 with 2080 insts 2 vars
+EM Run 1 with 2080 insts 2 vars
+EM Run 2 with 2080 insts 2 vars
+EM Run 3 with 2080 insts 2 vars
+EM Run 4 with 2080 insts 2 vars
+EM Run 5 with 2080 insts 2 vars
+EM Run 6 with 2080 insts 2 vars
+EM Run 7 with 2080 insts 2 vars
+EM Run 8 with 2080 insts 2 vars
+EM Run 9 with 2080 insts 2 vars
+Indset size 2
+Using EM with 2176 instances and 2 variables ...
+EM Run 0 with 2176 insts 2 vars
+EM Run 1 with 2176 insts 2 vars
+EM Run 2 with 2176 insts 2 vars
+EM Run 3 with 2176 insts 2 vars
+EM Run 4 with 2176 insts 2 vars
+EM Run 5 with 2176 insts 2 vars
+EM Run 6 with 2176 insts 2 vars
+EM Run 7 with 2176 insts 2 vars
+EM Run 8 with 2176 insts 2 vars
+EM Run 9 with 2176 insts 2 vars
+Indset size 48
+Using EM with 1808 instances and 48 variables ...
+EM Run 0 with 1808 insts 48 vars
+EM Run 1 with 1808 insts 48 vars
+EM Run 2 with 1808 insts 48 vars
+EM Run 3 with 1808 insts 48 vars
+EM Run 4 with 1808 insts 48 vars
+EM Run 5 with 1808 insts 48 vars
+EM Run 6 with 1808 insts 48 vars
+EM Run 7 with 1808 insts 48 vars
+EM Run 8 with 1808 insts 48 vars
+EM Run 9 with 1808 insts 48 vars
+Indset size 3
+Using EM with 3759 instances and 3 variables ...
+EM Run 0 with 3759 insts 3 vars
+EM Run 1 with 3759 insts 3 vars
+EM Run 2 with 3759 insts 3 vars
+EM Run 3 with 3759 insts 3 vars
+EM Run 4 with 3759 insts 3 vars
+EM Run 5 with 3759 insts 3 vars
+EM Run 6 with 3759 insts 3 vars
+EM Run 7 with 3759 insts 3 vars
+EM Run 8 with 3759 insts 3 vars
+EM Run 9 with 3759 insts 3 vars
+Indset size 5
+Indset size 2
+Using EM with 5455 instances and 2 variables ...
+EM Run 0 with 5455 insts 2 vars
+EM Run 1 with 5455 insts 2 vars
+EM Run 2 with 5455 insts 2 vars
+EM Run 3 with 5455 insts 2 vars
+EM Run 4 with 5455 insts 2 vars
+EM Run 5 with 5455 insts 2 vars
+EM Run 6 with 5455 insts 2 vars
+EM Run 7 with 5455 insts 2 vars
+EM Run 8 with 5455 insts 2 vars
+EM Run 9 with 5455 insts 2 vars
+Indset size 2
+Indset size 2
+Indset size 4
+Indset size 2
+Using EM with 502 instances and 2 variables ...
+EM Run 0 with 502 insts 2 vars
+EM Run 1 with 502 insts 2 vars
+EM Run 2 with 502 insts 2 vars
+EM Run 3 with 502 insts 2 vars
+EM Run 4 with 502 insts 2 vars
+EM Run 5 with 502 insts 2 vars
+EM Run 6 with 502 insts 2 vars
+EM Run 7 with 502 insts 2 vars
+EM Run 8 with 502 insts 2 vars
+EM Run 9 with 502 insts 2 vars
+Indset size 4
+Indset size 2
+Using EM with 2050 instances and 2 variables ...
+EM Run 0 with 2050 insts 2 vars
+EM Run 1 with 2050 insts 2 vars
+EM Run 2 with 2050 insts 2 vars
+EM Run 3 with 2050 insts 2 vars
+EM Run 4 with 2050 insts 2 vars
+EM Run 5 with 2050 insts 2 vars
+EM Run 6 with 2050 insts 2 vars
+EM Run 7 with 2050 insts 2 vars
+EM Run 8 with 2050 insts 2 vars
+EM Run 9 with 2050 insts 2 vars
+Indset size 5
+Using EM with 1477 instances and 5 variables ...
+EM Run 0 with 1477 insts 5 vars
+EM Run 1 with 1477 insts 5 vars
+EM Run 2 with 1477 insts 5 vars
+EM Run 3 with 1477 insts 5 vars
+EM Run 4 with 1477 insts 5 vars
+EM Run 5 with 1477 insts 5 vars
+EM Run 6 with 1477 insts 5 vars
+EM Run 7 with 1477 insts 5 vars
+EM Run 8 with 1477 insts 5 vars
+EM Run 9 with 1477 insts 5 vars
+Indset size 2
+Using EM with 5455 instances and 2 variables ...
+EM Run 0 with 5455 insts 2 vars
+EM Run 1 with 5455 insts 2 vars
+EM Run 2 with 5455 insts 2 vars
+EM Run 3 with 5455 insts 2 vars
+EM Run 4 with 5455 insts 2 vars
+EM Run 5 with 5455 insts 2 vars
+EM Run 6 with 5455 insts 2 vars
+EM Run 7 with 5455 insts 2 vars
+EM Run 8 with 5455 insts 2 vars
+EM Run 9 with 5455 insts 2 vars
+Indset size 2
+Using EM with 5846 instances and 2 variables ...
+EM Run 0 with 5846 insts 2 vars
+EM Run 1 with 5846 insts 2 vars
+EM Run 2 with 5846 insts 2 vars
+EM Run 3 with 5846 insts 2 vars
+EM Run 4 with 5846 insts 2 vars
+EM Run 5 with 5846 insts 2 vars
+EM Run 6 with 5846 insts 2 vars
+EM Run 7 with 5846 insts 2 vars
+EM Run 8 with 5846 insts 2 vars
+EM Run 9 with 5846 insts 2 vars
+Indset size 4
+Using EM with 430 instances and 4 variables ...
+EM Run 0 with 430 insts 4 vars
+EM Run 1 with 430 insts 4 vars
+EM Run 2 with 430 insts 4 vars
+EM Run 3 with 430 insts 4 vars
+EM Run 4 with 430 insts 4 vars
+EM Run 5 with 430 insts 4 vars
+EM Run 6 with 430 insts 4 vars
+EM Run 7 with 430 insts 4 vars
+EM Run 8 with 430 insts 4 vars
+EM Run 9 with 430 insts 4 vars
+Indset size 4
+Using EM with 513 instances and 4 variables ...
+EM Run 0 with 513 insts 4 vars
+EM Run 1 with 513 insts 4 vars
+EM Run 2 with 513 insts 4 vars
+EM Run 3 with 513 insts 4 vars
+EM Run 4 with 513 insts 4 vars
+EM Run 5 with 513 insts 4 vars
+EM Run 6 with 513 insts 4 vars
+EM Run 7 with 513 insts 4 vars
+EM Run 8 with 513 insts 4 vars
+EM Run 9 with 513 insts 4 vars
+Indset size 2
+Indset size 2
+Indset size 30
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 513 instances and 2 variables ...
+EM Run 0 with 513 insts 2 vars
+EM Run 1 with 513 insts 2 vars
+EM Run 2 with 513 insts 2 vars
+EM Run 3 with 513 insts 2 vars
+EM Run 4 with 513 insts 2 vars
+EM Run 5 with 513 insts 2 vars
+EM Run 6 with 513 insts 2 vars
+EM Run 7 with 513 insts 2 vars
+EM Run 8 with 513 insts 2 vars
+EM Run 9 with 513 insts 2 vars
+Indset size 2
+Indset size 2
+Using EM with 52 instances and 2 variables ...
+EM Run 0 with 52 insts 2 vars
+EM Run 1 with 52 insts 2 vars
+EM Run 2 with 52 insts 2 vars
+EM Run 3 with 52 insts 2 vars
+EM Run 4 with 52 insts 2 vars
+EM Run 5 with 52 insts 2 vars
+EM Run 6 with 52 insts 2 vars
+EM Run 7 with 52 insts 2 vars
+EM Run 8 with 52 insts 2 vars
+EM Run 9 with 52 insts 2 vars
+Indset size 2
+Indset size 30
+Using EM with 1513 instances and 30 variables ...
+EM Run 0 with 1513 insts 30 vars
+EM Run 1 with 1513 insts 30 vars
+EM Run 2 with 1513 insts 30 vars
+EM Run 3 with 1513 insts 30 vars
+EM Run 4 with 1513 insts 30 vars
+EM Run 5 with 1513 insts 30 vars
+EM Run 6 with 1513 insts 30 vars
+EM Run 7 with 1513 insts 30 vars
+EM Run 8 with 1513 insts 30 vars
+EM Run 9 with 1513 insts 30 vars
+Indset size 3
+Indset size 2
+Using EM with 5657 instances and 2 variables ...
+EM Run 0 with 5657 insts 2 vars
+EM Run 1 with 5657 insts 2 vars
+EM Run 2 with 5657 insts 2 vars
+EM Run 3 with 5657 insts 2 vars
+EM Run 4 with 5657 insts 2 vars
+EM Run 5 with 5657 insts 2 vars
+EM Run 6 with 5657 insts 2 vars
+EM Run 7 with 5657 insts 2 vars
+EM Run 8 with 5657 insts 2 vars
+EM Run 9 with 5657 insts 2 vars
+Indset size 2
+Using EM with 430 instances and 2 variables ...
+EM Run 0 with 430 insts 2 vars
+EM Run 1 with 430 insts 2 vars
+EM Run 2 with 430 insts 2 vars
+EM Run 3 with 430 insts 2 vars
+EM Run 4 with 430 insts 2 vars
+EM Run 5 with 430 insts 2 vars
+EM Run 6 with 430 insts 2 vars
+EM Run 7 with 430 insts 2 vars
+EM Run 8 with 430 insts 2 vars
+EM Run 9 with 430 insts 2 vars
+Indset size 4
+Indset size 2
+Using EM with 2176 instances and 2 variables ...
+EM Run 0 with 2176 insts 2 vars
+EM Run 1 with 2176 insts 2 vars
+EM Run 2 with 2176 insts 2 vars
+EM Run 3 with 2176 insts 2 vars
+EM Run 4 with 2176 insts 2 vars
+EM Run 5 with 2176 insts 2 vars
+EM Run 6 with 2176 insts 2 vars
+EM Run 7 with 2176 insts 2 vars
+EM Run 8 with 2176 insts 2 vars
+EM Run 9 with 2176 insts 2 vars
+Indset size 2
+Using EM with 52 instances and 2 variables ...
+EM Run 0 with 52 insts 2 vars
+EM Run 1 with 52 insts 2 vars
+EM Run 2 with 52 insts 2 vars
+EM Run 3 with 52 insts 2 vars
+EM Run 4 with 52 insts 2 vars
+EM Run 5 with 52 insts 2 vars
+EM Run 6 with 52 insts 2 vars
+EM Run 7 with 52 insts 2 vars
+EM Run 8 with 52 insts 2 vars
+EM Run 9 with 52 insts 2 vars
+Indset size 82
+Indset size 3
+Using EM with 5455 instances and 3 variables ...
+EM Run 0 with 5455 insts 3 vars
+EM Run 1 with 5455 insts 3 vars
+EM Run 2 with 5455 insts 3 vars
+EM Run 3 with 5455 insts 3 vars
+EM Run 4 with 5455 insts 3 vars
+EM Run 5 with 5455 insts 3 vars
+EM Run 6 with 5455 insts 3 vars
+EM Run 7 with 5455 insts 3 vars
+EM Run 8 with 5455 insts 3 vars
+EM Run 9 with 5455 insts 3 vars
+Indset size 2
+Indset size 2
+Indset size 4
+Using EM with 529 instances and 4 variables ...
+EM Run 0 with 529 insts 4 vars
+EM Run 1 with 529 insts 4 vars
+EM Run 2 with 529 insts 4 vars
+EM Run 3 with 529 insts 4 vars
+EM Run 4 with 529 insts 4 vars
+EM Run 5 with 529 insts 4 vars
+EM Run 6 with 529 insts 4 vars
+EM Run 7 with 529 insts 4 vars
+EM Run 8 with 529 insts 4 vars
+EM Run 9 with 529 insts 4 vars
+Indset size 2
+Indset size 2
+Indset size 82
+Using EM with 1477 instances and 82 variables ...
+EM Run 0 with 1477 insts 82 vars
+EM Run 1 with 1477 insts 82 vars
+EM Run 2 with 1477 insts 82 vars
+EM Run 3 with 1477 insts 82 vars
+EM Run 4 with 1477 insts 82 vars
+EM Run 5 with 1477 insts 82 vars
+EM Run 6 with 1477 insts 82 vars
+EM Run 7 with 1477 insts 82 vars
+EM Run 8 with 1477 insts 82 vars
+EM Run 9 with 1477 insts 82 vars
+Indset size 2
+Using EM with 5657 instances and 2 variables ...
+EM Run 0 with 5657 insts 2 vars
+EM Run 1 with 5657 insts 2 vars
+EM Run 2 with 5657 insts 2 vars
+EM Run 3 with 5657 insts 2 vars
+EM Run 4 with 5657 insts 2 vars
+EM Run 5 with 5657 insts 2 vars
+EM Run 6 with 5657 insts 2 vars
+EM Run 7 with 5657 insts 2 vars
+EM Run 8 with 5657 insts 2 vars
+EM Run 9 with 5657 insts 2 vars
+Indset size 2
+Indset size 2
+Using EM with 5846 instances and 2 variables ...
+EM Run 0 with 5846 insts 2 vars
+EM Run 1 with 5846 insts 2 vars
+EM Run 2 with 5846 insts 2 vars
+EM Run 3 with 5846 insts 2 vars
+EM Run 4 with 5846 insts 2 vars
+EM Run 5 with 5846 insts 2 vars
+EM Run 6 with 5846 insts 2 vars
+EM Run 7 with 5846 insts 2 vars
+EM Run 8 with 5846 insts 2 vars
+EM Run 9 with 5846 insts 2 vars
+Indset size 2
+Indset size 2
+Using EM with 2050 instances and 2 variables ...
+EM Run 0 with 2050 insts 2 vars
+EM Run 1 with 2050 insts 2 vars
+EM Run 2 with 2050 insts 2 vars
+EM Run 3 with 2050 insts 2 vars
+EM Run 4 with 2050 insts 2 vars
+EM Run 5 with 2050 insts 2 vars
+EM Run 6 with 2050 insts 2 vars
+EM Run 7 with 2050 insts 2 vars
+EM Run 8 with 2050 insts 2 vars
+EM Run 9 with 2050 insts 2 vars
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 357 instances and 2 variables ...
+EM Run 0 with 357 insts 2 vars
+EM Run 1 with 357 insts 2 vars
+EM Run 2 with 357 insts 2 vars
+EM Run 3 with 357 insts 2 vars
+EM Run 4 with 357 insts 2 vars
+EM Run 5 with 357 insts 2 vars
+EM Run 6 with 357 insts 2 vars
+EM Run 7 with 357 insts 2 vars
+EM Run 8 with 357 insts 2 vars
+EM Run 9 with 357 insts 2 vars
+Indset size 2
+Indset size 2
+Using EM with 5657 instances and 2 variables ...
+EM Run 0 with 5657 insts 2 vars
+EM Run 1 with 5657 insts 2 vars
+EM Run 2 with 5657 insts 2 vars
+EM Run 3 with 5657 insts 2 vars
+EM Run 4 with 5657 insts 2 vars
+EM Run 5 with 5657 insts 2 vars
+EM Run 6 with 5657 insts 2 vars
+EM Run 7 with 5657 insts 2 vars
+EM Run 8 with 5657 insts 2 vars
+EM Run 9 with 5657 insts 2 vars
+Indset size 2
+Using EM with 430 instances and 2 variables ...
+EM Run 0 with 430 insts 2 vars
+EM Run 1 with 430 insts 2 vars
+EM Run 2 with 430 insts 2 vars
+EM Run 3 with 430 insts 2 vars
+EM Run 4 with 430 insts 2 vars
+EM Run 5 with 430 insts 2 vars
+EM Run 6 with 430 insts 2 vars
+EM Run 7 with 430 insts 2 vars
+EM Run 8 with 430 insts 2 vars
+EM Run 9 with 430 insts 2 vars
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 2050 instances and 2 variables ...
+EM Run 0 with 2050 insts 2 vars
+EM Run 1 with 2050 insts 2 vars
+EM Run 2 with 2050 insts 2 vars
+EM Run 3 with 2050 insts 2 vars
+EM Run 4 with 2050 insts 2 vars
+EM Run 5 with 2050 insts 2 vars
+EM Run 6 with 2050 insts 2 vars
+EM Run 7 with 2050 insts 2 vars
+EM Run 8 with 2050 insts 2 vars
+EM Run 9 with 2050 insts 2 vars
+Indset size 2
+Using EM with 1513 instances and 2 variables ...
+EM Run 0 with 1513 insts 2 vars
+EM Run 1 with 1513 insts 2 vars
+EM Run 2 with 1513 insts 2 vars
+EM Run 3 with 1513 insts 2 vars
+EM Run 4 with 1513 insts 2 vars
+EM Run 5 with 1513 insts 2 vars
+EM Run 6 with 1513 insts 2 vars
+EM Run 7 with 1513 insts 2 vars
+EM Run 8 with 1513 insts 2 vars
+EM Run 9 with 1513 insts 2 vars
+Indset size 2
+Using EM with 3759 instances and 2 variables ...
+EM Run 0 with 3759 insts 2 vars
+EM Run 1 with 3759 insts 2 vars
+EM Run 2 with 3759 insts 2 vars
+EM Run 3 with 3759 insts 2 vars
+EM Run 4 with 3759 insts 2 vars
+EM Run 5 with 3759 insts 2 vars
+EM Run 6 with 3759 insts 2 vars
+EM Run 7 with 3759 insts 2 vars
+EM Run 8 with 3759 insts 2 vars
+EM Run 9 with 3759 insts 2 vars
+Indset size 2
+Using EM with 502 instances and 2 variables ...
+EM Run 0 with 502 insts 2 vars
+EM Run 1 with 502 insts 2 vars
+EM Run 2 with 502 insts 2 vars
+EM Run 3 with 502 insts 2 vars
+EM Run 4 with 502 insts 2 vars
+EM Run 5 with 502 insts 2 vars
+EM Run 6 with 502 insts 2 vars
+EM Run 7 with 502 insts 2 vars
+EM Run 8 with 502 insts 2 vars
+EM Run 9 with 502 insts 2 vars
+Indset size 2
+Using EM with 513 instances and 2 variables ...
+EM Run 0 with 513 insts 2 vars
+EM Run 1 with 513 insts 2 vars
+EM Run 2 with 513 insts 2 vars
+EM Run 3 with 513 insts 2 vars
+EM Run 4 with 513 insts 2 vars
+EM Run 5 with 513 insts 2 vars
+EM Run 6 with 513 insts 2 vars
+EM Run 7 with 513 insts 2 vars
+EM Run 8 with 513 insts 2 vars
+EM Run 9 with 513 insts 2 vars
+Indset size 2
+Indset size 2
+Indset size 3
+Indset size 4
+Indset size 3
+Indset size 2
+Indset size 2
+Using EM with 5657 instances and 2 variables ...
+EM Run 0 with 5657 insts 2 vars
+EM Run 1 with 5657 insts 2 vars
+EM Run 2 with 5657 insts 2 vars
+EM Run 3 with 5657 insts 2 vars
+EM Run 4 with 5657 insts 2 vars
+EM Run 5 with 5657 insts 2 vars
+EM Run 6 with 5657 insts 2 vars
+EM Run 7 with 5657 insts 2 vars
+EM Run 8 with 5657 insts 2 vars
+EM Run 9 with 5657 insts 2 vars
+Indset size 2
+Using EM with 430 instances and 2 variables ...
+EM Run 0 with 430 insts 2 vars
+EM Run 1 with 430 insts 2 vars
+EM Run 2 with 430 insts 2 vars
+EM Run 3 with 430 insts 2 vars
+EM Run 4 with 430 insts 2 vars
+EM Run 5 with 430 insts 2 vars
+EM Run 6 with 430 insts 2 vars
+EM Run 7 with 430 insts 2 vars
+EM Run 8 with 430 insts 2 vars
+EM Run 9 with 430 insts 2 vars
+Indset size 3
+Indset size 3
+Using EM with 324 instances and 3 variables ...
+EM Run 0 with 324 insts 3 vars
+EM Run 1 with 324 insts 3 vars
+EM Run 2 with 324 insts 3 vars
+EM Run 3 with 324 insts 3 vars
+EM Run 4 with 324 insts 3 vars
+EM Run 5 with 324 insts 3 vars
+EM Run 6 with 324 insts 3 vars
+EM Run 7 with 324 insts 3 vars
+EM Run 8 with 324 insts 3 vars
+EM Run 9 with 324 insts 3 vars
+Indset size 4
+Using EM with 1808 instances and 4 variables ...
+EM Run 0 with 1808 insts 4 vars
+EM Run 1 with 1808 insts 4 vars
+EM Run 2 with 1808 insts 4 vars
+EM Run 3 with 1808 insts 4 vars
+EM Run 4 with 1808 insts 4 vars
+EM Run 5 with 1808 insts 4 vars
+EM Run 6 with 1808 insts 4 vars
+EM Run 7 with 1808 insts 4 vars
+EM Run 8 with 1808 insts 4 vars
+EM Run 9 with 1808 insts 4 vars
+Indset size 2
+Indset size 3
+Using EM with 320 instances and 3 variables ...
+EM Run 0 with 320 insts 3 vars
+EM Run 1 with 320 insts 3 vars
+EM Run 2 with 320 insts 3 vars
+EM Run 3 with 320 insts 3 vars
+EM Run 4 with 320 insts 3 vars
+EM Run 5 with 320 insts 3 vars
+EM Run 6 with 320 insts 3 vars
+EM Run 7 with 320 insts 3 vars
+EM Run 8 with 320 insts 3 vars
+EM Run 9 with 320 insts 3 vars
+Indset size 2
+Using EM with 5455 instances and 2 variables ...
+EM Run 0 with 5455 insts 2 vars
+EM Run 1 with 5455 insts 2 vars
+EM Run 2 with 5455 insts 2 vars
+EM Run 3 with 5455 insts 2 vars
+EM Run 4 with 5455 insts 2 vars
+EM Run 5 with 5455 insts 2 vars
+EM Run 6 with 5455 insts 2 vars
+EM Run 7 with 5455 insts 2 vars
+EM Run 8 with 5455 insts 2 vars
+EM Run 9 with 5455 insts 2 vars
+Indset size 2
+Indset size 3
+Using EM with 2176 instances and 3 variables ...
+EM Run 0 with 2176 insts 3 vars
+EM Run 1 with 2176 insts 3 vars
+EM Run 2 with 2176 insts 3 vars
+EM Run 3 with 2176 insts 3 vars
+EM Run 4 with 2176 insts 3 vars
+EM Run 5 with 2176 insts 3 vars
+EM Run 6 with 2176 insts 3 vars
+EM Run 7 with 2176 insts 3 vars
+EM Run 8 with 2176 insts 3 vars
+EM Run 9 with 2176 insts 3 vars
+Indset size 2
+Indset size 2
+Using EM with 1808 instances and 2 variables ...
+EM Run 0 with 1808 insts 2 vars
+EM Run 1 with 1808 insts 2 vars
+EM Run 2 with 1808 insts 2 vars
+EM Run 3 with 1808 insts 2 vars
+EM Run 4 with 1808 insts 2 vars
+EM Run 5 with 1808 insts 2 vars
+EM Run 6 with 1808 insts 2 vars
+EM Run 7 with 1808 insts 2 vars
+EM Run 8 with 1808 insts 2 vars
+EM Run 9 with 1808 insts 2 vars
+Indset size 3
+Indset size 2
+Indset size 2
+Using EM with 2080 instances and 2 variables ...
+EM Run 0 with 2080 insts 2 vars
+EM Run 1 with 2080 insts 2 vars
+EM Run 2 with 2080 insts 2 vars
+EM Run 3 with 2080 insts 2 vars
+EM Run 4 with 2080 insts 2 vars
+EM Run 5 with 2080 insts 2 vars
+EM Run 6 with 2080 insts 2 vars
+EM Run 7 with 2080 insts 2 vars
+EM Run 8 with 2080 insts 2 vars
+EM Run 9 with 2080 insts 2 vars
+Indset size 2
+Using EM with 1513 instances and 2 variables ...
+EM Run 0 with 1513 insts 2 vars
+EM Run 1 with 1513 insts 2 vars
+EM Run 2 with 1513 insts 2 vars
+EM Run 3 with 1513 insts 2 vars
+EM Run 4 with 1513 insts 2 vars
+EM Run 5 with 1513 insts 2 vars
+EM Run 6 with 1513 insts 2 vars
+EM Run 7 with 1513 insts 2 vars
+EM Run 8 with 1513 insts 2 vars
+EM Run 9 with 1513 insts 2 vars
+Indset size 2
+Indset size 3
+Using EM with 357 instances and 3 variables ...
+EM Run 0 with 357 insts 3 vars
+EM Run 1 with 357 insts 3 vars
+EM Run 2 with 357 insts 3 vars
+EM Run 3 with 357 insts 3 vars
+EM Run 4 with 357 insts 3 vars
+EM Run 5 with 357 insts 3 vars
+EM Run 6 with 357 insts 3 vars
+EM Run 7 with 357 insts 3 vars
+EM Run 8 with 357 insts 3 vars
+EM Run 9 with 357 insts 3 vars
+Indset size 2
+Using EM with 6559 instances and 2 variables ...
+EM Run 0 with 6559 insts 2 vars
+EM Run 1 with 6559 insts 2 vars
+EM Run 2 with 6559 insts 2 vars
+EM Run 3 with 6559 insts 2 vars
+EM Run 4 with 6559 insts 2 vars
+EM Run 5 with 6559 insts 2 vars
+EM Run 6 with 6559 insts 2 vars
+EM Run 7 with 6559 insts 2 vars
+EM Run 8 with 6559 insts 2 vars
+EM Run 9 with 6559 insts 2 vars
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 54 instances and 2 variables ...
+EM Run 0 with 54 insts 2 vars
+EM Run 1 with 54 insts 2 vars
+EM Run 2 with 54 insts 2 vars
+EM Run 3 with 54 insts 2 vars
+EM Run 4 with 54 insts 2 vars
+EM Run 5 with 54 insts 2 vars
+EM Run 6 with 54 insts 2 vars
+EM Run 7 with 54 insts 2 vars
+EM Run 8 with 54 insts 2 vars
+EM Run 9 with 54 insts 2 vars
+Indset size 2
+Indset size 2
+Using EM with 2080 instances and 2 variables ...
+EM Run 0 with 2080 insts 2 vars
+EM Run 1 with 2080 insts 2 vars
+EM Run 2 with 2080 insts 2 vars
+EM Run 3 with 2080 insts 2 vars
+EM Run 4 with 2080 insts 2 vars
+EM Run 5 with 2080 insts 2 vars
+EM Run 6 with 2080 insts 2 vars
+EM Run 7 with 2080 insts 2 vars
+EM Run 8 with 2080 insts 2 vars
+EM Run 9 with 2080 insts 2 vars
+Indset size 2
+Indset size 2
+Using EM with 52 instances and 2 variables ...
+EM Run 0 with 52 insts 2 vars
+EM Run 1 with 52 insts 2 vars
+EM Run 2 with 52 insts 2 vars
+EM Run 3 with 52 insts 2 vars
+EM Run 4 with 52 insts 2 vars
+EM Run 5 with 52 insts 2 vars
+EM Run 6 with 52 insts 2 vars
+EM Run 7 with 52 insts 2 vars
+EM Run 8 with 52 insts 2 vars
+EM Run 9 with 52 insts 2 vars
+Indset size 4
+Indset size 2
+Using EM with 5657 instances and 2 variables ...
+EM Run 0 with 5657 insts 2 vars
+EM Run 1 with 5657 insts 2 vars
+EM Run 2 with 5657 insts 2 vars
+EM Run 3 with 5657 insts 2 vars
+EM Run 4 with 5657 insts 2 vars
+EM Run 5 with 5657 insts 2 vars
+EM Run 6 with 5657 insts 2 vars
+EM Run 7 with 5657 insts 2 vars
+EM Run 8 with 5657 insts 2 vars
+EM Run 9 with 5657 insts 2 vars
+Indset size 2
+Using EM with 2080 instances and 2 variables ...
+EM Run 0 with 2080 insts 2 vars
+EM Run 1 with 2080 insts 2 vars
+EM Run 2 with 2080 insts 2 vars
+EM Run 3 with 2080 insts 2 vars
+EM Run 4 with 2080 insts 2 vars
+EM Run 5 with 2080 insts 2 vars
+EM Run 6 with 2080 insts 2 vars
+EM Run 7 with 2080 insts 2 vars
+EM Run 8 with 2080 insts 2 vars
+EM Run 9 with 2080 insts 2 vars
+Indset size 2
+Indset size 4
+Using EM with 54 instances and 4 variables ...
+EM Run 0 with 54 insts 4 vars
+EM Run 1 with 54 insts 4 vars
+EM Run 2 with 54 insts 4 vars
+EM Run 3 with 54 insts 4 vars
+EM Run 4 with 54 insts 4 vars
+EM Run 5 with 54 insts 4 vars
+EM Run 6 with 54 insts 4 vars
+EM Run 7 with 54 insts 4 vars
+EM Run 8 with 54 insts 4 vars
+EM Run 9 with 54 insts 4 vars
+Indset size 9
+Indset size 2
+Indset size 4
+Indset size 2
+Using EM with 2176 instances and 2 variables ...
+EM Run 0 with 2176 insts 2 vars
+EM Run 1 with 2176 insts 2 vars
+EM Run 2 with 2176 insts 2 vars
+EM Run 3 with 2176 insts 2 vars
+EM Run 4 with 2176 insts 2 vars
+EM Run 5 with 2176 insts 2 vars
+EM Run 6 with 2176 insts 2 vars
+EM Run 7 with 2176 insts 2 vars
+EM Run 8 with 2176 insts 2 vars
+EM Run 9 with 2176 insts 2 vars
+Indset size 9
+Using EM with 1477 instances and 9 variables ...
+EM Run 0 with 1477 insts 9 vars
+EM Run 1 with 1477 insts 9 vars
+EM Run 2 with 1477 insts 9 vars
+EM Run 3 with 1477 insts 9 vars
+EM Run 4 with 1477 insts 9 vars
+EM Run 5 with 1477 insts 9 vars
+EM Run 6 with 1477 insts 9 vars
+EM Run 7 with 1477 insts 9 vars
+EM Run 8 with 1477 insts 9 vars
+EM Run 9 with 1477 insts 9 vars
+Indset size 2
+Indset size 2
+Using EM with 6137 instances and 2 variables ...
+EM Run 0 with 6137 insts 2 vars
+EM Run 1 with 6137 insts 2 vars
+EM Run 2 with 6137 insts 2 vars
+EM Run 3 with 6137 insts 2 vars
+EM Run 4 with 6137 insts 2 vars
+EM Run 5 with 6137 insts 2 vars
+EM Run 6 with 6137 insts 2 vars
+EM Run 7 with 6137 insts 2 vars
+EM Run 8 with 6137 insts 2 vars
+EM Run 9 with 6137 insts 2 vars
+Indset size 4
+Using EM with 513 instances and 4 variables ...
+EM Run 0 with 513 insts 4 vars
+EM Run 1 with 513 insts 4 vars
+EM Run 2 with 513 insts 4 vars
+EM Run 3 with 513 insts 4 vars
+EM Run 4 with 513 insts 4 vars
+EM Run 5 with 513 insts 4 vars
+EM Run 6 with 513 insts 4 vars
+EM Run 7 with 513 insts 4 vars
+EM Run 8 with 513 insts 4 vars
+EM Run 9 with 513 insts 4 vars
+Indset size 3
+Indset size 3
+Indset size 2
+Using EM with 5657 instances and 2 variables ...
+EM Run 0 with 5657 insts 2 vars
+EM Run 1 with 5657 insts 2 vars
+EM Run 2 with 5657 insts 2 vars
+EM Run 3 with 5657 insts 2 vars
+EM Run 4 with 5657 insts 2 vars
+EM Run 5 with 5657 insts 2 vars
+EM Run 6 with 5657 insts 2 vars
+EM Run 7 with 5657 insts 2 vars
+EM Run 8 with 5657 insts 2 vars
+EM Run 9 with 5657 insts 2 vars
+Indset size 2
+Indset size 3
+Using EM with 611 instances and 3 variables ...
+EM Run 0 with 611 insts 3 vars
+EM Run 1 with 611 insts 3 vars
+EM Run 2 with 611 insts 3 vars
+EM Run 3 with 611 insts 3 vars
+EM Run 4 with 611 insts 3 vars
+EM Run 5 with 611 insts 3 vars
+EM Run 6 with 611 insts 3 vars
+EM Run 7 with 611 insts 3 vars
+EM Run 8 with 611 insts 3 vars
+EM Run 9 with 611 insts 3 vars
+Indset size 3
+Using EM with 1808 instances and 3 variables ...
+EM Run 0 with 1808 insts 3 vars
+EM Run 1 with 1808 insts 3 vars
+EM Run 2 with 1808 insts 3 vars
+EM Run 3 with 1808 insts 3 vars
+EM Run 4 with 1808 insts 3 vars
+EM Run 5 with 1808 insts 3 vars
+EM Run 6 with 1808 insts 3 vars
+EM Run 7 with 1808 insts 3 vars
+EM Run 8 with 1808 insts 3 vars
+EM Run 9 with 1808 insts 3 vars
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 2176 instances and 2 variables ...
+EM Run 0 with 2176 insts 2 vars
+EM Run 1 with 2176 insts 2 vars
+EM Run 2 with 2176 insts 2 vars
+EM Run 3 with 2176 insts 2 vars
+EM Run 4 with 2176 insts 2 vars
+EM Run 5 with 2176 insts 2 vars
+EM Run 6 with 2176 insts 2 vars
+EM Run 7 with 2176 insts 2 vars
+EM Run 8 with 2176 insts 2 vars
+EM Run 9 with 2176 insts 2 vars
+Indset size 2
+Indset size 3
+Indset size 2
+Indset size 2
+Using EM with 52 instances and 2 variables ...
+EM Run 0 with 52 insts 2 vars
+EM Run 1 with 52 insts 2 vars
+EM Run 2 with 52 insts 2 vars
+EM Run 3 with 52 insts 2 vars
+EM Run 4 with 52 insts 2 vars
+EM Run 5 with 52 insts 2 vars
+EM Run 6 with 52 insts 2 vars
+EM Run 7 with 52 insts 2 vars
+EM Run 8 with 52 insts 2 vars
+EM Run 9 with 52 insts 2 vars
+Indset size 2
+Using EM with 2080 instances and 2 variables ...
+EM Run 0 with 2080 insts 2 vars
+EM Run 1 with 2080 insts 2 vars
+EM Run 2 with 2080 insts 2 vars
+EM Run 3 with 2080 insts 2 vars
+EM Run 4 with 2080 insts 2 vars
+EM Run 5 with 2080 insts 2 vars
+EM Run 6 with 2080 insts 2 vars
+EM Run 7 with 2080 insts 2 vars
+EM Run 8 with 2080 insts 2 vars
+EM Run 9 with 2080 insts 2 vars
+Indset size 3
+Indset size 2
+Using EM with 295 instances and 2 variables ...
+EM Run 0 with 295 insts 2 vars
+EM Run 1 with 295 insts 2 vars
+EM Run 2 with 295 insts 2 vars
+EM Run 3 with 295 insts 2 vars
+EM Run 4 with 295 insts 2 vars
+EM Run 5 with 295 insts 2 vars
+EM Run 6 with 295 insts 2 vars
+EM Run 7 with 295 insts 2 vars
+EM Run 8 with 295 insts 2 vars
+EM Run 9 with 295 insts 2 vars
+Indset size 3
+Using EM with 3759 instances and 3 variables ...
+EM Run 0 with 3759 insts 3 vars
+EM Run 1 with 3759 insts 3 vars
+EM Run 2 with 3759 insts 3 vars
+EM Run 3 with 3759 insts 3 vars
+EM Run 4 with 3759 insts 3 vars
+EM Run 5 with 3759 insts 3 vars
+EM Run 6 with 3759 insts 3 vars
+EM Run 7 with 3759 insts 3 vars
+EM Run 8 with 3759 insts 3 vars
+EM Run 9 with 3759 insts 3 vars
+Indset size 2
+Using EM with 320 instances and 2 variables ...
+EM Run 0 with 320 insts 2 vars
+EM Run 1 with 320 insts 2 vars
+EM Run 2 with 320 insts 2 vars
+EM Run 3 with 320 insts 2 vars
+EM Run 4 with 320 insts 2 vars
+EM Run 5 with 320 insts 2 vars
+EM Run 6 with 320 insts 2 vars
+EM Run 7 with 320 insts 2 vars
+EM Run 8 with 320 insts 2 vars
+EM Run 9 with 320 insts 2 vars
+Indset size 3
+Using EM with 2080 instances and 3 variables ...
+EM Run 0 with 2080 insts 3 vars
+EM Run 1 with 2080 insts 3 vars
+EM Run 2 with 2080 insts 3 vars
+EM Run 3 with 2080 insts 3 vars
+EM Run 4 with 2080 insts 3 vars
+EM Run 5 with 2080 insts 3 vars
+EM Run 6 with 2080 insts 3 vars
+EM Run 7 with 2080 insts 3 vars
+EM Run 8 with 2080 insts 3 vars
+EM Run 9 with 2080 insts 3 vars
+Indset size 2
+Indset size 4
+Indset size 2
+Using EM with 2176 instances and 2 variables ...
+EM Run 0 with 2176 insts 2 vars
+EM Run 1 with 2176 insts 2 vars
+EM Run 2 with 2176 insts 2 vars
+EM Run 3 with 2176 insts 2 vars
+EM Run 4 with 2176 insts 2 vars
+EM Run 5 with 2176 insts 2 vars
+EM Run 6 with 2176 insts 2 vars
+EM Run 7 with 2176 insts 2 vars
+EM Run 8 with 2176 insts 2 vars
+EM Run 9 with 2176 insts 2 vars
+Indset size 4
+Using EM with 513 instances and 4 variables ...
+EM Run 0 with 513 insts 4 vars
+EM Run 1 with 513 insts 4 vars
+EM Run 2 with 513 insts 4 vars
+EM Run 3 with 513 insts 4 vars
+EM Run 4 with 513 insts 4 vars
+EM Run 5 with 513 insts 4 vars
+EM Run 6 with 513 insts 4 vars
+EM Run 7 with 513 insts 4 vars
+EM Run 8 with 513 insts 4 vars
+EM Run 9 with 513 insts 4 vars
+Indset size 2
+Indset size 2
+Using EM with 66 instances and 2 variables ...
+EM Run 0 with 66 insts 2 vars
+EM Run 1 with 66 insts 2 vars
+EM Run 2 with 66 insts 2 vars
+EM Run 3 with 66 insts 2 vars
+EM Run 4 with 66 insts 2 vars
+EM Run 5 with 66 insts 2 vars
+EM Run 6 with 66 insts 2 vars
+EM Run 7 with 66 insts 2 vars
+EM Run 8 with 66 insts 2 vars
+EM Run 9 with 66 insts 2 vars
+Indset size 4
+Indset size 2
+Indset size 2
+Indset size 4
+Using EM with 513 instances and 4 variables ...
+EM Run 0 with 513 insts 4 vars
+EM Run 1 with 513 insts 4 vars
+EM Run 2 with 513 insts 4 vars
+EM Run 3 with 513 insts 4 vars
+EM Run 4 with 513 insts 4 vars
+EM Run 5 with 513 insts 4 vars
+EM Run 6 with 513 insts 4 vars
+EM Run 7 with 513 insts 4 vars
+EM Run 8 with 513 insts 4 vars
+EM Run 9 with 513 insts 4 vars
+Indset size 2
+Using EM with 1477 instances and 2 variables ...
+EM Run 0 with 1477 insts 2 vars
+EM Run 1 with 1477 insts 2 vars
+EM Run 2 with 1477 insts 2 vars
+EM Run 3 with 1477 insts 2 vars
+EM Run 4 with 1477 insts 2 vars
+EM Run 5 with 1477 insts 2 vars
+EM Run 6 with 1477 insts 2 vars
+EM Run 7 with 1477 insts 2 vars
+EM Run 8 with 1477 insts 2 vars
+EM Run 9 with 1477 insts 2 vars
+Indset size 2
+Using EM with 6137 instances and 2 variables ...
+EM Run 0 with 6137 insts 2 vars
+EM Run 1 with 6137 insts 2 vars
+EM Run 2 with 6137 insts 2 vars
+EM Run 3 with 6137 insts 2 vars
+EM Run 4 with 6137 insts 2 vars
+EM Run 5 with 6137 insts 2 vars
+EM Run 6 with 6137 insts 2 vars
+EM Run 7 with 6137 insts 2 vars
+EM Run 8 with 6137 insts 2 vars
+EM Run 9 with 6137 insts 2 vars
+Indset size 2
+Indset size 3
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 430 instances and 2 variables ...
+EM Run 0 with 430 insts 2 vars
+EM Run 1 with 430 insts 2 vars
+EM Run 2 with 430 insts 2 vars
+EM Run 3 with 430 insts 2 vars
+EM Run 4 with 430 insts 2 vars
+EM Run 5 with 430 insts 2 vars
+EM Run 6 with 430 insts 2 vars
+EM Run 7 with 430 insts 2 vars
+EM Run 8 with 430 insts 2 vars
+EM Run 9 with 430 insts 2 vars
+Indset size 3
+Using EM with 1808 instances and 3 variables ...
+EM Run 0 with 1808 insts 3 vars
+EM Run 1 with 1808 insts 3 vars
+EM Run 2 with 1808 insts 3 vars
+EM Run 3 with 1808 insts 3 vars
+EM Run 4 with 1808 insts 3 vars
+EM Run 5 with 1808 insts 3 vars
+EM Run 6 with 1808 insts 3 vars
+EM Run 7 with 1808 insts 3 vars
+EM Run 8 with 1808 insts 3 vars
+EM Run 9 with 1808 insts 3 vars
+Indset size 2
+Using EM with 357 instances and 2 variables ...
+EM Run 0 with 357 insts 2 vars
+EM Run 1 with 357 insts 2 vars
+EM Run 2 with 357 insts 2 vars
+EM Run 3 with 357 insts 2 vars
+EM Run 4 with 357 insts 2 vars
+EM Run 5 with 357 insts 2 vars
+EM Run 6 with 357 insts 2 vars
+EM Run 7 with 357 insts 2 vars
+EM Run 8 with 357 insts 2 vars
+EM Run 9 with 357 insts 2 vars
+Indset size 2
+Using EM with 1477 instances and 2 variables ...
+EM Run 0 with 1477 insts 2 vars
+EM Run 1 with 1477 insts 2 vars
+EM Run 2 with 1477 insts 2 vars
+EM Run 3 with 1477 insts 2 vars
+EM Run 4 with 1477 insts 2 vars
+EM Run 5 with 1477 insts 2 vars
+EM Run 6 with 1477 insts 2 vars
+EM Run 7 with 1477 insts 2 vars
+EM Run 8 with 1477 insts 2 vars
+EM Run 9 with 1477 insts 2 vars
+Indset size 2
+Indset size 11
+Indset size 2
+Indset size 3
+Indset size 2
+Using EM with 320 instances and 2 variables ...
+EM Run 0 with 320 insts 2 vars
+EM Run 1 with 320 insts 2 vars
+EM Run 2 with 320 insts 2 vars
+EM Run 3 with 320 insts 2 vars
+EM Run 4 with 320 insts 2 vars
+EM Run 5 with 320 insts 2 vars
+EM Run 6 with 320 insts 2 vars
+EM Run 7 with 320 insts 2 vars
+EM Run 8 with 320 insts 2 vars
+EM Run 9 with 320 insts 2 vars
+Indset size 2
+Indset size 3
+Indset size 11
+Using EM with 1808 instances and 11 variables ...
+EM Run 0 with 1808 insts 11 vars
+EM Run 1 with 1808 insts 11 vars
+EM Run 2 with 1808 insts 11 vars
+EM Run 3 with 1808 insts 11 vars
+EM Run 4 with 1808 insts 11 vars
+EM Run 5 with 1808 insts 11 vars
+EM Run 6 with 1808 insts 11 vars
+EM Run 7 with 1808 insts 11 vars
+EM Run 8 with 1808 insts 11 vars
+EM Run 9 with 1808 insts 11 vars
+Indset size 2
+Using EM with 301 instances and 2 variables ...
+EM Run 0 with 301 insts 2 vars
+EM Run 1 with 301 insts 2 vars
+EM Run 2 with 301 insts 2 vars
+EM Run 3 with 301 insts 2 vars
+EM Run 4 with 301 insts 2 vars
+EM Run 5 with 301 insts 2 vars
+EM Run 6 with 301 insts 2 vars
+EM Run 7 with 301 insts 2 vars
+EM Run 8 with 301 insts 2 vars
+EM Run 9 with 301 insts 2 vars
+Indset size 3
+Using EM with 3759 instances and 3 variables ...
+EM Run 0 with 3759 insts 3 vars
+EM Run 1 with 3759 insts 3 vars
+EM Run 2 with 3759 insts 3 vars
+EM Run 3 with 3759 insts 3 vars
+EM Run 4 with 3759 insts 3 vars
+EM Run 5 with 3759 insts 3 vars
+EM Run 6 with 3759 insts 3 vars
+EM Run 7 with 3759 insts 3 vars
+EM Run 8 with 3759 insts 3 vars
+EM Run 9 with 3759 insts 3 vars
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 430 instances and 2 variables ...
+EM Run 0 with 430 insts 2 vars
+EM Run 1 with 430 insts 2 vars
+EM Run 2 with 430 insts 2 vars
+EM Run 3 with 430 insts 2 vars
+EM Run 4 with 430 insts 2 vars
+EM Run 5 with 430 insts 2 vars
+EM Run 6 with 430 insts 2 vars
+EM Run 7 with 430 insts 2 vars
+EM Run 8 with 430 insts 2 vars
+EM Run 9 with 430 insts 2 vars
+Indset size 3
+Using EM with 513 instances and 3 variables ...
+EM Run 0 with 513 insts 3 vars
+EM Run 1 with 513 insts 3 vars
+EM Run 2 with 513 insts 3 vars
+EM Run 3 with 513 insts 3 vars
+EM Run 4 with 513 insts 3 vars
+EM Run 5 with 513 insts 3 vars
+EM Run 6 with 513 insts 3 vars
+EM Run 7 with 513 insts 3 vars
+EM Run 8 with 513 insts 3 vars
+EM Run 9 with 513 insts 3 vars
+Indset size 4
+Indset size 5
+Indset size 2
+Indset size 2
+Using EM with 1477 instances and 2 variables ...
+EM Run 0 with 1477 insts 2 vars
+EM Run 1 with 1477 insts 2 vars
+EM Run 2 with 1477 insts 2 vars
+EM Run 3 with 1477 insts 2 vars
+EM Run 4 with 1477 insts 2 vars
+EM Run 5 with 1477 insts 2 vars
+EM Run 6 with 1477 insts 2 vars
+EM Run 7 with 1477 insts 2 vars
+EM Run 8 with 1477 insts 2 vars
+EM Run 9 with 1477 insts 2 vars
+Indset size 2
+Indset size 2
+Using EM with 179 instances and 2 variables ...
+EM Run 0 with 179 insts 2 vars
+EM Run 1 with 179 insts 2 vars
+EM Run 2 with 179 insts 2 vars
+EM Run 3 with 179 insts 2 vars
+EM Run 4 with 179 insts 2 vars
+EM Run 5 with 179 insts 2 vars
+EM Run 6 with 179 insts 2 vars
+EM Run 7 with 179 insts 2 vars
+EM Run 8 with 179 insts 2 vars
+EM Run 9 with 179 insts 2 vars
+Indset size 4
+Using EM with 52 instances and 4 variables ...
+EM Run 0 with 52 insts 4 vars
+EM Run 1 with 52 insts 4 vars
+EM Run 2 with 52 insts 4 vars
+EM Run 3 with 52 insts 4 vars
+EM Run 4 with 52 insts 4 vars
+EM Run 5 with 52 insts 4 vars
+EM Run 6 with 52 insts 4 vars
+EM Run 7 with 52 insts 4 vars
+EM Run 8 with 52 insts 4 vars
+EM Run 9 with 52 insts 4 vars
+Indset size 5
+Using EM with 127 instances and 5 variables ...
+EM Run 0 with 127 insts 5 vars
+EM Run 1 with 127 insts 5 vars
+EM Run 2 with 127 insts 5 vars
+EM Run 3 with 127 insts 5 vars
+EM Run 4 with 127 insts 5 vars
+EM Run 5 with 127 insts 5 vars
+EM Run 6 with 127 insts 5 vars
+EM Run 7 with 127 insts 5 vars
+EM Run 8 with 127 insts 5 vars
+EM Run 9 with 127 insts 5 vars
+Indset size 2
+Using EM with 97 instances and 2 variables ...
+EM Run 0 with 97 insts 2 vars
+EM Run 1 with 97 insts 2 vars
+EM Run 2 with 97 insts 2 vars
+EM Run 3 with 97 insts 2 vars
+EM Run 4 with 97 insts 2 vars
+EM Run 5 with 97 insts 2 vars
+EM Run 6 with 97 insts 2 vars
+EM Run 7 with 97 insts 2 vars
+EM Run 8 with 97 insts 2 vars
+EM Run 9 with 97 insts 2 vars
+Indset size 2
+Using EM with 1477 instances and 2 variables ...
+EM Run 0 with 1477 insts 2 vars
+EM Run 1 with 1477 insts 2 vars
+EM Run 2 with 1477 insts 2 vars
+EM Run 3 with 1477 insts 2 vars
+EM Run 4 with 1477 insts 2 vars
+EM Run 5 with 1477 insts 2 vars
+EM Run 6 with 1477 insts 2 vars
+EM Run 7 with 1477 insts 2 vars
+EM Run 8 with 1477 insts 2 vars
+EM Run 9 with 1477 insts 2 vars
+Indset size 2
+Indset size 2
+Indset size 4
+Indset size 7
+Indset size 2
+Using EM with 529 instances and 2 variables ...
+EM Run 0 with 529 insts 2 vars
+EM Run 1 with 529 insts 2 vars
+EM Run 2 with 529 insts 2 vars
+EM Run 3 with 529 insts 2 vars
+EM Run 4 with 529 insts 2 vars
+EM Run 5 with 529 insts 2 vars
+EM Run 6 with 529 insts 2 vars
+EM Run 7 with 529 insts 2 vars
+EM Run 8 with 529 insts 2 vars
+EM Run 9 with 529 insts 2 vars
+Indset size 2
+Using EM with 1808 instances and 2 variables ...
+EM Run 0 with 1808 insts 2 vars
+EM Run 1 with 1808 insts 2 vars
+EM Run 2 with 1808 insts 2 vars
+EM Run 3 with 1808 insts 2 vars
+EM Run 4 with 1808 insts 2 vars
+EM Run 5 with 1808 insts 2 vars
+EM Run 6 with 1808 insts 2 vars
+EM Run 7 with 1808 insts 2 vars
+EM Run 8 with 1808 insts 2 vars
+EM Run 9 with 1808 insts 2 vars
+Indset size 4
+Using EM with 3759 instances and 4 variables ...
+EM Run 0 with 3759 insts 4 vars
+EM Run 1 with 3759 insts 4 vars
+EM Run 2 with 3759 insts 4 vars
+EM Run 3 with 3759 insts 4 vars
+EM Run 4 with 3759 insts 4 vars
+EM Run 5 with 3759 insts 4 vars
+EM Run 6 with 3759 insts 4 vars
+EM Run 7 with 3759 insts 4 vars
+EM Run 8 with 3759 insts 4 vars
+EM Run 9 with 3759 insts 4 vars
+Indset size 7
+Using EM with 1477 instances and 7 variables ...
+EM Run 0 with 1477 insts 7 vars
+EM Run 1 with 1477 insts 7 vars
+EM Run 2 with 1477 insts 7 vars
+EM Run 3 with 1477 insts 7 vars
+EM Run 4 with 1477 insts 7 vars
+EM Run 5 with 1477 insts 7 vars
+EM Run 6 with 1477 insts 7 vars
+EM Run 7 with 1477 insts 7 vars
+EM Run 8 with 1477 insts 7 vars
+EM Run 9 with 1477 insts 7 vars
+Indset size 2
+Indset size 2
+Indset size 3
+Indset size 2
+Using EM with 97 instances and 2 variables ...
+EM Run 0 with 97 insts 2 vars
+EM Run 1 with 97 insts 2 vars
+EM Run 2 with 97 insts 2 vars
+EM Run 3 with 97 insts 2 vars
+EM Run 4 with 97 insts 2 vars
+EM Run 5 with 97 insts 2 vars
+EM Run 6 with 97 insts 2 vars
+EM Run 7 with 97 insts 2 vars
+EM Run 8 with 97 insts 2 vars
+EM Run 9 with 97 insts 2 vars
+Indset size 2
+Using EM with 6559 instances and 2 variables ...
+EM Run 0 with 6559 insts 2 vars
+EM Run 1 with 6559 insts 2 vars
+EM Run 2 with 6559 insts 2 vars
+EM Run 3 with 6559 insts 2 vars
+EM Run 4 with 6559 insts 2 vars
+EM Run 5 with 6559 insts 2 vars
+EM Run 6 with 6559 insts 2 vars
+EM Run 7 with 6559 insts 2 vars
+EM Run 8 with 6559 insts 2 vars
+EM Run 9 with 6559 insts 2 vars
+Indset size 3
+Using EM with 3759 instances and 3 variables ...
+EM Run 0 with 3759 insts 3 vars
+EM Run 1 with 3759 insts 3 vars
+EM Run 2 with 3759 insts 3 vars
+EM Run 3 with 3759 insts 3 vars
+EM Run 4 with 3759 insts 3 vars
+EM Run 5 with 3759 insts 3 vars
+EM Run 6 with 3759 insts 3 vars
+EM Run 7 with 3759 insts 3 vars
+EM Run 8 with 3759 insts 3 vars
+EM Run 9 with 3759 insts 3 vars
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 81 instances and 2 variables ...
+EM Run 0 with 81 insts 2 vars
+EM Run 1 with 81 insts 2 vars
+EM Run 2 with 81 insts 2 vars
+EM Run 3 with 81 insts 2 vars
+EM Run 4 with 81 insts 2 vars
+EM Run 5 with 81 insts 2 vars
+EM Run 6 with 81 insts 2 vars
+EM Run 7 with 81 insts 2 vars
+EM Run 8 with 81 insts 2 vars
+EM Run 9 with 81 insts 2 vars
+Indset size 2
+Using EM with 6559 instances and 2 variables ...
+EM Run 0 with 6559 insts 2 vars
+EM Run 1 with 6559 insts 2 vars
+EM Run 2 with 6559 insts 2 vars
+EM Run 3 with 6559 insts 2 vars
+EM Run 4 with 6559 insts 2 vars
+EM Run 5 with 6559 insts 2 vars
+EM Run 6 with 6559 insts 2 vars
+EM Run 7 with 6559 insts 2 vars
+EM Run 8 with 6559 insts 2 vars
+EM Run 9 with 6559 insts 2 vars
+Indset size 5
+Indset size 2
+Indset size 3
+Indset size 5
+Using EM with 529 instances and 5 variables ...
+EM Run 0 with 529 insts 5 vars
+EM Run 1 with 529 insts 5 vars
+EM Run 2 with 529 insts 5 vars
+EM Run 3 with 529 insts 5 vars
+EM Run 4 with 529 insts 5 vars
+EM Run 5 with 529 insts 5 vars
+EM Run 6 with 529 insts 5 vars
+EM Run 7 with 529 insts 5 vars
+EM Run 8 with 529 insts 5 vars
+EM Run 9 with 529 insts 5 vars
+Indset size 2
+Indset size 2
+Using EM with 1808 instances and 2 variables ...
+EM Run 0 with 1808 insts 2 vars
+EM Run 1 with 1808 insts 2 vars
+EM Run 2 with 1808 insts 2 vars
+EM Run 3 with 1808 insts 2 vars
+EM Run 4 with 1808 insts 2 vars
+EM Run 5 with 1808 insts 2 vars
+EM Run 6 with 1808 insts 2 vars
+EM Run 7 with 1808 insts 2 vars
+EM Run 8 with 1808 insts 2 vars
+EM Run 9 with 1808 insts 2 vars
+Indset size 2
+Indset size 3
+Using EM with 1477 instances and 3 variables ...
+EM Run 0 with 1477 insts 3 vars
+EM Run 1 with 1477 insts 3 vars
+EM Run 2 with 1477 insts 3 vars
+EM Run 3 with 1477 insts 3 vars
+EM Run 4 with 1477 insts 3 vars
+EM Run 5 with 1477 insts 3 vars
+EM Run 6 with 1477 insts 3 vars
+EM Run 7 with 1477 insts 3 vars
+EM Run 8 with 1477 insts 3 vars
+EM Run 9 with 1477 insts 3 vars
+Indset size 2
+Using EM with 2176 instances and 2 variables ...
+EM Run 0 with 2176 insts 2 vars
+EM Run 1 with 2176 insts 2 vars
+EM Run 2 with 2176 insts 2 vars
+EM Run 3 with 2176 insts 2 vars
+EM Run 4 with 2176 insts 2 vars
+EM Run 5 with 2176 insts 2 vars
+EM Run 6 with 2176 insts 2 vars
+EM Run 7 with 2176 insts 2 vars
+EM Run 8 with 2176 insts 2 vars
+EM Run 9 with 2176 insts 2 vars
+Indset size 2
+Using EM with 3759 instances and 2 variables ...
+EM Run 0 with 3759 insts 2 vars
+EM Run 1 with 3759 insts 2 vars
+EM Run 2 with 3759 insts 2 vars
+EM Run 3 with 3759 insts 2 vars
+EM Run 4 with 3759 insts 2 vars
+EM Run 5 with 3759 insts 2 vars
+EM Run 6 with 3759 insts 2 vars
+EM Run 7 with 3759 insts 2 vars
+EM Run 8 with 3759 insts 2 vars
+EM Run 9 with 3759 insts 2 vars
+Indset size 2
+Indset size 3
+Indset size 2
+Using EM with 52 instances and 2 variables ...
+EM Run 0 with 52 insts 2 vars
+EM Run 1 with 52 insts 2 vars
+EM Run 2 with 52 insts 2 vars
+EM Run 3 with 52 insts 2 vars
+EM Run 4 with 52 insts 2 vars
+EM Run 5 with 52 insts 2 vars
+EM Run 6 with 52 insts 2 vars
+EM Run 7 with 52 insts 2 vars
+EM Run 8 with 52 insts 2 vars
+EM Run 9 with 52 insts 2 vars
+Indset size 2
+Indset size 3
+Using EM with 1477 instances and 3 variables ...
+EM Run 0 with 1477 insts 3 vars
+EM Run 1 with 1477 insts 3 vars
+EM Run 2 with 1477 insts 3 vars
+EM Run 3 with 1477 insts 3 vars
+EM Run 4 with 1477 insts 3 vars
+EM Run 5 with 1477 insts 3 vars
+EM Run 6 with 1477 insts 3 vars
+EM Run 7 with 1477 insts 3 vars
+EM Run 8 with 1477 insts 3 vars
+EM Run 9 with 1477 insts 3 vars
+Indset size 2
+Using EM with 1808 instances and 2 variables ...
+EM Run 0 with 1808 insts 2 vars
+EM Run 1 with 1808 insts 2 vars
+EM Run 2 with 1808 insts 2 vars
+EM Run 3 with 1808 insts 2 vars
+EM Run 4 with 1808 insts 2 vars
+EM Run 5 with 1808 insts 2 vars
+EM Run 6 with 1808 insts 2 vars
+EM Run 7 with 1808 insts 2 vars
+EM Run 8 with 1808 insts 2 vars
+EM Run 9 with 1808 insts 2 vars
+Indset size 2
+Indset size 2
+Using EM with 301 instances and 2 variables ...
+EM Run 0 with 301 insts 2 vars
+EM Run 1 with 301 insts 2 vars
+EM Run 2 with 301 insts 2 vars
+EM Run 3 with 301 insts 2 vars
+EM Run 4 with 301 insts 2 vars
+EM Run 5 with 301 insts 2 vars
+EM Run 6 with 301 insts 2 vars
+EM Run 7 with 301 insts 2 vars
+EM Run 8 with 301 insts 2 vars
+EM Run 9 with 301 insts 2 vars
+Indset size 2
+Indset size 2
+Using EM with 513 instances and 2 variables ...
+EM Run 0 with 513 insts 2 vars
+EM Run 1 with 513 insts 2 vars
+EM Run 2 with 513 insts 2 vars
+EM Run 3 with 513 insts 2 vars
+EM Run 4 with 513 insts 2 vars
+EM Run 5 with 513 insts 2 vars
+EM Run 6 with 513 insts 2 vars
+EM Run 7 with 513 insts 2 vars
+EM Run 8 with 513 insts 2 vars
+EM Run 9 with 513 insts 2 vars
+Indset size 5
+Indset size 5
+Using EM with 127 instances and 5 variables ...
+EM Run 0 with 127 insts 5 vars
+EM Run 1 with 127 insts 5 vars
+EM Run 2 with 127 insts 5 vars
+EM Run 3 with 127 insts 5 vars
+EM Run 4 with 127 insts 5 vars
+EM Run 5 with 127 insts 5 vars
+EM Run 6 with 127 insts 5 vars
+EM Run 7 with 127 insts 5 vars
+EM Run 8 with 127 insts 5 vars
+EM Run 9 with 127 insts 5 vars
+Indset size 4
+Indset size 7
+Indset size 4
+Using EM with 179 instances and 4 variables ...
+EM Run 0 with 179 insts 4 vars
+EM Run 1 with 179 insts 4 vars
+EM Run 2 with 179 insts 4 vars
+EM Run 3 with 179 insts 4 vars
+EM Run 4 with 179 insts 4 vars
+EM Run 5 with 179 insts 4 vars
+EM Run 6 with 179 insts 4 vars
+EM Run 7 with 179 insts 4 vars
+EM Run 8 with 179 insts 4 vars
+EM Run 9 with 179 insts 4 vars
+Indset size 7
+Using EM with 529 instances and 7 variables ...
+EM Run 0 with 529 insts 7 vars
+EM Run 1 with 529 insts 7 vars
+EM Run 2 with 529 insts 7 vars
+EM Run 3 with 529 insts 7 vars
+EM Run 4 with 529 insts 7 vars
+EM Run 5 with 529 insts 7 vars
+EM Run 6 with 529 insts 7 vars
+EM Run 7 with 529 insts 7 vars
+EM Run 8 with 529 insts 7 vars
+EM Run 9 with 529 insts 7 vars
+Indset size 2
+Indset size 2
+Using EM with 1808 instances and 2 variables ...
+EM Run 0 with 1808 insts 2 vars
+EM Run 1 with 1808 insts 2 vars
+EM Run 2 with 1808 insts 2 vars
+EM Run 3 with 1808 insts 2 vars
+EM Run 4 with 1808 insts 2 vars
+EM Run 5 with 1808 insts 2 vars
+EM Run 6 with 1808 insts 2 vars
+EM Run 7 with 1808 insts 2 vars
+EM Run 8 with 1808 insts 2 vars
+EM Run 9 with 1808 insts 2 vars
+Indset size 2
+Indset size 2
+Indset size 3
+Indset size 2
+Using EM with 301 instances and 2 variables ...
+EM Run 0 with 301 insts 2 vars
+EM Run 1 with 301 insts 2 vars
+EM Run 2 with 301 insts 2 vars
+EM Run 3 with 301 insts 2 vars
+EM Run 4 with 301 insts 2 vars
+EM Run 5 with 301 insts 2 vars
+EM Run 6 with 301 insts 2 vars
+EM Run 7 with 301 insts 2 vars
+EM Run 8 with 301 insts 2 vars
+EM Run 9 with 301 insts 2 vars
+Indset size 2
+Using EM with 357 instances and 2 variables ...
+EM Run 0 with 357 insts 2 vars
+EM Run 1 with 357 insts 2 vars
+EM Run 2 with 357 insts 2 vars
+EM Run 3 with 357 insts 2 vars
+EM Run 4 with 357 insts 2 vars
+EM Run 5 with 357 insts 2 vars
+EM Run 6 with 357 insts 2 vars
+EM Run 7 with 357 insts 2 vars
+EM Run 8 with 357 insts 2 vars
+EM Run 9 with 357 insts 2 vars
+Indset size 2
+Indset size 3
+Using EM with 1808 instances and 3 variables ...
+EM Run 0 with 1808 insts 3 vars
+EM Run 1 with 1808 insts 3 vars
+EM Run 2 with 1808 insts 3 vars
+EM Run 3 with 1808 insts 3 vars
+EM Run 4 with 1808 insts 3 vars
+EM Run 5 with 1808 insts 3 vars
+EM Run 6 with 1808 insts 3 vars
+EM Run 7 with 1808 insts 3 vars
+EM Run 8 with 1808 insts 3 vars
+EM Run 9 with 1808 insts 3 vars
+Indset size 2
+Using EM with 529 instances and 2 variables ...
+EM Run 0 with 529 insts 2 vars
+EM Run 1 with 529 insts 2 vars
+EM Run 2 with 529 insts 2 vars
+EM Run 3 with 529 insts 2 vars
+EM Run 4 with 529 insts 2 vars
+EM Run 5 with 529 insts 2 vars
+EM Run 6 with 529 insts 2 vars
+EM Run 7 with 529 insts 2 vars
+EM Run 8 with 529 insts 2 vars
+EM Run 9 with 529 insts 2 vars
+Indset size 2
+Indset size 3
+Indset size 2
+Using EM with 1477 instances and 2 variables ...
+EM Run 0 with 1477 insts 2 vars
+EM Run 1 with 1477 insts 2 vars
+EM Run 2 with 1477 insts 2 vars
+EM Run 3 with 1477 insts 2 vars
+EM Run 4 with 1477 insts 2 vars
+EM Run 5 with 1477 insts 2 vars
+EM Run 6 with 1477 insts 2 vars
+EM Run 7 with 1477 insts 2 vars
+EM Run 8 with 1477 insts 2 vars
+EM Run 9 with 1477 insts 2 vars
+Indset size 3
+Using EM with 1808 instances and 3 variables ...
+EM Run 0 with 1808 insts 3 vars
+EM Run 1 with 1808 insts 3 vars
+EM Run 2 with 1808 insts 3 vars
+EM Run 3 with 1808 insts 3 vars
+EM Run 4 with 1808 insts 3 vars
+EM Run 5 with 1808 insts 3 vars
+EM Run 6 with 1808 insts 3 vars
+EM Run 7 with 1808 insts 3 vars
+EM Run 8 with 1808 insts 3 vars
+EM Run 9 with 1808 insts 3 vars
+Indset size 2
+Indset size 7
+Indset size 2
+Indset size 2
+Using EM with 3759 instances and 2 variables ...
+EM Run 0 with 3759 insts 2 vars
+EM Run 1 with 3759 insts 2 vars
+EM Run 2 with 3759 insts 2 vars
+EM Run 3 with 3759 insts 2 vars
+EM Run 4 with 3759 insts 2 vars
+EM Run 5 with 3759 insts 2 vars
+EM Run 6 with 3759 insts 2 vars
+EM Run 7 with 3759 insts 2 vars
+EM Run 8 with 3759 insts 2 vars
+EM Run 9 with 3759 insts 2 vars
+Indset size 7
+Using EM with 1477 instances and 7 variables ...
+EM Run 0 with 1477 insts 7 vars
+EM Run 1 with 1477 insts 7 vars
+EM Run 2 with 1477 insts 7 vars
+EM Run 3 with 1477 insts 7 vars
+EM Run 4 with 1477 insts 7 vars
+EM Run 5 with 1477 insts 7 vars
+EM Run 6 with 1477 insts 7 vars
+EM Run 7 with 1477 insts 7 vars
+EM Run 8 with 1477 insts 7 vars
+EM Run 9 with 1477 insts 7 vars
+Indset size 2
+Using EM with 2176 instances and 2 variables ...
+EM Run 0 with 2176 insts 2 vars
+EM Run 1 with 2176 insts 2 vars
+EM Run 2 with 2176 insts 2 vars
+EM Run 3 with 2176 insts 2 vars
+EM Run 4 with 2176 insts 2 vars
+EM Run 5 with 2176 insts 2 vars
+EM Run 6 with 2176 insts 2 vars
+EM Run 7 with 2176 insts 2 vars
+EM Run 8 with 2176 insts 2 vars
+EM Run 9 with 2176 insts 2 vars
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 1808 instances and 2 variables ...
+EM Run 0 with 1808 insts 2 vars
+EM Run 1 with 1808 insts 2 vars
+EM Run 2 with 1808 insts 2 vars
+EM Run 3 with 1808 insts 2 vars
+EM Run 4 with 1808 insts 2 vars
+EM Run 5 with 1808 insts 2 vars
+EM Run 6 with 1808 insts 2 vars
+EM Run 7 with 1808 insts 2 vars
+EM Run 8 with 1808 insts 2 vars
+EM Run 9 with 1808 insts 2 vars
+Indset size 2
+Using EM with 6559 instances and 2 variables ...
+EM Run 0 with 6559 insts 2 vars
+EM Run 1 with 6559 insts 2 vars
+EM Run 2 with 6559 insts 2 vars
+EM Run 3 with 6559 insts 2 vars
+EM Run 4 with 6559 insts 2 vars
+EM Run 5 with 6559 insts 2 vars
+EM Run 6 with 6559 insts 2 vars
+EM Run 7 with 6559 insts 2 vars
+EM Run 8 with 6559 insts 2 vars
+EM Run 9 with 6559 insts 2 vars
+Indset size 2
+Indset size 2
+Using EM with 87 instances and 2 variables ...
+EM Run 0 with 87 insts 2 vars
+EM Run 1 with 87 insts 2 vars
+EM Run 2 with 87 insts 2 vars
+EM Run 3 with 87 insts 2 vars
+EM Run 4 with 87 insts 2 vars
+EM Run 5 with 87 insts 2 vars
+EM Run 6 with 87 insts 2 vars
+EM Run 7 with 87 insts 2 vars
+EM Run 8 with 87 insts 2 vars
+EM Run 9 with 87 insts 2 vars
+Indset size 2
+Indset size 2
+Using EM with 3759 instances and 2 variables ...
+EM Run 0 with 3759 insts 2 vars
+EM Run 1 with 3759 insts 2 vars
+EM Run 2 with 3759 insts 2 vars
+EM Run 3 with 3759 insts 2 vars
+EM Run 4 with 3759 insts 2 vars
+EM Run 5 with 3759 insts 2 vars
+EM Run 6 with 3759 insts 2 vars
+EM Run 7 with 3759 insts 2 vars
+EM Run 8 with 3759 insts 2 vars
+EM Run 9 with 3759 insts 2 vars
+Indset size 2
+Indset size 2
+Using EM with 179 instances and 2 variables ...
+EM Run 0 with 179 insts 2 vars
+EM Run 1 with 179 insts 2 vars
+EM Run 2 with 179 insts 2 vars
+EM Run 3 with 179 insts 2 vars
+EM Run 4 with 179 insts 2 vars
+EM Run 5 with 179 insts 2 vars
+EM Run 6 with 179 insts 2 vars
+EM Run 7 with 179 insts 2 vars
+EM Run 8 with 179 insts 2 vars
+EM Run 9 with 179 insts 2 vars
+Indset size 3
+Indset size 2
+Indset size 3
+Using EM with 529 instances and 3 variables ...
+EM Run 0 with 529 insts 3 vars
+EM Run 1 with 529 insts 3 vars
+EM Run 2 with 529 insts 3 vars
+EM Run 3 with 529 insts 3 vars
+EM Run 4 with 529 insts 3 vars
+EM Run 5 with 529 insts 3 vars
+EM Run 6 with 529 insts 3 vars
+EM Run 7 with 529 insts 3 vars
+EM Run 8 with 529 insts 3 vars
+EM Run 9 with 529 insts 3 vars
+Indset size 2
+Using EM with 1477 instances and 2 variables ...
+EM Run 0 with 1477 insts 2 vars
+EM Run 1 with 1477 insts 2 vars
+EM Run 2 with 1477 insts 2 vars
+EM Run 3 with 1477 insts 2 vars
+EM Run 4 with 1477 insts 2 vars
+EM Run 5 with 1477 insts 2 vars
+EM Run 6 with 1477 insts 2 vars
+EM Run 7 with 1477 insts 2 vars
+EM Run 8 with 1477 insts 2 vars
+EM Run 9 with 1477 insts 2 vars
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 1808 instances and 2 variables ...
+EM Run 0 with 1808 insts 2 vars
+EM Run 1 with 1808 insts 2 vars
+EM Run 2 with 1808 insts 2 vars
+EM Run 3 with 1808 insts 2 vars
+EM Run 4 with 1808 insts 2 vars
+EM Run 5 with 1808 insts 2 vars
+EM Run 6 with 1808 insts 2 vars
+EM Run 7 with 1808 insts 2 vars
+EM Run 8 with 1808 insts 2 vars
+EM Run 9 with 1808 insts 2 vars
+Indset size 2
+Indset size 2
+Using EM with 2176 instances and 2 variables ...
+EM Run 0 with 2176 insts 2 vars
+EM Run 1 with 2176 insts 2 vars
+EM Run 2 with 2176 insts 2 vars
+EM Run 3 with 2176 insts 2 vars
+EM Run 4 with 2176 insts 2 vars
+EM Run 5 with 2176 insts 2 vars
+EM Run 6 with 2176 insts 2 vars
+EM Run 7 with 2176 insts 2 vars
+EM Run 8 with 2176 insts 2 vars
+EM Run 9 with 2176 insts 2 vars
+Indset size 2
+Using EM with 179 instances and 2 variables ...
+EM Run 0 with 179 insts 2 vars
+EM Run 1 with 179 insts 2 vars
+EM Run 2 with 179 insts 2 vars
+EM Run 3 with 179 insts 2 vars
+EM Run 4 with 179 insts 2 vars
+EM Run 5 with 179 insts 2 vars
+EM Run 6 with 179 insts 2 vars
+EM Run 7 with 179 insts 2 vars
+EM Run 8 with 179 insts 2 vars
+EM Run 9 with 179 insts 2 vars
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 2176 instances and 2 variables ...
+EM Run 0 with 2176 insts 2 vars
+EM Run 1 with 2176 insts 2 vars
+EM Run 2 with 2176 insts 2 vars
+EM Run 3 with 2176 insts 2 vars
+EM Run 4 with 2176 insts 2 vars
+EM Run 5 with 2176 insts 2 vars
+EM Run 6 with 2176 insts 2 vars
+EM Run 7 with 2176 insts 2 vars
+EM Run 8 with 2176 insts 2 vars
+EM Run 9 with 2176 insts 2 vars
+Indset size 2
+Using EM with 127 instances and 2 variables ...
+EM Run 0 with 127 insts 2 vars
+EM Run 1 with 127 insts 2 vars
+EM Run 2 with 127 insts 2 vars
+EM Run 3 with 127 insts 2 vars
+EM Run 4 with 127 insts 2 vars
+EM Run 5 with 127 insts 2 vars
+EM Run 6 with 127 insts 2 vars
+EM Run 7 with 127 insts 2 vars
+EM Run 8 with 127 insts 2 vars
+EM Run 9 with 127 insts 2 vars
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 127 instances and 2 variables ...
+EM Run 0 with 127 insts 2 vars
+EM Run 1 with 127 insts 2 vars
+EM Run 2 with 127 insts 2 vars
+EM Run 3 with 127 insts 2 vars
+EM Run 4 with 127 insts 2 vars
+EM Run 5 with 127 insts 2 vars
+EM Run 6 with 127 insts 2 vars
+EM Run 7 with 127 insts 2 vars
+EM Run 8 with 127 insts 2 vars
+EM Run 9 with 127 insts 2 vars
+Indset size 2
+Indset size 2
+Using EM with 52 instances and 2 variables ...
+EM Run 0 with 52 insts 2 vars
+EM Run 1 with 52 insts 2 vars
+EM Run 2 with 52 insts 2 vars
+EM Run 3 with 52 insts 2 vars
+EM Run 4 with 52 insts 2 vars
+EM Run 5 with 52 insts 2 vars
+EM Run 6 with 52 insts 2 vars
+EM Run 7 with 52 insts 2 vars
+EM Run 8 with 52 insts 2 vars
+EM Run 9 with 52 insts 2 vars
+Indset size 2
+Using EM with 87 instances and 2 variables ...
+EM Run 0 with 87 insts 2 vars
+EM Run 1 with 87 insts 2 vars
+EM Run 2 with 87 insts 2 vars
+EM Run 3 with 87 insts 2 vars
+EM Run 4 with 87 insts 2 vars
+EM Run 5 with 87 insts 2 vars
+EM Run 6 with 87 insts 2 vars
+EM Run 7 with 87 insts 2 vars
+EM Run 8 with 87 insts 2 vars
+EM Run 9 with 87 insts 2 vars
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 1808 instances and 2 variables ...
+EM Run 0 with 1808 insts 2 vars
+EM Run 1 with 1808 insts 2 vars
+EM Run 2 with 1808 insts 2 vars
+EM Run 3 with 1808 insts 2 vars
+EM Run 4 with 1808 insts 2 vars
+EM Run 5 with 1808 insts 2 vars
+EM Run 6 with 1808 insts 2 vars
+EM Run 7 with 1808 insts 2 vars
+EM Run 8 with 1808 insts 2 vars
+EM Run 9 with 1808 insts 2 vars
+Indset size 2
+Using EM with 2176 instances and 2 variables ...
+EM Run 0 with 2176 insts 2 vars
+EM Run 1 with 2176 insts 2 vars
+EM Run 2 with 2176 insts 2 vars
+EM Run 3 with 2176 insts 2 vars
+EM Run 4 with 2176 insts 2 vars
+EM Run 5 with 2176 insts 2 vars
+EM Run 6 with 2176 insts 2 vars
+EM Run 7 with 2176 insts 2 vars
+EM Run 8 with 2176 insts 2 vars
+EM Run 9 with 2176 insts 2 vars
+Indset size 2
+Using EM with 127 instances and 2 variables ...
+EM Run 0 with 127 insts 2 vars
+EM Run 1 with 127 insts 2 vars
+EM Run 2 with 127 insts 2 vars
+EM Run 3 with 127 insts 2 vars
+EM Run 4 with 127 insts 2 vars
+EM Run 5 with 127 insts 2 vars
+EM Run 6 with 127 insts 2 vars
+EM Run 7 with 127 insts 2 vars
+EM Run 8 with 127 insts 2 vars
+EM Run 9 with 127 insts 2 vars
+Indset size 4
+Indset size 4
+Using EM with 529 instances and 4 variables ...
+EM Run 0 with 529 insts 4 vars
+EM Run 1 with 529 insts 4 vars
+EM Run 2 with 529 insts 4 vars
+EM Run 3 with 529 insts 4 vars
+EM Run 4 with 529 insts 4 vars
+EM Run 5 with 529 insts 4 vars
+EM Run 6 with 529 insts 4 vars
+EM Run 7 with 529 insts 4 vars
+EM Run 8 with 529 insts 4 vars
+EM Run 9 with 529 insts 4 vars
+Indset size 2
+Indset size 3
+Indset size 2
+Using EM with 127 instances and 2 variables ...
+EM Run 0 with 127 insts 2 vars
+EM Run 1 with 127 insts 2 vars
+EM Run 2 with 127 insts 2 vars
+EM Run 3 with 127 insts 2 vars
+EM Run 4 with 127 insts 2 vars
+EM Run 5 with 127 insts 2 vars
+EM Run 6 with 127 insts 2 vars
+EM Run 7 with 127 insts 2 vars
+EM Run 8 with 127 insts 2 vars
+EM Run 9 with 127 insts 2 vars
+Indset size 3
+Indset size 3
+Using EM with 529 instances and 3 variables ...
+EM Run 0 with 529 insts 3 vars
+EM Run 1 with 529 insts 3 vars
+EM Run 2 with 529 insts 3 vars
+EM Run 3 with 529 insts 3 vars
+EM Run 4 with 529 insts 3 vars
+EM Run 5 with 529 insts 3 vars
+EM Run 6 with 529 insts 3 vars
+EM Run 7 with 529 insts 3 vars
+EM Run 8 with 529 insts 3 vars
+EM Run 9 with 529 insts 3 vars
+Indset size 3
+Using EM with 127 instances and 3 variables ...
+EM Run 0 with 127 insts 3 vars
+EM Run 1 with 127 insts 3 vars
+EM Run 2 with 127 insts 3 vars
+EM Run 3 with 127 insts 3 vars
+EM Run 4 with 127 insts 3 vars
+EM Run 5 with 127 insts 3 vars
+EM Run 6 with 127 insts 3 vars
+EM Run 7 with 127 insts 3 vars
+EM Run 8 with 127 insts 3 vars
+EM Run 9 with 127 insts 3 vars
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 127 instances and 2 variables ...
+EM Run 0 with 127 insts 2 vars
+EM Run 1 with 127 insts 2 vars
+EM Run 2 with 127 insts 2 vars
+EM Run 3 with 127 insts 2 vars
+EM Run 4 with 127 insts 2 vars
+EM Run 5 with 127 insts 2 vars
+EM Run 6 with 127 insts 2 vars
+EM Run 7 with 127 insts 2 vars
+EM Run 8 with 127 insts 2 vars
+EM Run 9 with 127 insts 2 vars
+Indset size 2
+Using EM with 1477 instances and 2 variables ...
+EM Run 0 with 1477 insts 2 vars
+EM Run 1 with 1477 insts 2 vars
+EM Run 2 with 1477 insts 2 vars
+EM Run 3 with 1477 insts 2 vars
+EM Run 4 with 1477 insts 2 vars
+EM Run 5 with 1477 insts 2 vars
+EM Run 6 with 1477 insts 2 vars
+EM Run 7 with 1477 insts 2 vars
+EM Run 8 with 1477 insts 2 vars
+EM Run 9 with 1477 insts 2 vars
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 1477 instances and 2 variables ...
+EM Run 0 with 1477 insts 2 vars
+EM Run 1 with 1477 insts 2 vars
+EM Run 2 with 1477 insts 2 vars
+EM Run 3 with 1477 insts 2 vars
+EM Run 4 with 1477 insts 2 vars
+EM Run 5 with 1477 insts 2 vars
+EM Run 6 with 1477 insts 2 vars
+EM Run 7 with 1477 insts 2 vars
+EM Run 8 with 1477 insts 2 vars
+EM Run 9 with 1477 insts 2 vars
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 301 instances and 2 variables ...
+EM Run 0 with 301 insts 2 vars
+EM Run 1 with 301 insts 2 vars
+EM Run 2 with 301 insts 2 vars
+EM Run 3 with 301 insts 2 vars
+EM Run 4 with 301 insts 2 vars
+EM Run 5 with 301 insts 2 vars
+EM Run 6 with 301 insts 2 vars
+EM Run 7 with 301 insts 2 vars
+EM Run 8 with 301 insts 2 vars
+EM Run 9 with 301 insts 2 vars
+Indset size 2
+Using EM with 1477 instances and 2 variables ...
+EM Run 0 with 1477 insts 2 vars
+EM Run 1 with 1477 insts 2 vars
+EM Run 2 with 1477 insts 2 vars
+EM Run 3 with 1477 insts 2 vars
+EM Run 4 with 1477 insts 2 vars
+EM Run 5 with 1477 insts 2 vars
+EM Run 6 with 1477 insts 2 vars
+EM Run 7 with 1477 insts 2 vars
+EM Run 8 with 1477 insts 2 vars
+EM Run 9 with 1477 insts 2 vars
+Indset size 2
+Using EM with 127 instances and 2 variables ...
+EM Run 0 with 127 insts 2 vars
+EM Run 1 with 127 insts 2 vars
+EM Run 2 with 127 insts 2 vars
+EM Run 3 with 127 insts 2 vars
+EM Run 4 with 127 insts 2 vars
+EM Run 5 with 127 insts 2 vars
+EM Run 6 with 127 insts 2 vars
+EM Run 7 with 127 insts 2 vars
+EM Run 8 with 127 insts 2 vars
+EM Run 9 with 127 insts 2 vars
+Indset size 5
+Indset size 5
+Using EM with 1808 instances and 5 variables ...
+EM Run 0 with 1808 insts 5 vars
+EM Run 1 with 1808 insts 5 vars
+EM Run 2 with 1808 insts 5 vars
+EM Run 3 with 1808 insts 5 vars
+EM Run 4 with 1808 insts 5 vars
+EM Run 5 with 1808 insts 5 vars
+EM Run 6 with 1808 insts 5 vars
+EM Run 7 with 1808 insts 5 vars
+EM Run 8 with 1808 insts 5 vars
+EM Run 9 with 1808 insts 5 vars
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 127 instances and 2 variables ...
+EM Run 0 with 127 insts 2 vars
+EM Run 1 with 127 insts 2 vars
+EM Run 2 with 127 insts 2 vars
+EM Run 3 with 127 insts 2 vars
+EM Run 4 with 127 insts 2 vars
+EM Run 5 with 127 insts 2 vars
+EM Run 6 with 127 insts 2 vars
+EM Run 7 with 127 insts 2 vars
+EM Run 8 with 127 insts 2 vars
+EM Run 9 with 127 insts 2 vars
+Indset size 2
+Using EM with 301 instances and 2 variables ...
+EM Run 0 with 301 insts 2 vars
+EM Run 1 with 301 insts 2 vars
+EM Run 2 with 301 insts 2 vars
+EM Run 3 with 301 insts 2 vars
+EM Run 4 with 301 insts 2 vars
+EM Run 5 with 301 insts 2 vars
+EM Run 6 with 301 insts 2 vars
+EM Run 7 with 301 insts 2 vars
+EM Run 8 with 301 insts 2 vars
+EM Run 9 with 301 insts 2 vars
+Indset size 10
+Indset size 2
+Using EM with 529 instances and 2 variables ...
+EM Run 0 with 529 insts 2 vars
+EM Run 1 with 529 insts 2 vars
+EM Run 2 with 529 insts 2 vars
+EM Run 3 with 529 insts 2 vars
+EM Run 4 with 529 insts 2 vars
+EM Run 5 with 529 insts 2 vars
+EM Run 6 with 529 insts 2 vars
+EM Run 7 with 529 insts 2 vars
+EM Run 8 with 529 insts 2 vars
+EM Run 9 with 529 insts 2 vars
+Indset size 10
+Using EM with 179 instances and 10 variables ...
+EM Run 0 with 179 insts 10 vars
+EM Run 1 with 179 insts 10 vars
+EM Run 2 with 179 insts 10 vars
+EM Run 3 with 179 insts 10 vars
+EM Run 4 with 179 insts 10 vars
+EM Run 5 with 179 insts 10 vars
+EM Run 6 with 179 insts 10 vars
+EM Run 7 with 179 insts 10 vars
+EM Run 8 with 179 insts 10 vars
+EM Run 9 with 179 insts 10 vars
+Indset size 2
+Indset size 2
+Using EM with 1477 instances and 2 variables ...
+EM Run 0 with 1477 insts 2 vars
+EM Run 1 with 1477 insts 2 vars
+EM Run 2 with 1477 insts 2 vars
+EM Run 3 with 1477 insts 2 vars
+EM Run 4 with 1477 insts 2 vars
+EM Run 5 with 1477 insts 2 vars
+EM Run 6 with 1477 insts 2 vars
+EM Run 7 with 1477 insts 2 vars
+EM Run 8 with 1477 insts 2 vars
+EM Run 9 with 1477 insts 2 vars
+Indset size 2
+Indset size 2
+Using EM with 1477 instances and 2 variables ...
+EM Run 0 with 1477 insts 2 vars
+EM Run 1 with 1477 insts 2 vars
+EM Run 2 with 1477 insts 2 vars
+EM Run 3 with 1477 insts 2 vars
+EM Run 4 with 1477 insts 2 vars
+EM Run 5 with 1477 insts 2 vars
+EM Run 6 with 1477 insts 2 vars
+EM Run 7 with 1477 insts 2 vars
+EM Run 8 with 1477 insts 2 vars
+EM Run 9 with 1477 insts 2 vars
+Indset size 2
+Indset size 2
+Using EM with 529 instances and 2 variables ...
+EM Run 0 with 529 insts 2 vars
+EM Run 1 with 529 insts 2 vars
+EM Run 2 with 529 insts 2 vars
+EM Run 3 with 529 insts 2 vars
+EM Run 4 with 529 insts 2 vars
+EM Run 5 with 529 insts 2 vars
+EM Run 6 with 529 insts 2 vars
+EM Run 7 with 529 insts 2 vars
+EM Run 8 with 529 insts 2 vars
+EM Run 9 with 529 insts 2 vars
+Indset size 3
+Indset size 2
+Indset size 3
+Using EM with 3759 instances and 3 variables ...
+EM Run 0 with 3759 insts 3 vars
+EM Run 1 with 3759 insts 3 vars
+EM Run 2 with 3759 insts 3 vars
+EM Run 3 with 3759 insts 3 vars
+EM Run 4 with 3759 insts 3 vars
+EM Run 5 with 3759 insts 3 vars
+EM Run 6 with 3759 insts 3 vars
+EM Run 7 with 3759 insts 3 vars
+EM Run 8 with 3759 insts 3 vars
+EM Run 9 with 3759 insts 3 vars
+Indset size 2
+Using EM with 1808 instances and 2 variables ...
+EM Run 0 with 1808 insts 2 vars
+EM Run 1 with 1808 insts 2 vars
+EM Run 2 with 1808 insts 2 vars
+EM Run 3 with 1808 insts 2 vars
+EM Run 4 with 1808 insts 2 vars
+EM Run 5 with 1808 insts 2 vars
+EM Run 6 with 1808 insts 2 vars
+EM Run 7 with 1808 insts 2 vars
+EM Run 8 with 1808 insts 2 vars
+EM Run 9 with 1808 insts 2 vars
+Indset size 2
+Indset size 2
+Using EM with 1477 instances and 2 variables ...
+EM Run 0 with 1477 insts 2 vars
+EM Run 1 with 1477 insts 2 vars
+EM Run 2 with 1477 insts 2 vars
+EM Run 3 with 1477 insts 2 vars
+EM Run 4 with 1477 insts 2 vars
+EM Run 5 with 1477 insts 2 vars
+EM Run 6 with 1477 insts 2 vars
+EM Run 7 with 1477 insts 2 vars
+EM Run 8 with 1477 insts 2 vars
+EM Run 9 with 1477 insts 2 vars
+Indset size 3
+Indset size 3
+Indset size 4
+Indset size 3
+Using EM with 1808 instances and 3 variables ...
+EM Run 0 with 1808 insts 3 vars
+EM Run 1 with 1808 insts 3 vars
+EM Run 2 with 1808 insts 3 vars
+EM Run 3 with 1808 insts 3 vars
+EM Run 4 with 1808 insts 3 vars
+EM Run 5 with 1808 insts 3 vars
+EM Run 6 with 1808 insts 3 vars
+EM Run 7 with 1808 insts 3 vars
+EM Run 8 with 1808 insts 3 vars
+EM Run 9 with 1808 insts 3 vars
+Indset size 3
+Indset size 3
+Using EM with 1477 instances and 3 variables ...
+EM Run 0 with 1477 insts 3 vars
+EM Run 1 with 1477 insts 3 vars
+EM Run 2 with 1477 insts 3 vars
+EM Run 3 with 1477 insts 3 vars
+EM Run 4 with 1477 insts 3 vars
+EM Run 5 with 1477 insts 3 vars
+EM Run 6 with 1477 insts 3 vars
+EM Run 7 with 1477 insts 3 vars
+EM Run 8 with 1477 insts 3 vars
+EM Run 9 with 1477 insts 3 vars
+Indset size 4
+Using EM with 179 instances and 4 variables ...
+EM Run 0 with 179 insts 4 vars
+EM Run 1 with 179 insts 4 vars
+EM Run 2 with 179 insts 4 vars
+EM Run 3 with 179 insts 4 vars
+EM Run 4 with 179 insts 4 vars
+EM Run 5 with 179 insts 4 vars
+EM Run 6 with 179 insts 4 vars
+EM Run 7 with 179 insts 4 vars
+EM Run 8 with 179 insts 4 vars
+EM Run 9 with 179 insts 4 vars
+Indset size 3
+Using EM with 1808 instances and 3 variables ...
+EM Run 0 with 1808 insts 3 vars
+EM Run 1 with 1808 insts 3 vars
+EM Run 2 with 1808 insts 3 vars
+EM Run 3 with 1808 insts 3 vars
+EM Run 4 with 1808 insts 3 vars
+EM Run 5 with 1808 insts 3 vars
+EM Run 6 with 1808 insts 3 vars
+EM Run 7 with 1808 insts 3 vars
+EM Run 8 with 1808 insts 3 vars
+EM Run 9 with 1808 insts 3 vars
+Indset size 2
+Indset size 2
+Using EM with 1808 instances and 2 variables ...
+EM Run 0 with 1808 insts 2 vars
+EM Run 1 with 1808 insts 2 vars
+EM Run 2 with 1808 insts 2 vars
+EM Run 3 with 1808 insts 2 vars
+EM Run 4 with 1808 insts 2 vars
+EM Run 5 with 1808 insts 2 vars
+EM Run 6 with 1808 insts 2 vars
+EM Run 7 with 1808 insts 2 vars
+EM Run 8 with 1808 insts 2 vars
+EM Run 9 with 1808 insts 2 vars
+Indset size 4
+Indset size 4
+Using EM with 127 instances and 4 variables ...
+EM Run 0 with 127 insts 4 vars
+EM Run 1 with 127 insts 4 vars
+EM Run 2 with 127 insts 4 vars
+EM Run 3 with 127 insts 4 vars
+EM Run 4 with 127 insts 4 vars
+EM Run 5 with 127 insts 4 vars
+EM Run 6 with 127 insts 4 vars
+EM Run 7 with 127 insts 4 vars
+EM Run 8 with 127 insts 4 vars
+EM Run 9 with 127 insts 4 vars
+Indset size 3
+Indset size 3
+Using EM with 357 instances and 3 variables ...
+EM Run 0 with 357 insts 3 vars
+EM Run 1 with 357 insts 3 vars
+EM Run 2 with 357 insts 3 vars
+EM Run 3 with 357 insts 3 vars
+EM Run 4 with 357 insts 3 vars
+EM Run 5 with 357 insts 3 vars
+EM Run 6 with 357 insts 3 vars
+EM Run 7 with 357 insts 3 vars
+EM Run 8 with 357 insts 3 vars
+EM Run 9 with 357 insts 3 vars
+Indset size 3
+Indset size 2
+Indset size 3
+Using EM with 179 instances and 3 variables ...
+EM Run 0 with 179 insts 3 vars
+EM Run 1 with 179 insts 3 vars
+EM Run 2 with 179 insts 3 vars
+EM Run 3 with 179 insts 3 vars
+EM Run 4 with 179 insts 3 vars
+EM Run 5 with 179 insts 3 vars
+EM Run 6 with 179 insts 3 vars
+EM Run 7 with 179 insts 3 vars
+EM Run 8 with 179 insts 3 vars
+EM Run 9 with 179 insts 3 vars
+Indset size 2
+Using EM with 3759 instances and 2 variables ...
+EM Run 0 with 3759 insts 2 vars
+EM Run 1 with 3759 insts 2 vars
+EM Run 2 with 3759 insts 2 vars
+EM Run 3 with 3759 insts 2 vars
+EM Run 4 with 3759 insts 2 vars
+EM Run 5 with 3759 insts 2 vars
+EM Run 6 with 3759 insts 2 vars
+EM Run 7 with 3759 insts 2 vars
+EM Run 8 with 3759 insts 2 vars
+EM Run 9 with 3759 insts 2 vars
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 179 instances and 2 variables ...
+EM Run 0 with 179 insts 2 vars
+EM Run 1 with 179 insts 2 vars
+EM Run 2 with 179 insts 2 vars
+EM Run 3 with 179 insts 2 vars
+EM Run 4 with 179 insts 2 vars
+EM Run 5 with 179 insts 2 vars
+EM Run 6 with 179 insts 2 vars
+EM Run 7 with 179 insts 2 vars
+EM Run 8 with 179 insts 2 vars
+EM Run 9 with 179 insts 2 vars
+Indset size 2
+Indset size 2
+Using EM with 1477 instances and 2 variables ...
+EM Run 0 with 1477 insts 2 vars
+EM Run 1 with 1477 insts 2 vars
+EM Run 2 with 1477 insts 2 vars
+EM Run 3 with 1477 insts 2 vars
+EM Run 4 with 1477 insts 2 vars
+EM Run 5 with 1477 insts 2 vars
+EM Run 6 with 1477 insts 2 vars
+EM Run 7 with 1477 insts 2 vars
+EM Run 8 with 1477 insts 2 vars
+EM Run 9 with 1477 insts 2 vars
+Indset size 2
+Using EM with 1808 instances and 2 variables ...
+EM Run 0 with 1808 insts 2 vars
+EM Run 1 with 1808 insts 2 vars
+EM Run 2 with 1808 insts 2 vars
+EM Run 3 with 1808 insts 2 vars
+EM Run 4 with 1808 insts 2 vars
+EM Run 5 with 1808 insts 2 vars
+EM Run 6 with 1808 insts 2 vars
+EM Run 7 with 1808 insts 2 vars
+EM Run 8 with 1808 insts 2 vars
+EM Run 9 with 1808 insts 2 vars
+Indset size 2
+Indset size 2
+Using EM with 2176 instances and 2 variables ...
+EM Run 0 with 2176 insts 2 vars
+EM Run 1 with 2176 insts 2 vars
+EM Run 2 with 2176 insts 2 vars
+EM Run 3 with 2176 insts 2 vars
+EM Run 4 with 2176 insts 2 vars
+EM Run 5 with 2176 insts 2 vars
+EM Run 6 with 2176 insts 2 vars
+EM Run 7 with 2176 insts 2 vars
+EM Run 8 with 2176 insts 2 vars
+EM Run 9 with 2176 insts 2 vars
+Indset size 2
+Indset size 2
+Using EM with 301 instances and 2 variables ...
+EM Run 0 with 301 insts 2 vars
+EM Run 1 with 301 insts 2 vars
+EM Run 2 with 301 insts 2 vars
+EM Run 3 with 301 insts 2 vars
+EM Run 4 with 301 insts 2 vars
+EM Run 5 with 301 insts 2 vars
+EM Run 6 with 301 insts 2 vars
+EM Run 7 with 301 insts 2 vars
+EM Run 8 with 301 insts 2 vars
+EM Run 9 with 301 insts 2 vars
+Indset size 2
+Indset size 2
+Using EM with 1477 instances and 2 variables ...
+EM Run 0 with 1477 insts 2 vars
+EM Run 1 with 1477 insts 2 vars
+EM Run 2 with 1477 insts 2 vars
+EM Run 3 with 1477 insts 2 vars
+EM Run 4 with 1477 insts 2 vars
+EM Run 5 with 1477 insts 2 vars
+EM Run 6 with 1477 insts 2 vars
+EM Run 7 with 1477 insts 2 vars
+EM Run 8 with 1477 insts 2 vars
+EM Run 9 with 1477 insts 2 vars
+Indset size 2
+Indset size 4
+Indset size 2
+Indset size 2
+Using EM with 1808 instances and 2 variables ...
+EM Run 0 with 1808 insts 2 vars
+EM Run 1 with 1808 insts 2 vars
+EM Run 2 with 1808 insts 2 vars
+EM Run 3 with 1808 insts 2 vars
+EM Run 4 with 1808 insts 2 vars
+EM Run 5 with 1808 insts 2 vars
+EM Run 6 with 1808 insts 2 vars
+EM Run 7 with 1808 insts 2 vars
+EM Run 8 with 1808 insts 2 vars
+EM Run 9 with 1808 insts 2 vars
+Indset size 4
+Using EM with 1477 instances and 4 variables ...
+EM Run 0 with 1477 insts 4 vars
+EM Run 1 with 1477 insts 4 vars
+EM Run 2 with 1477 insts 4 vars
+EM Run 3 with 1477 insts 4 vars
+EM Run 4 with 1477 insts 4 vars
+EM Run 5 with 1477 insts 4 vars
+EM Run 6 with 1477 insts 4 vars
+EM Run 7 with 1477 insts 4 vars
+EM Run 8 with 1477 insts 4 vars
+EM Run 9 with 1477 insts 4 vars
+Indset size 2
+Using EM with 127 instances and 2 variables ...
+EM Run 0 with 127 insts 2 vars
+EM Run 1 with 127 insts 2 vars
+EM Run 2 with 127 insts 2 vars
+EM Run 3 with 127 insts 2 vars
+EM Run 4 with 127 insts 2 vars
+EM Run 5 with 127 insts 2 vars
+EM Run 6 with 127 insts 2 vars
+EM Run 7 with 127 insts 2 vars
+EM Run 8 with 127 insts 2 vars
+EM Run 9 with 127 insts 2 vars
+Indset size 2
+Indset size 2
+Using EM with 1477 instances and 2 variables ...
+EM Run 0 with 1477 insts 2 vars
+EM Run 1 with 1477 insts 2 vars
+EM Run 2 with 1477 insts 2 vars
+EM Run 3 with 1477 insts 2 vars
+EM Run 4 with 1477 insts 2 vars
+EM Run 5 with 1477 insts 2 vars
+EM Run 6 with 1477 insts 2 vars
+EM Run 7 with 1477 insts 2 vars
+EM Run 8 with 1477 insts 2 vars
+EM Run 9 with 1477 insts 2 vars
+Indset size 2
+Indset size 2
+Using EM with 1808 instances and 2 variables ...
+EM Run 0 with 1808 insts 2 vars
+EM Run 1 with 1808 insts 2 vars
+EM Run 2 with 1808 insts 2 vars
+EM Run 3 with 1808 insts 2 vars
+EM Run 4 with 1808 insts 2 vars
+EM Run 5 with 1808 insts 2 vars
+EM Run 6 with 1808 insts 2 vars
+EM Run 7 with 1808 insts 2 vars
+EM Run 8 with 1808 insts 2 vars
+EM Run 9 with 1808 insts 2 vars
+Indset size 2
+Indset size 3
+Indset size 2
+Using EM with 1808 instances and 2 variables ...
+EM Run 0 with 1808 insts 2 vars
+EM Run 1 with 1808 insts 2 vars
+EM Run 2 with 1808 insts 2 vars
+EM Run 3 with 1808 insts 2 vars
+EM Run 4 with 1808 insts 2 vars
+EM Run 5 with 1808 insts 2 vars
+EM Run 6 with 1808 insts 2 vars
+EM Run 7 with 1808 insts 2 vars
+EM Run 8 with 1808 insts 2 vars
+EM Run 9 with 1808 insts 2 vars
+Indset size 3
+Using EM with 1477 instances and 3 variables ...
+EM Run 0 with 1477 insts 3 vars
+EM Run 1 with 1477 insts 3 vars
+EM Run 2 with 1477 insts 3 vars
+EM Run 3 with 1477 insts 3 vars
+EM Run 4 with 1477 insts 3 vars
+EM Run 5 with 1477 insts 3 vars
+EM Run 6 with 1477 insts 3 vars
+EM Run 7 with 1477 insts 3 vars
+EM Run 8 with 1477 insts 3 vars
+EM Run 9 with 1477 insts 3 vars
+Indset size 2
+Indset size 2
+Using EM with 1477 instances and 2 variables ...
+EM Run 0 with 1477 insts 2 vars
+EM Run 1 with 1477 insts 2 vars
+EM Run 2 with 1477 insts 2 vars
+EM Run 3 with 1477 insts 2 vars
+EM Run 4 with 1477 insts 2 vars
+EM Run 5 with 1477 insts 2 vars
+EM Run 6 with 1477 insts 2 vars
+EM Run 7 with 1477 insts 2 vars
+EM Run 8 with 1477 insts 2 vars
+EM Run 9 with 1477 insts 2 vars
+Indset size 2
+Indset size 2
+Using EM with 179 instances and 2 variables ...
+EM Run 0 with 179 insts 2 vars
+EM Run 1 with 179 insts 2 vars
+EM Run 2 with 179 insts 2 vars
+EM Run 3 with 179 insts 2 vars
+EM Run 4 with 179 insts 2 vars
+EM Run 5 with 179 insts 2 vars
+EM Run 6 with 179 insts 2 vars
+EM Run 7 with 179 insts 2 vars
+EM Run 8 with 179 insts 2 vars
+EM Run 9 with 179 insts 2 vars
+Indset size 8
+Indset size 4
+Indset size 8
+Using EM with 179 instances and 8 variables ...
+EM Run 0 with 179 insts 8 vars
+EM Run 1 with 179 insts 8 vars
+EM Run 2 with 179 insts 8 vars
+EM Run 3 with 179 insts 8 vars
+EM Run 4 with 179 insts 8 vars
+EM Run 5 with 179 insts 8 vars
+EM Run 6 with 179 insts 8 vars
+EM Run 7 with 179 insts 8 vars
+EM Run 8 with 179 insts 8 vars
+EM Run 9 with 179 insts 8 vars
+Indset size 4
+Using EM with 357 instances and 4 variables ...
+EM Run 0 with 357 insts 4 vars
+EM Run 1 with 357 insts 4 vars
+EM Run 2 with 357 insts 4 vars
+EM Run 3 with 357 insts 4 vars
+EM Run 4 with 357 insts 4 vars
+EM Run 5 with 357 insts 4 vars
+EM Run 6 with 357 insts 4 vars
+EM Run 7 with 357 insts 4 vars
+EM Run 8 with 357 insts 4 vars
+EM Run 9 with 357 insts 4 vars
+Indset size 2
+Indset size 3
+Indset size 2
+Using EM with 1477 instances and 2 variables ...
+EM Run 0 with 1477 insts 2 vars
+EM Run 1 with 1477 insts 2 vars
+EM Run 2 with 1477 insts 2 vars
+EM Run 3 with 1477 insts 2 vars
+EM Run 4 with 1477 insts 2 vars
+EM Run 5 with 1477 insts 2 vars
+EM Run 6 with 1477 insts 2 vars
+EM Run 7 with 1477 insts 2 vars
+EM Run 8 with 1477 insts 2 vars
+EM Run 9 with 1477 insts 2 vars
+Indset size 3
+Using EM with 529 instances and 3 variables ...
+EM Run 0 with 529 insts 3 vars
+EM Run 1 with 529 insts 3 vars
+EM Run 2 with 529 insts 3 vars
+EM Run 3 with 529 insts 3 vars
+EM Run 4 with 529 insts 3 vars
+EM Run 5 with 529 insts 3 vars
+EM Run 6 with 529 insts 3 vars
+EM Run 7 with 529 insts 3 vars
+EM Run 8 with 529 insts 3 vars
+EM Run 9 with 529 insts 3 vars
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 1477 instances and 2 variables ...
+EM Run 0 with 1477 insts 2 vars
+EM Run 1 with 1477 insts 2 vars
+EM Run 2 with 1477 insts 2 vars
+EM Run 3 with 1477 insts 2 vars
+EM Run 4 with 1477 insts 2 vars
+EM Run 5 with 1477 insts 2 vars
+EM Run 6 with 1477 insts 2 vars
+EM Run 7 with 1477 insts 2 vars
+EM Run 8 with 1477 insts 2 vars
+EM Run 9 with 1477 insts 2 vars
+Indset size 2
+Using EM with 529 instances and 2 variables ...
+EM Run 0 with 529 insts 2 vars
+EM Run 1 with 529 insts 2 vars
+EM Run 2 with 529 insts 2 vars
+EM Run 3 with 529 insts 2 vars
+EM Run 4 with 529 insts 2 vars
+EM Run 5 with 529 insts 2 vars
+EM Run 6 with 529 insts 2 vars
+EM Run 7 with 529 insts 2 vars
+EM Run 8 with 529 insts 2 vars
+EM Run 9 with 529 insts 2 vars
+Indset size 2
+Indset size 2
+Using EM with 127 instances and 2 variables ...
+EM Run 0 with 127 insts 2 vars
+EM Run 1 with 127 insts 2 vars
+EM Run 2 with 127 insts 2 vars
+EM Run 3 with 127 insts 2 vars
+EM Run 4 with 127 insts 2 vars
+EM Run 5 with 127 insts 2 vars
+EM Run 6 with 127 insts 2 vars
+EM Run 7 with 127 insts 2 vars
+EM Run 8 with 127 insts 2 vars
+EM Run 9 with 127 insts 2 vars
+Indset size 2
+Indset size 2
+Using EM with 1808 instances and 2 variables ...
+EM Run 0 with 1808 insts 2 vars
+EM Run 1 with 1808 insts 2 vars
+EM Run 2 with 1808 insts 2 vars
+EM Run 3 with 1808 insts 2 vars
+EM Run 4 with 1808 insts 2 vars
+EM Run 5 with 1808 insts 2 vars
+EM Run 6 with 1808 insts 2 vars
+EM Run 7 with 1808 insts 2 vars
+EM Run 8 with 1808 insts 2 vars
+EM Run 9 with 1808 insts 2 vars
+Indset size 4
+Indset size 4
+Using EM with 529 instances and 4 variables ...
+EM Run 0 with 529 insts 4 vars
+EM Run 1 with 529 insts 4 vars
+EM Run 2 with 529 insts 4 vars
+EM Run 3 with 529 insts 4 vars
+EM Run 4 with 529 insts 4 vars
+EM Run 5 with 529 insts 4 vars
+EM Run 6 with 529 insts 4 vars
+EM Run 7 with 529 insts 4 vars
+EM Run 8 with 529 insts 4 vars
+EM Run 9 with 529 insts 4 vars
+Indset size 2
+Indset size 2
+Using EM with 127 instances and 2 variables ...
+EM Run 0 with 127 insts 2 vars
+EM Run 1 with 127 insts 2 vars
+EM Run 2 with 127 insts 2 vars
+EM Run 3 with 127 insts 2 vars
+EM Run 4 with 127 insts 2 vars
+EM Run 5 with 127 insts 2 vars
+EM Run 6 with 127 insts 2 vars
+EM Run 7 with 127 insts 2 vars
+EM Run 8 with 127 insts 2 vars
+EM Run 9 with 127 insts 2 vars
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 3759 instances and 2 variables ...
+EM Run 0 with 3759 insts 2 vars
+EM Run 1 with 3759 insts 2 vars
+EM Run 2 with 3759 insts 2 vars
+EM Run 3 with 3759 insts 2 vars
+EM Run 4 with 3759 insts 2 vars
+EM Run 5 with 3759 insts 2 vars
+EM Run 6 with 3759 insts 2 vars
+EM Run 7 with 3759 insts 2 vars
+EM Run 8 with 3759 insts 2 vars
+EM Run 9 with 3759 insts 2 vars
+Indset size 2
+Using EM with 179 instances and 2 variables ...
+EM Run 0 with 179 insts 2 vars
+EM Run 1 with 179 insts 2 vars
+EM Run 2 with 179 insts 2 vars
+EM Run 3 with 179 insts 2 vars
+EM Run 4 with 179 insts 2 vars
+EM Run 5 with 179 insts 2 vars
+EM Run 6 with 179 insts 2 vars
+EM Run 7 with 179 insts 2 vars
+EM Run 8 with 179 insts 2 vars
+EM Run 9 with 179 insts 2 vars
+Indset size 2
+Indset size 2
+Using EM with 529 instances and 2 variables ...
+EM Run 0 with 529 insts 2 vars
+EM Run 1 with 529 insts 2 vars
+EM Run 2 with 529 insts 2 vars
+EM Run 3 with 529 insts 2 vars
+EM Run 4 with 529 insts 2 vars
+EM Run 5 with 529 insts 2 vars
+EM Run 6 with 529 insts 2 vars
+EM Run 7 with 529 insts 2 vars
+EM Run 8 with 529 insts 2 vars
+EM Run 9 with 529 insts 2 vars
+Indset size 4
+Indset size 2
+Indset size 2
+Indset size 4
+Using EM with 357 instances and 4 variables ...
+EM Run 0 with 357 insts 4 vars
+EM Run 1 with 357 insts 4 vars
+EM Run 2 with 357 insts 4 vars
+EM Run 3 with 357 insts 4 vars
+EM Run 4 with 357 insts 4 vars
+EM Run 5 with 357 insts 4 vars
+EM Run 6 with 357 insts 4 vars
+EM Run 7 with 357 insts 4 vars
+EM Run 8 with 357 insts 4 vars
+EM Run 9 with 357 insts 4 vars
+Indset size 2
+Using EM with 127 instances and 2 variables ...
+EM Run 0 with 127 insts 2 vars
+EM Run 1 with 127 insts 2 vars
+EM Run 2 with 127 insts 2 vars
+EM Run 3 with 127 insts 2 vars
+EM Run 4 with 127 insts 2 vars
+EM Run 5 with 127 insts 2 vars
+EM Run 6 with 127 insts 2 vars
+EM Run 7 with 127 insts 2 vars
+EM Run 8 with 127 insts 2 vars
+EM Run 9 with 127 insts 2 vars
+Indset size 2
+Indset size 2
+Using EM with 1808 instances and 2 variables ...
+EM Run 0 with 1808 insts 2 vars
+EM Run 1 with 1808 insts 2 vars
+EM Run 2 with 1808 insts 2 vars
+EM Run 3 with 1808 insts 2 vars
+EM Run 4 with 1808 insts 2 vars
+EM Run 5 with 1808 insts 2 vars
+EM Run 6 with 1808 insts 2 vars
+EM Run 7 with 1808 insts 2 vars
+EM Run 8 with 1808 insts 2 vars
+EM Run 9 with 1808 insts 2 vars
+Indset size 2
+Indset size 2
+Using EM with 127 instances and 2 variables ...
+EM Run 0 with 127 insts 2 vars
+EM Run 1 with 127 insts 2 vars
+EM Run 2 with 127 insts 2 vars
+EM Run 3 with 127 insts 2 vars
+EM Run 4 with 127 insts 2 vars
+EM Run 5 with 127 insts 2 vars
+EM Run 6 with 127 insts 2 vars
+EM Run 7 with 127 insts 2 vars
+EM Run 8 with 127 insts 2 vars
+EM Run 9 with 127 insts 2 vars
+Indset size 2
+Using EM with 179 instances and 2 variables ...
+EM Run 0 with 179 insts 2 vars
+EM Run 1 with 179 insts 2 vars
+EM Run 2 with 179 insts 2 vars
+EM Run 3 with 179 insts 2 vars
+EM Run 4 with 179 insts 2 vars
+EM Run 5 with 179 insts 2 vars
+EM Run 6 with 179 insts 2 vars
+EM Run 7 with 179 insts 2 vars
+EM Run 8 with 179 insts 2 vars
+EM Run 9 with 179 insts 2 vars
+Indset size 2
+Indset size 4
+Indset size 2
+Using EM with 1477 instances and 2 variables ...
+EM Run 0 with 1477 insts 2 vars
+EM Run 1 with 1477 insts 2 vars
+EM Run 2 with 1477 insts 2 vars
+EM Run 3 with 1477 insts 2 vars
+EM Run 4 with 1477 insts 2 vars
+EM Run 5 with 1477 insts 2 vars
+EM Run 6 with 1477 insts 2 vars
+EM Run 7 with 1477 insts 2 vars
+EM Run 8 with 1477 insts 2 vars
+EM Run 9 with 1477 insts 2 vars
+Indset size 4
+Using EM with 529 instances and 4 variables ...
+EM Run 0 with 529 insts 4 vars
+EM Run 1 with 529 insts 4 vars
+EM Run 2 with 529 insts 4 vars
+EM Run 3 with 529 insts 4 vars
+EM Run 4 with 529 insts 4 vars
+EM Run 5 with 529 insts 4 vars
+EM Run 6 with 529 insts 4 vars
+EM Run 7 with 529 insts 4 vars
+EM Run 8 with 529 insts 4 vars
+EM Run 9 with 529 insts 4 vars
+Indset size 2
+Indset size 2
+Using EM with 179 instances and 2 variables ...
+EM Run 0 with 179 insts 2 vars
+EM Run 1 with 179 insts 2 vars
+EM Run 2 with 179 insts 2 vars
+EM Run 3 with 179 insts 2 vars
+EM Run 4 with 179 insts 2 vars
+EM Run 5 with 179 insts 2 vars
+EM Run 6 with 179 insts 2 vars
+EM Run 7 with 179 insts 2 vars
+EM Run 8 with 179 insts 2 vars
+EM Run 9 with 179 insts 2 vars
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 127 instances and 2 variables ...
+EM Run 0 with 127 insts 2 vars
+EM Run 1 with 127 insts 2 vars
+EM Run 2 with 127 insts 2 vars
+EM Run 3 with 127 insts 2 vars
+EM Run 4 with 127 insts 2 vars
+EM Run 5 with 127 insts 2 vars
+EM Run 6 with 127 insts 2 vars
+EM Run 7 with 127 insts 2 vars
+EM Run 8 with 127 insts 2 vars
+EM Run 9 with 127 insts 2 vars
+Indset size 2
+Using EM with 1477 instances and 2 variables ...
+EM Run 0 with 1477 insts 2 vars
+EM Run 1 with 1477 insts 2 vars
+EM Run 2 with 1477 insts 2 vars
+EM Run 3 with 1477 insts 2 vars
+EM Run 4 with 1477 insts 2 vars
+EM Run 5 with 1477 insts 2 vars
+EM Run 6 with 1477 insts 2 vars
+EM Run 7 with 1477 insts 2 vars
+EM Run 8 with 1477 insts 2 vars
+EM Run 9 with 1477 insts 2 vars
+Indset size 2
+Indset size 2
+Using EM with 1477 instances and 2 variables ...
+EM Run 0 with 1477 insts 2 vars
+EM Run 1 with 1477 insts 2 vars
+EM Run 2 with 1477 insts 2 vars
+EM Run 3 with 1477 insts 2 vars
+EM Run 4 with 1477 insts 2 vars
+EM Run 5 with 1477 insts 2 vars
+EM Run 6 with 1477 insts 2 vars
+EM Run 7 with 1477 insts 2 vars
+EM Run 8 with 1477 insts 2 vars
+EM Run 9 with 1477 insts 2 vars
+Indset size 3
+Indset size 3
+Using EM with 127 instances and 3 variables ...
+EM Run 0 with 127 insts 3 vars
+EM Run 1 with 127 insts 3 vars
+EM Run 2 with 127 insts 3 vars
+EM Run 3 with 127 insts 3 vars
+EM Run 4 with 127 insts 3 vars
+EM Run 5 with 127 insts 3 vars
+EM Run 6 with 127 insts 3 vars
+EM Run 7 with 127 insts 3 vars
+EM Run 8 with 127 insts 3 vars
+EM Run 9 with 127 insts 3 vars
+Indset size 2
+Indset size 2
+Using EM with 127 instances and 2 variables ...
+EM Run 0 with 127 insts 2 vars
+EM Run 1 with 127 insts 2 vars
+EM Run 2 with 127 insts 2 vars
+EM Run 3 with 127 insts 2 vars
+EM Run 4 with 127 insts 2 vars
+EM Run 5 with 127 insts 2 vars
+EM Run 6 with 127 insts 2 vars
+EM Run 7 with 127 insts 2 vars
+EM Run 8 with 127 insts 2 vars
+EM Run 9 with 127 insts 2 vars
+Indset size 2
+Indset size 2
+Using EM with 1477 instances and 2 variables ...
+EM Run 0 with 1477 insts 2 vars
+EM Run 1 with 1477 insts 2 vars
+EM Run 2 with 1477 insts 2 vars
+EM Run 3 with 1477 insts 2 vars
+EM Run 4 with 1477 insts 2 vars
+EM Run 5 with 1477 insts 2 vars
+EM Run 6 with 1477 insts 2 vars
+EM Run 7 with 1477 insts 2 vars
+EM Run 8 with 1477 insts 2 vars
+EM Run 9 with 1477 insts 2 vars
+Indset size 2
+Indset size 2
+Using EM with 87 instances and 2 variables ...
+EM Run 0 with 87 insts 2 vars
+EM Run 1 with 87 insts 2 vars
+EM Run 2 with 87 insts 2 vars
+EM Run 3 with 87 insts 2 vars
+EM Run 4 with 87 insts 2 vars
+EM Run 5 with 87 insts 2 vars
+EM Run 6 with 87 insts 2 vars
+EM Run 7 with 87 insts 2 vars
+EM Run 8 with 87 insts 2 vars
+EM Run 9 with 87 insts 2 vars
+Indset size 2
+Indset size 2
+Using EM with 1477 instances and 2 variables ...
+EM Run 0 with 1477 insts 2 vars
+EM Run 1 with 1477 insts 2 vars
+EM Run 2 with 1477 insts 2 vars
+EM Run 3 with 1477 insts 2 vars
+EM Run 4 with 1477 insts 2 vars
+EM Run 5 with 1477 insts 2 vars
+EM Run 6 with 1477 insts 2 vars
+EM Run 7 with 1477 insts 2 vars
+EM Run 8 with 1477 insts 2 vars
+EM Run 9 with 1477 insts 2 vars
+Indset size 2
+Indset size 2
+Using EM with 127 instances and 2 variables ...
+EM Run 0 with 127 insts 2 vars
+EM Run 1 with 127 insts 2 vars
+EM Run 2 with 127 insts 2 vars
+EM Run 3 with 127 insts 2 vars
+EM Run 4 with 127 insts 2 vars
+EM Run 5 with 127 insts 2 vars
+EM Run 6 with 127 insts 2 vars
+EM Run 7 with 127 insts 2 vars
+EM Run 8 with 127 insts 2 vars
+EM Run 9 with 127 insts 2 vars
+Indset size 2
+Indset size 2
+Using EM with 127 instances and 2 variables ...
+EM Run 0 with 127 insts 2 vars
+EM Run 1 with 127 insts 2 vars
+EM Run 2 with 127 insts 2 vars
+EM Run 3 with 127 insts 2 vars
+EM Run 4 with 127 insts 2 vars
+EM Run 5 with 127 insts 2 vars
+EM Run 6 with 127 insts 2 vars
+EM Run 7 with 127 insts 2 vars
+EM Run 8 with 127 insts 2 vars
+EM Run 9 with 127 insts 2 vars
+Indset size 5
+Indset size 5
+Using EM with 529 instances and 5 variables ...
+EM Run 0 with 529 insts 5 vars
+EM Run 1 with 529 insts 5 vars
+EM Run 2 with 529 insts 5 vars
+EM Run 3 with 529 insts 5 vars
+EM Run 4 with 529 insts 5 vars
+EM Run 5 with 529 insts 5 vars
+EM Run 6 with 529 insts 5 vars
+EM Run 7 with 529 insts 5 vars
+EM Run 8 with 529 insts 5 vars
+EM Run 9 with 529 insts 5 vars
+Indset size 2
+Indset size 2
+Using EM with 127 instances and 2 variables ...
+EM Run 0 with 127 insts 2 vars
+EM Run 1 with 127 insts 2 vars
+EM Run 2 with 127 insts 2 vars
+EM Run 3 with 127 insts 2 vars
+EM Run 4 with 127 insts 2 vars
+EM Run 5 with 127 insts 2 vars
+EM Run 6 with 127 insts 2 vars
+EM Run 7 with 127 insts 2 vars
+EM Run 8 with 127 insts 2 vars
+EM Run 9 with 127 insts 2 vars
+Indset size 3
+Indset size 3
+Indset size 3
+Using EM with 1477 instances and 3 variables ...
+EM Run 0 with 1477 insts 3 vars
+EM Run 1 with 1477 insts 3 vars
+EM Run 2 with 1477 insts 3 vars
+EM Run 3 with 1477 insts 3 vars
+EM Run 4 with 1477 insts 3 vars
+EM Run 5 with 1477 insts 3 vars
+EM Run 6 with 1477 insts 3 vars
+EM Run 7 with 1477 insts 3 vars
+EM Run 8 with 1477 insts 3 vars
+EM Run 9 with 1477 insts 3 vars
+Indset size 3
+Using EM with 127 instances and 3 variables ...
+EM Run 0 with 127 insts 3 vars
+EM Run 1 with 127 insts 3 vars
+EM Run 2 with 127 insts 3 vars
+EM Run 3 with 127 insts 3 vars
+EM Run 4 with 127 insts 3 vars
+EM Run 5 with 127 insts 3 vars
+EM Run 6 with 127 insts 3 vars
+EM Run 7 with 127 insts 3 vars
+EM Run 8 with 127 insts 3 vars
+EM Run 9 with 127 insts 3 vars
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 1477 instances and 2 variables ...
+EM Run 0 with 1477 insts 2 vars
+EM Run 1 with 1477 insts 2 vars
+EM Run 2 with 1477 insts 2 vars
+EM Run 3 with 1477 insts 2 vars
+EM Run 4 with 1477 insts 2 vars
+EM Run 5 with 1477 insts 2 vars
+EM Run 6 with 1477 insts 2 vars
+EM Run 7 with 1477 insts 2 vars
+EM Run 8 with 1477 insts 2 vars
+EM Run 9 with 1477 insts 2 vars
+Indset size 3
+Indset size 2
+Using EM with 87 instances and 2 variables ...
+EM Run 0 with 87 insts 2 vars
+EM Run 1 with 87 insts 2 vars
+EM Run 2 with 87 insts 2 vars
+EM Run 3 with 87 insts 2 vars
+EM Run 4 with 87 insts 2 vars
+EM Run 5 with 87 insts 2 vars
+EM Run 6 with 87 insts 2 vars
+EM Run 7 with 87 insts 2 vars
+EM Run 8 with 87 insts 2 vars
+EM Run 9 with 87 insts 2 vars
+Indset size 3
+Using EM with 1477 instances and 3 variables ...
+EM Run 0 with 1477 insts 3 vars
+EM Run 1 with 1477 insts 3 vars
+EM Run 2 with 1477 insts 3 vars
+EM Run 3 with 1477 insts 3 vars
+EM Run 4 with 1477 insts 3 vars
+EM Run 5 with 1477 insts 3 vars
+EM Run 6 with 1477 insts 3 vars
+EM Run 7 with 1477 insts 3 vars
+EM Run 8 with 1477 insts 3 vars
+EM Run 9 with 1477 insts 3 vars
+Indset size 3
+Indset size 3
+Using EM with 179 instances and 3 variables ...
+EM Run 0 with 179 insts 3 vars
+EM Run 1 with 179 insts 3 vars
+EM Run 2 with 179 insts 3 vars
+EM Run 3 with 179 insts 3 vars
+EM Run 4 with 179 insts 3 vars
+EM Run 5 with 179 insts 3 vars
+EM Run 6 with 179 insts 3 vars
+EM Run 7 with 179 insts 3 vars
+EM Run 8 with 179 insts 3 vars
+EM Run 9 with 179 insts 3 vars
+Indset size 2
+Indset size 2
+Using EM with 529 instances and 2 variables ...
+EM Run 0 with 529 insts 2 vars
+EM Run 1 with 529 insts 2 vars
+EM Run 2 with 529 insts 2 vars
+EM Run 3 with 529 insts 2 vars
+EM Run 4 with 529 insts 2 vars
+EM Run 5 with 529 insts 2 vars
+EM Run 6 with 529 insts 2 vars
+EM Run 7 with 529 insts 2 vars
+EM Run 8 with 529 insts 2 vars
+EM Run 9 with 529 insts 2 vars
+Indset size 2
+Indset size 2
+Using EM with 179 instances and 2 variables ...
+EM Run 0 with 179 insts 2 vars
+EM Run 1 with 179 insts 2 vars
+EM Run 2 with 179 insts 2 vars
+EM Run 3 with 179 insts 2 vars
+EM Run 4 with 179 insts 2 vars
+EM Run 5 with 179 insts 2 vars
+EM Run 6 with 179 insts 2 vars
+EM Run 7 with 179 insts 2 vars
+EM Run 8 with 179 insts 2 vars
+EM Run 9 with 179 insts 2 vars
+Indset size 3
+Indset size 3
+Using EM with 127 instances and 3 variables ...
+EM Run 0 with 127 insts 3 vars
+EM Run 1 with 127 insts 3 vars
+EM Run 2 with 127 insts 3 vars
+EM Run 3 with 127 insts 3 vars
+EM Run 4 with 127 insts 3 vars
+EM Run 5 with 127 insts 3 vars
+EM Run 6 with 127 insts 3 vars
+EM Run 7 with 127 insts 3 vars
+EM Run 8 with 127 insts 3 vars
+EM Run 9 with 127 insts 3 vars
+Indset size 2
+Indset size 2
+Using EM with 1477 instances and 2 variables ...
+EM Run 0 with 1477 insts 2 vars
+EM Run 1 with 1477 insts 2 vars
+EM Run 2 with 1477 insts 2 vars
+EM Run 3 with 1477 insts 2 vars
+EM Run 4 with 1477 insts 2 vars
+EM Run 5 with 1477 insts 2 vars
+EM Run 6 with 1477 insts 2 vars
+EM Run 7 with 1477 insts 2 vars
+EM Run 8 with 1477 insts 2 vars
+EM Run 9 with 1477 insts 2 vars
+Indset size 2
+Indset size 2
+Using EM with 87 instances and 2 variables ...
+EM Run 0 with 87 insts 2 vars
+EM Run 1 with 87 insts 2 vars
+EM Run 2 with 87 insts 2 vars
+EM Run 3 with 87 insts 2 vars
+EM Run 4 with 87 insts 2 vars
+EM Run 5 with 87 insts 2 vars
+EM Run 6 with 87 insts 2 vars
+EM Run 7 with 87 insts 2 vars
+EM Run 8 with 87 insts 2 vars
+EM Run 9 with 87 insts 2 vars
+Indset size 2
+Indset size 2
+Using EM with 1477 instances and 2 variables ...
+EM Run 0 with 1477 insts 2 vars
+EM Run 1 with 1477 insts 2 vars
+EM Run 2 with 1477 insts 2 vars
+EM Run 3 with 1477 insts 2 vars
+EM Run 4 with 1477 insts 2 vars
+EM Run 5 with 1477 insts 2 vars
+EM Run 6 with 1477 insts 2 vars
+EM Run 7 with 1477 insts 2 vars
+EM Run 8 with 1477 insts 2 vars
+EM Run 9 with 1477 insts 2 vars
+Indset size 2
+Indset size 2
+Using EM with 1477 instances and 2 variables ...
+EM Run 0 with 1477 insts 2 vars
+EM Run 1 with 1477 insts 2 vars
+EM Run 2 with 1477 insts 2 vars
+EM Run 3 with 1477 insts 2 vars
+EM Run 4 with 1477 insts 2 vars
+EM Run 5 with 1477 insts 2 vars
+EM Run 6 with 1477 insts 2 vars
+EM Run 7 with 1477 insts 2 vars
+EM Run 8 with 1477 insts 2 vars
+EM Run 9 with 1477 insts 2 vars
+Indset size 3
+Indset size 3
+Using EM with 127 instances and 3 variables ...
+EM Run 0 with 127 insts 3 vars
+EM Run 1 with 127 insts 3 vars
+EM Run 2 with 127 insts 3 vars
+EM Run 3 with 127 insts 3 vars
+EM Run 4 with 127 insts 3 vars
+EM Run 5 with 127 insts 3 vars
+EM Run 6 with 127 insts 3 vars
+EM Run 7 with 127 insts 3 vars
+EM Run 8 with 127 insts 3 vars
+EM Run 9 with 127 insts 3 vars
+Indset size 2
+Indset size 2
+Using EM with 529 instances and 2 variables ...
+EM Run 0 with 529 insts 2 vars
+EM Run 1 with 529 insts 2 vars
+EM Run 2 with 529 insts 2 vars
+EM Run 3 with 529 insts 2 vars
+EM Run 4 with 529 insts 2 vars
+EM Run 5 with 529 insts 2 vars
+EM Run 6 with 529 insts 2 vars
+EM Run 7 with 529 insts 2 vars
+EM Run 8 with 529 insts 2 vars
+EM Run 9 with 529 insts 2 vars
+Indset size 2
+Indset size 2
+Using EM with 25 instances and 2 variables ...
+EM Run 0 with 25 insts 2 vars
+EM Run 1 with 25 insts 2 vars
+EM Run 2 with 25 insts 2 vars
+EM Run 3 with 25 insts 2 vars
+EM Run 4 with 25 insts 2 vars
+EM Run 5 with 25 insts 2 vars
+EM Run 6 with 25 insts 2 vars
+EM Run 7 with 25 insts 2 vars
+EM Run 8 with 25 insts 2 vars
+EM Run 9 with 25 insts 2 vars
+Indset size 2
+Indset size 2
+Using EM with 1477 instances and 2 variables ...
+EM Run 0 with 1477 insts 2 vars
+EM Run 1 with 1477 insts 2 vars
+EM Run 2 with 1477 insts 2 vars
+EM Run 3 with 1477 insts 2 vars
+EM Run 4 with 1477 insts 2 vars
+EM Run 5 with 1477 insts 2 vars
+EM Run 6 with 1477 insts 2 vars
+EM Run 7 with 1477 insts 2 vars
+EM Run 8 with 1477 insts 2 vars
+EM Run 9 with 1477 insts 2 vars
+Indset size 2
+Indset size 2
+Using EM with 529 instances and 2 variables ...
+EM Run 0 with 529 insts 2 vars
+EM Run 1 with 529 insts 2 vars
+EM Run 2 with 529 insts 2 vars
+EM Run 3 with 529 insts 2 vars
+EM Run 4 with 529 insts 2 vars
+EM Run 5 with 529 insts 2 vars
+EM Run 6 with 529 insts 2 vars
+EM Run 7 with 529 insts 2 vars
+EM Run 8 with 529 insts 2 vars
+EM Run 9 with 529 insts 2 vars
+Indset size 2
+Indset size 2
+Using EM with 127 instances and 2 variables ...
+EM Run 0 with 127 insts 2 vars
+EM Run 1 with 127 insts 2 vars
+EM Run 2 with 127 insts 2 vars
+EM Run 3 with 127 insts 2 vars
+EM Run 4 with 127 insts 2 vars
+EM Run 5 with 127 insts 2 vars
+EM Run 6 with 127 insts 2 vars
+EM Run 7 with 127 insts 2 vars
+EM Run 8 with 127 insts 2 vars
+EM Run 9 with 127 insts 2 vars
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 529 instances and 2 variables ...
+EM Run 0 with 529 insts 2 vars
+EM Run 1 with 529 insts 2 vars
+EM Run 2 with 529 insts 2 vars
+EM Run 3 with 529 insts 2 vars
+EM Run 4 with 529 insts 2 vars
+EM Run 5 with 529 insts 2 vars
+EM Run 6 with 529 insts 2 vars
+EM Run 7 with 529 insts 2 vars
+EM Run 8 with 529 insts 2 vars
+EM Run 9 with 529 insts 2 vars
+Indset size 2
+Using EM with 1477 instances and 2 variables ...
+EM Run 0 with 1477 insts 2 vars
+EM Run 1 with 1477 insts 2 vars
+EM Run 2 with 1477 insts 2 vars
+EM Run 3 with 1477 insts 2 vars
+EM Run 4 with 1477 insts 2 vars
+EM Run 5 with 1477 insts 2 vars
+EM Run 6 with 1477 insts 2 vars
+EM Run 7 with 1477 insts 2 vars
+EM Run 8 with 1477 insts 2 vars
+EM Run 9 with 1477 insts 2 vars
+Indset size 2
+Indset size 2
+Using EM with 127 instances and 2 variables ...
+EM Run 0 with 127 insts 2 vars
+EM Run 1 with 127 insts 2 vars
+EM Run 2 with 127 insts 2 vars
+EM Run 3 with 127 insts 2 vars
+EM Run 4 with 127 insts 2 vars
+EM Run 5 with 127 insts 2 vars
+EM Run 6 with 127 insts 2 vars
+EM Run 7 with 127 insts 2 vars
+EM Run 8 with 127 insts 2 vars
+EM Run 9 with 127 insts 2 vars
+Indset size 2
+Indset size 2
+Using EM with 127 instances and 2 variables ...
+EM Run 0 with 127 insts 2 vars
+EM Run 1 with 127 insts 2 vars
+EM Run 2 with 127 insts 2 vars
+EM Run 3 with 127 insts 2 vars
+EM Run 4 with 127 insts 2 vars
+EM Run 5 with 127 insts 2 vars
+EM Run 6 with 127 insts 2 vars
+EM Run 7 with 127 insts 2 vars
+EM Run 8 with 127 insts 2 vars
+EM Run 9 with 127 insts 2 vars
+Indset size 2
+Indset size 2
+Using EM with 127 instances and 2 variables ...
+EM Run 0 with 127 insts 2 vars
+EM Run 1 with 127 insts 2 vars
+EM Run 2 with 127 insts 2 vars
+EM Run 3 with 127 insts 2 vars
+EM Run 4 with 127 insts 2 vars
+EM Run 5 with 127 insts 2 vars
+EM Run 6 with 127 insts 2 vars
+EM Run 7 with 127 insts 2 vars
+EM Run 8 with 127 insts 2 vars
+EM Run 9 with 127 insts 2 vars
+Indset size 2
+Indset size 2
+Using EM with 529 instances and 2 variables ...
+EM Run 0 with 529 insts 2 vars
+EM Run 1 with 529 insts 2 vars
+EM Run 2 with 529 insts 2 vars
+EM Run 3 with 529 insts 2 vars
+EM Run 4 with 529 insts 2 vars
+EM Run 5 with 529 insts 2 vars
+EM Run 6 with 529 insts 2 vars
+EM Run 7 with 529 insts 2 vars
+EM Run 8 with 529 insts 2 vars
+EM Run 9 with 529 insts 2 vars
+Indset size 2
+Indset size 2
+Using EM with 127 instances and 2 variables ...
+EM Run 0 with 127 insts 2 vars
+EM Run 1 with 127 insts 2 vars
+EM Run 2 with 127 insts 2 vars
+EM Run 3 with 127 insts 2 vars
+EM Run 4 with 127 insts 2 vars
+EM Run 5 with 127 insts 2 vars
+EM Run 6 with 127 insts 2 vars
+EM Run 7 with 127 insts 2 vars
+EM Run 8 with 127 insts 2 vars
+EM Run 9 with 127 insts 2 vars
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 529 instances and 2 variables ...
+EM Run 0 with 529 insts 2 vars
+EM Run 1 with 529 insts 2 vars
+EM Run 2 with 529 insts 2 vars
+EM Run 3 with 529 insts 2 vars
+EM Run 4 with 529 insts 2 vars
+EM Run 5 with 529 insts 2 vars
+EM Run 6 with 529 insts 2 vars
+EM Run 7 with 529 insts 2 vars
+EM Run 8 with 529 insts 2 vars
+EM Run 9 with 529 insts 2 vars
+Indset size 2
+Using EM with 127 instances and 2 variables ...
+EM Run 0 with 127 insts 2 vars
+EM Run 1 with 127 insts 2 vars
+EM Run 2 with 127 insts 2 vars
+EM Run 3 with 127 insts 2 vars
+EM Run 4 with 127 insts 2 vars
+EM Run 5 with 127 insts 2 vars
+EM Run 6 with 127 insts 2 vars
+EM Run 7 with 127 insts 2 vars
+EM Run 8 with 127 insts 2 vars
+EM Run 9 with 127 insts 2 vars
+Indset size 2
+Indset size 2
+Using EM with 179 instances and 2 variables ...
+EM Run 0 with 179 insts 2 vars
+EM Run 1 with 179 insts 2 vars
+EM Run 2 with 179 insts 2 vars
+EM Run 3 with 179 insts 2 vars
+EM Run 4 with 179 insts 2 vars
+EM Run 5 with 179 insts 2 vars
+EM Run 6 with 179 insts 2 vars
+EM Run 7 with 179 insts 2 vars
+EM Run 8 with 179 insts 2 vars
+EM Run 9 with 179 insts 2 vars
+Indset size 2
+Indset size 2
+Using EM with 127 instances and 2 variables ...
+EM Run 0 with 127 insts 2 vars
+EM Run 1 with 127 insts 2 vars
+EM Run 2 with 127 insts 2 vars
+EM Run 3 with 127 insts 2 vars
+EM Run 4 with 127 insts 2 vars
+EM Run 5 with 127 insts 2 vars
+EM Run 6 with 127 insts 2 vars
+EM Run 7 with 127 insts 2 vars
+EM Run 8 with 127 insts 2 vars
+EM Run 9 with 127 insts 2 vars
+Indset size 3
+Indset size 3
+Using EM with 179 instances and 3 variables ...
+EM Run 0 with 179 insts 3 vars
+EM Run 1 with 179 insts 3 vars
+EM Run 2 with 179 insts 3 vars
+EM Run 3 with 179 insts 3 vars
+EM Run 4 with 179 insts 3 vars
+EM Run 5 with 179 insts 3 vars
+EM Run 6 with 179 insts 3 vars
+EM Run 7 with 179 insts 3 vars
+EM Run 8 with 179 insts 3 vars
+EM Run 9 with 179 insts 3 vars
+Indset size 2
+Indset size 2
+Using EM with 179 instances and 2 variables ...
+EM Run 0 with 179 insts 2 vars
+EM Run 1 with 179 insts 2 vars
+EM Run 2 with 179 insts 2 vars
+EM Run 3 with 179 insts 2 vars
+EM Run 4 with 179 insts 2 vars
+EM Run 5 with 179 insts 2 vars
+EM Run 6 with 179 insts 2 vars
+EM Run 7 with 179 insts 2 vars
+EM Run 8 with 179 insts 2 vars
+EM Run 9 with 179 insts 2 vars
+Indset size 3
+Indset size 3
+Using EM with 179 instances and 3 variables ...
+EM Run 0 with 179 insts 3 vars
+EM Run 1 with 179 insts 3 vars
+EM Run 2 with 179 insts 3 vars
+EM Run 3 with 179 insts 3 vars
+EM Run 4 with 179 insts 3 vars
+EM Run 5 with 179 insts 3 vars
+EM Run 6 with 179 insts 3 vars
+EM Run 7 with 179 insts 3 vars
+EM Run 8 with 179 insts 3 vars
+EM Run 9 with 179 insts 3 vars
+Indset size 2
+Indset size 2
+Using EM with 127 instances and 2 variables ...
+EM Run 0 with 127 insts 2 vars
+EM Run 1 with 127 insts 2 vars
+EM Run 2 with 127 insts 2 vars
+EM Run 3 with 127 insts 2 vars
+EM Run 4 with 127 insts 2 vars
+EM Run 5 with 127 insts 2 vars
+EM Run 6 with 127 insts 2 vars
+EM Run 7 with 127 insts 2 vars
+EM Run 8 with 127 insts 2 vars
+EM Run 9 with 127 insts 2 vars
+Indset size 2
+Indset size 2
+Using EM with 127 instances and 2 variables ...
+EM Run 0 with 127 insts 2 vars
+EM Run 1 with 127 insts 2 vars
+EM Run 2 with 127 insts 2 vars
+EM Run 3 with 127 insts 2 vars
+EM Run 4 with 127 insts 2 vars
+EM Run 5 with 127 insts 2 vars
+EM Run 6 with 127 insts 2 vars
+EM Run 7 with 127 insts 2 vars
+EM Run 8 with 127 insts 2 vars
+EM Run 9 with 127 insts 2 vars
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 127 instances and 2 variables ...
+EM Run 0 with 127 insts 2 vars
+EM Run 1 with 127 insts 2 vars
+EM Run 2 with 127 insts 2 vars
+EM Run 3 with 127 insts 2 vars
+EM Run 4 with 127 insts 2 vars
+EM Run 5 with 127 insts 2 vars
+EM Run 6 with 127 insts 2 vars
+EM Run 7 with 127 insts 2 vars
+EM Run 8 with 127 insts 2 vars
+EM Run 9 with 127 insts 2 vars
+Indset size 2
+Using EM with 179 instances and 2 variables ...
+EM Run 0 with 179 insts 2 vars
+EM Run 1 with 179 insts 2 vars
+EM Run 2 with 179 insts 2 vars
+EM Run 3 with 179 insts 2 vars
+EM Run 4 with 179 insts 2 vars
+EM Run 5 with 179 insts 2 vars
+EM Run 6 with 179 insts 2 vars
+EM Run 7 with 179 insts 2 vars
+EM Run 8 with 179 insts 2 vars
+EM Run 9 with 179 insts 2 vars
+Indset size 2
+Indset size 2
+Using EM with 127 instances and 2 variables ...
+EM Run 0 with 127 insts 2 vars
+EM Run 1 with 127 insts 2 vars
+EM Run 2 with 127 insts 2 vars
+EM Run 3 with 127 insts 2 vars
+EM Run 4 with 127 insts 2 vars
+EM Run 5 with 127 insts 2 vars
+EM Run 6 with 127 insts 2 vars
+EM Run 7 with 127 insts 2 vars
+EM Run 8 with 127 insts 2 vars
+EM Run 9 with 127 insts 2 vars
+Indset size 2
+Indset size 2
+Using EM with 127 instances and 2 variables ...
+EM Run 0 with 127 insts 2 vars
+EM Run 1 with 127 insts 2 vars
+EM Run 2 with 127 insts 2 vars
+EM Run 3 with 127 insts 2 vars
+EM Run 4 with 127 insts 2 vars
+EM Run 5 with 127 insts 2 vars
+EM Run 6 with 127 insts 2 vars
+EM Run 7 with 127 insts 2 vars
+EM Run 8 with 127 insts 2 vars
+EM Run 9 with 127 insts 2 vars
+Indset size 2
+Indset size 2
+Using EM with 179 instances and 2 variables ...
+EM Run 0 with 179 insts 2 vars
+EM Run 1 with 179 insts 2 vars
+EM Run 2 with 179 insts 2 vars
+EM Run 3 with 179 insts 2 vars
+EM Run 4 with 179 insts 2 vars
+EM Run 5 with 179 insts 2 vars
+EM Run 6 with 179 insts 2 vars
+EM Run 7 with 179 insts 2 vars
+EM Run 8 with 179 insts 2 vars
+EM Run 9 with 179 insts 2 vars
+Indset size 3
+Indset size 3
+Using EM with 179 instances and 3 variables ...
+EM Run 0 with 179 insts 3 vars
+EM Run 1 with 179 insts 3 vars
+EM Run 2 with 179 insts 3 vars
+EM Run 3 with 179 insts 3 vars
+EM Run 4 with 179 insts 3 vars
+EM Run 5 with 179 insts 3 vars
+EM Run 6 with 179 insts 3 vars
+EM Run 7 with 179 insts 3 vars
+EM Run 8 with 179 insts 3 vars
+EM Run 9 with 179 insts 3 vars
+Indset size 2
+Indset size 2
+Using EM with 127 instances and 2 variables ...
+EM Run 0 with 127 insts 2 vars
+EM Run 1 with 127 insts 2 vars
+EM Run 2 with 127 insts 2 vars
+EM Run 3 with 127 insts 2 vars
+EM Run 4 with 127 insts 2 vars
+EM Run 5 with 127 insts 2 vars
+EM Run 6 with 127 insts 2 vars
+EM Run 7 with 127 insts 2 vars
+EM Run 8 with 127 insts 2 vars
+EM Run 9 with 127 insts 2 vars
+SPN has 3258523 nodes
+Building from build list (42667 items)...
+Exception in thread "main" java.lang.OutOfMemoryError: Java heap space
+    at java.util.HashMap.addEntry(HashMap.java:753)
+    at java.util.HashMap.put(HashMap.java:385)
+    at java.util.HashSet.add(HashSet.java:200)
+    at java.util.AbstractCollection.addAll(AbstractCollection.java:305)
+    at java.util.HashSet.<init>(HashSet.java:100)
+    at spn.ProdNode.hashCode(ProdNode.java:76)
+    at java.util.HashMap.put(HashMap.java:372)
+    at spn.LinkedSet.add(LinkedSet.java:109)
+    at slalg.VarInstSplit.learnStructure(VarInstSplit.java:344)
+    at exp.RunSLSPN.main(RunSLSPN.java:112)
+
+real    733m20.401s
+user    744m25.411s
+sys 1m38.681s
+-> 
+

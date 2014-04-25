@@ -1,0 +1,6841 @@
+Last login: Mon Apr 21 14:21:18 on ttys001
+-> time java -ea -Xmx1024m -cp bin exp.RunSLSPN DATA 11 GF 10 CP 0.6 INDEPINST 4 N d11_default.spn
+DATA    11
+GF  10
+CP  0.6
+INDEPINST   4
+N   d11_default.spn
+*** Code with Daniel's additions ***
+Dataset bnetflix, 100 vars, 15000tr, 2000va, 3000te
+Loading training...
+Loading validation...
+Loading testing...
+
+CP 0.6  GF 10.0 IT 4
+Building structure from 100 vars over 15000 instances
+Using EM with 15000 instances and 100 variables ...
+EM Run 0 with 15000 insts 100 vars
+EM Run 1 with 15000 insts 100 vars
+EM Run 2 with 15000 insts 100 vars
+EM Run 3 with 15000 insts 100 vars
+EM Run 4 with 15000 insts 100 vars
+EM Run 5 with 15000 insts 100 vars
+EM Run 6 with 15000 insts 100 vars
+EM Run 7 with 15000 insts 100 vars
+EM Run 8 with 15000 insts 100 vars
+EM Run 9 with 15000 insts 100 vars
+15000I 100V -> 198 clusters
+Indset size 2
+Indset size 7
+Indset size 4
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 714 instances and 2 variables ...
+EM Run 0 with 714 insts 2 vars
+EM Run 1 with 714 insts 2 vars
+EM Run 2 with 714 insts 2 vars
+EM Run 3 with 714 insts 2 vars
+EM Run 4 with 714 insts 2 vars
+EM Run 5 with 714 insts 2 vars
+EM Run 6 with 714 insts 2 vars
+EM Run 7 with 714 insts 2 vars
+EM Run 8 with 714 insts 2 vars
+EM Run 9 with 714 insts 2 vars
+714I 2V -> 4 clusters
+Indset size 7
+Using EM with 405 instances and 7 variables ...
+EM Run 0 with 405 insts 7 vars
+EM Run 1 with 405 insts 7 vars
+EM Run 2 with 405 insts 7 vars
+EM Run 3 with 405 insts 7 vars
+EM Run 4 with 405 insts 7 vars
+EM Run 5 with 405 insts 7 vars
+EM Run 6 with 405 insts 7 vars
+EM Run 7 with 405 insts 7 vars
+EM Run 8 with 405 insts 7 vars
+EM Run 9 with 405 insts 7 vars
+405I 7V -> 29 clusters
+Indset size 2
+Indset size 4
+Indset size 3
+Indset size 4
+Using EM with 670 instances and 4 variables ...
+EM Run 0 with 670 insts 4 vars
+EM Run 1 with 670 insts 4 vars
+EM Run 2 with 670 insts 4 vars
+EM Run 3 with 670 insts 4 vars
+EM Run 4 with 670 insts 4 vars
+EM Run 5 with 670 insts 4 vars
+EM Run 6 with 670 insts 4 vars
+EM Run 7 with 670 insts 4 vars
+EM Run 8 with 670 insts 4 vars
+EM Run 9 with 670 insts 4 vars
+670I 4V -> 9 clusters
+Indset size 2
+Indset size 14
+Indset size 2
+Using EM with 413 instances and 2 variables ...
+EM Run 0 with 413 insts 2 vars
+EM Run 1 with 413 insts 2 vars
+EM Run 2 with 413 insts 2 vars
+EM Run 3 with 413 insts 2 vars
+EM Run 4 with 413 insts 2 vars
+EM Run 5 with 413 insts 2 vars
+EM Run 6 with 413 insts 2 vars
+EM Run 7 with 413 insts 2 vars
+EM Run 8 with 413 insts 2 vars
+EM Run 9 with 413 insts 2 vars
+413I 2V -> 4 clusters
+Indset size 2
+Using EM with 470 instances and 2 variables ...
+EM Run 0 with 470 insts 2 vars
+EM Run 1 with 470 insts 2 vars
+EM Run 2 with 470 insts 2 vars
+EM Run 3 with 470 insts 2 vars
+EM Run 4 with 470 insts 2 vars
+EM Run 5 with 470 insts 2 vars
+EM Run 6 with 470 insts 2 vars
+EM Run 7 with 470 insts 2 vars
+EM Run 8 with 470 insts 2 vars
+EM Run 9 with 470 insts 2 vars
+470I 2V -> 4 clusters
+Indset size 2
+Indset size 2
+Using EM with 529 instances and 2 variables ...
+EM Run 0 with 529 insts 2 vars
+EM Run 1 with 529 insts 2 vars
+EM Run 2 with 529 insts 2 vars
+EM Run 3 with 529 insts 2 vars
+EM Run 4 with 529 insts 2 vars
+EM Run 5 with 529 insts 2 vars
+EM Run 6 with 529 insts 2 vars
+EM Run 7 with 529 insts 2 vars
+EM Run 8 with 529 insts 2 vars
+EM Run 9 with 529 insts 2 vars
+Indset size 7
+Indset size 2
+Using EM with 405 instances and 2 variables ...
+EM Run 0 with 405 insts 2 vars
+EM Run 1 with 405 insts 2 vars
+EM Run 2 with 405 insts 2 vars
+EM Run 3 with 405 insts 2 vars
+EM Run 4 with 405 insts 2 vars
+EM Run 5 with 405 insts 2 vars
+EM Run 6 with 405 insts 2 vars
+EM Run 7 with 405 insts 2 vars
+EM Run 8 with 405 insts 2 vars
+EM Run 9 with 405 insts 2 vars
+Indset size 4
+Indset size 4
+Using EM with 221 instances and 4 variables ...
+EM Run 0 with 221 insts 4 vars
+EM Run 1 with 221 insts 4 vars
+EM Run 2 with 221 insts 4 vars
+EM Run 3 with 221 insts 4 vars
+EM Run 4 with 221 insts 4 vars
+EM Run 5 with 221 insts 4 vars
+EM Run 6 with 221 insts 4 vars
+EM Run 7 with 221 insts 4 vars
+EM Run 8 with 221 insts 4 vars
+EM Run 9 with 221 insts 4 vars
+Indset size 3
+Using EM with 421 instances and 3 variables ...
+EM Run 0 with 421 insts 3 vars
+EM Run 1 with 421 insts 3 vars
+EM Run 2 with 421 insts 3 vars
+EM Run 3 with 421 insts 3 vars
+EM Run 4 with 421 insts 3 vars
+EM Run 5 with 421 insts 3 vars
+EM Run 6 with 421 insts 3 vars
+EM Run 7 with 421 insts 3 vars
+EM Run 8 with 421 insts 3 vars
+EM Run 9 with 421 insts 3 vars
+Indset size 2
+Using EM with 505 instances and 2 variables ...
+EM Run 0 with 505 insts 2 vars
+EM Run 1 with 505 insts 2 vars
+EM Run 2 with 505 insts 2 vars
+EM Run 3 with 505 insts 2 vars
+EM Run 4 with 505 insts 2 vars
+EM Run 5 with 505 insts 2 vars
+EM Run 6 with 505 insts 2 vars
+EM Run 7 with 505 insts 2 vars
+EM Run 8 with 505 insts 2 vars
+EM Run 9 with 505 insts 2 vars
+Indset size 2
+Indset size 4
+Indset size 14
+Using EM with 520 instances and 14 variables ...
+EM Run 0 with 520 insts 14 vars
+EM Run 1 with 520 insts 14 vars
+EM Run 2 with 520 insts 14 vars
+EM Run 3 with 520 insts 14 vars
+EM Run 4 with 520 insts 14 vars
+EM Run 5 with 520 insts 14 vars
+EM Run 6 with 520 insts 14 vars
+EM Run 7 with 520 insts 14 vars
+EM Run 8 with 520 insts 14 vars
+EM Run 9 with 520 insts 14 vars
+Indset size 10
+Indset size 5
+Indset size 2
+Using EM with 395 instances and 2 variables ...
+EM Run 0 with 395 insts 2 vars
+EM Run 1 with 395 insts 2 vars
+EM Run 2 with 395 insts 2 vars
+EM Run 3 with 395 insts 2 vars
+EM Run 4 with 395 insts 2 vars
+EM Run 5 with 395 insts 2 vars
+EM Run 6 with 395 insts 2 vars
+EM Run 7 with 395 insts 2 vars
+EM Run 8 with 395 insts 2 vars
+EM Run 9 with 395 insts 2 vars
+Indset size 7
+Using EM with 529 instances and 7 variables ...
+EM Run 0 with 529 insts 7 vars
+EM Run 1 with 529 insts 7 vars
+EM Run 2 with 529 insts 7 vars
+EM Run 3 with 529 insts 7 vars
+EM Run 4 with 529 insts 7 vars
+EM Run 5 with 529 insts 7 vars
+EM Run 6 with 529 insts 7 vars
+EM Run 7 with 529 insts 7 vars
+EM Run 8 with 529 insts 7 vars
+EM Run 9 with 529 insts 7 vars
+Indset size 4
+Indset size 4
+Using EM with 581 instances and 4 variables ...
+EM Run 0 with 581 insts 4 vars
+EM Run 1 with 581 insts 4 vars
+EM Run 2 with 581 insts 4 vars
+EM Run 3 with 581 insts 4 vars
+EM Run 4 with 581 insts 4 vars
+EM Run 5 with 581 insts 4 vars
+EM Run 6 with 581 insts 4 vars
+EM Run 7 with 581 insts 4 vars
+EM Run 8 with 581 insts 4 vars
+EM Run 9 with 581 insts 4 vars
+Indset size 10
+Indset size 2
+Indset size 2
+Indset size 3
+Indset size 2
+Using EM with 389 instances and 2 variables ...
+EM Run 0 with 389 insts 2 vars
+EM Run 1 with 389 insts 2 vars
+EM Run 2 with 389 insts 2 vars
+EM Run 3 with 389 insts 2 vars
+EM Run 4 with 389 insts 2 vars
+EM Run 5 with 389 insts 2 vars
+EM Run 6 with 389 insts 2 vars
+EM Run 7 with 389 insts 2 vars
+EM Run 8 with 389 insts 2 vars
+EM Run 9 with 389 insts 2 vars
+Indset size 4
+Using EM with 430 instances and 4 variables ...
+EM Run 0 with 430 insts 4 vars
+EM Run 1 with 430 insts 4 vars
+EM Run 2 with 430 insts 4 vars
+EM Run 3 with 430 insts 4 vars
+EM Run 4 with 430 insts 4 vars
+EM Run 5 with 430 insts 4 vars
+EM Run 6 with 430 insts 4 vars
+EM Run 7 with 430 insts 4 vars
+EM Run 8 with 430 insts 4 vars
+EM Run 9 with 430 insts 4 vars
+Indset size 10
+Using EM with 520 instances and 10 variables ...
+EM Run 0 with 520 insts 10 vars
+EM Run 1 with 520 insts 10 vars
+EM Run 2 with 520 insts 10 vars
+EM Run 3 with 520 insts 10 vars
+EM Run 4 with 520 insts 10 vars
+EM Run 5 with 520 insts 10 vars
+EM Run 6 with 520 insts 10 vars
+EM Run 7 with 520 insts 10 vars
+EM Run 8 with 520 insts 10 vars
+EM Run 9 with 520 insts 10 vars
+Indset size 5
+Using EM with 450 instances and 5 variables ...
+EM Run 0 with 450 insts 5 vars
+EM Run 1 with 450 insts 5 vars
+EM Run 2 with 450 insts 5 vars
+EM Run 3 with 450 insts 5 vars
+EM Run 4 with 450 insts 5 vars
+EM Run 5 with 450 insts 5 vars
+EM Run 6 with 450 insts 5 vars
+EM Run 7 with 450 insts 5 vars
+EM Run 8 with 450 insts 5 vars
+EM Run 9 with 450 insts 5 vars
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 4
+Using EM with 443 instances and 4 variables ...
+EM Run 0 with 443 insts 4 vars
+EM Run 1 with 443 insts 4 vars
+EM Run 2 with 443 insts 4 vars
+EM Run 3 with 443 insts 4 vars
+EM Run 4 with 443 insts 4 vars
+EM Run 5 with 443 insts 4 vars
+EM Run 6 with 443 insts 4 vars
+EM Run 7 with 443 insts 4 vars
+EM Run 8 with 443 insts 4 vars
+EM Run 9 with 443 insts 4 vars
+Indset size 2
+Indset size 10
+Using EM with 500 instances and 10 variables ...
+EM Run 0 with 500 insts 10 vars
+EM Run 1 with 500 insts 10 vars
+EM Run 2 with 500 insts 10 vars
+EM Run 3 with 500 insts 10 vars
+EM Run 4 with 500 insts 10 vars
+EM Run 5 with 500 insts 10 vars
+EM Run 6 with 500 insts 10 vars
+EM Run 7 with 500 insts 10 vars
+EM Run 8 with 500 insts 10 vars
+EM Run 9 with 500 insts 10 vars
+Indset size 2
+Indset size 2
+Using EM with 221 instances and 2 variables ...
+EM Run 0 with 221 insts 2 vars
+EM Run 1 with 221 insts 2 vars
+EM Run 2 with 221 insts 2 vars
+EM Run 3 with 221 insts 2 vars
+EM Run 4 with 221 insts 2 vars
+EM Run 5 with 221 insts 2 vars
+EM Run 6 with 221 insts 2 vars
+EM Run 7 with 221 insts 2 vars
+EM Run 8 with 221 insts 2 vars
+EM Run 9 with 221 insts 2 vars
+Indset size 3
+Indset size 2
+Using EM with 505 instances and 2 variables ...
+EM Run 0 with 505 insts 2 vars
+EM Run 1 with 505 insts 2 vars
+EM Run 2 with 505 insts 2 vars
+EM Run 3 with 505 insts 2 vars
+EM Run 4 with 505 insts 2 vars
+EM Run 5 with 505 insts 2 vars
+EM Run 6 with 505 insts 2 vars
+EM Run 7 with 505 insts 2 vars
+EM Run 8 with 505 insts 2 vars
+EM Run 9 with 505 insts 2 vars
+Indset size 2
+Indset size 3
+Using EM with 498 instances and 3 variables ...
+EM Run 0 with 498 insts 3 vars
+EM Run 1 with 498 insts 3 vars
+EM Run 2 with 498 insts 3 vars
+EM Run 3 with 498 insts 3 vars
+EM Run 4 with 498 insts 3 vars
+EM Run 5 with 498 insts 3 vars
+EM Run 6 with 498 insts 3 vars
+EM Run 7 with 498 insts 3 vars
+EM Run 8 with 498 insts 3 vars
+EM Run 9 with 498 insts 3 vars
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 450 instances and 2 variables ...
+EM Run 0 with 450 insts 2 vars
+EM Run 1 with 450 insts 2 vars
+EM Run 2 with 450 insts 2 vars
+EM Run 3 with 450 insts 2 vars
+EM Run 4 with 450 insts 2 vars
+EM Run 5 with 450 insts 2 vars
+EM Run 6 with 450 insts 2 vars
+EM Run 7 with 450 insts 2 vars
+EM Run 8 with 450 insts 2 vars
+EM Run 9 with 450 insts 2 vars
+Indset size 6
+Indset size 2
+Using EM with 529 instances and 2 variables ...
+EM Run 0 with 529 insts 2 vars
+EM Run 1 with 529 insts 2 vars
+EM Run 2 with 529 insts 2 vars
+EM Run 3 with 529 insts 2 vars
+EM Run 4 with 529 insts 2 vars
+EM Run 5 with 529 insts 2 vars
+EM Run 6 with 529 insts 2 vars
+EM Run 7 with 529 insts 2 vars
+EM Run 8 with 529 insts 2 vars
+EM Run 9 with 529 insts 2 vars
+Indset size 5
+Indset size 2
+Using EM with 655 instances and 2 variables ...
+EM Run 0 with 655 insts 2 vars
+EM Run 1 with 655 insts 2 vars
+EM Run 2 with 655 insts 2 vars
+EM Run 3 with 655 insts 2 vars
+EM Run 4 with 655 insts 2 vars
+EM Run 5 with 655 insts 2 vars
+EM Run 6 with 655 insts 2 vars
+EM Run 7 with 655 insts 2 vars
+EM Run 8 with 655 insts 2 vars
+EM Run 9 with 655 insts 2 vars
+Indset size 2
+Using EM with 405 instances and 2 variables ...
+EM Run 0 with 405 insts 2 vars
+EM Run 1 with 405 insts 2 vars
+EM Run 2 with 405 insts 2 vars
+EM Run 3 with 405 insts 2 vars
+EM Run 4 with 405 insts 2 vars
+EM Run 5 with 405 insts 2 vars
+EM Run 6 with 405 insts 2 vars
+EM Run 7 with 405 insts 2 vars
+EM Run 8 with 405 insts 2 vars
+EM Run 9 with 405 insts 2 vars
+Indset size 2
+Using EM with 500 instances and 2 variables ...
+EM Run 0 with 500 insts 2 vars
+EM Run 1 with 500 insts 2 vars
+EM Run 2 with 500 insts 2 vars
+EM Run 3 with 500 insts 2 vars
+EM Run 4 with 500 insts 2 vars
+EM Run 5 with 500 insts 2 vars
+EM Run 6 with 500 insts 2 vars
+EM Run 7 with 500 insts 2 vars
+EM Run 8 with 500 insts 2 vars
+EM Run 9 with 500 insts 2 vars
+Indset size 2
+Indset size 3
+Using EM with 670 instances and 3 variables ...
+EM Run 0 with 670 insts 3 vars
+EM Run 1 with 670 insts 3 vars
+EM Run 2 with 670 insts 3 vars
+EM Run 3 with 670 insts 3 vars
+EM Run 4 with 670 insts 3 vars
+EM Run 5 with 670 insts 3 vars
+EM Run 6 with 670 insts 3 vars
+EM Run 7 with 670 insts 3 vars
+EM Run 8 with 670 insts 3 vars
+EM Run 9 with 670 insts 3 vars
+Indset size 2
+Using EM with 193 instances and 2 variables ...
+EM Run 0 with 193 insts 2 vars
+EM Run 1 with 193 insts 2 vars
+EM Run 2 with 193 insts 2 vars
+EM Run 3 with 193 insts 2 vars
+EM Run 4 with 193 insts 2 vars
+EM Run 5 with 193 insts 2 vars
+EM Run 6 with 193 insts 2 vars
+EM Run 7 with 193 insts 2 vars
+EM Run 8 with 193 insts 2 vars
+EM Run 9 with 193 insts 2 vars
+Indset size 2
+Using EM with 430 instances and 2 variables ...
+EM Run 0 with 430 insts 2 vars
+EM Run 1 with 430 insts 2 vars
+EM Run 2 with 430 insts 2 vars
+EM Run 3 with 430 insts 2 vars
+EM Run 4 with 430 insts 2 vars
+EM Run 5 with 430 insts 2 vars
+EM Run 6 with 430 insts 2 vars
+EM Run 7 with 430 insts 2 vars
+EM Run 8 with 430 insts 2 vars
+EM Run 9 with 430 insts 2 vars
+Indset size 2
+Using EM with 309 instances and 2 variables ...
+EM Run 0 with 309 insts 2 vars
+EM Run 1 with 309 insts 2 vars
+EM Run 2 with 309 insts 2 vars
+EM Run 3 with 309 insts 2 vars
+EM Run 4 with 309 insts 2 vars
+EM Run 5 with 309 insts 2 vars
+EM Run 6 with 309 insts 2 vars
+EM Run 7 with 309 insts 2 vars
+EM Run 8 with 309 insts 2 vars
+EM Run 9 with 309 insts 2 vars
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 6
+Using EM with 389 instances and 6 variables ...
+EM Run 0 with 389 insts 6 vars
+EM Run 1 with 389 insts 6 vars
+EM Run 2 with 389 insts 6 vars
+EM Run 3 with 389 insts 6 vars
+EM Run 4 with 389 insts 6 vars
+EM Run 5 with 389 insts 6 vars
+EM Run 6 with 389 insts 6 vars
+EM Run 7 with 389 insts 6 vars
+EM Run 8 with 389 insts 6 vars
+EM Run 9 with 389 insts 6 vars
+Indset size 2
+Indset size 5
+Using EM with 714 instances and 5 variables ...
+EM Run 0 with 714 insts 5 vars
+EM Run 1 with 714 insts 5 vars
+EM Run 2 with 714 insts 5 vars
+EM Run 3 with 714 insts 5 vars
+EM Run 4 with 714 insts 5 vars
+EM Run 5 with 714 insts 5 vars
+EM Run 6 with 714 insts 5 vars
+EM Run 7 with 714 insts 5 vars
+EM Run 8 with 714 insts 5 vars
+EM Run 9 with 714 insts 5 vars
+Indset size 3
+Indset size 2
+Using EM with 500 instances and 2 variables ...
+EM Run 0 with 500 insts 2 vars
+EM Run 1 with 500 insts 2 vars
+EM Run 2 with 500 insts 2 vars
+EM Run 3 with 500 insts 2 vars
+EM Run 4 with 500 insts 2 vars
+EM Run 5 with 500 insts 2 vars
+EM Run 6 with 500 insts 2 vars
+EM Run 7 with 500 insts 2 vars
+EM Run 8 with 500 insts 2 vars
+EM Run 9 with 500 insts 2 vars
+Indset size 3
+Indset size 3
+Indset size 2
+Using EM with 506 instances and 2 variables ...
+EM Run 0 with 506 insts 2 vars
+EM Run 1 with 506 insts 2 vars
+EM Run 2 with 506 insts 2 vars
+EM Run 3 with 506 insts 2 vars
+EM Run 4 with 506 insts 2 vars
+EM Run 5 with 506 insts 2 vars
+EM Run 6 with 506 insts 2 vars
+EM Run 7 with 506 insts 2 vars
+EM Run 8 with 506 insts 2 vars
+EM Run 9 with 506 insts 2 vars
+Indset size 10
+Indset size 2
+Using EM with 443 instances and 2 variables ...
+EM Run 0 with 443 insts 2 vars
+EM Run 1 with 443 insts 2 vars
+EM Run 2 with 443 insts 2 vars
+EM Run 3 with 443 insts 2 vars
+EM Run 4 with 443 insts 2 vars
+EM Run 5 with 443 insts 2 vars
+EM Run 6 with 443 insts 2 vars
+EM Run 7 with 443 insts 2 vars
+EM Run 8 with 443 insts 2 vars
+EM Run 9 with 443 insts 2 vars
+Indset size 3
+Indset size 2
+Using EM with 395 instances and 2 variables ...
+EM Run 0 with 395 insts 2 vars
+EM Run 1 with 395 insts 2 vars
+EM Run 2 with 395 insts 2 vars
+EM Run 3 with 395 insts 2 vars
+EM Run 4 with 395 insts 2 vars
+EM Run 5 with 395 insts 2 vars
+EM Run 6 with 395 insts 2 vars
+EM Run 7 with 395 insts 2 vars
+EM Run 8 with 395 insts 2 vars
+EM Run 9 with 395 insts 2 vars
+Indset size 2
+Indset size 2
+Using EM with 198 instances and 2 variables ...
+EM Run 0 with 198 insts 2 vars
+EM Run 1 with 198 insts 2 vars
+EM Run 2 with 198 insts 2 vars
+EM Run 3 with 198 insts 2 vars
+EM Run 4 with 198 insts 2 vars
+EM Run 5 with 198 insts 2 vars
+EM Run 6 with 198 insts 2 vars
+EM Run 7 with 198 insts 2 vars
+EM Run 8 with 198 insts 2 vars
+EM Run 9 with 198 insts 2 vars
+Indset size 3
+Using EM with 714 instances and 3 variables ...
+EM Run 0 with 714 insts 3 vars
+EM Run 1 with 714 insts 3 vars
+EM Run 2 with 714 insts 3 vars
+EM Run 3 with 714 insts 3 vars
+EM Run 4 with 714 insts 3 vars
+EM Run 5 with 714 insts 3 vars
+EM Run 6 with 714 insts 3 vars
+EM Run 7 with 714 insts 3 vars
+EM Run 8 with 714 insts 3 vars
+EM Run 9 with 714 insts 3 vars
+Indset size 2
+Indset size 7
+Indset size 7
+Indset size 2
+Indset size 3
+Indset size 3
+Using EM with 321 instances and 3 variables ...
+EM Run 0 with 321 insts 3 vars
+EM Run 1 with 321 insts 3 vars
+EM Run 2 with 321 insts 3 vars
+EM Run 3 with 321 insts 3 vars
+EM Run 4 with 321 insts 3 vars
+EM Run 5 with 321 insts 3 vars
+EM Run 6 with 321 insts 3 vars
+EM Run 7 with 321 insts 3 vars
+EM Run 8 with 321 insts 3 vars
+EM Run 9 with 321 insts 3 vars
+Indset size 5
+Indset size 5
+Indset size 3
+Using EM with 134 instances and 3 variables ...
+EM Run 0 with 134 insts 3 vars
+EM Run 1 with 134 insts 3 vars
+EM Run 2 with 134 insts 3 vars
+EM Run 3 with 134 insts 3 vars
+EM Run 4 with 134 insts 3 vars
+EM Run 5 with 134 insts 3 vars
+EM Run 6 with 134 insts 3 vars
+EM Run 7 with 134 insts 3 vars
+EM Run 8 with 134 insts 3 vars
+EM Run 9 with 134 insts 3 vars
+Indset size 3
+Indset size 10
+Using EM with 450 instances and 10 variables ...
+EM Run 0 with 450 insts 10 vars
+EM Run 1 with 450 insts 10 vars
+EM Run 2 with 450 insts 10 vars
+EM Run 3 with 450 insts 10 vars
+EM Run 4 with 450 insts 10 vars
+EM Run 5 with 450 insts 10 vars
+EM Run 6 with 450 insts 10 vars
+EM Run 7 with 450 insts 10 vars
+EM Run 8 with 450 insts 10 vars
+EM Run 9 with 450 insts 10 vars
+Indset size 3
+Using EM with 443 instances and 3 variables ...
+EM Run 0 with 443 insts 3 vars
+EM Run 1 with 443 insts 3 vars
+EM Run 2 with 443 insts 3 vars
+EM Run 3 with 443 insts 3 vars
+EM Run 4 with 443 insts 3 vars
+EM Run 5 with 443 insts 3 vars
+EM Run 6 with 443 insts 3 vars
+EM Run 7 with 443 insts 3 vars
+EM Run 8 with 443 insts 3 vars
+EM Run 9 with 443 insts 3 vars
+Indset size 2
+Using EM with 529 instances and 2 variables ...
+EM Run 0 with 529 insts 2 vars
+EM Run 1 with 529 insts 2 vars
+EM Run 2 with 529 insts 2 vars
+EM Run 3 with 529 insts 2 vars
+EM Run 4 with 529 insts 2 vars
+EM Run 5 with 529 insts 2 vars
+EM Run 6 with 529 insts 2 vars
+EM Run 7 with 529 insts 2 vars
+EM Run 8 with 529 insts 2 vars
+EM Run 9 with 529 insts 2 vars
+Indset size 2
+Indset size 2
+Using EM with 714 instances and 2 variables ...
+EM Run 0 with 714 insts 2 vars
+EM Run 1 with 714 insts 2 vars
+EM Run 2 with 714 insts 2 vars
+EM Run 3 with 714 insts 2 vars
+EM Run 4 with 714 insts 2 vars
+EM Run 5 with 714 insts 2 vars
+EM Run 6 with 714 insts 2 vars
+EM Run 7 with 714 insts 2 vars
+EM Run 8 with 714 insts 2 vars
+EM Run 9 with 714 insts 2 vars
+Indset size 7
+Using EM with 655 instances and 7 variables ...
+EM Run 0 with 655 insts 7 vars
+EM Run 1 with 655 insts 7 vars
+EM Run 2 with 655 insts 7 vars
+EM Run 3 with 655 insts 7 vars
+EM Run 4 with 655 insts 7 vars
+EM Run 5 with 655 insts 7 vars
+EM Run 6 with 655 insts 7 vars
+EM Run 7 with 655 insts 7 vars
+EM Run 8 with 655 insts 7 vars
+EM Run 9 with 655 insts 7 vars
+Indset size 7
+Using EM with 581 instances and 7 variables ...
+EM Run 0 with 581 insts 7 vars
+EM Run 1 with 581 insts 7 vars
+EM Run 2 with 581 insts 7 vars
+EM Run 3 with 581 insts 7 vars
+EM Run 4 with 581 insts 7 vars
+EM Run 5 with 581 insts 7 vars
+EM Run 6 with 581 insts 7 vars
+EM Run 7 with 581 insts 7 vars
+EM Run 8 with 581 insts 7 vars
+EM Run 9 with 581 insts 7 vars
+Indset size 2
+Using EM with 500 instances and 2 variables ...
+EM Run 0 with 500 insts 2 vars
+EM Run 1 with 500 insts 2 vars
+EM Run 2 with 500 insts 2 vars
+EM Run 3 with 500 insts 2 vars
+EM Run 4 with 500 insts 2 vars
+EM Run 5 with 500 insts 2 vars
+EM Run 6 with 500 insts 2 vars
+EM Run 7 with 500 insts 2 vars
+EM Run 8 with 500 insts 2 vars
+EM Run 9 with 500 insts 2 vars
+Indset size 3
+Using EM with 370 instances and 3 variables ...
+EM Run 0 with 370 insts 3 vars
+EM Run 1 with 370 insts 3 vars
+EM Run 2 with 370 insts 3 vars
+EM Run 3 with 370 insts 3 vars
+EM Run 4 with 370 insts 3 vars
+EM Run 5 with 370 insts 3 vars
+EM Run 6 with 370 insts 3 vars
+EM Run 7 with 370 insts 3 vars
+EM Run 8 with 370 insts 3 vars
+EM Run 9 with 370 insts 3 vars
+Indset size 5
+Using EM with 670 instances and 5 variables ...
+EM Run 0 with 670 insts 5 vars
+EM Run 1 with 670 insts 5 vars
+EM Run 2 with 670 insts 5 vars
+EM Run 3 with 670 insts 5 vars
+EM Run 4 with 670 insts 5 vars
+EM Run 5 with 670 insts 5 vars
+EM Run 6 with 670 insts 5 vars
+EM Run 7 with 670 insts 5 vars
+EM Run 8 with 670 insts 5 vars
+EM Run 9 with 670 insts 5 vars
+Indset size 5
+Using EM with 498 instances and 5 variables ...
+EM Run 0 with 498 insts 5 vars
+EM Run 1 with 498 insts 5 vars
+EM Run 2 with 498 insts 5 vars
+EM Run 3 with 498 insts 5 vars
+EM Run 4 with 498 insts 5 vars
+EM Run 5 with 498 insts 5 vars
+EM Run 6 with 498 insts 5 vars
+EM Run 7 with 498 insts 5 vars
+EM Run 8 with 498 insts 5 vars
+EM Run 9 with 498 insts 5 vars
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 5
+Indset size 3
+Using EM with 588 instances and 3 variables ...
+EM Run 0 with 588 insts 3 vars
+EM Run 1 with 588 insts 3 vars
+EM Run 2 with 588 insts 3 vars
+EM Run 3 with 588 insts 3 vars
+EM Run 4 with 588 insts 3 vars
+EM Run 5 with 588 insts 3 vars
+EM Run 6 with 588 insts 3 vars
+EM Run 7 with 588 insts 3 vars
+EM Run 8 with 588 insts 3 vars
+EM Run 9 with 588 insts 3 vars
+Indset size 2
+Indset size 3
+Indset size 2
+Indset size 2
+Using EM with 343 instances and 2 variables ...
+EM Run 0 with 343 insts 2 vars
+EM Run 1 with 343 insts 2 vars
+EM Run 2 with 343 insts 2 vars
+EM Run 3 with 343 insts 2 vars
+EM Run 4 with 343 insts 2 vars
+EM Run 5 with 343 insts 2 vars
+EM Run 6 with 343 insts 2 vars
+EM Run 7 with 343 insts 2 vars
+EM Run 8 with 343 insts 2 vars
+EM Run 9 with 343 insts 2 vars
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 498 instances and 2 variables ...
+EM Run 0 with 498 insts 2 vars
+EM Run 1 with 498 insts 2 vars
+EM Run 2 with 498 insts 2 vars
+EM Run 3 with 498 insts 2 vars
+EM Run 4 with 498 insts 2 vars
+EM Run 5 with 498 insts 2 vars
+EM Run 6 with 498 insts 2 vars
+EM Run 7 with 498 insts 2 vars
+EM Run 8 with 498 insts 2 vars
+EM Run 9 with 498 insts 2 vars
+Indset size 2
+Indset size 2
+Using EM with 333 instances and 2 variables ...
+EM Run 0 with 333 insts 2 vars
+EM Run 1 with 333 insts 2 vars
+EM Run 2 with 333 insts 2 vars
+EM Run 3 with 333 insts 2 vars
+EM Run 4 with 333 insts 2 vars
+EM Run 5 with 333 insts 2 vars
+EM Run 6 with 333 insts 2 vars
+EM Run 7 with 333 insts 2 vars
+EM Run 8 with 333 insts 2 vars
+EM Run 9 with 333 insts 2 vars
+Indset size 2
+Using EM with 520 instances and 2 variables ...
+EM Run 0 with 520 insts 2 vars
+EM Run 1 with 520 insts 2 vars
+EM Run 2 with 520 insts 2 vars
+EM Run 3 with 520 insts 2 vars
+EM Run 4 with 520 insts 2 vars
+EM Run 5 with 520 insts 2 vars
+EM Run 6 with 520 insts 2 vars
+EM Run 7 with 520 insts 2 vars
+EM Run 8 with 520 insts 2 vars
+EM Run 9 with 520 insts 2 vars
+Indset size 5
+Using EM with 430 instances and 5 variables ...
+EM Run 0 with 430 insts 5 vars
+EM Run 1 with 430 insts 5 vars
+EM Run 2 with 430 insts 5 vars
+EM Run 3 with 430 insts 5 vars
+EM Run 4 with 430 insts 5 vars
+EM Run 5 with 430 insts 5 vars
+EM Run 6 with 430 insts 5 vars
+EM Run 7 with 430 insts 5 vars
+EM Run 8 with 430 insts 5 vars
+EM Run 9 with 430 insts 5 vars
+Indset size 2
+Using EM with 450 instances and 2 variables ...
+EM Run 0 with 450 insts 2 vars
+EM Run 1 with 450 insts 2 vars
+EM Run 2 with 450 insts 2 vars
+EM Run 3 with 450 insts 2 vars
+EM Run 4 with 450 insts 2 vars
+EM Run 5 with 450 insts 2 vars
+EM Run 6 with 450 insts 2 vars
+EM Run 7 with 450 insts 2 vars
+EM Run 8 with 450 insts 2 vars
+EM Run 9 with 450 insts 2 vars
+Indset size 2
+Indset size 3
+Using EM with 413 instances and 3 variables ...
+EM Run 0 with 413 insts 3 vars
+EM Run 1 with 413 insts 3 vars
+EM Run 2 with 413 insts 3 vars
+EM Run 3 with 413 insts 3 vars
+EM Run 4 with 413 insts 3 vars
+EM Run 5 with 413 insts 3 vars
+EM Run 6 with 413 insts 3 vars
+EM Run 7 with 413 insts 3 vars
+EM Run 8 with 413 insts 3 vars
+EM Run 9 with 413 insts 3 vars
+Indset size 2
+Indset size 2
+Using EM with 470 instances and 2 variables ...
+EM Run 0 with 470 insts 2 vars
+EM Run 1 with 470 insts 2 vars
+EM Run 2 with 470 insts 2 vars
+EM Run 3 with 470 insts 2 vars
+EM Run 4 with 470 insts 2 vars
+EM Run 5 with 470 insts 2 vars
+EM Run 6 with 470 insts 2 vars
+EM Run 7 with 470 insts 2 vars
+EM Run 8 with 470 insts 2 vars
+EM Run 9 with 470 insts 2 vars
+Indset size 2
+Using EM with 714 instances and 2 variables ...
+EM Run 0 with 714 insts 2 vars
+EM Run 1 with 714 insts 2 vars
+EM Run 2 with 714 insts 2 vars
+EM Run 3 with 714 insts 2 vars
+EM Run 4 with 714 insts 2 vars
+EM Run 5 with 714 insts 2 vars
+EM Run 6 with 714 insts 2 vars
+EM Run 7 with 714 insts 2 vars
+EM Run 8 with 714 insts 2 vars
+EM Run 9 with 714 insts 2 vars
+Indset size 2
+Indset size 2
+Using EM with 655 instances and 2 variables ...
+EM Run 0 with 655 insts 2 vars
+EM Run 1 with 655 insts 2 vars
+EM Run 2 with 655 insts 2 vars
+EM Run 3 with 655 insts 2 vars
+EM Run 4 with 655 insts 2 vars
+EM Run 5 with 655 insts 2 vars
+EM Run 6 with 655 insts 2 vars
+EM Run 7 with 655 insts 2 vars
+EM Run 8 with 655 insts 2 vars
+EM Run 9 with 655 insts 2 vars
+Indset size 2
+Indset size 2
+Using EM with 581 instances and 2 variables ...
+EM Run 0 with 581 insts 2 vars
+EM Run 1 with 581 insts 2 vars
+EM Run 2 with 581 insts 2 vars
+EM Run 3 with 581 insts 2 vars
+EM Run 4 with 581 insts 2 vars
+EM Run 5 with 581 insts 2 vars
+EM Run 6 with 581 insts 2 vars
+EM Run 7 with 581 insts 2 vars
+EM Run 8 with 581 insts 2 vars
+EM Run 9 with 581 insts 2 vars
+Indset size 2
+Using EM with 670 instances and 2 variables ...
+EM Run 0 with 670 insts 2 vars
+EM Run 1 with 670 insts 2 vars
+EM Run 2 with 670 insts 2 vars
+EM Run 3 with 670 insts 2 vars
+EM Run 4 with 670 insts 2 vars
+EM Run 5 with 670 insts 2 vars
+EM Run 6 with 670 insts 2 vars
+EM Run 7 with 670 insts 2 vars
+EM Run 8 with 670 insts 2 vars
+EM Run 9 with 670 insts 2 vars
+Indset size 8
+Indset size 8
+Indset size 2
+Using EM with 498 instances and 2 variables ...
+EM Run 0 with 498 insts 2 vars
+EM Run 1 with 498 insts 2 vars
+EM Run 2 with 498 insts 2 vars
+EM Run 3 with 498 insts 2 vars
+EM Run 4 with 498 insts 2 vars
+EM Run 5 with 498 insts 2 vars
+EM Run 6 with 498 insts 2 vars
+EM Run 7 with 498 insts 2 vars
+EM Run 8 with 498 insts 2 vars
+EM Run 9 with 498 insts 2 vars
+Indset size 3
+Indset size 4
+Indset size 2
+Using EM with 450 instances and 2 variables ...
+EM Run 0 with 450 insts 2 vars
+EM Run 1 with 450 insts 2 vars
+EM Run 2 with 450 insts 2 vars
+EM Run 3 with 450 insts 2 vars
+EM Run 4 with 450 insts 2 vars
+EM Run 5 with 450 insts 2 vars
+EM Run 6 with 450 insts 2 vars
+EM Run 7 with 450 insts 2 vars
+EM Run 8 with 450 insts 2 vars
+EM Run 9 with 450 insts 2 vars
+Indset size 2
+Using EM with 443 instances and 2 variables ...
+EM Run 0 with 443 insts 2 vars
+EM Run 1 with 443 insts 2 vars
+EM Run 2 with 443 insts 2 vars
+EM Run 3 with 443 insts 2 vars
+EM Run 4 with 443 insts 2 vars
+EM Run 5 with 443 insts 2 vars
+EM Run 6 with 443 insts 2 vars
+EM Run 7 with 443 insts 2 vars
+EM Run 8 with 443 insts 2 vars
+EM Run 9 with 443 insts 2 vars
+Indset size 2
+Indset size 4
+Indset size 2
+Using EM with 714 instances and 2 variables ...
+EM Run 0 with 714 insts 2 vars
+EM Run 1 with 714 insts 2 vars
+EM Run 2 with 714 insts 2 vars
+EM Run 3 with 714 insts 2 vars
+EM Run 4 with 714 insts 2 vars
+EM Run 5 with 714 insts 2 vars
+EM Run 6 with 714 insts 2 vars
+EM Run 7 with 714 insts 2 vars
+EM Run 8 with 714 insts 2 vars
+EM Run 9 with 714 insts 2 vars
+Indset size 2
+Using EM with 655 instances and 2 variables ...
+EM Run 0 with 655 insts 2 vars
+EM Run 1 with 655 insts 2 vars
+EM Run 2 with 655 insts 2 vars
+EM Run 3 with 655 insts 2 vars
+EM Run 4 with 655 insts 2 vars
+EM Run 5 with 655 insts 2 vars
+EM Run 6 with 655 insts 2 vars
+EM Run 7 with 655 insts 2 vars
+EM Run 8 with 655 insts 2 vars
+EM Run 9 with 655 insts 2 vars
+Indset size 2
+Indset size 8
+Using EM with 670 instances and 8 variables ...
+EM Run 0 with 670 insts 8 vars
+EM Run 1 with 670 insts 8 vars
+EM Run 2 with 670 insts 8 vars
+EM Run 3 with 670 insts 8 vars
+EM Run 4 with 670 insts 8 vars
+EM Run 5 with 670 insts 8 vars
+EM Run 6 with 670 insts 8 vars
+EM Run 7 with 670 insts 8 vars
+EM Run 8 with 670 insts 8 vars
+EM Run 9 with 670 insts 8 vars
+Indset size 2
+Indset size 8
+Using EM with 505 instances and 8 variables ...
+EM Run 0 with 505 insts 8 vars
+EM Run 1 with 505 insts 8 vars
+EM Run 2 with 505 insts 8 vars
+EM Run 3 with 505 insts 8 vars
+EM Run 4 with 505 insts 8 vars
+EM Run 5 with 505 insts 8 vars
+EM Run 6 with 505 insts 8 vars
+EM Run 7 with 505 insts 8 vars
+EM Run 8 with 505 insts 8 vars
+EM Run 9 with 505 insts 8 vars
+Indset size 3
+Using EM with 309 instances and 3 variables ...
+EM Run 0 with 309 insts 3 vars
+EM Run 1 with 309 insts 3 vars
+EM Run 2 with 309 insts 3 vars
+EM Run 3 with 309 insts 3 vars
+EM Run 4 with 309 insts 3 vars
+EM Run 5 with 309 insts 3 vars
+EM Run 6 with 309 insts 3 vars
+EM Run 7 with 309 insts 3 vars
+EM Run 8 with 309 insts 3 vars
+EM Run 9 with 309 insts 3 vars
+Indset size 4
+Using EM with 430 instances and 4 variables ...
+EM Run 0 with 430 insts 4 vars
+EM Run 1 with 430 insts 4 vars
+EM Run 2 with 430 insts 4 vars
+EM Run 3 with 430 insts 4 vars
+EM Run 4 with 430 insts 4 vars
+EM Run 5 with 430 insts 4 vars
+EM Run 6 with 430 insts 4 vars
+EM Run 7 with 430 insts 4 vars
+EM Run 8 with 430 insts 4 vars
+EM Run 9 with 430 insts 4 vars
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 443 instances and 2 variables ...
+EM Run 0 with 443 insts 2 vars
+EM Run 1 with 443 insts 2 vars
+EM Run 2 with 443 insts 2 vars
+EM Run 3 with 443 insts 2 vars
+EM Run 4 with 443 insts 2 vars
+EM Run 5 with 443 insts 2 vars
+EM Run 6 with 443 insts 2 vars
+EM Run 7 with 443 insts 2 vars
+EM Run 8 with 443 insts 2 vars
+EM Run 9 with 443 insts 2 vars
+Indset size 4
+Indset size 5
+Indset size 4
+Using EM with 389 instances and 4 variables ...
+EM Run 0 with 389 insts 4 vars
+EM Run 1 with 389 insts 4 vars
+EM Run 2 with 389 insts 4 vars
+EM Run 3 with 389 insts 4 vars
+EM Run 4 with 389 insts 4 vars
+EM Run 5 with 389 insts 4 vars
+EM Run 6 with 389 insts 4 vars
+EM Run 7 with 389 insts 4 vars
+EM Run 8 with 389 insts 4 vars
+EM Run 9 with 389 insts 4 vars
+Indset size 2
+Indset size 3
+Indset size 2
+Using EM with 581 instances and 2 variables ...
+EM Run 0 with 581 insts 2 vars
+EM Run 1 with 581 insts 2 vars
+EM Run 2 with 581 insts 2 vars
+EM Run 3 with 581 insts 2 vars
+EM Run 4 with 581 insts 2 vars
+EM Run 5 with 581 insts 2 vars
+EM Run 6 with 581 insts 2 vars
+EM Run 7 with 581 insts 2 vars
+EM Run 8 with 581 insts 2 vars
+EM Run 9 with 581 insts 2 vars
+Indset size 2
+Indset size 2
+Using EM with 670 instances and 2 variables ...
+EM Run 0 with 670 insts 2 vars
+EM Run 1 with 670 insts 2 vars
+EM Run 2 with 670 insts 2 vars
+EM Run 3 with 670 insts 2 vars
+EM Run 4 with 670 insts 2 vars
+EM Run 5 with 670 insts 2 vars
+EM Run 6 with 670 insts 2 vars
+EM Run 7 with 670 insts 2 vars
+EM Run 8 with 670 insts 2 vars
+EM Run 9 with 670 insts 2 vars
+Indset size 3
+Indset size 2
+Indset size 2
+Using EM with 430 instances and 2 variables ...
+EM Run 0 with 430 insts 2 vars
+EM Run 1 with 430 insts 2 vars
+EM Run 2 with 430 insts 2 vars
+EM Run 3 with 430 insts 2 vars
+EM Run 4 with 430 insts 2 vars
+EM Run 5 with 430 insts 2 vars
+EM Run 6 with 430 insts 2 vars
+EM Run 7 with 430 insts 2 vars
+EM Run 8 with 430 insts 2 vars
+EM Run 9 with 430 insts 2 vars
+Indset size 2
+Using EM with 506 instances and 2 variables ...
+EM Run 0 with 506 insts 2 vars
+EM Run 1 with 506 insts 2 vars
+EM Run 2 with 506 insts 2 vars
+EM Run 3 with 506 insts 2 vars
+EM Run 4 with 506 insts 2 vars
+EM Run 5 with 506 insts 2 vars
+EM Run 6 with 506 insts 2 vars
+EM Run 7 with 506 insts 2 vars
+EM Run 8 with 506 insts 2 vars
+EM Run 9 with 506 insts 2 vars
+Indset size 4
+Indset size 4
+Using EM with 470 instances and 4 variables ...
+EM Run 0 with 470 insts 4 vars
+EM Run 1 with 470 insts 4 vars
+EM Run 2 with 470 insts 4 vars
+EM Run 3 with 470 insts 4 vars
+EM Run 4 with 470 insts 4 vars
+EM Run 5 with 470 insts 4 vars
+EM Run 6 with 470 insts 4 vars
+EM Run 7 with 470 insts 4 vars
+EM Run 8 with 470 insts 4 vars
+EM Run 9 with 470 insts 4 vars
+Indset size 5
+Using EM with 395 instances and 5 variables ...
+EM Run 0 with 395 insts 5 vars
+EM Run 1 with 395 insts 5 vars
+EM Run 2 with 395 insts 5 vars
+EM Run 3 with 395 insts 5 vars
+EM Run 4 with 395 insts 5 vars
+EM Run 5 with 395 insts 5 vars
+EM Run 6 with 395 insts 5 vars
+EM Run 7 with 395 insts 5 vars
+EM Run 8 with 395 insts 5 vars
+EM Run 9 with 395 insts 5 vars
+Indset size 2
+Using EM with 714 instances and 2 variables ...
+EM Run 0 with 714 insts 2 vars
+EM Run 1 with 714 insts 2 vars
+EM Run 2 with 714 insts 2 vars
+EM Run 3 with 714 insts 2 vars
+EM Run 4 with 714 insts 2 vars
+EM Run 5 with 714 insts 2 vars
+EM Run 6 with 714 insts 2 vars
+EM Run 7 with 714 insts 2 vars
+EM Run 8 with 714 insts 2 vars
+EM Run 9 with 714 insts 2 vars
+Indset size 3
+Indset size 3
+Using EM with 655 instances and 3 variables ...
+EM Run 0 with 655 insts 3 vars
+EM Run 1 with 655 insts 3 vars
+EM Run 2 with 655 insts 3 vars
+EM Run 3 with 655 insts 3 vars
+EM Run 4 with 655 insts 3 vars
+EM Run 5 with 655 insts 3 vars
+EM Run 6 with 655 insts 3 vars
+EM Run 7 with 655 insts 3 vars
+EM Run 8 with 655 insts 3 vars
+EM Run 9 with 655 insts 3 vars
+Indset size 2
+Indset size 4
+Indset size 3
+Indset size 2
+Using EM with 421 instances and 2 variables ...
+EM Run 0 with 421 insts 2 vars
+EM Run 1 with 421 insts 2 vars
+EM Run 2 with 421 insts 2 vars
+EM Run 3 with 421 insts 2 vars
+EM Run 4 with 421 insts 2 vars
+EM Run 5 with 421 insts 2 vars
+EM Run 6 with 421 insts 2 vars
+EM Run 7 with 421 insts 2 vars
+EM Run 8 with 421 insts 2 vars
+EM Run 9 with 421 insts 2 vars
+Indset size 3
+Using EM with 670 instances and 3 variables ...
+EM Run 0 with 670 insts 3 vars
+EM Run 1 with 670 insts 3 vars
+EM Run 2 with 670 insts 3 vars
+EM Run 3 with 670 insts 3 vars
+EM Run 4 with 670 insts 3 vars
+EM Run 5 with 670 insts 3 vars
+EM Run 6 with 670 insts 3 vars
+EM Run 7 with 670 insts 3 vars
+EM Run 8 with 670 insts 3 vars
+EM Run 9 with 670 insts 3 vars
+Indset size 3
+Indset size 2
+Using EM with 498 instances and 2 variables ...
+EM Run 0 with 498 insts 2 vars
+EM Run 1 with 498 insts 2 vars
+EM Run 2 with 498 insts 2 vars
+EM Run 3 with 498 insts 2 vars
+EM Run 4 with 498 insts 2 vars
+EM Run 5 with 498 insts 2 vars
+EM Run 6 with 498 insts 2 vars
+EM Run 7 with 498 insts 2 vars
+EM Run 8 with 498 insts 2 vars
+EM Run 9 with 498 insts 2 vars
+Indset size 2
+Indset size 2
+Indset size 3
+Indset size 4
+Using EM with 588 instances and 4 variables ...
+EM Run 0 with 588 insts 4 vars
+EM Run 1 with 588 insts 4 vars
+EM Run 2 with 588 insts 4 vars
+EM Run 3 with 588 insts 4 vars
+EM Run 4 with 588 insts 4 vars
+EM Run 5 with 588 insts 4 vars
+EM Run 6 with 588 insts 4 vars
+EM Run 7 with 588 insts 4 vars
+EM Run 8 with 588 insts 4 vars
+EM Run 9 with 588 insts 4 vars
+Indset size 3
+Indset size 2
+Indset size 3
+Using EM with 714 instances and 3 variables ...
+EM Run 0 with 714 insts 3 vars
+EM Run 1 with 714 insts 3 vars
+EM Run 2 with 714 insts 3 vars
+EM Run 3 with 714 insts 3 vars
+EM Run 4 with 714 insts 3 vars
+EM Run 5 with 714 insts 3 vars
+EM Run 6 with 714 insts 3 vars
+EM Run 7 with 714 insts 3 vars
+EM Run 8 with 714 insts 3 vars
+EM Run 9 with 714 insts 3 vars
+Indset size 2
+Using EM with 443 instances and 2 variables ...
+EM Run 0 with 443 insts 2 vars
+EM Run 1 with 443 insts 2 vars
+EM Run 2 with 443 insts 2 vars
+EM Run 3 with 443 insts 2 vars
+EM Run 4 with 443 insts 2 vars
+EM Run 5 with 443 insts 2 vars
+EM Run 6 with 443 insts 2 vars
+EM Run 7 with 443 insts 2 vars
+EM Run 8 with 443 insts 2 vars
+EM Run 9 with 443 insts 2 vars
+Indset size 4
+Using EM with 581 instances and 4 variables ...
+EM Run 0 with 581 insts 4 vars
+EM Run 1 with 581 insts 4 vars
+EM Run 2 with 581 insts 4 vars
+EM Run 3 with 581 insts 4 vars
+EM Run 4 with 581 insts 4 vars
+EM Run 5 with 581 insts 4 vars
+EM Run 6 with 581 insts 4 vars
+EM Run 7 with 581 insts 4 vars
+EM Run 8 with 581 insts 4 vars
+EM Run 9 with 581 insts 4 vars
+Indset size 2
+Indset size 3
+Indset size 3
+Using EM with 321 instances and 3 variables ...
+EM Run 0 with 321 insts 3 vars
+EM Run 1 with 321 insts 3 vars
+EM Run 2 with 321 insts 3 vars
+EM Run 3 with 321 insts 3 vars
+EM Run 4 with 321 insts 3 vars
+EM Run 5 with 321 insts 3 vars
+EM Run 6 with 321 insts 3 vars
+EM Run 7 with 321 insts 3 vars
+EM Run 8 with 321 insts 3 vars
+EM Run 9 with 321 insts 3 vars
+Indset size 2
+Indset size 2
+Indset size 3
+Using EM with 505 instances and 3 variables ...
+EM Run 0 with 505 insts 3 vars
+EM Run 1 with 505 insts 3 vars
+EM Run 2 with 505 insts 3 vars
+EM Run 3 with 505 insts 3 vars
+EM Run 4 with 505 insts 3 vars
+EM Run 5 with 505 insts 3 vars
+EM Run 6 with 505 insts 3 vars
+EM Run 7 with 505 insts 3 vars
+EM Run 8 with 505 insts 3 vars
+EM Run 9 with 505 insts 3 vars
+Indset size 2
+Using EM with 309 instances and 2 variables ...
+EM Run 0 with 309 insts 2 vars
+EM Run 1 with 309 insts 2 vars
+EM Run 2 with 309 insts 2 vars
+EM Run 3 with 309 insts 2 vars
+EM Run 4 with 309 insts 2 vars
+EM Run 5 with 309 insts 2 vars
+EM Run 6 with 309 insts 2 vars
+EM Run 7 with 309 insts 2 vars
+EM Run 8 with 309 insts 2 vars
+EM Run 9 with 309 insts 2 vars
+Indset size 2
+Using EM with 520 instances and 2 variables ...
+EM Run 0 with 520 insts 2 vars
+EM Run 1 with 520 insts 2 vars
+EM Run 2 with 520 insts 2 vars
+EM Run 3 with 520 insts 2 vars
+EM Run 4 with 520 insts 2 vars
+EM Run 5 with 520 insts 2 vars
+EM Run 6 with 520 insts 2 vars
+EM Run 7 with 520 insts 2 vars
+EM Run 8 with 520 insts 2 vars
+EM Run 9 with 520 insts 2 vars
+Indset size 3
+Using EM with 430 instances and 3 variables ...
+EM Run 0 with 430 insts 3 vars
+EM Run 1 with 430 insts 3 vars
+EM Run 2 with 430 insts 3 vars
+EM Run 3 with 430 insts 3 vars
+EM Run 4 with 430 insts 3 vars
+EM Run 5 with 430 insts 3 vars
+EM Run 6 with 430 insts 3 vars
+EM Run 7 with 430 insts 3 vars
+EM Run 8 with 430 insts 3 vars
+EM Run 9 with 430 insts 3 vars
+Indset size 2
+Indset size 2
+Indset size 3
+Using EM with 395 instances and 3 variables ...
+EM Run 0 with 395 insts 3 vars
+EM Run 1 with 395 insts 3 vars
+EM Run 2 with 395 insts 3 vars
+EM Run 3 with 395 insts 3 vars
+EM Run 4 with 395 insts 3 vars
+EM Run 5 with 395 insts 3 vars
+EM Run 6 with 395 insts 3 vars
+EM Run 7 with 395 insts 3 vars
+EM Run 8 with 395 insts 3 vars
+EM Run 9 with 395 insts 3 vars
+Indset size 2
+Using EM with 358 instances and 2 variables ...
+EM Run 0 with 358 insts 2 vars
+EM Run 1 with 358 insts 2 vars
+EM Run 2 with 358 insts 2 vars
+EM Run 3 with 358 insts 2 vars
+EM Run 4 with 358 insts 2 vars
+EM Run 5 with 358 insts 2 vars
+EM Run 6 with 358 insts 2 vars
+EM Run 7 with 358 insts 2 vars
+EM Run 8 with 358 insts 2 vars
+EM Run 9 with 358 insts 2 vars
+Indset size 2
+Indset size 2
+Using EM with 581 instances and 2 variables ...
+EM Run 0 with 581 insts 2 vars
+EM Run 1 with 581 insts 2 vars
+EM Run 2 with 581 insts 2 vars
+EM Run 3 with 581 insts 2 vars
+EM Run 4 with 581 insts 2 vars
+EM Run 5 with 581 insts 2 vars
+EM Run 6 with 581 insts 2 vars
+EM Run 7 with 581 insts 2 vars
+EM Run 8 with 581 insts 2 vars
+EM Run 9 with 581 insts 2 vars
+Indset size 3
+Using EM with 370 instances and 3 variables ...
+EM Run 0 with 370 insts 3 vars
+EM Run 1 with 370 insts 3 vars
+EM Run 2 with 370 insts 3 vars
+EM Run 3 with 370 insts 3 vars
+EM Run 4 with 370 insts 3 vars
+EM Run 5 with 370 insts 3 vars
+EM Run 6 with 370 insts 3 vars
+EM Run 7 with 370 insts 3 vars
+EM Run 8 with 370 insts 3 vars
+EM Run 9 with 370 insts 3 vars
+Indset size 2
+Using EM with 321 instances and 2 variables ...
+EM Run 0 with 321 insts 2 vars
+EM Run 1 with 321 insts 2 vars
+EM Run 2 with 321 insts 2 vars
+EM Run 3 with 321 insts 2 vars
+EM Run 4 with 321 insts 2 vars
+EM Run 5 with 321 insts 2 vars
+EM Run 6 with 321 insts 2 vars
+EM Run 7 with 321 insts 2 vars
+EM Run 8 with 321 insts 2 vars
+EM Run 9 with 321 insts 2 vars
+Indset size 2
+Using EM with 421 instances and 2 variables ...
+EM Run 0 with 421 insts 2 vars
+EM Run 1 with 421 insts 2 vars
+EM Run 2 with 421 insts 2 vars
+EM Run 3 with 421 insts 2 vars
+EM Run 4 with 421 insts 2 vars
+EM Run 5 with 421 insts 2 vars
+EM Run 6 with 421 insts 2 vars
+EM Run 7 with 421 insts 2 vars
+EM Run 8 with 421 insts 2 vars
+EM Run 9 with 421 insts 2 vars
+Indset size 4
+Indset size 2
+Indset size 2
+Using EM with 588 instances and 2 variables ...
+EM Run 0 with 588 insts 2 vars
+EM Run 1 with 588 insts 2 vars
+EM Run 2 with 588 insts 2 vars
+EM Run 3 with 588 insts 2 vars
+EM Run 4 with 588 insts 2 vars
+EM Run 5 with 588 insts 2 vars
+EM Run 6 with 588 insts 2 vars
+EM Run 7 with 588 insts 2 vars
+EM Run 8 with 588 insts 2 vars
+EM Run 9 with 588 insts 2 vars
+Indset size 2
+Using EM with 413 instances and 2 variables ...
+EM Run 0 with 413 insts 2 vars
+EM Run 1 with 413 insts 2 vars
+EM Run 2 with 413 insts 2 vars
+EM Run 3 with 413 insts 2 vars
+EM Run 4 with 413 insts 2 vars
+EM Run 5 with 413 insts 2 vars
+EM Run 6 with 413 insts 2 vars
+EM Run 7 with 413 insts 2 vars
+EM Run 8 with 413 insts 2 vars
+EM Run 9 with 413 insts 2 vars
+Indset size 3
+Indset size 2
+Indset size 2
+Using EM with 443 instances and 2 variables ...
+EM Run 0 with 443 insts 2 vars
+EM Run 1 with 443 insts 2 vars
+EM Run 2 with 443 insts 2 vars
+EM Run 3 with 443 insts 2 vars
+EM Run 4 with 443 insts 2 vars
+EM Run 5 with 443 insts 2 vars
+EM Run 6 with 443 insts 2 vars
+EM Run 7 with 443 insts 2 vars
+EM Run 8 with 443 insts 2 vars
+EM Run 9 with 443 insts 2 vars
+Indset size 4
+Using EM with 309 instances and 4 variables ...
+EM Run 0 with 309 insts 4 vars
+EM Run 1 with 309 insts 4 vars
+EM Run 2 with 309 insts 4 vars
+EM Run 3 with 309 insts 4 vars
+EM Run 4 with 309 insts 4 vars
+EM Run 5 with 309 insts 4 vars
+EM Run 6 with 309 insts 4 vars
+EM Run 7 with 309 insts 4 vars
+EM Run 8 with 309 insts 4 vars
+EM Run 9 with 309 insts 4 vars
+Indset size 3
+Indset size 2
+Using EM with 430 instances and 2 variables ...
+EM Run 0 with 430 insts 2 vars
+EM Run 1 with 430 insts 2 vars
+EM Run 2 with 430 insts 2 vars
+EM Run 3 with 430 insts 2 vars
+EM Run 4 with 430 insts 2 vars
+EM Run 5 with 430 insts 2 vars
+EM Run 6 with 430 insts 2 vars
+EM Run 7 with 430 insts 2 vars
+EM Run 8 with 430 insts 2 vars
+EM Run 9 with 430 insts 2 vars
+Indset size 2
+Indset size 3
+Using EM with 470 instances and 3 variables ...
+EM Run 0 with 470 insts 3 vars
+EM Run 1 with 470 insts 3 vars
+EM Run 2 with 470 insts 3 vars
+EM Run 3 with 470 insts 3 vars
+EM Run 4 with 470 insts 3 vars
+EM Run 5 with 470 insts 3 vars
+EM Run 6 with 470 insts 3 vars
+EM Run 7 with 470 insts 3 vars
+EM Run 8 with 470 insts 3 vars
+EM Run 9 with 470 insts 3 vars
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 390 instances and 2 variables ...
+EM Run 0 with 390 insts 2 vars
+EM Run 1 with 390 insts 2 vars
+EM Run 2 with 390 insts 2 vars
+EM Run 3 with 390 insts 2 vars
+EM Run 4 with 390 insts 2 vars
+EM Run 5 with 390 insts 2 vars
+EM Run 6 with 390 insts 2 vars
+EM Run 7 with 390 insts 2 vars
+EM Run 8 with 390 insts 2 vars
+EM Run 9 with 390 insts 2 vars
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 3
+Indset size 3
+Using EM with 309 instances and 3 variables ...
+EM Run 0 with 309 insts 3 vars
+EM Run 1 with 309 insts 3 vars
+EM Run 2 with 309 insts 3 vars
+EM Run 3 with 309 insts 3 vars
+EM Run 4 with 309 insts 3 vars
+EM Run 5 with 309 insts 3 vars
+EM Run 6 with 309 insts 3 vars
+EM Run 7 with 309 insts 3 vars
+EM Run 8 with 309 insts 3 vars
+EM Run 9 with 309 insts 3 vars
+Indset size 2
+Using EM with 506 instances and 2 variables ...
+EM Run 0 with 506 insts 2 vars
+EM Run 1 with 506 insts 2 vars
+EM Run 2 with 506 insts 2 vars
+EM Run 3 with 506 insts 2 vars
+EM Run 4 with 506 insts 2 vars
+EM Run 5 with 506 insts 2 vars
+EM Run 6 with 506 insts 2 vars
+EM Run 7 with 506 insts 2 vars
+EM Run 8 with 506 insts 2 vars
+EM Run 9 with 506 insts 2 vars
+Indset size 2
+Using EM with 470 instances and 2 variables ...
+EM Run 0 with 470 insts 2 vars
+EM Run 1 with 470 insts 2 vars
+EM Run 2 with 470 insts 2 vars
+EM Run 3 with 470 insts 2 vars
+EM Run 4 with 470 insts 2 vars
+EM Run 5 with 470 insts 2 vars
+EM Run 6 with 470 insts 2 vars
+EM Run 7 with 470 insts 2 vars
+EM Run 8 with 470 insts 2 vars
+EM Run 9 with 470 insts 2 vars
+Indset size 2
+Using EM with 395 instances and 2 variables ...
+EM Run 0 with 395 insts 2 vars
+EM Run 1 with 395 insts 2 vars
+EM Run 2 with 395 insts 2 vars
+EM Run 3 with 395 insts 2 vars
+EM Run 4 with 395 insts 2 vars
+EM Run 5 with 395 insts 2 vars
+EM Run 6 with 395 insts 2 vars
+EM Run 7 with 395 insts 2 vars
+EM Run 8 with 395 insts 2 vars
+EM Run 9 with 395 insts 2 vars
+Indset size 2
+Indset size 2
+Using EM with 343 instances and 2 variables ...
+EM Run 0 with 343 insts 2 vars
+EM Run 1 with 343 insts 2 vars
+EM Run 2 with 343 insts 2 vars
+EM Run 3 with 343 insts 2 vars
+EM Run 4 with 343 insts 2 vars
+EM Run 5 with 343 insts 2 vars
+EM Run 6 with 343 insts 2 vars
+EM Run 7 with 343 insts 2 vars
+EM Run 8 with 343 insts 2 vars
+EM Run 9 with 343 insts 2 vars
+Indset size 2
+Using EM with 655 instances and 2 variables ...
+EM Run 0 with 655 insts 2 vars
+EM Run 1 with 655 insts 2 vars
+EM Run 2 with 655 insts 2 vars
+EM Run 3 with 655 insts 2 vars
+EM Run 4 with 655 insts 2 vars
+EM Run 5 with 655 insts 2 vars
+EM Run 6 with 655 insts 2 vars
+EM Run 7 with 655 insts 2 vars
+EM Run 8 with 655 insts 2 vars
+EM Run 9 with 655 insts 2 vars
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 670 instances and 2 variables ...
+EM Run 0 with 670 insts 2 vars
+EM Run 1 with 670 insts 2 vars
+EM Run 2 with 670 insts 2 vars
+EM Run 3 with 670 insts 2 vars
+EM Run 4 with 670 insts 2 vars
+EM Run 5 with 670 insts 2 vars
+EM Run 6 with 670 insts 2 vars
+EM Run 7 with 670 insts 2 vars
+EM Run 8 with 670 insts 2 vars
+EM Run 9 with 670 insts 2 vars
+Indset size 3
+Using EM with 505 instances and 3 variables ...
+EM Run 0 with 505 insts 3 vars
+EM Run 1 with 505 insts 3 vars
+EM Run 2 with 505 insts 3 vars
+EM Run 3 with 505 insts 3 vars
+EM Run 4 with 505 insts 3 vars
+EM Run 5 with 505 insts 3 vars
+EM Run 6 with 505 insts 3 vars
+EM Run 7 with 505 insts 3 vars
+EM Run 8 with 505 insts 3 vars
+EM Run 9 with 505 insts 3 vars
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 3
+Indset size 2
+Indset size 4
+Indset size 2
+Using EM with 529 instances and 2 variables ...
+EM Run 0 with 529 insts 2 vars
+EM Run 1 with 529 insts 2 vars
+EM Run 2 with 529 insts 2 vars
+EM Run 3 with 529 insts 2 vars
+EM Run 4 with 529 insts 2 vars
+EM Run 5 with 529 insts 2 vars
+EM Run 6 with 529 insts 2 vars
+EM Run 7 with 529 insts 2 vars
+EM Run 8 with 529 insts 2 vars
+EM Run 9 with 529 insts 2 vars
+Indset size 2
+Using EM with 655 instances and 2 variables ...
+EM Run 0 with 655 insts 2 vars
+EM Run 1 with 655 insts 2 vars
+EM Run 2 with 655 insts 2 vars
+EM Run 3 with 655 insts 2 vars
+EM Run 4 with 655 insts 2 vars
+EM Run 5 with 655 insts 2 vars
+EM Run 6 with 655 insts 2 vars
+EM Run 7 with 655 insts 2 vars
+EM Run 8 with 655 insts 2 vars
+EM Run 9 with 655 insts 2 vars
+Indset size 2
+Using EM with 581 instances and 2 variables ...
+EM Run 0 with 581 insts 2 vars
+EM Run 1 with 581 insts 2 vars
+EM Run 2 with 581 insts 2 vars
+EM Run 3 with 581 insts 2 vars
+EM Run 4 with 581 insts 2 vars
+EM Run 5 with 581 insts 2 vars
+EM Run 6 with 581 insts 2 vars
+EM Run 7 with 581 insts 2 vars
+EM Run 8 with 581 insts 2 vars
+EM Run 9 with 581 insts 2 vars
+Indset size 2
+Indset size 2
+Using EM with 389 instances and 2 variables ...
+EM Run 0 with 389 insts 2 vars
+EM Run 1 with 389 insts 2 vars
+EM Run 2 with 389 insts 2 vars
+EM Run 3 with 389 insts 2 vars
+EM Run 4 with 389 insts 2 vars
+EM Run 5 with 389 insts 2 vars
+EM Run 6 with 389 insts 2 vars
+EM Run 7 with 389 insts 2 vars
+EM Run 8 with 389 insts 2 vars
+EM Run 9 with 389 insts 2 vars
+Indset size 2
+Using EM with 430 instances and 2 variables ...
+EM Run 0 with 430 insts 2 vars
+EM Run 1 with 430 insts 2 vars
+EM Run 2 with 430 insts 2 vars
+EM Run 3 with 430 insts 2 vars
+EM Run 4 with 430 insts 2 vars
+EM Run 5 with 430 insts 2 vars
+EM Run 6 with 430 insts 2 vars
+EM Run 7 with 430 insts 2 vars
+EM Run 8 with 430 insts 2 vars
+EM Run 9 with 430 insts 2 vars
+Indset size 3
+Indset size 2
+Indset size 2
+Using EM with 506 instances and 2 variables ...
+EM Run 0 with 506 insts 2 vars
+EM Run 1 with 506 insts 2 vars
+EM Run 2 with 506 insts 2 vars
+EM Run 3 with 506 insts 2 vars
+EM Run 4 with 506 insts 2 vars
+EM Run 5 with 506 insts 2 vars
+EM Run 6 with 506 insts 2 vars
+EM Run 7 with 506 insts 2 vars
+EM Run 8 with 506 insts 2 vars
+EM Run 9 with 506 insts 2 vars
+Indset size 4
+Indset size 2
+Indset size 3
+Using EM with 470 instances and 3 variables ...
+EM Run 0 with 470 insts 3 vars
+EM Run 1 with 470 insts 3 vars
+EM Run 2 with 470 insts 3 vars
+EM Run 3 with 470 insts 3 vars
+EM Run 4 with 470 insts 3 vars
+EM Run 5 with 470 insts 3 vars
+EM Run 6 with 470 insts 3 vars
+EM Run 7 with 470 insts 3 vars
+EM Run 8 with 470 insts 3 vars
+EM Run 9 with 470 insts 3 vars
+Indset size 2
+Using EM with 395 instances and 2 variables ...
+EM Run 0 with 395 insts 2 vars
+EM Run 1 with 395 insts 2 vars
+EM Run 2 with 395 insts 2 vars
+EM Run 3 with 395 insts 2 vars
+EM Run 4 with 395 insts 2 vars
+EM Run 5 with 395 insts 2 vars
+EM Run 6 with 395 insts 2 vars
+EM Run 7 with 395 insts 2 vars
+EM Run 8 with 395 insts 2 vars
+EM Run 9 with 395 insts 2 vars
+Indset size 4
+Using EM with 389 instances and 4 variables ...
+EM Run 0 with 389 insts 4 vars
+EM Run 1 with 389 insts 4 vars
+EM Run 2 with 389 insts 4 vars
+EM Run 3 with 389 insts 4 vars
+EM Run 4 with 389 insts 4 vars
+EM Run 5 with 389 insts 4 vars
+EM Run 6 with 389 insts 4 vars
+EM Run 7 with 389 insts 4 vars
+EM Run 8 with 389 insts 4 vars
+EM Run 9 with 389 insts 4 vars
+Indset size 2
+Indset size 2
+Using EM with 370 instances and 2 variables ...
+EM Run 0 with 370 insts 2 vars
+EM Run 1 with 370 insts 2 vars
+EM Run 2 with 370 insts 2 vars
+EM Run 3 with 370 insts 2 vars
+EM Run 4 with 370 insts 2 vars
+EM Run 5 with 370 insts 2 vars
+EM Run 6 with 370 insts 2 vars
+EM Run 7 with 370 insts 2 vars
+EM Run 8 with 370 insts 2 vars
+EM Run 9 with 370 insts 2 vars
+Indset size 3
+Indset size 3
+Using EM with 430 instances and 3 variables ...
+EM Run 0 with 430 insts 3 vars
+EM Run 1 with 430 insts 3 vars
+EM Run 2 with 430 insts 3 vars
+EM Run 3 with 430 insts 3 vars
+EM Run 4 with 430 insts 3 vars
+EM Run 5 with 430 insts 3 vars
+EM Run 6 with 430 insts 3 vars
+EM Run 7 with 430 insts 3 vars
+EM Run 8 with 430 insts 3 vars
+EM Run 9 with 430 insts 3 vars
+Indset size 2
+Using EM with 520 instances and 2 variables ...
+EM Run 0 with 520 insts 2 vars
+EM Run 1 with 520 insts 2 vars
+EM Run 2 with 520 insts 2 vars
+EM Run 3 with 520 insts 2 vars
+EM Run 4 with 520 insts 2 vars
+EM Run 5 with 520 insts 2 vars
+EM Run 6 with 520 insts 2 vars
+EM Run 7 with 520 insts 2 vars
+EM Run 8 with 520 insts 2 vars
+EM Run 9 with 520 insts 2 vars
+Indset size 4
+Using EM with 506 instances and 4 variables ...
+EM Run 0 with 506 insts 4 vars
+EM Run 1 with 506 insts 4 vars
+EM Run 2 with 506 insts 4 vars
+EM Run 3 with 506 insts 4 vars
+EM Run 4 with 506 insts 4 vars
+EM Run 5 with 506 insts 4 vars
+EM Run 6 with 506 insts 4 vars
+EM Run 7 with 506 insts 4 vars
+EM Run 8 with 506 insts 4 vars
+EM Run 9 with 506 insts 4 vars
+Indset size 2
+Using EM with 588 instances and 2 variables ...
+EM Run 0 with 588 insts 2 vars
+EM Run 1 with 588 insts 2 vars
+EM Run 2 with 588 insts 2 vars
+EM Run 3 with 588 insts 2 vars
+EM Run 4 with 588 insts 2 vars
+EM Run 5 with 588 insts 2 vars
+EM Run 6 with 588 insts 2 vars
+EM Run 7 with 588 insts 2 vars
+EM Run 8 with 588 insts 2 vars
+EM Run 9 with 588 insts 2 vars
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 343 instances and 2 variables ...
+EM Run 0 with 343 insts 2 vars
+EM Run 1 with 343 insts 2 vars
+EM Run 2 with 343 insts 2 vars
+EM Run 3 with 343 insts 2 vars
+EM Run 4 with 343 insts 2 vars
+EM Run 5 with 343 insts 2 vars
+EM Run 6 with 343 insts 2 vars
+EM Run 7 with 343 insts 2 vars
+EM Run 8 with 343 insts 2 vars
+EM Run 9 with 343 insts 2 vars
+Indset size 3
+Indset size 5
+Indset size 2
+Indset size 5
+Indset size 3
+Using EM with 498 instances and 3 variables ...
+EM Run 0 with 498 insts 3 vars
+EM Run 1 with 498 insts 3 vars
+EM Run 2 with 498 insts 3 vars
+EM Run 3 with 498 insts 3 vars
+EM Run 4 with 498 insts 3 vars
+EM Run 5 with 498 insts 3 vars
+EM Run 6 with 498 insts 3 vars
+EM Run 7 with 498 insts 3 vars
+EM Run 8 with 498 insts 3 vars
+EM Run 9 with 498 insts 3 vars
+Indset size 2
+Using EM with 588 instances and 2 variables ...
+EM Run 0 with 588 insts 2 vars
+EM Run 1 with 588 insts 2 vars
+EM Run 2 with 588 insts 2 vars
+EM Run 3 with 588 insts 2 vars
+EM Run 4 with 588 insts 2 vars
+EM Run 5 with 588 insts 2 vars
+EM Run 6 with 588 insts 2 vars
+EM Run 7 with 588 insts 2 vars
+EM Run 8 with 588 insts 2 vars
+EM Run 9 with 588 insts 2 vars
+Indset size 3
+Indset size 2
+Using EM with 189 instances and 2 variables ...
+EM Run 0 with 189 insts 2 vars
+EM Run 1 with 189 insts 2 vars
+EM Run 2 with 189 insts 2 vars
+EM Run 3 with 189 insts 2 vars
+EM Run 4 with 189 insts 2 vars
+EM Run 5 with 189 insts 2 vars
+EM Run 6 with 189 insts 2 vars
+EM Run 7 with 189 insts 2 vars
+EM Run 8 with 189 insts 2 vars
+EM Run 9 with 189 insts 2 vars
+Indset size 2
+Indset size 2
+Indset size 3
+Using EM with 343 instances and 3 variables ...
+EM Run 0 with 343 insts 3 vars
+EM Run 1 with 343 insts 3 vars
+EM Run 2 with 343 insts 3 vars
+EM Run 3 with 343 insts 3 vars
+EM Run 4 with 343 insts 3 vars
+EM Run 5 with 343 insts 3 vars
+EM Run 6 with 343 insts 3 vars
+EM Run 7 with 343 insts 3 vars
+EM Run 8 with 343 insts 3 vars
+EM Run 9 with 343 insts 3 vars
+Indset size 5
+Using EM with 655 instances and 5 variables ...
+EM Run 0 with 655 insts 5 vars
+EM Run 1 with 655 insts 5 vars
+EM Run 2 with 655 insts 5 vars
+EM Run 3 with 655 insts 5 vars
+EM Run 4 with 655 insts 5 vars
+EM Run 5 with 655 insts 5 vars
+EM Run 6 with 655 insts 5 vars
+EM Run 7 with 655 insts 5 vars
+EM Run 8 with 655 insts 5 vars
+EM Run 9 with 655 insts 5 vars
+Indset size 2
+Indset size 2
+Using EM with 500 instances and 2 variables ...
+EM Run 0 with 500 insts 2 vars
+EM Run 1 with 500 insts 2 vars
+EM Run 2 with 500 insts 2 vars
+EM Run 3 with 500 insts 2 vars
+EM Run 4 with 500 insts 2 vars
+EM Run 5 with 500 insts 2 vars
+EM Run 6 with 500 insts 2 vars
+EM Run 7 with 500 insts 2 vars
+EM Run 8 with 500 insts 2 vars
+EM Run 9 with 500 insts 2 vars
+Indset size 2
+Indset size 5
+Using EM with 670 instances and 5 variables ...
+EM Run 0 with 670 insts 5 vars
+EM Run 1 with 670 insts 5 vars
+EM Run 2 with 670 insts 5 vars
+EM Run 3 with 670 insts 5 vars
+EM Run 4 with 670 insts 5 vars
+EM Run 5 with 670 insts 5 vars
+EM Run 6 with 670 insts 5 vars
+EM Run 7 with 670 insts 5 vars
+EM Run 8 with 670 insts 5 vars
+EM Run 9 with 670 insts 5 vars
+Indset size 2
+Indset size 3
+Using EM with 450 instances and 3 variables ...
+EM Run 0 with 450 insts 3 vars
+EM Run 1 with 450 insts 3 vars
+EM Run 2 with 450 insts 3 vars
+EM Run 3 with 450 insts 3 vars
+EM Run 4 with 450 insts 3 vars
+EM Run 5 with 450 insts 3 vars
+EM Run 6 with 450 insts 3 vars
+EM Run 7 with 450 insts 3 vars
+EM Run 8 with 450 insts 3 vars
+EM Run 9 with 450 insts 3 vars
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 389 instances and 2 variables ...
+EM Run 0 with 389 insts 2 vars
+EM Run 1 with 389 insts 2 vars
+EM Run 2 with 389 insts 2 vars
+EM Run 3 with 389 insts 2 vars
+EM Run 4 with 389 insts 2 vars
+EM Run 5 with 389 insts 2 vars
+EM Run 6 with 389 insts 2 vars
+EM Run 7 with 389 insts 2 vars
+EM Run 8 with 389 insts 2 vars
+EM Run 9 with 389 insts 2 vars
+Indset size 2
+Using EM with 529 instances and 2 variables ...
+EM Run 0 with 529 insts 2 vars
+EM Run 1 with 529 insts 2 vars
+EM Run 2 with 529 insts 2 vars
+EM Run 3 with 529 insts 2 vars
+EM Run 4 with 529 insts 2 vars
+EM Run 5 with 529 insts 2 vars
+EM Run 6 with 529 insts 2 vars
+EM Run 7 with 529 insts 2 vars
+EM Run 8 with 529 insts 2 vars
+EM Run 9 with 529 insts 2 vars
+Indset size 2
+Using EM with 443 instances and 2 variables ...
+EM Run 0 with 443 insts 2 vars
+EM Run 1 with 443 insts 2 vars
+EM Run 2 with 443 insts 2 vars
+EM Run 3 with 443 insts 2 vars
+EM Run 4 with 443 insts 2 vars
+EM Run 5 with 443 insts 2 vars
+EM Run 6 with 443 insts 2 vars
+EM Run 7 with 443 insts 2 vars
+EM Run 8 with 443 insts 2 vars
+EM Run 9 with 443 insts 2 vars
+Indset size 2
+Using EM with 221 instances and 2 variables ...
+EM Run 0 with 221 insts 2 vars
+EM Run 1 with 221 insts 2 vars
+EM Run 2 with 221 insts 2 vars
+EM Run 3 with 221 insts 2 vars
+EM Run 4 with 221 insts 2 vars
+EM Run 5 with 221 insts 2 vars
+EM Run 6 with 221 insts 2 vars
+EM Run 7 with 221 insts 2 vars
+EM Run 8 with 221 insts 2 vars
+EM Run 9 with 221 insts 2 vars
+Indset size 2
+Using EM with 505 instances and 2 variables ...
+EM Run 0 with 505 insts 2 vars
+EM Run 1 with 505 insts 2 vars
+EM Run 2 with 505 insts 2 vars
+EM Run 3 with 505 insts 2 vars
+EM Run 4 with 505 insts 2 vars
+EM Run 5 with 505 insts 2 vars
+EM Run 6 with 505 insts 2 vars
+EM Run 7 with 505 insts 2 vars
+EM Run 8 with 505 insts 2 vars
+EM Run 9 with 505 insts 2 vars
+Indset size 4
+Indset size 3
+Indset size 2
+Indset size 2
+Using EM with 443 instances and 2 variables ...
+EM Run 0 with 443 insts 2 vars
+EM Run 1 with 443 insts 2 vars
+EM Run 2 with 443 insts 2 vars
+EM Run 3 with 443 insts 2 vars
+EM Run 4 with 443 insts 2 vars
+EM Run 5 with 443 insts 2 vars
+EM Run 6 with 443 insts 2 vars
+EM Run 7 with 443 insts 2 vars
+EM Run 8 with 443 insts 2 vars
+EM Run 9 with 443 insts 2 vars
+Indset size 2
+Using EM with 395 instances and 2 variables ...
+EM Run 0 with 395 insts 2 vars
+EM Run 1 with 395 insts 2 vars
+EM Run 2 with 395 insts 2 vars
+EM Run 3 with 395 insts 2 vars
+EM Run 4 with 395 insts 2 vars
+EM Run 5 with 395 insts 2 vars
+EM Run 6 with 395 insts 2 vars
+EM Run 7 with 395 insts 2 vars
+EM Run 8 with 395 insts 2 vars
+EM Run 9 with 395 insts 2 vars
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 5
+Indset size 4
+Using EM with 498 instances and 4 variables ...
+EM Run 0 with 498 insts 4 vars
+EM Run 1 with 498 insts 4 vars
+EM Run 2 with 498 insts 4 vars
+EM Run 3 with 498 insts 4 vars
+EM Run 4 with 498 insts 4 vars
+EM Run 5 with 498 insts 4 vars
+EM Run 6 with 498 insts 4 vars
+EM Run 7 with 498 insts 4 vars
+EM Run 8 with 498 insts 4 vars
+EM Run 9 with 498 insts 4 vars
+Indset size 2
+Indset size 2
+Indset size 3
+Using EM with 430 instances and 3 variables ...
+EM Run 0 with 430 insts 3 vars
+EM Run 1 with 430 insts 3 vars
+EM Run 2 with 430 insts 3 vars
+EM Run 3 with 430 insts 3 vars
+EM Run 4 with 430 insts 3 vars
+EM Run 5 with 430 insts 3 vars
+EM Run 6 with 430 insts 3 vars
+EM Run 7 with 430 insts 3 vars
+EM Run 8 with 430 insts 3 vars
+EM Run 9 with 430 insts 3 vars
+Indset size 2
+Using EM with 588 instances and 2 variables ...
+EM Run 0 with 588 insts 2 vars
+EM Run 1 with 588 insts 2 vars
+EM Run 2 with 588 insts 2 vars
+EM Run 3 with 588 insts 2 vars
+EM Run 4 with 588 insts 2 vars
+EM Run 5 with 588 insts 2 vars
+EM Run 6 with 588 insts 2 vars
+EM Run 7 with 588 insts 2 vars
+EM Run 8 with 588 insts 2 vars
+EM Run 9 with 588 insts 2 vars
+Indset size 2
+Using EM with 389 instances and 2 variables ...
+EM Run 0 with 389 insts 2 vars
+EM Run 1 with 389 insts 2 vars
+EM Run 2 with 389 insts 2 vars
+EM Run 3 with 389 insts 2 vars
+EM Run 4 with 389 insts 2 vars
+EM Run 5 with 389 insts 2 vars
+EM Run 6 with 389 insts 2 vars
+EM Run 7 with 389 insts 2 vars
+EM Run 8 with 389 insts 2 vars
+EM Run 9 with 389 insts 2 vars
+Indset size 2
+Using EM with 343 instances and 2 variables ...
+EM Run 0 with 343 insts 2 vars
+EM Run 1 with 343 insts 2 vars
+EM Run 2 with 343 insts 2 vars
+EM Run 3 with 343 insts 2 vars
+EM Run 4 with 343 insts 2 vars
+EM Run 5 with 343 insts 2 vars
+EM Run 6 with 343 insts 2 vars
+EM Run 7 with 343 insts 2 vars
+EM Run 8 with 343 insts 2 vars
+EM Run 9 with 343 insts 2 vars
+Indset size 2
+Indset size 2
+Using EM with 443 instances and 2 variables ...
+EM Run 0 with 443 insts 2 vars
+EM Run 1 with 443 insts 2 vars
+EM Run 2 with 443 insts 2 vars
+EM Run 3 with 443 insts 2 vars
+EM Run 4 with 443 insts 2 vars
+EM Run 5 with 443 insts 2 vars
+EM Run 6 with 443 insts 2 vars
+EM Run 7 with 443 insts 2 vars
+EM Run 8 with 443 insts 2 vars
+EM Run 9 with 443 insts 2 vars
+Indset size 2
+Using EM with 405 instances and 2 variables ...
+EM Run 0 with 405 insts 2 vars
+EM Run 1 with 405 insts 2 vars
+EM Run 2 with 405 insts 2 vars
+EM Run 3 with 405 insts 2 vars
+EM Run 4 with 405 insts 2 vars
+EM Run 5 with 405 insts 2 vars
+EM Run 6 with 405 insts 2 vars
+EM Run 7 with 405 insts 2 vars
+EM Run 8 with 405 insts 2 vars
+EM Run 9 with 405 insts 2 vars
+Indset size 5
+Using EM with 505 instances and 5 variables ...
+EM Run 0 with 505 insts 5 vars
+EM Run 1 with 505 insts 5 vars
+EM Run 2 with 505 insts 5 vars
+EM Run 3 with 505 insts 5 vars
+EM Run 4 with 505 insts 5 vars
+EM Run 5 with 505 insts 5 vars
+EM Run 6 with 505 insts 5 vars
+EM Run 7 with 505 insts 5 vars
+EM Run 8 with 505 insts 5 vars
+EM Run 9 with 505 insts 5 vars
+Indset size 2
+Using EM with 498 instances and 2 variables ...
+EM Run 0 with 498 insts 2 vars
+EM Run 1 with 498 insts 2 vars
+EM Run 2 with 498 insts 2 vars
+EM Run 3 with 498 insts 2 vars
+EM Run 4 with 498 insts 2 vars
+EM Run 5 with 498 insts 2 vars
+EM Run 6 with 498 insts 2 vars
+EM Run 7 with 498 insts 2 vars
+EM Run 8 with 498 insts 2 vars
+EM Run 9 with 498 insts 2 vars
+Indset size 2
+Using EM with 389 instances and 2 variables ...
+EM Run 0 with 389 insts 2 vars
+EM Run 1 with 389 insts 2 vars
+EM Run 2 with 389 insts 2 vars
+EM Run 3 with 389 insts 2 vars
+EM Run 4 with 389 insts 2 vars
+EM Run 5 with 389 insts 2 vars
+EM Run 6 with 389 insts 2 vars
+EM Run 7 with 389 insts 2 vars
+EM Run 8 with 389 insts 2 vars
+EM Run 9 with 389 insts 2 vars
+Indset size 2
+Indset size 2
+Using EM with 655 instances and 2 variables ...
+EM Run 0 with 655 insts 2 vars
+EM Run 1 with 655 insts 2 vars
+EM Run 2 with 655 insts 2 vars
+EM Run 3 with 655 insts 2 vars
+EM Run 4 with 655 insts 2 vars
+EM Run 5 with 655 insts 2 vars
+EM Run 6 with 655 insts 2 vars
+EM Run 7 with 655 insts 2 vars
+EM Run 8 with 655 insts 2 vars
+EM Run 9 with 655 insts 2 vars
+Indset size 2
+Indset size 2
+Using EM with 389 instances and 2 variables ...
+EM Run 0 with 389 insts 2 vars
+EM Run 1 with 389 insts 2 vars
+EM Run 2 with 389 insts 2 vars
+EM Run 3 with 389 insts 2 vars
+EM Run 4 with 389 insts 2 vars
+EM Run 5 with 389 insts 2 vars
+EM Run 6 with 389 insts 2 vars
+EM Run 7 with 389 insts 2 vars
+EM Run 8 with 389 insts 2 vars
+EM Run 9 with 389 insts 2 vars
+Indset size 2
+Indset size 2
+Using EM with 655 instances and 2 variables ...
+EM Run 0 with 655 insts 2 vars
+EM Run 1 with 655 insts 2 vars
+EM Run 2 with 655 insts 2 vars
+EM Run 3 with 655 insts 2 vars
+EM Run 4 with 655 insts 2 vars
+EM Run 5 with 655 insts 2 vars
+EM Run 6 with 655 insts 2 vars
+EM Run 7 with 655 insts 2 vars
+EM Run 8 with 655 insts 2 vars
+EM Run 9 with 655 insts 2 vars
+Indset size 7
+Indset size 2
+Indset size 3
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 430 instances and 2 variables ...
+EM Run 0 with 430 insts 2 vars
+EM Run 1 with 430 insts 2 vars
+EM Run 2 with 430 insts 2 vars
+EM Run 3 with 430 insts 2 vars
+EM Run 4 with 430 insts 2 vars
+EM Run 5 with 430 insts 2 vars
+EM Run 6 with 430 insts 2 vars
+EM Run 7 with 430 insts 2 vars
+EM Run 8 with 430 insts 2 vars
+EM Run 9 with 430 insts 2 vars
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 7
+Using EM with 443 instances and 7 variables ...
+EM Run 0 with 443 insts 7 vars
+EM Run 1 with 443 insts 7 vars
+EM Run 2 with 443 insts 7 vars
+EM Run 3 with 443 insts 7 vars
+EM Run 4 with 443 insts 7 vars
+EM Run 5 with 443 insts 7 vars
+EM Run 6 with 443 insts 7 vars
+EM Run 7 with 443 insts 7 vars
+EM Run 8 with 443 insts 7 vars
+EM Run 9 with 443 insts 7 vars
+Indset size 2
+Using EM with 581 instances and 2 variables ...
+EM Run 0 with 581 insts 2 vars
+EM Run 1 with 581 insts 2 vars
+EM Run 2 with 581 insts 2 vars
+EM Run 3 with 581 insts 2 vars
+EM Run 4 with 581 insts 2 vars
+EM Run 5 with 581 insts 2 vars
+EM Run 6 with 581 insts 2 vars
+EM Run 7 with 581 insts 2 vars
+EM Run 8 with 581 insts 2 vars
+EM Run 9 with 581 insts 2 vars
+Indset size 3
+Using EM with 500 instances and 3 variables ...
+EM Run 0 with 500 insts 3 vars
+EM Run 1 with 500 insts 3 vars
+EM Run 2 with 500 insts 3 vars
+EM Run 3 with 500 insts 3 vars
+EM Run 4 with 500 insts 3 vars
+EM Run 5 with 500 insts 3 vars
+EM Run 6 with 500 insts 3 vars
+EM Run 7 with 500 insts 3 vars
+EM Run 8 with 500 insts 3 vars
+EM Run 9 with 500 insts 3 vars
+Indset size 2
+Indset size 2
+Using EM with 370 instances and 2 variables ...
+EM Run 0 with 370 insts 2 vars
+EM Run 1 with 370 insts 2 vars
+EM Run 2 with 370 insts 2 vars
+EM Run 3 with 370 insts 2 vars
+EM Run 4 with 370 insts 2 vars
+EM Run 5 with 370 insts 2 vars
+EM Run 6 with 370 insts 2 vars
+EM Run 7 with 370 insts 2 vars
+EM Run 8 with 370 insts 2 vars
+EM Run 9 with 370 insts 2 vars
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 505 instances and 2 variables ...
+EM Run 0 with 505 insts 2 vars
+EM Run 1 with 505 insts 2 vars
+EM Run 2 with 505 insts 2 vars
+EM Run 3 with 505 insts 2 vars
+EM Run 4 with 505 insts 2 vars
+EM Run 5 with 505 insts 2 vars
+EM Run 6 with 505 insts 2 vars
+EM Run 7 with 505 insts 2 vars
+EM Run 8 with 505 insts 2 vars
+EM Run 9 with 505 insts 2 vars
+Indset size 2
+Indset size 2
+Using EM with 588 instances and 2 variables ...
+EM Run 0 with 588 insts 2 vars
+EM Run 1 with 588 insts 2 vars
+EM Run 2 with 588 insts 2 vars
+EM Run 3 with 588 insts 2 vars
+EM Run 4 with 588 insts 2 vars
+EM Run 5 with 588 insts 2 vars
+EM Run 6 with 588 insts 2 vars
+EM Run 7 with 588 insts 2 vars
+EM Run 8 with 588 insts 2 vars
+EM Run 9 with 588 insts 2 vars
+Indset size 2
+Using EM with 470 instances and 2 variables ...
+EM Run 0 with 470 insts 2 vars
+EM Run 1 with 470 insts 2 vars
+EM Run 2 with 470 insts 2 vars
+EM Run 3 with 470 insts 2 vars
+EM Run 4 with 470 insts 2 vars
+EM Run 5 with 470 insts 2 vars
+EM Run 6 with 470 insts 2 vars
+EM Run 7 with 470 insts 2 vars
+EM Run 8 with 470 insts 2 vars
+EM Run 9 with 470 insts 2 vars
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 714 instances and 2 variables ...
+EM Run 0 with 714 insts 2 vars
+EM Run 1 with 714 insts 2 vars
+EM Run 2 with 714 insts 2 vars
+EM Run 3 with 714 insts 2 vars
+EM Run 4 with 714 insts 2 vars
+EM Run 5 with 714 insts 2 vars
+EM Run 6 with 714 insts 2 vars
+EM Run 7 with 714 insts 2 vars
+EM Run 8 with 714 insts 2 vars
+EM Run 9 with 714 insts 2 vars
+Indset size 2
+Using EM with 500 instances and 2 variables ...
+EM Run 0 with 500 insts 2 vars
+EM Run 1 with 500 insts 2 vars
+EM Run 2 with 500 insts 2 vars
+EM Run 3 with 500 insts 2 vars
+EM Run 4 with 500 insts 2 vars
+EM Run 5 with 500 insts 2 vars
+EM Run 6 with 500 insts 2 vars
+EM Run 7 with 500 insts 2 vars
+EM Run 8 with 500 insts 2 vars
+EM Run 9 with 500 insts 2 vars
+Indset size 2
+Using EM with 321 instances and 2 variables ...
+EM Run 0 with 321 insts 2 vars
+EM Run 1 with 321 insts 2 vars
+EM Run 2 with 321 insts 2 vars
+EM Run 3 with 321 insts 2 vars
+EM Run 4 with 321 insts 2 vars
+EM Run 5 with 321 insts 2 vars
+EM Run 6 with 321 insts 2 vars
+EM Run 7 with 321 insts 2 vars
+EM Run 8 with 321 insts 2 vars
+EM Run 9 with 321 insts 2 vars
+Indset size 2
+Using EM with 670 instances and 2 variables ...
+EM Run 0 with 670 insts 2 vars
+EM Run 1 with 670 insts 2 vars
+EM Run 2 with 670 insts 2 vars
+EM Run 3 with 670 insts 2 vars
+EM Run 4 with 670 insts 2 vars
+EM Run 5 with 670 insts 2 vars
+EM Run 6 with 670 insts 2 vars
+EM Run 7 with 670 insts 2 vars
+EM Run 8 with 670 insts 2 vars
+EM Run 9 with 670 insts 2 vars
+Indset size 2
+Indset size 3
+Indset size 2
+Using EM with 193 instances and 2 variables ...
+EM Run 0 with 193 insts 2 vars
+EM Run 1 with 193 insts 2 vars
+EM Run 2 with 193 insts 2 vars
+EM Run 3 with 193 insts 2 vars
+EM Run 4 with 193 insts 2 vars
+EM Run 5 with 193 insts 2 vars
+EM Run 6 with 193 insts 2 vars
+EM Run 7 with 193 insts 2 vars
+EM Run 8 with 193 insts 2 vars
+EM Run 9 with 193 insts 2 vars
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 358 instances and 2 variables ...
+EM Run 0 with 358 insts 2 vars
+EM Run 1 with 358 insts 2 vars
+EM Run 2 with 358 insts 2 vars
+EM Run 3 with 358 insts 2 vars
+EM Run 4 with 358 insts 2 vars
+EM Run 5 with 358 insts 2 vars
+EM Run 6 with 358 insts 2 vars
+EM Run 7 with 358 insts 2 vars
+EM Run 8 with 358 insts 2 vars
+EM Run 9 with 358 insts 2 vars
+Indset size 2
+Indset size 2
+Using EM with 529 instances and 2 variables ...
+EM Run 0 with 529 insts 2 vars
+EM Run 1 with 529 insts 2 vars
+EM Run 2 with 529 insts 2 vars
+EM Run 3 with 529 insts 2 vars
+EM Run 4 with 529 insts 2 vars
+EM Run 5 with 529 insts 2 vars
+EM Run 6 with 529 insts 2 vars
+EM Run 7 with 529 insts 2 vars
+EM Run 8 with 529 insts 2 vars
+EM Run 9 with 529 insts 2 vars
+Indset size 2
+Using EM with 343 instances and 2 variables ...
+EM Run 0 with 343 insts 2 vars
+EM Run 1 with 343 insts 2 vars
+EM Run 2 with 343 insts 2 vars
+EM Run 3 with 343 insts 2 vars
+EM Run 4 with 343 insts 2 vars
+EM Run 5 with 343 insts 2 vars
+EM Run 6 with 343 insts 2 vars
+EM Run 7 with 343 insts 2 vars
+EM Run 8 with 343 insts 2 vars
+EM Run 9 with 343 insts 2 vars
+Indset size 2
+Indset size 2
+Using EM with 670 instances and 2 variables ...
+EM Run 0 with 670 insts 2 vars
+EM Run 1 with 670 insts 2 vars
+EM Run 2 with 670 insts 2 vars
+EM Run 3 with 670 insts 2 vars
+EM Run 4 with 670 insts 2 vars
+EM Run 5 with 670 insts 2 vars
+EM Run 6 with 670 insts 2 vars
+EM Run 7 with 670 insts 2 vars
+EM Run 8 with 670 insts 2 vars
+EM Run 9 with 670 insts 2 vars
+Indset size 2
+Indset size 3
+Using EM with 505 instances and 3 variables ...
+EM Run 0 with 505 insts 3 vars
+EM Run 1 with 505 insts 3 vars
+EM Run 2 with 505 insts 3 vars
+EM Run 3 with 505 insts 3 vars
+EM Run 4 with 505 insts 3 vars
+EM Run 5 with 505 insts 3 vars
+EM Run 6 with 505 insts 3 vars
+EM Run 7 with 505 insts 3 vars
+EM Run 8 with 505 insts 3 vars
+EM Run 9 with 505 insts 3 vars
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 588 instances and 2 variables ...
+EM Run 0 with 588 insts 2 vars
+EM Run 1 with 588 insts 2 vars
+EM Run 2 with 588 insts 2 vars
+EM Run 3 with 588 insts 2 vars
+EM Run 4 with 588 insts 2 vars
+EM Run 5 with 588 insts 2 vars
+EM Run 6 with 588 insts 2 vars
+EM Run 7 with 588 insts 2 vars
+EM Run 8 with 588 insts 2 vars
+EM Run 9 with 588 insts 2 vars
+Indset size 2
+Using EM with 389 instances and 2 variables ...
+EM Run 0 with 389 insts 2 vars
+EM Run 1 with 389 insts 2 vars
+EM Run 2 with 389 insts 2 vars
+EM Run 3 with 389 insts 2 vars
+EM Run 4 with 389 insts 2 vars
+EM Run 5 with 389 insts 2 vars
+EM Run 6 with 389 insts 2 vars
+EM Run 7 with 389 insts 2 vars
+EM Run 8 with 389 insts 2 vars
+EM Run 9 with 389 insts 2 vars
+Indset size 2
+Using EM with 358 instances and 2 variables ...
+EM Run 0 with 358 insts 2 vars
+EM Run 1 with 358 insts 2 vars
+EM Run 2 with 358 insts 2 vars
+EM Run 3 with 358 insts 2 vars
+EM Run 4 with 358 insts 2 vars
+EM Run 5 with 358 insts 2 vars
+EM Run 6 with 358 insts 2 vars
+EM Run 7 with 358 insts 2 vars
+EM Run 8 with 358 insts 2 vars
+EM Run 9 with 358 insts 2 vars
+Indset size 4
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 321 instances and 2 variables ...
+EM Run 0 with 321 insts 2 vars
+EM Run 1 with 321 insts 2 vars
+EM Run 2 with 321 insts 2 vars
+EM Run 3 with 321 insts 2 vars
+EM Run 4 with 321 insts 2 vars
+EM Run 5 with 321 insts 2 vars
+EM Run 6 with 321 insts 2 vars
+EM Run 7 with 321 insts 2 vars
+EM Run 8 with 321 insts 2 vars
+EM Run 9 with 321 insts 2 vars
+Indset size 2
+Using EM with 670 instances and 2 variables ...
+EM Run 0 with 670 insts 2 vars
+EM Run 1 with 670 insts 2 vars
+EM Run 2 with 670 insts 2 vars
+EM Run 3 with 670 insts 2 vars
+EM Run 4 with 670 insts 2 vars
+EM Run 5 with 670 insts 2 vars
+EM Run 6 with 670 insts 2 vars
+EM Run 7 with 670 insts 2 vars
+EM Run 8 with 670 insts 2 vars
+EM Run 9 with 670 insts 2 vars
+Indset size 2
+Using EM with 505 instances and 2 variables ...
+EM Run 0 with 505 insts 2 vars
+EM Run 1 with 505 insts 2 vars
+EM Run 2 with 505 insts 2 vars
+EM Run 3 with 505 insts 2 vars
+EM Run 4 with 505 insts 2 vars
+EM Run 5 with 505 insts 2 vars
+EM Run 6 with 505 insts 2 vars
+EM Run 7 with 505 insts 2 vars
+EM Run 8 with 505 insts 2 vars
+EM Run 9 with 505 insts 2 vars
+Indset size 2
+Using EM with 134 instances and 2 variables ...
+EM Run 0 with 134 insts 2 vars
+EM Run 1 with 134 insts 2 vars
+EM Run 2 with 134 insts 2 vars
+EM Run 3 with 134 insts 2 vars
+EM Run 4 with 134 insts 2 vars
+EM Run 5 with 134 insts 2 vars
+EM Run 6 with 134 insts 2 vars
+EM Run 7 with 134 insts 2 vars
+EM Run 8 with 134 insts 2 vars
+EM Run 9 with 134 insts 2 vars
+Indset size 2
+Indset size 4
+Using EM with 655 instances and 4 variables ...
+EM Run 0 with 655 insts 4 vars
+EM Run 1 with 655 insts 4 vars
+EM Run 2 with 655 insts 4 vars
+EM Run 3 with 655 insts 4 vars
+EM Run 4 with 655 insts 4 vars
+EM Run 5 with 655 insts 4 vars
+EM Run 6 with 655 insts 4 vars
+EM Run 7 with 655 insts 4 vars
+EM Run 8 with 655 insts 4 vars
+EM Run 9 with 655 insts 4 vars
+Indset size 2
+Using EM with 581 instances and 2 variables ...
+EM Run 0 with 581 insts 2 vars
+EM Run 1 with 581 insts 2 vars
+EM Run 2 with 581 insts 2 vars
+EM Run 3 with 581 insts 2 vars
+EM Run 4 with 581 insts 2 vars
+EM Run 5 with 581 insts 2 vars
+EM Run 6 with 581 insts 2 vars
+EM Run 7 with 581 insts 2 vars
+EM Run 8 with 581 insts 2 vars
+EM Run 9 with 581 insts 2 vars
+Indset size 2
+Indset size 2
+Using EM with 370 instances and 2 variables ...
+EM Run 0 with 370 insts 2 vars
+EM Run 1 with 370 insts 2 vars
+EM Run 2 with 370 insts 2 vars
+EM Run 3 with 370 insts 2 vars
+EM Run 4 with 370 insts 2 vars
+EM Run 5 with 370 insts 2 vars
+EM Run 6 with 370 insts 2 vars
+EM Run 7 with 370 insts 2 vars
+EM Run 8 with 370 insts 2 vars
+EM Run 9 with 370 insts 2 vars
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 198 instances and 2 variables ...
+EM Run 0 with 198 insts 2 vars
+EM Run 1 with 198 insts 2 vars
+EM Run 2 with 198 insts 2 vars
+EM Run 3 with 198 insts 2 vars
+EM Run 4 with 198 insts 2 vars
+EM Run 5 with 198 insts 2 vars
+EM Run 6 with 198 insts 2 vars
+EM Run 7 with 198 insts 2 vars
+EM Run 8 with 198 insts 2 vars
+EM Run 9 with 198 insts 2 vars
+Indset size 2
+Using EM with 581 instances and 2 variables ...
+EM Run 0 with 581 insts 2 vars
+EM Run 1 with 581 insts 2 vars
+EM Run 2 with 581 insts 2 vars
+EM Run 3 with 581 insts 2 vars
+EM Run 4 with 581 insts 2 vars
+EM Run 5 with 581 insts 2 vars
+EM Run 6 with 581 insts 2 vars
+EM Run 7 with 581 insts 2 vars
+EM Run 8 with 581 insts 2 vars
+EM Run 9 with 581 insts 2 vars
+Indset size 3
+Indset size 2
+Using EM with 421 instances and 2 variables ...
+EM Run 0 with 421 insts 2 vars
+EM Run 1 with 421 insts 2 vars
+EM Run 2 with 421 insts 2 vars
+EM Run 3 with 421 insts 2 vars
+EM Run 4 with 421 insts 2 vars
+EM Run 5 with 421 insts 2 vars
+EM Run 6 with 421 insts 2 vars
+EM Run 7 with 421 insts 2 vars
+EM Run 8 with 421 insts 2 vars
+EM Run 9 with 421 insts 2 vars
+Indset size 2
+Using EM with 333 instances and 2 variables ...
+EM Run 0 with 333 insts 2 vars
+EM Run 1 with 333 insts 2 vars
+EM Run 2 with 333 insts 2 vars
+EM Run 3 with 333 insts 2 vars
+EM Run 4 with 333 insts 2 vars
+EM Run 5 with 333 insts 2 vars
+EM Run 6 with 333 insts 2 vars
+EM Run 7 with 333 insts 2 vars
+EM Run 8 with 333 insts 2 vars
+EM Run 9 with 333 insts 2 vars
+Indset size 2
+Using EM with 588 instances and 2 variables ...
+EM Run 0 with 588 insts 2 vars
+EM Run 1 with 588 insts 2 vars
+EM Run 2 with 588 insts 2 vars
+EM Run 3 with 588 insts 2 vars
+EM Run 4 with 588 insts 2 vars
+EM Run 5 with 588 insts 2 vars
+EM Run 6 with 588 insts 2 vars
+EM Run 7 with 588 insts 2 vars
+EM Run 8 with 588 insts 2 vars
+EM Run 9 with 588 insts 2 vars
+Indset size 3
+Indset size 3
+Indset size 2
+Indset size 3
+Using EM with 500 instances and 3 variables ...
+EM Run 0 with 500 insts 3 vars
+EM Run 1 with 500 insts 3 vars
+EM Run 2 with 500 insts 3 vars
+EM Run 3 with 500 insts 3 vars
+EM Run 4 with 500 insts 3 vars
+EM Run 5 with 500 insts 3 vars
+EM Run 6 with 500 insts 3 vars
+EM Run 7 with 500 insts 3 vars
+EM Run 8 with 500 insts 3 vars
+EM Run 9 with 500 insts 3 vars
+Indset size 2
+Indset size 2
+Indset size 3
+Using EM with 588 instances and 3 variables ...
+EM Run 0 with 588 insts 3 vars
+EM Run 1 with 588 insts 3 vars
+EM Run 2 with 588 insts 3 vars
+EM Run 3 with 588 insts 3 vars
+EM Run 4 with 588 insts 3 vars
+EM Run 5 with 588 insts 3 vars
+EM Run 6 with 588 insts 3 vars
+EM Run 7 with 588 insts 3 vars
+EM Run 8 with 588 insts 3 vars
+EM Run 9 with 588 insts 3 vars
+Indset size 3
+Using EM with 358 instances and 3 variables ...
+EM Run 0 with 358 insts 3 vars
+EM Run 1 with 358 insts 3 vars
+EM Run 2 with 358 insts 3 vars
+EM Run 3 with 358 insts 3 vars
+EM Run 4 with 358 insts 3 vars
+EM Run 5 with 358 insts 3 vars
+EM Run 6 with 358 insts 3 vars
+EM Run 7 with 358 insts 3 vars
+EM Run 8 with 358 insts 3 vars
+EM Run 9 with 358 insts 3 vars
+Indset size 2
+Indset size 2
+Using EM with 529 instances and 2 variables ...
+EM Run 0 with 529 insts 2 vars
+EM Run 1 with 529 insts 2 vars
+EM Run 2 with 529 insts 2 vars
+EM Run 3 with 529 insts 2 vars
+EM Run 4 with 529 insts 2 vars
+EM Run 5 with 529 insts 2 vars
+EM Run 6 with 529 insts 2 vars
+EM Run 7 with 529 insts 2 vars
+EM Run 8 with 529 insts 2 vars
+EM Run 9 with 529 insts 2 vars
+Indset size 2
+Indset size 2
+Using EM with 321 instances and 2 variables ...
+EM Run 0 with 321 insts 2 vars
+EM Run 1 with 321 insts 2 vars
+EM Run 2 with 321 insts 2 vars
+EM Run 3 with 321 insts 2 vars
+EM Run 4 with 321 insts 2 vars
+EM Run 5 with 321 insts 2 vars
+EM Run 6 with 321 insts 2 vars
+EM Run 7 with 321 insts 2 vars
+EM Run 8 with 321 insts 2 vars
+EM Run 9 with 321 insts 2 vars
+Indset size 2
+Using EM with 498 instances and 2 variables ...
+EM Run 0 with 498 insts 2 vars
+EM Run 1 with 498 insts 2 vars
+EM Run 2 with 498 insts 2 vars
+EM Run 3 with 498 insts 2 vars
+EM Run 4 with 498 insts 2 vars
+EM Run 5 with 498 insts 2 vars
+EM Run 6 with 498 insts 2 vars
+EM Run 7 with 498 insts 2 vars
+EM Run 8 with 498 insts 2 vars
+EM Run 9 with 498 insts 2 vars
+Indset size 2
+Indset size 2
+Using EM with 358 instances and 2 variables ...
+EM Run 0 with 358 insts 2 vars
+EM Run 1 with 358 insts 2 vars
+EM Run 2 with 358 insts 2 vars
+EM Run 3 with 358 insts 2 vars
+EM Run 4 with 358 insts 2 vars
+EM Run 5 with 358 insts 2 vars
+EM Run 6 with 358 insts 2 vars
+EM Run 7 with 358 insts 2 vars
+EM Run 8 with 358 insts 2 vars
+EM Run 9 with 358 insts 2 vars
+Indset size 2
+Using EM with 405 instances and 2 variables ...
+EM Run 0 with 405 insts 2 vars
+EM Run 1 with 405 insts 2 vars
+EM Run 2 with 405 insts 2 vars
+EM Run 3 with 405 insts 2 vars
+EM Run 4 with 405 insts 2 vars
+EM Run 5 with 405 insts 2 vars
+EM Run 6 with 405 insts 2 vars
+EM Run 7 with 405 insts 2 vars
+EM Run 8 with 405 insts 2 vars
+EM Run 9 with 405 insts 2 vars
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 443 instances and 2 variables ...
+EM Run 0 with 443 insts 2 vars
+EM Run 1 with 443 insts 2 vars
+EM Run 2 with 443 insts 2 vars
+EM Run 3 with 443 insts 2 vars
+EM Run 4 with 443 insts 2 vars
+EM Run 5 with 443 insts 2 vars
+EM Run 6 with 443 insts 2 vars
+EM Run 7 with 443 insts 2 vars
+EM Run 8 with 443 insts 2 vars
+EM Run 9 with 443 insts 2 vars
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 321 instances and 2 variables ...
+EM Run 0 with 321 insts 2 vars
+EM Run 1 with 321 insts 2 vars
+EM Run 2 with 321 insts 2 vars
+EM Run 3 with 321 insts 2 vars
+EM Run 4 with 321 insts 2 vars
+EM Run 5 with 321 insts 2 vars
+EM Run 6 with 321 insts 2 vars
+EM Run 7 with 321 insts 2 vars
+EM Run 8 with 321 insts 2 vars
+EM Run 9 with 321 insts 2 vars
+Indset size 2
+Indset size 2
+Using EM with 430 instances and 2 variables ...
+EM Run 0 with 430 insts 2 vars
+EM Run 1 with 430 insts 2 vars
+EM Run 2 with 430 insts 2 vars
+EM Run 3 with 430 insts 2 vars
+EM Run 4 with 430 insts 2 vars
+EM Run 5 with 430 insts 2 vars
+EM Run 6 with 430 insts 2 vars
+EM Run 7 with 430 insts 2 vars
+EM Run 8 with 430 insts 2 vars
+EM Run 9 with 430 insts 2 vars
+Indset size 2
+Using EM with 506 instances and 2 variables ...
+EM Run 0 with 506 insts 2 vars
+EM Run 1 with 506 insts 2 vars
+EM Run 2 with 506 insts 2 vars
+EM Run 3 with 506 insts 2 vars
+EM Run 4 with 506 insts 2 vars
+EM Run 5 with 506 insts 2 vars
+EM Run 6 with 506 insts 2 vars
+EM Run 7 with 506 insts 2 vars
+EM Run 8 with 506 insts 2 vars
+EM Run 9 with 506 insts 2 vars
+Indset size 3
+Indset size 2
+Using EM with 443 instances and 2 variables ...
+EM Run 0 with 443 insts 2 vars
+EM Run 1 with 443 insts 2 vars
+EM Run 2 with 443 insts 2 vars
+EM Run 3 with 443 insts 2 vars
+EM Run 4 with 443 insts 2 vars
+EM Run 5 with 443 insts 2 vars
+EM Run 6 with 443 insts 2 vars
+EM Run 7 with 443 insts 2 vars
+EM Run 8 with 443 insts 2 vars
+EM Run 9 with 443 insts 2 vars
+Indset size 2
+Using EM with 470 instances and 2 variables ...
+EM Run 0 with 470 insts 2 vars
+EM Run 1 with 470 insts 2 vars
+EM Run 2 with 470 insts 2 vars
+EM Run 3 with 470 insts 2 vars
+EM Run 4 with 470 insts 2 vars
+EM Run 5 with 470 insts 2 vars
+EM Run 6 with 470 insts 2 vars
+EM Run 7 with 470 insts 2 vars
+EM Run 8 with 470 insts 2 vars
+EM Run 9 with 470 insts 2 vars
+Indset size 7
+Indset size 2
+Indset size 2
+Using EM with 581 instances and 2 variables ...
+EM Run 0 with 581 insts 2 vars
+EM Run 1 with 581 insts 2 vars
+EM Run 2 with 581 insts 2 vars
+EM Run 3 with 581 insts 2 vars
+EM Run 4 with 581 insts 2 vars
+EM Run 5 with 581 insts 2 vars
+EM Run 6 with 581 insts 2 vars
+EM Run 7 with 581 insts 2 vars
+EM Run 8 with 581 insts 2 vars
+EM Run 9 with 581 insts 2 vars
+Indset size 2
+Using EM with 430 instances and 2 variables ...
+EM Run 0 with 430 insts 2 vars
+EM Run 1 with 430 insts 2 vars
+EM Run 2 with 430 insts 2 vars
+EM Run 3 with 430 insts 2 vars
+EM Run 4 with 430 insts 2 vars
+EM Run 5 with 430 insts 2 vars
+EM Run 6 with 430 insts 2 vars
+EM Run 7 with 430 insts 2 vars
+EM Run 8 with 430 insts 2 vars
+EM Run 9 with 430 insts 2 vars
+Indset size 2
+Indset size 3
+Using EM with 506 instances and 3 variables ...
+EM Run 0 with 506 insts 3 vars
+EM Run 1 with 506 insts 3 vars
+EM Run 2 with 506 insts 3 vars
+EM Run 3 with 506 insts 3 vars
+EM Run 4 with 506 insts 3 vars
+EM Run 5 with 506 insts 3 vars
+EM Run 6 with 506 insts 3 vars
+EM Run 7 with 506 insts 3 vars
+EM Run 8 with 506 insts 3 vars
+EM Run 9 with 506 insts 3 vars
+Indset size 2
+Indset size 7
+Using EM with 529 instances and 7 variables ...
+EM Run 0 with 529 insts 7 vars
+EM Run 1 with 529 insts 7 vars
+EM Run 2 with 529 insts 7 vars
+EM Run 3 with 529 insts 7 vars
+EM Run 4 with 529 insts 7 vars
+EM Run 5 with 529 insts 7 vars
+EM Run 6 with 529 insts 7 vars
+EM Run 7 with 529 insts 7 vars
+EM Run 8 with 529 insts 7 vars
+EM Run 9 with 529 insts 7 vars
+Indset size 2
+Using EM with 443 instances and 2 variables ...
+EM Run 0 with 443 insts 2 vars
+EM Run 1 with 443 insts 2 vars
+EM Run 2 with 443 insts 2 vars
+EM Run 3 with 443 insts 2 vars
+EM Run 4 with 443 insts 2 vars
+EM Run 5 with 443 insts 2 vars
+EM Run 6 with 443 insts 2 vars
+EM Run 7 with 443 insts 2 vars
+EM Run 8 with 443 insts 2 vars
+EM Run 9 with 443 insts 2 vars
+Indset size 2
+Using EM with 309 instances and 2 variables ...
+EM Run 0 with 309 insts 2 vars
+EM Run 1 with 309 insts 2 vars
+EM Run 2 with 309 insts 2 vars
+EM Run 3 with 309 insts 2 vars
+EM Run 4 with 309 insts 2 vars
+EM Run 5 with 309 insts 2 vars
+EM Run 6 with 309 insts 2 vars
+EM Run 7 with 309 insts 2 vars
+EM Run 8 with 309 insts 2 vars
+EM Run 9 with 309 insts 2 vars
+Indset size 3
+Indset size 2
+Using EM with 390 instances and 2 variables ...
+EM Run 0 with 390 insts 2 vars
+EM Run 1 with 390 insts 2 vars
+EM Run 2 with 390 insts 2 vars
+EM Run 3 with 390 insts 2 vars
+EM Run 4 with 390 insts 2 vars
+EM Run 5 with 390 insts 2 vars
+EM Run 6 with 390 insts 2 vars
+EM Run 7 with 390 insts 2 vars
+EM Run 8 with 390 insts 2 vars
+EM Run 9 with 390 insts 2 vars
+Indset size 3
+Indset size 4
+Indset size 2
+Indset size 3
+Indset size 3
+Using EM with 506 instances and 3 variables ...
+EM Run 0 with 506 insts 3 vars
+EM Run 1 with 506 insts 3 vars
+EM Run 2 with 506 insts 3 vars
+EM Run 3 with 506 insts 3 vars
+EM Run 4 with 506 insts 3 vars
+EM Run 5 with 506 insts 3 vars
+EM Run 6 with 506 insts 3 vars
+EM Run 7 with 506 insts 3 vars
+EM Run 8 with 506 insts 3 vars
+EM Run 9 with 506 insts 3 vars
+Indset size 2
+Indset size 2
+Indset size 3
+Using EM with 500 instances and 3 variables ...
+EM Run 0 with 500 insts 3 vars
+EM Run 1 with 500 insts 3 vars
+EM Run 2 with 500 insts 3 vars
+EM Run 3 with 500 insts 3 vars
+EM Run 4 with 500 insts 3 vars
+EM Run 5 with 500 insts 3 vars
+EM Run 6 with 500 insts 3 vars
+EM Run 7 with 500 insts 3 vars
+EM Run 8 with 500 insts 3 vars
+EM Run 9 with 500 insts 3 vars
+Indset size 2
+Indset size 4
+Using EM with 389 instances and 4 variables ...
+EM Run 0 with 389 insts 4 vars
+EM Run 1 with 389 insts 4 vars
+EM Run 2 with 389 insts 4 vars
+EM Run 3 with 389 insts 4 vars
+EM Run 4 with 389 insts 4 vars
+EM Run 5 with 389 insts 4 vars
+EM Run 6 with 389 insts 4 vars
+EM Run 7 with 389 insts 4 vars
+EM Run 8 with 389 insts 4 vars
+EM Run 9 with 389 insts 4 vars
+Indset size 2
+Using EM with 333 instances and 2 variables ...
+EM Run 0 with 333 insts 2 vars
+EM Run 1 with 333 insts 2 vars
+EM Run 2 with 333 insts 2 vars
+EM Run 3 with 333 insts 2 vars
+EM Run 4 with 333 insts 2 vars
+EM Run 5 with 333 insts 2 vars
+EM Run 6 with 333 insts 2 vars
+EM Run 7 with 333 insts 2 vars
+EM Run 8 with 333 insts 2 vars
+EM Run 9 with 333 insts 2 vars
+Indset size 3
+Using EM with 520 instances and 3 variables ...
+EM Run 0 with 520 insts 3 vars
+EM Run 1 with 520 insts 3 vars
+EM Run 2 with 520 insts 3 vars
+EM Run 3 with 520 insts 3 vars
+EM Run 4 with 520 insts 3 vars
+EM Run 5 with 520 insts 3 vars
+EM Run 6 with 520 insts 3 vars
+EM Run 7 with 520 insts 3 vars
+EM Run 8 with 520 insts 3 vars
+EM Run 9 with 520 insts 3 vars
+Indset size 2
+Using EM with 413 instances and 2 variables ...
+EM Run 0 with 413 insts 2 vars
+EM Run 1 with 413 insts 2 vars
+EM Run 2 with 413 insts 2 vars
+EM Run 3 with 413 insts 2 vars
+EM Run 4 with 413 insts 2 vars
+EM Run 5 with 413 insts 2 vars
+EM Run 6 with 413 insts 2 vars
+EM Run 7 with 413 insts 2 vars
+EM Run 8 with 413 insts 2 vars
+EM Run 9 with 413 insts 2 vars
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 443 instances and 2 variables ...
+EM Run 0 with 443 insts 2 vars
+EM Run 1 with 443 insts 2 vars
+EM Run 2 with 443 insts 2 vars
+EM Run 3 with 443 insts 2 vars
+EM Run 4 with 443 insts 2 vars
+EM Run 5 with 443 insts 2 vars
+EM Run 6 with 443 insts 2 vars
+EM Run 7 with 443 insts 2 vars
+EM Run 8 with 443 insts 2 vars
+EM Run 9 with 443 insts 2 vars
+Indset size 2
+Using EM with 500 instances and 2 variables ...
+EM Run 0 with 500 insts 2 vars
+EM Run 1 with 500 insts 2 vars
+EM Run 2 with 500 insts 2 vars
+EM Run 3 with 500 insts 2 vars
+EM Run 4 with 500 insts 2 vars
+EM Run 5 with 500 insts 2 vars
+EM Run 6 with 500 insts 2 vars
+EM Run 7 with 500 insts 2 vars
+EM Run 8 with 500 insts 2 vars
+EM Run 9 with 500 insts 2 vars
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 389 instances and 2 variables ...
+EM Run 0 with 389 insts 2 vars
+EM Run 1 with 389 insts 2 vars
+EM Run 2 with 389 insts 2 vars
+EM Run 3 with 389 insts 2 vars
+EM Run 4 with 389 insts 2 vars
+EM Run 5 with 389 insts 2 vars
+EM Run 6 with 389 insts 2 vars
+EM Run 7 with 389 insts 2 vars
+EM Run 8 with 389 insts 2 vars
+EM Run 9 with 389 insts 2 vars
+Indset size 2
+Using EM with 390 instances and 2 variables ...
+EM Run 0 with 390 insts 2 vars
+EM Run 1 with 390 insts 2 vars
+EM Run 2 with 390 insts 2 vars
+EM Run 3 with 390 insts 2 vars
+EM Run 4 with 390 insts 2 vars
+EM Run 5 with 390 insts 2 vars
+EM Run 6 with 390 insts 2 vars
+EM Run 7 with 390 insts 2 vars
+EM Run 8 with 390 insts 2 vars
+EM Run 9 with 390 insts 2 vars
+Indset size 2
+Using EM with 500 instances and 2 variables ...
+EM Run 0 with 500 insts 2 vars
+EM Run 1 with 500 insts 2 vars
+EM Run 2 with 500 insts 2 vars
+EM Run 3 with 500 insts 2 vars
+EM Run 4 with 500 insts 2 vars
+EM Run 5 with 500 insts 2 vars
+EM Run 6 with 500 insts 2 vars
+EM Run 7 with 500 insts 2 vars
+EM Run 8 with 500 insts 2 vars
+EM Run 9 with 500 insts 2 vars
+Indset size 2
+Using EM with 670 instances and 2 variables ...
+EM Run 0 with 670 insts 2 vars
+EM Run 1 with 670 insts 2 vars
+EM Run 2 with 670 insts 2 vars
+EM Run 3 with 670 insts 2 vars
+EM Run 4 with 670 insts 2 vars
+EM Run 5 with 670 insts 2 vars
+EM Run 6 with 670 insts 2 vars
+EM Run 7 with 670 insts 2 vars
+EM Run 8 with 670 insts 2 vars
+EM Run 9 with 670 insts 2 vars
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 470 instances and 2 variables ...
+EM Run 0 with 470 insts 2 vars
+EM Run 1 with 470 insts 2 vars
+EM Run 2 with 470 insts 2 vars
+EM Run 3 with 470 insts 2 vars
+EM Run 4 with 470 insts 2 vars
+EM Run 5 with 470 insts 2 vars
+EM Run 6 with 470 insts 2 vars
+EM Run 7 with 470 insts 2 vars
+EM Run 8 with 470 insts 2 vars
+EM Run 9 with 470 insts 2 vars
+Indset size 2
+Using EM with 430 instances and 2 variables ...
+EM Run 0 with 430 insts 2 vars
+EM Run 1 with 430 insts 2 vars
+EM Run 2 with 430 insts 2 vars
+EM Run 3 with 430 insts 2 vars
+EM Run 4 with 430 insts 2 vars
+EM Run 5 with 430 insts 2 vars
+EM Run 6 with 430 insts 2 vars
+EM Run 7 with 430 insts 2 vars
+EM Run 8 with 430 insts 2 vars
+EM Run 9 with 430 insts 2 vars
+Indset size 2
+Using EM with 506 instances and 2 variables ...
+EM Run 0 with 506 insts 2 vars
+EM Run 1 with 506 insts 2 vars
+EM Run 2 with 506 insts 2 vars
+EM Run 3 with 506 insts 2 vars
+EM Run 4 with 506 insts 2 vars
+EM Run 5 with 506 insts 2 vars
+EM Run 6 with 506 insts 2 vars
+EM Run 7 with 506 insts 2 vars
+EM Run 8 with 506 insts 2 vars
+EM Run 9 with 506 insts 2 vars
+Indset size 4
+Indset size 2
+Using EM with 588 instances and 2 variables ...
+EM Run 0 with 588 insts 2 vars
+EM Run 1 with 588 insts 2 vars
+EM Run 2 with 588 insts 2 vars
+EM Run 3 with 588 insts 2 vars
+EM Run 4 with 588 insts 2 vars
+EM Run 5 with 588 insts 2 vars
+EM Run 6 with 588 insts 2 vars
+EM Run 7 with 588 insts 2 vars
+EM Run 8 with 588 insts 2 vars
+EM Run 9 with 588 insts 2 vars
+Indset size 2
+Using EM with 413 instances and 2 variables ...
+EM Run 0 with 413 insts 2 vars
+EM Run 1 with 413 insts 2 vars
+EM Run 2 with 413 insts 2 vars
+EM Run 3 with 413 insts 2 vars
+EM Run 4 with 413 insts 2 vars
+EM Run 5 with 413 insts 2 vars
+EM Run 6 with 413 insts 2 vars
+EM Run 7 with 413 insts 2 vars
+EM Run 8 with 413 insts 2 vars
+EM Run 9 with 413 insts 2 vars
+Indset size 4
+Using EM with 506 instances and 4 variables ...
+EM Run 0 with 506 insts 4 vars
+EM Run 1 with 506 insts 4 vars
+EM Run 2 with 506 insts 4 vars
+EM Run 3 with 506 insts 4 vars
+EM Run 4 with 506 insts 4 vars
+EM Run 5 with 506 insts 4 vars
+EM Run 6 with 506 insts 4 vars
+EM Run 7 with 506 insts 4 vars
+EM Run 8 with 506 insts 4 vars
+EM Run 9 with 506 insts 4 vars
+Indset size 4
+Indset size 3
+Indset size 2
+Indset size 4
+Using EM with 506 instances and 4 variables ...
+EM Run 0 with 506 insts 4 vars
+EM Run 1 with 506 insts 4 vars
+EM Run 2 with 506 insts 4 vars
+EM Run 3 with 506 insts 4 vars
+EM Run 4 with 506 insts 4 vars
+EM Run 5 with 506 insts 4 vars
+EM Run 6 with 506 insts 4 vars
+EM Run 7 with 506 insts 4 vars
+EM Run 8 with 506 insts 4 vars
+EM Run 9 with 506 insts 4 vars
+Indset size 3
+Using EM with 588 instances and 3 variables ...
+EM Run 0 with 588 insts 3 vars
+EM Run 1 with 588 insts 3 vars
+EM Run 2 with 588 insts 3 vars
+EM Run 3 with 588 insts 3 vars
+EM Run 4 with 588 insts 3 vars
+EM Run 5 with 588 insts 3 vars
+EM Run 6 with 588 insts 3 vars
+EM Run 7 with 588 insts 3 vars
+EM Run 8 with 588 insts 3 vars
+EM Run 9 with 588 insts 3 vars
+Indset size 2
+Indset size 2
+Using EM with 670 instances and 2 variables ...
+EM Run 0 with 670 insts 2 vars
+EM Run 1 with 670 insts 2 vars
+EM Run 2 with 670 insts 2 vars
+EM Run 3 with 670 insts 2 vars
+EM Run 4 with 670 insts 2 vars
+EM Run 5 with 670 insts 2 vars
+EM Run 6 with 670 insts 2 vars
+EM Run 7 with 670 insts 2 vars
+EM Run 8 with 670 insts 2 vars
+EM Run 9 with 670 insts 2 vars
+Indset size 3
+Indset size 2
+Indset size 3
+Indset size 2
+Indset size 2
+Using EM with 321 instances and 2 variables ...
+EM Run 0 with 321 insts 2 vars
+EM Run 1 with 321 insts 2 vars
+EM Run 2 with 321 insts 2 vars
+EM Run 3 with 321 insts 2 vars
+EM Run 4 with 321 insts 2 vars
+EM Run 5 with 321 insts 2 vars
+EM Run 6 with 321 insts 2 vars
+EM Run 7 with 321 insts 2 vars
+EM Run 8 with 321 insts 2 vars
+EM Run 9 with 321 insts 2 vars
+Indset size 3
+Using EM with 670 instances and 3 variables ...
+EM Run 0 with 670 insts 3 vars
+EM Run 1 with 670 insts 3 vars
+EM Run 2 with 670 insts 3 vars
+EM Run 3 with 670 insts 3 vars
+EM Run 4 with 670 insts 3 vars
+EM Run 5 with 670 insts 3 vars
+EM Run 6 with 670 insts 3 vars
+EM Run 7 with 670 insts 3 vars
+EM Run 8 with 670 insts 3 vars
+EM Run 9 with 670 insts 3 vars
+Indset size 2
+Using EM with 309 instances and 2 variables ...
+EM Run 0 with 309 insts 2 vars
+EM Run 1 with 309 insts 2 vars
+EM Run 2 with 309 insts 2 vars
+EM Run 3 with 309 insts 2 vars
+EM Run 4 with 309 insts 2 vars
+EM Run 5 with 309 insts 2 vars
+EM Run 6 with 309 insts 2 vars
+EM Run 7 with 309 insts 2 vars
+EM Run 8 with 309 insts 2 vars
+EM Run 9 with 309 insts 2 vars
+Indset size 2
+Indset size 3
+Using EM with 588 instances and 3 variables ...
+EM Run 0 with 588 insts 3 vars
+EM Run 1 with 588 insts 3 vars
+EM Run 2 with 588 insts 3 vars
+EM Run 3 with 588 insts 3 vars
+EM Run 4 with 588 insts 3 vars
+EM Run 5 with 588 insts 3 vars
+EM Run 6 with 588 insts 3 vars
+EM Run 7 with 588 insts 3 vars
+EM Run 8 with 588 insts 3 vars
+EM Run 9 with 588 insts 3 vars
+Indset size 2
+Indset size 2
+Using EM with 390 instances and 2 variables ...
+EM Run 0 with 390 insts 2 vars
+EM Run 1 with 390 insts 2 vars
+EM Run 2 with 390 insts 2 vars
+EM Run 3 with 390 insts 2 vars
+EM Run 4 with 390 insts 2 vars
+EM Run 5 with 390 insts 2 vars
+EM Run 6 with 390 insts 2 vars
+EM Run 7 with 390 insts 2 vars
+EM Run 8 with 390 insts 2 vars
+EM Run 9 with 390 insts 2 vars
+Indset size 3
+Indset size 3
+Indset size 2
+Using EM with 333 instances and 2 variables ...
+EM Run 0 with 333 insts 2 vars
+EM Run 1 with 333 insts 2 vars
+EM Run 2 with 333 insts 2 vars
+EM Run 3 with 333 insts 2 vars
+EM Run 4 with 333 insts 2 vars
+EM Run 5 with 333 insts 2 vars
+EM Run 6 with 333 insts 2 vars
+EM Run 7 with 333 insts 2 vars
+EM Run 8 with 333 insts 2 vars
+EM Run 9 with 333 insts 2 vars
+Indset size 2
+Indset size 2
+Using EM with 443 instances and 2 variables ...
+EM Run 0 with 443 insts 2 vars
+EM Run 1 with 443 insts 2 vars
+EM Run 2 with 443 insts 2 vars
+EM Run 3 with 443 insts 2 vars
+EM Run 4 with 443 insts 2 vars
+EM Run 5 with 443 insts 2 vars
+EM Run 6 with 443 insts 2 vars
+EM Run 7 with 443 insts 2 vars
+EM Run 8 with 443 insts 2 vars
+EM Run 9 with 443 insts 2 vars
+Indset size 3
+Using EM with 714 instances and 3 variables ...
+EM Run 0 with 714 insts 3 vars
+EM Run 1 with 714 insts 3 vars
+EM Run 2 with 714 insts 3 vars
+EM Run 3 with 714 insts 3 vars
+EM Run 4 with 714 insts 3 vars
+EM Run 5 with 714 insts 3 vars
+EM Run 6 with 714 insts 3 vars
+EM Run 7 with 714 insts 3 vars
+EM Run 8 with 714 insts 3 vars
+EM Run 9 with 714 insts 3 vars
+Indset size 3
+Indset size 3
+Using EM with 498 instances and 3 variables ...
+EM Run 0 with 498 insts 3 vars
+EM Run 1 with 498 insts 3 vars
+EM Run 2 with 498 insts 3 vars
+EM Run 3 with 498 insts 3 vars
+EM Run 4 with 498 insts 3 vars
+EM Run 5 with 498 insts 3 vars
+EM Run 6 with 498 insts 3 vars
+EM Run 7 with 498 insts 3 vars
+EM Run 8 with 498 insts 3 vars
+EM Run 9 with 498 insts 3 vars
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 450 instances and 2 variables ...
+EM Run 0 with 450 insts 2 vars
+EM Run 1 with 450 insts 2 vars
+EM Run 2 with 450 insts 2 vars
+EM Run 3 with 450 insts 2 vars
+EM Run 4 with 450 insts 2 vars
+EM Run 5 with 450 insts 2 vars
+EM Run 6 with 450 insts 2 vars
+EM Run 7 with 450 insts 2 vars
+EM Run 8 with 450 insts 2 vars
+EM Run 9 with 450 insts 2 vars
+Indset size 2
+Indset size 2
+Indset size 3
+Using EM with 505 instances and 3 variables ...
+EM Run 0 with 505 insts 3 vars
+EM Run 1 with 505 insts 3 vars
+EM Run 2 with 505 insts 3 vars
+EM Run 3 with 505 insts 3 vars
+EM Run 4 with 505 insts 3 vars
+EM Run 5 with 505 insts 3 vars
+EM Run 6 with 505 insts 3 vars
+EM Run 7 with 505 insts 3 vars
+EM Run 8 with 505 insts 3 vars
+EM Run 9 with 505 insts 3 vars
+Indset size 2
+Using EM with 498 instances and 2 variables ...
+EM Run 0 with 498 insts 2 vars
+EM Run 1 with 498 insts 2 vars
+EM Run 2 with 498 insts 2 vars
+EM Run 3 with 498 insts 2 vars
+EM Run 4 with 498 insts 2 vars
+EM Run 5 with 498 insts 2 vars
+EM Run 6 with 498 insts 2 vars
+EM Run 7 with 498 insts 2 vars
+EM Run 8 with 498 insts 2 vars
+EM Run 9 with 498 insts 2 vars
+Indset size 2
+Using EM with 430 instances and 2 variables ...
+EM Run 0 with 430 insts 2 vars
+EM Run 1 with 430 insts 2 vars
+EM Run 2 with 430 insts 2 vars
+EM Run 3 with 430 insts 2 vars
+EM Run 4 with 430 insts 2 vars
+EM Run 5 with 430 insts 2 vars
+EM Run 6 with 430 insts 2 vars
+EM Run 7 with 430 insts 2 vars
+EM Run 8 with 430 insts 2 vars
+EM Run 9 with 430 insts 2 vars
+Indset size 2
+Indset size 2
+Using EM with 358 instances and 2 variables ...
+EM Run 0 with 358 insts 2 vars
+EM Run 1 with 358 insts 2 vars
+EM Run 2 with 358 insts 2 vars
+EM Run 3 with 358 insts 2 vars
+EM Run 4 with 358 insts 2 vars
+EM Run 5 with 358 insts 2 vars
+EM Run 6 with 358 insts 2 vars
+EM Run 7 with 358 insts 2 vars
+EM Run 8 with 358 insts 2 vars
+EM Run 9 with 358 insts 2 vars
+Indset size 3
+Indset size 2
+Using EM with 670 instances and 2 variables ...
+EM Run 0 with 670 insts 2 vars
+EM Run 1 with 670 insts 2 vars
+EM Run 2 with 670 insts 2 vars
+EM Run 3 with 670 insts 2 vars
+EM Run 4 with 670 insts 2 vars
+EM Run 5 with 670 insts 2 vars
+EM Run 6 with 670 insts 2 vars
+EM Run 7 with 670 insts 2 vars
+EM Run 8 with 670 insts 2 vars
+EM Run 9 with 670 insts 2 vars
+Indset size 2
+Using EM with 450 instances and 2 variables ...
+EM Run 0 with 450 insts 2 vars
+EM Run 1 with 450 insts 2 vars
+EM Run 2 with 450 insts 2 vars
+EM Run 3 with 450 insts 2 vars
+EM Run 4 with 450 insts 2 vars
+EM Run 5 with 450 insts 2 vars
+EM Run 6 with 450 insts 2 vars
+EM Run 7 with 450 insts 2 vars
+EM Run 8 with 450 insts 2 vars
+EM Run 9 with 450 insts 2 vars
+Indset size 2
+Indset size 3
+Using EM with 405 instances and 3 variables ...
+EM Run 0 with 405 insts 3 vars
+EM Run 1 with 405 insts 3 vars
+EM Run 2 with 405 insts 3 vars
+EM Run 3 with 405 insts 3 vars
+EM Run 4 with 405 insts 3 vars
+EM Run 5 with 405 insts 3 vars
+EM Run 6 with 405 insts 3 vars
+EM Run 7 with 405 insts 3 vars
+EM Run 8 with 405 insts 3 vars
+EM Run 9 with 405 insts 3 vars
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 443 instances and 2 variables ...
+EM Run 0 with 443 insts 2 vars
+EM Run 1 with 443 insts 2 vars
+EM Run 2 with 443 insts 2 vars
+EM Run 3 with 443 insts 2 vars
+EM Run 4 with 443 insts 2 vars
+EM Run 5 with 443 insts 2 vars
+EM Run 6 with 443 insts 2 vars
+EM Run 7 with 443 insts 2 vars
+EM Run 8 with 443 insts 2 vars
+EM Run 9 with 443 insts 2 vars
+Indset size 2
+Using EM with 421 instances and 2 variables ...
+EM Run 0 with 421 insts 2 vars
+EM Run 1 with 421 insts 2 vars
+EM Run 2 with 421 insts 2 vars
+EM Run 3 with 421 insts 2 vars
+EM Run 4 with 421 insts 2 vars
+EM Run 5 with 421 insts 2 vars
+EM Run 6 with 421 insts 2 vars
+EM Run 7 with 421 insts 2 vars
+EM Run 8 with 421 insts 2 vars
+EM Run 9 with 421 insts 2 vars
+Indset size 2
+Using EM with 670 instances and 2 variables ...
+EM Run 0 with 670 insts 2 vars
+EM Run 1 with 670 insts 2 vars
+EM Run 2 with 670 insts 2 vars
+EM Run 3 with 670 insts 2 vars
+EM Run 4 with 670 insts 2 vars
+EM Run 5 with 670 insts 2 vars
+EM Run 6 with 670 insts 2 vars
+EM Run 7 with 670 insts 2 vars
+EM Run 8 with 670 insts 2 vars
+EM Run 9 with 670 insts 2 vars
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 3
+Indset size 2
+Using EM with 714 instances and 2 variables ...
+EM Run 0 with 714 insts 2 vars
+EM Run 1 with 714 insts 2 vars
+EM Run 2 with 714 insts 2 vars
+EM Run 3 with 714 insts 2 vars
+EM Run 4 with 714 insts 2 vars
+EM Run 5 with 714 insts 2 vars
+EM Run 6 with 714 insts 2 vars
+EM Run 7 with 714 insts 2 vars
+EM Run 8 with 714 insts 2 vars
+EM Run 9 with 714 insts 2 vars
+Indset size 2
+Using EM with 370 instances and 2 variables ...
+EM Run 0 with 370 insts 2 vars
+EM Run 1 with 370 insts 2 vars
+EM Run 2 with 370 insts 2 vars
+EM Run 3 with 370 insts 2 vars
+EM Run 4 with 370 insts 2 vars
+EM Run 5 with 370 insts 2 vars
+EM Run 6 with 370 insts 2 vars
+EM Run 7 with 370 insts 2 vars
+EM Run 8 with 370 insts 2 vars
+EM Run 9 with 370 insts 2 vars
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 529 instances and 2 variables ...
+EM Run 0 with 529 insts 2 vars
+EM Run 1 with 529 insts 2 vars
+EM Run 2 with 529 insts 2 vars
+EM Run 3 with 529 insts 2 vars
+EM Run 4 with 529 insts 2 vars
+EM Run 5 with 529 insts 2 vars
+EM Run 6 with 529 insts 2 vars
+EM Run 7 with 529 insts 2 vars
+EM Run 8 with 529 insts 2 vars
+EM Run 9 with 529 insts 2 vars
+Indset size 3
+Using EM with 343 instances and 3 variables ...
+EM Run 0 with 343 insts 3 vars
+EM Run 1 with 343 insts 3 vars
+EM Run 2 with 343 insts 3 vars
+EM Run 3 with 343 insts 3 vars
+EM Run 4 with 343 insts 3 vars
+EM Run 5 with 343 insts 3 vars
+EM Run 6 with 343 insts 3 vars
+EM Run 7 with 343 insts 3 vars
+EM Run 8 with 343 insts 3 vars
+EM Run 9 with 343 insts 3 vars
+Indset size 2
+Using EM with 370 instances and 2 variables ...
+EM Run 0 with 370 insts 2 vars
+EM Run 1 with 370 insts 2 vars
+EM Run 2 with 370 insts 2 vars
+EM Run 3 with 370 insts 2 vars
+EM Run 4 with 370 insts 2 vars
+EM Run 5 with 370 insts 2 vars
+EM Run 6 with 370 insts 2 vars
+EM Run 7 with 370 insts 2 vars
+EM Run 8 with 370 insts 2 vars
+EM Run 9 with 370 insts 2 vars
+Indset size 2
+Using EM with 221 instances and 2 variables ...
+EM Run 0 with 221 insts 2 vars
+EM Run 1 with 221 insts 2 vars
+EM Run 2 with 221 insts 2 vars
+EM Run 3 with 221 insts 2 vars
+EM Run 4 with 221 insts 2 vars
+EM Run 5 with 221 insts 2 vars
+EM Run 6 with 221 insts 2 vars
+EM Run 7 with 221 insts 2 vars
+EM Run 8 with 221 insts 2 vars
+EM Run 9 with 221 insts 2 vars
+Indset size 2
+Indset size 2
+Using EM with 395 instances and 2 variables ...
+EM Run 0 with 395 insts 2 vars
+EM Run 1 with 395 insts 2 vars
+EM Run 2 with 395 insts 2 vars
+EM Run 3 with 395 insts 2 vars
+EM Run 4 with 395 insts 2 vars
+EM Run 5 with 395 insts 2 vars
+EM Run 6 with 395 insts 2 vars
+EM Run 7 with 395 insts 2 vars
+EM Run 8 with 395 insts 2 vars
+EM Run 9 with 395 insts 2 vars
+Indset size 2
+Indset size 3
+Indset size 3
+Indset size 2
+Using EM with 343 instances and 2 variables ...
+EM Run 0 with 343 insts 2 vars
+EM Run 1 with 343 insts 2 vars
+EM Run 2 with 343 insts 2 vars
+EM Run 3 with 343 insts 2 vars
+EM Run 4 with 343 insts 2 vars
+EM Run 5 with 343 insts 2 vars
+EM Run 6 with 343 insts 2 vars
+EM Run 7 with 343 insts 2 vars
+EM Run 8 with 343 insts 2 vars
+EM Run 9 with 343 insts 2 vars
+Indset size 2
+Indset size 3
+Using EM with 430 instances and 3 variables ...
+EM Run 0 with 430 insts 3 vars
+EM Run 1 with 430 insts 3 vars
+EM Run 2 with 430 insts 3 vars
+EM Run 3 with 430 insts 3 vars
+EM Run 4 with 430 insts 3 vars
+EM Run 5 with 430 insts 3 vars
+EM Run 6 with 430 insts 3 vars
+EM Run 7 with 430 insts 3 vars
+EM Run 8 with 430 insts 3 vars
+EM Run 9 with 430 insts 3 vars
+Indset size 3
+Using EM with 413 instances and 3 variables ...
+EM Run 0 with 413 insts 3 vars
+EM Run 1 with 413 insts 3 vars
+EM Run 2 with 413 insts 3 vars
+EM Run 3 with 413 insts 3 vars
+EM Run 4 with 413 insts 3 vars
+EM Run 5 with 413 insts 3 vars
+EM Run 6 with 413 insts 3 vars
+EM Run 7 with 413 insts 3 vars
+EM Run 8 with 413 insts 3 vars
+EM Run 9 with 413 insts 3 vars
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 714 instances and 2 variables ...
+EM Run 0 with 714 insts 2 vars
+EM Run 1 with 714 insts 2 vars
+EM Run 2 with 714 insts 2 vars
+EM Run 3 with 714 insts 2 vars
+EM Run 4 with 714 insts 2 vars
+EM Run 5 with 714 insts 2 vars
+EM Run 6 with 714 insts 2 vars
+EM Run 7 with 714 insts 2 vars
+EM Run 8 with 714 insts 2 vars
+EM Run 9 with 714 insts 2 vars
+Indset size 2
+Indset size 2
+Using EM with 443 instances and 2 variables ...
+EM Run 0 with 443 insts 2 vars
+EM Run 1 with 443 insts 2 vars
+EM Run 2 with 443 insts 2 vars
+EM Run 3 with 443 insts 2 vars
+EM Run 4 with 443 insts 2 vars
+EM Run 5 with 443 insts 2 vars
+EM Run 6 with 443 insts 2 vars
+EM Run 7 with 443 insts 2 vars
+EM Run 8 with 443 insts 2 vars
+EM Run 9 with 443 insts 2 vars
+Indset size 2
+Using EM with 198 instances and 2 variables ...
+EM Run 0 with 198 insts 2 vars
+EM Run 1 with 198 insts 2 vars
+EM Run 2 with 198 insts 2 vars
+EM Run 3 with 198 insts 2 vars
+EM Run 4 with 198 insts 2 vars
+EM Run 5 with 198 insts 2 vars
+EM Run 6 with 198 insts 2 vars
+EM Run 7 with 198 insts 2 vars
+EM Run 8 with 198 insts 2 vars
+EM Run 9 with 198 insts 2 vars
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 500 instances and 2 variables ...
+EM Run 0 with 500 insts 2 vars
+EM Run 1 with 500 insts 2 vars
+EM Run 2 with 500 insts 2 vars
+EM Run 3 with 500 insts 2 vars
+EM Run 4 with 500 insts 2 vars
+EM Run 5 with 500 insts 2 vars
+EM Run 6 with 500 insts 2 vars
+EM Run 7 with 500 insts 2 vars
+EM Run 8 with 500 insts 2 vars
+EM Run 9 with 500 insts 2 vars
+Indset size 2
+Using EM with 343 instances and 2 variables ...
+EM Run 0 with 343 insts 2 vars
+EM Run 1 with 343 insts 2 vars
+EM Run 2 with 343 insts 2 vars
+EM Run 3 with 343 insts 2 vars
+EM Run 4 with 343 insts 2 vars
+EM Run 5 with 343 insts 2 vars
+EM Run 6 with 343 insts 2 vars
+EM Run 7 with 343 insts 2 vars
+EM Run 8 with 343 insts 2 vars
+EM Run 9 with 343 insts 2 vars
+Indset size 2
+Using EM with 714 instances and 2 variables ...
+EM Run 0 with 714 insts 2 vars
+EM Run 1 with 714 insts 2 vars
+EM Run 2 with 714 insts 2 vars
+EM Run 3 with 714 insts 2 vars
+EM Run 4 with 714 insts 2 vars
+EM Run 5 with 714 insts 2 vars
+EM Run 6 with 714 insts 2 vars
+EM Run 7 with 714 insts 2 vars
+EM Run 8 with 714 insts 2 vars
+EM Run 9 with 714 insts 2 vars
+Indset size 2
+Indset size 2
+Indset size 3
+Indset size 2
+Using EM with 500 instances and 2 variables ...
+EM Run 0 with 500 insts 2 vars
+EM Run 1 with 500 insts 2 vars
+EM Run 2 with 500 insts 2 vars
+EM Run 3 with 500 insts 2 vars
+EM Run 4 with 500 insts 2 vars
+EM Run 5 with 500 insts 2 vars
+EM Run 6 with 500 insts 2 vars
+EM Run 7 with 500 insts 2 vars
+EM Run 8 with 500 insts 2 vars
+EM Run 9 with 500 insts 2 vars
+Indset size 2
+Indset size 2
+Using EM with 333 instances and 2 variables ...
+EM Run 0 with 333 insts 2 vars
+EM Run 1 with 333 insts 2 vars
+EM Run 2 with 333 insts 2 vars
+EM Run 3 with 333 insts 2 vars
+EM Run 4 with 333 insts 2 vars
+EM Run 5 with 333 insts 2 vars
+EM Run 6 with 333 insts 2 vars
+EM Run 7 with 333 insts 2 vars
+EM Run 8 with 333 insts 2 vars
+EM Run 9 with 333 insts 2 vars
+Indset size 2
+Indset size 2
+Indset size 3
+Using EM with 714 instances and 3 variables ...
+EM Run 0 with 714 insts 3 vars
+EM Run 1 with 714 insts 3 vars
+EM Run 2 with 714 insts 3 vars
+EM Run 3 with 714 insts 3 vars
+EM Run 4 with 714 insts 3 vars
+EM Run 5 with 714 insts 3 vars
+EM Run 6 with 714 insts 3 vars
+EM Run 7 with 714 insts 3 vars
+EM Run 8 with 714 insts 3 vars
+EM Run 9 with 714 insts 3 vars
+Indset size 2
+Using EM with 221 instances and 2 variables ...
+EM Run 0 with 221 insts 2 vars
+EM Run 1 with 221 insts 2 vars
+EM Run 2 with 221 insts 2 vars
+EM Run 3 with 221 insts 2 vars
+EM Run 4 with 221 insts 2 vars
+EM Run 5 with 221 insts 2 vars
+EM Run 6 with 221 insts 2 vars
+EM Run 7 with 221 insts 2 vars
+EM Run 8 with 221 insts 2 vars
+EM Run 9 with 221 insts 2 vars
+Indset size 2
+Using EM with 395 instances and 2 variables ...
+EM Run 0 with 395 insts 2 vars
+EM Run 1 with 395 insts 2 vars
+EM Run 2 with 395 insts 2 vars
+EM Run 3 with 395 insts 2 vars
+EM Run 4 with 395 insts 2 vars
+EM Run 5 with 395 insts 2 vars
+EM Run 6 with 395 insts 2 vars
+EM Run 7 with 395 insts 2 vars
+EM Run 8 with 395 insts 2 vars
+EM Run 9 with 395 insts 2 vars
+Indset size 2
+Using EM with 389 instances and 2 variables ...
+EM Run 0 with 389 insts 2 vars
+EM Run 1 with 389 insts 2 vars
+EM Run 2 with 389 insts 2 vars
+EM Run 3 with 389 insts 2 vars
+EM Run 4 with 389 insts 2 vars
+EM Run 5 with 389 insts 2 vars
+EM Run 6 with 389 insts 2 vars
+EM Run 7 with 389 insts 2 vars
+EM Run 8 with 389 insts 2 vars
+EM Run 9 with 389 insts 2 vars
+Indset size 2
+Indset size 3
+Indset size 2
+Using EM with 505 instances and 2 variables ...
+EM Run 0 with 505 insts 2 vars
+EM Run 1 with 505 insts 2 vars
+EM Run 2 with 505 insts 2 vars
+EM Run 3 with 505 insts 2 vars
+EM Run 4 with 505 insts 2 vars
+EM Run 5 with 505 insts 2 vars
+EM Run 6 with 505 insts 2 vars
+EM Run 7 with 505 insts 2 vars
+EM Run 8 with 505 insts 2 vars
+EM Run 9 with 505 insts 2 vars
+Indset size 3
+Using EM with 343 instances and 3 variables ...
+EM Run 0 with 343 insts 3 vars
+EM Run 1 with 343 insts 3 vars
+EM Run 2 with 343 insts 3 vars
+EM Run 3 with 343 insts 3 vars
+EM Run 4 with 343 insts 3 vars
+EM Run 5 with 343 insts 3 vars
+EM Run 6 with 343 insts 3 vars
+EM Run 7 with 343 insts 3 vars
+EM Run 8 with 343 insts 3 vars
+EM Run 9 with 343 insts 3 vars
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 221 instances and 2 variables ...
+EM Run 0 with 221 insts 2 vars
+EM Run 1 with 221 insts 2 vars
+EM Run 2 with 221 insts 2 vars
+EM Run 3 with 221 insts 2 vars
+EM Run 4 with 221 insts 2 vars
+EM Run 5 with 221 insts 2 vars
+EM Run 6 with 221 insts 2 vars
+EM Run 7 with 221 insts 2 vars
+EM Run 8 with 221 insts 2 vars
+EM Run 9 with 221 insts 2 vars
+Indset size 2
+Indset size 2
+Using EM with 470 instances and 2 variables ...
+EM Run 0 with 470 insts 2 vars
+EM Run 1 with 470 insts 2 vars
+EM Run 2 with 470 insts 2 vars
+EM Run 3 with 470 insts 2 vars
+EM Run 4 with 470 insts 2 vars
+EM Run 5 with 470 insts 2 vars
+EM Run 6 with 470 insts 2 vars
+EM Run 7 with 470 insts 2 vars
+EM Run 8 with 470 insts 2 vars
+EM Run 9 with 470 insts 2 vars
+Indset size 2
+Using EM with 189 instances and 2 variables ...
+EM Run 0 with 189 insts 2 vars
+EM Run 1 with 189 insts 2 vars
+EM Run 2 with 189 insts 2 vars
+EM Run 3 with 189 insts 2 vars
+EM Run 4 with 189 insts 2 vars
+EM Run 5 with 189 insts 2 vars
+EM Run 6 with 189 insts 2 vars
+EM Run 7 with 189 insts 2 vars
+EM Run 8 with 189 insts 2 vars
+EM Run 9 with 189 insts 2 vars
+Indset size 2
+Using EM with 413 instances and 2 variables ...
+EM Run 0 with 413 insts 2 vars
+EM Run 1 with 413 insts 2 vars
+EM Run 2 with 413 insts 2 vars
+EM Run 3 with 413 insts 2 vars
+EM Run 4 with 413 insts 2 vars
+EM Run 5 with 413 insts 2 vars
+EM Run 6 with 413 insts 2 vars
+EM Run 7 with 413 insts 2 vars
+EM Run 8 with 413 insts 2 vars
+EM Run 9 with 413 insts 2 vars
+Indset size 2
+Indset size 2
+Using EM with 430 instances and 2 variables ...
+EM Run 0 with 430 insts 2 vars
+EM Run 1 with 430 insts 2 vars
+EM Run 2 with 430 insts 2 vars
+EM Run 3 with 430 insts 2 vars
+EM Run 4 with 430 insts 2 vars
+EM Run 5 with 430 insts 2 vars
+EM Run 6 with 430 insts 2 vars
+EM Run 7 with 430 insts 2 vars
+EM Run 8 with 430 insts 2 vars
+EM Run 9 with 430 insts 2 vars
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 405 instances and 2 variables ...
+EM Run 0 with 405 insts 2 vars
+EM Run 1 with 405 insts 2 vars
+EM Run 2 with 405 insts 2 vars
+EM Run 3 with 405 insts 2 vars
+EM Run 4 with 405 insts 2 vars
+EM Run 5 with 405 insts 2 vars
+EM Run 6 with 405 insts 2 vars
+EM Run 7 with 405 insts 2 vars
+EM Run 8 with 405 insts 2 vars
+EM Run 9 with 405 insts 2 vars
+Indset size 2
+Using EM with 309 instances and 2 variables ...
+EM Run 0 with 309 insts 2 vars
+EM Run 1 with 309 insts 2 vars
+EM Run 2 with 309 insts 2 vars
+EM Run 3 with 309 insts 2 vars
+EM Run 4 with 309 insts 2 vars
+EM Run 5 with 309 insts 2 vars
+EM Run 6 with 309 insts 2 vars
+EM Run 7 with 309 insts 2 vars
+EM Run 8 with 309 insts 2 vars
+EM Run 9 with 309 insts 2 vars
+Indset size 2
+Indset size 2
+Using EM with 358 instances and 2 variables ...
+EM Run 0 with 358 insts 2 vars
+EM Run 1 with 358 insts 2 vars
+EM Run 2 with 358 insts 2 vars
+EM Run 3 with 358 insts 2 vars
+EM Run 4 with 358 insts 2 vars
+EM Run 5 with 358 insts 2 vars
+EM Run 6 with 358 insts 2 vars
+EM Run 7 with 358 insts 2 vars
+EM Run 8 with 358 insts 2 vars
+EM Run 9 with 358 insts 2 vars
+Indset size 2
+Indset size 2
+Using EM with 390 instances and 2 variables ...
+EM Run 0 with 390 insts 2 vars
+EM Run 1 with 390 insts 2 vars
+EM Run 2 with 390 insts 2 vars
+EM Run 3 with 390 insts 2 vars
+EM Run 4 with 390 insts 2 vars
+EM Run 5 with 390 insts 2 vars
+EM Run 6 with 390 insts 2 vars
+EM Run 7 with 390 insts 2 vars
+EM Run 8 with 390 insts 2 vars
+EM Run 9 with 390 insts 2 vars
+Indset size 2
+Indset size 2
+Using EM with 189 instances and 2 variables ...
+EM Run 0 with 189 insts 2 vars
+EM Run 1 with 189 insts 2 vars
+EM Run 2 with 189 insts 2 vars
+EM Run 3 with 189 insts 2 vars
+EM Run 4 with 189 insts 2 vars
+EM Run 5 with 189 insts 2 vars
+EM Run 6 with 189 insts 2 vars
+EM Run 7 with 189 insts 2 vars
+EM Run 8 with 189 insts 2 vars
+EM Run 9 with 189 insts 2 vars
+SPN has 26905 nodes
+Building from build list (9164 items)...
+SPN has 29329 nodes
+
+CP 0.6  GF 10.0 IT 4    Smoo2.0
+Train LLH: -56.64757890502126
+Validation LLH: -57.30723754419026
+***
+
+CP 0.6  GF 10.0 IT 4    Smoo1.0
+Train LLH: -56.49559066821403
+Validation LLH: -57.324926076404054
+
+CP 0.6  GF 10.0 IT 4    Smoo0.5
+Train LLH: -56.350075312181716
+Validation LLH: -57.359687405020914
+
+CP 0.6  GF 10.0 IT 4    Smoo0.25
+Train LLH: -56.22966643611131
+Validation LLH: -57.39551860303963
+
+CP 0.6  GF 10.0 IT 4    Smoo0.125
+Train LLH: -56.143826960592236
+Validation LLH: -57.41690467677734
+
+CP 0.6  GF 10.0 IT 4    Smoo0.0625
+Train LLH: -56.091243749488
+Validation LLH: -57.43486672963817
+
+CP 0.6  GF 10.0 IT 4    Smoo0.03125
+Train LLH: -56.061929057048665
+Validation LLH: -57.44970625197744
+11 bnetflix GF: 10.0    CP: 0.6 Valid: -57.30723754419026   Test: -57.315578522619866   Time: 1135.89
+
+real    21m12.192s
+user    21m19.615s
+sys 0m4.256s
+-> time java -Xmx1024m -cp bin exp.inference.SPNInfTest DATA 11 N d11_default.spn 
+DATA    11
+N   d11_default.spn
+Dataset bnetflix, 100 vars, 15000tr, 2000va, 3000te
+Loading training...
+Loading validation...
+Loading testing...
+-58.31881719877001
+-60.4634795545521
+-54.35205246506995
+-51.21347253106342
+-66.27255108917483
+-64.11733207656883
+-51.589114635244414
+-49.24805015216264
+-53.063464230296475
+-67.87753308291292
+-42.18427741748516
+-56.73587634404658
+-47.34520274537395
+-60.534677604826456
+-55.718321436130786
+-53.88943088406734
+-60.28337832476442
+-51.74687124067804
+-55.58057537427031
+-61.00334025916375
+-55.96845824405863
+-58.92181168809611
+-58.019699012663935
+-29.371886256630066
+-57.344022538768904
+-55.21685764197124
+-56.979129534427706
+-61.03944245013422
+-50.51789648201325
+-50.870433741402536
+-63.07052897976138
+-64.75306350420205
+-53.48751423897596
+-69.57728982579768
+-56.61436973125584
+-62.207536086938624
+-56.44054934359895
+-60.54985015340494
+-48.80721235012118
+-55.19595167289893
+-67.32464491786723
+-64.53273062482357
+-51.80181616896826
+-45.508495089339014
+-54.858811003722785
+-65.05282837131347
+-58.17468791591365
+-49.414640313256236
+-55.160572156898034
+-55.97991845830278
+-47.59059141928535
+-59.8550135844488
+-55.87255608882108
+-54.4898904901235
+-53.81421026139931
+-53.41119703018386
+-57.7428935398516
+-57.818996635997834
+-69.57758684879505
+-58.96247552034298
+-52.649422694788434
+-58.10497244500579
+-53.8872866538118
+-65.36679327044443
+-69.3416124960086
+-57.593165396332516
+-47.608640245561666
+-62.71929613582476
+-48.021889436419244
+-62.489861743989195
+-58.26241569362087
+-67.30588358847767
+-56.67729076838103
+-48.289095330772554
+-61.024018618593544
+-60.49114150511415
+-56.326418871043266
+-56.68362587927112
+-31.831138466720276
+-58.71352959291773
+-63.7325819081972
+-62.052217731587504
+-56.324860565569416
+-60.83158875473397
+-60.02305887392767
+-52.53655510189283
+-61.23734843755316
+-57.59974922003883
+-57.27306651580471
+-60.27277652502079
+-54.33853642327372
+-43.98734480726613
+-53.39434136690112
+-55.7275252916526
+-65.9019647557764
+-52.046467529522225
+-60.09923819378249
+-59.34423150583134
+-54.3484383701993
+-57.51027183708382
+-60.367165110303695
+-51.73332622481514
+-51.98833954772274
+-53.950790347748345
+-55.07997863636154
+-64.06817385837952
+-61.9353292238263
+-55.09647102126784
+-64.1016684110102
+-56.809359317330404
+-54.91710415762133
+-56.02892223157411
+-50.68392361464031
+-51.627009932027526
+-51.867997720566656
+-64.16337039098428
+-61.96633033702917
+-53.66873010839296
+-68.40174438630063
+-57.84971072628529
+-65.21708348689693
+-62.44306312908711
+-71.59703806587792
+-53.60803134621071
+-38.94331191070239
+-60.369439438859054
+-60.077415343026324
+-56.03188808855939
+-59.64605085816743
+-52.22511917709146
+-54.73479334221057
+-61.22280962272037
+-61.86544525288744
+-54.58198599320546
+-59.333672499197036
+-54.0594126672022
+-61.08668268233243
+-58.561529797794456
+-58.183139328258406
+-58.40842381731232
+-54.59472754397353
+-47.587044703350955
+-63.2631000972251
+-49.323018955974284
+-58.03109845171381
+-66.00453139939724
+-49.53296010201074
+-62.828980912499404
+-54.13663816178283
+-59.46113679130213
+-62.130299128031105
+-66.04698873029143
+-61.53376705965925
+-56.60714563823708
+-58.48742597968073
+-55.088301763830664
+-55.22819183757644
+-62.247818609783394
+-61.96989166892208
+-50.54046742568418
+-50.44376029650217
+-59.58445693384047
+-60.039925943757844
+-57.3671968481163
+-72.03197826239453
+-64.3697694055939
+-64.16776243312172
+-54.29074024682992
+-58.97450628422796
+-56.33333554337814
+-60.198003188930095
+-53.81480121432522
+-59.09251518585345
+-60.01900762267033
+-63.675107005918484
+-58.648707217884194
+-60.290310188707124
+-61.03891474853976
+-59.85803947187904
+-56.30971517362963
+-59.95981112818979
+-57.14937079594725
+-55.65187542829355
+-58.89474227153197
+-60.23542678619125
+-60.389947948716184
+-56.86173480533757
+-52.726928265971466
+-49.30016441680594
+-51.93471642526646
+-65.32220121796539
+-53.92879276410055
+-53.073820054975755
+-54.418612890149646
+-54.31157669779247
+-64.68835275110466
+-54.82301209253281
+-60.95493744771241
+-60.984879928950676
+-64.21013058516638
+-57.932837816747
+-56.35346299099034
+-60.033208225046195
+-59.1979836314371
+-45.754755491146675
+-57.138284865101284
+-59.88292074991123
+-59.4178348442727
+-56.34055779910371
+-51.474713045102575
+-62.326471018063316
+-59.08601796617519
+-63.75652502455222
+-60.059009958391364
+-63.14418257820753
+-65.12175445915877
+-60.26844207233181
+-54.204706437134995
+-51.08413532925481
+-53.862602579130936
+-58.4554248838304
+-63.20971946019419
+-53.89041058698988
+-52.94177378678977
+-47.197399436781446
+-61.89913103576446
+-55.80662843485179
+-64.83502009360585
+-58.93372209039764
+-62.92928397814464
+-63.71986644587851
+-55.750345658993
+-66.74600368758318
+-64.42069167760376
+-60.828477551764884
+-61.78887682826134
+-60.86897089593185
+-55.118890286544286
+-52.322862635157016
+-61.44257194130895
+-60.08988254895439
+-58.17896192094281
+-56.889578592197026
+-59.75440758296475
+-61.76327079845353
+-65.87528206523406
+-61.1548630238184
+-55.736277826117735
+-51.44488980098175
+-62.138032668133405
+-59.73583305447254
+-59.66624332116937
+-62.25129489647468
+-37.040373248267635
+-64.28178984871835
+-60.3683049794765
+-55.80702966167467
+-59.1931750023968
+-67.84157838596363
+-54.05890154890442
+-53.13067944616894
+-51.612067644350084
+-61.72313747622233
+-56.26022701947538
+-50.01900552795478
+-56.489207480355056
+-56.78037657909412
+-50.04833593770116
+-69.1577404786135
+-52.789122687127545
+-55.839141476255996
+-62.52568455728224
+-56.207713596412766
+-51.71153303051169
+-57.56228200481103
+-62.23005025010295
+-58.479435381756716
+-55.33158732981712
+-59.05894268941082
+-61.7850717862666
+-31.45877261578823
+-61.543178661769375
+-53.86967358497981
+-65.14182419577837
+-57.23413465717282
+-46.66767078948178
+-54.27626373386296
+-54.16534128025181
+-53.49232476045754
+-57.92485652805229
+-68.71750805452167
+-54.16936758442762
+-57.82922189641876
+-58.383982875409494
+-59.77829150582281
+-57.658306888776124
+-60.44184413342803
+-59.75662621407639
+-59.33249570652591
+-59.171509717576136
+-59.90244800594336
+-51.47675362727926
+-55.3789178889821
+-57.871201187435204
+-65.23099466704096
+-56.086409097790934
+-54.21958301845168
+-61.192274733863435
+-51.94992077437585
+-58.410325487706245
+-61.34994192748825
+-54.15703253423849
+-60.007787246159985
+-52.29424748396041
+-55.5504020599932
+-64.82326943042884
+-65.61408115823157
+-59.38460255590154
+-58.1719066214981
+-61.13984151902822
+-64.65526860244768
+-56.70925805079672
+-51.86525502888268
+-53.116175298171136
+-56.24357510526813
+-59.50700767181389
+-57.22560400600306
+-53.26064677231088
+-50.08404569771838
+-62.54064907061013
+-59.9762490466349
+-63.55709323142738
+-50.92405636768278
+-38.341062716805475
+-57.89141639002791
+-61.94834667893946
+-55.858876975429666
+-50.25100609215942
+-69.18584123956867
+-66.99356342395447
+-58.86215212090389
+-53.85854341405302
+-63.00398348222967
+-43.94051090136402
+-64.40179137941998
+-55.13428722314337
+-53.60477649267192
+-67.38646135680102
+-62.907727819905865
+-62.4755620030938
+-52.29061931001284
+-58.435384058939704
+-62.98647869381923
+-55.70619374960086
+-32.953969092962886
+-57.11769282060565
+-61.50097372889071
+-66.50486409983733
+-58.392134615781394
+-61.10485915170694
+-60.329677350157084
+-67.67608552528928
+-57.773750381610725
+-59.30825444623377
+-62.585243742690324
+-55.35923099816751
+-49.88704377335801
+-64.0517888645882
+-55.45395539422872
+-55.90705526465471
+-59.04527932451516
+-55.05502234250894
+-61.360099580903636
+-67.85474697599217
+-60.40562006068339
+-63.40404707379015
+-52.76639922317073
+-48.141701917513565
+-56.584755350401075
+-60.33411747279735
+-70.23370079132039
+-58.97962245951764
+-43.58052076143689
+-63.979428981917565
+-63.25261276935533
+-67.18860735868424
+-53.297830958491026
+-64.18811160113404
+-55.402000121906866
+-44.01418321362587
+-69.3232625065148
+-60.77238967055064
+-55.20881787803972
+-59.18113480697267
+-49.322823332085
+-70.42776352576571
+-61.24034957355014
+-53.62501484368107
+-53.11385426759151
+-68.62959696595122
+-54.99267381846499
+-57.48070200897563
+-54.12793154669196
+-58.841134526515674
+-63.124758384186514
+-55.478174388454235
+-61.561823509770186
+-62.45017889412002
+-55.576681906059065
+-46.491982719572825
+-61.68483933656725
+-50.70463270464953
+-61.3931480994147
+-58.10941914866913
+-53.660923105976025
+-66.11570117203753
+-44.36377740671584
+-60.13320802410904
+-64.63415450293108
+-37.547434204489065
+-57.16056622005872
+-55.61247577983239
+-52.47168450117815
+-62.05623903539331
+-57.37111890373232
+-61.99942906170525
+-63.45721506080272
+-50.89783632027174
+-49.106652846303376
+-57.188261263927984
+-61.01694724996999
+-64.5914292756151
+-63.23023249348265
+-52.07816855175519
+-53.122531394846796
+-56.35168334289788
+-55.109493170776105
+-60.84484954944583
+-57.0038153304702
+-59.90691173975025
+-55.52604030361301
+-42.331067933251596
+-63.22354353579532
+-57.99774300953389
+-62.50600518303045
+-57.475355582301546
+-56.17785163562694
+-60.51155772070685
+-50.87789215581878
+-63.292451874828274
+-63.3558323951371
+-61.50133199462651
+-60.24036196476816
+-52.102082952891585
+-62.667828992313844
+-43.529746291385514
+-56.802688289094476
+-59.77137940099272
+-60.23253113968926
+-41.68296457385139
+-65.36224158250369
+-53.38154520100691
+-70.81198451384688
+-54.66578719478831
+-61.48197574137033
+-50.666031890136495
+-63.65978585371326
+-53.09426175647605
+-48.50341914685256
+-60.72117571898963
+-57.93984346321648
+-62.93932332263811
+-62.336789189319646
+-54.26645675309979
+-53.82255481248793
+-56.65176417781287
+-56.11422525527187
+-50.82188570827931
+-57.18242939569175
+-51.35801798473633
+-61.371098854639726
+-55.571084698963475
+-58.926317587488036
+-52.576389127325044
+-51.676326863476014
+-58.54361171646076
+-56.85354211056621
+-53.790417609910115
+-45.67087960843068
+-55.14266326769768
+-50.99487414429977
+-58.18149124124341
+-62.35926309339847
+-54.58587645600573
+-47.10118095866905
+-57.780936759261685
+-55.965471481155056
+-60.85308732574311
+-62.324170215673846
+-53.6530856469949
+-56.77618747807615
+-56.96666905832049
+-68.67604099786608
+-62.93854122662276
+-49.64379878870965
+-55.48967636370416
+-61.245977314194135
+-65.21175126520704
+-56.81792912868609
+-55.02273252298598
+-54.55182935878861
+-47.241948257365756
+-64.94843740000995
+-65.7615784765754
+-51.23371722569777
+-61.72149929592534
+-51.63328126785785
+-64.16158798187453
+-52.607793348073386
+-63.8776412891321
+-53.93311656014089
+-56.44955352799085
+-55.750667346322984
+-55.49932488728268
+-65.93651760072288
+-58.33876917802491
+-60.39454434659017
+-57.22384015019096
+-61.998610324767455
+-62.49513221643382
+-59.85818503530199
+-59.938010818306864
+-54.87351747124344
+-54.81783086041273
+-60.154582822279735
+-55.84887243073439
+-47.26951548545808
+-59.87990504033989
+-58.92829101185857
+-55.75553722177767
+-69.86479995457626
+-56.879091571656986
+-52.80338686475931
+-59.574797749330415
+-51.02128586727337
+-42.31963516611868
+-59.25884012498084
+-59.807284074912936
+-38.76443298133209
+-50.97633575798512
+-51.30559710197533
+-51.0976411588641
+-59.6057457052266
+-71.25917567735972
+-61.36197254303997
+-51.64583003195107
+-61.33975782846589
+-51.0854076163791
+-56.747727100383024
+-72.94895523991033
+-48.219347212830414
+-45.03463789020942
+-59.38266955411548
+-53.378959129236584
+-40.48736141036522
+-64.5403724183424
+-63.995031958118304
+-64.20938235171359
+-55.84268472936629
+-63.403876457454125
+-64.99050570629934
+-51.8725955045878
+-49.18000779404387
+-60.63912640168976
+-69.03484153602271
+-62.38995874745261
+-51.76178216179448
+-48.252773766216116
+-59.38621587189986
+-58.87836733260768
+-61.21400588120014
+-59.80145917868529
+-63.41746870436762
+-61.3584249232156
+-57.7090352676199
+-65.14094749267676
+-66.07669625766785
+-59.57310398142721
+-27.976661924298575
+-62.758935065698964
+-58.401606142884404
+-62.03191626808989
+-58.1764595825171
+-42.70186917710391
+-67.37872981118062
+-55.50616919988306
+-58.70634134231049
+-55.96758278546497
+-50.65701132075036
+-59.6852494214862
+-48.68327165206344
+-63.25963149640722
+-60.748476252447475
+-50.24707170438617
+-58.38486834370863
+-55.35059502390322
+-63.70761439321608
+-54.763336146663505
+-60.70979964700125
+-56.16448540093735
+-59.15584541358301
+-51.390129730536636
+-57.986796036300944
+-43.671827139726446
+-50.19202499909422
+-54.36119752579632
+-64.76270941790561
+-58.71575089783077
+-54.799905029504
+-47.90636364140991
+-68.17926068549274
+-58.999301402491255
+-55.24298872208722
+-59.23977789259925
+-68.28065959290028
+-53.555211876248116
+-64.04587641362983
+-58.74718349325606
+-48.513770578793824
+-55.0191519817911
+-55.55411865787207
+-51.19211128398804
+-61.84258046100871
+-63.51916893453715
+-59.401438441739636
+-58.19605130722523
+-54.69250651306203
+-71.48506190158872
+-56.101140001378674
+-69.18722342882425
+-56.313647979659976
+-52.10496815172787
+-67.72837207949826
+-63.7692498296593
+-52.36995614146156
+-57.7744446228423
+-54.13074642490001
+-56.858495061949135
+-55.376200478419165
+-62.58043755771207
+-61.213949936180676
+-56.79406739865875
+-53.95184504204999
+-62.483648728543706
+-58.915373410832395
+-68.47808368217669
+-62.50338822270515
+-50.05485147532985
+-52.816799111005444
+-54.189075917058254
+-61.8165262645974
+-48.10504016322025
+-51.549354043749524
+-65.07444657134614
+-59.14939552301332
+-57.88004209375186
+-57.26933658221344
+-60.35428857793329
+-61.18636219896332
+-61.78631209565257
+-66.1720979822323
+-64.05271902196921
+-41.65069369660647
+-61.64929659472851
+-55.707610398771905
+-39.25158824568833
+-64.0803072339794
+-58.06116997166768
+-64.73886212249523
+-66.94135978648937
+-64.14127503286858
+-60.544840599710994
+-63.43329321440746
+-60.35524091766093
+-50.214980117904084
+-43.59632782371868
+-49.12782355997829
+-54.84531574122853
+-61.5636371341019
+-56.21329577101589
+-68.37502805504602
+-55.087129083481024
+-47.41901768038247
+-67.82729715108391
+-44.50522875469492
+-64.79013912272356
+-57.29490589629729
+-61.58331491649097
+-61.85681912296403
+-52.12906058465313
+-58.06303354653936
+-70.3826276798806
+-61.57493554961948
+-50.191288169047
+-57.15621055449836
+-54.36300751868563
+-60.21186071783174
+-59.090439907405205
+-57.95853111987266
+-45.498508022706716
+-49.03844474687259
+-46.80691273259828
+-53.58772935798863
+-53.643569518427334
+-61.410133076133974
+-57.92636379625292
+-59.561193255893784
+-57.20651243690568
+-60.48202222797565
+-57.735482508060585
+-52.97842218135873
+-58.05439349990412
+-55.83432245352825
+-56.319005449000684
+-45.68280637079268
+-60.67819495414011
+-54.035789422627225
+-51.97744231524287
+-49.84970087797004
+-60.22841052307575
+-66.18775606271195
+-61.52844606242671
+-57.69615701679479
+-55.07822466373759
+-38.63230986707818
+-60.49907907147554
+-55.27502489081397
+-58.492221492317846
+-63.36167311023459
+-70.79380755164306
+-55.31111745194694
+-55.80768058719681
+-62.649211313916666
+-49.28280134503132
+-63.98162301321488
+-57.90915705016773
+-64.35903468259772
+-54.09034372757347
+-49.979635437401555
+-46.418675748769054
+-63.95468438576911
+-64.3627526203493
+-64.1779455085616
+-49.58934466838178
+-56.34372842819863
+-52.634669922977324
+-58.09044373599193
+-59.7229218709617
+-53.56326997910201
+-47.705569560692375
+-57.39877398504793
+-58.895901836422176
+-43.64455516995736
+-58.191887940881934
+-62.09267676743588
+-53.264291914310505
+-51.15172285942787
+-68.13032495542794
+-53.43044105214379
+-62.84993267177201
+-72.83608314991255
+-49.32038903150187
+-61.11876025266655
+-58.664119983007204
+-57.324570820956566
+-65.83734895201687
+-49.44285252481289
+-57.54459178401371
+-56.343371676148514
+-62.5250257521574
+-61.802100628104526
+-62.145812274864205
+-53.67790631832808
+-51.71584274125628
+-55.50100542153316
+-30.497762723812645
+-57.95992790979505
+-47.48036777585742
+-63.20847720936365
+-63.58575221931222
+-56.85071403260312
+-66.71290190841331
+-48.102275566611695
+-60.94553179319648
+-52.8773484550627
+-53.57699605003454
+-40.025775691714635
+-54.02344877605124
+-48.907048126447386
+-59.65198641455626
+-54.50990025776241
+-57.10072142231026
+-59.405362511837865
+-56.08066264221282
+-59.171175466025616
+-68.64300096027301
+-66.48022618427414
+-57.3892351031427
+-67.70467035175463
+-49.97729655360293
+-59.776162081643015
+-59.07841936811896
+-56.178825481463136
+-45.31396583389934
+-55.06985025510941
+-58.60376410281232
+-56.46656245060503
+-52.20705735303725
+-61.61689595527586
+-46.210267910997416
+-52.54763676330167
+-65.88800708633907
+-48.14726986287459
+-64.6956417079755
+-50.54609995988929
+-60.15217377939393
+-57.90830400697988
+-62.3338877872731
+-48.520647623140164
+-62.44511186493716
+-62.83993686241653
+-58.60621414202655
+-49.98692859815207
+-55.299126525467074
+-54.45821167835755
+-63.82155302404089
+-67.24300434331816
+-52.681290804916145
+-51.760125154830945
+-66.95166896690057
+-63.641987713333336
+-53.82960473234132
+-56.170098588267436
+-57.0251093356723
+-49.29671239954439
+-65.39846790970853
+-52.21867837552786
+-57.39643599186221
+-55.622963100759065
+-57.05233675547869
+-52.2347528387708
+-58.45096371852003
+-58.79922175364373
+-62.8329524698715
+-71.34587699687815
+-55.93725201481817
+-60.18051829678665
+-49.93212260236768
+-55.22072823782755
+-59.50375328469242
+-57.20269894077604
+-62.60541260771951
+-71.93082611639076
+-61.27239865959859
+-61.41195770397577
+-63.127724112478916
+-63.46933182785591
+-49.97000431134147
+-55.05665777697734
+-55.760373064175674
+-47.88582742287282
+-71.37124837435175
+-54.573373295761726
+-54.251781194653574
+-61.97729373484717
+-58.64956859965845
+-65.03809536980964
+-48.3154666797906
+-50.54657325076813
+-50.82092472472033
+-59.84019215664923
+-61.36550063321639
+-48.43132535424594
+-54.78950429246114
+-57.31534749685874
+-58.08987378717055
+-53.70146574881994
+-57.48398933584363
+-67.44580885423869
+-52.84004225966758
+-64.50254045890009
+-58.30429125349404
+-63.614560446050234
+-64.98901911594027
+-56.547778734242364
+-49.26590130246486
+-53.215918051338825
+-52.1681135676275
+-58.593103886577
+-58.2493112220928
+-50.34430942619661
+-57.11694343367373
+-70.3642017987157
+-56.962239715549444
+-65.22461026364954
+-62.13967966709525
+-48.56739000368858
+-58.75371504410251
+-52.0500329626214
+-58.74910392665366
+-49.731393941511435
+-53.326272408199486
+-62.521998315475365
+-53.39200317437655
+-53.025282115396124
+-46.49461616444701
+-52.47602564245941
+-63.92242354325885
+-60.13637675929583
+-60.80192901851769
+-60.16943284026445
+-66.83021004129992
+-57.95677726427352
+-54.7651748522787
+-52.09524157858213
+-48.017579296736635
+-38.01161987342209
+-62.64629775407442
+-32.965752804124236
+-53.20724069690872
+-55.972351176935945
+-67.77584445707001
+-63.668016359726096
+-51.29956684033271
+-56.69053560901459
+-56.123814408922236
+-63.726990051112274
+-60.85149714290969
+-49.86512290628628
+-55.820550711847375
+-71.85179540534531
+-51.04624948645975
+-59.82982890531672
+-62.65537627883766
+-54.46809506908848
+-55.5672990304261
+-51.85108406432778
+-62.455969159691726
+-61.73786442956866
+-57.308605193648305
+-51.40076288448745
+-47.50052573748709
+-58.420334552853184
+-60.22139267814387
+-63.10899740487393
+-52.76377813213274
+-44.42433636882015
+-52.15852402559585
+-56.30457180914164
+-60.56392302669901
+-50.82976388322273
+-56.736882998613865
+-59.77570337615181
+-48.55229107865467
+-62.226775540472026
+-57.26587496490236
+-64.06429036615233
+-61.94662799691191
+-61.848284984640614
+-71.40894578589271
+-59.35350184656172
+-67.05291896057533
+-66.28379958826456
+-60.500603559176604
+-57.242313587156396
+-55.575712942247264
+-60.29968757313538
+-57.69417525560206
+-51.50974583667568
+-54.08242631964418
+-58.76591729093258
+-49.3010844634281
+-55.82599083691029
+-65.3302099598753
+-61.30004429714476
+-64.48770291220036
+-57.76267192656463
+-53.08025515890088
+-56.09954296353675
+-53.60383715852565
+-53.2100980934036
+-64.56696220234858
+-54.28441934408571
+-48.31704823940358
+-61.004163187562035
+-68.52250883912859
+-60.34385692310905
+-50.712092823215336
+-56.57685981522236
+-60.443230062360435
+-45.27311324881439
+-50.07105221598961
+-56.52388425182891
+-54.548245655243136
+-55.83867843713615
+-61.37098391284422
+-58.89017574511148
+-57.108503941432744
+-58.3136340501224
+-60.12171297843102
+-72.02775005262
+-52.0502439014366
+-58.620527507247296
+-54.47120968910636
+-59.21484299519401
+-52.94024096588069
+-53.51000869698737
+-44.60882964810232
+-57.56070997277701
+-57.80495542775843
+-65.09501950407702
+-70.32244361436466
+-56.924386788859366
+-40.283481285884214
+-58.08580036418082
+-59.37143651949795
+-49.836331980533544
+-54.57976481114553
+-60.45736454533217
+-50.131097531900984
+-58.856615088739346
+-56.02735817090132
+-49.87084143257656
+-55.370411736277305
+-40.6888906969126
+-56.260889400576275
+-59.31405554362913
+-54.895986849794646
+-62.08949163884446
+-63.07170376054314
+-60.627118522426485
+-60.58817242557726
+-46.76413795014513
+-55.779074821812586
+-52.81955422787249
+-63.52142756209531
+-66.51108910656137
+-44.297141405473845
+-48.12857358070627
+-63.89992811230662
+-54.48694535692282
+-66.23020287745383
+-55.944609316562975
+-62.4499754804542
+-63.689016389101084
+-53.94839219730552
+-56.93200204350673
+-52.05404309151884
+-56.138694329967976
+-65.04307983659307
+-55.62582334842412
+-54.26116962939199
+-65.02708147836894
+-62.18543584475212
+-54.292202518729
+-53.37409614807366
+-59.99627533131284
+-67.65411473253813
+-59.27779042057787
+-53.56797767062237
+-62.398095641598466
+-55.740348162784066
+-59.75256857848964
+-61.470812507117465
+-62.575373777628364
+-57.539645269462746
+-40.049033411198245
+-54.16996702282614
+-59.455338019095024
+-53.976429351737686
+-69.2553882675111
+-67.10655629257084
+-53.920675771350815
+-61.01966392502754
+-43.376482781103356
+-59.395528422645306
+-63.56671267340583
+-46.93642618145005
+-61.087369694871306
+-50.56432429513629
+-54.91665724498966
+-62.69801760711306
+-53.87643975745742
+-60.33578948828313
+-56.53200382827675
+-50.92169143488505
+-54.881114058105105
+-46.630519909337615
+-61.30692798494198
+-65.98418783353934
+-56.783939695485415
+-47.929054066470194
+-60.67142393883428
+-57.166266186989425
+-53.29752269647777
+-55.21888051323546
+-53.74471831439722
+-66.61093104167533
+-58.18983437200612
+-53.79682797958454
+-48.391807656076224
+-50.67068184991975
+-50.249486677322636
+-65.98876637096954
+-61.96768636841017
+-47.50608325150271
+-62.24589582378865
+-48.545609058819075
+-31.408569152239377
+-46.10150649019763
+-55.306217028743454
+-69.72215438718172
+-59.73065272032092
+-46.79220426766571
+-46.56163168002157
+-56.22950221086854
+-59.588566693445536
+-54.2399830842819
+-59.43314250026578
+-59.32513366244032
+-57.00734792728456
+-65.73492556760569
+-54.03021063663853
+-50.854208210676504
+-54.40251231581534
+-63.29102186414394
+-61.22412989301436
+-56.79320689958368
+-59.014646186555446
+-51.543057564028345
+-53.10750769548239
+-57.72000131834071
+-53.13839786812689
+-54.988681780366
+-57.90712409418142
+-54.83095969712937
+-61.91310905288155
+-58.64399458076363
+-51.09759402791397
+-57.34309305164062
+-59.44758135939809
+-55.80756943658585
+-30.043868330649858
+-68.28264009268968
+-60.031362159080714
+-46.63419282333135
+-61.208858001017134
+-50.416677979762376
+-50.19099767406931
+-55.86989330141131
+-66.43701188326663
+-59.107466964920455
+-61.696444713682354
+-58.43443290298926
+-58.522235720669926
+-55.883931164837435
+-52.60108867867415
+-54.995244789919035
+-61.625778356028164
+-57.62736000722197
+-53.2046986498099
+-61.907478828961715
+-59.4643745893186
+-59.93681545684806
+-30.439051264581536
+-60.63271087996364
+-71.82769715409107
+-59.85368757335562
+-33.510289988785715
+-52.30387134510782
+-59.48659329989788
+-56.42964853652125
+-59.9501121379532
+-55.425551012345075
+-61.33320974370674
+-59.307237168234884
+-59.15818866577957
+-56.336892449731515
+-58.3891702059631
+-71.1498919887165
+-44.29518650268988
+-57.16687499376022
+-54.0852688620198
+-69.84488313269217
+-53.02180114531484
+-55.745172303240814
+-68.08467346670842
+-55.0672800194309
+-62.74628289793706
+-62.687375683184335
+-61.484088798952506
+-50.82375870638416
+-60.081372197342574
+-50.72945840861812
+-59.31676847899992
+-56.305453112981446
+-60.49745954560085
+-58.51400858698493
+-47.08193766238271
+-59.110976916249285
+-56.479574060331416
+-63.839508641770294
+-52.82921540849128
+-58.800385732217606
+-62.66861768722736
+-58.208826062452644
+-64.66059299957087
+-55.14127322918873
+-57.810333749372525
+-54.49607784527598
+-61.35030696768905
+-64.16412994909952
+-51.153455048683156
+-54.806584704577844
+-53.25941623813492
+-54.231118976301794
+-56.52861216016204
+-34.53859424468044
+-55.18808356747924
+-72.16792958099902
+-56.64463414371985
+-61.46678946566004
+-57.12433197590352
+-55.270224217159985
+-42.69304062580808
+-69.20300649584311
+-56.636005778499516
+-50.32604239467807
+-44.78398828106533
+-60.87596050746068
+-52.25587268395431
+-55.996317282459515
+-61.02558979819551
+-56.864523678862255
+-50.19990451256346
+-53.820146642655175
+-47.886588146281056
+-62.683662713401006
+-53.3662884481576
+-66.43340893465177
+-48.15076834742764
+-57.796697554544174
+-50.53657816815941
+-56.0775134816384
+-61.3549759625077
+-60.84443746317252
+-58.66344006638369
+-56.46673599423413
+-53.70135523210428
+-60.749535165143016
+-46.518924804719255
+-53.20520454644612
+-56.2407872045615
+-51.20924159968999
+-65.4833384017237
+-59.812759247529016
+-51.511926206500085
+-63.06397887579691
+-61.72648193672509
+-46.3379724759143
+-51.31894558504479
+-57.033031419123276
+-59.29790623310014
+-61.28706187142217
+-54.40181703096162
+-57.64949310851201
+-63.871975983800006
+-47.10072099901056
+-58.92031352265315
+-60.978917344731286
+-55.57043186893588
+-59.44544976984308
+-68.07624357958888
+-57.96475710658496
+-59.135048830203225
+-50.04347286283423
+-63.717985651584456
+-65.46945487994402
+-66.74031756521029
+-52.95396628621724
+-67.31148401587285
+-61.0387639001234
+-51.02031142806224
+-59.08793658826777
+-54.19805468693519
+-58.526054028645305
+-61.1478717902529
+-57.39545087374834
+-61.58790622733764
+-67.82481380253904
+-50.83390755536343
+-62.02615535467506
+-58.832112585221076
+-57.691378325469074
+-65.1265696580746
+-62.22082735497615
+-57.5179173648009
+-49.64126060302838
+-53.92416226297578
+-57.43503710221321
+-58.572140723071065
+-52.64690289222337
+-66.57623733056593
+-56.64536630180389
+-44.75728449253105
+-59.45657821688986
+-53.73697526241997
+-65.01193641493686
+-48.15890892058337
+-68.36889262317054
+-54.2388182330294
+-52.371155859134504
+-57.133751929204045
+-54.5203767136044
+-61.67767967329433
+-66.48998316093778
+-64.11383571401944
+-64.10455748935033
+-61.78253794002186
+-54.012759893736565
+-56.36636789992445
+-63.22431371391109
+-56.27914726931078
+-59.87299854700454
+-52.09031647936478
+-55.93104491979404
+-63.37875369528735
+-48.834155382117316
+-48.3406567754212
+-49.74188332918486
+-61.71486433976932
+-57.914053337690206
+-70.46585469662894
+-53.734060548080414
+-56.96559340022946
+-53.89512110109453
+-57.53408671424918
+-56.46922431276752
+-26.37102351758197
+-65.05936320519763
+-51.62162823485598
+-48.30652764742243
+-58.4288848277454
+-52.205099616436485
+-68.21584671183408
+-53.83794260226403
+-69.96987608919468
+-59.65007317520817
+-61.22211354432352
+-60.87966221342965
+-62.95057570457066
+-66.03342311493033
+-57.416137156750935
+-50.985397308225146
+-57.010914430982965
+-64.98415016902356
+-58.51650966036717
+-55.61744927693845
+-58.71838562563078
+-59.480059947395105
+-62.919966751156586
+-45.64386221421189
+-54.59366297345245
+-62.558690427218174
+-59.33307174084553
+-48.67735005775276
+-55.127032258983036
+-55.197843590668654
+-56.46827501759671
+-72.3132796235484
+-50.9875603911756
+-51.76560503610737
+-47.31762066413317
+-53.21254652037378
+-64.2939243814095
+-61.34409608986403
+-57.02634318067767
+-64.29834264647528
+-55.10630298296963
+-56.596950797118616
+-34.78767009097201
+-55.00814538726702
+-60.107091330659365
+-51.35898979984964
+-51.055714552701396
+-57.89876023539144
+-63.58222649550645
+-51.703652449863604
+-61.38166810918971
+-59.58379240887147
+-66.35704860069042
+-56.77875828803796
+-49.31123286162593
+-55.11556014248413
+-62.47341073168535
+-52.309121976605546
+-43.49113063531929
+-60.237855653499444
+-59.359521915232214
+-57.34505098989914
+-59.2056611457929
+-55.61485872951309
+-55.975753232342484
+-58.90269469903779
+-58.84547353356657
+-56.48879872465582
+-54.99341794570479
+-59.88553659250536
+-64.88839690591008
+-47.042632479817115
+-48.61874343086206
+-65.70060364243214
+-49.97808993465182
+-52.395646224207766
+-56.86438194555791
+-47.03679441678506
+-60.298020221822824
+-59.250803378061086
+-57.752136203233086
+-69.23385115883075
+-56.83183401031014
+-58.752074741055914
+-57.305539813257184
+-55.485190380503454
+-57.95099656764104
+-53.08238065629817
+-29.821775546905577
+-49.58070510881398
+-67.26399670212707
+-64.00776154662582
+-58.760450581186234
+-54.50337050211153
+-58.705579105835014
+-68.57822947578873
+-59.699544562139856
+-53.509787811178015
+-65.99980744458608
+-42.99534491572132
+-60.48592991038175
+-61.43918114194937
+-58.18518045745906
+-59.48206582917896
+-56.582640510750295
+-52.30002838356645
+-56.858233771498796
+-54.366373000776065
+-47.28477397412532
+-55.11868442289491
+-47.64101598639479
+-51.98543242029507
+-58.566483560804386
+-62.320595607202684
+-51.874870192702886
+-37.70060155784731
+-62.27272479483934
+-62.02527748405495
+-65.44367464856445
+-52.64566626436281
+-56.02635204004027
+-44.40379179715762
+-64.8418787627067
+-51.17791209208915
+-63.766342888332225
+-60.127904194890704
+-59.48370159737238
+-66.61693014391723
+-59.84160221792964
+-54.88054201949925
+-53.77043994756105
+-52.07092858182907
+-56.19865636086443
+-41.12452871411509
+-38.08739319849237
+-68.35370589732595
+-54.7950456539813
+-54.607135839105574
+-52.67093311058887
+-59.08685065382949
+-55.11999527559551
+-50.267552353338004
+-41.42351495918948
+-51.72998185290705
+-65.49653350641555
+-64.40119676994149
+-54.99258465542635
+-55.464929402162696
+-70.2011321152367
+-51.51097191790566
+-55.86693942656393
+-51.21009991622991
+-64.3508862128857
+-60.4806949032588
+-58.35094057833237
+-54.82548105072969
+-53.8312738137632
+-62.055510014605396
+-56.63684536374929
+-60.66004152249044
+-65.26572772224922
+-65.92010874222431
+-57.949595409284605
+-62.32995219896225
+-68.7034750280586
+-61.824747970022294
+-58.37402173172708
+-68.88926618318237
+-64.25402520493299
+-59.87336285750773
+-56.603528593776886
+-59.4916274563349
+-63.70680253665276
+-57.161747195737235
+-63.49345013362288
+-48.26502302121922
+-62.40888121601259
+-56.22002369983246
+-61.72423923806767
+-51.45395673740364
+-54.23751233305366
+-58.65493399180338
+-61.19364618835429
+-57.044172559177674
+-60.98457938968157
+-66.58509347862181
+-61.43871246138665
+-65.31592275908878
+-54.966423471612316
+-53.44813241974381
+-49.33704120958136
+-66.43450226851226
+-61.049784882909115
+-60.95050665568754
+-60.404762738632485
+-55.456553494051704
+-49.951253702784896
+-61.8706687046292
+-56.84603914978598
+-57.5133019815428
+-52.44631254930738
+-60.801766975136616
+-58.562881957744885
+-67.22186140301238
+-52.053338027914435
+-57.27852784099132
+-58.74958737302839
+-66.59350972760167
+-63.56606170528951
+-50.60518749890708
+-61.16497177767368
+-59.728339661009564
+-61.11432195996722
+-70.31578719149317
+-59.84688030492151
+-67.53158567093858
+-54.340749026180966
+-56.746105493344196
+-53.05209402424314
+-51.72079639710318
+-50.82316083024239
+-62.4101795895598
+-66.27999543444567
+-60.01157896890199
+-60.457715846066996
+-64.52642259326102
+-68.86208705245163
+-59.66241892379948
+-57.018326285497174
+-58.09592906793766
+-50.31961305655091
+-50.918806566040445
+-62.340729403843106
+-56.37758501271912
+-51.03173668822501
+-49.206843611779696
+-53.14873932975404
+-49.45233374979628
+-48.8353974278043
+-55.79997935896372
+-60.195162161736356
+-61.83160840023531
+-60.33988891923781
+-51.523190149912516
+-55.05498090406888
+-47.42843206668154
+-63.984492485434934
+-47.40519767418125
+-47.8025192782667
+-56.20783633009995
+-61.679815627143505
+-54.879542690356715
+-62.02872519909014
+-66.93899234011718
+-43.89952320014031
+-51.100895813266895
+-52.98534344351812
+-54.91562525014444
+-53.52136126955144
+-58.36826340685407
+-55.301987651240644
+-58.25534340194341
+-52.937087805141076
+-72.85737762288588
+-51.04534286223347
+-59.66452081303906
+-64.60952093924718
+-55.76556301067807
+-48.32291773034993
+-55.42995202709932
+-61.875936180898314
+-54.91648720496583
+-64.92430956771008
+-49.57175574402582
+-57.665006584542645
+-66.12681032034628
+-65.96467665464768
+-49.734470654528025
+-65.66446046618105
+-62.20830226700975
+-67.75953718308006
+-54.79541811232382
+-39.799922985467205
+-61.381568881179
+-57.70703744926774
+-73.76832895223102
+-52.74626877173694
+-50.696911118661006
+-48.61463761208806
+-64.92146127818677
+-57.593428108112775
+-64.17487031353923
+-60.46110091536931
+-53.45917619037005
+-65.91202492160541
+-56.416800138565115
+-54.488995937253236
+-59.26540512004513
+-53.47014746395841
+-64.99793588735157
+-56.944484422649346
+-48.70743779821061
+-56.530164885680314
+-58.38022191717154
+-61.73912214015525
+-60.292476552861594
+-46.41169049342038
+-57.24440821708362
+-43.51308208565555
+-65.5012508397738
+-65.00701897641409
+-46.4346183586331
+-53.216670751788435
+-63.92975312709767
+-57.054283541749406
+-46.84939529773868
+-61.647111812620786
+-62.57886022298135
+-44.08627912322754
+-56.83174063483946
+-55.17971886153598
+-56.250553524201486
+-57.90561453114372
+-58.70854723193852
+-58.463556352531384
+-53.649998046846726
+-60.468508625973286
+-60.70784900756261
+-54.24889182886788
+-60.36857866166536
+-59.11120881727947
+-49.09926695218321
+-58.66663628846968
+-63.199339412573735
+-59.1758260985289
+-52.4658729527258
+-49.35378730938575
+-54.189265950613915
+-51.7964242687187
+-56.21491229139341
+-51.01820127932232
+-42.778735688546206
+-56.51809027552903
+-54.66232469228401
+-54.34317680457201
+-53.204270666118944
+-60.07631121571712
+-53.35286096569131
+-56.9634322276843
+-64.8504195725846
+-32.47430392011792
+-60.17731161287099
+-50.19076625895317
+-64.64366073147634
+-34.96371844993476
+-48.859759505780794
+-46.79589020148001
+-60.99126174908826
+-55.45579336241347
+-58.86805418043983
+-57.18475792726902
+-62.74164579700036
+-65.61576107613568
+-44.98902882810321
+-57.869874614079336
+-55.092975984782534
+-53.13042028029566
+-62.7950093726729
+-58.004148302565284
+-56.92663682442624
+-54.95612176919632
+-54.31498362178681
+-54.431475642784875
+-51.34478600962332
+-49.877075166217196
+-55.542015271764015
+-53.91922100669336
+-58.69594515241794
+-53.58406886169647
+-66.57201536432264
+-60.41553379720923
+-59.13634373580576
+-59.882898132218415
+-54.47087949795924
+-54.91460029320555
+-52.65018017174418
+-51.71503649233138
+-53.30764678906276
+-51.70167429015534
+-58.93549919579374
+-68.46426963349492
+-49.275428887265264
+-63.752070793865464
+-60.419200813361364
+-64.40042975168986
+-65.05125979504966
+-62.828917139988356
+-58.73666357871923
+-47.37930521229448
+-57.430743356777725
+-67.6835607403175
+-54.18009338729973
+-61.20618092593218
+-57.032784933492074
+-55.364202240536734
+-65.9761235563895
+-61.26748188409859
+-60.95504458651059
+-43.85723600113699
+-55.23172791105907
+-60.838500973462054
+-61.3878070083269
+-57.57673968982369
+-56.03979498879276
+-57.48149514270533
+-58.77659900921273
+-55.27959981449355
+-67.89942915983464
+-69.70108303737885
+-64.74912751198208
+-53.22400105299031
+-69.01674343614063
+-52.207810483811606
+-59.84762298663906
+-50.16642497837289
+-58.23101291758094
+-65.57038937772148
+-63.506604528706355
+-58.33050610803609
+-58.198196288881846
+-65.86268291600221
+-59.17959470456109
+-55.9811222898814
+-56.30681349161602
+-48.190164594529925
+-58.7398216761608
+-48.112097956564234
+-66.66465941381475
+-59.629717958960825
+-60.0973120882746
+-60.950927250770825
+-55.855628980675455
+-49.950214960003336
+-48.740733923556625
+-61.88849132678329
+-60.71063655451392
+-47.949551849357555
+-52.052901378533626
+-59.92926467718996
+-53.63615109322936
+-62.36557694843829
+-44.22924909991605
+-71.1763630725047
+-57.749103003856796
+-67.1920138449109
+-68.05318763858916
+-55.68486648708056
+-57.00440329629584
+-46.8322604518737
+-56.668598224531195
+-45.36030948564574
+-55.313366165454056
+-62.49081889355238
+-59.231898831032154
+-47.2608496175008
+-58.79329295722379
+-52.650575904168974
+-57.55175233505262
+-45.51334750957048
+-53.48631064231046
+-56.387650153172665
+-62.297675034855054
+-57.938118456095076
+-65.14417907376341
+-55.11934631888099
+-51.30657251688787
+-53.06431786937688
+-48.47874603684859
+-55.61138181688207
+-55.31106376811591
+-61.741070098019456
+-54.296929429039714
+-44.69058051315076
+-58.89678499750076
+-66.51037751888845
+-57.108684927395
+-53.56153202729268
+-64.3949634761818
+-49.84788352903348
+-66.12923889121467
+-54.28612481491463
+-61.02653032036399
+-65.1996400988426
+-51.414148361277704
+-66.57970575148009
+-52.55849337865432
+-59.08347718943154
+-63.07975554165468
+-55.570893031382504
+-55.84832273039136
+-47.14363219716772
+-55.41105445581791
+-50.58039387016778
+-57.63040001778368
+-51.942249753857666
+-46.56689538340847
+-55.795843592174286
+-58.63483115281565
+-21.522678859315725
+-68.29587586747941
+-55.98974641975127
+-52.6870511275964
+-52.82911004124568
+-48.429541626585795
+-55.95316712365954
+-63.796151581326036
+-59.58629594974188
+-67.6819679839328
+-61.7689724402591
+-56.33137230123215
+-47.4289310111477
+-63.74328987685501
+-53.251164317390526
+-63.362178646386205
+-60.20888593795066
+-61.63051130476814
+-55.423672066415286
+-59.89785960345035
+-52.48339969041598
+-61.49459315446428
+-51.563105532108025
+-47.85357075928169
+-52.01891337853058
+-52.78108502632078
+-52.57215926395638
+-59.047329215652944
+-57.6506646421962
+-54.84937289153554
+-62.275935730617206
+-62.34855417974935
+-52.80805854868704
+-60.77463705040355
+-50.95586284209253
+-62.1924079545038
+-59.914926400812284
+-67.59405726372309
+-57.04288181198904
+-50.05626519092968
+-60.922453368848714
+-62.97355690354632
+-57.701645609948066
+-57.64951158219255
+-54.4505988202846
+-54.39411597930644
+-62.484945863357154
+-59.57269108025436
+-52.220304789562604
+-55.03491914213488
+-56.4961180649523
+-59.37902355584031
+-56.4225000459046
+-47.94355610437573
+-61.10846597794184
+-61.04896013345722
+-63.48330328006925
+-59.19446523881984
+-57.918121344152915
+-40.547681714333095
+-55.531169014864396
+-53.57211412838165
+-72.6496400122554
+-54.486970375128564
+-60.89264124065251
+-52.88337779899498
+-56.06763247295063
+-50.855694907588095
+-62.02394578661224
+-56.89491105533597
+-60.1108441275458
+-57.39408407820532
+-58.15070543839927
+-57.75013843307356
+-58.45008779736931
+-34.92803099649698
+-55.337715544106956
+-56.92201761467682
+-57.55218652402124
+-57.53224814510449
+-59.217470634520105
+-66.53809757132488
+-59.10271339234129
+-53.05762231779177
+-51.187817068448076
+-50.80202922520437
+-52.68839475751233
+-55.78768675001835
+-49.914848467247545
+-62.11060144704648
+-54.87142972888947
+-47.53921549161319
+-68.64687485310108
+-57.0751506902314
+-48.99737149999579
+-66.18751762470228
+-57.06312292004723
+-62.074964253201486
+-62.24870463334601
+-43.94829818633679
+-56.0709777902509
+-59.045415947056874
+-54.68956043701368
+-56.068849379057845
+-60.831499988767305
+-59.67377743231791
+-58.19647750457385
+-50.14874025377547
+-49.60598921769989
+-54.36546615512811
+-59.770034954068485
+-46.29645880629639
+-60.311030629279124
+-58.62130144119637
+-63.217345579891166
+-58.82461058514507
+-72.61576137502477
+-56.05239684107667
+-66.94207038778669
+-62.75064914220923
+-65.92474010168961
+-60.43648167944339
+-73.15950501844446
+-64.40101779422234
+-56.72160068213487
+-58.128301048511275
+-65.52841813724457
+-51.73428492647053
+-65.27720270585114
+-52.21125583308882
+-60.91126341200644
+-53.776792210341235
+-56.41277321078858
+-59.68541934030529
+-55.63891011224691
+-34.8160336317308
+-65.33784942633248
+-60.32650921165891
+-63.79839780669767
+-55.16318545305785
+-56.89389347312879
+-60.62199903231951
+-69.0433013064472
+-43.34251027955946
+-56.92199114377233
+-54.274931610507984
+-55.18984338402015
+-66.022209553182
+-55.81549786840667
+-55.23645355094316
+-57.6293545829574
+-65.9741614953089
+-69.71782346425871
+-64.43573705908554
+-44.51070451280761
+-64.51010661083814
+-57.489587461040365
+-62.61232943815889
+-66.83234854799898
+-54.84618066167217
+-67.25688722854072
+-56.44382270669015
+-63.000344144338364
+-55.121897166208655
+-55.82505674847278
+-59.76934986479867
+-46.64731020464338
+-50.20339845458991
+-60.477049140089846
+-56.811610726907126
+-64.25271844396836
+-51.50159419121477
+-48.49672799929197
+-55.04591979082556
+-51.559495955938715
+-47.69206776324815
+-62.44298932870156
+-55.15753369269463
+-53.69869489609821
+-53.851995453872654
+-62.45722502348223
+-47.44797093523001
+-65.53194965305599
+-60.84860645181277
+-63.846797435088384
+-49.56582368873274
+-60.72771372548978
+-59.1923142863344
+-61.91428687223203
+-56.44441570251361
+-60.21596393483354
+-53.62837036608277
+-60.56340169096033
+-56.899114505206875
+-52.32130301944303
+-56.714593611901776
+-50.880913580685274
+-62.08554780056662
+-62.40444261260766
+-65.38851614526995
+-63.6741651211939
+-52.93010460627819
+-63.61516958771926
+-45.023970362579874
+-56.04614948260682
+-58.78546664415126
+-57.95156655961449
+-57.958676011145236
+-57.041070763547275
+-59.904178047958176
+-68.0456928051052
+-55.87767164300221
+-36.394506642492814
+-64.38727256799801
+-58.04463497162561
+-59.296715233631424
+-59.29778466045844
+-56.19929637524182
+-57.77196686856722
+-50.40420458958573
+-56.58024407422604
+-58.35727034070855
+-62.132326675546565
+-53.93047724708407
+-48.099674331690984
+-56.56317983347148
+-56.183840917807395
+-52.57822493833125
+-60.86527889462332
+-63.10915239373498
+-55.60785582206366
+-58.755460810786175
+-55.956059409105265
+-54.84129858774947
+-58.957656878367715
+-55.554980668171915
+-56.41720591837387
+-61.38208125507397
+-55.18232298007642
+-59.7381327407114
+-55.358239241302364
+-52.92118045879097
+-58.10957386312247
+-58.66735543103976
+-60.56158445793529
+-64.83673764376266
+-52.19854880426526
+-58.13170418933224
+-53.05348372423772
+-59.50260931647807
+-55.63092517048994
+-61.0969172005031
+-61.202853432779015
+-65.29737231380825
+-59.07191289007232
+-54.36108380420242
+-59.520449683307305
+-67.5241865784372
+-61.036685533863945
+-61.67478003450387
+-59.737270531630514
+-60.95425354688968
+-56.48406943612772
+-61.2961936711765
+-53.40863930561965
+-56.5244120590435
+-54.62567443751218
+-57.52055793080426
+-55.665974685756
+-64.27816292267134
+-58.44242765407529
+-55.46744467168918
+-67.14843160696333
+-58.17808307133692
+-57.63358777460385
+-62.424366512829074
+-58.40635553614545
+-51.52379615797557
+-66.33609228364979
+-69.65089317813197
+-57.23889107610208
+-48.50403649710074
+-59.62496873422263
+-55.48071854810081
+-54.543007201369214
+-60.78862779770927
+-58.296574364978596
+-55.64314720517267
+-66.80788591903043
+-59.785279854763964
+-61.40039150465331
+-64.54704127580037
+-60.62046590507711
+-60.1035364827363
+-64.71086938549205
+-68.44176709015295
+-48.881475721627254
+-48.50720891890197
+-45.257419874582055
+-51.26427469564762
+-60.708587083783634
+-63.81529724115918
+-53.45034217771354
+-66.23965781433131
+-57.20728233265258
+-52.90630905270162
+-58.2606166280535
+-56.885841846532124
+-54.157159356214436
+-59.03709406761645
+-54.350549281332526
+-65.75873286778481
+-40.916947121247325
+-58.12407533461206
+-61.070994025979154
+-58.74932875197684
+-58.62294401964005
+-66.28660110798953
+-56.39965629845237
+-53.53580192636776
+-59.73525263168671
+-59.51256006057493
+-62.38893076442717
+-61.34851533431761
+-52.98816593829254
+-49.28031625035939
+-51.17530708627013
+-52.78272158903788
+-59.971018018641416
+-51.28967332225255
+-57.63240176988317
+-47.705787567367565
+-59.05466500326757
+-55.06601925564502
+-59.15179514716433
+-65.1332982361111
+-53.179682343368526
+-56.23808550808897
+-61.33801960883168
+-53.45712359183759
+-57.50173383799287
+-35.80525086332786
+-53.65643400067335
+-57.12240456055273
+-70.4537760600665
+-45.571504852021974
+-59.064234429788456
+-58.34100993034065
+-35.8937598114798
+-55.892843010653486
+-51.92785558218614
+-62.388535119137075
+-59.093756255170184
+-56.9507603885299
+-62.14673542707755
+-64.86010810424116
+-57.45729088493926
+-56.50103310947265
+-57.976186887284484
+-47.90186232127848
+-59.02533036169689
+-60.53481956143051
+-55.26254225473715
+-56.62380218797531
+-38.37654818365553
+-56.658406344328014
+-40.54267758045969
+-60.31547039623386
+-55.019725622185504
+-51.034986903921
+-56.83678946530376
+-67.264406097121
+-57.090584799869276
+-59.10819662961591
+-52.98798129999788
+-60.80072067559758
+-61.712275882379366
+-60.92705616228922
+-56.268076868896124
+-59.422795406439725
+-56.847990625067226
+-65.24451161379939
+-43.89590414744666
+-56.92390125593889
+-57.33271619650632
+-55.16943662547495
+-58.99281834847204
+-65.07101686320395
+-58.514199372038455
+-62.91027480770597
+-51.83524619950279
+-61.40873944378905
+-51.790515973008866
+-60.41035637585329
+-69.56694061769629
+-61.941769915835735
+-68.2765808302468
+-61.02983706642098
+-58.75853644741507
+-49.28627385783119
+-62.36412727953478
+-38.859666814914924
+-47.52365793904226
+-52.14144517171351
+-38.87830160657911
+-62.357828846153666
+-53.240507239390865
+-57.13856236027664
+-63.844202531339114
+-60.928297516821466
+-55.43034543413076
+-55.16113357071896
+-61.54154493767656
+-54.748256351428516
+-58.74080505637524
+-58.767003865673395
+-57.80146293561779
+-54.270652361913044
+-43.769013696090965
+-56.30929131730421
+-54.27756574699239
+-55.15927705922439
+-59.04193810098099
+-64.53295294748062
+-63.1832954263966
+-66.71181804290345
+-54.239996880865654
+-55.11104767641546
+-57.24231309670435
+-63.32937975562785
+-59.28893247655005
+-69.38291425793717
+-55.41805553259585
+-63.71864780004138
+-55.877379651701474
+-59.67883158093578
+-57.28480266490065
+-63.07549936475279
+-63.88424338602014
+-52.32244170198058
+-55.60961357034036
+-59.22752612895796
+-50.58531034606807
+-53.960400597138545
+-61.902158370029184
+-52.07543671024335
+-51.310972258061206
+-60.69328821548487
+-60.63792553371439
+-57.21050800141878
+-56.14970448831699
+-57.329235552569294
+-65.70734255882424
+-57.03025370781157
+-54.9348714923477
+-58.2903451160061
+-49.87767537677582
+-56.912957629111446
+-56.12146342031568
+-61.03811595862762
+-63.99156557255141
+-52.615201556083235
+-58.195949297062455
+-66.44063149898523
+-58.92491126135801
+-50.864430190984834
+-54.34869792386387
+-57.73774044698035
+-47.724881042576875
+-55.7560587019191
+-50.126098588442105
+-52.41773089179662
+-56.478240698131316
+-48.31851582372364
+-62.83130868659582
+-56.16997693170365
+-58.867635746015694
+-46.21378580056836
+-54.796113950904754
+-53.986241248411794
+-53.60160482589272
+-60.13261418372625
+-53.13544048051169
+-53.51734091080074
+-55.34540674884252
+-49.486888289902865
+-61.681114977095575
+-56.990433846525065
+-66.72904250065855
+-56.277138376238916
+-65.74341725994356
+-48.61582900509699
+-54.59702797876171
+-56.200051988956176
+-58.43423556207845
+-59.8351077532018
+-62.382706408483884
+-62.112148981629026
+-51.782815102699956
+-60.62236591857936
+-48.19486160554344
+-63.08951176108661
+-64.23241023508936
+-52.95348520591506
+-62.78124280857526
+-58.81945484453875
+-51.37355453154353
+-59.49043390444387
+-54.695689327266166
+-58.49402883449194
+-54.02976027531673
+-57.10671731949666
+-55.668595843319586
+-54.211525576317314
+-63.954995046897984
+-61.541690111907464
+-57.682492358514374
+-58.86424066480804
+-50.2191672829858
+-57.025604865449075
+-53.85715657421704
+-62.953041848312694
+-56.704293865945566
+-53.13273525598775
+-54.66532275735877
+-52.85679595462973
+-49.45778457513789
+-53.72787804428156
+-58.16162957364798
+-58.962649459135555
+-65.51732798031044
+-65.24285298016218
+-64.76525951012528
+-53.27230172596576
+-52.636194089662176
+-47.86252800648996
+-50.420194487799336
+-58.59410512413372
+-59.27360567887225
+-57.2570815831884
+-66.51100520700042
+-47.627397848024835
+-64.88412974217133
+-48.04824856951361
+-56.47439712736825
+-61.47630473389043
+-52.463464228949675
+-62.526143123108284
+-54.704819047091206
+-57.61034003282682
+-67.13581706452804
+-65.42197686419561
+-52.30034033448429
+-50.31482997126812
+-55.28757756249445
+-61.74615084811755
+-37.05484115597058
+-53.21431723296717
+-68.70133293174781
+-53.08176120265583
+-65.75466416897815
+-53.43515707963135
+-63.45611424158533
+-49.275890331803566
+-59.715113916131166
+-54.45271146478178
+-60.92039692047597
+-63.13503046459594
+-64.2021047519737
+-54.73570118616833
+-56.871179118203486
+-61.04953985891728
+-53.32120943824791
+-54.86244588967817
+-51.72092853767304
+-63.971134417812436
+-63.83976488910365
+-57.371161894747154
+-53.18371280552234
+-55.49214971791883
+-62.88601717086251
+-55.685750452178816
+-60.057850971198995
+-60.62485867960818
+-49.69628205720667
+-34.49360010910603
+-36.48903146925336
+-63.18682442206331
+-56.593854988105086
+-63.70800423564828
+-56.393746333999204
+-65.8031816738092
+-63.28565845717463
+-57.870225119764434
+-64.28100750898572
+-60.9291625076853
+-53.5790668226316
+-51.23235147286034
+-71.33098554504363
+-63.14844350172294
+-50.73771532240199
+-56.444291583286955
+-43.179461206876866
+-49.03064040947189
+-64.70007789754776
+-50.378256719559545
+-57.68790204731164
+-52.700657162480105
+-64.90850273337696
+-41.10258807750456
+-58.80649029736331
+-61.259483564196074
+-51.04219623749223
+-58.10724281675041
+-58.831885813424094
+-47.3981002059903
+-65.41500764062576
+-64.61734513759987
+-65.93428280694965
+-53.99014821214514
+-69.08868592237404
+-53.03543651311539
+-71.25187678174726
+-66.84949896033032
+-65.53256311377594
+-53.497214286235746
+-57.51721889719309
+-49.74551464709133
+-54.67768099386002
+-54.906525543589915
+-60.49644562771495
+-59.04081829379155
+-55.64817775242808
+-57.562159349811594
+-57.25061036200287
+-59.102401595660375
+-35.38182823358978
+-56.640670021119995
+-51.35438677926257
+-71.63589026823433
+-49.712881430289634
+-53.48336195132148
+-72.267055168831
+-56.168764137556494
+-62.70022084019897
+-53.46084625476735
+-50.55180104051089
+-54.64187458303231
+-64.6044857309854
+-46.16023761388607
+-57.936914201262354
+-59.746590650939574
+-62.209474778667115
+-49.1711778328364
+-52.931140140383846
+-58.59977923184442
+-64.72735612295277
+-59.67413408291839
+-51.30183877917006
+-57.1023434292519
+-52.70530228900586
+-58.37985193947024
+-61.82690375777789
+-55.77270234614531
+-61.998232595651096
+-46.82392406462795
+-61.10460695222186
+-55.93969065323523
+-58.215168200731654
+-53.56412839940381
+-56.31073320439973
+-64.34021116812593
+-52.65309009310844
+-63.06759203648607
+-58.17159252407525
+-48.25153608754761
+-61.291019121952125
+-58.021251496936685
+-64.33675293408623
+-45.36783529480971
+-50.6419737057404
+-59.63370685333179
+-50.29656003690665
+-52.44163841432501
+-63.28919484443889
+-57.55264933982059
+-58.19531837667884
+-59.38416651148973
+-46.35473957114904
+-52.6508959624469
+-60.83587492182533
+-54.73817712878315
+-55.150745443688606
+-62.59072986100513
+-50.10704706266363
+-45.951502063635196
+-56.37127019312144
+-57.35175466645362
+-53.771730408932676
+-62.90090546019163
+-38.58574581930864
+-58.256752427342825
+-58.679003032316075
+-59.20136738790149
+-49.33106266593167
+-49.989722013319806
+-57.03674182856006
+-58.40309501264224
+-57.25963927539942
+-59.32138891584069
+-53.50266539447658
+-70.51376950873228
+-61.646498711272564
+-58.25199902045237
+-70.45206791962175
+-62.35647595645281
+-58.41013357088563
+-60.50084723273432
+-52.99682788758163
+-53.255832155655895
+-54.84592106776773
+-60.38003780927729
+-62.69807034993149
+-56.27534375458753
+-57.920071394856286
+-53.667539619827
+-67.4995202691181
+-58.84632904855472
+-71.72039187561474
+-59.21909303241374
+-62.49988222280178
+-60.48516066223309
+-62.749490327664944
+-53.942858067275886
+-67.4155004968678
+-54.46293695486988
+-50.356477248678615
+-60.81264557972144
+-57.901384660694326
+-52.25569163496993
+-58.371447277973054
+-65.98377688120007
+-60.912456948155025
+-61.03441099871468
+-53.950650420543745
+-59.27503600087812
+-57.723640430030564
+-56.77464736523578
+-61.05256994714818
+-59.83047210763476
+-48.75035994623967
+-41.26958800421905
+-52.27217737037865
+-60.03694274736979
+-67.69700221107813
+-60.48193211208126
+-71.04973052242377
+-59.55895647569088
+-65.53632253062301
+-62.08567883955161
+-48.30204995616003
+-55.90358062486711
+-57.85204939719169
+-61.607505287606735
+-34.869386230935305
+-59.344909099276194
+-64.43739398258575
+-59.258614576702385
+-62.71109473018283
+-69.49621951748182
+-64.73705654688257
+-59.7491928700026
+-54.65959578130318
+-59.28173242477111
+-63.45539166000125
+-63.418371346454755
+-54.64652887161936
+-57.18463787241354
+-64.94129976682281
+-60.676468007441684
+-54.34029020074183
+-60.820208886154184
+-47.294998851897155
+-49.237628938219075
+-61.916842543212795
+-58.43966718227343
+-48.82276327350814
+-65.9559409141907
+-61.42578655125392
+-68.22230862921832
+-58.74451238402027
+-60.20810034964796
+-59.32278971173686
+-67.05629993370272
+-59.81936215950097
+-61.90815399995037
+-53.1248821354778
+-57.800971876862626
+-62.05514662894608
+-71.56893315460059
+-65.53717284219789
+-58.596590514163296
+-47.82277104028315
+-69.79551883402091
+-58.20189143197039
+-62.24511908452706
+-58.76267135723661
+-55.50421279389282
+-57.687338294842476
+-67.03010666578736
+-51.77873031614278
+-62.69753405441659
+-66.33320272439272
+-56.48272224799176
+-64.3061405016185
+-63.07452592782836
+-61.346440874417944
+-61.10740371871569
+-51.94820597122986
+-53.42119306677532
+-55.91265940406363
+-55.68052333607452
+-49.53539397555263
+-64.53835910508789
+-55.03280119186624
+-65.46377210788019
+-53.71036065285683
+-52.30318110874922
+-47.161323090268
+-64.52871213586117
+-59.85677349663456
+-57.87967239877609
+-59.610050125908906
+-58.14009942252182
+-54.369175880867935
+-57.90118411965768
+-58.52638354918538
+-68.17533057619411
+-56.28333169384792
+-61.98567745408813
+-57.01515711457767
+-49.371566636910046
+-66.73520080577799
+-57.96283885365876
+-52.39790911728743
+-69.02279918736923
+-68.36124925285637
+-65.28198297496523
+-56.44901265817489
+-68.14320565607626
+-54.22135870824087
+-65.46853849568937
+-72.14995909707228
+-54.86152797939001
+-51.97166795609208
+-51.185819599754495
+-53.222942069199895
+-58.42021641333462
+-44.91523844541509
+-60.68879494678682
+-54.13750926007662
+-60.44070408497507
+-64.86536531224367
+-60.72493455379668
+-56.37523210676541
+-46.735082577227715
+-50.99184449812111
+-65.53510569738725
+-53.824951880434526
+-63.69195858886395
+-44.875574143163796
+-55.890313222732836
+-48.323548138089635
+-66.59368709919636
+-54.58016778183846
+-63.42917464300381
+-65.94366162804786
+-60.2922410426178
+-60.28419851056532
+-58.618103161698706
+-47.63440523117438
+-57.10436301673594
+-56.515108478675074
+-60.00188006103304
+-48.11149409134448
+-65.24192793670053
+-47.180006078340675
+-60.8117835049682
+-50.15335132974236
+-61.229409267491704
+-52.467564961113496
+-57.288490993384634
+-59.15808125601315
+-56.838843284809975
+-47.58544862053216
+-52.3942299584394
+-49.65764973172202
+-57.01772548153363
+-60.70964762233941
+-56.58936595521128
+-60.39289001604395
+-56.46147810773522
+-50.82868911560956
+-59.27456051241418
+-54.940237294016114
+-55.609867267710634
+-61.98350542373463
+-60.113388439712075
+-62.11265078616344
+-61.2167827944315
+-65.18689052355539
+-61.142521398898346
+-64.2218686855406
+-63.40953426506974
+-61.443695283154625
+-36.41541996472846
+-60.21277835238035
+-66.4718644740003
+-56.81246177452429
+-54.84473364685985
+-64.0126800394132
+-61.858238157236705
+-56.65451420171086
+-62.687025409373
+-54.970287403663185
+-52.03118635833931
+-56.17981732689468
+-66.21934208895723
+-62.16654307957474
+-60.69710430311512
+-56.305069294352656
+-54.6943149669766
+-58.106046491146365
+-66.77807495164463
+-66.8173032904375
+-49.327788863874844
+-53.17996551953156
+-62.61217660504738
+-60.345896945191086
+-68.26536872373164
+-51.814652150177274
+-55.55312659137188
+-58.77984782282155
+-53.811051573674966
+-59.87485033921934
+-52.401977656131635
+-65.84283928185174
+-67.2216568683459
+-57.83596736989521
+-60.035511988320835
+-60.81628458193711
+-54.08145228350556
+-52.87981633896696
+-51.08956189100439
+-60.96028201178195
+-50.80513503451451
+-59.59670343890948
+-62.34457726255729
+-55.04768071463229
+-51.43744081665488
+-71.02070369779264
+-47.51541315231467
+-55.42748958563773
+-47.89950712932319
+-53.73087898962301
+-52.49834916011075
+-54.08514599114101
+-61.74940529891851
+-57.22886108110086
+-55.47623895016771
+-62.310981051505394
+-55.16956994521285
+-58.963936727878796
+-60.17467292812439
+-41.90347125467393
+-58.09537129550804
+-58.214321303656334
+-55.58948820680798
+-62.078515104339935
+-61.78864881856203
+-68.33236555316454
+-52.521825980573425
+-52.82439663653176
+-60.65903211676665
+-60.76918942093604
+-53.020032337934985
+-60.038988030741095
+-51.9190937328459
+-58.985307868821245
+-63.19445157716599
+-52.962589308945816
+-56.16205861546417
+-56.68716807540468
+-61.8729156502753
+-69.49908312879857
+-42.408253642502466
+-60.59992871134277
+-66.29242696036354
+-48.75558793834923
+-60.52285316192935
+-49.212278122782735
+-64.28961551774906
+-58.9488574875296
+-58.736642072672126
+-57.86369753557633
+-58.907178119621456
+-56.589661313973885
+-52.44458665759714
+-57.7740673200885
+-58.723118916472764
+-58.2896201250299
+-55.18735797273695
+-62.493008403211505
+-50.63752865960405
+-59.92402419500555
+-64.88119421188416
+-69.06849310334721
+-48.01294373763233
+-57.01408105476869
+-66.17139023770993
+-54.03938747559245
+-58.85401233193808
+-56.35813620295947
+-58.0878648364959
+-50.28102494901802
+-65.2377255182646
+-53.070814859775766
+-60.04018041951888
+-60.17679619584202
+-62.41266239103453
+-56.01949349385222
+-60.1416871940036
+-49.60317916916348
+-58.38741760289397
+-55.67422206602758
+-34.0291716167467
+-49.001456330296215
+-60.76169258120384
+-57.28818770799824
+-63.24186970453279
+-60.22080703692444
+-69.06866380188569
+-66.03628561586453
+-70.71869648974192
+-51.977074887773696
+-68.5554838479369
+-67.06667297164712
+-69.35736047511881
+-47.01368590528692
+-66.47111762986074
+-49.74222089079167
+-59.88047107273198
+-69.98800604418585
+-64.15028446181198
+-65.96478611149922
+-69.83021522531848
+-56.22606722982053
+-51.79643618140625
+-48.017342621159635
+-52.82894085691859
+-61.84435860450985
+-56.041435822495224
+-52.95113601638541
+-59.887384093118705
+-50.86822108401264
+-69.56478976133268
+-56.637018542699046
+-52.76620375077089
+-46.08653419780402
+-53.696107886629775
+-61.555951756251154
+-47.335522863332706
+-67.61870865003
+-59.7464659697994
+-60.123644695978435
+-54.84557894037998
+-63.3237439237267
+-65.14239768128554
+-63.69309821673678
+-52.14545576558451
+-58.480507620222724
+-56.27505265948035
+-53.14147174927895
+-52.03266402142115
+-63.06479878956209
+-61.545462705269806
+-56.81139698938337
+-59.1779349933481
+-47.062187648354225
+-54.612375844252526
+-62.1461354704113
+-65.7755821572605
+-60.438808957810785
+-49.41327670299503
+-53.94987868961841
+-61.62892079540887
+-58.61281766552059
+-59.66109596922125
+-53.66870530228151
+-63.380447894451564
+-54.85264264388563
+-61.94301772997016
+-59.394083159590316
+-67.80924144151477
+-66.19017741438648
+-51.42641854855037
+-61.56630650786034
+-54.94743675970253
+-57.534596068907405
+-49.10855029029399
+-59.59592280578019
+-59.608850970744285
+-59.711590637179384
+-58.303846504645634
+-51.2849912771926
+-48.104673856302966
+-55.48319766505562
+-53.31940986053741
+-58.99393057056823
+-62.97401408868985
+-57.76144840257534
+-58.81545172309773
+-71.00456832174098
+-40.363348714697175
+-59.201110739620226
+-62.3523575212783
+-54.57687327299359
+-53.89964097102898
+-65.20580079745959
+-55.0246931380768
+-56.88959761229801
+-66.48364073821625
+-53.463984545158795
+-54.03729126113714
+-52.60700550978998
+-47.50403198542123
+-58.186532898903415
+-61.451231169043275
+-58.53516125498721
+-51.94971994321901
+-70.6904140429575
+-54.356389178933696
+-59.03678461040121
+-37.49058989187742
+avg = -57.315578522619866 +/- 6.46128967900813
+Total time: 3.664s
+
+real    0m5.574s
+user    0m7.251s
+sys 0m0.211s
+-> 
+
