@@ -34,19 +34,15 @@ public class Discretized extends SparseDataset{
 	public static class Jester extends Discretized{
 		public Jester() {super("jester", 100, 9000, 1000, 4116);}
 	}
-
 	public static class KDD extends Discretized{
 		public KDD() {super("kdd", 64, 180092, 19907, 34955);}
 	}
-
 	public static class MSNBC extends Discretized{
 		public MSNBC() {super("msnbc", 17, 291326, 38843, 58265);}
 	}
-
 	public static class MSWeb extends Discretized{
 		public MSWeb() {super("msweb", 294, 29441, 3270, 5000);}
 	}
-
 	public static class Netflix extends Discretized{
 		public Netflix() {super("bnetflix", 100, 15000, 2000, 3000);}
 	}
@@ -206,6 +202,47 @@ public class Discretized extends SparseDataset{
     public static class d60_30000 extends Discretized {
         public d60_30000() {super("d60_30000", 60, 30000, 3000, 6000);}
     }
+
+    // Pretty sure Intel has 215 variables
+    public static class Intel extends Discretized {
+        public Intel() {super("intel", 215, 13541, 1805, 2708);}
+    }
+
+    // MORE custom datasets!
+    public static class dice_0 extends Discretized {
+        public dice_0() {super("dice_60_10000_0", 60, 10000, 1000, 2000);}
+    }
+    public static class dice_5 extends Discretized {
+        public dice_5() {super("dice_60_10000_5", 60, 10000, 1000, 2000);}
+    }
+    public static class dice_10 extends Discretized {
+        public dice_10() {super("dice_60_10000_10", 60, 10000, 1000, 2000);}
+    }
+    public static class dice_15 extends Discretized {
+        public dice_15() {super("dice_60_10000_15", 60, 10000, 1000, 2000);}
+    }
+    public static class dice_20 extends Discretized {
+        public dice_20() {super("dice_60_10000_20", 60, 10000, 1000, 2000);}
+    }
+    public static class dice_25 extends Discretized {
+        public dice_25() {super("dice_60_10000_25", 60, 10000, 1000, 2000);}
+    }
+    public static class dice_30 extends Discretized {
+        public dice_30() {super("dice_60_10000_30", 60, 10000, 1000, 2000);}
+    }
+    public static class dice_35 extends Discretized {
+        public dice_35() {super("dice_60_10000_35", 60, 10000, 1000, 2000);}
+    }
+    public static class dice_40 extends Discretized {
+        public dice_40() {super("dice_60_10000_40", 60, 10000, 1000, 2000);}
+    }
+    public static class dice_45 extends Discretized {
+        public dice_45() {super("dice_60_10000_45", 60, 10000, 1000, 2000);}
+    }
+    public static class dice_50 extends Discretized {
+        public dice_50() {super("dice_60_10000_50", 60, 10000, 1000, 2000);}
+    }
+
 
 
     // Now let's get back to Robert's code...

@@ -88,7 +88,23 @@ public class RunSLSPN {
         Discretized.d60_5000.class,
         Discretized.d60_10000.class,
         Discretized.d60_20000.class,
-        Discretized.d60_30000.class
+        Discretized.d60_30000.class,
+
+        // Back to standard one (this one Jesse gave me) 
+        Discretized.Intel.class, // 60
+    
+        // Back to more dice!
+        Discretized.dice_0.class,
+        Discretized.dice_5.class,
+        Discretized.dice_10.class,
+        Discretized.dice_15.class,
+        Discretized.dice_20.class,
+        Discretized.dice_25.class,
+        Discretized.dice_30.class,
+        Discretized.dice_35.class,
+        Discretized.dice_40.class,
+        Discretized.dice_45.class,
+        Discretized.dice_50.class  // 71
     }; 
 
 	

@@ -31,9 +31,10 @@ public class VarInstSplit implements SLAlg {
     public static double gfactor = 1.0;                 // Used for the G-test
 
     // Daniel Seita's extra stuff. Should try and get a parameter for if we're using MATLAB or not. (Also, note 'fullData' below.)
+    // TODO There's a problem with DBSCAN when I have X instances and X-1 variables
     public static double instToVarRatio = 1.0;          // Ratio of instances to variables; if lower than this, do EM
     public static double[][] fullData;                  // All the data we've got! To be filled in later...
-    public static boolean useDBSCAN = true;            // true means we'll use DBSCAN when possible, false means never
+    public static boolean useDBSCAN = false;            // true means we'll use DBSCAN when possible, false means never
     public static boolean debugPrintDBSCAN = false;     // Use if I want to print out the clusters for DBSCAN
 
     @SuppressWarnings("unused")
@@ -81,9 +82,10 @@ public class VarInstSplit implements SLAlg {
         }
         */
 
-        /*
+
         // Initialize the proxy here? Should do it only once in the whole script because it starts up a brand new MATLAB session
         // COMMENT OUT IF NOT USING MATLAB!
+        /*
         MatlabProxyFactory factory = new MatlabProxyFactory();
         MatlabProxy proxy = factory.getProxy();
         MatlabTypeConverter processor = new MatlabTypeConverter(proxy);
@@ -175,6 +177,7 @@ public class VarInstSplit implements SLAlg {
                 cc = new CountCache();
 
                 /*
+                // COMMENT OUT IF NOT USING MATLAB! 
                 // Okay, now we implement the MATLAB stuff ... first, let's actually obtain the data we need! Don't forget that 'fullData' is an array
                 // of array of doubles which contains all the data. We need to pick out the relevant parts based on the current slice. 
                 int numberOfInstances = currentSlice.instances.length;
@@ -219,7 +222,7 @@ public class VarInstSplit implements SLAlg {
                     int whichVariable = indset[i] - 1; // Don't forget the minus one here!!
                     indset[i] = currentSlice.variables[whichVariable];
                 }
-                */
+                */       
 
                 // This is the old code from Robert Gens, just a one-line method call. USE THIS FOR DEFAULT WAY!
                 indset = greedyIndSet(d, currentSlice,cc);
@@ -255,16 +258,26 @@ public class VarInstSplit implements SLAlg {
                     // ***** DANIEL'S CHANGE *****
                     // We do either 'clusterNBInsts' (i.e., EM) OR 'dbscan' (i.e., DBSCAN) depending on the ratio of variables to instances.
                     // I precompute the distance matrix to avoid recomputation, which takes O(n^2) memory, so keep n < 2000. TODO Do I want to do this in a different way?
-                    if ((currentSlice.instances.length / (double) currentSlice.variables.length < instToVarRatio) || currentSlice.instances.length >= 2000) {
+                    // Use <= due to problems with DBSCAN when we have equal ratio of variables to instances
+                    if ((currentSlice.instances.length / (double) currentSlice.variables.length <= instToVarRatio) || currentSlice.instances.length >= 2000) {
                         System.out.println("Using EM with " + currentSlice.instances.length + " instances and " + currentSlice.variables.length + " variables ...");
                         ClustersWLL bestClustering = clusterNBInsts(d, currentSlice, cc);
                         instsets = bestClustering.clusters;
                     } else {
                         System.out.println("Using DBSCAN with " + currentSlice.instances.length + " instances and " + currentSlice.variables.length + " variables ...");
                         assert fullData.length != 0 : "Our data is nonexistent.";
-                        instsets = dbscan(currentSlice); // We have 'fullData' as a global variable. Thus, we should only need the current slice.
+                        // We have 'fullData' as a global variable. Thus, we should only need the current slice.
+                        instsets = dbscan(currentSlice); 
+                        // Do this because we may be repeated stuck on a dataset with one cluster always (thanks to 'traffic' dataset for letting me know about that!)
+                        // This is the value of doing lots of smaller tests before moving on to the larger datasets
+                        if (instsets.length == 1) {
+                            System.out.println("Doing EM instead since DBSCAN is giving us one cluster.");
+                            ClustersWLL bestClustering = clusterNBInsts(d, currentSlice, cc);
+                            instsets = bestClustering.clusters;
+                        }
                     }
                 } else {
+                    System.out.println("Using EM with " + currentSlice.instances.length + " instances and " + currentSlice.variables.length + " variables ...");
                     ClustersWLL bestClustering = clusterNBInsts(d, currentSlice, cc);
                     instsets = bestClustering.clusters;
                 }
@@ -366,7 +379,7 @@ public class VarInstSplit implements SLAlg {
         }
        
         // First, pre-compute all distances; fill out distances matrix for all (i,j) s.t. i < j
-        double distanceMatrix[][] = new double[numInstances][numInstances];          
+        double[][] distanceMatrix = new double[numInstances][numInstances];          
         for (int firstInst = 0; firstInst < numInstances - 1; firstInst++) {
             for (int secondInst = firstInst + 1; secondInst < numInstances; secondInst++) {
                 int firstElement[] = extractElement(firstInst, currentSlice.instances, currentSlice.variables);
@@ -392,6 +405,7 @@ public class VarInstSplit implements SLAlg {
         List<List<Integer>> allClusters = new ArrayList<List<Integer>>();
         for (int point = 0; point < numInstances; point++) {
             if (!visited.contains(point)) {
+                visited.add(point); // TODO Check this
                 List<Integer> neighboringPoints = regionQuery(distanceMatrix[point], epsilon);
                 if (neighboringPoints.size() < minPts) {
                     noise.add(point);
@@ -431,8 +445,11 @@ public class VarInstSplit implements SLAlg {
                 cluster[i] = indexToReal.get(cluster[i]);
             } 
         }
+        
+        // Decided to have this here anyway...
+        System.out.println("Number of noisy elements: " + noise.size());
 
-       return bestClusters;
+        return bestClusters;
     }
          
     // Subroutine in DBSCAN for expanding clusters. Note that java, while pass-by-value, will pass the pointers so modifying the arraylists here will
@@ -440,7 +457,7 @@ public class VarInstSplit implements SLAlg {
     // parameters for these methods. Also, neighborPts as input has already been converted to the 0-numInstances scale.
     private void expandCluster(int point, List<Integer> neighborPts, List<Integer> cluster, double epsilon, int minPts, List<Integer> visited, double[][] distanceMatrix, List<List<Integer>> allClusters) {
         cluster.add(point);
-        // Workaround to avoid ConcurrentModificationExceptions (i.e., cannot do for (int otherPoint : neighborSet) and then add stuff to neighborSet when iterating).
+        // Avoid ConcurrentModificationExceptions (i.e., cannot do for (int otherPoint : neighborSet) and then add stuff to neighborSet when iterating).
         int neighborSize = neighborPts.size();
         for (int i = 0; i < neighborSize; i++) {
             int otherPoint = neighborPts.get(i);
@@ -498,12 +515,16 @@ public class VarInstSplit implements SLAlg {
             double[] distances = distanceMatrix[element].clone();
             Arrays.sort(distances);
             assert distances[0] == 0.0 : "The first element should be 0 since we are including our original point.";
-            nearestNeighbors[element] = distances[minPts]; // Add the k-th nearest neighbor's distance
+            if (minPts == numInstances) {
+                nearestNeighbors[element] = distances[minPts - 1]; // Special case. Thanks to IVGA for helping me catch this bug!
+            } else {
+                nearestNeighbors[element] = distances[minPts]; // Add the k-th nearest neighbor's distance
+            }
         }
         Arrays.sort(nearestNeighbors);
-        double percentile = numInstances / 10.0;
+        double percentile = numInstances * 0.9; // TODO Can vary this, remember that arrays are sorted in increasing value. (I've done 0.1, 0.5, and 0.9)
         if (debugPrintDBSCAN) {
-            System.out.println("\nHere is our nearestNeighbors list; we use the 10th percentile value for noise:\n" + Arrays.toString(nearestNeighbors));
+            System.out.println("\nHere is our nearestNeighbors list; we use the ???TH percentile value for noise:\n" + Arrays.toString(nearestNeighbors));
         }
         return nearestNeighbors[(int)percentile];
     }
@@ -585,7 +606,7 @@ public class VarInstSplit implements SLAlg {
         double newClusterLL = (new Cluster(vars)).newLL();      
         double newClusterPenalizedLL = -clusterPenalty * vars.size()+newClusterLL;
         for(int r=0; r<numRuns; r++){
-            System.out.println("EM Run "+r+" with "+instanceOrder.size()+" insts "+vars.size()+" vars");
+            // System.out.println("EM Run "+r+" with "+instanceOrder.size()+" insts "+vars.size()+" vars");
             List<Cluster> nbcs = new ArrayList<Cluster>();
 
             Collections.shuffle(instanceOrder);
