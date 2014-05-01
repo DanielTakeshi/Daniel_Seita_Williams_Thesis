@@ -1,0 +1,5529 @@
+DATA	12
+GF	10
+CP	0.6
+INDEPINST	4
+N	d12_dbscan_AND_ivga.spn
+*** Code with Daniel's additions ***
+Dataset nltcs, 16 vars, 16181tr, 2157va, 3236te
+Loading training...
+Loading validation...
+Loading testing...
+
+CP 0.6	GF 10.0	IT 4
+Building structure from 16 vars over 16181 instances
+Using EM with 16181 instances and 16 variables ...
+16181I 16V -> 130 clusters
+Indset size 2
+Indset size 6
+Indset size 2
+Indset size 2
+Indset size 5
+Indset size 2
+Indset size 3
+Indset size 3
+Indset size 2
+Indset size 3
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 4
+Indset size 3
+Indset size 4
+Indset size 2
+Indset size 3
+Indset size 2
+Indset size 2
+Indset size 3
+Indset size 2
+Indset size 2
+Indset size 4
+Indset size 2
+Indset size 6
+Indset size 6
+Indset size 2
+Using DBSCAN with 390 instances and 2 variables ...
+Number of noisy elements: 1
+390I 2V -> 3 clusters
+Indset size 3
+Indset size 3
+Indset size 2
+Using DBSCAN with 55 instances and 2 variables ...
+Number of noisy elements: 4
+55I 2V -> 2 clusters
+Indset size 5
+Using DBSCAN with 102 instances and 5 variables ...
+Number of noisy elements: 2
+102I 5V -> 4 clusters
+Indset size 2
+Indset size 2
+Using DBSCAN with 114 instances and 2 variables ...
+Number of noisy elements: 1
+114I 2V -> 3 clusters
+Indset size 2
+Indset size 3
+Using DBSCAN with 202 instances and 3 variables ...
+Number of noisy elements: 1
+202I 3V -> 6 clusters
+Indset size 2
+Indset size 3
+Indset size 3
+Using DBSCAN with 75 instances and 3 variables ...
+Number of noisy elements: 1
+Indset size 3
+Indset size 3
+Indset size 3
+Indset size 2
+Using DBSCAN with 58 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 2
+Indset size 2
+Using DBSCAN with 75 instances and 2 variables ...
+Number of noisy elements: 1
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 99 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 4
+Using DBSCAN with 122 instances and 4 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 3
+Using DBSCAN with 106 instances and 3 variables ...
+Number of noisy elements: 3
+Indset size 2
+Indset size 4
+Using DBSCAN with 74 instances and 4 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 54 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 4
+Indset size 3
+Indset size 2
+Using DBSCAN with 115 instances and 2 variables ...
+Number of noisy elements: 4
+Indset size 4
+Using DBSCAN with 49 instances and 4 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Indset size 6
+Using DBSCAN with 45 instances and 6 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Indset size 5
+Using DBSCAN with 473 instances and 5 variables ...
+Number of noisy elements: 3
+Indset size 2
+Using DBSCAN with 215 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 79 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 5
+Indset size 3
+Using DBSCAN with 424 instances and 3 variables ...
+Number of noisy elements: 0
+Indset size 3
+Indset size 3
+Using DBSCAN with 76 instances and 3 variables ...
+Number of noisy elements: 0
+Indset size 2
+Indset size 2
+Using DBSCAN with 15 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Indset size 2
+Using DBSCAN with 102 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 2
+Using DBSCAN with 7 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 3
+Indset size 2
+Using DBSCAN with 80 instances and 2 variables ...
+Number of noisy elements: 2
+Indset size 2
+Indset size 2
+Using DBSCAN with 279 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 2
+Indset size 3
+Indset size 4
+Indset size 2
+Indset size 3
+Indset size 2
+Indset size 2
+Indset size 3
+Indset size 3
+Using DBSCAN with 15 instances and 3 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 3
+Indset size 2
+Indset size 3
+Using DBSCAN with 55 instances and 3 variables ...
+Number of noisy elements: 0
+Indset size 3
+Indset size 2
+Using DBSCAN with 58 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 2
+Indset size 2
+Using DBSCAN with 106 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 2
+Indset size 2
+Using DBSCAN with 35 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 25 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 2
+Indset size 2
+Indset size 3
+Using DBSCAN with 79 instances and 3 variables ...
+Number of noisy elements: 5
+Indset size 2
+Indset size 2
+Using DBSCAN with 46 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Indset size 2
+Indset size 3
+Indset size 2
+Using DBSCAN with 74 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 2
+Indset size 2
+Indset size 2
+Using DBSCAN with 257 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 2
+Indset size 4
+Indset size 5
+Using DBSCAN with 390 instances and 5 variables ...
+Number of noisy elements: 3
+Indset size 2
+Indset size 3
+Using DBSCAN with 424 instances and 3 variables ...
+Number of noisy elements: 0
+Indset size 4
+Indset size 2
+Indset size 2
+Using DBSCAN with 9 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Indset size 4
+Indset size 3
+Using DBSCAN with 114 instances and 3 variables ...
+Number of noisy elements: 3
+Indset size 2
+Using DBSCAN with 116 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 15 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 106 instances and 2 variables ...
+Number of noisy elements: 1
+Indset size 2
+Indset size 2
+Using DBSCAN with 53 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Indset size 2
+Using DBSCAN with 79 instances and 2 variables ...
+Number of noisy elements: 2
+Indset size 3
+Indset size 3
+Using DBSCAN with 96 instances and 3 variables ...
+Number of noisy elements: 0
+Indset size 2
+Using DBSCAN with 70 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 2
+Using DBSCAN with 75 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 2
+Indset size 3
+Using DBSCAN with 86 instances and 3 variables ...
+Number of noisy elements: 4
+Indset size 3
+Indset size 3
+Indset size 3
+Using DBSCAN with 82 instances and 3 variables ...
+Number of noisy elements: 3
+Indset size 3
+Indset size 2
+Using DBSCAN with 61 instances and 2 variables ...
+Number of noisy elements: 1
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Indset size 3
+Using DBSCAN with 55 instances and 3 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 5
+Indset size 2
+Using DBSCAN with 70 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 2
+Indset size 2
+Indset size 2
+Using DBSCAN with 32 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 14 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 23 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 74 instances and 2 variables ...
+Number of noisy elements: 2
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Indset size 2
+Indset size 3
+Using DBSCAN with 25 instances and 3 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 42 instances and 2 variables ...
+Number of noisy elements: 2
+Indset size 2
+Indset size 2
+Using DBSCAN with 42 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 2
+Indset size 2
+Using DBSCAN with 79 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 115 instances and 2 variables ...
+Number of noisy elements: 1
+Indset size 2
+Indset size 3
+Indset size 2
+Using DBSCAN with 27 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Indset size 2
+Indset size 4
+Indset size 3
+Using DBSCAN with 28 instances and 3 variables ...
+Number of noisy elements: 1
+Indset size 3
+Indset size 2
+Indset size 2
+Using DBSCAN with 67 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 4
+Indset size 2
+Using DBSCAN with 21 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Using DBSCAN with 247 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 257 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Using DBSCAN with 7 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Indset size 2
+Using DBSCAN with 30 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Indset size 4
+Using DBSCAN with 245 instances and 4 variables ...
+Number of noisy elements: 0
+Indset size 2
+Indset size 2
+Using DBSCAN with 55 instances and 2 variables ...
+Number of noisy elements: 1
+Indset size 2
+Indset size 2
+Using DBSCAN with 102 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Indset size 4
+Using DBSCAN with 128 instances and 4 variables ...
+Number of noisy elements: 9
+Indset size 4
+Indset size 2
+Indset size 2
+Using DBSCAN with 106 instances and 2 variables ...
+Number of noisy elements: 2
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Indset size 2
+Using DBSCAN with 170 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 2
+Indset size 2
+Using DBSCAN with 128 instances and 2 variables ...
+Number of noisy elements: 1
+Indset size 3
+Using DBSCAN with 128 instances and 3 variables ...
+Number of noisy elements: 3
+Indset size 4
+Indset size 3
+Using DBSCAN with 72 instances and 3 variables ...
+Number of noisy elements: 0
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Using DBSCAN with 75 instances and 2 variables ...
+Number of noisy elements: 1
+Indset size 3
+Indset size 3
+Using DBSCAN with 86 instances and 3 variables ...
+Number of noisy elements: 2
+Indset size 3
+Indset size 3
+Using DBSCAN with 22 instances and 3 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 3
+Using DBSCAN with 24 instances and 3 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 3
+Indset size 5
+Indset size 3
+Indset size 4
+Indset size 2
+Using DBSCAN with 75 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 2
+Indset size 2
+Using DBSCAN with 69 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 3
+Indset size 2
+Using DBSCAN with 26 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Indset size 2
+Indset size 2
+Using DBSCAN with 54 instances and 2 variables ...
+Number of noisy elements: 2
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 3
+Indset size 2
+Using DBSCAN with 91 instances and 2 variables ...
+Number of noisy elements: 2
+Indset size 3
+Indset size 2
+Using DBSCAN with 7 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 59 instances and 2 variables ...
+Number of noisy elements: 1
+Indset size 2
+Using DBSCAN with 17 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Indset size 2
+Using DBSCAN with 5 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 3
+Indset size 2
+Using DBSCAN with 53 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 40 instances and 2 variables ...
+Number of noisy elements: 1
+Indset size 3
+Using DBSCAN with 51 instances and 3 variables ...
+Number of noisy elements: 3
+Indset size 3
+Indset size 2
+Using DBSCAN with 13 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 6 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 16 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 11 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Indset size 4
+Using DBSCAN with 101 instances and 4 variables ...
+Number of noisy elements: 4
+Indset size 2
+Indset size 3
+Using DBSCAN with 69 instances and 3 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 10 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 3
+Indset size 2
+Indset size 2
+Using DBSCAN with 36 instances and 2 variables ...
+Number of noisy elements: 1
+Indset size 2
+Using DBSCAN with 46 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 2
+Indset size 2
+Indset size 2
+Using DBSCAN with 620 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 2
+Using DBSCAN with 103 instances and 2 variables ...
+Number of noisy elements: 1
+Indset size 2
+Indset size 2
+Using DBSCAN with 257 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 2
+Using DBSCAN with 257 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 3
+Indset size 3
+Using DBSCAN with 693 instances and 3 variables ...
+Number of noisy elements: 0
+Indset size 2
+Using DBSCAN with 221 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Indset size 2
+Using DBSCAN with 390 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 2
+Using DBSCAN with 273 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 94 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 155 instances and 2 variables ...
+Number of noisy elements: 1
+Indset size 2
+Indset size 2
+Using DBSCAN with 245 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 3
+Indset size 2
+Using DBSCAN with 55 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 2
+Using DBSCAN with 102 instances and 2 variables ...
+Number of noisy elements: 1
+Indset size 4
+Using DBSCAN with 102 instances and 4 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Indset size 2
+Using DBSCAN with 104 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 114 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 4
+Indset size 2
+Using DBSCAN with 104 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 106 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 2
+Using DBSCAN with 49 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 6 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 79 instances and 2 variables ...
+Number of noisy elements: 1
+Indset size 2
+Using DBSCAN with 117 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 3
+Using DBSCAN with 7 instances and 3 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 3
+Indset size 2
+Using DBSCAN with 96 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 2
+Using DBSCAN with 70 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 4
+Using DBSCAN with 75 instances and 4 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 3
+Using DBSCAN with 86 instances and 3 variables ...
+Number of noisy elements: 6
+Indset size 2
+Using DBSCAN with 7 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 3
+Using DBSCAN with 82 instances and 3 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 67 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 5
+Using DBSCAN with 67 instances and 5 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Indset size 3
+Using DBSCAN with 61 instances and 3 variables ...
+Number of noisy elements: 1
+Indset size 4
+Indset size 2
+Using DBSCAN with 44 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Indset size 4
+Using DBSCAN with 70 instances and 4 variables ...
+Number of noisy elements: 6
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 12 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 99 instances and 2 variables ...
+Number of noisy elements: 1
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 3
+Using DBSCAN with 20 instances and 3 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Indset size 2
+Indset size 2
+Using DBSCAN with 74 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 3
+Indset size 2
+Using DBSCAN with 52 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 3
+Using DBSCAN with 54 instances and 3 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 3
+Indset size 3
+Using DBSCAN with 15 instances and 3 variables ...
+Number of noisy elements: 1
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 9 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 42 instances and 2 variables ...
+Number of noisy elements: 1
+Indset size 3
+Using DBSCAN with 79 instances and 3 variables ...
+Number of noisy elements: 4
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Using DBSCAN with 101 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 2
+Using DBSCAN with 18 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 3
+Indset size 2
+Using DBSCAN with 21 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Indset size 3
+Using DBSCAN with 27 instances and 3 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Indset size 2
+Indset size 2
+Using DBSCAN with 13 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 3
+Indset size 2
+Using DBSCAN with 5 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 114 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 3
+Indset size 2
+Using DBSCAN with 35 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 103 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 2
+Indset size 2
+Using DBSCAN with 117 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 3
+Using DBSCAN with 257 instances and 3 variables ...
+Number of noisy elements: 1
+Indset size 2
+Indset size 2
+Using DBSCAN with 8 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 4
+Using DBSCAN with 390 instances and 4 variables ...
+Number of noisy elements: 0
+Indset size 2
+Indset size 3
+Indset size 2
+Indset size 3
+Using DBSCAN with 245 instances and 3 variables ...
+Number of noisy elements: 0
+Indset size 2
+Using DBSCAN with 61 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 27 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 3
+Using DBSCAN with 16 instances and 3 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 4
+Indset size 4
+Using DBSCAN with 80 instances and 4 variables ...
+Number of noisy elements: 7
+Indset size 2
+Indset size 2
+Using DBSCAN with 41 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 11 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 4
+Indset size 4
+Indset size 2
+Using DBSCAN with 21 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 3
+Using DBSCAN with 128 instances and 3 variables ...
+Number of noisy elements: 5
+Indset size 3
+Using DBSCAN with 128 instances and 3 variables ...
+Number of noisy elements: 1
+Indset size 3
+Indset size 2
+Indset size 3
+Indset size 2
+Using DBSCAN with 75 instances and 2 variables ...
+Number of noisy elements: 1
+Indset size 2
+Using DBSCAN with 46 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Indset size 2
+Indset size 4
+Using DBSCAN with 276 instances and 4 variables ...
+Number of noisy elements: 1
+Indset size 2
+Using DBSCAN with 185 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 2
+Indset size 2
+Indset size 2
+Using DBSCAN with 392 instances and 2 variables ...
+Number of noisy elements: 1
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 122 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 2
+Using DBSCAN with 110 instances and 2 variables ...
+Number of noisy elements: 2
+Indset size 4
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Using DBSCAN with 26 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 2
+Using DBSCAN with 106 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 3
+Indset size 2
+Using DBSCAN with 62 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 12 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Indset size 2
+Indset size 2
+Using DBSCAN with 54 instances and 2 variables ...
+Number of noisy elements: 1
+Indset size 2
+Indset size 2
+Using DBSCAN with 35 instances and 2 variables ...
+Number of noisy elements: 2
+Indset size 2
+Using DBSCAN with 90 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Using DBSCAN with 32 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Indset size 2
+Indset size 2
+Using DBSCAN with 79 instances and 2 variables ...
+Number of noisy elements: 2
+Indset size 3
+Indset size 2
+Using DBSCAN with 40 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 38 instances and 2 variables ...
+Number of noisy elements: 2
+Indset size 2
+Indset size 2
+Indset size 2
+Using DBSCAN with 49 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 5 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Indset size 4
+Indset size 2
+Using DBSCAN with 74 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 2
+Using DBSCAN with 74 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 3
+Using DBSCAN with 74 instances and 3 variables ...
+Number of noisy elements: 4
+Indset size 2
+Indset size 2
+Using DBSCAN with 31 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Using DBSCAN with 46 instances and 2 variables ...
+Number of noisy elements: 4
+Indset size 2
+Using DBSCAN with 12 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Indset size 3
+Using DBSCAN with 11 instances and 3 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 103 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 2
+Indset size 2
+Using DBSCAN with 473 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 2
+Indset size 2
+Using DBSCAN with 694 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 3
+Using DBSCAN with 76 instances and 3 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Indset size 2
+Indset size 4
+Indset size 3
+Using DBSCAN with 88 instances and 3 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 4
+Indset size 2
+Using DBSCAN with 20 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 128 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 4
+Using DBSCAN with 114 instances and 4 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 114 instances and 2 variables ...
+Number of noisy elements: 2
+Indset size 3
+Indset size 3
+Indset size 2
+Indset size 4
+Using DBSCAN with 279 instances and 4 variables ...
+Number of noisy elements: 2
+Indset size 2
+Indset size 2
+Indset size 3
+Using DBSCAN with 72 instances and 3 variables ...
+Number of noisy elements: 5
+Indset size 3
+Using DBSCAN with 72 instances and 3 variables ...
+Number of noisy elements: 2
+Indset size 3
+Indset size 3
+Using DBSCAN with 70 instances and 3 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Indset size 2
+Using DBSCAN with 49 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 86 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 2
+Using DBSCAN with 86 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 2
+Using DBSCAN with 6 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 6 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Indset size 2
+Using DBSCAN with 67 instances and 2 variables ...
+Number of noisy elements: 2
+Indset size 2
+Using DBSCAN with 28 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 61 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 3
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 3
+Indset size 2
+Using DBSCAN with 58 instances and 2 variables ...
+Number of noisy elements: 2
+Indset size 2
+Using DBSCAN with 70 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 2
+Using DBSCAN with 75 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 3
+Indset size 4
+Indset size 2
+Using DBSCAN with 66 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Indset size 2
+Using DBSCAN with 49 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Indset size 2
+Using DBSCAN with 20 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Indset size 2
+Using DBSCAN with 67 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Indset size 3
+Using DBSCAN with 98 instances and 3 variables ...
+Number of noisy elements: 3
+Indset size 2
+Using DBSCAN with 74 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 2
+Using DBSCAN with 74 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 2
+Using DBSCAN with 54 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 3
+Using DBSCAN with 54 instances and 3 variables ...
+Number of noisy elements: 3
+Indset size 3
+Indset size 2
+Using DBSCAN with 25 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 90 instances and 2 variables ...
+Number of noisy elements: 2
+Indset size 2
+Using DBSCAN with 25 instances and 2 variables ...
+Number of noisy elements: 1
+Indset size 2
+Using DBSCAN with 25 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 23 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 2
+Using DBSCAN with 69 instances and 2 variables ...
+Number of noisy elements: 2
+Indset size 2
+Using DBSCAN with 59 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 2
+Indset size 2
+Using DBSCAN with 42 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 2
+Indset size 2
+Using DBSCAN with 26 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 19 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 27 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 3
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Using DBSCAN with 17 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 3
+Using DBSCAN with 55 instances and 3 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Indset size 2
+Indset size 2
+Using DBSCAN with 29 instances and 2 variables ...
+Number of noisy elements: 1
+Indset size 2
+Indset size 2
+Using DBSCAN with 24 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 3
+Using DBSCAN with 45 instances and 3 variables ...
+Number of noisy elements: 3
+Indset size 3
+Indset size 2
+Using DBSCAN with 5 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 21 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 12 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 620 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 3
+Indset size 2
+Using DBSCAN with 10 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 3
+Using DBSCAN with 103 instances and 3 variables ...
+Number of noisy elements: 1
+Indset size 2
+Indset size 2
+Using DBSCAN with 12 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 473 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Indset size 2
+Using DBSCAN with 424 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 2
+Using DBSCAN with 527 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 76 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 2
+Using DBSCAN with 155 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 2
+Using DBSCAN with 86 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 4
+Using DBSCAN with 55 instances and 4 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 59 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 10 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 21 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 2
+Using DBSCAN with 5 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 85 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Indset size 3
+Using DBSCAN with 80 instances and 3 variables ...
+Number of noisy elements: 1
+Indset size 3
+Using DBSCAN with 106 instances and 3 variables ...
+Number of noisy elements: 0
+Indset size 2
+Using DBSCAN with 106 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 2
+Indset size 2
+Using DBSCAN with 11 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 26 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Indset size 3
+Indset size 3
+Using DBSCAN with 96 instances and 3 variables ...
+Number of noisy elements: 4
+Indset size 2
+Using DBSCAN with 70 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 2
+Using DBSCAN with 57 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 5 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 83 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Indset size 2
+Indset size 2
+Using DBSCAN with 29 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 48 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Indset size 4
+Indset size 2
+Using DBSCAN with 55 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 2
+Indset size 3
+Using DBSCAN with 45 instances and 3 variables ...
+Number of noisy elements: 0
+Indset size 2
+Using DBSCAN with 10 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 58 instances and 2 variables ...
+Number of noisy elements: 1
+Indset size 3
+Using DBSCAN with 75 instances and 3 variables ...
+Number of noisy elements: 0
+Indset size 4
+Using DBSCAN with 99 instances and 4 variables ...
+Number of noisy elements: 5
+Indset size 2
+Indset size 3
+Indset size 2
+Using DBSCAN with 122 instances and 2 variables ...
+Number of noisy elements: 2
+Indset size 2
+Using DBSCAN with 110 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 2
+Using DBSCAN with 7 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 20 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 3
+Indset size 2
+Using DBSCAN with 15 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 34 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Indset size 3
+Indset size 2
+Indset size 3
+Using DBSCAN with 41 instances and 3 variables ...
+Number of noisy elements: 2
+Indset size 2
+Using DBSCAN with 33 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Indset size 2
+Using DBSCAN with 15 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 52 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Indset size 2
+Using DBSCAN with 30 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 16 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 4
+Indset size 2
+Using DBSCAN with 79 instances and 2 variables ...
+Number of noisy elements: 3
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 115 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 2
+Indset size 2
+Indset size 3
+Indset size 3
+Using DBSCAN with 49 instances and 3 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Indset size 2
+Using DBSCAN with 101 instances and 2 variables ...
+Number of noisy elements: 1
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 3
+Using DBSCAN with 43 instances and 3 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 57 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 2
+Indset size 2
+Using DBSCAN with 21 instances and 2 variables ...
+Number of noisy elements: 2
+Indset size 2
+Indset size 2
+Using DBSCAN with 37 instances and 2 variables ...
+Number of noisy elements: 3
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 29 instances and 2 variables ...
+Number of noisy elements: 2
+Indset size 2
+Indset size 3
+Using DBSCAN with 11 instances and 3 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Indset size 2
+Indset size 3
+Indset size 2
+Using DBSCAN with 81 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Indset size 2
+Using DBSCAN with 520 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 4
+Indset size 2
+Using DBSCAN with 11 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 12 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Indset size 2
+Using DBSCAN with 7 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 11 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 76 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 2
+Using DBSCAN with 10 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Using DBSCAN with 16 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Indset size 3
+Indset size 2
+Using DBSCAN with 79 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 2
+Using DBSCAN with 28 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 22 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 143 instances and 2 variables ...
+Number of noisy elements: 3
+Indset size 3
+Indset size 3
+Using DBSCAN with 51 instances and 3 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Indset size 2
+Using DBSCAN with 28 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 22 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Using DBSCAN with 9 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 61 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 4
+Using DBSCAN with 276 instances and 4 variables ...
+Number of noisy elements: 1
+Indset size 3
+Indset size 2
+Using DBSCAN with 55 instances and 2 variables ...
+Number of noisy elements: 1
+Indset size 2
+Indset size 2
+Indset size 2
+Using DBSCAN with 28 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 99 instances and 2 variables ...
+Number of noisy elements: 2
+Indset size 3
+Using DBSCAN with 392 instances and 3 variables ...
+Number of noisy elements: 0
+Indset size 2
+Indset size 2
+Using DBSCAN with 122 instances and 2 variables ...
+Number of noisy elements: 1
+Indset size 2
+Using DBSCAN with 10 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 20 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Indset size 2
+Using DBSCAN with 106 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 3
+Indset size 2
+Using DBSCAN with 37 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 4
+Indset size 2
+Indset size 2
+Using DBSCAN with 35 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 91 instances and 2 variables ...
+Number of noisy elements: 1
+Indset size 3
+Using DBSCAN with 30 instances and 3 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 3
+Indset size 2
+Using DBSCAN with 43 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 2
+Indset size 5
+Using DBSCAN with 15 instances and 5 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Indset size 2
+Indset size 3
+Indset size 2
+Using DBSCAN with 59 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 2
+Using DBSCAN with 18 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Indset size 3
+Indset size 2
+Using DBSCAN with 42 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 7 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 40 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 2
+Using DBSCAN with 51 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 2
+Indset size 3
+Using DBSCAN with 19 instances and 3 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Indset size 3
+Indset size 2
+Using DBSCAN with 100 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Indset size 2
+Indset size 3
+Using DBSCAN with 43 instances and 3 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 20 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 3
+Indset size 2
+Using DBSCAN with 56 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 2
+Indset size 2
+Using DBSCAN with 9 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 10 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 34 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Indset size 2
+Using DBSCAN with 7 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 29 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 11 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Indset size 2
+Using DBSCAN with 13 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 3
+Using DBSCAN with 11 instances and 3 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 620 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 2
+Using DBSCAN with 520 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 2
+Using DBSCAN with 694 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 2
+Using DBSCAN with 24 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 3
+Using DBSCAN with 155 instances and 3 variables ...
+Number of noisy elements: 2
+Indset size 2
+Using DBSCAN with 156 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 2
+Using DBSCAN with 156 instances and 2 variables ...
+Number of noisy elements: 2
+Indset size 2
+Using DBSCAN with 38 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 5 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Indset size 2
+Using DBSCAN with 28 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Indset size 2
+Using DBSCAN with 79 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 2
+Using DBSCAN with 143 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 51 instances and 2 variables ...
+Number of noisy elements: 3
+Indset size 2
+Using DBSCAN with 22 instances and 2 variables ...
+Number of noisy elements: 1
+Indset size 2
+Using DBSCAN with 22 instances and 2 variables ...
+Number of noisy elements: 2
+Indset size 2
+Using DBSCAN with 15 instances and 2 variables ...
+Number of noisy elements: 1
+Indset size 2
+Using DBSCAN with 185 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 2
+Indset size 2
+Using DBSCAN with 5 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Indset size 2
+Using DBSCAN with 392 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 2
+Using DBSCAN with 51 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 70 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 110 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 2
+Using DBSCAN with 26 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 2
+Using DBSCAN with 26 instances and 2 variables ...
+Number of noisy elements: 1
+Indset size 2
+Using DBSCAN with 39 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 43 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 7 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 3
+Using DBSCAN with 15 instances and 3 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 98 instances and 2 variables ...
+Number of noisy elements: 2
+Indset size 2
+Using DBSCAN with 98 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 2
+Using DBSCAN with 30 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 4
+Using DBSCAN with 331 instances and 4 variables ...
+Number of noisy elements: 6
+Indset size 2
+Indset size 2
+Using DBSCAN with 35 instances and 2 variables ...
+Number of noisy elements: 1
+Indset size 2
+Using DBSCAN with 71 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 3
+Using DBSCAN with 91 instances and 3 variables ...
+Number of noisy elements: 2
+Indset size 3
+Using DBSCAN with 41 instances and 3 variables ...
+Number of noisy elements: 2
+Indset size 2
+Indset size 2
+Using DBSCAN with 43 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 2
+Indset size 2
+Using DBSCAN with 42 instances and 2 variables ...
+Number of noisy elements: 2
+Indset size 2
+Using DBSCAN with 23 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 3
+Using DBSCAN with 69 instances and 3 variables ...
+Number of noisy elements: 3
+Indset size 2
+Using DBSCAN with 20 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 3
+Using DBSCAN with 59 instances and 3 variables ...
+Number of noisy elements: 2
+Indset size 2
+Using DBSCAN with 30 instances and 2 variables ...
+Number of noisy elements: 1
+Indset size 3
+Using DBSCAN with 42 instances and 3 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 3
+Using DBSCAN with 42 instances and 3 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 3
+Using DBSCAN with 115 instances and 3 variables ...
+Number of noisy elements: 2
+Indset size 2
+Using DBSCAN with 21 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 5 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 51 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 2
+Using DBSCAN with 8 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 190 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 2
+Indset size 2
+Indset size 2
+Using DBSCAN with 69 instances and 2 variables ...
+Number of noisy elements: 1
+Indset size 2
+Indset size 2
+Using DBSCAN with 6 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 3
+Using DBSCAN with 57 instances and 3 variables ...
+Number of noisy elements: 1
+Indset size 2
+Using DBSCAN with 56 instances and 2 variables ...
+Number of noisy elements: 2
+Indset size 2
+Indset size 2
+Using DBSCAN with 21 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 37 instances and 2 variables ...
+Number of noisy elements: 3
+Indset size 3
+Using DBSCAN with 37 instances and 3 variables ...
+Number of noisy elements: 3
+Indset size 2
+Indset size 3
+Using DBSCAN with 29 instances and 3 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Indset size 2
+Indset size 2
+Using DBSCAN with 12 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 3
+Indset size 2
+Using DBSCAN with 200 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 294 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 3
+Using DBSCAN with 520 instances and 3 variables ...
+Number of noisy elements: 1
+Indset size 2
+Using DBSCAN with 335 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 3
+Using DBSCAN with 694 instances and 3 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 24 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 27 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 202 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 2
+Using DBSCAN with 136 instances and 2 variables ...
+Number of noisy elements: 2
+Indset size 2
+Using DBSCAN with 170 instances and 2 variables ...
+Number of noisy elements: 4
+Indset size 2
+Using DBSCAN with 19 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 143 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 2
+Using DBSCAN with 28 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 7 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 14 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 9 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 3
+Using DBSCAN with 14 instances and 3 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 152 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 2
+Using DBSCAN with 45 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 2
+Using DBSCAN with 47 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 47 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 263 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 32 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 53 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 74 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 7 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 39 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Indset size 2
+Indset size 2
+Using DBSCAN with 48 instances and 2 variables ...
+Number of noisy elements: 1
+Indset size 3
+Indset size 2
+Using DBSCAN with 7 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 90 instances and 2 variables ...
+Number of noisy elements: 2
+Indset size 2
+Using DBSCAN with 90 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 2
+Using DBSCAN with 43 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 2
+Indset size 2
+Using DBSCAN with 9 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 40 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 2
+Using DBSCAN with 14 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Using DBSCAN with 19 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 27 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 190 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 2
+Using DBSCAN with 28 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 2
+Using DBSCAN with 48 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 16 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 69 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 2
+Using DBSCAN with 38 instances and 2 variables ...
+Number of noisy elements: 2
+Indset size 2
+Using DBSCAN with 41 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Indset size 2
+Using DBSCAN with 31 instances and 2 variables ...
+Number of noisy elements: 2
+Indset size 2
+Using DBSCAN with 31 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 5 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Indset size 2
+Using DBSCAN with 46 instances and 2 variables ...
+Number of noisy elements: 1
+Indset size 2
+Using DBSCAN with 12 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 3
+Using DBSCAN with 13 instances and 3 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 3
+Using DBSCAN with 130 instances and 3 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 58 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Indset size 2
+Using DBSCAN with 112 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 21 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 72 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 152 instances and 2 variables ...
+Number of noisy elements: 2
+Indset size 2
+Using DBSCAN with 37 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 3
+Indset size 2
+Using DBSCAN with 30 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 2
+Using DBSCAN with 30 instances and 2 variables ...
+Number of noisy elements: 1
+Indset size 2
+Indset size 2
+Using DBSCAN with 22 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 3
+Using DBSCAN with 48 instances and 3 variables ...
+Number of noisy elements: 3
+Indset size 2
+Using DBSCAN with 75 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 42 instances and 2 variables ...
+Number of noisy elements: 1
+Indset size 2
+Using DBSCAN with 53 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 33 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 29 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 60 instances and 2 variables ...
+Number of noisy elements: 1
+Indset size 3
+Using DBSCAN with 60 instances and 3 variables ...
+Number of noisy elements: 3
+Indset size 2
+Using DBSCAN with 28 instances and 2 variables ...
+Number of noisy elements: 1
+Indset size 2
+Using DBSCAN with 28 instances and 2 variables ...
+Number of noisy elements: 1
+Indset size 2
+Using DBSCAN with 38 instances and 2 variables ...
+Number of noisy elements: 2
+Indset size 2
+Indset size 2
+Using DBSCAN with 15 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 108 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 32 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 6 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Indset size 2
+Using DBSCAN with 62 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 19 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 11 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 5 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Indset size 2
+Indset size 3
+Using EM with 3679 instances and 3 variables ...
+Indset size 2
+Using DBSCAN with 67 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 9 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 136 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 2
+Using DBSCAN with 32 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 3
+Using DBSCAN with 65 instances and 3 variables ...
+Number of noisy elements: 1
+Indset size 2
+Using DBSCAN with 10 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Indset size 2
+Using DBSCAN with 5 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 23 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 43 instances and 2 variables ...
+Number of noisy elements: 1
+Indset size 2
+Using DBSCAN with 9 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 10 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Indset size 2
+Using DBSCAN with 38 instances and 2 variables ...
+Number of noisy elements: 2
+Indset size 2
+Using DBSCAN with 38 instances and 2 variables ...
+Number of noisy elements: 0
+Indset size 2
+Using DBSCAN with 5 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Indset size 2
+Using DBSCAN with 5 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 170 instances and 2 variables ...
+Number of noisy elements: 1
+Indset size 2
+Using DBSCAN with 5 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 40 instances and 2 variables ...
+Number of noisy elements: 2
+Indset size 2
+Using DBSCAN with 29 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 8 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 24 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 33 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 5 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 9 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 9 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 16 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 22 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 54 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+Indset size 2
+Using DBSCAN with 11 instances and 2 variables ...
+Number of noisy elements: 0
+Doing EM instead since DBSCAN is giving us one cluster.
+SPN has 37353 nodes
+Building from build list (17676 items)...
+SPN has 53361 nodes
+
+CP 0.6	GF 10.0	IT 4	Smoo2.0
+Train LLH: -6.660563280520668
+Validation LLH: -6.648473156652575
+***
+
+CP 0.6	GF 10.0	IT 4	Smoo1.0
+Train LLH: -6.5281859241071185
+Validation LLH: -6.529463436195378
+***
+
+CP 0.6	GF 10.0	IT 4	Smoo0.5
+Train LLH: -6.3863365834173385
+Validation LLH: -6.40330992000351
+***
+
+CP 0.6	GF 10.0	IT 4	Smoo0.25
+Train LLH: -6.266184680424838
+Validation LLH: -6.300586133332404
+***
+
+CP 0.6	GF 10.0	IT 4	Smoo0.125
+Train LLH: -6.190249854136009
+Validation LLH: -6.242291716056375
+***
+
+CP 0.6	GF 10.0	IT 4	Smoo0.0625
+Train LLH: -6.1535685232049495
+Validation LLH: -6.222662171168428
+***
+
+CP 0.6	GF 10.0	IT 4	Smoo0.03125
+Train LLH: -6.141181831243197
+Validation LLH: -6.226308421922595
+12 nltcs	GF: 10.0	CP: 0.6	Valid: -6.222662171168428	Test: -6.290861343937473	Time: 1743.273
+DATA	12
+N	d12_dbscan_AND_ivga.spn
+Dataset nltcs, 16 vars, 16181tr, 2157va, 3236te
+Loading training...
+Loading validation...
+Loading testing...
+-12.08328639258967
+-3.5362300414404757
+-1.9837196839291733
+-5.054694962004932
+-9.838237152798952
+-1.9837196839291733
+-1.9837196839291733
+-1.9837196839291733
+-6.149161642641759
+-10.262273127146514
+-10.56058887264641
+-6.607521892210896
+-9.042973479576656
+-8.945275215898816
+-3.2251668327768717
+-3.2251668327768717
+-4.77759297402117
+-1.9837196839291733
+-10.065081371990246
+-6.425519923851411
+-5.202870331611173
+-1.9837196839291733
+-7.567082308315639
+-7.290209924634624
+-7.172947493313826
+-6.215279232218209
+-1.9837196839291733
+-7.576889333029499
+-6.535574428642113
+-8.892134610079193
+-3.2251668327768717
+-6.1875527077668275
+-8.65820957005186
+-3.5362300414404757
+-7.932923713787987
+-7.278506107111796
+-1.9837196839291733
+-7.015780857268939
+-12.150713863672609
+-1.9837196839291733
+-9.299869108064067
+-1.9837196839291733
+-10.122774750467332
+-1.9837196839291733
+-3.5362300414404757
+-10.614418951199738
+-4.477035293428124
+-1.9837196839291733
+-5.992878798786791
+-4.706998062515858
+-5.53357768897773
+-4.751235514450792
+-3.2251668327768717
+-4.77759297402117
+-5.863756982482866
+-7.256215982779451
+-8.512014486558707
+-1.9837196839291733
+-4.706998062515858
+-7.911283942965048
+-3.9723596108404458
+-5.8478270453750545
+-1.9837196839291733
+-5.852052064244598
+-3.9723596108404458
+-9.541798520716755
+-1.9837196839291733
+-5.417092424384187
+-9.1370844965809
+-8.261011232324542
+-12.260678903898738
+-5.180275307365059
+-5.863756982482866
+-3.5362300414404757
+-9.862996111932478
+-4.751235514450792
+-5.008056021174902
+-1.9837196839291733
+-4.751235514450792
+-6.3390666691542155
+-5.340528075060161
+-12.686945085541131
+-11.88006030362797
+-8.425438414395362
+-8.585311818679326
+-8.547501578463292
+-5.546847358885145
+-7.090513684963143
+-1.9837196839291733
+-7.252267220506669
+-5.053668854708506
+-15.510808419910187
+-7.256215982779451
+-1.9837196839291733
+-5.340528075060161
+-6.9504030264651915
+-4.903985076308189
+-9.902743508016146
+-3.5362300414404757
+-7.582206524091443
+-6.646565341602403
+-5.714291334531791
+-5.053668854708506
+-9.51795254626205
+-14.21511019038912
+-6.075540879789873
+-5.278854275929251
+-10.58978549328429
+-8.762857171371321
+-1.9837196839291733
+-7.9054603170982185
+-5.714291334531791
+-11.054998216066052
+-3.2251668327768717
+-11.487998922572379
+-6.838747148267842
+-8.676836048125159
+-3.5362300414404757
+-7.776896132230722
+-8.379310968753728
+-9.290242772701902
+-5.202870331611173
+-1.9837196839291733
+-1.9837196839291733
+-5.054694962004932
+-6.0344922139237
+-7.711158115634129
+-3.2251668327768717
+-4.477035293428124
+-6.623266291630144
+-1.9837196839291733
+-6.716748184155888
+-9.570267830820216
+-1.9837196839291733
+-5.919368129905425
+-7.015780857268939
+-3.5362300414404757
+-7.284702313377947
+-6.09611991351703
+-6.588613109543356
+-13.538084681971961
+-1.9837196839291733
+-6.3222806677529615
+-5.837250790865854
+-3.2251668327768717
+-5.507496873023502
+-1.9837196839291733
+-12.614613738608604
+-9.511521919459714
+-1.9837196839291733
+-11.596344983854216
+-10.166741894791361
+-5.054694962004932
+-8.622592709585582
+-5.340528075060161
+-5.848661132129667
+-5.634968789581839
+-11.435206092438941
+-13.4245437577968
+-8.49242380821572
+-5.008056021174902
+-1.9837196839291733
+-1.9837196839291733
+-7.724316044993656
+-9.832177428827093
+-4.751235514450792
+-1.9837196839291733
+-8.295071891477617
+-10.732733446788773
+-1.9837196839291733
+-6.1875527077668275
+-6.333640288946676
+-8.30954198378771
+-12.849290059398028
+-8.408200243643376
+-6.215279232218209
+-1.9837196839291733
+-10.374671816854798
+-5.922039414875884
+-7.896758007614957
+-6.414751715113701
+-8.332493095705464
+-3.5362300414404757
+-1.9837196839291733
+-1.9837196839291733
+-1.9837196839291733
+-5.9938770890907005
+-7.9708252998968
+-1.9837196839291733
+-4.477035293428124
+-1.9837196839291733
+-1.9837196839291733
+-1.9837196839291733
+-4.5001087491574605
+-6.467270468529151
+-1.9837196839291733
+-11.683822756598913
+-9.384064459660657
+-9.541798520716755
+-8.435952845704902
+-1.9837196839291733
+-1.9837196839291733
+-1.9837196839291733
+-1.9837196839291733
+-8.476127321514573
+-1.9837196839291733
+-6.706410552329194
+-6.919775625420822
+-6.3390666691542155
+-3.2251668327768717
+-12.573076648698025
+-9.290242772701902
+-10.166741894791361
+-3.2251668327768717
+-13.83899273699968
+-13.938171356321913
+-7.336963888810784
+-3.5362300414404757
+-7.106727295072157
+-1.9837196839291733
+-1.9837196839291733
+-3.5362300414404757
+-8.67537003033798
+-3.2251668327768717
+-5.202870331611173
+-1.9837196839291733
+-1.9837196839291733
+-1.9837196839291733
+-9.208745206755726
+-5.417092424384187
+-7.318366684413891
+-7.106727295072157
+-9.740095807087119
+-7.11180515659077
+-3.2251668327768717
+-1.9837196839291733
+-8.07085925312235
+-7.416697914482178
+-9.156958003820773
+-7.599327470635377
+-7.573158926953998
+-1.9837196839291733
+-10.534373217475729
+-4.706998062515858
+-11.199060640691014
+-8.741419972200543
+-10.716369631561564
+-3.2251668327768717
+-3.5362300414404757
+-1.9837196839291733
+-6.4250217199826185
+-6.075540879789873
+-7.409110300494543
+-3.9723596108404458
+-13.612664222796491
+-3.2251668327768717
+-9.449150804540313
+-7.307777127360743
+-3.9723596108404458
+-6.149161642641759
+-1.9837196839291733
+-6.984270790891622
+-20.462044757383065
+-6.1875527077668275
+-5.278854275929251
+-8.018632742457081
+-5.9938770890907005
+-5.714291334531791
+-8.58568778021637
+-1.9837196839291733
+-11.350602428764848
+-4.5001087491574605
+-1.9837196839291733
+-6.3222806677529615
+-1.9837196839291733
+-1.9837196839291733
+-7.515872911773043
+-1.9837196839291733
+-3.2251668327768717
+-5.060401494464555
+-5.84071974638677
+-1.9837196839291733
+-5.992878798786791
+-5.63434927026087
+-11.846961983497533
+-5.202870331611173
+-8.20720816718209
+-5.053668854708506
+-1.9837196839291733
+-1.9837196839291733
+-6.578503520871174
+-5.931897115555188
+-1.9837196839291733
+-9.022333578789945
+-6.919775625420822
+-5.9938770890907005
+-8.30954198378771
+-4.751235514450792
+-7.187603868521056
+-7.67074978093648
+-5.060401494464555
+-10.992158896918133
+-1.9837196839291733
+-7.438231924163627
+-10.445485901664217
+-8.371259962744924
+-5.202870331611173
+-3.2251668327768717
+-5.054694962004932
+-1.9837196839291733
+-7.015780857268939
+-5.507496873023502
+-4.706998062515858
+-5.837250790865854
+-3.2251668327768717
+-5.060401494464555
+-7.949843824758284
+-6.780928952611647
+-7.576902281361536
+-11.98706262837892
+-1.9837196839291733
+-5.278854275929251
+-3.2251668327768717
+-1.9837196839291733
+-1.9837196839291733
+-5.340528075060161
+-3.5362300414404757
+-6.607521892210896
+-1.9837196839291733
+-3.2251668327768717
+-6.090852519062942
+-3.2251668327768717
+-1.9837196839291733
+-7.431091461426918
+-4.706998062515858
+-9.645073343993811
+-8.897312941986234
+-5.848661132129667
+-10.550184572249584
+-5.63434927026087
+-1.9837196839291733
+-5.863756982482866
+-6.0607878116632765
+-6.807960625221097
+-8.084299638766753
+-8.809104218045778
+-5.202870331611173
+-8.54816747417631
+-3.2251668327768717
+-3.2251668327768717
+-9.942194564457985
+-3.2251668327768717
+-1.9837196839291733
+-10.695383768239815
+-7.416697914482178
+-7.740540280748674
+-13.846000052234741
+-7.9484551754910475
+-6.7215557059858835
+-3.2251668327768717
+-7.431091461426918
+-3.5362300414404757
+-6.834288729029733
+-5.84071974638677
+-11.786161667734165
+-1.9837196839291733
+-1.9837196839291733
+-1.9837196839291733
+-8.460655608039167
+-7.9962358807282925
+-1.9837196839291733
+-9.043042504331495
+-8.49401637599109
+-10.946778413092856
+-1.9837196839291733
+-8.425438414395362
+-3.5362300414404757
+-8.538419438214937
+-1.9837196839291733
+-9.373041908946776
+-1.9837196839291733
+-12.574780828457095
+-7.470576458121892
+-3.2251668327768717
+-7.969426375592911
+-5.63434927026087
+-3.5362300414404757
+-1.9837196839291733
+-3.2251668327768717
+-1.9837196839291733
+-7.582206524091443
+-6.1875527077668275
+-7.648570126191301
+-7.294272663563259
+-8.922495296839841
+-9.154547290456698
+-1.9837196839291733
+-6.716748184155888
+-5.726320383860256
+-10.329337731122136
+-9.551038961483737
+-7.711158115634129
+-5.278854275929251
+-3.9723596108404458
+-1.9837196839291733
+-3.2251668327768717
+-8.04937930191835
+-8.084299638766753
+-7.755867550826734
+-3.2251668327768717
+-3.9723596108404458
+-8.218105371747125
+-3.2251668327768717
+-9.387786230773916
+-1.9837196839291733
+-1.9837196839291733
+-10.465876470440037
+-3.2251668327768717
+-12.641080306911222
+-11.011457231475463
+-1.9837196839291733
+-7.383227893368152
+-6.550946580607909
+-3.2251668327768717
+-4.5001087491574605
+-8.957742872086454
+-1.9837196839291733
+-13.50443880850504
+-6.395830285584988
+-1.9837196839291733
+-1.9837196839291733
+-3.2251668327768717
+-5.852052064244598
+-7.894794374081362
+-6.816460302360719
+-1.9837196839291733
+-1.9837196839291733
+-9.484940308937777
+-9.968126663217252
+-7.307342287757168
+-5.919368129905425
+-9.80315595965198
+-6.075540879789873
+-14.40429105485828
+-3.5362300414404757
+-9.586332132980415
+-9.185445260443965
+-8.577239426653701
+-6.6187144662992345
+-3.9723596108404458
+-4.477035293428124
+-12.439384869476378
+-1.9837196839291733
+-7.552767059484151
+-1.9837196839291733
+-8.585311818679326
+-6.449176320504808
+-3.9723596108404458
+-1.9837196839291733
+-3.2251668327768717
+-1.9837196839291733
+-7.012049675173072
+-5.84071974638677
+-7.847010808602163
+-7.294272663563259
+-1.9837196839291733
+-9.090453788449473
+-1.9837196839291733
+-9.042292948301057
+-9.234419575046728
+-7.919784304685775
+-11.807438095546376
+-3.2251668327768717
+-6.815664404350592
+-4.706998062515858
+-5.054694962004932
+-1.9837196839291733
+-6.339119683905122
+-7.065809795443449
+-3.5362300414404757
+-1.9837196839291733
+-5.507496873023502
+-1.9837196839291733
+-3.5362300414404757
+-7.089635288094318
+-8.629314676850273
+-1.9837196839291733
+-11.56287667047155
+-7.719664507402388
+-9.873902507573147
+-6.090852519062942
+-3.2251668327768717
+-1.9837196839291733
+-3.2251668327768717
+-1.9837196839291733
+-8.629314676850273
+-9.127655237601246
+-1.9837196839291733
+-9.264382927713141
+-13.417531586144047
+-6.3222806677529615
+-5.180275307365059
+-1.9837196839291733
+-1.9837196839291733
+-3.5362300414404757
+-8.841244446682975
+-4.77759297402117
+-4.477035293428124
+-6.817524215590978
+-1.9837196839291733
+-6.96985552520397
+-3.2251668327768717
+-6.3222806677529615
+-10.38329598481843
+-6.149161642641759
+-9.158853168418663
+-3.2251668327768717
+-4.751235514450792
+-9.57916760326193
+-7.862501191431368
+-3.9723596108404458
+-7.152595063840532
+-6.915498894226263
+-10.371201799335358
+-3.5362300414404757
+-7.432796730045295
+-5.837250790865854
+-11.324029009665804
+-1.9837196839291733
+-3.5362300414404757
+-8.267501927071896
+-6.816460302360719
+-10.76344127290004
+-8.714861341904887
+-3.2251668327768717
+-5.351916353831564
+-7.449207640533612
+-11.799315822607861
+-8.720198184222726
+-5.931897115555188
+-7.369530778409318
+-6.09611991351703
+-11.624173473173354
+-8.91185470545543
+-6.706410552329194
+-5.180275307365059
+-6.585583747793628
+-5.84071974638677
+-4.5001087491574605
+-7.573158926953998
+-7.896033230276616
+-7.266025060406245
+-1.9837196839291733
+-6.652631102898903
+-6.09611991351703
+-8.611471687739982
+-3.2251668327768717
+-9.226472655831222
+-7.96758547604317
+-6.919775625420822
+-8.04937930191835
+-3.2251668327768717
+-7.262052910220267
+-5.054694962004932
+-7.166355210633926
+-4.706998062515858
+-1.9837196839291733
+-3.5362300414404757
+-5.69878931006158
+-10.05989770946229
+-1.9837196839291733
+-6.419870819932533
+-5.054694962004932
+-1.9837196839291733
+-6.984270790891622
+-1.9837196839291733
+-3.5362300414404757
+-6.719985664962864
+-7.336963888810784
+-6.395830285584988
+-4.751235514450792
+-5.202870331611173
+-6.444698547924974
+-10.294211986818544
+-4.477035293428124
+-6.535574428642113
+-10.97755446075555
+-5.202870331611173
+-1.9837196839291733
+-4.477035293428124
+-6.965400005725258
+-8.088719999635384
+-10.660124969749019
+-1.9837196839291733
+-8.458670713575469
+-10.230594607381002
+-8.060752744990484
+-6.9134451173259555
+-5.054694962004932
+-6.09611991351703
+-9.440745769687117
+-3.5362300414404757
+-7.015780857268939
+-7.677184926039838
+-9.274448221430658
+-18.51336842644854
+-5.546847358885145
+-6.780928952611647
+-6.817524215590978
+-6.3222806677529615
+-1.9837196839291733
+-1.9837196839291733
+-5.84071974638677
+-5.9938770890907005
+-7.369530778409318
+-10.134981804678619
+-13.889353783903134
+-3.5362300414404757
+-11.350414224957456
+-9.80537399287543
+-1.9837196839291733
+-3.5362300414404757
+-1.9837196839291733
+-10.09199615394995
+-16.887131097629563
+-1.9837196839291733
+-7.089594607981951
+-3.2251668327768717
+-8.099270323817327
+-3.2251668327768717
+-7.96758547604317
+-9.969159086877069
+-9.355352665060446
+-6.090852519062942
+-8.76377304106918
+-13.385093663370975
+-1.9837196839291733
+-4.77759297402117
+-5.008056021174902
+-5.992878798786791
+-3.9723596108404458
+-1.9837196839291733
+-6.739248758410383
+-4.903985076308189
+-6.00466883671331
+-8.594024287587168
+-9.6579879854076
+-7.9655797316013865
+-1.9837196839291733
+-4.477035293428124
+-1.9837196839291733
+-1.9837196839291733
+-7.438906047036982
+-1.9837196839291733
+-3.5362300414404757
+-1.9837196839291733
+-1.9837196839291733
+-3.2251668327768717
+-5.755585436754191
+-8.222059387879527
+-3.9723596108404458
+-3.5362300414404757
+-6.862547872061327
+-5.202870331611173
+-4.706998062515858
+-3.9723596108404458
+-5.180275307365059
+-8.438561362279215
+-1.9837196839291733
+-10.560109537835643
+-11.110396850400605
+-1.9837196839291733
+-9.622235597485714
+-7.568668863161627
+-7.664591607300912
+-1.9837196839291733
+-1.9837196839291733
+-7.355014764234907
+-3.2251668327768717
+-6.1875527077668275
+-8.833038562179519
+-3.2251668327768717
+-7.944425610862749
+-5.755585436754191
+-6.149161642641759
+-6.449176320504808
+-6.915498894226263
+-8.934536798568667
+-10.859784664828798
+-1.9837196839291733
+-1.9837196839291733
+-7.894794374081362
+-5.507496873023502
+-6.090852519062942
+-5.008056021174902
+-6.706410552329194
+-11.908340834925882
+-1.9837196839291733
+-1.9837196839291733
+-1.9837196839291733
+-5.054694962004932
+-6.815664404350592
+-11.202880306048652
+-1.9837196839291733
+-6.817524215590978
+-9.211717469487116
+-5.931897115555188
+-6.783365289023405
+-1.9837196839291733
+-9.78283550071034
+-5.69878931006158
+-1.9837196839291733
+-6.1875527077668275
+-6.449176320504808
+-10.298364193154482
+-5.073064101752906
+-4.751235514450792
+-10.092635481260475
+-1.9837196839291733
+-12.472222287387591
+-1.9837196839291733
+-3.2251668327768717
+-16.417080811847466
+-8.724198281853111
+-5.417092424384187
+-3.2251668327768717
+-7.106727295072157
+-10.809956351130342
+-8.577239426653701
+-7.015780857268939
+-14.47265949545278
+-9.83689526177382
+-6.317917608672134
+-1.9837196839291733
+-1.9837196839291733
+-8.69147310119704
+-8.841244446682975
+-6.414751715113701
+-4.903985076308189
+-4.751235514450792
+-3.2251668327768717
+-3.5362300414404757
+-1.9837196839291733
+-1.9837196839291733
+-1.9837196839291733
+-12.4818870042414
+-4.751235514450792
+-5.863756982482866
+-9.521621127790354
+-9.182154095017264
+-16.040303091408852
+-5.060401494464555
+-9.343791777130367
+-8.629314676850273
+-6.1875527077668275
+-8.29072776999128
+-7.216576578966734
+-1.9837196839291733
+-9.646654768588787
+-7.015780857268939
+-9.231361181715874
+-6.236878610730742
+-13.812453217863162
+-6.00466883671331
+-1.9837196839291733
+-9.325183055982212
+-1.9837196839291733
+-7.3383099525648205
+-3.5362300414404757
+-7.716665390761216
+-8.891354891669813
+-9.311442858591816
+-6.230506765495001
+-1.9837196839291733
+-8.62929372000001
+-9.296484256275859
+-1.9837196839291733
+-1.9837196839291733
+-6.650830779967797
+-4.903985076308189
+-7.8597082425327685
+-7.11180515659077
+-5.922039414875884
+-9.942194564457985
+-5.992878798786791
+-8.818591731319618
+-5.180275307365059
+-6.984270790891622
+-7.448158594100317
+-10.249443071651953
+-11.371422181917913
+-1.9837196839291733
+-1.9837196839291733
+-5.84071974638677
+-10.618038030258834
+-10.716231099170594
+-1.9837196839291733
+-11.72348417785703
+-5.755585436754191
+-1.9837196839291733
+-9.838237152798952
+-10.45769887271704
+-9.376748857214574
+-1.9837196839291733
+-6.425519923851411
+-4.5001087491574605
+-1.9837196839291733
+-8.19122107780345
+-1.9837196839291733
+-3.2251668327768717
+-11.939799831173499
+-1.9837196839291733
+-8.435122943445666
+-6.333640288946676
+-5.863756982482866
+-3.5362300414404757
+-1.9837196839291733
+-7.245688399667995
+-7.480869548180472
+-4.5001087491574605
+-6.807960625221097
+-6.039728717193256
+-3.2251668327768717
+-8.124984693019911
+-3.2251668327768717
+-4.477035293428124
+-1.9837196839291733
+-7.285346994203193
+-6.449176320504808
+-8.096638553649324
+-7.290209924634624
+-6.149161642641759
+-6.1875527077668275
+-4.77759297402117
+-1.9837196839291733
+-4.706998062515858
+-4.5001087491574605
+-6.0450571342330255
+-6.901405723602885
+-9.181544581319054
+-6.901405723602885
+-8.596840613694912
+-1.9837196839291733
+-7.152595063840532
+-5.278854275929251
+-5.073064101752906
+-1.9837196839291733
+-1.9837196839291733
+-7.449510551280077
+-7.369530778409318
+-4.477035293428124
+-14.424307144930884
+-4.477035293428124
+-9.570267830820216
+-7.449510551280077
+-5.507496873023502
+-9.653059772794503
+-5.340528075060161
+-5.69878931006158
+-5.351916353831564
+-7.911283942965048
+-5.53357768897773
+-8.018632742457081
+-6.984270790891622
+-6.706410552329194
+-1.9837196839291733
+-5.922039414875884
+-1.9837196839291733
+-7.582206524091443
+-5.073064101752906
+-5.060401494464555
+-7.552767059484151
+-8.511252169706768
+-5.546847358885145
+-3.5362300414404757
+-5.634968789581839
+-6.894747642681488
+-8.643185473557551
+-12.253774769953962
+-3.9723596108404458
+-5.634968789581839
+-6.0450571342330255
+-5.351916353831564
+-1.9837196839291733
+-12.213342928174717
+-6.5757778916999134
+-1.9837196839291733
+-5.417092424384187
+-5.852052064244598
+-1.9837196839291733
+-4.77759297402117
+-7.96758547604317
+-6.504969139856397
+-3.2251668327768717
+-3.9723596108404458
+-3.2251668327768717
+-1.9837196839291733
+-3.2251668327768717
+-7.678417185342683
+-3.5362300414404757
+-6.919775625420822
+-4.737041861184136
+-5.63434927026087
+-9.234419575046728
+-5.69878931006158
+-11.851648568310015
+-7.636729599415295
+-12.230368368119516
+-6.149161642641759
+-3.2251668327768717
+-11.8343800359769
+-7.266025060406245
+-13.186648604030772
+-1.9837196839291733
+-9.828837360937634
+-1.9837196839291733
+-7.949843824758284
+-3.2251668327768717
+-5.714291334531791
+-4.77759297402117
+-5.8478270453750545
+-5.008056021174902
+-6.719985664962864
+-5.060401494464555
+-7.356890850966202
+-1.9837196839291733
+-6.578503520871174
+-5.053668854708506
+-3.2251668327768717
+-11.007336709749985
+-8.576909058277646
+-8.673103222400044
+-1.9837196839291733
+-5.8478270453750545
+-4.751235514450792
+-8.42536117503439
+-9.94653434484658
+-5.84071974638677
+-3.2251668327768717
+-8.672154399132447
+-6.535574428642113
+-6.650830779967797
+-9.999421855697065
+-9.274448221430658
+-8.514877729773417
+-5.073064101752906
+-7.678242880772145
+-1.9837196839291733
+-5.073064101752906
+-4.903985076308189
+-1.9837196839291733
+-3.2251668327768717
+-6.149161642641759
+-1.9837196839291733
+-13.41045478718759
+-5.837250790865854
+-3.5362300414404757
+-9.731470336525328
+-16.63262306448524
+-7.264949231284484
+-5.054694962004932
+-9.17366578303865
+-5.863756982482866
+-7.090513684963143
+-7.449207640533612
+-7.96758547604317
+-1.9837196839291733
+-5.634968789581839
+-5.992878798786791
+-1.9837196839291733
+-6.0607878116632765
+-7.7942491827057
+-3.5362300414404757
+-7.829388061395514
+-1.9837196839291733
+-1.9837196839291733
+-1.9837196839291733
+-6.333640288946676
+-3.5362300414404757
+-3.9723596108404458
+-3.5362300414404757
+-6.0607878116632765
+-4.751235514450792
+-6.7215557059858835
+-1.9837196839291733
+-1.9837196839291733
+-1.9837196839291733
+-5.922039414875884
+-5.008056021174902
+-9.74999438071112
+-12.917307112542941
+-12.055774121281349
+-7.932923713787987
+-4.477035293428124
+-3.9723596108404458
+-7.738546919108912
+-1.9837196839291733
+-4.77759297402117
+-1.9837196839291733
+-1.9837196839291733
+-5.755585436754191
+-5.931897115555188
+-3.2251668327768717
+-1.9837196839291733
+-3.2251668327768717
+-6.00466883671331
+-8.607218507054016
+-1.9837196839291733
+-6.114202226817689
+-7.264949231284484
+-15.052916376800637
+-5.919368129905425
+-1.9837196839291733
+-1.9837196839291733
+-6.00466883671331
+-5.054694962004932
+-1.9837196839291733
+-7.4038524620343935
+-5.073064101752906
+-14.132316126131265
+-1.9837196839291733
+-6.114202226817689
+-9.275168620945559
+-5.63434927026087
+-8.67537003033798
+-11.142922894002723
+-6.817524215590978
+-8.044411711417858
+-1.9837196839291733
+-1.9837196839291733
+-5.417092424384187
+-9.26527491470693
+-3.2251668327768717
+-3.2251668327768717
+-3.2251668327768717
+-1.9837196839291733
+-7.857349256470729
+-1.9837196839291733
+-6.0344922139237
+-3.5362300414404757
+-7.551389663935677
+-5.060401494464555
+-5.417092424384187
+-7.714014057287166
+-5.714291334531791
+-9.177345978748582
+-11.93191601286112
+-7.356890850966202
+-3.2251668327768717
+-7.552767059484151
+-1.9837196839291733
+-10.32277134887001
+-8.96141176875322
+-5.755585436754191
+-9.986682693825188
+-1.9837196839291733
+-8.924669987987519
+-7.006089763768599
+-3.5362300414404757
+-6.817524215590978
+-1.9837196839291733
+-7.783171116112984
+-5.936507302267645
+-7.573215027759919
+-5.340528075060161
+-1.9837196839291733
+-8.924669987987519
+-1.9837196839291733
+-1.9837196839291733
+-1.9837196839291733
+-5.936507302267645
+-1.9837196839291733
+-1.9837196839291733
+-7.969426375592911
+-5.278854275929251
+-3.2251668327768717
+-5.837250790865854
+-6.4250217199826185
+-6.77567124586494
+-6.940329005230755
+-8.37554561996305
+-5.073064101752906
+-7.67074978093648
+-9.37492701927508
+-10.409072691821017
+-10.997936187741566
+-1.9837196839291733
+-8.438561362279215
+-13.491119512852027
+-16.65539301119323
+-5.351916353831564
+-1.9837196839291733
+-6.230506765495001
+-5.931897115555188
+-5.53357768897773
+-8.24902366089893
+-3.9723596108404458
+-3.9723596108404458
+-6.149161642641759
+-6.215279232218209
+-8.574679777173413
+-9.779481463771708
+-7.336963888810784
+-12.87877684577559
+-3.5362300414404757
+-1.9837196839291733
+-5.634968789581839
+-3.2251668327768717
+-3.2251668327768717
+-1.9837196839291733
+-1.9837196839291733
+-3.9723596108404458
+-8.748684446628026
+-5.073064101752906
+-8.946282607716876
+-9.177345978748582
+-8.924669987987519
+-3.5362300414404757
+-9.325183055982212
+-1.9837196839291733
+-7.709940924118208
+-9.93610493466576
+-7.369530778409318
+-7.714014057287166
+-10.831396570870039
+-3.2251668327768717
+-1.9837196839291733
+-6.449176320504808
+-1.9837196839291733
+-14.083131889891906
+-8.134761829520578
+-5.634968789581839
+-9.174529964624819
+-4.706998062515858
+-8.267501927071896
+-6.400981539775737
+-1.9837196839291733
+-6.1875527077668275
+-1.9837196839291733
+-7.911088722211066
+-9.275872098319404
+-7.355014764234907
+-9.969159086877069
+-9.521796751086725
+-7.494701878901614
+-4.77759297402117
+-6.0344922139237
+-4.903985076308189
+-5.837250790865854
+-12.231204923011296
+-7.336963888810784
+-10.540723413902008
+-5.351916353831564
+-6.400981539775737
+-8.516614205852834
+-7.855095648501327
+-4.77759297402117
+-6.578503520871174
+-4.706998062515858
+-5.340528075060161
+-6.815664404350592
+-7.709940924118208
+-11.538747578853714
+-12.527831765870552
+-7.106727295072157
+-1.9837196839291733
+-9.28554797954077
+-1.9837196839291733
+-15.402637125003473
+-3.5362300414404757
+-3.2251668327768717
+-4.751235514450792
+-5.683043269945718
+-13.587653912846532
+-7.160705085155925
+-9.782319277287584
+-6.236878610730742
+-1.9837196839291733
+-8.520607011363948
+-1.9837196839291733
+-7.8807057076371105
+-14.614043430503775
+-5.073064101752906
+-3.5362300414404757
+-6.1875527077668275
+-5.922039414875884
+-9.369128902486125
+-12.132426847543565
+-5.340528075060161
+-6.623266291630144
+-3.5362300414404757
+-9.37648490460407
+-1.9837196839291733
+-7.278506107111796
+-3.9723596108404458
+-7.8807057076371105
+-5.53357768897773
+-5.9938770890907005
+-3.2251668327768717
+-9.866318992464064
+-6.781385348018355
+-8.371259962744924
+-6.395830285584988
+-3.2251668327768717
+-6.090852519062942
+-5.180275307365059
+-11.646849438661798
+-6.779316681044315
+-13.158892777529733
+-8.648929245646796
+-5.060401494464555
+-5.278854275929251
+-8.582823607362625
+-6.783365289023405
+-7.876806544563179
+-3.2251668327768717
+-5.507496873023502
+-5.053668854708506
+-10.696560247618441
+-3.2251668327768717
+-1.9837196839291733
+-6.317917608672134
+-5.073064101752906
+-6.430062330249948
+-6.0450571342330255
+-1.9837196839291733
+-7.576902281361536
+-7.294272663563259
+-11.83999187393876
+-6.149161642641759
+-4.477035293428124
+-9.661505201133604
+-6.317917608672134
+-4.5001087491574605
+-5.837250790865854
+-1.9837196839291733
+-3.5362300414404757
+-4.477035293428124
+-3.2251668327768717
+-1.9837196839291733
+-11.716120902560558
+-3.5362300414404757
+-10.819242385976288
+-4.477035293428124
+-1.9837196839291733
+-5.278854275929251
+-5.202870331611173
+-9.586332132980415
+-10.214583451855619
+-12.89110378571353
+-6.00466883671331
+-7.284702313377947
+-11.405844850988789
+-6.919775625420822
+-8.389473144320377
+-10.134030190277116
+-1.9837196839291733
+-5.278854275929251
+-8.589620620720678
+-3.5362300414404757
+-5.008056021174902
+-5.69878931006158
+-4.706998062515858
+-11.128581096794827
+-6.94127709385166
+-8.61429511815832
+-4.706998062515858
+-9.048829206969518
+-7.318366684413891
+-12.857315469052939
+-6.7215557059858835
+-5.8478270453750545
+-9.519386676962219
+-1.9837196839291733
+-8.02494360063769
+-1.9837196839291733
+-4.706998062515858
+-1.9837196839291733
+-3.5362300414404757
+-6.817524215590978
+-6.862547872061327
+-7.551389663935677
+-5.340528075060161
+-1.9837196839291733
+-5.060401494464555
+-7.449207640533612
+-1.9837196839291733
+-3.5362300414404757
+-4.706998062515858
+-1.9837196839291733
+-1.9837196839291733
+-14.438597899934368
+-3.2251668327768717
+-5.053668854708506
+-1.9837196839291733
+-3.2251668327768717
+-5.84071974638677
+-1.9837196839291733
+-3.2251668327768717
+-13.575971111787128
+-4.751235514450792
+-6.3222806677529615
+-1.9837196839291733
+-1.9837196839291733
+-11.846961983497533
+-5.278854275929251
+-8.837418493860612
+-8.14384421500776
+-1.9837196839291733
+-3.5362300414404757
+-1.9837196839291733
+-4.751235514450792
+-3.5362300414404757
+-6.444698547924974
+-1.9837196839291733
+-3.2251668327768717
+-9.147563809212167
+-1.9837196839291733
+-15.020250465774316
+-9.61369408996359
+-9.481797261706816
+-1.9837196839291733
+-1.9837196839291733
+-5.351916353831564
+-7.857349256470729
+-11.007336709749985
+-6.6036671428143405
+-4.477035293428124
+-1.9837196839291733
+-1.9837196839291733
+-1.9837196839291733
+-6.915498894226263
+-5.054694962004932
+-6.090852519062942
+-6.09611991351703
+-1.9837196839291733
+-12.265055069513329
+-5.936507302267645
+-1.9837196839291733
+-1.9837196839291733
+-1.9837196839291733
+-6.09611991351703
+-1.9837196839291733
+-14.956043738570791
+-9.41980267891804
+-7.719664507402388
+-7.9513655578568825
+-5.340528075060161
+-1.9837196839291733
+-9.340762796951418
+-6.1875527077668275
+-8.476127321514573
+-5.054694962004932
+-6.838747148267842
+-5.060401494464555
+-8.538419438214937
+-10.401082428318238
+-1.9837196839291733
+-1.9837196839291733
+-3.2251668327768717
+-1.9837196839291733
+-1.9837196839291733
+-1.9837196839291733
+-9.914658654663945
+-3.5362300414404757
+-5.202870331611173
+-1.9837196839291733
+-6.090852519062942
+-1.9837196839291733
+-5.69878931006158
+-5.278854275929251
+-5.634968789581839
+-4.751235514450792
+-6.960470296699774
+-3.2251668327768717
+-5.351916353831564
+-3.5362300414404757
+-4.477035293428124
+-1.9837196839291733
+-1.9837196839291733
+-1.9837196839291733
+-6.00466883671331
+-13.567195089721801
+-1.9837196839291733
+-1.9837196839291733
+-4.706998062515858
+-7.336963888810784
+-9.782319277287584
+-1.9837196839291733
+-10.458268272728995
+-13.311443619673456
+-6.531550382445513
+-9.109038823584923
+-3.2251668327768717
+-6.09611991351703
+-9.950184971809973
+-11.548646902347947
+-9.874483850350286
+-3.2251668327768717
+-1.9837196839291733
+-12.678937041563373
+-11.7427199632864
+-7.9636894118266595
+-5.073064101752906
+-6.230506765495001
+-5.546847358885145
+-10.819242385976288
+-5.073064101752906
+-5.073064101752906
+-6.075540879789873
+-3.5362300414404757
+-3.9723596108404458
+-5.054694962004932
+-7.32989082833419
+-5.060401494464555
+-3.9723596108404458
+-10.282785456382037
+-1.9837196839291733
+-1.9837196839291733
+-1.9837196839291733
+-1.9837196839291733
+-1.9837196839291733
+-5.351916353831564
+-10.6429395536347
+-9.838237152798952
+-3.5362300414404757
+-1.9837196839291733
+-7.9708252998968
+-3.9723596108404458
+-5.63434927026087
+-7.579638093402975
+-3.5362300414404757
+-14.242950124204372
+-8.503034988753111
+-7.944425610862749
+-7.738546919108912
+-5.351916353831564
+-1.9837196839291733
+-6.149161642641759
+-5.69878931006158
+-1.9837196839291733
+-6.090852519062942
+-10.392181945450394
+-8.322664212563106
+-8.412342259906378
+-5.9938770890907005
+-11.012634517897599
+-3.5362300414404757
+-6.753474853786888
+-7.438906047036982
+-11.808151972516265
+-1.9837196839291733
+-3.9723596108404458
+-9.541795795849957
+-5.9938770890907005
+-9.40469335233869
+-1.9837196839291733
+-6.00466883671331
+-6.9134451173259555
+-3.5362300414404757
+-9.229032904423613
+-8.435952845704902
+-4.477035293428124
+-9.787524191946124
+-9.212257776545215
+-3.2251668327768717
+-8.201043118581566
+-5.53357768897773
+-10.534373217475729
+-1.9837196839291733
+-8.04937930191835
+-3.2251668327768717
+-5.936507302267645
+-1.9837196839291733
+-6.0344922139237
+-9.787524191946124
+-8.165956665019138
+-5.714291334531791
+-8.29072776999128
+-7.690161368604134
+-9.970029332872954
+-5.9938770890907005
+-5.936507302267645
+-5.837250790865854
+-1.9837196839291733
+-7.636729599415295
+-3.9723596108404458
+-1.9837196839291733
+-1.9837196839291733
+-9.021756184895478
+-16.041642808330213
+-3.2251668327768717
+-4.77759297402117
+-9.369128902486125
+-7.709940924118208
+-3.9723596108404458
+-6.230506765495001
+-10.473470680862347
+-7.409110300494543
+-3.2251668327768717
+-1.9837196839291733
+-8.261011232324542
+-10.727582244804713
+-10.440198690197976
+-13.307637319317244
+-9.63004343943947
+-5.922039414875884
+-7.47691704953714
+-8.476127321514573
+-7.065809795443449
+-6.585583747793628
+-9.784346663594999
+-1.9837196839291733
+-5.060401494464555
+-5.180275307365059
+-1.9837196839291733
+-7.13758527228569
+-5.634968789581839
+-8.941838421117433
+-6.317917608672134
+-3.2251668327768717
+-5.992878798786791
+-6.0344922139237
+-5.202870331611173
+-9.282088676222228
+-1.9837196839291733
+-6.419870819932533
+-3.2251668327768717
+-3.2251668327768717
+-10.345779578245546
+-10.262273127146514
+-11.008231580244301
+-8.909179101386442
+-4.477035293428124
+-1.9837196839291733
+-11.501516395809418
+-8.648929245646796
+-5.546847358885145
+-5.060401494464555
+-6.607521892210896
+-4.751235514450792
+-9.284896667950704
+-5.919368129905425
+-11.295292773657057
+-5.837250790865854
+-10.54367823750151
+-4.706998062515858
+-10.241946423843457
+-6.090852519062942
+-13.326558111289375
+-13.048093178520798
+-5.755585436754191
+-9.0384399015403
+-7.582206524091443
+-6.039728717193256
+-6.333640288946676
+-5.69878931006158
+-6.317917608672134
+-7.9636894118266595
+-1.9837196839291733
+-5.84071974638677
+-4.477035293428124
+-6.650830779967797
+-5.054694962004932
+-1.9837196839291733
+-9.83750005305613
+-3.9723596108404458
+-8.24902366089893
+-9.208745206755726
+-4.77759297402117
+-3.5362300414404757
+-1.9837196839291733
+-6.585583747793628
+-1.9837196839291733
+-4.903985076308189
+-6.215279232218209
+-6.838747148267842
+-6.0450571342330255
+-6.716748184155888
+-12.720838129860727
+-4.706998062515858
+-7.9484551754910475
+-8.941838421117433
+-5.9938770890907005
+-6.732516231935028
+-6.444698547924974
+-7.67074978093648
+-1.9837196839291733
+-8.875077724496137
+-11.035117865070877
+-7.089635288094318
+-5.84071974638677
+-5.922039414875884
+-6.919775625420822
+-6.1875527077668275
+-9.81451710890022
+-10.947971390424472
+-7.089635288094318
+-1.9837196839291733
+-3.5362300414404757
+-1.9837196839291733
+-6.419870819932533
+-1.9837196839291733
+-1.9837196839291733
+-15.112654316000304
+-7.266025060406245
+-1.9837196839291733
+-6.535574428642113
+-3.5362300414404757
+-6.317917608672134
+-8.88410735225333
+-1.9837196839291733
+-8.571169794651302
+-1.9837196839291733
+-1.9837196839291733
+-6.333640288946676
+-9.181544581319054
+-7.8111735404313745
+-1.9837196839291733
+-6.816460302360719
+-7.3335919476984746
+-1.9837196839291733
+-5.060401494464555
+-3.2251668327768717
+-11.503881960782303
+-5.9938770890907005
+-10.415590046399704
+-1.9837196839291733
+-3.2251668327768717
+-3.9723596108404458
+-4.77759297402117
+-10.362934980582061
+-5.683043269945718
+-5.992878798786791
+-6.585583747793628
+-1.9837196839291733
+-5.936507302267645
+-13.552915711549737
+-5.351916353831564
+-10.801416469638273
+-10.2259735453822
+-9.477042976194978
+-4.5001087491574605
+-6.419870819932533
+-1.9837196839291733
+-7.664591607300912
+-5.992878798786791
+-10.476246311824797
+-4.5001087491574605
+-6.578503520871174
+-4.706998062515858
+-7.853117080357116
+-6.400981539775737
+-10.969858558864566
+-6.585583747793628
+-14.971214011442335
+-6.817524215590978
+-8.063360068073141
+-3.2251668327768717
+-6.114202226817689
+-17.46529222814167
+-1.9837196839291733
+-3.5362300414404757
+-7.432796730045295
+-8.577239426653701
+-10.830327010976408
+-5.9938770890907005
+-3.2251668327768717
+-5.863756982482866
+-5.340528075060161
+-7.893879415680487
+-9.521796751086725
+-1.9837196839291733
+-1.9837196839291733
+-12.818127860653876
+-4.751235514450792
+-8.36847019135338
+-6.00466883671331
+-1.9837196839291733
+-6.3222806677529615
+-6.822512419972856
+-1.9837196839291733
+-8.52176198781515
+-3.5362300414404757
+-10.303714776312042
+-5.755585436754191
+-5.008056021174902
+-3.5362300414404757
+-4.77759297402117
+-5.351916353831564
+-1.9837196839291733
+-7.711158115634129
+-3.2251668327768717
+-1.9837196839291733
+-14.23242096297437
+-1.9837196839291733
+-1.9837196839291733
+-8.475018407701736
+-8.33492435471744
+-5.546847358885145
+-5.060401494464555
+-10.854778385365973
+-5.008056021174902
+-8.836720115883823
+-7.709940924118208
+-12.96500238374166
+-1.9837196839291733
+-1.9837196839291733
+-6.414751715113701
+-5.060401494464555
+-3.2251668327768717
+-5.634968789581839
+-8.843787096354882
+-3.9723596108404458
+-8.412342259906378
+-5.202870331611173
+-1.9837196839291733
+-9.200392021443369
+-1.9837196839291733
+-1.9837196839291733
+-5.507496873023502
+-1.9837196839291733
+-1.9837196839291733
+-5.351916353831564
+-1.9837196839291733
+-1.9837196839291733
+-5.69878931006158
+-6.938793152251598
+-5.507496873023502
+-1.9837196839291733
+-11.624173473173354
+-5.919368129905425
+-7.3335919476984746
+-11.748276437698397
+-10.634896553378569
+-14.400527802533329
+-5.936507302267645
+-1.9837196839291733
+-8.718993556395795
+-3.2251668327768717
+-5.054694962004932
+-6.816460302360719
+-6.531550382445513
+-8.453481287419692
+-7.599327470635377
+-5.278854275929251
+-1.9837196839291733
+-5.073064101752906
+-8.88410735225333
+-8.91185470545543
+-6.9899980746170804
+-5.060401494464555
+-12.046016978264392
+-8.50208463078336
+-16.96994840977589
+-6.781385348018355
+-1.9837196839291733
+-7.231976254543393
+-5.073064101752906
+-1.9837196839291733
+-3.9723596108404458
+-8.841244446682975
+-11.31328770135018
+-7.480869548180472
+-1.9837196839291733
+-9.156238337151139
+-5.054694962004932
+-5.008056021174902
+-4.706998062515858
+-13.521150375507407
+-7.432796730045295
+-7.384882362230793
+-6.09611991351703
+-8.165956665019138
+-1.9837196839291733
+-1.9837196839291733
+-7.152595063840532
+-9.405685497213254
+-8.659040385468144
+-5.683043269945718
+-9.017447599162303
+-1.9837196839291733
+-5.202870331611173
+-5.848661132129667
+-5.63434927026087
+-3.2251668327768717
+-9.355419451633347
+-5.546847358885145
+-8.11681824986812
+-11.348196669983238
+-11.312912942162153
+-5.53357768897773
+-1.9837196839291733
+-6.531550382445513
+-5.417092424384187
+-5.202870331611173
+-1.9837196839291733
+-3.9723596108404458
+-5.931897115555188
+-6.807960625221097
+-8.704879375820264
+-3.5362300414404757
+-1.9837196839291733
+-9.972444570458917
+-3.9723596108404458
+-7.480869548180472
+-5.417092424384187
+-12.046652417891481
+-10.428399857451575
+-8.841171368040063
+-5.060401494464555
+-5.852052064244598
+-4.903985076308189
+-7.666177064984511
+-1.9837196839291733
+-19.669601185913333
+-7.842515322042935
+-3.2251668327768717
+-8.267501927071896
+-3.2251668327768717
+-7.30465473389047
+-1.9837196839291733
+-1.9837196839291733
+-4.77759297402117
+-7.361722365631222
+-5.008056021174902
+-7.13758527228569
+-7.551389663935677
+-4.751235514450792
+-7.431091461426918
+-6.940329005230755
+-11.181664026336986
+-5.053668854708506
+-3.2251668327768717
+-5.417092424384187
+-1.9837196839291733
+-6.230506765495001
+-7.8111735404313745
+-1.9837196839291733
+-3.2251668327768717
+-8.244561026256246
+-1.9837196839291733
+-1.9837196839291733
+-7.776896132230722
+-1.9837196839291733
+-7.949843824758284
+-6.719985664962864
+-9.474620073618656
+-5.202870331611173
+-9.6579879854076
+-12.440423806783492
+-8.543308045659083
+-1.9837196839291733
+-4.706998062515858
+-8.720198184222726
+-5.863756982482866
+-9.541798520716755
+-12.169363506051534
+-4.751235514450792
+-8.438561362279215
+-3.2251668327768717
+-4.903985076308189
+-1.9837196839291733
+-1.9837196839291733
+-9.520345606018976
+-1.9837196839291733
+-5.931897115555188
+-12.73463489576986
+-5.054694962004932
+-18.354911991056795
+-5.837250790865854
+-1.9837196839291733
+-3.2251668327768717
+-5.69878931006158
+-3.2251668327768717
+-5.054694962004932
+-9.157928332478853
+-7.187603868521056
+-1.9837196839291733
+-10.754780166930201
+-1.9837196839291733
+-5.919368129905425
+-10.539056781925316
+-5.073064101752906
+-7.30465473389047
+-1.9837196839291733
+-3.5362300414404757
+-13.32525075486219
+-12.231641043111944
+-5.053668854708506
+-1.9837196839291733
+-7.438231924163627
+-1.9837196839291733
+-9.270747970369886
+-7.264949231284484
+-9.484940308937777
+-5.919368129905425
+-6.706410552329194
+-1.9837196839291733
+-5.507496873023502
+-5.683043269945718
+-9.78283550071034
+-5.714291334531791
+-8.99167207363457
+-3.2251668327768717
+-5.755585436754191
+-1.9837196839291733
+-1.9837196839291733
+-7.266025060406245
+-14.752031130566746
+-6.960470296699774
+-5.180275307365059
+-8.327879361687451
+-1.9837196839291733
+-4.706998062515858
+-1.9837196839291733
+-8.59249525321234
+-5.008056021174902
+-1.9837196839291733
+-1.9837196839291733
+-1.9837196839291733
+-6.780928952611647
+-1.9837196839291733
+-3.9723596108404458
+-5.351916353831564
+-7.664591607300912
+-6.578503520871174
+-3.5362300414404757
+-6.09611991351703
+-7.294272663563259
+-6.817524215590978
+-6.236511741135878
+-6.585583747793628
+-5.84071974638677
+-5.69878931006158
+-3.2251668327768717
+-6.938793152251598
+-5.714291334531791
+-5.69878931006158
+-6.732516231935028
+-3.9723596108404458
+-5.008056021174902
+-6.623266291630144
+-3.9723596108404458
+-6.0344922139237
+-1.9837196839291733
+-5.9938770890907005
+-3.9723596108404458
+-5.054694962004932
+-7.515872911773043
+-7.944425610862749
+-5.340528075060161
+-7.152595063840532
+-3.2251668327768717
+-1.9837196839291733
+-1.9837196839291733
+-5.84071974638677
+-3.2251668327768717
+-6.938793152251598
+-4.477035293428124
+-7.678156400863177
+-1.9837196839291733
+-1.9837196839291733
+-5.755585436754191
+-1.9837196839291733
+-10.61670587610866
+-5.008056021174902
+-4.77759297402117
+-6.467270468529151
+-7.97709218981077
+-1.9837196839291733
+-7.065809795443449
+-5.054694962004932
+-6.739248758410383
+-5.634968789581839
+-7.432796730045295
+-7.245688399667995
+-5.278854275929251
+-1.9837196839291733
+-1.9837196839291733
+-10.958454103131386
+-9.826209524877921
+-1.9837196839291733
+-5.863756982482866
+-1.9837196839291733
+-5.073064101752906
+-3.2251668327768717
+-7.7499869113804305
+-5.202870331611173
+-6.090852519062942
+-7.714014057287166
+-5.53357768897773
+-9.454982481342137
+-1.9837196839291733
+-11.992747983164902
+-5.992878798786791
+-8.244561026256246
+-1.9837196839291733
+-3.2251668327768717
+-1.9837196839291733
+-18.19811765874184
+-3.2251668327768717
+-9.57632429609368
+-8.349319739465567
+-8.843787096354882
+-5.008056021174902
+-1.9837196839291733
+-8.970403665989172
+-8.924669987987519
+-10.336331908575243
+-7.448158594100317
+-9.222079967843692
+-1.9837196839291733
+-8.526616025067403
+-7.470576458121892
+-8.495488446553361
+-8.412342259906378
+-10.604344408040603
+-9.986682693825188
+-5.714291334531791
+-5.683043269945718
+-11.379788564464453
+-6.578503520871174
+-10.538911341778125
+-4.903985076308189
+-5.936507302267645
+-6.449176320504808
+-3.2251668327768717
+-5.634968789581839
+-5.936507302267645
+-7.290209924634624
+-5.060401494464555
+-14.584884186990614
+-10.33765252271481
+-6.075540879789873
+-10.167254888337514
+-6.504969139856397
+-1.9837196839291733
+-17.944802680873874
+-5.060401494464555
+-7.438231924163627
+-13.006829055981504
+-6.607521892210896
+-6.0607878116632765
+-6.00466883671331
+-7.781135692164985
+-3.2251668327768717
+-7.9292599259535965
+-5.69878931006158
+-7.307342287757168
+-1.9837196839291733
+-8.862029393827633
+-14.806458338875487
+-5.278854275929251
+-1.9837196839291733
+-9.200392021443369
+-7.04341624074829
+-7.911283942965048
+-6.535574428642113
+-1.9837196839291733
+-4.706998062515858
+-5.180275307365059
+-9.369128902486125
+-3.2251668327768717
+-10.716369631561564
+-1.9837196839291733
+-8.02494360063769
+-6.0607878116632765
+-10.824245770326394
+-3.2251668327768717
+-9.568957454899715
+-1.9837196839291733
+-1.9837196839291733
+-6.215279232218209
+-9.71632178821414
+-5.84071974638677
+-6.781385348018355
+-1.9837196839291733
+-5.53357768897773
+-4.706998062515858
+-11.94087767866703
+-11.295341391090371
+-5.755585436754191
+-7.935385715479991
+-6.149161642641759
+-5.992878798786791
+-1.9837196839291733
+-1.9837196839291733
+-5.008056021174902
+-9.290004014237464
+-1.9837196839291733
+-5.84071974638677
+-4.477035293428124
+-8.433842756222884
+-6.919775625420822
+-11.380485792645642
+-5.351916353831564
+-12.527983668585357
+-5.008056021174902
+-10.23038161582996
+-9.490340803359345
+-3.2251668327768717
+-3.2251668327768717
+-6.3390666691542155
+-17.111141650601773
+-9.262824512051248
+-7.369530778409318
+-5.546847358885145
+-8.741419972200543
+-13.803017755236773
+-7.015780857268939
+-8.594024287587168
+-7.027725883262922
+-3.2251668327768717
+-12.490665760946719
+-1.9837196839291733
+-6.425519923851411
+-6.838747148267842
+-15.971566544877136
+-1.9837196839291733
+-5.351916353831564
+-1.9837196839291733
+-4.5001087491574605
+-5.202870331611173
+-6.0344922139237
+-1.9837196839291733
+-3.5362300414404757
+-9.274448221430658
+-6.0450571342330255
+-3.5362300414404757
+-8.665797289467863
+-6.5757778916999134
+-5.919368129905425
+-10.127744865208891
+-8.80173096610713
+-8.01425816944722
+-8.918663064621162
+-6.449176320504808
+-1.9837196839291733
+-3.9723596108404458
+-10.345779578245546
+-6.1875527077668275
+-5.69878931006158
+-1.9837196839291733
+-6.960470296699774
+-1.9837196839291733
+-4.751235514450792
+-5.054694962004932
+-3.5362300414404757
+-15.85007370638491
+-8.52176198781515
+-8.373562978944129
+-1.9837196839291733
+-3.5362300414404757
+-12.931264149332302
+-1.9837196839291733
+-10.854778385365973
+-1.9837196839291733
+-6.0607878116632765
+-6.0344922139237
+-5.060401494464555
+-3.5362300414404757
+-1.9837196839291733
+-6.652631102898903
+-1.9837196839291733
+-6.9899980746170804
+-12.30848710631398
+-9.40469335233869
+-10.981488023729375
+-5.922039414875884
+-5.278854275929251
+-9.93610493466576
+-10.262273127146514
+-4.477035293428124
+-7.926164542440724
+-1.9837196839291733
+-9.914658654663945
+-9.593593579511275
+-5.922039414875884
+-1.9837196839291733
+-9.192306899512392
+-1.9837196839291733
+-11.31491928702611
+-3.2251668327768717
+-3.5362300414404757
+-5.417092424384187
+-5.63434927026087
+-3.2251668327768717
+-9.170546857359275
+-1.9837196839291733
+-12.958813601870972
+-6.09611991351703
+-1.9837196839291733
+-4.477035293428124
+-3.2251668327768717
+-5.634968789581839
+-1.9837196839291733
+-12.198844316171018
+-7.97709218981077
+-14.964075398388509
+-7.30465473389047
+-3.2251668327768717
+-8.018182261082158
+-3.2251668327768717
+-8.322664212563106
+-12.630210153768616
+-5.63434927026087
+-5.53357768897773
+-10.054982775606325
+-8.425438414395362
+-5.9938770890907005
+-1.9837196839291733
+-1.9837196839291733
+-1.9837196839291733
+-16.177877763704885
+-5.755585436754191
+-3.2251668327768717
+-6.960470296699774
+-6.938793152251598
+-1.9837196839291733
+-7.363908588335427
+-1.9837196839291733
+-1.9837196839291733
+-5.202870331611173
+-1.9837196839291733
+-1.9837196839291733
+-12.738590367625747
+-4.737041861184136
+-5.060401494464555
+-10.453353174464649
+-5.9938770890907005
+-8.985918515156946
+-6.607521892210896
+-8.985918515156946
+-7.295184784804962
+-7.089594607981951
+-5.863756982482866
+-1.9837196839291733
+-1.9837196839291733
+-6.444698547924974
+-5.8478270453750545
+-1.9837196839291733
+-12.551848450424835
+-12.726469745573146
+-5.202870331611173
+-5.992878798786791
+-3.5362300414404757
+-10.719295454807055
+-6.333640288946676
+-8.170970883710638
+-9.521621127790354
+-1.9837196839291733
+-5.073064101752906
+-5.714291334531791
+-1.9837196839291733
+-4.477035293428124
+-9.155192641778774
+-7.006168536545221
+-9.754410998528734
+-7.677184926039838
+-5.054694962004932
+-3.5362300414404757
+-6.419870819932533
+-7.432796730045295
+-3.5362300414404757
+-5.69878931006158
+-4.77759297402117
+-9.174529964624819
+-6.838747148267842
+-8.581173561035195
+-4.903985076308189
+-6.938793152251598
+-3.2251668327768717
+-6.965400005725258
+-9.846922629547839
+-1.9837196839291733
+-1.9837196839291733
+-8.10499860028616
+-6.149161642641759
+-5.919368129905425
+-9.37649186415709
+-1.9837196839291733
+-12.036126475658284
+-9.54252962927296
+-1.9837196839291733
+-8.837305170248825
+-9.21321212286495
+-5.060401494464555
+-8.492366682561697
+-5.202870331611173
+-7.901080743413862
+-9.97041511777634
+-3.5362300414404757
+-5.053668854708506
+-9.496084226573295
+-8.425438414395362
+-3.2251668327768717
+-5.9938770890907005
+-9.250446819379048
+-9.65628848455451
+-5.863756982482866
+-6.449176320504808
+-7.262052910220267
+-6.984270790891622
+-5.634968789581839
+-8.594024287587168
+-4.903985076308189
+-7.740801085916843
+-5.180275307365059
+-7.664591607300912
+-5.931897115555188
+-10.704635718843328
+-4.477035293428124
+-1.9837196839291733
+-8.95890483240003
+-5.714291334531791
+-3.5362300414404757
+-1.9837196839291733
+-8.044411711417858
+-11.0815152493347
+-8.91185470545543
+-10.614418951199738
+-7.369530778409318
+-8.750343742952328
+-4.5001087491574605
+-10.927126186484246
+-7.9484551754910475
+-9.301877521948002
+-12.308379966213199
+-8.515325562590466
+-3.5362300414404757
+-6.09611991351703
+-9.177345978748582
+-1.9837196839291733
+-5.863756982482866
+-10.265519778205777
+-1.9837196839291733
+-6.3222806677529615
+-9.017447599162303
+-11.423241051145274
+-3.2251668327768717
+-14.039338816630726
+-6.646565341602403
+-12.21169571694406
+-1.9837196839291733
+-1.9837196839291733
+-5.202870331611173
+-11.188273611576221
+-6.816460302360719
+-7.369530778409318
+-3.5362300414404757
+-1.9837196839291733
+-5.936507302267645
+-1.9837196839291733
+-5.63434927026087
+-10.348794981906913
+-3.5362300414404757
+-6.449176320504808
+-6.0344922139237
+-10.708548847323154
+-5.634968789581839
+-7.9484551754910475
+-8.836720115883823
+-8.24902366089893
+-6.114202226817689
+-10.370695046037522
+-5.340528075060161
+-6.075540879789873
+-9.410987492822844
+-9.875161835592541
+-3.2251668327768717
+-11.007815226149626
+-5.69878931006158
+-5.053668854708506
+-7.307777127360743
+-16.14917929864523
+-5.340528075060161
+-6.022545957296238
+-8.292535721522631
+-3.5362300414404757
+-5.053668854708506
+-9.914658654663945
+-9.97041511777634
+-1.9837196839291733
+-1.9837196839291733
+-6.149161642641759
+-1.9837196839291733
+-1.9837196839291733
+-3.9723596108404458
+-9.078984589766252
+-1.9837196839291733
+-3.2251668327768717
+-9.209443287647872
+-1.9837196839291733
+-1.9837196839291733
+-11.71615130796278
+-10.517709199089571
+-6.9134451173259555
+-3.9723596108404458
+-7.224061269750084
+-6.5757778916999134
+-5.922039414875884
+-1.9837196839291733
+-10.92622514667722
+-7.012049675173072
+-7.3383099525648205
+-3.9723596108404458
+-11.107163564974348
+-6.938793152251598
+-5.69878931006158
+-1.9837196839291733
+-6.578503520871174
+-5.008056021174902
+-1.9837196839291733
+-8.410473092399913
+-11.02503458310156
+-3.9723596108404458
+-1.9837196839291733
+-8.672154399132447
+-8.04937930191835
+-8.569620581588705
+-1.9837196839291733
+-8.19122107780345
+-10.393668834586492
+-1.9837196839291733
+-8.425438414395362
+-5.202870331611173
+-1.9837196839291733
+-6.7215557059858835
+-1.9837196839291733
+-6.578503520871174
+-5.202870331611173
+-9.66177872169851
+-5.992878798786791
+-9.416864167566505
+-8.003624573434665
+-8.218105371747125
+-5.922039414875884
+-1.9837196839291733
+-12.13619622351723
+-10.946909485633624
+-3.2251668327768717
+-6.815664404350592
+-8.492366682561697
+-8.20720816718209
+-7.8111735404313745
+-8.786581368508752
+-8.36152895525492
+-1.9837196839291733
+-5.060401494464555
+-1.9837196839291733
+-3.2251668327768717
+-7.8807057076371105
+-5.008056021174902
+-5.073064101752906
+-7.065809795443449
+-12.879053216868579
+-5.054694962004932
+-11.317599592478047
+-5.278854275929251
+-10.477485939924728
+-6.149161642641759
+-5.417092424384187
+-7.621472421164085
+-8.98720939441114
+-8.716031565145208
+-3.2251668327768717
+-6.504969139856397
+-5.992878798786791
+-11.31328770135018
+-5.202870331611173
+-9.8729931741954
+-13.218880312884782
+-1.9837196839291733
+-1.9837196839291733
+-4.77759297402117
+-1.9837196839291733
+-9.249280125093748
+-5.073064101752906
+-4.751235514450792
+-4.477035293428124
+-12.745908593887963
+-5.8478270453750545
+-14.49403547279558
+-9.479821254752798
+-4.5001087491574605
+-4.737041861184136
+-5.507496873023502
+-11.64154917472421
+-4.477035293428124
+-14.235663088500175
+-6.652631102898903
+-1.9837196839291733
+-1.9837196839291733
+-6.090852519062942
+-14.487410014117085
+-5.008056021174902
+-6.0450571342330255
+-6.00466883671331
+-1.9837196839291733
+-7.438906047036982
+-1.9837196839291733
+-5.278854275929251
+-1.9837196839291733
+-3.2251668327768717
+-1.9837196839291733
+-9.326346899692112
+-6.039728717193256
+-6.00466883671331
+-5.837250790865854
+-1.9837196839291733
+-8.843183629444804
+-3.5362300414404757
+-13.358155163507382
+-5.054694962004932
+-6.395830285584988
+-7.224061269750084
+-8.407084478829644
+-11.674401552718365
+-1.9837196839291733
+-1.9837196839291733
+-5.919368129905425
+-6.650830779967797
+-11.224925492132687
+-8.001967531721029
+-1.9837196839291733
+-1.9837196839291733
+-6.531550382445513
+-6.039728717193256
+-1.9837196839291733
+-3.2251668327768717
+-4.903985076308189
+-1.9837196839291733
+-3.9723596108404458
+-6.400981539775737
+-5.008056021174902
+-1.9837196839291733
+-7.194459183764583
+-10.079448737236753
+-1.9837196839291733
+-3.5362300414404757
+-8.060752744990484
+-4.77759297402117
+-6.77567124586494
+-9.75119162653898
+-10.117412193083622
+-1.9837196839291733
+-1.9837196839291733
+-6.215279232218209
+-5.8478270453750545
+-9.375462867125169
+-1.9837196839291733
+-6.623266291630144
+-1.9837196839291733
+-1.9837196839291733
+-6.419870819932533
+-7.480869548180472
+-6.414751715113701
+-3.5362300414404757
+-6.230506765495001
+-10.379993071557568
+-13.314589823761887
+-3.5362300414404757
+-3.2251668327768717
+-1.9837196839291733
+-8.132063087586934
+-6.607521892210896
+-1.9837196839291733
+-10.024437945282966
+-4.77759297402117
+-9.635123192547995
+-1.9837196839291733
+-9.265248458321112
+-5.922039414875884
+-3.2251668327768717
+-14.995706041741082
+-3.2251668327768717
+-6.706410552329194
+-4.77759297402117
+-1.9837196839291733
+-5.919368129905425
+-5.202870331611173
+-4.706998062515858
+-1.9837196839291733
+-13.203272354367746
+-21.063345685750114
+-5.992878798786791
+-8.992261573770667
+-5.008056021174902
+-6.938793152251598
+-5.992878798786791
+-1.9837196839291733
+-7.266025060406245
+-1.9837196839291733
+-23.016561551721768
+-3.5362300414404757
+-6.09611991351703
+-6.535574428642113
+-4.477035293428124
+-13.0919409417258
+-4.5001087491574605
+-7.872085544509732
+-5.634968789581839
+-7.04341624074829
+-9.48203448094654
+-12.506287545759132
+-6.535574428642113
+-8.425438414395362
+-1.9837196839291733
+-6.00466883671331
+-6.0450571342330255
+-6.578503520871174
+-3.2251668327768717
+-1.9837196839291733
+-1.9837196839291733
+-7.432796730045295
+-11.154750847014263
+-1.9837196839291733
+-3.2251668327768717
+-4.477035293428124
+-3.5362300414404757
+-6.535574428642113
+-5.008056021174902
+-13.23829308470682
+-5.992878798786791
+-9.414514264160099
+-1.9837196839291733
+-9.229032904423613
+-1.9837196839291733
+-1.9837196839291733
+-4.477035293428124
+-8.706171164988532
+-5.053668854708506
+-6.732516231935028
+-5.054694962004932
+-1.9837196839291733
+-7.383227893368152
+-1.9837196839291733
+-5.340528075060161
+-1.9837196839291733
+-10.682024332429659
+-1.9837196839291733
+-5.054694962004932
+-5.992878798786791
+-3.2251668327768717
+-7.740801085916843
+-8.445582766124954
+-4.477035293428124
+-5.755585436754191
+-5.69878931006158
+-5.84071974638677
+-13.81718753616796
+-1.9837196839291733
+-17.867256111976463
+-6.400981539775737
+-7.68539533747791
+-9.674568993014312
+-3.2251668327768717
+-7.342475750021207
+-8.613797264384017
+-5.278854275929251
+-1.9837196839291733
+-1.9837196839291733
+-12.560570189470363
+-3.5362300414404757
+-6.706410552329194
+-3.9723596108404458
+-7.860837100004239
+-5.9938770890907005
+-1.9837196839291733
+-9.185445260443965
+-7.740166258431775
+-9.343412466585665
+-5.69878931006158
+-6.230506765495001
+-8.003257517479039
+-3.5362300414404757
+-9.664865481510567
+-4.477035293428124
+-9.181544581319054
+-1.9837196839291733
+-15.2174239215673
+-5.054694962004932
+-7.677184926039838
+-6.425519923851411
+-6.00466883671331
+-10.23223504261151
+-1.9837196839291733
+-10.285782327231798
+-6.114202226817689
+-8.206647866318288
+-5.919368129905425
+-11.521536085613933
+-5.634968789581839
+-5.863756982482866
+-8.985918515156946
+-6.535574428642113
+-9.17577514705962
+-5.546847358885145
+-7.245688399667995
+-5.8478270453750545
+-1.9837196839291733
+-5.863756982482866
+-6.815664404350592
+-1.9837196839291733
+-3.9723596108404458
+-8.306023580898499
+-3.2251668327768717
+-6.3390666691542155
+-9.970029332872954
+-8.36847019135338
+-11.609514717417756
+-5.278854275929251
+-7.525496171295421
+-8.49401637599109
+-9.369128902486125
+-3.9723596108404458
+-6.0607878116632765
+-4.706998062515858
+-8.07085925312235
+-9.805535302213471
+-1.9837196839291733
+-8.535952932656738
+-5.202870331611173
+-9.252844768027977
+-1.9837196839291733
+-3.5362300414404757
+-6.1875527077668275
+-3.5362300414404757
+-5.054694962004932
+-6.7215557059858835
+-14.364638961415274
+-12.301694280222446
+-3.2251668327768717
+-3.5362300414404757
+-1.9837196839291733
+-5.054694962004932
+-6.965400005725258
+-3.2251668327768717
+-9.170546857359275
+-6.090852519062942
+-9.389758951660312
+-9.454982481342137
+-1.9837196839291733
+-1.9837196839291733
+-10.34202520879747
+-4.751235514450792
+-6.3390666691542155
+-1.9837196839291733
+-7.990482386336353
+-8.258125240436028
+-1.9837196839291733
+-6.215279232218209
+-5.922039414875884
+-6.504969139856397
+-9.722017442198565
+-1.9837196839291733
+-8.222421976201538
+-6.0344922139237
+-8.741419972200543
+-6.3390666691542155
+-12.24708855117518
+-6.6187144662992345
+-11.79506905308936
+-12.241091887733456
+-8.067934776853381
+-5.9938770890907005
+-6.1875527077668275
+-1.9837196839291733
+-9.438359997432803
+-10.46989911227428
+-11.869807516798677
+-6.550946580607909
+-5.073064101752906
+-12.70868957446138
+-6.732516231935028
+-8.433842756222884
+-1.9837196839291733
+-8.2227652669434
+-9.6914128592542
+-4.706998062515858
+-8.594024287587168
+-11.31328770135018
+-8.067934776853381
+-9.874483850350286
+-5.073064101752906
+-6.716748184155888
+-4.477035293428124
+-5.180275307365059
+-6.531550382445513
+-1.9837196839291733
+-8.21608930020902
+-5.8478270453750545
+-3.5362300414404757
+-9.21321212286495
+-9.648424437174665
+-8.954027609943761
+-8.80173096610713
+-10.575027739250782
+-6.333640288946676
+-5.634968789581839
+-6.783365289023405
+-5.936507302267645
+-3.2251668327768717
+-9.74999438071112
+-1.9837196839291733
+-1.9837196839291733
+-8.946282607716876
+-8.889529578942783
+-11.299199429312695
+-5.69878931006158
+-6.09611991351703
+-7.295184784804962
+-5.202870331611173
+-1.9837196839291733
+-9.200392021443369
+-5.755585436754191
+-7.224061269750084
+-1.9837196839291733
+-5.837250790865854
+-1.9837196839291733
+-6.984270790891622
+-9.983689756153195
+-9.81315656312319
+-6.1875527077668275
+-5.8478270453750545
+-10.232847138892607
+-8.716031565145208
+-16.340289587041443
+-7.919784304685775
+-8.322664212563106
+-9.381171167086142
+-5.417092424384187
+-3.5362300414404757
+-4.77759297402117
+-3.2251668327768717
+-9.453506982162386
+-5.863756982482866
+-6.414751715113701
+-5.202870331611173
+-9.2222669967983
+-1.9837196839291733
+-6.395830285584988
+-7.935385715479991
+-5.417092424384187
+-3.9723596108404458
+-6.339119683905122
+-1.9837196839291733
+-8.728879509998597
+-1.9837196839291733
+-1.9837196839291733
+-5.714291334531791
+-7.552767059484151
+-5.008056021174902
+-1.9837196839291733
+-5.852052064244598
+-9.294414271915834
+-3.9723596108404458
+-5.84071974638677
+-13.680235561938527
+-10.749404763760229
+-1.9837196839291733
+-5.351916353831564
+-1.9837196839291733
+-4.664464369619055
+-1.9837196839291733
+-1.9837196839291733
+-3.2251668327768717
+-7.418217651835871
+-5.060401494464555
+-5.634968789581839
+-1.9837196839291733
+-9.986682693825188
+-6.09611991351703
+-8.344868328234083
+-5.351916353831564
+-1.9837196839291733
+-7.11180515659077
+-8.936981948020527
+-6.535574428642113
+-6.022545957296238
+-5.53357768897773
+-7.995424998225565
+-7.012049675173072
+-5.202870331611173
+-9.376416507677487
+-1.9837196839291733
+-1.9837196839291733
+-5.073064101752906
+-9.05788910687991
+-9.521796751086725
+-1.9837196839291733
+-1.9837196839291733
+-7.278506107111796
+-1.9837196839291733
+-15.397384339758235
+-5.073064101752906
+-3.5362300414404757
+-6.5757778916999134
+-6.333640288946676
+-7.664591607300912
+-1.9837196839291733
+-12.344317937675422
+-8.09728872763769
+-8.812759863623484
+-11.083333893970025
+-3.5362300414404757
+-17.423720161696888
+-5.073064101752906
+-5.073064101752906
+-15.565525986276722
+-10.245971277713835
+-1.9837196839291733
+-6.339119683905122
+-1.9837196839291733
+-1.9837196839291733
+-10.227736418860193
+-7.006089763768599
+-1.9837196839291733
+-6.834288729029733
+-9.453075718897308
+-4.737041861184136
+-5.634968789581839
+-10.629879829051408
+-8.147085666012115
+-6.816460302360719
+-1.9837196839291733
+-7.318366684413891
+-5.634968789581839
+-7.245688399667995
+-6.1875527077668275
+-7.525496171295421
+-1.9837196839291733
+-8.545993071092928
+-4.77759297402117
+-6.550946580607909
+-1.9837196839291733
+-8.50071462183314
+-4.751235514450792
+-6.753474853786888
+-3.2251668327768717
+-8.170970883710638
+-9.42994892746139
+-8.143428982169082
+-1.9837196839291733
+-8.99447614112365
+-6.732516231935028
+-5.202870331611173
+-6.0450571342330255
+-3.5362300414404757
+-11.505200288604627
+-7.130651279325701
+-3.9723596108404458
+-9.376748857214574
+-11.712397535126314
+-12.635925460967801
+-16.539127567668775
+-9.283082338205702
+-1.9837196839291733
+-1.9837196839291733
+-1.9837196839291733
+-7.152595063840532
+-4.903985076308189
+-1.9837196839291733
+-5.84071974638677
+-7.947904777271319
+-5.060401494464555
+-5.202870331611173
+-1.9837196839291733
+-7.857349256470729
+-1.9837196839291733
+-8.67537003033798
+-10.47357720732601
+-5.922039414875884
+-3.9723596108404458
+-13.15102769902791
+-1.9837196839291733
+-5.84071974638677
+-5.931897115555188
+-3.5362300414404757
+-8.244561026256246
+-8.892134610079193
+-1.9837196839291733
+-1.9837196839291733
+-7.96758547604317
+-4.751235514450792
+-3.5362300414404757
+-11.31328770135018
+-11.93497424763067
+-14.815098165030692
+-1.9837196839291733
+-4.77759297402117
+-5.060401494464555
+-7.449510551280077
+-9.44059641855922
+-6.090852519062942
+-12.174672546563995
+-5.634968789581839
+-7.371621687341957
+-7.216576578966734
+-7.599327470635377
+-6.00466883671331
+-1.9837196839291733
+-7.944425610862749
+-9.201632597837307
+-5.863756982482866
+-1.9837196839291733
+-9.282445858723243
+-10.279168303758226
+-1.9837196839291733
+-11.56287667047155
+-5.278854275929251
+-7.355014764234907
+-11.995572588764126
+-7.781135692164985
+-5.008056021174902
+-4.77759297402117
+-1.9837196839291733
+-7.266025060406245
+-6.09611991351703
+-1.9837196839291733
+-7.969426375592911
+-7.11180515659077
+-8.201043118581566
+-17.768921055867995
+-1.9837196839291733
+-3.2251668327768717
+-8.67537003033798
+-3.5362300414404757
+-5.202870331611173
+-11.31328770135018
+-1.9837196839291733
+-8.19122107780345
+-6.7215557059858835
+-5.008056021174902
+-6.652631102898903
+-8.495488446553361
+-9.045127511914444
+-8.36847019135338
+-1.9837196839291733
+-5.340528075060161
+-8.067934776853381
+-9.74301872793793
+-1.9837196839291733
+-3.5362300414404757
+-5.053668854708506
+-7.006168536545221
+-12.260678903898738
+-8.809104218045778
+-1.9837196839291733
+-7.621472421164085
+-10.32240056832053
+-1.9837196839291733
+-8.281212878765041
+-12.444987260271553
+-1.9837196839291733
+-5.008056021174902
+-7.715286524138336
+-1.9837196839291733
+-6.075540879789873
+-6.0450571342330255
+-3.5362300414404757
+-1.9837196839291733
+-4.706998062515858
+-11.531472334662281
+-5.852052064244598
+-1.9837196839291733
+-6.894747642681488
+-9.80537399287543
+-4.477035293428124
+-9.925770588576142
+-15.335214095923947
+-3.2251668327768717
+-7.130651279325701
+-6.5757778916999134
+-13.789708958688559
+-1.9837196839291733
+-1.9837196839291733
+-4.903985076308189
+-1.9837196839291733
+-6.9504030264651915
+-8.484794578309282
+-6.0607878116632765
+-6.585583747793628
+-5.69878931006158
+-7.590743443950596
+-12.291582263319436
+-8.703691711138124
+-5.546847358885145
+-3.2251668327768717
+-3.2251668327768717
+-4.477035293428124
+-3.5362300414404757
+-8.76377304106918
+-4.751235514450792
+-1.9837196839291733
+-3.2251668327768717
+-6.449176320504808
+-1.9837196839291733
+-5.008056021174902
+-7.9636894118266595
+-8.555447014358439
+-5.073064101752906
+-10.829887014570447
+-14.584312530392184
+-4.706998062515858
+-4.737041861184136
+-3.2251668327768717
+-10.260621023003555
+-5.922039414875884
+-5.073064101752906
+-3.5362300414404757
+-6.449176320504808
+-1.9837196839291733
+-7.416697914482178
+-5.63434927026087
+-1.9837196839291733
+-4.477035293428124
+-1.9837196839291733
+-10.577859641231742
+-5.060401494464555
+-10.473863344453939
+-7.855853370383492
+-5.073064101752906
+-3.2251668327768717
+-3.5362300414404757
+-3.2251668327768717
+-3.2251668327768717
+-14.455219063345329
+-10.687500961218689
+-6.317917608672134
+-10.614418951199738
+-9.239943314019394
+-6.0344922139237
+-5.351916353831564
+-7.13758527228569
+-7.317128118492734
+-3.2251668327768717
+-1.9837196839291733
+-8.643185473557551
+-3.9723596108404458
+-10.216754427054157
+-6.400981539775737
+-8.04937930191835
+-9.078207939923864
+-5.84071974638677
+-3.2251668327768717
+-5.278854275929251
+-1.9837196839291733
+-4.5001087491574605
+-7.278506107111796
+-9.150281146951388
+-8.425438414395362
+-1.9837196839291733
+-7.284702313377947
+-12.893494675273399
+-1.9837196839291733
+-9.157450125164697
+-7.995424998225565
+-12.400526090588711
+-3.2251668327768717
+-7.740540280748674
+-4.751235514450792
+-9.52203497332651
+-5.180275307365059
+-12.182326774928667
+-6.780928952611647
+-1.9837196839291733
+-1.9837196839291733
+-6.822512419972856
+-9.256124428878865
+-8.992261573770667
+-3.9723596108404458
+-6.817524215590978
+-12.725384370588433
+-11.012634517897599
+-8.54816747417631
+-9.362387285368793
+-11.161351012613142
+-3.5362300414404757
+-6.646565341602403
+-1.9837196839291733
+-6.719985664962864
+-1.9837196839291733
+-1.9837196839291733
+-5.417092424384187
+-1.9837196839291733
+-3.5362300414404757
+-17.049184824523834
+-6.822512419972856
+-3.2251668327768717
+-11.435206092438941
+-1.9837196839291733
+-5.060401494464555
+-5.417092424384187
+-1.9837196839291733
+-5.726320383860256
+-3.2251668327768717
+-6.550946580607909
+-7.573215027759919
+-4.477035293428124
+-7.158212554313686
+-7.384882362230793
+-5.053668854708506
+-1.9837196839291733
+-1.9837196839291733
+-5.202870331611173
+-9.224099626649753
+-12.619426117725968
+-9.226472655831222
+-8.538419438214937
+-1.9837196839291733
+-4.751235514450792
+-1.9837196839291733
+-1.9837196839291733
+-1.9837196839291733
+-9.441657405016324
+-7.438906047036982
+-3.2251668327768717
+-8.45374751299905
+-1.9837196839291733
+-6.149161642641759
+-6.149161642641759
+-9.402463377445642
+-1.9837196839291733
+-5.054694962004932
+-3.5362300414404757
+-5.63434927026087
+-7.307777127360743
+-7.252267220506669
+-6.4250217199826185
+-3.2251668327768717
+-7.97709218981077
+-10.196654125719183
+-7.969426375592911
+-1.9837196839291733
+avg = -6.290861343937473 +/- 3.250624695068423
+Total time: 8.258s
