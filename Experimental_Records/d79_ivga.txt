@@ -1,0 +1,3135 @@
+DATA	79
+GF	10
+CP	0.6
+INDEPINST	4
+N	d79_ivga.spn
+*** Code with Daniel's additions ***
+Dataset dicev2_60_10000_35, 60 vars, 10000tr, 1000va, 2000te
+Loading training...
+Loading validation...
+Loading testing...
+
+CP 0.6	GF 10.0	IT 4
+Building structure from 60 vars over 10000 instances
+Using EM with 10000 instances and 60 variables ...
+10000I 60V -> 235 clusters
+Indset size 29
+Indset size 9
+Indset size 44
+Indset size 28
+Indset size 45
+Indset size 14
+Indset size 8
+Indset size 28
+Indset size 12
+Indset size 30
+Indset size 8
+Indset size 29
+Using EM with 602 instances and 29 variables ...
+602I 29V -> 53 clusters
+Indset size 14
+Indset size 9
+Using EM with 2113 instances and 9 variables ...
+2113I 9V -> 55 clusters
+Indset size 7
+Indset size 44
+Using EM with 631 instances and 44 variables ...
+631I 44V -> 37 clusters
+Indset size 28
+Using EM with 440 instances and 28 variables ...
+440I 28V -> 26 clusters
+Indset size 45
+Using EM with 759 instances and 45 variables ...
+759I 45V -> 40 clusters
+Indset size 8
+Indset size 14
+Using EM with 308 instances and 14 variables ...
+Indset size 8
+Using EM with 417 instances and 8 variables ...
+Indset size 13
+Indset size 27
+Indset size 8
+Indset size 28
+Using EM with 427 instances and 28 variables ...
+Indset size 8
+Indset size 12
+Using EM with 407 instances and 12 variables ...
+Indset size 2
+Indset size 30
+Using EM with 469 instances and 30 variables ...
+Indset size 8
+Indset size 2
+Indset size 4
+Indset size 28
+Indset size 7
+Indset size 8
+Using EM with 238 instances and 8 variables ...
+Indset size 10
+Indset size 14
+Using EM with 602 instances and 14 variables ...
+Indset size 9
+Indset size 7
+Using EM with 2113 instances and 7 variables ...
+Indset size 9
+Indset size 4
+Indset size 2
+Indset size 11
+Indset size 4
+Indset size 4
+Indset size 8
+Using EM with 759 instances and 8 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 8
+Indset size 13
+Using EM with 417 instances and 13 variables ...
+Indset size 27
+Using EM with 566 instances and 27 variables ...
+Indset size 14
+Indset size 8
+Using EM with 392 instances and 8 variables ...
+Indset size 2
+Indset size 8
+Using EM with 427 instances and 8 variables ...
+Indset size 2
+Using EM with 407 instances and 2 variables ...
+Indset size 8
+Indset size 8
+Using EM with 469 instances and 8 variables ...
+Indset size 2
+Using EM with 210 instances and 2 variables ...
+Indset size 3
+Indset size 3
+Indset size 4
+Using EM with 143 instances and 4 variables ...
+Indset size 28
+Using EM with 363 instances and 28 variables ...
+Indset size 8
+Indset size 7
+Using EM with 194 instances and 7 variables ...
+Indset size 4
+Indset size 10
+Using EM with 238 instances and 10 variables ...
+Indset size 3
+Indset size 8
+Indset size 2
+Indset size 5
+Indset size 9
+Using EM with 602 instances and 9 variables ...
+Indset size 8
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 9
+Using EM with 2113 instances and 9 variables ...
+Indset size 2
+Indset size 4
+Using EM with 157 instances and 4 variables ...
+Indset size 2
+Indset size 2
+Using EM with 32 instances and 2 variables ...
+Indset size 2
+Indset size 4
+Indset size 11
+Using EM with 440 instances and 11 variables ...
+Indset size 2
+Indset size 4
+Using EM with 142 instances and 4 variables ...
+Indset size 4
+Using EM with 113 instances and 4 variables ...
+Indset size 2
+Using EM with 43 instances and 2 variables ...
+Indset size 2
+Using EM with 37 instances and 2 variables ...
+Indset size 2
+Using EM with 21 instances and 2 variables ...
+Indset size 8
+Using EM with 308 instances and 8 variables ...
+Indset size 4
+Indset size 3
+Indset size 2
+Indset size 2
+Indset size 13
+Indset size 2
+Indset size 14
+Using EM with 566 instances and 14 variables ...
+Indset size 8
+Indset size 8
+Indset size 2
+Using EM with 69 instances and 2 variables ...
+Indset size 2
+Indset size 3
+Indset size 8
+Using EM with 407 instances and 8 variables ...
+Indset size 2
+Indset size 2
+Indset size 3
+Using EM with 210 instances and 3 variables ...
+Indset size 6
+Indset size 3
+Using EM with 140 instances and 3 variables ...
+Indset size 8
+Using EM with 363 instances and 8 variables ...
+Indset size 4
+Using EM with 194 instances and 4 variables ...
+Indset size 2
+Indset size 3
+Using EM with 238 instances and 3 variables ...
+Indset size 6
+Indset size 8
+Using EM with 155 instances and 8 variables ...
+Indset size 2
+Using EM with 88 instances and 2 variables ...
+Indset size 5
+Using EM with 91 instances and 5 variables ...
+Indset size 8
+Using EM with 160 instances and 8 variables ...
+Indset size 2
+Using EM with 262 instances and 2 variables ...
+Indset size 2
+Using EM with 144 instances and 2 variables ...
+Indset size 2
+Using EM with 281 instances and 2 variables ...
+Indset size 2
+Using EM with 50 instances and 2 variables ...
+Indset size 2
+Using EM with 2113 instances and 2 variables ...
+Indset size 2
+Using EM with 157 instances and 2 variables ...
+Indset size 2
+Using EM with 51 instances and 2 variables ...
+Indset size 4
+Using EM with 631 instances and 4 variables ...
+Indset size 2
+Using EM with 107 instances and 2 variables ...
+Indset size 2
+Indset size 4
+Using EM with 308 instances and 4 variables ...
+Indset size 2
+Indset size 3
+Using EM with 114 instances and 3 variables ...
+Indset size 2
+Using EM with 72 instances and 2 variables ...
+Indset size 2
+Using EM with 25 instances and 2 variables ...
+Indset size 13
+Using EM with 417 instances and 13 variables ...
+Indset size 12
+Indset size 2
+Indset size 2
+Using EM with 61 instances and 2 variables ...
+Indset size 5
+Indset size 2
+Indset size 8
+Using EM with 566 instances and 8 variables ...
+Indset size 8
+Using EM with 392 instances and 8 variables ...
+Indset size 15
+Indset size 2
+Indset size 2
+Using EM with 72 instances and 2 variables ...
+Indset size 3
+Using EM with 79 instances and 3 variables ...
+Indset size 2
+Using EM with 407 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 50 instances and 2 variables ...
+Indset size 2
+Indset size 3
+Indset size 6
+Using EM with 210 instances and 6 variables ...
+Indset size 8
+Indset size 2
+Indset size 2
+Using EM with 61 instances and 2 variables ...
+Indset size 6
+Using EM with 238 instances and 6 variables ...
+Indset size 8
+Indset size 6
+Indset size 2
+Indset size 2
+Indset size 5
+Indset size 4
+Indset size 2
+Indset size 2
+Indset size 3
+Indset size 2
+Using EM with 43 instances and 2 variables ...
+Indset size 2
+Using EM with 308 instances and 2 variables ...
+Indset size 5
+Indset size 5
+Indset size 4
+Indset size 12
+Using EM with 417 instances and 12 variables ...
+Indset size 2
+Using EM with 56 instances and 2 variables ...
+Indset size 5
+Using EM with 111 instances and 5 variables ...
+Indset size 2
+Using EM with 48 instances and 2 variables ...
+Indset size 3
+Indset size 3
+Indset size 15
+Using EM with 392 instances and 15 variables ...
+Indset size 13
+Indset size 2
+Using EM with 80 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 3
+Indset size 10
+Indset size 4
+Indset size 2
+Using EM with 91 instances and 2 variables ...
+Indset size 2
+Using EM with 67 instances and 2 variables ...
+Indset size 2
+Using EM with 26 instances and 2 variables ...
+Indset size 3
+Using EM with 155 instances and 3 variables ...
+Indset size 2
+Indset size 3
+Indset size 2
+Indset size 8
+Indset size 8
+Using EM with 194 instances and 8 variables ...
+Indset size 2
+Using EM with 51 instances and 2 variables ...
+Indset size 8
+Using EM with 238 instances and 8 variables ...
+Indset size 6
+Using EM with 155 instances and 6 variables ...
+Indset size 4
+Indset size 5
+Indset size 3
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 28 instances and 2 variables ...
+Indset size 3
+Indset size 3
+Indset size 2
+Using EM with 44 instances and 2 variables ...
+Indset size 5
+Using EM with 157 instances and 5 variables ...
+Indset size 3
+Indset size 2
+Indset size 4
+Using EM with 113 instances and 4 variables ...
+Indset size 3
+Indset size 2
+Using EM with 61 instances and 2 variables ...
+Indset size 2
+Using EM with 59 instances and 2 variables ...
+Indset size 3
+Using EM with 85 instances and 3 variables ...
+Indset size 2
+Indset size 2
+Indset size 3
+Indset size 2
+Indset size 5
+Using EM with 80 instances and 5 variables ...
+Indset size 5
+Using EM with 60 instances and 5 variables ...
+Indset size 4
+Using EM with 64 instances and 4 variables ...
+Indset size 3
+Indset size 2
+Indset size 2
+Indset size 3
+Using EM with 170 instances and 3 variables ...
+Indset size 3
+Using EM with 157 instances and 3 variables ...
+Indset size 4
+Indset size 5
+Indset size 13
+Using EM with 392 instances and 13 variables ...
+Indset size 2
+Using EM with 41 instances and 2 variables ...
+Indset size 2
+Using EM with 90 instances and 2 variables ...
+Indset size 8
+Indset size 3
+Indset size 3
+Using EM with 67 instances and 3 variables ...
+Indset size 10
+Using EM with 407 instances and 10 variables ...
+Indset size 4
+Using EM with 281 instances and 4 variables ...
+Indset size 2
+Using EM with 81 instances and 2 variables ...
+Indset size 8
+Indset size 3
+Using EM with 140 instances and 3 variables ...
+Indset size 5
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 57 instances and 2 variables ...
+Indset size 3
+Indset size 8
+Using EM with 363 instances and 8 variables ...
+Indset size 2
+Indset size 6
+Indset size 4
+Using EM with 155 instances and 4 variables ...
+Indset size 5
+Using EM with 93 instances and 5 variables ...
+Indset size 2
+Indset size 3
+Using EM with 73 instances and 3 variables ...
+Indset size 2
+Using EM with 68 instances and 2 variables ...
+Indset size 2
+Using EM with 74 instances and 2 variables ...
+Indset size 3
+Using EM with 160 instances and 3 variables ...
+Indset size 3
+Indset size 3
+Using EM with 84 instances and 3 variables ...
+Indset size 3
+Using EM with 157 instances and 3 variables ...
+Indset size 3
+Indset size 2
+Using EM with 51 instances and 2 variables ...
+Indset size 3
+Indset size 3
+Using EM with 113 instances and 3 variables ...
+Indset size 2
+Indset size 2
+Indset size 3
+Indset size 2
+Using EM with 71 instances and 2 variables ...
+Indset size 2
+Using EM with 156 instances and 2 variables ...
+Indset size 3
+Using EM with 308 instances and 3 variables ...
+Indset size 2
+Using EM with 65 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 3
+Using EM with 85 instances and 3 variables ...
+Indset size 2
+Using EM with 30 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 61 instances and 2 variables ...
+Indset size 4
+Using EM with 148 instances and 4 variables ...
+Indset size 5
+Using EM with 56 instances and 5 variables ...
+Indset size 3
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 3
+Indset size 8
+Using EM with 427 instances and 8 variables ...
+Indset size 3
+Using EM with 69 instances and 3 variables ...
+Indset size 2
+Indset size 10
+Indset size 2
+Indset size 2
+Indset size 8
+Using EM with 469 instances and 8 variables ...
+Indset size 4
+Indset size 5
+Using EM with 143 instances and 5 variables ...
+Indset size 2
+Using EM with 62 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 33 instances and 2 variables ...
+Indset size 3
+Using EM with 92 instances and 3 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 65 instances and 2 variables ...
+Indset size 2
+Indset size 6
+Using EM with 155 instances and 6 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 25 instances and 2 variables ...
+Indset size 2
+Indset size 3
+Using EM with 160 instances and 3 variables ...
+Indset size 3
+Using EM with 157 instances and 3 variables ...
+Indset size 2
+Indset size 2
+Indset size 3
+Using EM with 86 instances and 3 variables ...
+Indset size 2
+Using EM with 61 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 62 instances and 2 variables ...
+Indset size 3
+Using EM with 107 instances and 3 variables ...
+Indset size 7
+Indset size 3
+Indset size 2
+Indset size 2
+Using EM with 49 instances and 2 variables ...
+Indset size 2
+Using EM with 41 instances and 2 variables ...
+Indset size 3
+Indset size 2
+Using EM with 77 instances and 2 variables ...
+Indset size 2
+Using EM with 29 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 3
+Using EM with 68 instances and 3 variables ...
+Indset size 2
+Using EM with 32 instances and 2 variables ...
+Indset size 2
+Using EM with 71 instances and 2 variables ...
+Indset size 2
+Using EM with 60 instances and 2 variables ...
+Indset size 2
+Indset size 3
+Using EM with 80 instances and 3 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 88 instances and 2 variables ...
+Indset size 10
+Using EM with 407 instances and 10 variables ...
+Indset size 7
+Indset size 2
+Using EM with 91 instances and 2 variables ...
+Indset size 2
+Using EM with 67 instances and 2 variables ...
+Indset size 3
+Indset size 4
+Using EM with 210 instances and 4 variables ...
+Indset size 2
+Using EM with 57 instances and 2 variables ...
+Indset size 2
+Using EM with 44 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 58 instances and 2 variables ...
+Indset size 2
+Using EM with 34 instances and 2 variables ...
+Indset size 5
+Indset size 2
+Using EM with 49 instances and 2 variables ...
+Indset size 3
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 155 instances and 2 variables ...
+Indset size 6
+Indset size 2
+Indset size 2
+Using EM with 93 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 49 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 28 instances and 2 variables ...
+Indset size 2
+Using EM with 40 instances and 2 variables ...
+Indset size 2
+Using EM with 46 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 31 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 59 instances and 2 variables ...
+Indset size 8
+Indset size 2
+Indset size 7
+Using EM with 142 instances and 7 variables ...
+Indset size 3
+Using EM with 113 instances and 3 variables ...
+Indset size 2
+Using EM with 62 instances and 2 variables ...
+Indset size 2
+Indset size 3
+Using EM with 70 instances and 3 variables ...
+Indset size 2
+Indset size 2
+Using EM with 29 instances and 2 variables ...
+Indset size 2
+Using EM with 67 instances and 2 variables ...
+Indset size 2
+Using EM with 76 instances and 2 variables ...
+Indset size 2
+Using EM with 25 instances and 2 variables ...
+Indset size 3
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 60 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 80 instances and 2 variables ...
+Indset size 2
+Using EM with 73 instances and 2 variables ...
+Indset size 7
+Using EM with 281 instances and 7 variables ...
+Indset size 2
+Indset size 3
+Indset size 3
+Using EM with 125 instances and 3 variables ...
+Indset size 2
+Using EM with 23 instances and 2 variables ...
+Indset size 5
+Using EM with 194 instances and 5 variables ...
+Indset size 3
+Using EM with 238 instances and 3 variables ...
+Indset size 2
+Using EM with 23 instances and 2 variables ...
+Indset size 3
+Indset size 2
+Indset size 2
+Using EM with 53 instances and 2 variables ...
+Indset size 2
+Indset size 6
+Using EM with 155 instances and 6 variables ...
+Indset size 2
+Indset size 2
+Using EM with 42 instances and 2 variables ...
+Indset size 2
+Using EM with 88 instances and 2 variables ...
+Indset size 3
+Indset size 2
+Using EM with 49 instances and 2 variables ...
+Indset size 2
+Using EM with 97 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 61 instances and 2 variables ...
+Indset size 2
+Using EM with 78 instances and 2 variables ...
+Indset size 8
+Using EM with 440 instances and 8 variables ...
+Indset size 2
+Using EM with 142 instances and 2 variables ...
+Indset size 3
+Indset size 2
+Using EM with 96 instances and 2 variables ...
+Indset size 5
+Indset size 2
+Using EM with 49 instances and 2 variables ...
+Indset size 2
+Indset size 3
+Using EM with 107 instances and 3 variables ...
+Indset size 2
+Indset size 2
+Using EM with 61 instances and 2 variables ...
+Indset size 2
+Using EM with 71 instances and 2 variables ...
+Indset size 2
+Using EM with 31 instances and 2 variables ...
+Indset size 2
+Using EM with 69 instances and 2 variables ...
+Indset size 2
+Using EM with 60 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 35 instances and 2 variables ...
+Indset size 3
+Using EM with 133 instances and 3 variables ...
+Indset size 3
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 3
+Using EM with 155 instances and 3 variables ...
+Indset size 2
+Using EM with 81 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 53 instances and 2 variables ...
+Indset size 2
+Using EM with 155 instances and 2 variables ...
+Indset size 3
+Using EM with 88 instances and 3 variables ...
+Indset size 3
+Indset size 2
+Indset size 2
+Using EM with 30 instances and 2 variables ...
+Indset size 2
+Indset size 3
+Using EM with 113 instances and 3 variables ...
+Indset size 2
+Indset size 2
+Indset size 5
+Using EM with 308 instances and 5 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 33 instances and 2 variables ...
+Indset size 3
+Indset size 2
+Using EM with 61 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 22 instances and 2 variables ...
+Indset size 2
+Using EM with 281 instances and 2 variables ...
+Indset size 2
+Using EM with 91 instances and 2 variables ...
+Indset size 2
+Indset size 3
+Using EM with 210 instances and 3 variables ...
+Indset size 2
+Indset size 4
+Indset size 2
+Indset size 2
+Using EM with 33 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 46 instances and 2 variables ...
+Indset size 2
+Using EM with 35 instances and 2 variables ...
+Indset size 2
+Using EM with 48 instances and 2 variables ...
+Indset size 2
+Using EM with 238 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 81 instances and 2 variables ...
+Indset size 3
+Using EM with 88 instances and 3 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 46 instances and 2 variables ...
+Indset size 3
+Indset size 8
+Indset size 2
+Indset size 2
+Using EM with 107 instances and 2 variables ...
+Indset size 2
+Using EM with 62 instances and 2 variables ...
+Indset size 2
+Using EM with 37 instances and 2 variables ...
+Indset size 2
+Using EM with 63 instances and 2 variables ...
+Indset size 2
+Using EM with 77 instances and 2 variables ...
+Indset size 2
+Indset size 3
+Using EM with 82 instances and 3 variables ...
+Indset size 2
+Using EM with 68 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 64 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 50 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 140 instances and 2 variables ...
+Indset size 4
+Using EM with 143 instances and 4 variables ...
+Indset size 2
+Using EM with 62 instances and 2 variables ...
+Indset size 2
+Using EM with 36 instances and 2 variables ...
+Indset size 2
+Using EM with 68 instances and 2 variables ...
+Indset size 2
+Using EM with 155 instances and 2 variables ...
+Indset size 2
+Using EM with 52 instances and 2 variables ...
+Indset size 2
+Using EM with 34 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 3
+Using EM with 160 instances and 3 variables ...
+Indset size 5
+Indset size 8
+Using EM with 2113 instances and 8 variables ...
+Indset size 2
+Using EM with 40 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 4
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 61 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 44 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 90 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 60 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 26 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 35 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 83 instances and 2 variables ...
+Indset size 2
+Using EM with 49 instances and 2 variables ...
+Indset size 2
+Using EM with 68 instances and 2 variables ...
+Indset size 5
+Using EM with 160 instances and 5 variables ...
+Indset size 2
+Indset size 2
+Using EM with 113 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 66 instances and 2 variables ...
+Indset size 2
+Using EM with 107 instances and 2 variables ...
+Indset size 4
+Using EM with 113 instances and 4 variables ...
+Indset size 2
+Using EM with 308 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 63 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 44 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 20 instances and 2 variables ...
+Indset size 2
+Using EM with 24 instances and 2 variables ...
+Indset size 2
+Using EM with 19 instances and 2 variables ...
+Indset size 2
+Using EM with 69 instances and 2 variables ...
+Indset size 2
+Using EM with 25 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 3
+Indset size 2
+Using EM with 281 instances and 2 variables ...
+Indset size 4
+Indset size 2
+Using EM with 67 instances and 2 variables ...
+Indset size 2
+Using EM with 26 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 140 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 52 instances and 2 variables ...
+Indset size 2
+Using EM with 40 instances and 2 variables ...
+Indset size 2
+Using EM with 84 instances and 2 variables ...
+Indset size 3
+Indset size 2
+Using EM with 113 instances and 2 variables ...
+Indset size 2
+Indset size 4
+Indset size 2
+Indset size 2
+Using EM with 50 instances and 2 variables ...
+Indset size 2
+Using EM with 81 instances and 2 variables ...
+Indset size 2
+Using EM with 61 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 42 instances and 2 variables ...
+Indset size 2
+Using EM with 56 instances and 2 variables ...
+Indset size 2
+Using EM with 46 instances and 2 variables ...
+Indset size 3
+Using EM with 407 instances and 3 variables ...
+Indset size 4
+Using EM with 281 instances and 4 variables ...
+Indset size 2
+Indset size 2
+Using EM with 210 instances and 2 variables ...
+Indset size 2
+Using EM with 140 instances and 2 variables ...
+Indset size 2
+Using EM with 44 instances and 2 variables ...
+Indset size 2
+Using EM with 81 instances and 2 variables ...
+Indset size 2
+Using EM with 32 instances and 2 variables ...
+Indset size 3
+Using EM with 86 instances and 3 variables ...
+Indset size 2
+Using EM with 77 instances and 2 variables ...
+Indset size 2
+Indset size 4
+Using EM with 62 instances and 4 variables ...
+Indset size 2
+Using EM with 30 instances and 2 variables ...
+Indset size 2
+Using EM with 32 instances and 2 variables ...
+Indset size 2
+Using EM with 60 instances and 2 variables ...
+Indset size 6
+Indset size 3
+Indset size 2
+Indset size 2
+Using EM with 76 instances and 2 variables ...
+Indset size 3
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 6
+Using EM with 155 instances and 6 variables ...
+Indset size 2
+Indset size 3
+Using EM with 160 instances and 3 variables ...
+Indset size 3
+Indset size 2
+Using EM with 40 instances and 2 variables ...
+Indset size 3
+Using EM with 308 instances and 3 variables ...
+Indset size 2
+Using EM with 77 instances and 2 variables ...
+Indset size 2
+Using EM with 25 instances and 2 variables ...
+Indset size 2
+Using EM with 44 instances and 2 variables ...
+Indset size 2
+Using EM with 60 instances and 2 variables ...
+Indset size 3
+Indset size 3
+Indset size 2
+Indset size 2
+Using EM with 155 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 3
+Using EM with 2113 instances and 3 variables ...
+Indset size 2
+Indset size 2
+Indset size 3
+Indset size 2
+Indset size 3
+Using EM with 210 instances and 3 variables ...
+Indset size 2
+Indset size 3
+Using EM with 140 instances and 3 variables ...
+Indset size 6
+Indset size 2
+Using EM with 194 instances and 2 variables ...
+Indset size 2
+Using EM with 52 instances and 2 variables ...
+Indset size 2
+Using EM with 149 instances and 2 variables ...
+Indset size 3
+Indset size 2
+Using EM with 56 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 41 instances and 2 variables ...
+Indset size 3
+Using EM with 281 instances and 3 variables ...
+Indset size 2
+Using EM with 50 instances and 2 variables ...
+Indset size 2
+Using EM with 210 instances and 2 variables ...
+Indset size 2
+Indset size 6
+Using EM with 143 instances and 6 variables ...
+Indset size 2
+Indset size 2
+Indset size 3
+Using EM with 142 instances and 3 variables ...
+Indset size 3
+Indset size 2
+Using EM with 33 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 140 instances and 2 variables ...
+Indset size 2
+Using EM with 33 instances and 2 variables ...
+Indset size 3
+Indset size 2
+Indset size 2
+Using EM with 31 instances and 2 variables ...
+Indset size 3
+Using EM with 113 instances and 3 variables ...
+Indset size 2
+Using EM with 60 instances and 2 variables ...
+Indset size 2
+Using EM with 50 instances and 2 variables ...
+Indset size 2
+Using EM with 210 instances and 2 variables ...
+Indset size 3
+Using EM with 194 instances and 3 variables ...
+Indset size 2
+Using EM with 81 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 3
+Indset size 3
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 39 instances and 2 variables ...
+Indset size 2
+Using EM with 107 instances and 2 variables ...
+Indset size 3
+Using EM with 76 instances and 3 variables ...
+Indset size 3
+Using EM with 71 instances and 3 variables ...
+Indset size 2
+Indset size 3
+Indset size 2
+Indset size 2
+Using EM with 157 instances and 2 variables ...
+Indset size 2
+Using EM with 51 instances and 2 variables ...
+Indset size 2
+Using EM with 44 instances and 2 variables ...
+Indset size 3
+Using EM with 81 instances and 3 variables ...
+Indset size 2
+Using EM with 34 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 60 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 142 instances and 2 variables ...
+Indset size 2
+Using EM with 140 instances and 2 variables ...
+Indset size 2
+Using EM with 53 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 32 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 40 instances and 2 variables ...
+Indset size 2
+Using EM with 46 instances and 2 variables ...
+Indset size 2
+Using EM with 281 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 281 instances and 2 variables ...
+Indset size 2
+Using EM with 76 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 140 instances and 2 variables ...
+Indset size 2
+Using EM with 53 instances and 2 variables ...
+Indset size 2
+Using EM with 51 instances and 2 variables ...
+Indset size 2
+Using EM with 281 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 142 instances and 2 variables ...
+Indset size 2
+Using EM with 81 instances and 2 variables ...
+SPN has 33448 nodes
+Building from build list (10870 items)...
+SPN has 36429 nodes
+
+CP 0.6	GF 10.0	IT 4	Smoo2.0
+Train LLH: -26.335025938860024
+Validation LLH: -26.449549570191913
+***
+
+CP 0.6	GF 10.0	IT 4	Smoo1.0
+Train LLH: -25.695034140475155
+Validation LLH: -26.07611951649804
+***
+
+CP 0.6	GF 10.0	IT 4	Smoo0.5
+Train LLH: -25.22049005729809
+Validation LLH: -25.908526539909708
+***
+
+CP 0.6	GF 10.0	IT 4	Smoo0.25
+Train LLH: -24.89036998657859
+Validation LLH: -25.846483265278223
+***
+
+CP 0.6	GF 10.0	IT 4	Smoo0.125
+Train LLH: -24.679256082723494
+Validation LLH: -25.82333165105246
+***
+
+CP 0.6	GF 10.0	IT 4	Smoo0.0625
+Train LLH: -24.55654192736013
+Validation LLH: -25.81940414609152
+***
+
+CP 0.6	GF 10.0	IT 4	Smoo0.03125
+Train LLH: -24.48991103671564
+Validation LLH: -25.825295753419304
+79 dicev2_60_10000_35	GF: 10.0	CP: 0.6	Valid: -25.81940414609152	Test: -25.997722122308716	Time: 55350.813
+DATA	79
+N	d79_ivga.spn
+Dataset dicev2_60_10000_35, 60 vars, 10000tr, 1000va, 2000te
+Loading training...
+Loading validation...
+Loading testing...
+-19.51097372713527
+-22.0339651575782
+-21.175689911855585
+-38.83746604601738
+-24.40541316732852
+-23.469396541472115
+-33.77047275370595
+-17.868665393119965
+-34.15674458212738
+-19.458918400570195
+-17.918019147356283
+-18.633093483884224
+-37.14488836452134
+-18.43111721074376
+-17.79276229430249
+-19.151440014139027
+-34.90967317097141
+-14.999625557348416
+-19.088161740514003
+-18.720092231815357
+-39.88816069828658
+-17.480503997464325
+-21.570611844693317
+-15.710537470218492
+-23.040873931095636
+-20.79373863988413
+-21.401365466907027
+-19.92197550454617
+-24.027018199533146
+-35.49835061504559
+-19.768423598541496
+-17.599360575042173
+-21.192297520749456
+-45.62315361739733
+-40.9436862219506
+-18.259349706114882
+-23.00716580071871
+-16.869739219359122
+-17.147586434575576
+-38.04435549054865
+-17.82363018726424
+-21.642150735384643
+-17.12104811516677
+-15.5184308953984
+-19.553419505401433
+-20.63890809429851
+-22.831522773550844
+-36.8824422732753
+-16.530502289363145
+-20.255895020547396
+-18.79505282956296
+-22.465438166374984
+-18.890548677333744
+-19.76565216225134
+-26.08977426537846
+-22.936405655785958
+-21.228556092179176
+-35.62255065752306
+-19.565608725964324
+-37.32741570806964
+-23.07936526420411
+-20.359082971331322
+-18.48296998586181
+-16.977495450197914
+-20.80569887398722
+-20.29007356863456
+-23.8769510002338
+-19.585593094863828
+-18.563155183101703
+-20.908641639174594
+-24.611728490085767
+-15.843217662975798
+-20.05652298458544
+-20.58088837181227
+-44.23247582055858
+-19.277612083748323
+-17.984389282346577
+-35.65305417199052
+-36.93125359159361
+-41.6654064310846
+-18.6960103058461
+-32.692629848163776
+-20.882024460792277
+-21.58994182893103
+-18.337311037456942
+-19.917934126799206
+-34.75302760511067
+-22.0836552427076
+-18.078846839276085
+-19.298279321010696
+-20.491405208946745
+-23.16135880206854
+-33.860177631535755
+-21.76213055478512
+-38.83944116123036
+-21.225811600844075
+-36.35493061443671
+-21.488517224958386
+-18.083110687273514
+-39.18595218624531
+-19.81908194247144
+-19.97559485655107
+-37.5565060268953
+-19.13664707529346
+-18.683361161266966
+-35.62185632482418
+-19.073284852472373
+-33.01989346155689
+-42.66661572255213
+-18.399240128134007
+-36.167081388546315
+-22.86811727690904
+-19.37044418731956
+-45.02132966753121
+-43.37130596261335
+-44.30140986024588
+-23.08949084671715
+-37.70754634075183
+-35.690989684234395
+-23.941926187218982
+-22.219805308380586
+-20.68931540077472
+-39.120890308237676
+-15.923591545125275
+-18.466714424380477
+-20.534074742860593
+-37.878051678808184
+-20.008308878068153
+-39.731230456882095
+-19.796906978434226
+-18.767091960191575
+-35.85038723706822
+-20.752353865300687
+-17.697939895104767
+-19.114315833038262
+-39.75233942624383
+-16.215615630759824
+-40.66675354260037
+-36.64331032123928
+-19.521769773897443
+-17.53437839731251
+-20.49913746686696
+-26.20476118150301
+-24.554388329332788
+-40.357460388444714
+-41.85441792613053
+-21.59606663051995
+-20.4965425781249
+-35.54138318838413
+-24.740173138919705
+-37.088087713644605
+-33.62479305992437
+-20.052673111459832
+-15.676031031212021
+-18.143794265046804
+-17.6659986966789
+-19.03271004106906
+-22.652083617522802
+-17.406800840636993
+-38.062505540925606
+-28.290840659785314
+-22.625474417164426
+-38.326358273887614
+-20.374531917279466
+-22.70920873063392
+-18.90555051085185
+-18.06773969433556
+-16.46438813674438
+-21.07421739646197
+-37.51668330127821
+-22.276480011132378
+-37.505180314954906
+-21.82288287646463
+-39.97901930370617
+-20.93284984703557
+-22.910907407007798
+-22.86344460891145
+-33.75287688935204
+-40.19883102533399
+-21.435763178097794
+-21.842236387274063
+-19.926492681190304
+-34.04815394237665
+-18.856591177477455
+-16.314517180547774
+-21.102153823724283
+-21.010862259592777
+-16.139143232927907
+-22.920729125866806
+-24.367461193977714
+-17.381507977369587
+-21.187307063858608
+-20.038304825172197
+-38.20374455777261
+-19.369252640846117
+-19.451762470880826
+-35.683469261341536
+-17.514690090417886
+-20.96149626359451
+-20.594759285963477
+-23.05736002035461
+-20.123683425674216
+-15.958561907299867
+-44.40676159900794
+-34.6332402446315
+-17.512134336151316
+-27.031544410674552
+-37.8291550182692
+-18.906874025070117
+-35.715111536684624
+-37.26307932630058
+-21.08633326967339
+-16.699632196155015
+-16.759866737144698
+-43.37637005203996
+-19.795054426082398
+-19.490171014073464
+-17.855633800183792
+-22.645710866477096
+-17.516211897079753
+-35.30782196862219
+-21.809891413400063
+-18.49289241439507
+-20.35148008992173
+-19.024714867072607
+-36.397972148216724
+-39.67969133508992
+-30.15193707247019
+-37.24155281045805
+-39.175516947718776
+-18.1563325017045
+-27.084082540219743
+-21.050468455639432
+-20.12328970854182
+-18.859623230832376
+-37.757804761518464
+-17.953580043263575
+-20.284312794444315
+-38.194258319498914
+-21.5181515183523
+-21.790205112021617
+-15.653926061036747
+-16.45079955030846
+-21.36528254142921
+-42.68759294926534
+-20.453709221149435
+-19.445565534571532
+-19.51162709626841
+-17.76269030933262
+-33.78625655919578
+-17.30990848754243
+-21.547349356093566
+-37.95485057849685
+-17.2301515117691
+-20.355331828543715
+-38.37535834787828
+-19.757826426092592
+-20.609257842440012
+-21.3894197613522
+-19.47944169363755
+-42.257375951869356
+-20.510161025552307
+-19.466021491340147
+-18.552098717901156
+-19.62801203695428
+-23.861654686231823
+-18.22467572454651
+-16.5853150351683
+-27.846213220231686
+-22.202794638846616
+-16.849873536508422
+-16.750887634514054
+-19.54643668486479
+-38.588983310311775
+-21.22745355989575
+-19.864519332045155
+-17.893125582331137
+-39.58371962495295
+-18.673216918592473
+-20.154306372629943
+-18.112323840888987
+-22.18228738921813
+-39.84222229896619
+-15.344648934881409
+-27.779180658823694
+-21.897838475570133
+-42.2983180336969
+-16.46015556614824
+-27.09349807984939
+-21.575496816156207
+-39.881450367694185
+-20.823289112071816
+-26.019781575219202
+-19.05327891688792
+-22.41263210231126
+-17.25307711585875
+-17.95867962646473
+-19.879008547162726
+-23.328853350821106
+-21.380844557244693
+-35.160942559253584
+-35.10102336522221
+-20.87185949695226
+-20.808001227500316
+-19.255523725492733
+-18.367859799021428
+-33.46801223454127
+-22.040040592962004
+-22.034693543997466
+-37.369444167601316
+-18.43295300594269
+-41.27116881056023
+-34.24060423714357
+-17.922860395417
+-19.35136778508313
+-22.403331848478786
+-16.943001855581645
+-21.97837728978547
+-44.107711970615846
+-40.94917994311359
+-15.812830114752614
+-21.38723557336276
+-40.78162608974744
+-38.465747666901905
+-18.75784758601763
+-38.555263581785816
+-47.23259212072435
+-17.990136161760955
+-38.94149498920091
+-19.363694824056402
+-21.58838142211408
+-15.553727194758064
+-40.7422276574239
+-17.318874962077196
+-16.85849892088763
+-45.71583608689381
+-24.137246372968917
+-20.59987484091819
+-19.212841587470944
+-17.032180074012345
+-33.23065901837752
+-23.509605318497893
+-35.079539847544666
+-32.15922784650107
+-41.14127580010952
+-29.31857882399838
+-16.28094830592577
+-16.173215005776754
+-36.148344392321576
+-39.16400448794797
+-35.55245843800413
+-28.964263155782582
+-38.13949903154743
+-16.161400356523114
+-22.306458001752404
+-23.126203840758013
+-18.177536304881503
+-20.95955572159902
+-16.75142721116876
+-17.52776501366167
+-39.5794139160297
+-37.62465453063044
+-18.503641095895468
+-23.367449069964277
+-16.343086472857514
+-38.298362330149104
+-20.650369951169843
+-24.684889585817334
+-39.43492184415056
+-22.95078504287746
+-32.40526168730509
+-21.980507602230446
+-22.43853622104608
+-35.87136145619843
+-22.494305999753934
+-19.17038442787521
+-35.498783785005216
+-34.38136748505112
+-20.49881826352143
+-20.346850940172345
+-18.43478398570507
+-28.633264678308297
+-17.43844100920734
+-19.283897626098202
+-36.12863896032872
+-27.625266089752635
+-37.649395889683205
+-20.661806104030088
+-16.533953564209522
+-25.22015686705509
+-23.15355349373477
+-38.07374042234584
+-39.53917448951375
+-19.877575378189338
+-18.264790613158993
+-17.854405637830624
+-19.02783330296068
+-18.25200180656564
+-18.842138338523338
+-17.648203982614902
+-39.139861027751905
+-20.81686158132733
+-39.16166010868593
+-20.748498011617915
+-21.746205121172324
+-17.676648486605423
+-20.634088990591366
+-17.98488784548369
+-37.55041967095659
+-20.237546704400746
+-20.374493486582516
+-18.28720807447951
+-37.97455637195743
+-22.792420966462714
+-21.078289234977056
+-18.876517463453965
+-37.52889597341898
+-18.42184671669838
+-38.46172785451782
+-19.988461542559307
+-18.988223503388067
+-34.520877164494834
+-19.370205202996466
+-19.36318018857336
+-34.87645986941114
+-18.67946084471936
+-22.31991939915675
+-20.512343482643487
+-19.53791848327423
+-18.712278785307245
+-17.226353330265766
+-24.116572008629003
+-36.13447166462166
+-37.63058788030054
+-34.681409973847046
+-21.927910957093253
+-20.33109750768861
+-21.23196806747295
+-18.717172692576682
+-35.765193093250765
+-19.418626278069905
+-22.62067012367604
+-22.64824630182278
+-38.19872043773688
+-18.23715646409258
+-15.78330930995495
+-40.26920585843941
+-43.48912981730636
+-20.8096252583174
+-17.837019068515808
+-17.08028524297059
+-18.748500309028852
+-21.115166623319613
+-32.651723980953236
+-21.927439544726834
+-19.218698842217773
+-32.249659356880045
+-18.568100860041284
+-24.437323427709092
+-22.990137746566745
+-15.821271693709683
+-33.1737351125113
+-19.698884398550057
+-16.46117552040473
+-39.06540021292143
+-40.92848075631452
+-20.27945600010985
+-41.80745243087821
+-18.584806715868393
+-23.182884224902935
+-34.70063837960312
+-21.699312147159446
+-19.056705680306145
+-19.9978402277851
+-18.499917146725732
+-21.06896598019062
+-35.631347808359486
+-39.70922051841852
+-17.998126166588353
+-37.90921048487236
+-22.89124353927841
+-21.268677211159073
+-16.943177618956174
+-21.21131220533702
+-17.486010998364236
+-20.962517377184806
+-22.209442247721018
+-18.83821731783247
+-20.75709734022508
+-28.273568805597392
+-19.881137830803805
+-35.20149342560876
+-17.17338600220307
+-21.343062337695486
+-19.37897708702688
+-36.00547143201173
+-25.879718977023845
+-19.649745690550258
+-30.85733715029173
+-15.802979901962543
+-37.957443192509935
+-22.75257414204353
+-19.920967099975677
+-20.386900705556382
+-39.67568225956669
+-19.35552319060057
+-24.492010183387755
+-32.60365853870338
+-18.12450281194562
+-19.04896041085826
+-19.655044938901302
+-42.147121836235385
+-18.560940040001558
+-27.62142793886855
+-22.84573825843861
+-36.8081705997221
+-43.44000554677685
+-18.003117663036047
+-19.096560706268853
+-18.647836325582926
+-21.158794229829073
+-23.38228198227562
+-41.303782383263815
+-18.080398316816275
+-19.166187784085587
+-19.615469152876337
+-38.47724698382476
+-21.201920299238186
+-19.510204948110605
+-23.33750939146481
+-40.58224919957487
+-44.03713520300994
+-16.20083277894835
+-36.944283325200885
+-21.191925791823863
+-17.3356201655738
+-18.733583822365528
+-19.70133022383123
+-21.116239015289988
+-21.925094789418587
+-20.158229128678336
+-21.171902516329606
+-19.709933871307662
+-19.165328338366876
+-20.407012705944435
+-19.676838964935936
+-23.073583667889032
+-38.463436264978995
+-38.859306742932375
+-39.62446553025294
+-37.785863678033635
+-14.73038525294081
+-20.538029754362036
+-39.87487366792821
+-15.780613495306005
+-35.06940105166479
+-16.50983730727004
+-21.970858752012745
+-43.172157645814806
+-24.840710593563216
+-16.985788239266288
+-22.610228766788996
+-16.432512616714767
+-20.13271465552468
+-20.211372343906973
+-35.3061299066952
+-26.63423372987777
+-38.86173115350889
+-38.040760291857104
+-38.68659612547825
+-17.74044098843767
+-32.91681494308104
+-43.85244407470052
+-19.754357135728295
+-19.43998658121679
+-19.667925172798874
+-42.38540407926544
+-27.352499546531774
+-20.585891730529713
+-21.20722828421535
+-16.520115111793622
+-18.384570242121313
+-18.286837073001372
+-16.75163597240971
+-37.17340223100124
+-36.699118031662636
+-39.00260766444197
+-17.84414272409866
+-27.284252747215877
+-20.255198547824534
+-37.042072127374624
+-39.55727660941963
+-19.486156445186698
+-36.40408201403076
+-36.576255418930245
+-18.93973365263009
+-20.559763894466133
+-20.987618934700215
+-36.50323124571521
+-19.791377291737206
+-18.393320938121235
+-18.837768011389027
+-21.241213893235702
+-18.889799981206195
+-23.262446941976677
+-18.153651583652472
+-46.9315918266143
+-19.35177482269846
+-21.310701662905906
+-18.224024186330357
+-18.729648967285577
+-20.038028821466305
+-37.7504891578682
+-37.94821361479413
+-19.042639702602212
+-29.30288622191638
+-18.17679146376974
+-26.367444502172063
+-41.41144970095
+-19.22318665052822
+-21.75433001938619
+-38.581245903116795
+-38.26459679180763
+-23.4495896221274
+-22.528182137101798
+-19.809523879930573
+-15.753111871140714
+-17.735016690575918
+-21.102886919711985
+-21.348671491092976
+-39.11503689110915
+-21.465885008844886
+-16.156792765383923
+-20.324623726056476
+-36.77817506859536
+-21.109335892653565
+-21.08925823108487
+-23.347441855269494
+-20.00970628333303
+-19.8949971406953
+-37.910451542983445
+-17.665964356635094
+-17.34248969146131
+-20.724331427951125
+-41.072751129880025
+-22.651860011212907
+-37.734179223388516
+-21.204690758690322
+-22.673672720673856
+-38.41633422757952
+-24.70031423500507
+-19.972556194341514
+-17.820883817851445
+-42.8016196471015
+-22.89251992767188
+-41.52516827382827
+-40.70159729201057
+-22.278305374965523
+-18.552869609546644
+-18.496937877044168
+-18.352652092227256
+-41.817149326803005
+-41.74973019484201
+-20.385665501695474
+-21.25257529772627
+-18.322645099914123
+-19.640598740512324
+-24.10059544596268
+-18.055700297370763
+-39.05210420587813
+-43.03654247579817
+-19.518486426424595
+-24.55412578695513
+-18.51111292174702
+-38.905949240619464
+-18.47061150849321
+-43.432329216605076
+-26.749853766424913
+-39.06092240327637
+-40.316916218011535
+-40.089796112151845
+-19.73523475975345
+-17.481701409000028
+-20.354401391916205
+-17.625463716021354
+-18.142546055754163
+-21.580374064049707
+-20.66048908745692
+-31.84051975173701
+-18.457121509067193
+-17.596909618295243
+-36.438828912115014
+-39.519768878725785
+-38.774108708676366
+-21.423412912409823
+-36.05751822266659
+-42.24894037751111
+-42.616800248188554
+-21.266047220791055
+-18.18292346262165
+-15.841928895623852
+-39.40285695794843
+-41.99537757121971
+-35.83896863389464
+-18.675918995466777
+-21.11808038074652
+-37.30907282375254
+-35.906009546101664
+-20.657039952645174
+-23.744707010672226
+-32.87163636504255
+-20.595858942403968
+-20.153596494309994
+-42.20211484704834
+-19.988659323413362
+-36.824878372149605
+-43.210052489741905
+-21.137577013054045
+-39.872212736497566
+-34.369804958383284
+-27.88245029150498
+-20.345711679027097
+-26.135897032289307
+-15.666841802722853
+-20.96694846261228
+-39.74969297738219
+-20.697590684841852
+-21.012563892762337
+-42.67942430185859
+-40.66923871263676
+-20.278249565820243
+-39.84033129325798
+-45.71806940053135
+-32.59897794668618
+-17.18993038952934
+-17.755918392634026
+-21.75447382405221
+-39.28636486038851
+-42.529087506360106
+-38.68640610236365
+-20.530367019154177
+-21.759771277138206
+-19.74285291804243
+-18.451117390074383
+-20.21439275171119
+-38.31883786903013
+-30.13251234555716
+-42.19523375661522
+-40.98264743727746
+-17.973992238873056
+-18.89804017785712
+-16.112566161732783
+-19.944261423223175
+-37.35074055961886
+-20.70146004046898
+-19.911589683561992
+-36.695772479768245
+-38.60280008094721
+-18.852028519719056
+-18.174123323101945
+-41.956723637357996
+-17.769446550683114
+-25.026057430922357
+-42.54768798238771
+-26.821832122927418
+-17.513911312395695
+-24.113059546250945
+-15.528833330867121
+-23.723484004017603
+-21.938437525363707
+-35.227439746372944
+-18.78046234373361
+-18.799287153231397
+-23.697707283881662
+-43.13682075916478
+-20.868415816707717
+-34.85015551896265
+-34.23123304849946
+-19.958229537549187
+-19.5415631791932
+-30.97332911389787
+-21.39885381983483
+-27.4952290882757
+-16.687275004629935
+-28.663316325670635
+-18.16208573334027
+-23.56151196767697
+-36.23927246228255
+-19.473727374694416
+-18.835087769689725
+-23.679619475750332
+-30.7706611259751
+-41.32264953775419
+-38.49295691434985
+-21.398384628407047
+-20.400447318114
+-20.2966907668059
+-19.46119726149167
+-18.024722710885207
+-22.04433199525292
+-43.20809842066484
+-19.08634575728585
+-37.359770939127465
+-18.511282972789243
+-23.590747892316763
+-19.0674504485991
+-18.18246478190186
+-21.7705326561449
+-20.07371798947005
+-19.338091195989893
+-18.915144728715237
+-27.80618656844229
+-20.35138713295167
+-27.23836642968515
+-19.449813898666118
+-21.056754782665962
+-22.130726179745103
+-19.577622848271947
+-18.26440503460365
+-23.41823424441935
+-19.116649489279357
+-17.41415482951349
+-36.59825834100547
+-21.543324205905403
+-38.138410225696084
+-18.958358140589983
+-20.06115501166847
+-16.196712203217423
+-21.316748215274533
+-38.793231521407506
+-18.70603631418558
+-37.13022652536471
+-39.49318560407382
+-23.58274027480701
+-18.749199037097718
+-24.581629429389935
+-36.09337502741652
+-35.257932293844476
+-38.09381319254003
+-19.596615756109387
+-17.113722949733923
+-39.12397921837095
+-35.97693938974984
+-33.30012920466868
+-22.299471773634497
+-18.810299196410696
+-18.488079430753817
+-28.715099779607147
+-21.771643940577967
+-18.413563737153943
+-20.569745093431244
+-25.519518001902007
+-16.66973392421409
+-21.344646557082562
+-18.23625888412606
+-19.613562549754405
+-42.71175913594975
+-18.31924014427946
+-19.193417721835417
+-16.96205741521535
+-45.272057919446404
+-19.18616161393054
+-15.805377657851588
+-15.774198210713738
+-20.179950508350572
+-18.394191037722873
+-41.575175615428094
+-20.880228503952655
+-18.07026836688008
+-35.40315085325837
+-22.90153909526518
+-16.635647660593577
+-43.26194293657294
+-17.43741871292349
+-32.27403938678157
+-19.95712044590923
+-21.052637633581487
+-22.850696936164244
+-33.385104000423325
+-20.20625586986553
+-18.18048065468616
+-16.90769072319835
+-21.936917748572963
+-20.085855869896744
+-18.661279094937264
+-38.72444383552381
+-42.138427664155124
+-22.1734786889946
+-19.965368230607062
+-37.512253781092355
+-21.631626804676046
+-39.964181811115786
+-21.354079611555733
+-35.42092417635825
+-18.404910779921
+-20.66818372665935
+-25.46673145280902
+-23.736619034807802
+-20.15792514440563
+-20.644740876714657
+-15.900631140058431
+-18.97870641725279
+-38.90531130141076
+-19.254553339552928
+-21.36087380467739
+-23.078257471513417
+-40.49161969788511
+-18.91828893033185
+-19.854228298004543
+-24.674752770459378
+-17.01424799025003
+-19.890331643980538
+-18.942622722620893
+-20.843469813868886
+-24.806929913286233
+-15.892714502566017
+-35.54153521993983
+-21.693781320148897
+-17.948190915118634
+-20.435135241858358
+-28.16938354030782
+-23.19411697705047
+-17.107971164975
+-38.713641334119856
+-16.74145587997689
+-16.9552323113199
+-20.3007203844023
+-27.617713222409886
+-37.83647210209321
+-23.728196712808863
+-41.261308486991574
+-17.11843857331538
+-40.166294369916216
+-20.44758050574182
+-35.25708721124149
+-42.08922292370515
+-21.07112045246644
+-39.461078964950666
+-40.26283304819003
+-18.192781838780675
+-19.21818288026523
+-19.776237947916886
+-17.700028736891117
+-45.055397619052684
+-19.266189522565966
+-24.079565471459002
+-19.54813568981419
+-39.61756209523836
+-23.263863422576343
+-21.386820862739558
+-36.451946835370194
+-19.55819692149125
+-24.16917048683496
+-36.77596585151573
+-35.477781130234646
+-16.91412061283172
+-41.850022560330046
+-22.041120740542187
+-14.761877176555226
+-32.975266962253556
+-33.85716003742126
+-21.783344662895665
+-36.68328935632006
+-18.777172144453377
+-36.886964716994406
+-21.553833221261076
+-19.490496877600094
+-38.74636298060238
+-38.06809050527419
+-21.788584504882227
+-24.527651005590847
+-17.41064291985571
+-18.818124603337225
+-15.227855931831055
+-20.544465793771757
+-35.077857918435726
+-24.367580443038047
+-17.603537577623676
+-27.442074841451134
+-36.89556878764679
+-42.219542300107236
+-18.251599002458462
+-16.631272073386892
+-20.301569091591052
+-22.09344684394969
+-24.51045193052157
+-45.15960335968172
+-20.345844955904074
+-38.09452786126844
+-36.16219937474657
+-40.57313815518608
+-41.07664709986131
+-20.82350612073609
+-19.59045781542376
+-23.302903182258166
+-20.60755951416418
+-18.204853533801202
+-19.486999639263743
+-24.157723890022414
+-41.322016909401924
+-37.68349348012457
+-45.16715903377473
+-16.53003213240999
+-18.7867402283095
+-23.608268385519327
+-41.881294851295266
+-32.26977770604489
+-19.855469479032934
+-19.317220304250057
+-25.438306879074982
+-15.62232459153628
+-20.749841364656877
+-24.387211624956446
+-21.50256419604412
+-41.490651500503745
+-39.973035631068186
+-33.99898925745868
+-21.410643782275997
+-34.20494763972358
+-41.10627556825518
+-20.45675740112186
+-29.47232369251491
+-19.8932229185022
+-35.21956695823199
+-15.044964429589834
+-39.09912620107686
+-18.549478544736882
+-21.274746315730855
+-21.227188250090784
+-36.31676587683231
+-19.808431272072795
+-40.44691617989907
+-39.94974032126119
+-17.585944757941913
+-18.48429710239157
+-40.097309360967856
+-19.34623590909379
+-19.389149805579187
+-22.346159300616247
+-19.277573236648394
+-36.464170952088594
+-35.0944060297643
+-20.322671314973423
+-19.00830627652753
+-24.280035418461473
+-18.471813743840112
+-39.91800933913018
+-18.4605872880207
+-16.72530682289015
+-18.56646121751046
+-40.45122008135682
+-21.674439983033402
+-43.70161734846324
+-19.017869694572653
+-23.306807598749952
+-20.051865975862523
+-23.746231901982775
+-37.11235617513008
+-37.91776591503552
+-18.169548779928125
+-19.978910539654628
+-18.523666660835314
+-19.008506282098207
+-40.95905125775557
+-18.172595492699866
+-38.49961906220251
+-19.850939352419143
+-24.9272572983386
+-19.125508002971817
+-46.15215169757034
+-41.28830206159754
+-21.464606622511663
+-20.373759028906672
+-19.10137350024676
+-20.853000578086576
+-19.821784150357715
+-21.296435869100353
+-22.264415138843134
+-18.703710669999367
+-17.7617549435353
+-27.717422223176218
+-19.166008353015794
+-19.95658129868948
+-25.669484077836973
+-20.653968362234732
+-20.568996763498617
+-22.028190832663526
+-38.56820525336945
+-19.938383861395874
+-18.423403454687946
+-21.82980400944122
+-35.04791680679357
+-20.439117450618294
+-39.89608795704215
+-19.631418465111338
+-24.38316592139391
+-37.85477920708777
+-21.60345636647943
+-20.53116556130004
+-38.66711018679896
+-20.591180626254467
+-20.64519487093384
+-39.649645901102105
+-17.568384844955315
+-18.19527730149706
+-16.56970759327497
+-22.892250651598474
+-21.34573799855621
+-18.819298281684038
+-35.86805166627371
+-15.007926885496465
+-20.399963970251797
+-22.943531347093224
+-24.758486608028395
+-39.17328897552352
+-20.655880307236075
+-20.43087496196126
+-37.28149666552661
+-23.146331326749625
+-41.03436505919301
+-24.143503982264612
+-40.62264857510419
+-18.58730114407377
+-38.255490771039135
+-17.80804438627792
+-23.171884590746355
+-18.80115415696961
+-40.213450235254896
+-47.26319733385536
+-16.36924037082496
+-18.991407054541387
+-19.748553563954072
+-17.67825449883355
+-21.300433254579442
+-18.822272184888025
+-19.11331177311628
+-42.16043749387176
+-21.225102144368538
+-22.333629309284266
+-19.746443635290433
+-17.71479386589731
+-37.5358353209288
+-17.87386618376961
+-37.57906484310474
+-17.742450113167422
+-42.42011307273857
+-20.94219288299594
+-24.10267471935071
+-31.756416753125134
+-38.42203140868241
+-18.42043109498369
+-19.556784049542944
+-21.838057476203048
+-38.79946869315573
+-18.10764539546653
+-17.538365529321048
+-20.900564964239326
+-39.17570073169207
+-19.550379212095063
+-31.98673084675715
+-17.028705050808842
+-15.392587657056346
+-17.363407792419206
+-18.737502207397267
+-38.066191930201505
+-19.62803007737738
+-20.244750515969066
+-17.972220235083217
+-20.566550990488174
+-34.843848614440006
+-19.395286679283434
+-34.267989863294595
+-35.180825505714
+-22.81387731787524
+-39.785857395678505
+-20.38534417712121
+-40.6851964212169
+-29.94019585782836
+-36.89005647228811
+-42.78657098861932
+-21.83407623727427
+-19.419667731835933
+-22.77759851966552
+-24.427632753826316
+-39.941731749805776
+-21.178648654963144
+-23.08167180184724
+-18.90355260474634
+-39.91292606635109
+-21.23971672814402
+-19.873817746522345
+-35.293027212650145
+-17.446438086498574
+-29.43428100513021
+-37.74082232050229
+-19.75573478989388
+-36.06647204664602
+-18.22984028255936
+-40.48946356017592
+-18.416003946345935
+-41.39302312519074
+-39.03489456373959
+-19.076580457593412
+-21.044868243180833
+-19.09271637780535
+-35.88826387776739
+-20.754240728210814
+-21.648477145102984
+-23.290612334788985
+-21.550067676580802
+-37.83408422893198
+-26.14289229386826
+-43.3999515343619
+-22.532965643718587
+-41.678274193262276
+-37.92692172315213
+-23.170423698055508
+-24.6876414553384
+-18.141052186565854
+-18.642389406787178
+-20.25681845681371
+-19.841144932389142
+-19.572657806723903
+-37.01910791739199
+-17.50558566455188
+-28.91202983561443
+-23.962158840713293
+-35.8769848057186
+-17.56361982979353
+-22.01761151976437
+-19.356178530905257
+-39.845835616547426
+-42.90936309346122
+-19.508084915885814
+-32.94113992785916
+-22.08766574894375
+-33.484390483221375
+-20.64988822520573
+-36.92455156553994
+-17.219115493668998
+-40.44027752693236
+-22.27403936728659
+-43.63096806798773
+-34.90010772520085
+-20.461585190036182
+-21.303284308595124
+-33.08474416741212
+-22.559507877079792
+-40.741353958831624
+-19.914491779568007
+-38.40881603698453
+-18.01161867702328
+-20.765681317469536
+-42.08738936775801
+-14.974560703370843
+-24.218528223386723
+-23.30859512540444
+-22.927387152440033
+-32.971247004534575
+-19.163855773000385
+-21.938803530471773
+-38.730557861321316
+-18.968945496220158
+-35.95446794399926
+-23.851976677877804
+-19.595001924760133
+-43.62290337512389
+-41.484636095784055
+-22.20804193402972
+-38.503776391894746
+-21.229645628551733
+-38.55121739821398
+-17.152630641207484
+-21.526221097486257
+-19.772633081024892
+-40.631978680679886
+-23.36553295674421
+-34.96836616046889
+-21.212170390067662
+-43.893786794303104
+-19.673674210341943
+-21.37292834855617
+-32.466841641886404
+-22.776593101650853
+-19.783190961219965
+-40.57038308534317
+-16.12763611287302
+-35.53411467470344
+-20.800412582922743
+-20.73610581539459
+-20.264139787981712
+-20.4926196483864
+-40.77242008029489
+-20.909454336964274
+-16.555306645996563
+-43.70693350119197
+-19.50306067507827
+-20.818392770249705
+-23.51534425877771
+-36.55758173390747
+-38.890514826106255
+-40.58809012362839
+-24.67796705637689
+-39.21252967581458
+-20.264388962570404
+-36.784905650897954
+-17.770722856800894
+-19.96481212885843
+-15.187317375073043
+-21.03028590314425
+-18.642215067191753
+-21.55052132338773
+-18.97156172320389
+-35.286116679591416
+-22.57953222690273
+-17.775658133477354
+-19.168500813448688
+-37.29745262773573
+-21.81650116642889
+-22.58736028201969
+-20.7000352032411
+-36.54341953650089
+-19.317933672170135
+-21.461286849965454
+-36.285175652314955
+-41.245919818746586
+-19.56060521544499
+-16.13525558604195
+-28.32218359259622
+-41.28899494154551
+-41.67824653810118
+-16.189079389302776
+-18.902705725315155
+-36.644558991511474
+-21.925987567646924
+-40.78008547207329
+-36.207085781209244
+-19.670899461849242
+-24.79240153859636
+-20.964222953052502
+-17.286245979913758
+-37.98495901086528
+-17.359283842676167
+-23.81796464135719
+-40.228947547802235
+-34.91995687096787
+-17.608221373263625
+-20.200914773501975
+-20.485712643178218
+-37.05917835050044
+-22.085109747505335
+-36.98487970745981
+-21.55271655892882
+-23.85710125576159
+-18.324682683094668
+-39.885919382190735
+-40.632706315889244
+-40.41357434545879
+-24.20040386398315
+-22.35399965218563
+-37.615078370753054
+-18.983659154173157
+-21.542684330717353
+-20.74672328349802
+-20.939189058489646
+-19.653867930743505
+-22.24815577085587
+-19.421796488422885
+-19.258632671131622
+-38.727428778981896
+-16.582192884642197
+-16.70784227397045
+-20.954097302190462
+-34.529634633842726
+-38.78320157371638
+-20.129410664247416
+-16.120499065708405
+-44.702401359731056
+-19.664256515905393
+-20.990550727008294
+-19.41899296533983
+-22.26062579493406
+-44.24292749714191
+-19.937839614392754
+-45.06888480491187
+-23.68777086030627
+-40.089703172008896
+-21.304374206619567
+-17.13433909384876
+-22.63705513407786
+-17.698632598765638
+-40.841317484731405
+-16.25725500497865
+-20.671957082562063
+-22.834095658054615
+-37.50969335016222
+-34.45313465690473
+-17.60782138913634
+-19.43348109892762
+-18.394423846275398
+-18.6488893819774
+-20.008144855775083
+-20.122012003905212
+-17.531590431681416
+-19.99272594409749
+-37.09391819381201
+-15.52171790213347
+-39.181379870476
+-19.91185827338111
+-23.88183892399135
+-19.43930731796352
+-27.61018845468352
+-20.244602469697686
+-37.30192345691956
+-19.281934987845016
+-19.34090671452485
+-19.388167000523886
+-22.261691460087768
+-40.30792514569117
+-17.77582772691569
+-36.051313006283785
+-15.612270538607916
+-39.855358298816945
+-17.8072579993924
+-20.62147850439187
+-33.33671919004439
+-21.435433898806618
+-40.49564329733838
+-34.100242856563554
+-20.74415479486973
+-18.250108137420003
+-32.2373999522676
+-38.87710511345645
+-17.9648705031117
+-21.42843549313729
+-15.886861233628307
+-19.836431763669044
+-40.86501659513239
+-41.63965793335858
+-31.472061683897092
+-35.83670104743397
+-27.056911259576754
+-20.96160109660192
+-16.906136307327674
+-31.650949135403184
+-41.598774321011966
+-20.24188978154887
+-19.738668659113195
+-45.54426250537485
+-17.546075732720478
+-22.588280807262656
+-21.602831015008917
+-21.7200873071926
+-37.122365637952576
+-32.35113769519111
+-19.39211447535815
+-39.57694440960134
+-41.387512441525836
+-21.83960285912795
+-18.791998885324798
+-20.055162719656995
+-36.491426744489296
+-22.726477405025076
+-19.07215059691071
+-19.386859366402536
+-20.286700086195676
+-19.230919594450683
+-18.287166430037153
+-21.542558051752454
+-35.77133025875156
+-37.410481001578766
+-39.533743366142005
+-38.29142583610261
+-19.169136383353866
+-18.051279369678927
+-34.76675308363892
+-41.71231899673943
+-20.77440968505461
+-19.45068494221695
+-39.24275110478278
+-20.106149739142296
+-29.24068561175891
+-41.17671374818055
+-18.960558556825248
+-33.109486251516934
+-42.68281242099728
+-20.956110141175525
+-19.716263583833555
+-19.929931216925368
+-16.36764703885753
+-18.627850220207502
+-18.910845805236907
+-18.054982543807103
+-29.741485796539152
+-25.314910163591733
+-20.19435435886004
+-37.529593621981
+-35.75895234604372
+-17.63911453385607
+-21.380576453151885
+-36.113166230045394
+-37.059173051764574
+-18.38944300412685
+-35.91978261838343
+-20.325455064700392
+-38.599293499132
+-22.260115598097244
+-22.166726412975514
+-39.68639015144723
+-21.89742789932165
+-20.409678145390988
+-22.271723835429388
+-20.64805239598135
+-20.779292872340147
+-21.295776763594922
+-41.889031236302806
+-19.495211367919488
+-37.706398658636054
+-39.34396683093119
+-32.72847011123388
+-20.616149155535947
+-18.840525618111794
+-39.84044927741027
+-19.591069680939654
+-23.865288357107644
+-21.510215867185096
+-18.48444254856681
+-18.792796999132005
+-18.81159353696628
+-19.488883444941322
+-21.521661023504585
+-16.748996828445783
+-40.7213157873199
+-18.32956336418349
+-25.6180379374588
+-37.43331863974126
+-39.233234562151615
+-42.19935289537913
+-18.604501445918228
+-39.5198364672376
+-19.827711750339855
+-36.50071905343997
+-37.9475468458811
+-20.42107874897828
+-19.55532471125342
+-38.62245471084632
+-18.991030469312737
+-22.20968308440826
+-24.39801917195324
+-18.48293482404481
+-17.147987009855438
+-21.581299274460708
+-23.055297579253995
+-21.73086646302472
+-20.099218353421335
+-36.776364642874064
+-16.798160173908247
+-17.44131857639639
+-19.072168673537274
+-19.637013372725242
+-17.994353406211268
+-18.016838322799487
+-40.13525664871791
+-19.68903358214561
+-34.13434792514025
+-35.15678313657524
+-46.60638394657258
+-21.182749591393645
+-21.562687786891196
+-16.83501559570187
+-17.419390980429842
+-19.805550739561312
+-18.66718365632453
+-19.51783097122962
+-28.041965998873334
+-16.62150039346288
+-24.15371683034448
+-19.828157100905536
+-22.208559858538592
+-40.84395978147503
+-34.21441660357313
+-19.8972349482184
+-31.71239026298197
+-20.606383592841215
+-20.6656699644513
+-39.8932936972425
+-21.40765616533519
+-34.64330471311425
+-17.218060908650436
+-38.924550619190036
+-19.52910853173592
+-20.25792531044129
+-16.547733315954048
+-21.108442466934935
+-43.46100155439441
+-41.72342156788592
+-37.16436149967947
+-22.34089332680384
+-37.177041998214214
+-18.06480273015607
+-35.28853288383267
+-17.525643668991812
+-41.90996968126256
+-37.57428865673512
+-19.852023959145626
+-21.495782206159948
+-19.057089461230422
+-23.13008164155835
+-15.643178432383944
+-39.926989219303834
+-36.21404195870571
+-23.562703155258397
+-21.291277583082078
+-21.504013631576587
+-21.369175215057524
+-21.141253533214655
+-36.540173117375495
+-18.646324884389138
+-37.939101704031515
+-40.133386958698864
+-16.275766528419993
+-22.56447997137913
+-21.64411916293513
+-18.66365181187208
+-42.10212974272347
+-18.8373414535625
+-35.49793901594921
+-19.970337668535187
+-19.340158068497686
+-20.413913583584304
+-24.472165408828634
+-41.88042416760567
+-23.88417603064233
+-36.26315902814878
+-39.61922177281879
+-19.752682352770822
+-35.55999596761905
+-21.060867255351223
+-21.524928306143885
+-35.616796967995455
+-20.835861955943628
+-33.69304454638301
+-45.32194430681299
+-32.140365036793355
+-18.070983485614715
+-18.85383898220845
+-15.572667306870812
+-18.19575538510005
+-36.57992090065835
+-20.117930049363714
+-16.885119519240384
+-21.266264046881407
+-19.647546863167502
+-18.532044337788783
+-35.146714873372154
+-20.419415424593417
+-19.848079842784703
+-18.412539777083964
+-22.450907130405962
+-39.00214968983165
+-18.77801746458521
+-19.9722802086491
+-43.39434719337764
+-34.74319206009306
+-17.403147379246338
+-15.267330204154188
+-38.08936691351859
+-20.109697124949598
+-20.939509692201433
+-38.029593578474746
+-21.88190679813775
+-42.56318186249442
+-23.11177998955673
+-17.166951911571637
+-18.588207884643676
+-47.092317027360956
+-20.164448152707138
+-42.639005122259505
+-31.556110933320106
+-18.80637674967461
+-38.04877723888917
+-43.034256593162695
+-36.08447620226006
+-36.563902791418904
+-15.813822994222688
+-22.272149867320323
+-17.105458486033992
+-19.39759352504601
+-35.488846853595
+-22.388700124129127
+-18.47176816382354
+-40.61953477172419
+-37.66852939334558
+-28.62515132984874
+-15.835628270356445
+-36.958316827321525
+-17.614685487455574
+-17.613492496309544
+-16.485986368819407
+-16.824733571652402
+-23.178929047847404
+-27.010889018289408
+-22.760612668579146
+-18.61155848534822
+-38.83611807411985
+-19.237951710528627
+-39.557033720391686
+-38.805641024071896
+-42.840901109220596
+-15.665472318958129
+-40.63378923138472
+-42.336790620229394
+-19.269597912061148
+-38.08307636776007
+-41.463095909719534
+-22.8579882654494
+-21.300052423664347
+-32.626150350488736
+-22.475335321086533
+-18.761047575376907
+-23.74389498486705
+-19.49681946416976
+-18.180817806331458
+-37.56285143642283
+-35.24280059940352
+-35.113210066998015
+-27.06488544136745
+-18.358269810273384
+-20.12528497163031
+-20.69483794437313
+-28.960409505838708
+-34.268626480539496
+-26.2935484360791
+-19.794287736769043
+-35.675888595838174
+-40.173919299054944
+-40.01646811793903
+-19.587054763289878
+-19.7928183260997
+-34.110670203639906
+-23.1918983914047
+-19.512379614421235
+-19.979995304119125
+-38.622952123126005
+-17.758184121449464
+-37.213052943953166
+-43.034314058742275
+-22.440281553056042
+-20.17234861897888
+-17.94108635619685
+-20.08288370959951
+-39.667588855980945
+-20.07216249766065
+-39.15695969631468
+-21.07540774988956
+-15.94869930499593
+-21.87207033088195
+-19.807934804505283
+-19.950070143682982
+-20.330016040122274
+-37.50519231261495
+-22.229914327440852
+-20.190665709284392
+-15.951814692421886
+-41.16751769535208
+-20.18074869556478
+-20.49325023968002
+-17.770164481039075
+-41.31827504503395
+-39.98622931434448
+-25.015900860990886
+-18.908292735301657
+-35.970538708039626
+-33.34172909156763
+-17.590649040629096
+-33.72183404834071
+-18.17638093225214
+-36.744162671855
+-21.383298778933572
+-18.870359606967263
+-20.88419516133862
+-18.960241909550156
+-16.169614020971423
+-33.61585576574542
+-19.19520854899333
+-18.303372196300188
+-19.974067640151116
+-23.2855565198547
+-36.60591685721106
+-35.1811066153279
+-38.378104993878146
+-21.973890709519278
+-22.638319904907508
+-22.088915527498816
+-40.61698896574971
+-22.52638916669739
+-36.21465926227409
+-19.99314436159076
+-38.027680563294716
+-18.349334906686327
+-15.911008576297762
+-22.383094956565014
+-24.449497900339313
+-20.4050388763601
+-21.085420786718963
+-39.226803791766066
+-16.130357030692956
+-22.798308714204012
+-18.50533663755405
+-20.211024065855984
+-18.59358230065955
+-29.092972969342885
+-40.04112028238178
+-19.81303564564427
+-18.4580908552217
+-16.683076776861185
+-18.952689847925
+-38.44922477400498
+-17.63767410614061
+-18.49466694109772
+-17.46107923442878
+-43.61553752551677
+-23.3958394539418
+-20.076800791161073
+-19.562034227479334
+-21.833345154318074
+-22.766687914476407
+-21.350781859292294
+-19.71485249441632
+-17.392509790030214
+-20.362096590287397
+-43.12132422650169
+-37.15817273764826
+-20.81563344056911
+-20.820487254876674
+-21.583394132882283
+-26.842199598079304
+-20.284885835435706
+-35.08674539471479
+-19.062108145921925
+-41.59241443674834
+-37.13023704002307
+-18.07708131620991
+-17.795089358388324
+-18.65684873971869
+-33.50430152323018
+-17.06339120012046
+-24.335386258945213
+-22.253250374396156
+-20.502169967178897
+-37.12532007696242
+-18.386217020493646
+-19.480885461241364
+-40.05794905642254
+-18.876954005050635
+-20.58328870921164
+-17.38986944367165
+-20.840929903032688
+-22.98085375751065
+-34.78120421814088
+-39.88926213601051
+-19.811386071670448
+-19.129364130205765
+-15.35455513683191
+-21.49550245026514
+-41.35227640592823
+-17.3132792325006
+-37.966896829619486
+-19.821853909776575
+-18.79280894624069
+-20.014603769655004
+-15.56021442034761
+-20.00555521200893
+-41.45422788305754
+-42.74496222738839
+-36.26522031969553
+-16.11276446193681
+-35.313269158242335
+-22.609878762349688
+-15.548050918841424
+-17.760339691787983
+-31.2292402794228
+-32.805469940913184
+-15.880005132391151
+-37.06985668138229
+-20.08406695759711
+-18.281879122174644
+-21.846701190093857
+-19.102853534210805
+-22.06273749056966
+-19.820117077240784
+-20.285061500387464
+-19.537555323986545
+-17.685885243948764
+-18.51978646256636
+-20.82458380538477
+-17.742803487688033
+-15.45316262625049
+-17.209859856750516
+-23.513265864394246
+-38.551816282460116
+-32.03208111520489
+-27.398033097828677
+-19.34607047281386
+-17.2093485411568
+-20.963391941614162
+-21.690706324608538
+-34.08927407740525
+-22.368717686170683
+-21.160476123783987
+-38.574324647121905
+-40.273565145513295
+-23.93474418234115
+-20.148609273638247
+-20.362349799336343
+-21.051076029473972
+-40.894289043635375
+-20.762540300259996
+-20.619126303840304
+-22.752267225422926
+-27.544710160293203
+-21.256522491825734
+-19.477107334223344
+-22.666071392099017
+-15.48859507950853
+-19.00512560582775
+-15.455843750698435
+-39.52140962648962
+-35.82553243542295
+-19.62752211755064
+-42.398943297403484
+-24.604425020269066
+-45.722871991360456
+-17.39097151614065
+-35.34065323995629
+-19.462312345346927
+-19.4722775543038
+-33.97768067898879
+-36.48362490958142
+-39.5173122593064
+-18.947553075627972
+-18.54440290275962
+-40.24462086141102
+-34.84651540196002
+-20.675816343957422
+-19.46102666172062
+-21.294967831078683
+-21.076428470968228
+-38.554912858791496
+-23.12630210796868
+-39.85896301532702
+-34.17469698067347
+-21.99214558693046
+-15.986582732060615
+-16.351899585983332
+-16.72749464226996
+-37.35986389817138
+-16.759015075550987
+-18.98402875033717
+-40.071759623944544
+-19.9820581442157
+-38.512524520290924
+-18.30087790860502
+-19.168009107805126
+-21.24706577548844
+-20.91156501504909
+-21.05058357517871
+-23.89510457574452
+-41.481280938896504
+-24.09717559027447
+-41.62014060042736
+-19.973004887196534
+-23.482905278099096
+-46.03381842154557
+-35.9589920342274
+-22.46571245067606
+-20.570022377094144
+-42.158059932537505
+-18.80597968615685
+-34.005059765346104
+-36.295877073210704
+-22.8279670076812
+-19.37834503793666
+-39.30060184077197
+-25.818927607888995
+-39.03171411114037
+-34.44580593173314
+-33.93624295904241
+-42.563168395323125
+-38.4436612030774
+-39.534650863876095
+-15.99612998500215
+-18.682780074163272
+-20.390624865534807
+-19.298348033930555
+-16.622365364860357
+-36.08277124561038
+-18.594161464632318
+-36.17902965660188
+-27.349978724157733
+avg = -25.997722122308716 +/- 8.897656822309811
+Total time: 2.879s
