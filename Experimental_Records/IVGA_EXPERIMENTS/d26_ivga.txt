@@ -1,0 +1,215 @@
+DATA	26
+GF	10
+CP	0.6
+INDEPINST	4
+N	d26_ivga.spn
+*** Code with Daniel's additions ***
+Dataset tretail, 135 vars, 22041tr, 2938va, 4408te
+Loading training...
+Loading validation...
+Loading testing...
+
+CP 0.6	GF 10.0	IT 4
+Building structure from 135 vars over 22041 instances
+Using EM with 22041 instances and 135 variables ...
+22041I 135V -> 21 clusters
+Indset size 4
+Indset size 4
+Using EM with 2184 instances and 4 variables ...
+2184I 4V -> 7 clusters
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 1865 instances and 2 variables ...
+1865I 2V -> 4 clusters
+Indset size 2
+Using EM with 3568 instances and 2 variables ...
+3568I 2V -> 4 clusters
+Indset size 3
+Indset size 2
+Indset size 3
+Using EM with 3568 instances and 3 variables ...
+3568I 3V -> 8 clusters
+Indset size 6
+Indset size 2
+Indset size 2
+Using EM with 173 instances and 2 variables ...
+173I 2V -> 4 clusters
+Indset size 6
+Using EM with 1879 instances and 6 variables ...
+Indset size 2
+Using EM with 1113 instances and 2 variables ...
+Indset size 3
+Indset size 2
+Indset size 3
+Using EM with 306 instances and 3 variables ...
+Indset size 2
+Using EM with 1368 instances and 2 variables ...
+Indset size 8
+Indset size 8
+Using EM with 1879 instances and 8 variables ...
+Indset size 2
+Indset size 4
+Indset size 6
+Indset size 2
+Using EM with 1879 instances and 2 variables ...
+Indset size 4
+Using EM with 5213 instances and 4 variables ...
+Indset size 6
+Using EM with 1851 instances and 6 variables ...
+Indset size 2
+Indset size 3
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 1879 instances and 2 variables ...
+Indset size 3
+Using EM with 1113 instances and 3 variables ...
+Indset size 2
+Using EM with 70 instances and 2 variables ...
+Indset size 2
+Using EM with 48 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 1865 instances and 2 variables ...
+Indset size 2
+Using EM with 2097 instances and 2 variables ...
+Indset size 2
+Using EM with 1851 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 5213 instances and 2 variables ...
+Indset size 4
+Indset size 3
+Indset size 2
+Indset size 4
+Using EM with 2097 instances and 4 variables ...
+Indset size 3
+Using EM with 1851 instances and 3 variables ...
+Indset size 2
+Using EM with 1879 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 1865 instances and 2 variables ...
+Indset size 3
+Indset size 3
+Using EM with 1113 instances and 3 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 173 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 2097 instances and 2 variables ...
+Indset size 2
+Using EM with 1851 instances and 2 variables ...
+Indset size 2
+Indset size 4
+Indset size 2
+Using EM with 1879 instances and 2 variables ...
+Indset size 2
+Indset size 4
+Using EM with 306 instances and 4 variables ...
+Indset size 2
+Indset size 2
+Using EM with 1113 instances and 2 variables ...
+Indset size 2
+Using EM with 3568 instances and 2 variables ...
+Indset size 4
+Indset size 4
+Using EM with 1865 instances and 4 variables ...
+Indset size 2
+Indset size 2
+Using EM with 2097 instances and 2 variables ...
+Indset size 3
+Indset size 2
+Indset size 3
+Using EM with 2097 instances and 3 variables ...
+Indset size 2
+Using EM with 1879 instances and 2 variables ...
+Indset size 3
+Indset size 3
+Using EM with 2097 instances and 3 variables ...
+Indset size 2
+Indset size 2
+Using EM with 2184 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 1879 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 2097 instances and 2 variables ...
+Indset size 2
+Using EM with 1865 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 1879 instances and 2 variables ...
+Indset size 2
+Using EM with 1113 instances and 2 variables ...
+Indset size 2
+Using EM with 413 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 1851 instances and 2 variables ...
+Indset size 2
+Using EM with 2097 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 1865 instances and 2 variables ...
+Indset size 3
+Indset size 2
+Indset size 3
+Using EM with 1865 instances and 3 variables ...
+Indset size 2
+Using EM with 1851 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 1113 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 413 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 2097 instances and 2 variables ...
+Indset size 2
+Using EM with 306 instances and 2 variables ...
+SPN has 3587 nodes
+Building from build list (2116 items)...
+SPN has 3951 nodes
+
+CP 0.6	GF 10.0	IT 4	Smoo2.0
+Train LLH: -10.964578242021293
+Validation LLH: -11.170752159656782
+***
+
+CP 0.6	GF 10.0	IT 4	Smoo1.0
+Train LLH: -10.964585772308089
+Validation LLH: -11.183336049416729
+
+CP 0.6	GF 10.0	IT 4	Smoo0.5
+Train LLH: -10.966102875028858
+Validation LLH: -11.19595453843483
+
+CP 0.6	GF 10.0	IT 4	Smoo0.25
+Train LLH: -10.962781545732756
+Validation LLH: -11.206179733766113
+
+CP 0.6	GF 10.0	IT 4	Smoo0.125
+Train LLH: -10.960043961398375
+Validation LLH: -11.213979313702216
+
+CP 0.6	GF 10.0	IT 4	Smoo0.0625
+Train LLH: -10.958333554566336
+Validation LLH: -11.219948040574929
+
+CP 0.6	GF 10.0	IT 4	Smoo0.03125
+Train LLH: -10.957383620817591
+Validation LLH: -11.224703366642844
+26 tretail	GF: 10.0	CP: 0.6	Valid: -11.170752159656782	Test: -11.140405453645906	Time: 53742.767

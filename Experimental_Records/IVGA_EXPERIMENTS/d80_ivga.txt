@@ -1,0 +1,5823 @@
+DATA	80
+GF	10
+CP	0.6
+INDEPINST	4
+N	d80_ivga.spn
+*** Code with Daniel's additions ***
+Dataset dicev2_60_10000_40, 60 vars, 10000tr, 1000va, 2000te
+Loading training...
+Loading validation...
+Loading testing...
+
+CP 0.6	GF 10.0	IT 4
+Building structure from 60 vars over 10000 instances
+Using EM with 10000 instances and 60 variables ...
+10000I 60V -> 396 clusters
+Indset size 2
+Indset size 2
+Indset size 12
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 3
+Indset size 6
+Indset size 2
+Indset size 12
+Indset size 2
+Indset size 13
+Indset size 4
+Indset size 2
+Indset size 3
+Indset size 8
+Indset size 3
+Indset size 2
+Indset size 2
+Indset size 3
+Indset size 16
+Indset size 3
+Indset size 2
+Indset size 2
+Using EM with 1339 instances and 2 variables ...
+1339I 2V -> 4 clusters
+Indset size 2
+Using EM with 972 instances and 2 variables ...
+972I 2V -> 4 clusters
+Indset size 6
+Indset size 12
+Using EM with 547 instances and 12 variables ...
+547I 12V -> 23 clusters
+Indset size 13
+Indset size 2
+Using EM with 348 instances and 2 variables ...
+348I 2V -> 2 clusters
+Indset size 3
+Indset size 8
+Indset size 2
+Using EM with 458 instances and 2 variables ...
+458I 2V -> 3 clusters
+Indset size 2
+Using EM with 443 instances and 2 variables ...
+Indset size 3
+Using EM with 317 instances and 3 variables ...
+Indset size 12
+Indset size 16
+Indset size 3
+Indset size 2
+Using EM with 200 instances and 2 variables ...
+Indset size 11
+Indset size 2
+Indset size 2
+Using EM with 157 instances and 2 variables ...
+Indset size 3
+Indset size 12
+Indset size 7
+Indset size 10
+Indset size 3
+Indset size 3
+Using EM with 132 instances and 3 variables ...
+Indset size 2
+Indset size 3
+Indset size 8
+Using EM with 298 instances and 8 variables ...
+Indset size 2
+Indset size 2
+Using EM with 214 instances and 2 variables ...
+Indset size 3
+Indset size 2
+Indset size 2
+Using EM with 282 instances and 2 variables ...
+Indset size 2
+Indset size 3
+Using EM with 29 instances and 3 variables ...
+Indset size 3
+Indset size 2
+Indset size 3
+Using EM with 16 instances and 3 variables ...
+Indset size 2
+Using EM with 6 instances and 2 variables ...
+Indset size 4
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 13
+Using EM with 547 instances and 13 variables ...
+Indset size 2
+Using EM with 95 instances and 2 variables ...
+Indset size 3
+Using EM with 348 instances and 3 variables ...
+Indset size 8
+Using EM with 407 instances and 8 variables ...
+Indset size 14
+Indset size 14
+Indset size 2
+Indset size 12
+Using EM with 317 instances and 12 variables ...
+Indset size 2
+Indset size 16
+Using EM with 20 instances and 16 variables ...
+Indset size 3
+Using EM with 341 instances and 3 variables ...
+Indset size 10
+Indset size 11
+Using EM with 200 instances and 11 variables ...
+Indset size 12
+Indset size 2
+Using EM with 479 instances and 2 variables ...
+Indset size 10
+Using EM with 479 instances and 10 variables ...
+Indset size 13
+Indset size 2
+Using EM with 27 instances and 2 variables ...
+Indset size 5
+Indset size 12
+Using EM with 330 instances and 12 variables ...
+Indset size 3
+Using EM with 172 instances and 3 variables ...
+Indset size 6
+Indset size 3
+Indset size 3
+Using EM with 189 instances and 3 variables ...
+Indset size 2
+Using EM with 132 instances and 2 variables ...
+Indset size 3
+Using EM with 238 instances and 3 variables ...
+Indset size 3
+Indset size 8
+Indset size 2
+Using EM with 219 instances and 2 variables ...
+Indset size 9
+Indset size 3
+Using EM with 214 instances and 3 variables ...
+Indset size 12
+Indset size 2
+Using EM with 454 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 18 instances and 2 variables ...
+Indset size 2
+Using EM with 282 instances and 2 variables ...
+Indset size 2
+Indset size 3
+Using EM with 29 instances and 3 variables ...
+Indset size 3
+Indset size 2
+Indset size 2
+Indset size 4
+Using EM with 1339 instances and 4 variables ...
+Indset size 4
+Indset size 2
+Using EM with 972 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 972 instances and 2 variables ...
+Indset size 3
+Indset size 2
+Using EM with 91 instances and 2 variables ...
+Indset size 3
+Indset size 2
+Indset size 14
+Indset size 14
+Indset size 14
+Using EM with 407 instances and 14 variables ...
+Indset size 8
+Indset size 14
+Using EM with 458 instances and 14 variables ...
+Indset size 2
+Using EM with 443 instances and 2 variables ...
+Indset size 7
+Indset size 2
+Using EM with 224 instances and 2 variables ...
+Indset size 2
+Using EM with 317 instances and 2 variables ...
+Indset size 15
+Indset size 2
+Using EM with 341 instances and 2 variables ...
+Indset size 10
+Using EM with 341 instances and 10 variables ...
+Indset size 6
+Indset size 2
+Indset size 2
+Using EM with 329 instances and 2 variables ...
+Indset size 13
+Using EM with 479 instances and 13 variables ...
+Indset size 14
+Indset size 2
+Using EM with 157 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 9
+Indset size 2
+Indset size 2
+Indset size 8
+Indset size 3
+Using EM with 328 instances and 3 variables ...
+Indset size 7
+Using EM with 328 instances and 7 variables ...
+Indset size 14
+Indset size 3
+Using EM with 7 instances and 3 variables ...
+Indset size 2
+Using EM with 86 instances and 2 variables ...
+Indset size 2
+Using EM with 22 instances and 2 variables ...
+Indset size 2
+Indset size 3
+Using EM with 238 instances and 3 variables ...
+Indset size 3
+Indset size 3
+Indset size 8
+Using EM with 298 instances and 8 variables ...
+Indset size 2
+Using EM with 187 instances and 2 variables ...
+Indset size 7
+Indset size 3
+Indset size 3
+Using EM with 122 instances and 3 variables ...
+Indset size 12
+Using EM with 214 instances and 12 variables ...
+Indset size 3
+Indset size 2
+Using EM with 63 instances and 2 variables ...
+Indset size 2
+Using EM with 84 instances and 2 variables ...
+Indset size 2
+Using EM with 454 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 142 instances and 2 variables ...
+Indset size 2
+Using EM with 282 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 9 instances and 2 variables ...
+Indset size 2
+Using EM with 12 instances and 2 variables ...
+Indset size 3
+Using EM with 29 instances and 3 variables ...
+Indset size 2
+Using EM with 452 instances and 2 variables ...
+Indset size 13
+Using EM with 452 instances and 13 variables ...
+Indset size 3
+Indset size 2
+Using EM with 7 instances and 2 variables ...
+Indset size 2
+Using EM with 16 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 212 instances and 2 variables ...
+Indset size 2
+Using EM with 972 instances and 2 variables ...
+Indset size 2
+Using EM with 972 instances and 2 variables ...
+Indset size 2
+Indset size 6
+Indset size 14
+Using EM with 547 instances and 14 variables ...
+Indset size 14
+Using EM with 348 instances and 14 variables ...
+Indset size 4
+Indset size 3
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 6
+Indset size 3
+Indset size 2
+Indset size 6
+Indset size 2
+Indset size 2
+Indset size 7
+Indset size 2
+Indset size 15
+Using EM with 317 instances and 15 variables ...
+Indset size 14
+Indset size 4
+Indset size 2
+Using EM with 325 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 11
+Using EM with 200 instances and 11 variables ...
+Indset size 2
+Using EM with 200 instances and 2 variables ...
+Indset size 3
+Indset size 2
+Indset size 14
+Using EM with 479 instances and 14 variables ...
+Indset size 2
+Using EM with 72 instances and 2 variables ...
+Indset size 2
+Using EM with 157 instances and 2 variables ...
+Indset size 3
+Using EM with 157 instances and 3 variables ...
+Indset size 2
+Using EM with 157 instances and 2 variables ...
+Indset size 2
+Indset size 5
+Indset size 9
+Using EM with 330 instances and 9 variables ...
+Indset size 8
+Indset size 2
+Using EM with 172 instances and 2 variables ...
+Indset size 4
+Using EM with 172 instances and 4 variables ...
+Indset size 8
+Using EM with 172 instances and 8 variables ...
+Indset size 2
+Indset size 2
+Indset size 13
+Indset size 8
+Indset size 2
+Indset size 2
+Using EM with 132 instances and 2 variables ...
+Indset size 2
+Indset size 5
+Indset size 2
+Indset size 3
+Using EM with 19 instances and 3 variables ...
+Indset size 13
+Indset size 6
+Indset size 3
+Using EM with 219 instances and 3 variables ...
+Indset size 2
+Indset size 3
+Using EM with 214 instances and 3 variables ...
+Indset size 9
+Indset size 2
+Using EM with 253 instances and 2 variables ...
+Indset size 2
+Using EM with 40 instances and 2 variables ...
+Indset size 2
+Using EM with 454 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 40 instances and 2 variables ...
+Indset size 2
+Using EM with 282 instances and 2 variables ...
+Indset size 3
+Using EM with 7 instances and 3 variables ...
+Indset size 2
+Using EM with 8 instances and 2 variables ...
+Indset size 2
+Using EM with 208 instances and 2 variables ...
+Indset size 3
+Using EM with 161 instances and 3 variables ...
+Indset size 2
+Using EM with 1339 instances and 2 variables ...
+Indset size 2
+Using EM with 1339 instances and 2 variables ...
+Indset size 2
+Using EM with 1339 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 532 instances and 2 variables ...
+Indset size 2
+Using EM with 972 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 7 instances and 2 variables ...
+Indset size 6
+Using EM with 62 instances and 6 variables ...
+Indset size 2
+Indset size 4
+Indset size 9
+Indset size 4
+Using EM with 348 instances and 4 variables ...
+Indset size 2
+Indset size 3
+Using EM with 41 instances and 3 variables ...
+Indset size 2
+Using EM with 52 instances and 2 variables ...
+Indset size 2
+Indset size 3
+Indset size 3
+Using EM with 407 instances and 3 variables ...
+Indset size 2
+Indset size 2
+Using EM with 53 instances and 2 variables ...
+Indset size 2
+Indset size 8
+Indset size 7
+Using EM with 443 instances and 7 variables ...
+Indset size 2
+Using EM with 5 instances and 2 variables ...
+Indset size 12
+Indset size 5
+Indset size 2
+Indset size 4
+Using EM with 20 instances and 4 variables ...
+Indset size 4
+Indset size 2
+Using EM with 16 instances and 2 variables ...
+Indset size 3
+Indset size 2
+Using EM with 341 instances and 2 variables ...
+Indset size 2
+Using EM with 341 instances and 2 variables ...
+Indset size 8
+Indset size 2
+Using EM with 121 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 48 instances and 2 variables ...
+Indset size 2
+Using EM with 86 instances and 2 variables ...
+Indset size 2
+Indset size 3
+Using EM with 12 instances and 3 variables ...
+Indset size 2
+Using EM with 91 instances and 2 variables ...
+Indset size 2
+Using EM with 35 instances and 2 variables ...
+Indset size 2
+Using EM with 157 instances and 2 variables ...
+Indset size 3
+Indset size 2
+Indset size 8
+Using EM with 330 instances and 8 variables ...
+Indset size 4
+Using EM with 172 instances and 4 variables ...
+Indset size 2
+Using EM with 172 instances and 2 variables ...
+Indset size 2
+Using EM with 94 instances and 2 variables ...
+Indset size 9
+Indset size 8
+Using EM with 328 instances and 8 variables ...
+Indset size 2
+Indset size 2
+Using EM with 189 instances and 2 variables ...
+Indset size 8
+Indset size 2
+Using EM with 93 instances and 2 variables ...
+Indset size 2
+Using EM with 11 instances and 2 variables ...
+Indset size 2
+Indset size 5
+Using EM with 238 instances and 5 variables ...
+Indset size 6
+Indset size 2
+Indset size 2
+Indset size 3
+Using EM with 19 instances and 3 variables ...
+Indset size 2
+Indset size 2
+Indset size 11
+Indset size 4
+Indset size 6
+Using EM with 219 instances and 6 variables ...
+Indset size 2
+Indset size 2
+Using EM with 65 instances and 2 variables ...
+Indset size 11
+Indset size 2
+Using EM with 120 instances and 2 variables ...
+Indset size 2
+Using EM with 454 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 75 instances and 2 variables ...
+Indset size 4
+Indset size 3
+Indset size 3
+Indset size 12
+Using EM with 111 instances and 12 variables ...
+Indset size 2
+Using EM with 128 instances and 2 variables ...
+Indset size 2
+Using EM with 534 instances and 2 variables ...
+Indset size 2
+Using EM with 1339 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 203 instances and 2 variables ...
+Indset size 2
+Indset size 4
+Indset size 2
+Indset size 7
+Indset size 3
+Indset size 2
+Indset size 4
+Using EM with 72 instances and 4 variables ...
+Indset size 9
+Using EM with 547 instances and 9 variables ...
+Indset size 2
+Indset size 2
+Using EM with 348 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 5
+Indset size 2
+Using EM with 49 instances and 2 variables ...
+Indset size 3
+Using EM with 407 instances and 3 variables ...
+Indset size 3
+Using EM with 407 instances and 3 variables ...
+Indset size 2
+Using EM with 407 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 27 instances and 2 variables ...
+Indset size 5
+Using EM with 49 instances and 5 variables ...
+Indset size 2
+Using EM with 49 instances and 2 variables ...
+Indset size 8
+Using EM with 458 instances and 8 variables ...
+Indset size 2
+Indset size 2
+Indset size 3
+Indset size 2
+Indset size 12
+Using EM with 317 instances and 12 variables ...
+Indset size 2
+Using EM with 317 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 18 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 3
+Using EM with 341 instances and 3 variables ...
+Indset size 2
+Using EM with 256 instances and 2 variables ...
+Indset size 3
+Indset size 2
+Indset size 6
+Indset size 2
+Using EM with 136 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 24 instances and 2 variables ...
+Indset size 6
+Indset size 2
+Indset size 3
+Indset size 2
+Using EM with 57 instances and 2 variables ...
+Indset size 2
+Indset size 3
+Using EM with 157 instances and 3 variables ...
+Indset size 3
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 5 instances and 2 variables ...
+Indset size 2
+Indset size 3
+Indset size 10
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 119 instances and 2 variables ...
+Indset size 2
+Using EM with 7 instances and 2 variables ...
+Indset size 2
+Indset size 9
+Using EM with 328 instances and 9 variables ...
+Indset size 2
+Using EM with 328 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 132 instances and 2 variables ...
+Indset size 2
+Indset size 6
+Using EM with 238 instances and 6 variables ...
+Indset size 2
+Indset size 2
+Using EM with 34 instances and 2 variables ...
+Indset size 2
+Using EM with 85 instances and 2 variables ...
+Indset size 2
+Indset size 4
+Using EM with 69 instances and 4 variables ...
+Indset size 2
+Indset size 2
+Using EM with 80 instances and 2 variables ...
+Indset size 2
+Using EM with 36 instances and 2 variables ...
+Indset size 11
+Using EM with 298 instances and 11 variables ...
+Indset size 2
+Using EM with 298 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 219 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 41 instances and 2 variables ...
+Indset size 8
+Using EM with 214 instances and 8 variables ...
+Indset size 11
+Using EM with 214 instances and 11 variables ...
+Indset size 2
+Using EM with 85 instances and 2 variables ...
+Indset size 2
+Using EM with 454 instances and 2 variables ...
+Indset size 2
+Indset size 4
+Using EM with 75 instances and 4 variables ...
+Indset size 3
+Indset size 3
+Using EM with 282 instances and 3 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 3
+Indset size 2
+Using EM with 248 instances and 2 variables ...
+Indset size 2
+Using EM with 1339 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 972 instances and 2 variables ...
+Indset size 4
+Indset size 4
+Using EM with 91 instances and 4 variables ...
+Indset size 3
+Indset size 6
+Indset size 7
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 62 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 5
+Indset size 3
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 12 instances and 2 variables ...
+Indset size 3
+Indset size 2
+Indset size 2
+Using EM with 278 instances and 2 variables ...
+Indset size 2
+Using EM with 348 instances and 2 variables ...
+Indset size 2
+Using EM with 41 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 3
+Indset size 5
+Using EM with 34 instances and 5 variables ...
+Indset size 2
+Indset size 4
+Indset size 2
+Using EM with 9 instances and 2 variables ...
+Indset size 2
+Using EM with 8 instances and 2 variables ...
+Indset size 2
+Using EM with 407 instances and 2 variables ...
+Indset size 11
+Indset size 2
+Using EM with 47 instances and 2 variables ...
+Indset size 3
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 443 instances and 2 variables ...
+Indset size 2
+Indset size 3
+Using EM with 13 instances and 3 variables ...
+Indset size 8
+Indset size 3
+Indset size 2
+Using EM with 5 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 317 instances and 2 variables ...
+Indset size 4
+Indset size 2
+Using EM with 95 instances and 2 variables ...
+Indset size 2
+Using EM with 16 instances and 2 variables ...
+Indset size 2
+Indset size 5
+Using EM with 341 instances and 5 variables ...
+Indset size 2
+Using EM with 341 instances and 2 variables ...
+Indset size 2
+Using EM with 42 instances and 2 variables ...
+Indset size 2
+Using EM with 35 instances and 2 variables ...
+Indset size 2
+Indset size 4
+Indset size 3
+Using EM with 54 instances and 3 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 3
+Using EM with 157 instances and 3 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 64 instances and 2 variables ...
+Indset size 2
+Using EM with 58 instances and 2 variables ...
+Indset size 2
+Using EM with 58 instances and 2 variables ...
+Indset size 2
+Using EM with 5 instances and 2 variables ...
+Indset size 3
+Using EM with 142 instances and 3 variables ...
+Indset size 10
+Using EM with 330 instances and 10 variables ...
+Indset size 4
+Indset size 2
+Indset size 3
+Using EM with 328 instances and 3 variables ...
+Indset size 2
+Indset size 2
+Using EM with 189 instances and 2 variables ...
+Indset size 2
+Using EM with 25 instances and 2 variables ...
+Indset size 2
+Using EM with 132 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 238 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 26 instances and 2 variables ...
+Indset size 2
+Using EM with 85 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 78 instances and 2 variables ...
+Indset size 3
+Using EM with 298 instances and 3 variables ...
+Indset size 4
+Indset size 3
+Indset size 2
+Using EM with 24 instances and 2 variables ...
+Indset size 2
+Using EM with 109 instances and 2 variables ...
+Indset size 2
+Using EM with 57 instances and 2 variables ...
+Indset size 2
+Using EM with 219 instances and 2 variables ...
+Indset size 7
+Indset size 2
+Using EM with 62 instances and 2 variables ...
+Indset size 2
+Using EM with 87 instances and 2 variables ...
+Indset size 2
+Using EM with 454 instances and 2 variables ...
+Indset size 4
+Indset size 3
+Using EM with 75 instances and 3 variables ...
+Indset size 2
+Indset size 2
+Using EM with 282 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 53 instances and 2 variables ...
+Indset size 2
+Using EM with 41 instances and 2 variables ...
+Indset size 2
+Indset size 15
+Indset size 3
+Using EM with 16 instances and 3 variables ...
+Indset size 2
+Using EM with 303 instances and 2 variables ...
+Indset size 2
+Using EM with 288 instances and 2 variables ...
+Indset size 2
+Using EM with 1339 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 197 instances and 2 variables ...
+Indset size 4
+Using EM with 972 instances and 4 variables ...
+Indset size 2
+Indset size 7
+Using EM with 77 instances and 7 variables ...
+Indset size 2
+Using EM with 15 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 4
+Indset size 2
+Indset size 2
+Using EM with 16 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 27 instances and 2 variables ...
+Indset size 2
+Indset size 3
+Using EM with 53 instances and 3 variables ...
+Indset size 2
+Using EM with 47 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 46 instances and 2 variables ...
+Indset size 3
+Using EM with 20 instances and 3 variables ...
+Indset size 4
+Indset size 2
+Using EM with 251 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 35 instances and 2 variables ...
+Indset size 2
+Using EM with 9 instances and 2 variables ...
+Indset size 2
+Using EM with 5 instances and 2 variables ...
+Indset size 2
+Using EM with 52 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 3
+Indset size 2
+Using EM with 49 instances and 2 variables ...
+Indset size 2
+Indset size 4
+Using EM with 50 instances and 4 variables ...
+Indset size 2
+Indset size 2
+Using EM with 32 instances and 2 variables ...
+Indset size 2
+Using EM with 151 instances and 2 variables ...
+Indset size 2
+Using EM with 65 instances and 2 variables ...
+Indset size 2
+Using EM with 9 instances and 2 variables ...
+Indset size 2
+Using EM with 93 instances and 2 variables ...
+Indset size 11
+Using EM with 407 instances and 11 variables ...
+Indset size 3
+Indset size 2
+Indset size 3
+Using EM with 5 instances and 3 variables ...
+Indset size 2
+Indset size 2
+Using EM with 5 instances and 2 variables ...
+Indset size 2
+Using EM with 134 instances and 2 variables ...
+Indset size 2
+Using EM with 7 instances and 2 variables ...
+Indset size 3
+Indset size 3
+Indset size 15
+Indset size 2
+Using EM with 348 instances and 2 variables ...
+Indset size 2
+Using EM with 44 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 7
+Using EM with 126 instances and 7 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 13 instances and 2 variables ...
+Indset size 3
+Using EM with 317 instances and 3 variables ...
+Indset size 4
+Indset size 4
+Using EM with 18 instances and 4 variables ...
+Indset size 2
+Indset size 2
+Using EM with 38 instances and 2 variables ...
+Indset size 2
+Indset size 3
+Using EM with 16 instances and 3 variables ...
+Indset size 2
+Indset size 2
+Using EM with 50 instances and 2 variables ...
+Indset size 2
+Using EM with 50 instances and 2 variables ...
+Indset size 2
+Using EM with 13 instances and 2 variables ...
+Indset size 2
+Using EM with 341 instances and 2 variables ...
+Indset size 2
+Using EM with 222 instances and 2 variables ...
+Indset size 2
+Using EM with 54 instances and 2 variables ...
+Indset size 4
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 35 instances and 2 variables ...
+Indset size 5
+Using EM with 102 instances and 5 variables ...
+Indset size 2
+Indset size 4
+Using EM with 58 instances and 4 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 22 instances and 2 variables ...
+Indset size 2
+Using EM with 157 instances and 2 variables ...
+Indset size 2
+Indset size 3
+Indset size 2
+Indset size 3
+Indset size 2
+Using EM with 15 instances and 2 variables ...
+Indset size 2
+Indset size 3
+Indset size 2
+Using EM with 49 instances and 2 variables ...
+Indset size 4
+Using EM with 17 instances and 4 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 55 instances and 2 variables ...
+Indset size 3
+Indset size 2
+Indset size 2
+Using EM with 328 instances and 2 variables ...
+Indset size 4
+Indset size 2
+Using EM with 112 instances and 2 variables ...
+Indset size 5
+Using EM with 189 instances and 5 variables ...
+Indset size 6
+Indset size 2
+Using EM with 14 instances and 2 variables ...
+Indset size 2
+Using EM with 132 instances and 2 variables ...
+Indset size 2
+Using EM with 20 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 184 instances and 2 variables ...
+Indset size 2
+Using EM with 238 instances and 2 variables ...
+Indset size 4
+Indset size 3
+Using EM with 39 instances and 3 variables ...
+Indset size 2
+Indset size 2
+Using EM with 26 instances and 2 variables ...
+Indset size 2
+Using EM with 36 instances and 2 variables ...
+Indset size 2
+Indset size 5
+Indset size 3
+Using EM with 53 instances and 3 variables ...
+Indset size 2
+Using EM with 53 instances and 2 variables ...
+Indset size 6
+Indset size 7
+Using EM with 65 instances and 7 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 63 instances and 2 variables ...
+Indset size 2
+Using EM with 35 instances and 2 variables ...
+Indset size 4
+Using EM with 454 instances and 4 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 54 instances and 2 variables ...
+Indset size 2
+Using EM with 141 instances and 2 variables ...
+Indset size 2
+Using EM with 17 instances and 2 variables ...
+Indset size 2
+Using EM with 282 instances and 2 variables ...
+Indset size 2
+Indset size 4
+Indset size 2
+Using EM with 5 instances and 2 variables ...
+Indset size 10
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 1339 instances and 2 variables ...
+Indset size 2
+Indset size 3
+Indset size 2
+Indset size 2
+Using EM with 59 instances and 2 variables ...
+Indset size 2
+Indset size 5
+Using EM with 86 instances and 5 variables ...
+Indset size 4
+Indset size 2
+Using EM with 43 instances and 2 variables ...
+Indset size 2
+Using EM with 26 instances and 2 variables ...
+Indset size 2
+Using EM with 22 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 75 instances and 2 variables ...
+Indset size 2
+Using EM with 7 instances and 2 variables ...
+Indset size 2
+Indset size 3
+Indset size 2
+Indset size 2
+Indset size 4
+Using EM with 20 instances and 4 variables ...
+Indset size 2
+Indset size 4
+Indset size 2
+Using EM with 348 instances and 2 variables ...
+Indset size 5
+Indset size 2
+Using EM with 67 instances and 2 variables ...
+Indset size 2
+Using EM with 35 instances and 2 variables ...
+Indset size 2
+Using EM with 5 instances and 2 variables ...
+Indset size 2
+Using EM with 51 instances and 2 variables ...
+Indset size 2
+Using EM with 34 instances and 2 variables ...
+Indset size 3
+Using EM with 46 instances and 3 variables ...
+Indset size 2
+Using EM with 30 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 3
+Using EM with 407 instances and 3 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 5 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 49 instances and 2 variables ...
+Indset size 3
+Using EM with 5 instances and 3 variables ...
+Indset size 12
+Indset size 2
+Using EM with 75 instances and 2 variables ...
+Indset size 4
+Using EM with 67 instances and 4 variables ...
+Indset size 2
+Indset size 7
+Using EM with 443 instances and 7 variables ...
+Indset size 12
+Indset size 2
+Using EM with 24 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 7
+Indset size 2
+Using EM with 317 instances and 2 variables ...
+Indset size 2
+Using EM with 20 instances and 2 variables ...
+Indset size 2
+Using EM with 95 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 5 instances and 2 variables ...
+Indset size 2
+Using EM with 111 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 4
+Indset size 2
+Indset size 4
+Using EM with 74 instances and 4 variables ...
+Indset size 4
+Using EM with 74 instances and 4 variables ...
+Indset size 2
+Indset size 4
+Using EM with 200 instances and 4 variables ...
+Indset size 2
+Using EM with 200 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 15 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 4
+Indset size 2
+Using EM with 58 instances and 2 variables ...
+Indset size 2
+Using EM with 58 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 15 instances and 2 variables ...
+Indset size 2
+Using EM with 17 instances and 2 variables ...
+Indset size 2
+Using EM with 5 instances and 2 variables ...
+Indset size 2
+Using EM with 25 instances and 2 variables ...
+Indset size 2
+Using EM with 15 instances and 2 variables ...
+Indset size 2
+Using EM with 24 instances and 2 variables ...
+Indset size 2
+Using EM with 479 instances and 2 variables ...
+Indset size 10
+Indset size 2
+Using EM with 122 instances and 2 variables ...
+Indset size 2
+Using EM with 157 instances and 2 variables ...
+Indset size 2
+Indset size 3
+Using EM with 75 instances and 3 variables ...
+Indset size 2
+Indset size 5
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 6
+Indset size 7
+Indset size 2
+Indset size 2
+Using EM with 17 instances and 2 variables ...
+Indset size 2
+Using EM with 21 instances and 2 variables ...
+Indset size 2
+Using EM with 172 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 31 instances and 2 variables ...
+Indset size 3
+Indset size 2
+Using EM with 74 instances and 2 variables ...
+Indset size 2
+Using EM with 51 instances and 2 variables ...
+Indset size 2
+Using EM with 62 instances and 2 variables ...
+Indset size 2
+Indset size 3
+Indset size 6
+Using EM with 189 instances and 6 variables ...
+Indset size 2
+Using EM with 77 instances and 2 variables ...
+Indset size 2
+Using EM with 42 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 63 instances and 2 variables ...
+Indset size 4
+Using EM with 238 instances and 4 variables ...
+Indset size 13
+Indset size 2
+Using EM with 30 instances and 2 variables ...
+Indset size 2
+Using EM with 46 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 66 instances and 2 variables ...
+Indset size 2
+Indset size 3
+Indset size 2
+Indset size 6
+Using EM with 219 instances and 6 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 32 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 54 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 454 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 10 instances and 2 variables ...
+Indset size 2
+Using EM with 48 instances and 2 variables ...
+Indset size 2
+Using EM with 75 instances and 2 variables ...
+Indset size 4
+Indset size 2
+Using EM with 282 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 10
+Using EM with 452 instances and 10 variables ...
+Indset size 5
+Using EM with 452 instances and 5 variables ...
+Indset size 6
+Indset size 2
+Using EM with 6 instances and 2 variables ...
+Indset size 2
+Using EM with 278 instances and 2 variables ...
+Indset size 2
+Using EM with 1339 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 3
+Using EM with 972 instances and 3 variables ...
+Indset size 2
+Indset size 2
+Using EM with 23 instances and 2 variables ...
+Indset size 4
+Using EM with 108 instances and 4 variables ...
+Indset size 2
+Indset size 2
+Using EM with 33 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 65 instances and 2 variables ...
+Indset size 2
+Using EM with 17 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 3
+Using EM with 10 instances and 3 variables ...
+Indset size 2
+Using EM with 10 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 163 instances and 2 variables ...
+Indset size 2
+Indset size 3
+Using EM with 547 instances and 3 variables ...
+Indset size 2
+Indset size 4
+Indset size 2
+Using EM with 6 instances and 2 variables ...
+Indset size 2
+Using EM with 5 instances and 2 variables ...
+Indset size 4
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 37 instances and 2 variables ...
+Indset size 2
+Using EM with 30 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 3
+Using EM with 34 instances and 3 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 10 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 11 instances and 2 variables ...
+Indset size 2
+Using EM with 407 instances and 2 variables ...
+Indset size 3
+Indset size 2
+Using EM with 19 instances and 2 variables ...
+Indset size 2
+Using EM with 28 instances and 2 variables ...
+Indset size 2
+Using EM with 5 instances and 2 variables ...
+Indset size 2
+Using EM with 47 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 5 instances and 2 variables ...
+Indset size 2
+Using EM with 44 instances and 2 variables ...
+Indset size 3
+Using EM with 36 instances and 3 variables ...
+Indset size 2
+Indset size 2
+Indset size 12
+Using EM with 443 instances and 12 variables ...
+Indset size 4
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 19 instances and 2 variables ...
+Indset size 5
+Indset size 2
+Indset size 3
+Using EM with 98 instances and 3 variables ...
+Indset size 2
+Using EM with 307 instances and 2 variables ...
+Indset size 3
+Using EM with 317 instances and 3 variables ...
+Indset size 2
+Indset size 2
+Using EM with 56 instances and 2 variables ...
+Indset size 2
+Using EM with 40 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 14 instances and 2 variables ...
+Indset size 2
+Using EM with 116 instances and 2 variables ...
+Indset size 2
+Using EM with 21 instances and 2 variables ...
+Indset size 4
+Using EM with 341 instances and 4 variables ...
+Indset size 2
+Using EM with 14 instances and 2 variables ...
+Indset size 4
+Using EM with 62 instances and 4 variables ...
+Indset size 2
+Indset size 2
+Using EM with 14 instances and 2 variables ...
+Indset size 2
+Using EM with 40 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 93 instances and 2 variables ...
+Indset size 2
+Using EM with 26 instances and 2 variables ...
+Indset size 2
+Using EM with 26 instances and 2 variables ...
+Indset size 2
+Using EM with 14 instances and 2 variables ...
+Indset size 2
+Using EM with 37 instances and 2 variables ...
+Indset size 2
+Indset size 4
+Using EM with 85 instances and 4 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 3
+Indset size 2
+Indset size 3
+Indset size 2
+Using EM with 317 instances and 2 variables ...
+Indset size 2
+Using EM with 14 instances and 2 variables ...
+Indset size 2
+Using EM with 116 instances and 2 variables ...
+Indset size 2
+Using EM with 157 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 64 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 43 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 5 instances and 2 variables ...
+Indset size 2
+Using EM with 32 instances and 2 variables ...
+Indset size 3
+Indset size 2
+Indset size 2
+Using EM with 330 instances and 2 variables ...
+Indset size 7
+Using EM with 330 instances and 7 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 31 instances and 2 variables ...
+Indset size 2
+Using EM with 18 instances and 2 variables ...
+Indset size 2
+Using EM with 172 instances and 2 variables ...
+Indset size 12
+Indset size 9
+Indset size 3
+Indset size 2
+Indset size 2
+Using EM with 23 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 298 instances and 2 variables ...
+Indset size 3
+Using EM with 298 instances and 3 variables ...
+Indset size 3
+Using EM with 298 instances and 3 variables ...
+Indset size 8
+Indset size 2
+Using EM with 28 instances and 2 variables ...
+Indset size 2
+Using EM with 219 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 43 instances and 2 variables ...
+Indset size 2
+Using EM with 16 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 18 instances and 2 variables ...
+Indset size 2
+Using EM with 54 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 3
+Indset size 2
+Indset size 2
+Using EM with 109 instances and 2 variables ...
+Indset size 2
+Using EM with 69 instances and 2 variables ...
+Indset size 2
+Using EM with 454 instances and 2 variables ...
+Indset size 3
+Indset size 2
+Using EM with 12 instances and 2 variables ...
+Indset size 4
+Using EM with 75 instances and 4 variables ...
+Indset size 2
+Indset size 2
+Using EM with 40 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 29 instances and 2 variables ...
+Indset size 2
+Using EM with 29 instances and 2 variables ...
+Indset size 3
+Indset size 4
+Indset size 2
+Indset size 2
+Using EM with 26 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 8
+Indset size 7
+Indset size 2
+Using EM with 622 instances and 2 variables ...
+Indset size 2
+Using EM with 118 instances and 2 variables ...
+Indset size 2
+Using EM with 1339 instances and 2 variables ...
+Indset size 3
+Indset size 2
+Using EM with 353 instances and 2 variables ...
+Indset size 2
+Using EM with 196 instances and 2 variables ...
+Indset size 2
+Using EM with 30 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 972 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 98 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 7 instances and 2 variables ...
+Indset size 3
+Using EM with 28 instances and 3 variables ...
+Indset size 2
+Using EM with 36 instances and 2 variables ...
+Indset size 2
+Using EM with 70 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 3
+Indset size 2
+Using EM with 26 instances and 2 variables ...
+Indset size 3
+Using EM with 18 instances and 3 variables ...
+Indset size 2
+Indset size 2
+Using EM with 163 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 3
+Using EM with 448 instances and 3 variables ...
+Indset size 2
+Using EM with 547 instances and 2 variables ...
+Indset size 2
+Using EM with 547 instances and 2 variables ...
+Indset size 3
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 3
+Using EM with 12 instances and 3 variables ...
+Indset size 4
+Using EM with 12 instances and 4 variables ...
+Indset size 2
+Using EM with 348 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 348 instances and 2 variables ...
+Indset size 10
+Indset size 3
+Using EM with 52 instances and 3 variables ...
+Indset size 2
+Using EM with 34 instances and 2 variables ...
+Indset size 2
+Using EM with 12 instances and 2 variables ...
+Indset size 2
+Using EM with 14 instances and 2 variables ...
+Indset size 2
+Using EM with 28 instances and 2 variables ...
+Indset size 2
+Using EM with 26 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 391 instances and 2 variables ...
+Indset size 2
+Using EM with 7 instances and 2 variables ...
+Indset size 2
+Using EM with 7 instances and 2 variables ...
+Indset size 3
+Using EM with 407 instances and 3 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 45 instances and 2 variables ...
+Indset size 2
+Using EM with 37 instances and 2 variables ...
+Indset size 3
+Using EM with 37 instances and 3 variables ...
+Indset size 2
+Indset size 2
+Using EM with 5 instances and 2 variables ...
+Indset size 11
+Using EM with 458 instances and 11 variables ...
+Indset size 2
+Using EM with 458 instances and 2 variables ...
+Indset size 12
+Indset size 2
+Using EM with 5 instances and 2 variables ...
+Indset size 2
+Using EM with 6 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 4
+Using EM with 443 instances and 4 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 3
+Using EM with 32 instances and 3 variables ...
+Indset size 2
+Using EM with 5 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 20 instances and 2 variables ...
+Indset size 2
+Using EM with 107 instances and 2 variables ...
+Indset size 2
+Using EM with 5 instances and 2 variables ...
+Indset size 2
+Indset size 3
+Using EM with 19 instances and 3 variables ...
+Indset size 3
+Using EM with 30 instances and 3 variables ...
+Indset size 2
+Indset size 2
+Using EM with 200 instances and 2 variables ...
+Indset size 2
+Using EM with 41 instances and 2 variables ...
+Indset size 2
+Using EM with 19 instances and 2 variables ...
+Indset size 2
+Using EM with 35 instances and 2 variables ...
+Indset size 2
+Using EM with 17 instances and 2 variables ...
+Indset size 2
+Using EM with 23 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 57 instances and 2 variables ...
+Indset size 2
+Indset size 3
+Using EM with 30 instances and 3 variables ...
+Indset size 2
+Indset size 2
+Indset size 8
+Indset size 2
+Using EM with 11 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 27 instances and 2 variables ...
+Indset size 2
+Using EM with 14 instances and 2 variables ...
+Indset size 2
+Using EM with 75 instances and 2 variables ...
+Indset size 2
+Using EM with 23 instances and 2 variables ...
+Indset size 2
+Using EM with 38 instances and 2 variables ...
+Indset size 2
+Using EM with 62 instances and 2 variables ...
+Indset size 2
+Indset size 3
+Using EM with 60 instances and 3 variables ...
+Indset size 2
+Using EM with 139 instances and 2 variables ...
+Indset size 2
+Using EM with 139 instances and 2 variables ...
+Indset size 2
+Using EM with 64 instances and 2 variables ...
+Indset size 2
+Using EM with 330 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 15 instances and 2 variables ...
+Indset size 2
+Using EM with 16 instances and 2 variables ...
+Indset size 2
+Using EM with 23 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 62 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 328 instances and 2 variables ...
+Indset size 3
+Indset size 2
+Indset size 3
+Using EM with 49 instances and 3 variables ...
+Indset size 3
+Using EM with 36 instances and 3 variables ...
+Indset size 3
+Using EM with 86 instances and 3 variables ...
+Indset size 9
+Using EM with 189 instances and 9 variables ...
+Indset size 2
+Indset size 3
+Using EM with 132 instances and 3 variables ...
+Indset size 11
+Indset size 11
+Indset size 2
+Using EM with 238 instances and 2 variables ...
+Indset size 8
+Indset size 2
+Using EM with 23 instances and 2 variables ...
+Indset size 2
+Using EM with 294 instances and 2 variables ...
+Indset size 3
+Using EM with 134 instances and 3 variables ...
+Indset size 8
+Using EM with 298 instances and 8 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 121 instances and 2 variables ...
+Indset size 2
+Using EM with 32 instances and 2 variables ...
+Indset size 2
+Using EM with 10 instances and 2 variables ...
+Indset size 5
+Using EM with 38 instances and 5 variables ...
+Indset size 4
+Using EM with 68 instances and 4 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 54 instances and 2 variables ...
+Indset size 2
+Indset size 3
+Using EM with 214 instances and 3 variables ...
+Indset size 7
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 75 instances and 2 variables ...
+Indset size 3
+Indset size 2
+Using EM with 282 instances and 2 variables ...
+Indset size 2
+Indset size 3
+Using EM with 29 instances and 3 variables ...
+Indset size 2
+Indset size 2
+Using EM with 17 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 8
+Using EM with 452 instances and 8 variables ...
+Indset size 7
+Using EM with 16 instances and 7 variables ...
+Indset size 2
+Using EM with 241 instances and 2 variables ...
+Indset size 2
+Using EM with 706 instances and 2 variables ...
+Indset size 3
+Using EM with 1339 instances and 3 variables ...
+Indset size 2
+Indset size 2
+Using EM with 118 instances and 2 variables ...
+Indset size 2
+Using EM with 41 instances and 2 variables ...
+Indset size 2
+Using EM with 647 instances and 2 variables ...
+Indset size 2
+Using EM with 118 instances and 2 variables ...
+Indset size 2
+Using EM with 972 instances and 2 variables ...
+Indset size 2
+Using EM with 8 instances and 2 variables ...
+Indset size 2
+Using EM with 39 instances and 2 variables ...
+Indset size 2
+Using EM with 9 instances and 2 variables ...
+Indset size 2
+Using EM with 8 instances and 2 variables ...
+Indset size 2
+Using EM with 70 instances and 2 variables ...
+Indset size 2
+Using EM with 65 instances and 2 variables ...
+Indset size 3
+Using EM with 43 instances and 3 variables ...
+Indset size 2
+Using EM with 26 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 5
+Using EM with 84 instances and 5 variables ...
+Indset size 2
+Indset size 2
+Indset size 3
+Using EM with 55 instances and 3 variables ...
+Indset size 2
+Indset size 2
+Indset size 3
+Using EM with 5 instances and 3 variables ...
+Indset size 2
+Using EM with 5 instances and 2 variables ...
+Indset size 2
+Using EM with 114 instances and 2 variables ...
+Indset size 3
+Using EM with 71 instances and 3 variables ...
+Indset size 2
+Using EM with 71 instances and 2 variables ...
+Indset size 2
+Using EM with 24 instances and 2 variables ...
+Indset size 3
+Indset size 2
+Indset size 2
+Using EM with 348 instances and 2 variables ...
+Indset size 10
+Using EM with 348 instances and 10 variables ...
+Indset size 10
+Indset size 2
+Using EM with 25 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 407 instances and 2 variables ...
+Indset size 2
+Using EM with 53 instances and 2 variables ...
+Indset size 2
+Using EM with 39 instances and 2 variables ...
+Indset size 2
+Indset size 3
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 276 instances and 2 variables ...
+Indset size 12
+Using EM with 458 instances and 12 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 443 instances and 2 variables ...
+Indset size 7
+Indset size 2
+Using EM with 57 instances and 2 variables ...
+Indset size 2
+Using EM with 57 instances and 2 variables ...
+Indset size 2
+Using EM with 49 instances and 2 variables ...
+Indset size 2
+Using EM with 18 instances and 2 variables ...
+Indset size 2
+Using EM with 19 instances and 2 variables ...
+Indset size 4
+Using EM with 38 instances and 4 variables ...
+Indset size 6
+Indset size 2
+Using EM with 12 instances and 2 variables ...
+Indset size 3
+Indset size 2
+Indset size 5
+Using EM with 98 instances and 5 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 8 instances and 2 variables ...
+Indset size 2
+Using EM with 51 instances and 2 variables ...
+Indset size 2
+Using EM with 29 instances and 2 variables ...
+Indset size 2
+Using EM with 12 instances and 2 variables ...
+Indset size 2
+Using EM with 341 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 64 instances and 2 variables ...
+Indset size 2
+Using EM with 10 instances and 2 variables ...
+Indset size 2
+Using EM with 24 instances and 2 variables ...
+Indset size 2
+Using EM with 27 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 5 instances and 2 variables ...
+Indset size 2
+Using EM with 15 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 56 instances and 2 variables ...
+Indset size 2
+Indset size 8
+Using EM with 479 instances and 8 variables ...
+Indset size 2
+Using EM with 157 instances and 2 variables ...
+Indset size 2
+Using EM with 9 instances and 2 variables ...
+Indset size 2
+Using EM with 62 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 71 instances and 2 variables ...
+Indset size 2
+Using EM with 50 instances and 2 variables ...
+Indset size 2
+Using EM with 29 instances and 2 variables ...
+Indset size 2
+Using EM with 41 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 330 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 12 instances and 2 variables ...
+Indset size 2
+Using EM with 31 instances and 2 variables ...
+Indset size 3
+Using EM with 328 instances and 3 variables ...
+Indset size 9
+Using EM with 328 instances and 9 variables ...
+Indset size 2
+Using EM with 328 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 189 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 14 instances and 2 variables ...
+Indset size 11
+Using EM with 238 instances and 11 variables ...
+Indset size 3
+Indset size 2
+Indset size 5
+Using EM with 66 instances and 5 variables ...
+Indset size 2
+Indset size 2
+Using EM with 298 instances and 2 variables ...
+Indset size 2
+Using EM with 298 instances and 2 variables ...
+Indset size 2
+Using EM with 75 instances and 2 variables ...
+Indset size 2
+Using EM with 52 instances and 2 variables ...
+Indset size 2
+Using EM with 22 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 23 instances and 2 variables ...
+Indset size 2
+Using EM with 54 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 454 instances and 2 variables ...
+Indset size 2
+Using EM with 454 instances and 2 variables ...
+Indset size 2
+Indset size 3
+Using EM with 75 instances and 3 variables ...
+Indset size 2
+Using EM with 58 instances and 2 variables ...
+Indset size 2
+Using EM with 282 instances and 2 variables ...
+Indset size 2
+Indset size 3
+Indset size 3
+Using EM with 53 instances and 3 variables ...
+Indset size 2
+Using EM with 46 instances and 2 variables ...
+Indset size 2
+Using EM with 46 instances and 2 variables ...
+Indset size 3
+Indset size 2
+Using EM with 41 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 4
+Using EM with 452 instances and 4 variables ...
+Indset size 2
+Indset size 6
+Using EM with 452 instances and 6 variables ...
+Indset size 2
+Indset size 2
+Using EM with 1339 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 164 instances and 2 variables ...
+Indset size 2
+Using EM with 601 instances and 2 variables ...
+Indset size 2
+Using EM with 27 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 42 instances and 2 variables ...
+Indset size 2
+Using EM with 22 instances and 2 variables ...
+Indset size 2
+Using EM with 16 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 64 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 53 instances and 2 variables ...
+Indset size 2
+Using EM with 43 instances and 2 variables ...
+Indset size 2
+Using EM with 5 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 14 instances and 2 variables ...
+Indset size 2
+Using EM with 6 instances and 2 variables ...
+Indset size 2
+Indset size 3
+Using EM with 24 instances and 3 variables ...
+Indset size 2
+Indset size 5
+Using EM with 12 instances and 5 variables ...
+Indset size 2
+Indset size 2
+Using EM with 12 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 348 instances and 2 variables ...
+Indset size 2
+Using EM with 42 instances and 2 variables ...
+Indset size 2
+Using EM with 8 instances and 2 variables ...
+Indset size 2
+Using EM with 26 instances and 2 variables ...
+Indset size 2
+Using EM with 5 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 11 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 15 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 5 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 90 instances and 2 variables ...
+Indset size 2
+Using EM with 90 instances and 2 variables ...
+Indset size 2
+Using EM with 5 instances and 2 variables ...
+Indset size 2
+Using EM with 5 instances and 2 variables ...
+Indset size 2
+Using EM with 95 instances and 2 variables ...
+Indset size 2
+Using EM with 12 instances and 2 variables ...
+Indset size 2
+Using EM with 35 instances and 2 variables ...
+Indset size 2
+Using EM with 7 instances and 2 variables ...
+Indset size 2
+Indset size 3
+Using EM with 13 instances and 3 variables ...
+Indset size 2
+Using EM with 56 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 5 instances and 2 variables ...
+Indset size 2
+Using EM with 18 instances and 2 variables ...
+Indset size 2
+Using EM with 217 instances and 2 variables ...
+Indset size 2
+Using EM with 40 instances and 2 variables ...
+Indset size 2
+Using EM with 70 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 7 instances and 2 variables ...
+Indset size 2
+Using EM with 14 instances and 2 variables ...
+Indset size 3
+Using EM with 21 instances and 3 variables ...
+Indset size 2
+Using EM with 9 instances and 2 variables ...
+Indset size 3
+Using EM with 5 instances and 3 variables ...
+Indset size 2
+Indset size 2
+Using EM with 32 instances and 2 variables ...
+Indset size 2
+Using EM with 38 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 5 instances and 2 variables ...
+Indset size 2
+Using EM with 76 instances and 2 variables ...
+Indset size 3
+Indset size 2
+Indset size 2
+Using EM with 72 instances and 2 variables ...
+Indset size 3
+Indset size 2
+Using EM with 46 instances and 2 variables ...
+Indset size 2
+Using EM with 60 instances and 2 variables ...
+Indset size 2
+Using EM with 27 instances and 2 variables ...
+Indset size 2
+Using EM with 30 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 3
+Using EM with 62 instances and 3 variables ...
+Indset size 2
+Using EM with 81 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 23 instances and 2 variables ...
+Indset size 3
+Using EM with 63 instances and 3 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 41 instances and 2 variables ...
+Indset size 2
+Using EM with 28 instances and 2 variables ...
+Indset size 2
+Using EM with 132 instances and 2 variables ...
+Indset size 2
+Indset size 10
+Using EM with 132 instances and 10 variables ...
+Indset size 10
+Indset size 3
+Indset size 3
+Using EM with 238 instances and 3 variables ...
+Indset size 5
+Using EM with 238 instances and 5 variables ...
+Indset size 2
+Using EM with 238 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 27 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 55 instances and 2 variables ...
+Indset size 2
+Using EM with 22 instances and 2 variables ...
+Indset size 2
+Using EM with 219 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 22 instances and 2 variables ...
+Indset size 2
+Using EM with 11 instances and 2 variables ...
+Indset size 2
+Using EM with 25 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 9 instances and 2 variables ...
+Indset size 2
+Using EM with 19 instances and 2 variables ...
+Indset size 2
+Using EM with 9 instances and 2 variables ...
+Indset size 2
+Using EM with 454 instances and 2 variables ...
+Indset size 2
+Using EM with 24 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 163 instances and 2 variables ...
+Indset size 2
+Using EM with 27 instances and 2 variables ...
+Indset size 2
+Using EM with 83 instances and 2 variables ...
+Indset size 2
+Using EM with 9 instances and 2 variables ...
+Indset size 2
+Using EM with 282 instances and 2 variables ...
+Indset size 3
+Indset size 3
+Using EM with 29 instances and 3 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 36 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 3
+Using EM with 35 instances and 3 variables ...
+Indset size 2
+Using EM with 35 instances and 2 variables ...
+Indset size 2
+Using EM with 17 instances and 2 variables ...
+Indset size 2
+Using EM with 5 instances and 2 variables ...
+Indset size 2
+Using EM with 5 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 89 instances and 2 variables ...
+Indset size 3
+Indset size 2
+Indset size 2
+Using EM with 74 instances and 2 variables ...
+Indset size 2
+Using EM with 116 instances and 2 variables ...
+Indset size 3
+Indset size 4
+Indset size 2
+Using EM with 161 instances and 2 variables ...
+Indset size 2
+Using EM with 248 instances and 2 variables ...
+Indset size 2
+Using EM with 24 instances and 2 variables ...
+Indset size 2
+Using EM with 66 instances and 2 variables ...
+Indset size 2
+Using EM with 216 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 14 instances and 2 variables ...
+Indset size 2
+Using EM with 11 instances and 2 variables ...
+Indset size 2
+Using EM with 12 instances and 2 variables ...
+Indset size 2
+Using EM with 6 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 15 instances and 2 variables ...
+Indset size 3
+Using EM with 64 instances and 3 variables ...
+Indset size 2
+Using EM with 75 instances and 2 variables ...
+Indset size 2
+Using EM with 53 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 10 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 46 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 16 instances and 2 variables ...
+Indset size 3
+Using EM with 16 instances and 3 variables ...
+Indset size 5
+Using EM with 19 instances and 5 variables ...
+Indset size 2
+Using EM with 5 instances and 2 variables ...
+Indset size 2
+Using EM with 7 instances and 2 variables ...
+Indset size 2
+Using EM with 348 instances and 2 variables ...
+Indset size 8
+Using EM with 348 instances and 8 variables ...
+Indset size 2
+Using EM with 76 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 5 instances and 2 variables ...
+Indset size 2
+Using EM with 9 instances and 2 variables ...
+Indset size 4
+Using EM with 68 instances and 4 variables ...
+Indset size 2
+Using EM with 53 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 28 instances and 2 variables ...
+Indset size 2
+Using EM with 15 instances and 2 variables ...
+Indset size 2
+Using EM with 13 instances and 2 variables ...
+Indset size 2
+Using EM with 5 instances and 2 variables ...
+Indset size 4
+Using EM with 5 instances and 4 variables ...
+Indset size 2
+Using EM with 44 instances and 2 variables ...
+Indset size 2
+Using EM with 48 instances and 2 variables ...
+Indset size 7
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 58 instances and 2 variables ...
+Indset size 6
+Using EM with 443 instances and 6 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 5
+Using EM with 47 instances and 5 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 15 instances and 2 variables ...
+Indset size 2
+Using EM with 47 instances and 2 variables ...
+Indset size 2
+Using EM with 341 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 60 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 200 instances and 2 variables ...
+Indset size 3
+Indset size 2
+Using EM with 29 instances and 2 variables ...
+Indset size 2
+Using EM with 29 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 21 instances and 2 variables ...
+Indset size 2
+Using EM with 5 instances and 2 variables ...
+Indset size 2
+Indset size 3
+Using EM with 157 instances and 3 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 49 instances and 2 variables ...
+Indset size 2
+Using EM with 66 instances and 2 variables ...
+Indset size 2
+Using EM with 139 instances and 2 variables ...
+Indset size 2
+Using EM with 58 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 80 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 23 instances and 2 variables ...
+Indset size 2
+Using EM with 189 instances and 2 variables ...
+Indset size 8
+Indset size 9
+Indset size 3
+Indset size 3
+Using EM with 28 instances and 3 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 3
+Indset size 2
+Using EM with 52 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 54 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 27 instances and 2 variables ...
+Indset size 3
+Indset size 2
+Using EM with 20 instances and 2 variables ...
+Indset size 2
+Using EM with 9 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 7 instances and 2 variables ...
+Indset size 2
+Using EM with 7 instances and 2 variables ...
+Indset size 2
+Using EM with 28 instances and 2 variables ...
+Indset size 2
+Using EM with 75 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 149 instances and 2 variables ...
+Indset size 3
+Using EM with 282 instances and 3 variables ...
+Indset size 2
+Indset size 3
+Indset size 2
+Using EM with 37 instances and 2 variables ...
+Indset size 2
+Using EM with 32 instances and 2 variables ...
+Indset size 3
+Using EM with 20 instances and 3 variables ...
+Indset size 2
+Using EM with 12 instances and 2 variables ...
+Indset size 2
+Using EM with 44 instances and 2 variables ...
+Indset size 2
+Indset size 3
+Indset size 3
+Using EM with 360 instances and 3 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 972 instances and 2 variables ...
+Indset size 2
+Using EM with 21 instances and 2 variables ...
+Indset size 2
+Using EM with 75 instances and 2 variables ...
+Indset size 2
+Using EM with 5 instances and 2 variables ...
+Indset size 2
+Using EM with 52 instances and 2 variables ...
+Indset size 2
+Using EM with 22 instances and 2 variables ...
+Indset size 2
+Using EM with 20 instances and 2 variables ...
+Indset size 2
+Using EM with 46 instances and 2 variables ...
+Indset size 2
+Using EM with 19 instances and 2 variables ...
+Indset size 2
+Using EM with 15 instances and 2 variables ...
+Indset size 2
+Using EM with 12 instances and 2 variables ...
+Indset size 2
+Using EM with 5 instances and 2 variables ...
+Indset size 3
+Using EM with 7 instances and 3 variables ...
+Indset size 6
+Indset size 2
+Indset size 2
+Using EM with 7 instances and 2 variables ...
+Indset size 2
+Using EM with 7 instances and 2 variables ...
+Indset size 2
+Indset size 5
+Using EM with 71 instances and 5 variables ...
+Indset size 2
+Indset size 4
+Using EM with 11 instances and 4 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 3
+Using EM with 50 instances and 3 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 42 instances and 2 variables ...
+Indset size 2
+Using EM with 36 instances and 2 variables ...
+Indset size 2
+Using EM with 5 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 5 instances and 2 variables ...
+Indset size 4
+Indset size 2
+Indset size 2
+Using EM with 443 instances and 2 variables ...
+Indset size 2
+Using EM with 443 instances and 2 variables ...
+Indset size 2
+Using EM with 13 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 22 instances and 2 variables ...
+Indset size 3
+Using EM with 56 instances and 3 variables ...
+Indset size 2
+Using EM with 31 instances and 2 variables ...
+Indset size 2
+Using EM with 5 instances and 2 variables ...
+Indset size 3
+Indset size 5
+Indset size 2
+Using EM with 117 instances and 2 variables ...
+Indset size 2
+Using EM with 6 instances and 2 variables ...
+Indset size 2
+Using EM with 341 instances and 2 variables ...
+Indset size 2
+Using EM with 7 instances and 2 variables ...
+Indset size 3
+Using EM with 200 instances and 3 variables ...
+Indset size 2
+Indset size 2
+Using EM with 5 instances and 2 variables ...
+Indset size 2
+Using EM with 57 instances and 2 variables ...
+Indset size 2
+Using EM with 51 instances and 2 variables ...
+Indset size 2
+Using EM with 56 instances and 2 variables ...
+Indset size 2
+Using EM with 5 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 157 instances and 2 variables ...
+Indset size 2
+Using EM with 5 instances and 2 variables ...
+Indset size 2
+Using EM with 5 instances and 2 variables ...
+Indset size 2
+Using EM with 54 instances and 2 variables ...
+Indset size 2
+Using EM with 72 instances and 2 variables ...
+Indset size 12
+Indset size 2
+Using EM with 38 instances and 2 variables ...
+Indset size 2
+Using EM with 36 instances and 2 variables ...
+Indset size 2
+Using EM with 80 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 7
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 238 instances and 2 variables ...
+Indset size 2
+Using EM with 23 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 3
+Using EM with 219 instances and 3 variables ...
+Indset size 2
+Using EM with 26 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 21 instances and 2 variables ...
+Indset size 4
+Using EM with 214 instances and 4 variables ...
+Indset size 2
+Using EM with 214 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 75 instances and 2 variables ...
+Indset size 2
+Using EM with 282 instances and 2 variables ...
+Indset size 2
+Indset size 3
+Using EM with 29 instances and 3 variables ...
+Indset size 2
+Using EM with 15 instances and 2 variables ...
+Indset size 2
+Indset size 3
+Indset size 2
+Indset size 2
+Using EM with 91 instances and 2 variables ...
+Indset size 5
+Using EM with 57 instances and 5 variables ...
+Indset size 2
+Using EM with 38 instances and 2 variables ...
+Indset size 2
+Using EM with 7 instances and 2 variables ...
+Indset size 2
+Using EM with 1339 instances and 2 variables ...
+Indset size 2
+Using EM with 136 instances and 2 variables ...
+Indset size 25
+Indset size 2
+Using EM with 18 instances and 2 variables ...
+Indset size 2
+Using EM with 62 instances and 2 variables ...
+Indset size 2
+Using EM with 50 instances and 2 variables ...
+Indset size 3
+Using EM with 34 instances and 3 variables ...
+Indset size 2
+Using EM with 5 instances and 2 variables ...
+Indset size 2
+Using EM with 7 instances and 2 variables ...
+Indset size 2
+Using EM with 50 instances and 2 variables ...
+Indset size 2
+Using EM with 52 instances and 2 variables ...
+Indset size 2
+Using EM with 18 instances and 2 variables ...
+Indset size 2
+Using EM with 74 instances and 2 variables ...
+Indset size 2
+Indset size 3
+Indset size 2
+Using EM with 76 instances and 2 variables ...
+Indset size 2
+Using EM with 6 instances and 2 variables ...
+Indset size 2
+Using EM with 10 instances and 2 variables ...
+Indset size 2
+Using EM with 5 instances and 2 variables ...
+Indset size 2
+Using EM with 37 instances and 2 variables ...
+Indset size 2
+Using EM with 80 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 5 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 23 instances and 2 variables ...
+Indset size 2
+Using EM with 25 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 5 instances and 2 variables ...
+Indset size 7
+Indset size 2
+Using EM with 74 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 3
+Indset size 2
+Using EM with 5 instances and 2 variables ...
+Indset size 2
+Using EM with 299 instances and 2 variables ...
+Indset size 2
+Using EM with 115 instances and 2 variables ...
+Indset size 2
+Using EM with 19 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 13 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 18 instances and 2 variables ...
+Indset size 2
+Using EM with 12 instances and 2 variables ...
+Indset size 2
+Using EM with 12 instances and 2 variables ...
+Indset size 2
+Indset size 3
+Using EM with 13 instances and 3 variables ...
+Indset size 2
+Using EM with 13 instances and 2 variables ...
+Indset size 2
+Indset size 5
+Using EM with 20 instances and 5 variables ...
+Indset size 5
+Indset size 2
+Using EM with 200 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 17 instances and 2 variables ...
+Indset size 2
+Using EM with 25 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 78 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 35 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 58 instances and 2 variables ...
+Indset size 2
+Using EM with 56 instances and 2 variables ...
+Indset size 2
+Using EM with 53 instances and 2 variables ...
+Indset size 2
+Using EM with 189 instances and 2 variables ...
+Indset size 6
+Using EM with 189 instances and 6 variables ...
+Indset size 4
+Indset size 7
+Using EM with 132 instances and 7 variables ...
+Indset size 2
+Using EM with 132 instances and 2 variables ...
+Indset size 2
+Using EM with 132 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 5 instances and 2 variables ...
+Indset size 2
+Using EM with 7 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 47 instances and 2 variables ...
+Indset size 2
+Using EM with 38 instances and 2 variables ...
+Indset size 2
+Using EM with 27 instances and 2 variables ...
+Indset size 2
+Using EM with 27 instances and 2 variables ...
+Indset size 2
+Using EM with 31 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 454 instances and 2 variables ...
+Indset size 3
+Indset size 2
+Using EM with 18 instances and 2 variables ...
+Indset size 2
+Using EM with 43 instances and 2 variables ...
+Indset size 2
+Using EM with 282 instances and 2 variables ...
+Indset size 4
+Indset size 2
+Indset size 2
+Indset size 3
+Using EM with 33 instances and 3 variables ...
+Indset size 2
+Indset size 2
+Using EM with 26 instances and 2 variables ...
+Indset size 2
+Using EM with 21 instances and 2 variables ...
+Indset size 4
+Using EM with 49 instances and 4 variables ...
+Indset size 2
+Using EM with 162 instances and 2 variables ...
+Indset size 3
+Using EM with 154 instances and 3 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 37 instances and 2 variables ...
+Indset size 2
+Using EM with 13 instances and 2 variables ...
+Indset size 2
+Using EM with 43 instances and 2 variables ...
+Indset size 3
+Indset size 2
+Indset size 2
+Using EM with 37 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 22 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 23 instances and 2 variables ...
+Indset size 2
+Using EM with 37 instances and 2 variables ...
+Indset size 2
+Using EM with 30 instances and 2 variables ...
+Indset size 3
+Indset size 3
+Indset size 2
+Using EM with 53 instances and 2 variables ...
+Indset size 4
+Indset size 2
+Indset size 2
+Indset size 4
+Indset size 2
+Indset size 2
+Indset size 3
+Indset size 2
+Using EM with 59 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 3
+Indset size 2
+Using EM with 20 instances and 2 variables ...
+Indset size 2
+Using EM with 5 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 3
+Using EM with 47 instances and 3 variables ...
+Indset size 2
+Using EM with 11 instances and 2 variables ...
+Indset size 2
+Using EM with 24 instances and 2 variables ...
+Indset size 2
+Using EM with 30 instances and 2 variables ...
+Indset size 2
+Using EM with 9 instances and 2 variables ...
+Indset size 2
+Using EM with 22 instances and 2 variables ...
+Indset size 2
+Using EM with 38 instances and 2 variables ...
+Indset size 2
+Using EM with 13 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 22 instances and 2 variables ...
+Indset size 2
+Using EM with 7 instances and 2 variables ...
+Indset size 2
+Using EM with 10 instances and 2 variables ...
+Indset size 2
+Using EM with 200 instances and 2 variables ...
+Indset size 2
+Using EM with 47 instances and 2 variables ...
+Indset size 2
+Using EM with 19 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 157 instances and 2 variables ...
+Indset size 2
+Indset size 3
+Indset size 2
+Indset size 2
+Indset size 3
+Indset size 2
+Indset size 2
+Using EM with 110 instances and 2 variables ...
+Indset size 2
+Using EM with 38 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 3
+Indset size 2
+Using EM with 132 instances and 2 variables ...
+Indset size 4
+Indset size 2
+Using EM with 67 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 23 instances and 2 variables ...
+Indset size 2
+Using EM with 54 instances and 2 variables ...
+Indset size 2
+Using EM with 15 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 87 instances and 2 variables ...
+Indset size 2
+Using EM with 87 instances and 2 variables ...
+Indset size 2
+Using EM with 268 instances and 2 variables ...
+Indset size 3
+Using EM with 454 instances and 3 variables ...
+Indset size 2
+Indset size 2
+Using EM with 29 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 19 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 48 instances and 2 variables ...
+Indset size 2
+Using EM with 7 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 1339 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 22 instances and 2 variables ...
+Indset size 2
+Using EM with 9 instances and 2 variables ...
+Indset size 2
+Using EM with 68 instances and 2 variables ...
+Indset size 2
+Using EM with 25 instances and 2 variables ...
+Indset size 2
+Using EM with 5 instances and 2 variables ...
+Indset size 2
+Indset size 4
+Using EM with 51 instances and 4 variables ...
+Indset size 2
+Indset size 2
+Indset size 3
+Using EM with 74 instances and 3 variables ...
+Indset size 2
+Indset size 2
+Using EM with 23 instances and 2 variables ...
+Indset size 2
+Using EM with 14 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 5 instances and 2 variables ...
+Indset size 2
+Using EM with 5 instances and 2 variables ...
+Indset size 2
+Using EM with 20 instances and 2 variables ...
+Indset size 2
+Using EM with 14 instances and 2 variables ...
+Indset size 2
+Indset size 3
+Using EM with 130 instances and 3 variables ...
+Indset size 2
+Indset size 2
+Using EM with 10 instances and 2 variables ...
+Indset size 2
+Using EM with 17 instances and 2 variables ...
+Indset size 2
+Using EM with 8 instances and 2 variables ...
+Indset size 2
+Using EM with 10 instances and 2 variables ...
+Indset size 2
+Using EM with 11 instances and 2 variables ...
+Indset size 2
+Using EM with 24 instances and 2 variables ...
+Indset size 2
+Using EM with 341 instances and 2 variables ...
+Indset size 3
+Using EM with 341 instances and 3 variables ...
+Indset size 3
+Indset size 2
+Using EM with 18 instances and 2 variables ...
+Indset size 2
+Using EM with 17 instances and 2 variables ...
+Indset size 2
+Using EM with 131 instances and 2 variables ...
+Indset size 2
+Using EM with 52 instances and 2 variables ...
+Indset size 2
+Using EM with 78 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 48 instances and 2 variables ...
+Indset size 2
+Using EM with 15 instances and 2 variables ...
+Indset size 2
+Using EM with 172 instances and 2 variables ...
+Indset size 9
+Using EM with 172 instances and 9 variables ...
+Indset size 3
+Using EM with 172 instances and 3 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 14 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 6 instances and 2 variables ...
+Indset size 2
+Using EM with 189 instances and 2 variables ...
+Indset size 2
+Using EM with 189 instances and 2 variables ...
+Indset size 2
+Using EM with 189 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 31 instances and 2 variables ...
+Indset size 2
+Using EM with 19 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 78 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 84 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 3
+Indset size 3
+Using EM with 282 instances and 3 variables ...
+Indset size 2
+Using EM with 282 instances and 2 variables ...
+Indset size 3
+Indset size 2
+Using EM with 11 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 25 instances and 2 variables ...
+Indset size 2
+Using EM with 85 instances and 2 variables ...
+Indset size 2
+Using EM with 23 instances and 2 variables ...
+Indset size 2
+Using EM with 7 instances and 2 variables ...
+Indset size 2
+Using EM with 689 instances and 2 variables ...
+Indset size 2
+Using EM with 1339 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 972 instances and 2 variables ...
+Indset size 2
+Indset size 3
+Using EM with 5 instances and 3 variables ...
+Indset size 2
+Using EM with 6 instances and 2 variables ...
+Indset size 2
+Using EM with 38 instances and 2 variables ...
+Indset size 2
+Using EM with 15 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 20 instances and 2 variables ...
+Indset size 2
+Using EM with 68 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 58 instances and 2 variables ...
+Indset size 3
+Using EM with 48 instances and 3 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 5 instances and 2 variables ...
+Indset size 2
+Using EM with 88 instances and 2 variables ...
+Indset size 5
+Using EM with 52 instances and 5 variables ...
+Indset size 2
+Using EM with 51 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 3
+Using EM with 7 instances and 3 variables ...
+Indset size 2
+Using EM with 59 instances and 2 variables ...
+Indset size 2
+Using EM with 14 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 18 instances and 2 variables ...
+Indset size 2
+Using EM with 14 instances and 2 variables ...
+Indset size 2
+Using EM with 23 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 18 instances and 2 variables ...
+Indset size 2
+Using EM with 17 instances and 2 variables ...
+Indset size 2
+Using EM with 7 instances and 2 variables ...
+Indset size 2
+Indset size 3
+Using EM with 341 instances and 3 variables ...
+Indset size 2
+Using EM with 274 instances and 2 variables ...
+Indset size 3
+Using EM with 200 instances and 3 variables ...
+Indset size 3
+Indset size 2
+Using EM with 44 instances and 2 variables ...
+Indset size 2
+Using EM with 31 instances and 2 variables ...
+Indset size 2
+Using EM with 41 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 23 instances and 2 variables ...
+Indset size 2
+Using EM with 6 instances and 2 variables ...
+Indset size 2
+Using EM with 28 instances and 2 variables ...
+Indset size 2
+Using EM with 54 instances and 2 variables ...
+Indset size 2
+Using EM with 189 instances and 2 variables ...
+Indset size 3
+Indset size 2
+Using EM with 25 instances and 2 variables ...
+Indset size 3
+Using EM with 132 instances and 3 variables ...
+Indset size 2
+Indset size 2
+Using EM with 7 instances and 2 variables ...
+Indset size 2
+Using EM with 12 instances and 2 variables ...
+Indset size 2
+Using EM with 33 instances and 2 variables ...
+Indset size 2
+Using EM with 219 instances and 2 variables ...
+Indset size 2
+Using EM with 49 instances and 2 variables ...
+Indset size 2
+Using EM with 11 instances and 2 variables ...
+Indset size 2
+Using EM with 454 instances and 2 variables ...
+Indset size 2
+Indset size 3
+Using EM with 75 instances and 3 variables ...
+Indset size 2
+Indset size 2
+Using EM with 58 instances and 2 variables ...
+Indset size 3
+Using EM with 282 instances and 3 variables ...
+Indset size 2
+Indset size 2
+Using EM with 29 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 21 instances and 2 variables ...
+Indset size 2
+Using EM with 6 instances and 2 variables ...
+Indset size 4
+Indset size 2
+Using EM with 289 instances and 2 variables ...
+Indset size 2
+Using EM with 1339 instances and 2 variables ...
+Indset size 3
+Indset size 2
+Using EM with 255 instances and 2 variables ...
+Indset size 2
+Using EM with 410 instances and 2 variables ...
+Indset size 2
+Using EM with 101 instances and 2 variables ...
+Indset size 19
+Indset size 2
+Using EM with 74 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 22 instances and 2 variables ...
+Indset size 2
+Using EM with 6 instances and 2 variables ...
+Indset size 2
+Using EM with 76 instances and 2 variables ...
+Indset size 2
+Using EM with 95 instances and 2 variables ...
+Indset size 2
+Using EM with 20 instances and 2 variables ...
+Indset size 2
+Using EM with 18 instances and 2 variables ...
+Indset size 2
+Using EM with 38 instances and 2 variables ...
+Indset size 2
+Using EM with 38 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 15 instances and 2 variables ...
+Indset size 2
+Using EM with 30 instances and 2 variables ...
+Indset size 3
+Using EM with 49 instances and 3 variables ...
+Indset size 2
+Using EM with 46 instances and 2 variables ...
+Indset size 2
+Using EM with 13 instances and 2 variables ...
+Indset size 2
+Using EM with 9 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 5 instances and 2 variables ...
+Indset size 2
+Using EM with 20 instances and 2 variables ...
+Indset size 2
+Using EM with 20 instances and 2 variables ...
+Indset size 2
+Using EM with 110 instances and 2 variables ...
+Indset size 2
+Using EM with 9 instances and 2 variables ...
+Indset size 4
+Indset size 2
+Indset size 2
+Using EM with 100 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 157 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 69 instances and 2 variables ...
+Indset size 2
+Using EM with 23 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 52 instances and 2 variables ...
+Indset size 3
+Using EM with 189 instances and 3 variables ...
+Indset size 2
+Indset size 3
+Indset size 2
+Using EM with 132 instances and 2 variables ...
+Indset size 2
+Using EM with 28 instances and 2 variables ...
+Indset size 2
+Using EM with 6 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 188 instances and 2 variables ...
+Indset size 2
+Using EM with 23 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 454 instances and 2 variables ...
+Indset size 4
+Indset size 2
+Using EM with 75 instances and 2 variables ...
+Indset size 2
+Using EM with 19 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 282 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 29 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 12
+Indset size 2
+Using EM with 57 instances and 2 variables ...
+Indset size 2
+Using EM with 5 instances and 2 variables ...
+Indset size 2
+Using EM with 15 instances and 2 variables ...
+Indset size 2
+Using EM with 15 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 22 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 44 instances and 2 variables ...
+Indset size 2
+Using EM with 9 instances and 2 variables ...
+Indset size 2
+Using EM with 6 instances and 2 variables ...
+Indset size 2
+Using EM with 28 instances and 2 variables ...
+Indset size 4
+Using EM with 20 instances and 4 variables ...
+Indset size 2
+Using EM with 35 instances and 2 variables ...
+Indset size 2
+Using EM with 120 instances and 2 variables ...
+Indset size 2
+Using EM with 200 instances and 2 variables ...
+Indset size 2
+Using EM with 18 instances and 2 variables ...
+Indset size 2
+Using EM with 113 instances and 2 variables ...
+Indset size 2
+Using EM with 67 instances and 2 variables ...
+Indset size 2
+Using EM with 44 instances and 2 variables ...
+Indset size 2
+Using EM with 21 instances and 2 variables ...
+Indset size 2
+Indset size 3
+Using EM with 33 instances and 3 variables ...
+Indset size 2
+Using EM with 10 instances and 2 variables ...
+Indset size 2
+Using EM with 7 instances and 2 variables ...
+Indset size 2
+Using EM with 84 instances and 2 variables ...
+Indset size 2
+Using EM with 12 instances and 2 variables ...
+Indset size 2
+Using EM with 132 instances and 2 variables ...
+Indset size 2
+Using EM with 66 instances and 2 variables ...
+Indset size 2
+Using EM with 23 instances and 2 variables ...
+Indset size 2
+Using EM with 12 instances and 2 variables ...
+Indset size 2
+Using EM with 219 instances and 2 variables ...
+Indset size 2
+Using EM with 243 instances and 2 variables ...
+Indset size 2
+Using EM with 74 instances and 2 variables ...
+Indset size 2
+Indset size 3
+Indset size 2
+Using EM with 20 instances and 2 variables ...
+Indset size 2
+Using EM with 18 instances and 2 variables ...
+Indset size 2
+Using EM with 282 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 18 instances and 2 variables ...
+Indset size 2
+Using EM with 29 instances and 2 variables ...
+Indset size 2
+Using EM with 7 instances and 2 variables ...
+Indset size 2
+Using EM with 7 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 1339 instances and 2 variables ...
+Indset size 3
+Indset size 3
+Indset size 2
+Indset size 3
+Using EM with 58 instances and 3 variables ...
+Indset size 2
+Using EM with 44 instances and 2 variables ...
+Indset size 2
+Using EM with 26 instances and 2 variables ...
+Indset size 2
+Using EM with 5 instances and 2 variables ...
+Indset size 2
+Using EM with 5 instances and 2 variables ...
+Indset size 2
+Using EM with 5 instances and 2 variables ...
+Indset size 2
+Using EM with 5 instances and 2 variables ...
+Indset size 2
+Using EM with 22 instances and 2 variables ...
+Indset size 3
+Indset size 2
+Using EM with 11 instances and 2 variables ...
+Indset size 2
+Using EM with 13 instances and 2 variables ...
+Indset size 2
+Using EM with 9 instances and 2 variables ...
+Indset size 2
+Using EM with 11 instances and 2 variables ...
+Indset size 2
+Using EM with 25 instances and 2 variables ...
+Indset size 2
+Using EM with 36 instances and 2 variables ...
+Indset size 2
+Using EM with 95 instances and 2 variables ...
+Indset size 2
+Using EM with 94 instances and 2 variables ...
+Indset size 2
+Using EM with 17 instances and 2 variables ...
+Indset size 2
+Using EM with 454 instances and 2 variables ...
+Indset size 2
+Indset size 3
+Using EM with 75 instances and 3 variables ...
+Indset size 3
+Indset size 2
+Using EM with 282 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 641 instances and 2 variables ...
+Indset size 3
+Using EM with 1339 instances and 3 variables ...
+Indset size 4
+Indset size 3
+Using EM with 972 instances and 3 variables ...
+Indset size 9
+Using EM with 972 instances and 9 variables ...
+Indset size 3
+Indset size 3
+Indset size 2
+Using EM with 10 instances and 2 variables ...
+Indset size 2
+Using EM with 17 instances and 2 variables ...
+Indset size 4
+Indset size 2
+Using EM with 454 instances and 2 variables ...
+Indset size 2
+Using EM with 265 instances and 2 variables ...
+Indset size 2
+Using EM with 136 instances and 2 variables ...
+Indset size 2
+Using EM with 34 instances and 2 variables ...
+Indset size 2
+Using EM with 19 instances and 2 variables ...
+Indset size 2
+Using EM with 454 instances and 2 variables ...
+Indset size 4
+Indset size 3
+Using EM with 75 instances and 3 variables ...
+Indset size 2
+Using EM with 80 instances and 2 variables ...
+Indset size 2
+Using EM with 29 instances and 2 variables ...
+Indset size 3
+Indset size 2
+Using EM with 5 instances and 2 variables ...
+Indset size 4
+Using EM with 1339 instances and 4 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 23 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 67 instances and 2 variables ...
+Indset size 3
+Using EM with 15 instances and 3 variables ...
+Indset size 3
+Using EM with 21 instances and 3 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 312 instances and 2 variables ...
+Indset size 2
+Using EM with 67 instances and 2 variables ...
+Indset size 4
+Using EM with 454 instances and 4 variables ...
+Indset size 2
+Using EM with 36 instances and 2 variables ...
+Indset size 2
+Using EM with 10 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 8 instances and 2 variables ...
+Indset size 3
+Using EM with 29 instances and 3 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 482 instances and 2 variables ...
+Indset size 2
+Using EM with 73 instances and 2 variables ...
+Indset size 2
+Using EM with 74 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 1339 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 83 instances and 2 variables ...
+Indset size 2
+Indset size 3
+Indset size 5
+Indset size 2
+Indset size 2
+Using EM with 21 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 157 instances and 2 variables ...
+Indset size 3
+Indset size 2
+Using EM with 219 instances and 2 variables ...
+Indset size 2
+Using EM with 219 instances and 2 variables ...
+Indset size 4
+Using EM with 219 instances and 4 variables ...
+Indset size 2
+Indset size 2
+Using EM with 18 instances and 2 variables ...
+Indset size 2
+Using EM with 75 instances and 2 variables ...
+Indset size 2
+Using EM with 83 instances and 2 variables ...
+Indset size 2
+Using EM with 83 instances and 2 variables ...
+Indset size 2
+Using EM with 303 instances and 2 variables ...
+Indset size 2
+Using EM with 1339 instances and 2 variables ...
+Indset size 3
+Using EM with 147 instances and 3 variables ...
+Indset size 3
+Using EM with 121 instances and 3 variables ...
+Indset size 5
+Indset size 2
+Using EM with 13 instances and 2 variables ...
+Indset size 2
+Indset size 3
+Indset size 2
+Using EM with 972 instances and 2 variables ...
+Indset size 2
+Using EM with 18 instances and 2 variables ...
+Indset size 3
+Using EM with 157 instances and 3 variables ...
+Indset size 2
+Using EM with 32 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 58 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 3
+Indset size 2
+Using EM with 23 instances and 2 variables ...
+Indset size 2
+Indset size 4
+Indset size 2
+Indset size 2
+Using EM with 203 instances and 2 variables ...
+Indset size 2
+Using EM with 90 instances and 2 variables ...
+Indset size 2
+Using EM with 182 instances and 2 variables ...
+Indset size 2
+Using EM with 58 instances and 2 variables ...
+Indset size 2
+Using EM with 28 instances and 2 variables ...
+Indset size 2
+Using EM with 1339 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 4
+Using EM with 121 instances and 4 variables ...
+Indset size 2
+Indset size 3
+Indset size 3
+Indset size 2
+Using EM with 22 instances and 2 variables ...
+Indset size 3
+Indset size 2
+Indset size 4
+Indset size 2
+Using EM with 197 instances and 2 variables ...
+Indset size 2
+Using EM with 65 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 103 instances and 2 variables ...
+Indset size 2
+Using EM with 21 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 282 instances and 2 variables ...
+Indset size 4
+Using EM with 29 instances and 4 variables ...
+Indset size 2
+Indset size 2
+Using EM with 5 instances and 2 variables ...
+Indset size 2
+Using EM with 69 instances and 2 variables ...
+Indset size 2
+Using EM with 21 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 3
+Indset size 3
+Using EM with 16 instances and 3 variables ...
+Indset size 2
+Indset size 2
+Using EM with 22 instances and 2 variables ...
+Indset size 3
+Indset size 3
+Indset size 2
+Using EM with 11 instances and 2 variables ...
+Indset size 2
+Using EM with 11 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 16 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 47 instances and 2 variables ...
+Indset size 2
+Using EM with 6 instances and 2 variables ...
+Indset size 2
+Using EM with 454 instances and 2 variables ...
+Indset size 2
+Using EM with 454 instances and 2 variables ...
+Indset size 2
+Using EM with 75 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 2
+Indset size 3
+Using EM with 40 instances and 3 variables ...
+Indset size 2
+Using EM with 74 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 13 instances and 2 variables ...
+Indset size 2
+Using EM with 12 instances and 2 variables ...
+Indset size 2
+Using EM with 22 instances and 2 variables ...
+Indset size 2
+Using EM with 18 instances and 2 variables ...
+Indset size 3
+Using EM with 12 instances and 3 variables ...
+Indset size 2
+Indset size 3
+Using EM with 14 instances and 3 variables ...
+Indset size 2
+Using EM with 20 instances and 2 variables ...
+Indset size 3
+Using EM with 20 instances and 3 variables ...
+Indset size 2
+Using EM with 157 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 127 instances and 2 variables ...
+Indset size 2
+Using EM with 32 instances and 2 variables ...
+Indset size 2
+Using EM with 75 instances and 2 variables ...
+Indset size 4
+Indset size 2
+Using EM with 282 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 29 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 16 instances and 2 variables ...
+Indset size 2
+Using EM with 5 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 44 instances and 2 variables ...
+Indset size 3
+Using EM with 8 instances and 3 variables ...
+Indset size 2
+Using EM with 21 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 21 instances and 2 variables ...
+Indset size 2
+Using EM with 11 instances and 2 variables ...
+Indset size 2
+Using EM with 11 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 26 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 22 instances and 2 variables ...
+Indset size 3
+Indset size 2
+Using EM with 54 instances and 2 variables ...
+Indset size 2
+Using EM with 282 instances and 2 variables ...
+Indset size 2
+Using EM with 282 instances and 2 variables ...
+Indset size 2
+Using EM with 29 instances and 2 variables ...
+Indset size 2
+Using EM with 9 instances and 2 variables ...
+Indset size 2
+Using EM with 5 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 15 instances and 2 variables ...
+Indset size 2
+Using EM with 106 instances and 2 variables ...
+Indset size 2
+Using EM with 9 instances and 2 variables ...
+Indset size 2
+Using EM with 18 instances and 2 variables ...
+Indset size 2
+Using EM with 12 instances and 2 variables ...
+Indset size 2
+Using EM with 18 instances and 2 variables ...
+Indset size 2
+Using EM with 20 instances and 2 variables ...
+Indset size 2
+Using EM with 7 instances and 2 variables ...
+Indset size 2
+Using EM with 5 instances and 2 variables ...
+Indset size 2
+Using EM with 12 instances and 2 variables ...
+Indset size 3
+Using EM with 75 instances and 3 variables ...
+Indset size 2
+Using EM with 91 instances and 2 variables ...
+Indset size 2
+Using EM with 143 instances and 2 variables ...
+Indset size 2
+Using EM with 50 instances and 2 variables ...
+Indset size 2
+Using EM with 12 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 5 instances and 2 variables ...
+Indset size 5
+Indset size 2
+Using EM with 5 instances and 2 variables ...
+Indset size 2
+Using EM with 8 instances and 2 variables ...
+Indset size 2
+Using EM with 9 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 7 instances and 2 variables ...
+Indset size 2
+Indset size 4
+Indset size 2
+Using EM with 9 instances and 2 variables ...
+Indset size 2
+Using EM with 17 instances and 2 variables ...
+Indset size 2
+Using EM with 16 instances and 2 variables ...
+Indset size 2
+Indset size 3
+Indset size 2
+Indset size 2
+Using EM with 5 instances and 2 variables ...
+Indset size 2
+Using EM with 5 instances and 2 variables ...
+Indset size 3
+Using EM with 5 instances and 3 variables ...
+Indset size 2
+Using EM with 7 instances and 2 variables ...
+Indset size 11
+Indset size 2
+Indset size 2
+Indset size 10
+Indset size 2
+Using EM with 6 instances and 2 variables ...
+Indset size 11
+Using EM with 7 instances and 11 variables ...
+Indset size 2
+Using EM with 16 instances and 2 variables ...
+Indset size 2
+Using EM with 5 instances and 2 variables ...
+Indset size 7
+Indset size 8
+Indset size 7
+Using EM with 6 instances and 7 variables ...
+Indset size 4
+Indset size 2
+Indset size 2
+Indset size 4
+Using EM with 16 instances and 4 variables ...
+Indset size 2
+Indset size 2
+Using EM with 5 instances and 2 variables ...
+Indset size 2
+Using EM with 5 instances and 2 variables ...
+Indset size 2
+Using EM with 16 instances and 2 variables ...
+Indset size 2
+Using EM with 16 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Indset size 2
+Using EM with 15 instances and 2 variables ...
+Indset size 2
+Using EM with 5 instances and 2 variables ...
+Indset size 2
+Using EM with 5 instances and 2 variables ...
+Indset size 2
+Indset size 2
+Using EM with 9 instances and 2 variables ...
+Indset size 2
+Using EM with 5 instances and 2 variables ...
+Indset size 2
+Using EM with 5 instances and 2 variables ...
+Indset size 2
+Using EM with 5 instances and 2 variables ...
+Indset size 2
+Indset size 3
+Indset size 2
+Using EM with 6 instances and 2 variables ...
+Indset size 2
+Using EM with 6 instances and 2 variables ...
+Indset size 3
+Indset size 3
+Using EM with 6 instances and 3 variables ...
+Indset size 2
+Indset size 2
+Using EM with 6 instances and 2 variables ...
+SPN has 115386 nodes
+Building from build list (48505 items)...
+SPN has 157906 nodes
+
+CP 0.6	GF 10.0	IT 4	Smoo2.0
+Train LLH: -30.044899199697515
+Validation LLH: -31.14914828624956
+***
+
+CP 0.6	GF 10.0	IT 4	Smoo1.0
+Train LLH: -29.12052568953142
+Validation LLH: -30.62480579645954
+***
+
+CP 0.6	GF 10.0	IT 4	Smoo0.5
+Train LLH: -28.238864764062146
+Validation LLH: -30.16814455996543
+***
+
+CP 0.6	GF 10.0	IT 4	Smoo0.25
+Train LLH: -27.505256650467338
+Validation LLH: -29.811681566887504
+***
+
+CP 0.6	GF 10.0	IT 4	Smoo0.125
+Train LLH: -26.997647708234936
+Validation LLH: -29.56320174692634
+***
+
+CP 0.6	GF 10.0	IT 4	Smoo0.0625
+Train LLH: -26.708892827785725
+Validation LLH: -29.435291435456026
+***
+
+CP 0.6	GF 10.0	IT 4	Smoo0.03125
+Train LLH: -26.559895353497453
+Validation LLH: -29.379279625487886
+***
+80 dicev2_60_10000_40	GF: 10.0	CP: 0.6	Valid: -29.379279625487886	Test: -28.879271084232794	Time: 42253.132
+DATA	80
+N	d80_ivga.spn
+Dataset dicev2_60_10000_40, 60 vars, 10000tr, 1000va, 2000te
+Loading training...
+Loading validation...
+Loading testing...
+-24.285117020630768
+-17.949860758304
+-24.071277034349272
+-38.08833491993492
+-39.096331335042414
+-20.19713427816299
+-39.88639839148368
+-22.35714625375339
+-18.89167413162974
+-39.543243676735315
+-40.275488796813256
+-23.60179695872638
+-41.10869419410465
+-23.084622227070316
+-39.91240503636588
+-22.35297542235516
+-18.648273408527057
+-44.101871795482445
+-25.832645681919935
+-39.880000855521956
+-18.458116141541435
+-41.16252008928969
+-17.327580489865884
+-22.478693263904198
+-20.45435158327477
+-19.753552191335746
+-26.326913587603062
+-43.180170818684374
+-33.29406393445009
+-20.475737940161846
+-24.414179431915464
+-20.8309687112435
+-41.47015835004949
+-40.163157778705546
+-24.46343883922062
+-19.513680387035517
+-45.10427469978939
+-26.508148046255336
+-26.883010387119477
+-18.417415925628507
+-17.2254019810256
+-37.386449768780594
+-17.026759774604106
+-20.587655984973054
+-18.04198429744283
+-18.680571593700858
+-19.942419440451598
+-40.826204865864206
+-42.975139677185695
+-27.43317711592551
+-20.037814833471938
+-38.886337591679684
+-46.63033387338379
+-19.550901333580704
+-22.493879198464885
+-19.986269236986324
+-38.32867398645022
+-21.698138336675413
+-37.33707517210016
+-17.529410859305397
+-39.95612621136283
+-21.11966069971617
+-27.936165591849193
+-21.999481040537034
+-26.55664015143965
+-27.987226211025792
+-23.284116951261304
+-41.60983965981141
+-25.338948792753122
+-18.94782394811579
+-39.745915928218515
+-39.75212353340094
+-36.28378205128338
+-38.30969252854285
+-28.973312435555435
+-17.48823962986979
+-28.103994051994114
+-19.03516579599066
+-43.965726973136604
+-41.89640929180652
+-23.55717141392216
+-25.913085146150248
+-22.882785452899657
+-22.124100949273352
+-19.20626118789278
+-20.083882432855553
+-16.190828650983576
+-22.112223103482496
+-22.00528791172595
+-38.22464619163454
+-17.9470780693446
+-22.671322803209343
+-39.5569832149614
+-42.75490931105505
+-19.010505830843613
+-37.2851467670785
+-17.022390613847666
+-18.23566625841929
+-20.38389250187674
+-43.09465200399653
+-20.821310199988442
+-39.36915722497739
+-38.18367477168968
+-19.929382129074234
+-18.56762767266398
+-19.955918864442882
+-36.42679423434952
+-41.16341465176456
+-23.301604026238525
+-18.875101082941804
+-43.49289213835814
+-38.07976209900206
+-20.04375952161258
+-19.48119458569231
+-35.50333822182112
+-39.4963353785395
+-21.56626035429222
+-21.199624537568425
+-34.75620031108142
+-39.57703949707446
+-21.124507537417976
+-37.27383513067928
+-21.388605861768177
+-22.669630036801884
+-22.135008667975068
+-45.2878369920622
+-19.703102809454005
+-33.207810533561506
+-40.86944654446553
+-35.01485845164766
+-42.17402398237531
+-37.678815758647424
+-24.602996099948996
+-21.32005357833145
+-19.628960607129525
+-41.9816362095962
+-19.18102806842095
+-17.721149134481234
+-21.407436161174658
+-20.660427419230764
+-18.55593858146534
+-21.710568214753195
+-19.35490898571138
+-39.79111538984042
+-21.28925883839543
+-18.35890834858004
+-45.425761452365265
+-27.94801673193291
+-37.115254063342405
+-23.151050027966793
+-21.436884609944816
+-42.9406796987377
+-40.117875459629325
+-21.751958232409482
+-41.85089531898545
+-19.912727375615404
+-19.343905890136075
+-38.11859545435166
+-22.76965341081177
+-18.734312326767803
+-20.298267169720507
+-43.52234207562452
+-20.46512177946298
+-20.834323580542883
+-31.648206820766564
+-21.091840454802583
+-27.8282762548054
+-26.51437117413606
+-26.3055270107996
+-41.441154920384655
+-20.46238481732791
+-23.825374448392484
+-24.03040843160452
+-26.744968517267353
+-24.6275119690278
+-39.685682345391655
+-44.41628791640782
+-17.353672284988527
+-35.328137094272435
+-42.29052752811676
+-25.07853864572702
+-25.85082319827293
+-38.89585296746918
+-20.367541806223567
+-39.557522769433234
+-19.732224888629958
+-38.23821929125889
+-36.35500271012277
+-25.145860358890378
+-21.387414111463414
+-18.811193274534165
+-23.329861759979888
+-40.6505547032309
+-39.32511883410168
+-19.637719654682762
+-41.62381035663281
+-35.674001790198275
+-18.67350624479455
+-41.862696504168355
+-21.749550992865107
+-38.35174813029925
+-43.799178824876606
+-39.12045620420843
+-37.39684598009268
+-38.95323585780981
+-20.553532770530733
+-46.832170416818805
+-19.74201641097346
+-40.09373913243968
+-44.10904316050149
+-37.231501592865285
+-31.81469324632346
+-18.57648975448123
+-43.130015420697966
+-22.924610911302757
+-24.033232025065267
+-40.96020644159233
+-18.926879592683235
+-19.293424765429684
+-17.868490831381575
+-42.24124926264755
+-25.01776983280176
+-41.16177993940899
+-20.722873082110198
+-21.56826319473286
+-40.319132627265965
+-17.4560536058626
+-42.25989265767143
+-39.61291667987135
+-37.16802935314091
+-16.777291519377176
+-22.500176835651075
+-18.302131081354254
+-21.636546861386204
+-28.378043909573286
+-19.012275701940766
+-39.86027474183836
+-20.198651555190143
+-20.612028582712707
+-18.41860164331809
+-20.756029693597785
+-20.730344173984175
+-24.174035090464326
+-38.69051961874609
+-40.93086997384009
+-35.4811596549916
+-39.97661901405187
+-40.89295092570968
+-21.988926609694346
+-17.34809404183683
+-41.39050570621709
+-42.15463975529123
+-18.315368582000737
+-40.943550286908255
+-23.991859943603064
+-21.461011212207488
+-20.8434471096575
+-28.813298040679033
+-21.23103457750373
+-24.647305788678143
+-18.42226182812679
+-43.6642879386121
+-39.26278512599555
+-43.2164229361635
+-16.190865821040788
+-20.16030882737609
+-26.187956208043204
+-18.17082210794464
+-33.253533806113694
+-36.412871654785235
+-27.692631691445303
+-21.054324415783515
+-21.5862155036834
+-25.014110051180374
+-18.379131420891817
+-18.690100628931564
+-22.083962384053844
+-15.586194040047102
+-20.663551900887942
+-19.254219157671123
+-42.02307165343639
+-24.021976647849336
+-17.610455077295924
+-21.774218451436177
+-19.096404505810035
+-44.71042409285518
+-20.057451974364476
+-21.82040953456751
+-42.27209877892112
+-19.652718270639
+-19.335858213415577
+-39.80438558487064
+-36.8366053462255
+-36.850684519412475
+-48.537761181722395
+-20.65431443456302
+-42.09199184540417
+-40.500383300341674
+-18.5673778001502
+-23.706232322090006
+-27.3435626643683
+-41.63034197031292
+-27.956340947752825
+-18.366828028546596
+-36.02582474522573
+-33.05253145959687
+-38.89458636615949
+-19.306921753700628
+-38.87893742974841
+-39.60010271897551
+-19.235699254523524
+-21.049307951963993
+-19.064150575573915
+-44.198653018614756
+-39.92196158431801
+-24.066695337032655
+-23.892497558724802
+-17.350362193768508
+-21.174675123978275
+-19.00916892041828
+-20.2368628839353
+-21.299276097695543
+-40.44654147279442
+-43.34179795089787
+-26.31899099669956
+-19.25820386386111
+-32.861152826518634
+-19.171140968024922
+-16.11204993577143
+-38.09132009501028
+-42.2513916284872
+-23.14693814176974
+-23.11790107797831
+-26.334921354860278
+-44.57283783499225
+-21.600814251915054
+-24.92346513496682
+-39.70856297600516
+-40.52533639897691
+-38.286598321401094
+-38.7403012544363
+-18.091086848017586
+-20.17717818458842
+-27.673598932237432
+-22.04177415549302
+-22.2445585529864
+-35.313323660594115
+-22.450915881147615
+-38.52156726685588
+-39.628333387215825
+-20.760854710819114
+-40.66848537981
+-20.05310148277857
+-40.29811748329124
+-17.885239678887725
+-21.56963061140225
+-24.779920124863818
+-19.066344244546965
+-46.38079394404236
+-42.16838544239113
+-18.344256133922276
+-20.320778278134263
+-36.61142519299168
+-22.4086076294716
+-19.953783134023578
+-18.857728667375582
+-17.448751268089108
+-19.335715132990654
+-19.081144929726754
+-38.9201527513629
+-21.072382300706764
+-20.727566257040994
+-45.25639533081076
+-19.600865786678234
+-22.137548386396833
+-24.228716210101492
+-21.81215237579823
+-23.463966439411386
+-39.50791994581063
+-19.954065318864803
+-19.140375021894236
+-40.2392814010606
+-20.481238446327797
+-18.01636999913747
+-17.516358858424905
+-43.62770739083519
+-39.56235654120829
+-24.732942191808363
+-39.870758737376704
+-18.18323829781675
+-24.0158161822461
+-34.99937050662315
+-38.357691418541556
+-21.37007948425602
+-46.25031113744967
+-19.219244171280828
+-38.36047835988872
+-17.673507662320183
+-37.95070904002846
+-26.12034270088265
+-18.958317016322233
+-39.59637754712295
+-45.34638861021186
+-22.416593386476055
+-21.698661310683836
+-39.79350334583218
+-20.854109526321675
+-24.738637272202737
+-37.867135641008204
+-25.87782169807934
+-38.464798336825545
+-22.78358248642632
+-34.40719572147679
+-21.116075362709136
+-37.35369166179688
+-33.05655226596745
+-17.690758588885277
+-43.57549236117507
+-36.46222013095923
+-37.20162534225441
+-21.392788738903935
+-19.712190585222537
+-18.41881917901902
+-23.974198240571287
+-21.507569614882193
+-19.66604495281401
+-24.23423548521453
+-24.303681881966103
+-22.931414646810765
+-28.709752019411766
+-18.402675684848088
+-43.982148067068756
+-19.053471064377536
+-20.195045038892026
+-20.959725047352425
+-16.965550046703097
+-38.911841566391914
+-47.71765443061536
+-21.291016962056712
+-21.270172328565057
+-38.02068222996137
+-39.09096297897924
+-17.38940586445576
+-20.262405169379196
+-16.53737145812143
+-21.69968192891889
+-38.938790569023396
+-38.29179088011882
+-21.781305004896975
+-18.822718328813615
+-40.79976454068686
+-39.01396084142273
+-18.445646462112112
+-16.669047890109667
+-23.44749796581017
+-19.458002748161093
+-46.189366936071444
+-26.342072352940352
+-38.22726664033756
+-38.988509575444105
+-44.64924523352116
+-21.82482929594687
+-23.261190313057885
+-27.01120350580331
+-38.994842600164105
+-39.01652231254557
+-41.53524414007292
+-42.65443043974714
+-18.772977651026988
+-22.27267004549697
+-40.64669552914698
+-42.17146611894722
+-19.553452925594453
+-19.283018197676355
+-41.67768453909117
+-35.74331769087278
+-18.534353231238395
+-21.83411372048544
+-20.28699329758371
+-22.37308219968896
+-34.62609245022295
+-23.711553259249303
+-42.292940856127494
+-22.886523272023627
+-17.873784049292414
+-16.8259935445123
+-19.121746604404187
+-38.746891472998264
+-38.97649867988129
+-40.77866117691091
+-24.163928331803618
+-20.052987048508427
+-22.238808734171403
+-19.56144063308776
+-39.6695656665355
+-20.9201149104958
+-17.71993069938654
+-21.51660898545776
+-45.841216272632934
+-37.78985091978177
+-20.29347953701365
+-23.24633402792968
+-22.638879105361752
+-18.027712356729847
+-42.63130079613896
+-38.537985611883016
+-38.85970830499014
+-18.78065736874729
+-41.860750119861585
+-19.80940784168796
+-42.64800969461954
+-19.07841860288592
+-41.72965169637437
+-24.163575072843596
+-19.569638726134755
+-17.67889659265564
+-43.50653071625092
+-20.840039304265954
+-18.569919462586626
+-22.996223238914187
+-37.97345459197198
+-20.149336502094314
+-21.658801971333254
+-19.093007705189432
+-35.61388939456425
+-39.01301962800797
+-17.39612594585434
+-23.195767737687586
+-19.66813734846383
+-18.965929957058844
+-26.962620958597746
+-20.192531190651962
+-38.94045782442294
+-20.64398099424963
+-21.94248799552178
+-41.18316161245846
+-41.2254861447063
+-22.647889648213994
+-19.21871208194388
+-20.864288156769447
+-19.06664032614299
+-45.27867182642227
+-19.82971878682703
+-28.421766366786574
+-37.93038387789136
+-37.99953889582938
+-19.43462352146699
+-19.690568705285962
+-24.08183632495866
+-37.45376196073448
+-39.11506472728648
+-38.575060022573695
+-41.702743935759244
+-21.225071818130072
+-21.274228424866514
+-20.038096649802167
+-26.958446201978322
+-27.393021598015615
+-39.74731687666533
+-18.353867307776966
+-41.839538590734946
+-21.103901265892667
+-20.033616653828496
+-18.269224471404623
+-39.371648113779315
+-20.483108691278986
+-39.90158233441588
+-21.540802876073418
+-22.470021595912275
+-36.467259550394395
+-36.301671316305345
+-23.892301196024228
+-23.620121262262806
+-17.58634798470325
+-42.26485841335412
+-18.210878474683646
+-39.80360128335865
+-19.377424646876356
+-39.336155161486865
+-21.91107359361718
+-23.97201837953469
+-25.2137280424313
+-21.117248881485338
+-26.555948410880546
+-38.36014855577454
+-16.674670584470416
+-44.13604915573617
+-19.304857264344474
+-21.712615064004897
+-42.87646557279974
+-21.131694817552447
+-21.130844026686326
+-23.631486396408153
+-18.20588360446013
+-24.955171489178777
+-38.770253410511856
+-44.86758655316268
+-19.031135288192257
+-18.266076875465483
+-18.825231151832206
+-19.551282744732646
+-18.41200883565098
+-20.650859082989115
+-25.509776522872485
+-19.934637938750196
+-17.345742957173158
+-43.47315646545736
+-16.281029281722372
+-36.28496997165936
+-22.125343727945225
+-17.52272033757641
+-18.35457496274212
+-22.969562746038655
+-42.478369202729354
+-17.337450129795094
+-34.49330760995118
+-25.360246438207888
+-23.7895194193388
+-18.640316703722206
+-36.28561610905069
+-21.609125919979462
+-25.433000963458667
+-42.52712025379334
+-37.7788850242937
+-20.178400066128884
+-19.003632343595072
+-20.68947459291009
+-43.64025095198924
+-20.380487318571955
+-20.795220296756003
+-25.424584020743506
+-22.599981501589106
+-23.87376667498572
+-40.64820298371626
+-39.5726301079348
+-25.935655997373406
+-38.59518183597781
+-18.10302351658143
+-20.077425098975496
+-35.48712576692922
+-40.36594233163294
+-38.92225102702393
+-20.892062163974877
+-20.608961396395927
+-21.36233708181283
+-37.47120092428556
+-40.25643122576826
+-29.527391948271113
+-37.408520235286645
+-36.80481668238509
+-34.59855492728524
+-19.519073621264
+-37.62782693355045
+-42.51402744327969
+-41.31768769013988
+-20.770721263142388
+-19.94031348297432
+-27.537732755909285
+-42.60667342731697
+-17.467779082690242
+-23.311700904267077
+-17.984984373268333
+-23.07693169029833
+-18.82645023846368
+-20.637227844407203
+-28.947470636460253
+-21.636733706250194
+-19.217560890003227
+-19.671311527615885
+-19.210351836680683
+-19.830641010351766
+-37.75069610296737
+-16.96431387532531
+-41.78667205867631
+-26.27775011138298
+-23.167485618952405
+-20.674543159794684
+-21.001913466925462
+-41.98874172524392
+-44.21891544890188
+-17.73541374848051
+-18.94506665348964
+-39.58642589442283
+-35.08110439530168
+-39.998193102603736
+-44.059705984934375
+-38.30690938962446
+-44.62778439692911
+-18.39950401862036
+-41.95983560598215
+-22.97352786672251
+-46.44566235774008
+-18.218463506746343
+-19.217068925513495
+-25.884985659362115
+-36.59076996846037
+-19.744549939110694
+-37.6843802227485
+-21.91568145964366
+-19.03683802399117
+-22.112570780672296
+-42.587540025020544
+-20.59060016796923
+-19.17575579419908
+-37.16556494976777
+-38.520968615943254
+-37.39268984125744
+-27.015837855783644
+-28.054960642314892
+-20.56678100467067
+-20.789197945344995
+-16.424457239381713
+-20.598552381872246
+-43.153465603744095
+-20.210364723829816
+-34.02028743054069
+-40.94030299856968
+-18.483806005580448
+-19.660452421841455
+-23.205025340732334
+-20.781338177885917
+-22.629042882168964
+-21.94867360189478
+-41.183612504346144
+-28.30950705021493
+-23.006229846472294
+-18.554051957803228
+-36.0638807287323
+-22.609803499622068
+-37.55534294995506
+-41.65303226755944
+-32.97714938162848
+-19.47404392879496
+-19.343372236368378
+-47.942357940393904
+-42.01819536747848
+-18.51956998276167
+-37.292834109028426
+-24.600981923357484
+-36.217532637032434
+-25.86242598980407
+-37.68493788574391
+-20.139936854182622
+-24.16917121261239
+-20.905407032206487
+-43.77192289930192
+-22.67396128958103
+-29.108695201523496
+-19.775958369785805
+-40.351810845610856
+-36.26924424624457
+-19.743219616989155
+-22.2091091781042
+-33.5753986077085
+-19.779702253683894
+-19.556273049754413
+-17.271045968669142
+-42.82199098088257
+-17.112739191985572
+-18.520462789253507
+-38.75085658095717
+-43.00984885615811
+-41.09958383692204
+-22.44843044870534
+-38.59593999221854
+-18.93468077007204
+-24.60726622758065
+-43.225256946348715
+-36.77871461831323
+-16.407262094315517
+-25.63580211992077
+-19.479210472895183
+-23.695404247780164
+-39.13580414452966
+-35.67473115650261
+-18.381328546914755
+-27.403878791505388
+-35.44593340570924
+-38.29403843607011
+-39.960049629774645
+-28.25180521245839
+-28.131284197534608
+-27.839625514160268
+-39.668133508265214
+-22.05368730331823
+-22.714739280164057
+-16.943680114303586
+-36.85958632846728
+-27.988173279289395
+-20.782773202801888
+-44.69297649674598
+-18.74097918051156
+-36.491213485046586
+-27.236332861824266
+-42.71420240089311
+-21.631201691003508
+-43.15084877181694
+-19.159707616349962
+-22.826688767815103
+-20.09689632671926
+-20.69553889137481
+-20.370725358820387
+-38.01773120417987
+-20.222284243310703
+-19.643056543513996
+-38.03022830689396
+-19.658322253729587
+-17.97257646514603
+-34.991509509018584
+-18.577082211377274
+-23.55054150010056
+-43.97433126161673
+-42.222291568091926
+-38.71894843458765
+-36.07689151496531
+-39.26520383227748
+-22.096097852832486
+-19.139854056328925
+-41.617102158596964
+-17.798382956765252
+-38.69802661918782
+-41.00102399825159
+-20.885319667584426
+-23.97590525468948
+-38.41672845449287
+-41.5819059299659
+-39.2002814127359
+-45.98335606843734
+-38.37035710457393
+-23.187767733165767
+-35.30546728308753
+-24.43918999725392
+-36.382688515080005
+-36.41256631983211
+-20.005825175195614
+-20.534395151875646
+-19.598749242002835
+-21.50471867021576
+-17.876861163572574
+-40.30905923460753
+-43.65473046808978
+-41.671212606225595
+-23.623312019240633
+-43.51328381330622
+-46.67852409533146
+-43.64800422005681
+-45.35788117187569
+-27.946652045279993
+-37.56967814034842
+-24.67262699707516
+-34.692019214959
+-22.569900920056227
+-28.687232045421663
+-18.68871284577693
+-40.229148762629656
+-43.81718663462735
+-19.174212759643577
+-40.536555588733236
+-39.55541371320458
+-39.17576881227645
+-41.38741943941676
+-18.80848092363156
+-22.000320784718213
+-20.68503643272873
+-17.231344624291516
+-18.985943379420668
+-33.90009076085106
+-39.495499250575925
+-36.53575225664334
+-22.851088058203917
+-39.94245176181263
+-22.708075125931376
+-19.25710521816513
+-41.56431285430443
+-21.468328723141664
+-17.242090657045587
+-37.92070004869885
+-21.32345634387646
+-17.567341858070087
+-19.17096419729348
+-37.13695687637203
+-40.545225504568954
+-25.461856754917875
+-39.406682725469864
+-17.81107237902321
+-19.635893222978527
+-16.391612934517248
+-37.71280520474098
+-23.73802779495511
+-21.801010716126584
+-38.97571996273136
+-18.48305178345464
+-22.74258901300846
+-19.85694233290651
+-41.3857493143136
+-38.5635638885977
+-17.604596729299146
+-20.83193026140886
+-29.10517875148696
+-23.384732755439643
+-23.199859199105667
+-41.890699794586496
+-40.031998168194285
+-38.75439358593056
+-38.01457094622637
+-22.713933815914007
+-22.048975725468594
+-19.82081474366799
+-20.06138602012229
+-18.447652535082465
+-17.480528552976228
+-19.56425571191634
+-18.964789243831785
+-23.232588371208085
+-20.332779341547635
+-19.60710930783218
+-42.896401250481084
+-37.24984253693907
+-40.87467140516137
+-25.00750233824505
+-17.952782728341422
+-17.22625529564445
+-41.75446596578464
+-17.7218053045051
+-39.624299927526785
+-34.862988332945804
+-28.984234793288035
+-27.795739527970014
+-18.0358027618856
+-41.243602881214855
+-19.491264260485217
+-19.881755007875835
+-24.394922282406156
+-19.840010001622467
+-16.791569636047047
+-21.231018471828886
+-19.58915930654202
+-36.015443239458804
+-19.68466779659504
+-19.498157031499005
+-22.04411158340436
+-41.43815708617965
+-17.75353982854789
+-19.67764199122648
+-28.49361401590625
+-40.02313954789761
+-39.265751747433804
+-34.75936934784607
+-21.761076880919138
+-38.55659260515861
+-19.895045103634004
+-38.79167952415843
+-34.038484142046784
+-23.048924220629413
+-41.98790321716786
+-20.26923498067877
+-23.10020409860867
+-38.02892221897395
+-20.081237363695816
+-19.329625246572665
+-21.414096453741475
+-37.44595068033196
+-19.09821401054465
+-40.05429068872174
+-20.12439163059691
+-38.289265968144164
+-19.814738703249542
+-18.901337881557495
+-18.132311715520032
+-22.479526679776917
+-44.2993612946777
+-17.773920966140114
+-17.046885028252944
+-37.990966189278225
+-20.402270821023365
+-21.17390688347614
+-43.654255362312206
+-43.0523779453633
+-22.447846505018692
+-38.993104890831646
+-19.561740309307794
+-17.39070094537906
+-18.99612260024428
+-21.506052841276727
+-23.84801359314902
+-39.82962571733201
+-42.76052364522977
+-37.424013743694914
+-19.794663491988818
+-42.04834619652696
+-25.731235700499127
+-20.34193736021386
+-16.167877019582736
+-40.70459818017509
+-37.63777344729421
+-39.46128479943061
+-38.6861676701508
+-20.371196630069935
+-38.787149162929154
+-43.04844869836846
+-35.60878656804071
+-20.517006296770514
+-19.94106280243719
+-21.895878140725568
+-41.27210507998652
+-38.35854921854052
+-21.42097487144047
+-20.645214125423998
+-38.37763568142726
+-39.10706866772507
+-22.201708309852894
+-26.636240382157837
+-44.95043083024725
+-17.250314360151656
+-40.62919957028047
+-20.758679311695015
+-36.43665556827076
+-44.03778269116128
+-25.216224161413532
+-36.65496223158649
+-39.281593070422495
+-18.693570708589895
+-41.617423935225666
+-38.170583707190495
+-21.319054545044946
+-22.5934883346757
+-38.2589412108165
+-46.66407496370305
+-35.81316226106428
+-41.2475908551837
+-20.283226633952445
+-29.646900130303493
+-20.864014099894703
+-18.407664077799904
+-23.238009933217388
+-21.00138211762631
+-25.350883537929377
+-40.772944189135984
+-44.48076500201373
+-43.71675760292371
+-41.54942788954939
+-22.51225189470785
+-39.839602316474384
+-28.077780380774257
+-23.687192217534403
+-21.960190094384213
+-36.473069777216224
+-21.569321542757812
+-28.579578215250514
+-34.69618424784836
+-19.542346614687954
+-19.473332448631172
+-39.92104401949932
+-42.72510542152337
+-24.91517866202026
+-38.869282471826104
+-17.419843330283747
+-23.779708456383283
+-38.845726099440306
+-19.106604273079913
+-43.199921211276596
+-18.826440926281172
+-26.04073119659188
+-38.98456307913144
+-16.749187975291726
+-26.454460548763056
+-41.76118730314652
+-20.016378571310447
+-22.169634161209736
+-20.124681302632183
+-21.714787396038712
+-23.689285762808908
+-40.33144586172305
+-17.132343252063585
+-19.317180129792035
+-17.597968926692886
+-28.344935794729036
+-40.76067277112574
+-18.397150478652623
+-19.122757520530932
+-42.069430565410215
+-19.596245461756386
+-20.95934355787857
+-41.40723000060298
+-18.487761705655853
+-36.89027642719226
+-36.083042808871575
+-19.429309341721485
+-39.57633435393621
+-15.828186469707989
+-19.989605107833203
+-23.54659402057171
+-21.782570944894605
+-19.709672591786454
+-17.823719887176722
+-38.85057490093915
+-19.738481798959864
+-43.86043581314699
+-39.42902185677485
+-25.301418042653594
+-20.452114148251454
+-44.180964890512904
+-44.34685150025672
+-21.984437409899435
+-21.285844325443477
+-20.587162707743193
+-42.159028200748054
+-42.661146764558055
+-21.356583383715336
+-27.551906939559426
+-21.624745731837717
+-23.336216817311044
+-42.2704725325969
+-22.686500831353538
+-37.90727069690214
+-20.89753182917322
+-17.577361296815262
+-33.665754768529126
+-42.15274455120266
+-39.063023838582815
+-18.127796634713714
+-18.55333635138393
+-20.22322740494025
+-19.346032358109834
+-39.092844316782056
+-41.095855070966195
+-24.618685676144246
+-18.74896450573954
+-38.65221799116049
+-43.08490536540475
+-40.75318282445153
+-18.61528837835098
+-40.67590890439716
+-26.041134668276893
+-35.89467733746385
+-18.926500175055004
+-18.5516525332743
+-35.065726805883074
+-41.56125418631774
+-23.12358505540039
+-42.749698226670574
+-29.835907781438824
+-22.38437518027189
+-21.194447280973172
+-22.952041376322757
+-22.539468398058503
+-19.659692726631498
+-22.687914595701955
+-42.635003364037686
+-20.53655851685525
+-21.919654801181704
+-41.09062664007957
+-27.073398145073096
+-22.51369102118164
+-21.012742697548266
+-38.77760719106057
+-38.93150569942464
+-46.284798974621616
+-42.49095073758291
+-21.218145957739296
+-28.700311252366774
+-23.788228091098695
+-41.88007470147521
+-18.820174382086158
+-21.119999685957183
+-27.35506824765423
+-19.492965934019427
+-22.28557543088281
+-37.3433288066675
+-37.28510890200428
+-40.529497948453496
+-19.317056307607487
+-43.912632837465054
+-37.9878105609434
+-24.76754903934301
+-20.00102600832852
+-43.399066265557245
+-20.235032940369518
+-19.850594092327295
+-40.0874350114006
+-42.967814001692744
+-18.931078385243943
+-20.150797924448074
+-40.5786733192303
+-38.3595953126527
+-16.827718527239174
+-40.27876345478162
+-19.934287210325678
+-28.98541508507857
+-22.304655314712335
+-40.215597825001716
+-20.120164976548637
+-18.251485497562708
+-21.70080731468087
+-28.159018524642825
+-42.892786581386964
+-41.227431090172544
+-19.698838724934006
+-46.61896237931028
+-39.02321876404126
+-38.843797568477974
+-22.463701907413693
+-41.629719503404175
+-20.50889683065378
+-18.554031774742963
+-39.17334622689701
+-23.49142041597956
+-36.54530643645555
+-20.240550630968798
+-19.227188479794147
+-18.79867100063347
+-40.452342910842155
+-19.14432306686223
+-43.75367517394669
+-18.410154245139477
+-17.90571363404582
+-21.40209899469628
+-21.007644692604664
+-22.138233980133
+-45.29375388508574
+-24.6817341040995
+-18.676735948469144
+-17.23508934627835
+-19.832228070843612
+-41.643024041049884
+-27.093647640849568
+-22.35088748344316
+-41.39993606554923
+-25.941814234876393
+-18.492590322624213
+-22.619400096834244
+-19.13784154607183
+-37.390655456067925
+-19.09442929076229
+-28.437893181899472
+-35.468908326815615
+-39.96928919014603
+-40.536451108582376
+-44.5128738717141
+-38.41551509803052
+-41.84359415557403
+-43.384761111591544
+-23.11288971166415
+-18.057706883117188
+-41.952312961281535
+-23.886731840842604
+-17.962446764634816
+-37.330931847514655
+-19.858301875098626
+-31.246777991236137
+-41.782591625733176
+-18.173020472962417
+-39.21571557606386
+-41.09524580871724
+-20.153988280944603
+-37.56388779263712
+-17.423687825337993
+-36.98975097109376
+-19.53804398018275
+-36.70902088352616
+-40.96078647779682
+-22.144179856948103
+-19.125038840664505
+-33.07249610431248
+-36.02511229070639
+-19.948359153779453
+-19.401549860502293
+-35.47712783791508
+-36.597635285389664
+-41.172304243447485
+-43.765120786172865
+-38.53277238381352
+-23.11990449739301
+-28.588468846925945
+-38.79335278132563
+-20.35680206832271
+-26.020590571671327
+-34.136973678926
+-40.678623909923516
+-39.83752568639793
+-38.26923978063826
+-23.741878487856777
+-22.27703591652112
+-38.1992173359084
+-39.417845871984944
+-38.37443532825804
+-40.80403499550292
+-18.640557247480743
+-37.182132003814296
+-17.23776420360476
+-38.38941545829382
+-18.715155547355803
+-22.314443777755034
+-29.38460659484628
+-26.60689011843382
+-41.36965330211985
+-39.87442966230528
+-43.612521831166674
+-18.424477804727108
+-20.84924344887482
+-38.74855902632241
+-19.872705140536983
+-36.49416809605597
+-35.07418774517685
+-20.659750434461266
+-21.28003177522236
+-40.014732025902504
+-19.46338884322268
+-45.624976409610916
+-23.53545320039392
+-38.143934018421206
+-38.54764686802923
+-18.518856115082695
+-21.347816123255768
+-37.129882732699954
+-40.06391503628054
+-39.374629759471084
+-41.70040240076749
+-18.854055668240086
+-16.494467783175782
+-22.049733570402456
+-44.547633439344644
+-40.78893389524912
+-25.387126068341857
+-37.83615721050799
+-39.84480589938526
+-38.973877834379486
+-21.580789130543522
+-23.246546113407135
+-36.63153606067467
+-38.947111430058776
+-19.166588086961426
+-19.550176170292563
+-24.109787910352455
+-21.756249177234324
+-20.041000696452908
+-41.3789190642928
+-19.62429201895553
+-35.24097872082016
+-22.9004404534208
+-35.458768758256625
+-40.374748360179304
+-40.21368188003621
+-20.666110438453106
+-42.16655393909133
+-28.93615166007821
+-42.484268193821656
+-28.725963702996527
+-42.624679028503124
+-20.993770096439736
+-37.0224642848705
+-20.89026573156082
+-20.146398621983984
+-41.28564330235508
+-39.2955054059968
+-36.340917426498805
+-40.36799693273894
+-21.511946884459416
+-19.15160003278714
+-39.79262929550219
+-19.164783788889956
+-38.55192201087589
+-24.112598459468636
+-43.3125186263856
+-26.924393560655517
+-39.3635300348053
+-19.889632286289874
+-18.39632764929618
+-17.67897740867917
+-39.37847899329479
+-38.053229593325725
+-25.702518157056144
+-17.27046670584683
+-40.328249241475895
+-22.4135206464169
+-22.23446124337385
+-22.231290950354627
+-37.58545997136183
+-19.652183852966118
+-43.3308212253479
+-45.84237638630696
+-25.755486692358943
+-19.895631359838212
+-20.308692124646814
+-21.584358007435693
+-20.271597473107217
+-24.73533654318264
+-22.72610806046996
+-37.76781259576095
+-24.96127481121381
+-24.618980958326407
+-37.47671075492362
+-38.180883706986144
+-39.32500257942365
+-23.347349818332763
+-40.24108354433628
+-17.395083577632352
+-19.731970331888565
+-40.79903906889204
+-21.620353535113203
+-23.373850421315133
+-38.85062223293326
+-18.482302114007936
+-23.537331026621874
+-36.16607584615415
+-39.71513344594966
+-31.02366160016786
+-25.078392572451897
+-21.172341842193564
+-38.6152202527105
+-35.271213130464936
+-27.51801664851261
+-28.640895716692086
+-19.902255309528396
+-40.839112194411406
+-21.920677171765856
+-22.446910277386177
+-18.079453311022082
+-19.331696142156908
+-22.396436616003573
+-27.53870458241602
+-19.032663788196476
+-24.283042404496534
+-20.17949376792136
+-20.98126945455398
+-21.645734969766103
+-23.698322596352682
+-21.984745612062497
+-39.11252327889303
+-27.608889058493638
+-22.142747671155984
+-24.493281546671625
+-20.07343433493653
+-46.05653680643549
+-19.178684493576874
+-27.443562944970182
+-20.071103786549035
+-24.96379115749384
+-19.146330243598122
+-16.4017532694942
+-25.938337472729337
+-39.579891962660874
+-19.15723991944733
+-22.670988234077708
+-39.012915201146015
+-18.57576556315293
+-41.753504278263165
+-39.67950994728059
+-18.649990607496317
+-21.983188862718087
+-41.70636043515941
+-40.34021325639351
+-21.149304321023525
+-46.06281679050136
+-40.23658106947697
+-37.702268891388535
+-38.43906371233421
+-16.943939066623038
+-18.933589094847722
+-37.44798366970071
+-19.340458222283253
+-37.69638915290309
+-18.849210358351222
+-19.112973045502777
+-24.53050638150492
+-23.870237050939355
+-28.913262437295664
+-46.982020340473454
+-24.8913252797028
+-20.038131522473485
+-18.517224300731126
+-43.1881548156531
+-18.052386099868766
+-28.43366645623625
+-19.71916460586531
+-21.354604844589613
+-26.270099149745587
+-21.096588127018872
+-40.42112543314016
+-19.753113638915476
+-18.874304582802004
+-24.34703375511495
+-17.081468676006327
+-41.03869337594816
+-43.70169568028562
+-40.81944462714164
+-44.0673241317463
+-26.79723646645182
+-39.53051552178497
+-26.107666011092185
+-37.64899522951961
+-19.435057536712907
+-18.047011017431213
+-23.062864052981514
+-19.081206191677868
+-20.183319912733005
+-20.54401316892478
+-21.4036274054613
+-30.671158667922022
+-21.664571644506445
+-21.718783891760108
+-20.380185674776946
+-17.52079375939654
+-19.470399604161457
+-38.774291861790196
+-31.61410226344188
+-22.673855246953494
+-24.181120688635932
+-44.55288372858429
+-24.927546269744074
+-17.69191626929382
+-22.18179259082733
+-18.73197519442366
+-42.15250262465275
+-19.814366799635057
+-18.918310533448242
+-38.130255758569355
+-42.15071478135125
+-41.3481675064325
+-39.85162688473924
+-22.8624465143673
+-26.47741378761126
+-41.45957434316914
+-19.55876801173983
+-19.079508157445257
+-34.17824071326382
+-34.55357152342502
+-47.969384009037555
+-36.96195193818601
+-21.910457914625415
+-38.72886154892961
+-19.1089054250838
+-42.81008261874719
+-34.06792855760135
+-19.798857409010058
+-36.41194922203569
+-39.86575047964904
+-20.672273963105347
+-19.077820155173868
+-29.625045162683346
+-35.20628016525428
+-37.07646262585326
+-35.33832015403244
+-19.774801210605144
+-21.21147379389139
+-35.9400559804688
+-20.78803341755185
+-19.472510577472853
+-20.790614418064813
+-19.1900989221453
+-44.289224699065734
+-17.141384745826688
+-18.65872175980973
+-22.707430220636695
+-21.55339556056893
+-36.910127537038626
+-38.6806107982552
+-21.852800865800507
+-17.664461028282624
+-42.96546066243141
+-19.377161880004117
+-24.382583415181085
+-37.563043559478366
+-38.998232527444934
+-42.543801804390114
+-28.607146789503492
+-46.743122896821994
+-35.6229596506328
+-36.95888256352481
+-30.335148897759847
+-40.0958231499707
+-19.641216425243464
+-20.52415584566268
+-19.84170759853711
+-27.565659159862022
+-41.96231679066829
+-18.03786899833317
+-19.405944885455614
+-20.74313103288902
+-18.324461955910994
+-37.532852264401185
+-22.17022604231922
+-27.37432744395307
+-40.83915344236449
+-24.28282410484444
+-44.532454316016285
+-23.28117805115807
+-19.96032196785262
+-22.048308957788866
+-43.32190244531155
+-42.88624309951772
+-22.64014605150422
+-20.39038042190077
+-30.436167354814476
+-44.01877647196093
+-33.682173534347285
+-43.10319557180176
+-22.998191214313128
+-42.29366439439552
+-37.01454683181526
+-19.95008360215877
+-32.98305908523573
+-44.31438287129218
+-25.451781073045524
+-18.15147209892521
+-40.583047796871384
+-18.911029617800253
+-21.348150256878867
+-40.381215963098306
+-36.49798120643349
+-38.88103342837769
+-18.890173891570182
+-45.88165791376692
+-38.11424514285813
+-38.481027646467346
+-23.808160993123554
+-35.64347173148064
+-19.443770213557823
+-18.134149585886863
+-40.83286023636737
+-35.084146359480535
+-37.8606593151804
+-27.333094593997217
+-40.864867314502554
+-38.82145958862898
+-40.80308543932531
+-19.670279563397028
+-36.25482434430143
+-41.96228162797014
+-42.893048309654944
+-18.867444463328894
+-40.24651917669473
+-18.842544024610106
+-20.187176746210216
+-39.55588013631605
+-19.98085756215278
+-19.59711225045562
+-41.472936630125574
+-19.628132377905036
+-43.51515960028662
+-33.758639112906835
+-38.37739833027625
+-39.602718875155574
+-19.78651451825019
+-22.08486026599216
+-19.679653122614884
+-41.58138770857312
+-44.77414063672812
+-19.37330328624281
+-18.305085034403433
+-43.120269945849465
+-26.324175043676068
+-18.756722230103694
+-36.825649594343126
+-20.19223710386215
+-24.59818082599518
+-19.1276056409214
+-34.180020367214794
+-18.00551218185411
+-18.62653564900234
+-20.541447558522236
+-19.780954847182894
+-22.11700646630406
+-18.990712686266534
+-40.64847700086195
+-40.038552474414516
+-19.612078094608822
+-18.79517829115356
+-17.264532126068765
+-19.98464970139172
+-18.606646255164776
+-41.221246570834914
+-34.07291758416688
+-17.093365773228967
+-19.44575005721143
+-18.474298540133624
+-21.698184062840337
+-37.510643243780585
+-35.07534049200008
+-38.220013341570194
+-28.090070937047663
+-38.34808642550132
+-17.313393280036838
+-20.631137429398972
+-19.008763598548573
+-38.596594700223456
+-17.24842741614464
+-17.340483504314545
+-21.152427191580355
+-38.57651992795672
+-27.245438104399494
+-20.086555575618185
+-28.602772662514223
+-21.10128723175602
+-19.345339799809814
+-18.49623098172606
+-38.507762398745506
+-40.843007019862526
+-39.04359054567093
+-41.090321334433355
+-19.19248334656093
+-18.930149258881592
+-39.27219654863514
+-38.42017965638633
+-25.44615293909658
+-36.544968724574474
+-23.639639266140215
+-18.34439953139673
+-27.196328014255858
+-20.886583109734847
+-19.358466859234277
+-38.32782746358566
+-40.822174303829264
+-39.639902871102656
+-38.189205570933126
+-47.24139647137927
+-20.206407392560987
+-21.820436398960346
+-18.866872383216073
+-19.02858088497424
+-25.170762631134654
+-19.695103931499197
+-22.32364121156263
+-22.121545300046396
+-22.58122115045742
+-21.83447702732373
+-22.581353982060342
+-41.561124550171556
+-18.476103532927265
+-41.91367614615376
+-19.49832347906741
+-41.55184725276695
+-17.17460965745517
+-19.145046882371382
+-21.859941099200206
+-23.53445180089202
+-24.091097909582345
+-19.19292281496343
+-26.897687576104257
+-21.68890793941054
+-42.349770221994554
+-20.092165509715233
+-38.46061632332145
+-18.679220543980755
+-36.26720741542253
+-18.157727543420165
+-38.59249747111005
+-18.45193343829119
+-24.214183502184127
+-41.60632493369709
+-20.419420740207855
+-26.55600653981442
+-19.20861751036564
+-19.391945821300766
+-24.635626532890967
+-16.947058828571155
+-22.769249219651474
+-17.457825857587945
+-19.865235462480566
+-41.70064479452398
+-36.87339243328608
+-38.71731494346892
+-20.454035756401506
+-42.66513518605
+-21.62692061886363
+-22.046916515895447
+-20.208748770540026
+-22.08729223159277
+-23.400378127262357
+-38.82541268702182
+-20.59614976284243
+-20.798965864774647
+-41.482395567097704
+-40.89951929264174
+-39.61150397464564
+-39.410207614305776
+-39.46462270248369
+-37.99462992122139
+-39.80325366987548
+-18.316154319691226
+-46.81470549404443
+-39.25094131602375
+-19.19523520732473
+-22.75193429586298
+-24.395500455736673
+-17.553563492883576
+-41.94982507189004
+-40.41425889139355
+-37.11107056830193
+-23.424922048866627
+-18.963224477625303
+-22.050425276800585
+-19.14339215978864
+-40.17809338039189
+-41.089905603183865
+-20.951855490858488
+-35.89359030171064
+-26.2537579464269
+-45.78696309706987
+-17.477701597136427
+-20.359126733705175
+-40.41256919542175
+-21.99464698150183
+-26.191439942475636
+-44.25121416023278
+-37.18271059448941
+-19.952971826070097
+-20.957497883920844
+-38.469413529966666
+-20.47552134778937
+-37.44527541662039
+-38.79575885989773
+-38.45666121901476
+-39.643114716735155
+-18.33567496682447
+-18.523274748538256
+-17.777788798532193
+-41.445142426998515
+-38.22830445409415
+-19.208478859112272
+-40.137636876325885
+-35.98563652199848
+-44.54044102964291
+-26.030840965170295
+-18.092290440481463
+-36.59098804592734
+-18.19546525628763
+-23.368648058535126
+-27.740916514362564
+-33.45681320588978
+-16.482269740031864
+-20.665766848174965
+-20.70141628522424
+-41.28665111680225
+-22.246482243922294
+-19.09905235475348
+-40.6866327691462
+-39.838161726399264
+-21.354999850781624
+-38.23944584738437
+-19.014527734677994
+-40.13959216733621
+-23.09340302474955
+-17.298451010643983
+-22.426280869774626
+-40.27211157839233
+-41.66655606217966
+-37.94635617396714
+-41.14591876186773
+-46.03054502828482
+-29.554171384539316
+-36.879173642093335
+-38.336303994719515
+-17.41445458331151
+-23.816910274621556
+-40.189065328197884
+-19.142619270687625
+-36.10018482585701
+-18.578540322609783
+-21.79037900937816
+-39.156929799060336
+-39.128868242376086
+-38.617106163608305
+-23.27977422069187
+-41.06793269365087
+-28.165868003443574
+-39.23157128298467
+-22.61948249433524
+-23.23360071522408
+-37.74913209479022
+-20.538067615374946
+-25.453897281352553
+-37.60194029121244
+-39.78957089480263
+-22.10550501206714
+-22.416109385327964
+-34.57677285378316
+-19.09394409795428
+-42.076621227993655
+-20.060910333227564
+-28.21994961053235
+-19.95122022999063
+-20.06645116483497
+-20.679238912821585
+-38.08947989810157
+-22.43065944201284
+-41.86929732402438
+-18.700118396063193
+-43.14660417145111
+-43.24446232549068
+-36.39319923727766
+-44.18979965157516
+-43.167822029232184
+-20.57056917418903
+-36.832679834710326
+-21.0156150845691
+-18.490888655523754
+-21.255456511037565
+-25.86627048197224
+-23.098291665148352
+-39.865512262669725
+-42.255501569396245
+-28.41835572864969
+-39.13518152823658
+-18.993168613651992
+-25.153242360962274
+-17.578802659311794
+-31.44189013750941
+-39.41471556739884
+-40.5171995201644
+-42.878324263451674
+-26.984872960813874
+-39.13152333071008
+-19.280940812812368
+-23.313678228833446
+-41.30019145553121
+-23.7684131545967
+-34.49683952622016
+-20.01303209107956
+-26.06575078369597
+-28.751559560382304
+-18.09212232792308
+-19.34089316350042
+-20.40031313776099
+-43.309013350709535
+-18.835977199763605
+-21.666264674931625
+-31.26967835744069
+-20.70408412930665
+-39.936779008308974
+-40.51885580179981
+-34.21088272656986
+-39.177606877705294
+-20.901875260843884
+-22.89174290564935
+-43.550613504084254
+-35.57139098895908
+-39.516235680364524
+-20.12072156950148
+-22.502046766311977
+-27.602187845214022
+-18.987262816837177
+-46.068421026025334
+-20.176018466590946
+-18.567737591142176
+-27.757163321982823
+-22.766373299178305
+-43.7498002697134
+-36.60425642084073
+-19.246819098630105
+-38.67728516532065
+-20.06535635500111
+-21.975550801528986
+-21.84852343227884
+-21.825725776073398
+-26.208317182078495
+-42.45252585624712
+-38.8820524337743
+-38.80111924774762
+-39.88509060512985
+-29.457282160492927
+-41.440434420872634
+-20.007240362247995
+-20.599900182671092
+-17.514318849797853
+-18.02869767994071
+-24.28941582941634
+-17.374789738985474
+-25.426077826775618
+-40.24757990153305
+-20.93562604664016
+-22.374753797762278
+-26.15217711935395
+-40.22028245989823
+-20.98086316475154
+-40.42423938560188
+-21.77194234135331
+-37.08935435633395
+-25.470977336837265
+-19.16037794570709
+-40.51221451296282
+-37.46769079719821
+-16.640207152192936
+-43.00591722095294
+-42.73873780470066
+-37.204089346191886
+-38.28663008604983
+-43.55803918646088
+-23.955180333684538
+-39.61386048841936
+-21.217424696733328
+-37.67991920108384
+-37.53379293137332
+-40.09142027537691
+-19.123187445822825
+-38.667497926336154
+-46.7617671908029
+-20.22841235672007
+-39.184969341638926
+-25.264941876667677
+avg = -28.879271084232794 +/- 9.572975522693419
+Total time: 28.804s
